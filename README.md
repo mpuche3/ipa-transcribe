@@ -13,6 +13,7 @@ A complete, self-contained system for transcribing English text into learner-fri
 | `transcription_guide.md` | The full spec — symbol charts, stress rules, weak forms, heteronyms, worked examples, machine-checkable constraints |
 | `SKILL.md` | Claude Code skill entry point (workflow and invariants) |
 | `validate_transcriptions.py` | Zero-dependency Python checker for transcriptions |
+| `design_choices.md` | Why the notation looks the way it does — each decision and its valid alternatives |
 
 ## Install as a Claude Code skill
 
