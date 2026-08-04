@@ -8,7 +8,7 @@ The system is an **IPA-based respelling of rhotic (American-style) English** usi
 
 The text layout mirrors the source exactly: same words in the same order, same punctuation, all lowercase.
 
-**Reference accent: General American.** Wherever varieties of English disagree — stress placement, vowel choice, yod, silent letters — follow the General American pronunciation (Merriam-Webster's first listing) and map it into this notation. One carve-out: in the weak `ɪ` ~ `ə` zone, where dictionaries contradict one another, the spelling tie-breaker of §4.4 decides — not the dictionary. Common traps:
+**Reference accent: General American.** Wherever varieties of English disagree — stress placement, vowel choice, yod, silent letters — follow the General American pronunciation (Merriam-Webster's first listing) and map it into this notation. One carve-out: in the weak `ɪ` ~ `ə` zone, where dictionaries contradict one another, the tie-breaker of §4.4 (fixed morphemes, then spelling) decides — not the dictionary. Common traps:
 
 | Word | Write (GA) | Avoid (British) |
 |---|---|---|
@@ -82,7 +82,7 @@ Notes:
 
 Splitting `ɒ` vs `ɑ` vs `ɔ` — **the length principle**: in this vowel area, write `ɑ` wherever the vowel tends to be **long**, and `ɒ` where it is short:
 
-- `ɒ` = LOT words (short vowel): *hot, stop, top, body, object, problem, model, wash, watch, what, because* (`bəkɒ́z`).
+- `ɒ` = LOT words (short vowel): *hot, stop, top, body, object, problem, model, wash, watch, what, because* (`bɪkɒ́z`).
 - `ɑ` = PALM words (long vowel): *father* `fɑ́ðər`, *calm* `kɑ́m`, *palm* `pɑ́m`, *almond* `ɑ́mənd`, *spa* `spɑ́`, *façade* `fəsɑ́d`, *lager* `lɑ́ɡər`. The same length principle gives START its `ɑr` (§4.3) and puts `ɑ` in the *qua-* family, where the vowel runs long in American English: `kwɑ́lɪtij` (*quality*), `kwɑ́ntɪtij` (*quantity*), `kwɑ́ntɪfàj` (*quantify*), `ɪ̀nijkwɑ́lɪtij` (*inequality*), `kwɑ́lɪtèjtɪv`.
 - `ɔ` = THOUGHT words (*all, call, law, thought, caught*) **and** CLOTH words (*off, often, soft, cost, lost, long, strong, wrong, across, dog*). If an American dictionary shows /ɔ/ (or /ɒ~ɔː/ variation resolved toward /ɔː/), write `ɔ`.
 - **Operational test for `ɒ` vs `ɑ`:** check the British (RP) form — RP short /ɒ/ → `ɒ`, RP long /ɑː/ → `ɑ`. This RP lookup decides only which symbol to write — GA itself merges the two vowels; everything else about the word still follows GA (§1). (The *qua-* family above is the one deliberate exception: RP has /ɒ/ there, but this system follows the long American vowel.)
@@ -113,7 +113,7 @@ Splitting `ɒ` vs `ɑ` vs `ɔ` — **the length principle**: in this vowel area,
 | ɛr | SQUARE | `wɛ́r`, `tʃɛ́r`, `ɛ́rijə`, `vɛ́rijəs` |
 | ɪr | NEAR | `nɪ́r`, `mətɪ́rijəl`, `ʃæ̀ndəlɪ́r`, `pɪ́rijəd` |
 | ʊr | CURE | `dʊ́rəbəl`, `dʊ́rɪŋ`, `ʃʊ́r`, `pjʊ́r`, `sɪkjʊ́rɪtij` |
-| ajər / awər | fire / hour | `rəkwájər`, `ətájər`, `awər`, `páwər` |
+| ajər / awər | fire / hour | `rɪkwájər`, `ətájər`, `awər`, `páwər` |
 
 Rules:
 
@@ -130,16 +130,16 @@ Rules:
 | ɛ́r | *very* `vɛ́rij`, *error* `ɛ́rər`, *parent* `pɛ́rənt` |
 | ɪ́r | *mirror* `mɪ́rər`, *spirit* `spɪ́rɪt`, *serious* `sɪ́rijəs` |
 | ǽr | *carry* `kǽrij`, *character* `kǽrəktər` — many GA speakers merge these into `ɛ́r`; either is fine |
-| ɜ́r | *hurry* `hɜ́rij`, *courage* `kɜ́rədʒ`, *current* `kɜ́rənt` — STRUT + r merges into NURSE (no `ə́r` here) |
+| ɜ́r | *hurry* `hɜ́rij`, *courage* `kɜ́rɪdʒ`, *current* `kɜ́rənt` — STRUT + r merges into NURSE (no `ə́r` here) |
 | ɒ́r | *borrow* `bɒ́row`, *sorry* `sɒ́rij`, *tomorrow* `təmɒ́row` |
-| ɔ́r | *orange* `ɔ́rəndʒ`, *story* `stɔ́rij`, *glory* `ɡlɔ́rij` |
+| ɔ́r | *orange* `ɔ́rɪndʒ`, *story* `stɔ́rij`, *glory* `ɡlɔ́rij` |
 
 ### 4.4 Weak (unstressed) vowels
 
 | Symbol | Where | Examples |
 |---|---|---|
-| ə | any reduced vowel spelled with a letter other than i/y (tie-breaker below); endings *-al, -on, -an, -ous, -ment, -est, -age*; prefixes *a-, de-, re-, be-, pro-, con-, ex-/e-* (`əks`/`əɡz`) | `əbáwt`, `dəzájnd`, `rəméjnz`, `əɡzǽmpəl`, `dʒǽkət`, `mɑ́rkət`, `téjbəl`, `kɒ́tən` |
-| ɪ | reduced vowels spelled with i or y (tie-breaker below); endings *-ing, -ic, -ity, -ish, -ify, -ible*; the fixed exceptions *-ed* `ɪd`, *-es* `ɪz`; prefixes *in-, im-, dis-* | `ríjdɪŋ`, `níjdɪd`, `wɒ́ʃɪz`, `àjkɒ́nɪk`, `dərəbɪ́lɪtij`, `prɒ́fɪt`, `stájlɪʃ` |
+| ə | any reduced vowel spelled with a letter other than i/y (tie-breaker below); endings *-al, -on, -an, -ous, -ment, -est*; prefixes *a-, pro-, con-* | `əbáwt`, `prəfáwnd`, `dʒǽkət`, `mɑ́rkət`, `téjbəl`, `kɒ́tən` |
+| ɪ | reduced vowels spelled with i or y (tie-breaker below); endings *-ing, -ic, -ity, -ish, -ify, -ible*; the fixed morphemes *-ed* `ɪd`, *-es* `ɪz`, *-age* `ɪdʒ`, *-ange* `ɪndʒ`; prefixes *in-, im-, dis-* and the reduced prefixes *be-, de-, re-, pre-, se-, e-/ex-* (`ɪks`/`ɪɡz`) | `ríjdɪŋ`, `níjdɪd`, `wɒ́ʃɪz`, `prɒ́fɪt`, `bɪkɒ́z`, `dɪzájnd`, `rɪméjnz`, `ɪɡzǽmpəl`, `lǽŋɡwɪdʒ` |
 | ij | happY: final *-y, -ey, -ie*; *-ly*; before another vowel | `bɒ́dij`, `kówzij`, `lájklij`, `ɛ́rijə` |
 | uw | unstressed GOOSE | `vǽljuw`, `ɪntuw` (*into* — function word, no accent) |
 | ow | unstressed GOAT | `fɒ́low`, `ǽrowz`, `rɛ́trow` |
@@ -147,11 +147,11 @@ Rules:
 **The `ɪ` ~ `ə` tie-breaker.** Many reduced syllables could be `ɪ` or `ə` and both are correct — this is the zone some dictionaries mark with `ᵻ` and contradict each other on. Never use `ᵻ`; decide deterministically, in this order:
 
 1. The §6 weak-form table and §7 suffix table win where they apply.
-2. Fixed morphological exceptions, regardless of spelling: *-ed* → `ɪd` (`níjdɪd`), *-es* → `ɪz` (`wɒ́ʃɪz`).
-3. Otherwise follow the **spelling** of the reduced vowel: **i or y → `ɪ`** (`prɒ́fɪt`, `mɛ́dɪsɪn`, `ǽnəlɪst`); **any other letter → `ə`** (`dʒǽkət`, `mɑ́rkət`, `əɡzǽmpəl`, `kɜ́rədʒ`, `ɔ́rəndʒ`, `mɪ́nət`).
+2. Fixed morphemes, regardless of spelling — endings: *-ed* → `ɪd` (`níjdɪd`), *-es* → `ɪz` (`wɒ́ʃɪz`), *-age* → `ɪdʒ` (`lǽŋɡwɪdʒ`, `kɜ́rɪdʒ`), reduced *-ange* → `ɪndʒ` (`ɔ́rɪndʒ` — stressed *-ange* is unaffected: `əréjndʒ`); word-initial reduced prefixes *be-, de-, re-, pre-, se-, e-/ex-* → `ɪ` (`bɪkɒ́z`, `bɪfɔ́r`, `dɪzájn`, `rɪméjnz`, `prɪzɛ́nt`, `sɪkjʊ́rɪtij`, `ɪɡzǽmpəl`, `ɪkspɛ́rɪmənt`). Only when reduced and word-initial: stressed *re-* keeps its full vowel (`rɛ́trow`), and word-internal syllables fall through to the spelling rule (`rɛ̀prəzɛ́ntɪd`).
+3. Otherwise follow the **spelling** of the reduced vowel: **i or y → `ɪ`** (`prɒ́fɪt`, `mɛ́dɪsɪn`, `ǽnəlɪst`); **any other letter → `ə`** (`dʒǽkət`, `mɑ́rkət`, `mɪ́nət`).
 4. Vowel digraphs default to `ə`: *mountain* `máwntən`, *captain* `kǽptən`, *foreign* `fɔ́rən`. When one letter of the digraph is silent, the sounded letter decides: *biscuit* `bɪ́skɪt`, *circuit* `sɜ́rkɪt` (the u is silent, as in *build*).
 
-The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and stressed vowels are unaffected. Within this zone the spelling outranks dictionary notation (§1).
+The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and stressed vowels are unaffected. Within this zone the tie-breaker outranks dictionary notation (§1).
 
 ### 4.5 Glide linking inside words
 
@@ -235,12 +235,12 @@ Quantifiers/adverbs like *any* `ɛ́nij`, *every* `ɛ́vrij`, *both* `bówθ`, *
 | -ly / -ally / -ily | `lij` / `əlij` / `ɪlij` | `lájklij`, `tɪ́pɪkəlij`, `íjzɪlij` |
 | -er / -or / -est | `ər` / `ər` / `əst` | `kúwlər`, `vɛ́ktər`, `sɪ́mpləst` |
 | -ity / -ities | `ɪtij` / `ɪtijz` | `dərəbɪ́lɪtij`, `kwɑ́ntɪtijz` |
-| -age | `ədʒ` | `kɜ́rədʒ`, `bɛ́vrədʒ`, `lǽŋɡwədʒ` |
+| -age | `ɪdʒ` | `kɜ́rɪdʒ`, `bɛ́vrɪdʒ`, `lǽŋɡwɪdʒ` |
 | -tion / -ssion | `ʃən` | `krijéjʃən`, `dɪskə́ʃən` |
-| -sion (voiced) | `ʒən` | `dəsɪ́ʒən`, `vɜ́rʒən` |
+| -sion (voiced) | `ʒən` | `dɪsɪ́ʒən`, `vɜ́rʒən` |
 | -ture / -sure | `tʃər` / `ʒər` | `fɜ́rnɪtʃər`, `mɛ́ʒər` |
 | -able / -ible | `əbəl` / `ɪbəl` | `dʊ́rəbəl`, `ɪnkrɛ́dɪbəl` |
-| -ous / -al / -ful / -less / -ness | `əs` / `əl` / `fəl` / `ləs` / `nəs` | `rəbɛ́ljəs`, `nǽtʃərəl`, `júwsfəl`, `tájmləs`, `kówzijnəs` |
+| -ous / -al / -ful / -less / -ness | `əs` / `əl` / `fəl` / `ləs` / `nəs` | `rɪbɛ́ljəs`, `nǽtʃərəl`, `júwsfəl`, `tájmləs`, `kówzijnəs` |
 | -ment / -ent / -ant / -ence / -ance | `mənt` / `ənt` / `ənt` / `əns` / `əns` | `stéjtmənt`, `dɪ́fərənt`, `ɪmpɔ́rtənt`, `dɪ́fərəns` |
 | -ate (verb, 3+ syllables) | `èjt` | `rɛ́ɡjəlèjt`, `əsówsijèjt` |
 | -ate (noun/adj.) | `ət` | `dɪlɪ́bərət` |
@@ -248,7 +248,7 @@ Quantifiers/adverbs like *any* `ɛ́nij`, *every* `ɛ́vrij`, *both* `bówθ`, *
 | -ic / -ical | `ɪk` / `ɪkəl` | `àjkɒ́nɪk`, `tɪ́pɪkəl` |
 | -ism / -ist | `ɪzəm` / `ɪst` | `ríjəlɪzəm`, `ɑ́rtɪst` |
 
-Two-syllable *-ate* verbs carry the **primary** stress on the suffix instead — no grave: `krijéjt` (*create*), `rəléjt` (*relate*).
+Two-syllable *-ate* verbs carry the **primary** stress on the suffix instead — no grave: `krijéjt` (*create*), `rɪléjt` (*relate*).
 
 ## 8. Heteronyms — same spelling, two pronunciations
 
@@ -256,8 +256,8 @@ Disambiguate by part of speech (or tense) from context **before** transcribing:
 
 | Spelling | One reading | The other |
 |---|---|---|
-| record | noun `rɛ́kərd` | verb `rəkɔ́rd` |
-| present | noun/adj. `prɛ́zənt` | verb `prəzɛ́nt` |
+| record | noun `rɛ́kərd` | verb `rɪkɔ́rd` |
+| present | noun/adj. `prɛ́zənt` | verb `prɪzɛ́nt` |
 | object | noun `ɒ́bdʒɛkt` | verb `əbdʒɛ́kt` |
 | use | noun `júws` | verb `júwz` |
 | close | adj. `klóws` | verb `klówz` |
@@ -296,7 +296,7 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
    - long vowels/diphthongs → glide spellings (§4.2),
    - r-vowels → rhotic spellings (§4.3),
    - LOT → `ɒ`, PALM (long *ah*) → `ɑ`, THOUGHT/CLOTH → `ɔ` (§4.1), STRUT → `ə`,
-   - reduced vowels → `ə`/`ɪ`/`ij` via the spelling tie-breaker (§4.4), suffixes per §7, yod per §4.6.
+   - reduced vowels → `ə`/`ɪ`/`ij` via the §4.4 tie-breaker (fixed morphemes, then spelling), suffixes per §7, yod per §4.6.
 4. Mark stress: one acute per content word on the first vowel symbol of the stressed syllable; graves for secondary stresses and second elements of solid compounds (§5).
 5. Reassemble with the original punctuation, spacing, digits, and apostrophes.
 6. **Self-check:**
@@ -341,7 +341,7 @@ Checks that need tokenization rather than a single regex:
 
 > What's the newest design from the 1980s that you'd wear during a cool autumn evening?
 
-`wɒt's ðə núwəst dəzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?`
+`wɒt's ðə núwəst dɪzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?`
 
 **Example 3 — derivation walkthrough**
 
@@ -369,9 +369,9 @@ The first *that* introduces the clause — weak `ðət`; the second is a demonst
 
 > My father used a USB drive to record the results — where does the money come from?
 
-`maj fɑ́ðər júwzd ə USB drájv tə rəkɔ́rd ðə rəzə́lts — wɛ́r dəz ðə mə́nij kə́m frɒ́m?`
+`maj fɑ́ðər júwzd ə USB drájv tə rɪkɔ́rd ðə rɪzə́lts — wɛ́r dəz ðə mə́nij kə́m frɒ́m?`
 
-*father* takes long `ɑ` (§4.1); *used* and *record* are heteronyms resolved as verbs (`júwzd`, `rəkɔ́rd`, §8); *USB* keeps its capitals (§9); *results*, *money*, *come* show stressed `ə́` for STRUT; and clause-final *from* takes its strong form `frɒ́m` (§6).
+*father* takes long `ɑ` (§4.1); *used* and *record* are heteronyms resolved as verbs (`júwzd`, `rɪkɔ́rd`, §8); *USB* keeps its capitals (§9); *results*, *money*, *come* show stressed `ə́` for STRUT; and clause-final *from* takes its strong form `frɒ́m` (§6).
 
 ## 13. Common errors — never do these
 
@@ -393,6 +393,7 @@ The first *that* introduces the clause — weak `ðət`; the second is a demonst
 | `túw dajmɛ́nʃənz` for "2 dimensions" | `2 dajmɛ́nʃənz` | digits stay as digits |
 | accent on `əv, ənd, tə, kən…` | bare weak forms | function words carry no accent |
 | missing accent on `fíjl, méjd, wə́n…` | acute present | content monosyllables are always accented |
-| `júws` for the verb *use*, `rɛ́kərd` for the verb *record* | `júwz`, `rəkɔ́rd` | heteronyms — disambiguate by part of speech (§8) |
+| `júws` for the verb *use*, `rɛ́kərd` for the verb *record* | `júwz`, `rɪkɔ́rd` | heteronyms — disambiguate by part of speech (§8) |
 | `həz həd ə prəfáwnd ɪ́mpækt` | `həz hǽd ə prəfáwnd ɪ́mpækt` | the second *had* is a main verb (experienced), not an auxiliary — main-verb *have/has/had* carry stress (§6) |
-| `ɪɡzǽmpəl`, `mɑ́rkɪtɪŋ`, `íjzəlij` | `əɡzǽmpəl`, `mɑ́rkətɪŋ`, `íjzɪlij` | weak `ɪ`~`ə` vowels follow the spelling tie-breaker (§4.4) |
+| `əɡzǽmpəl`, `dəzájn`, `lǽŋɡwədʒ` | `ɪɡzǽmpəl`, `dɪzájn`, `lǽŋɡwɪdʒ` | the reduced prefixes *be-, de-, re-, pre-, se-, e-/ex-* and the ending *-age* take `ɪ` (§4.4) |
+| `mɑ́rkɪtɪŋ`, `íjzəlij` | `mɑ́rkətɪŋ`, `íjzɪlij` | outside the fixed morphemes, weak `ɪ`~`ə` follows the spelling tie-breaker (§4.4) |

@@ -181,13 +181,13 @@ def D(s):
 
 VALID_SAMPLES = [D(s) for s in [
     "ðə flɔ́r lǽmp ɪz tɪ́pɪkəlij tɔ́l ənd slɛ́ndər.",
-    "wɒt's ðə núwəst dəzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?",
+    "wɒt's ðə núwəst dɪzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?",
     "ɪf aj həd hǽd wɔ́tər, aj wʊd həv ʃɛ́rd ɪt.",
     "aj ríjəlàjzd ðət ðǽt wəz rɔ́ŋ, túw léjt.",
-    "maj fɑ́ðər júwzd ə USB drájv tə rəkɔ́rd ðə rəzə́lts — wɛ́r dəz ðə mə́nij kə́m frɒ́m?",
-    "dɪvájd-ənd-kɒ́ŋkər rəkɜ́rənsɪz ɒn ə T-ʃɜ́rt frəm ðə '70s",
+    "maj fɑ́ðər júwzd ə USB drájv tə rɪkɔ́rd ðə rɪzə́lts — wɛ́r dəz ðə mə́nij kə́m frɒ́m?",
+    "dɪvájd-ənd-kɒ́ŋkər rɪkɜ́rənsɪz ɒn ə T-ʃɜ́rt frəm ðə '70s",
     "mæ̀θəmǽtɪkəl əsówsijèjtɪd wɔ́l-tə-wɔ́l",
-    "ájnstàjnz ɪkwéjʒən e = mc^2 rəléjts ɛ́nərdʒij ənd mǽs.",
+    "ájnstàjnz ɪkwéjʒən e = mc^2 rɪléjts ɛ́nərdʒij ənd mǽs.",
     "ðə fə́ŋkʃən sin(x) ɪz pɪ̀rijɒ́dɪk, ə̀nlájk log(x).",
 ]]
 INVALID_SAMPLES = [(D(s), r) for s, r in [

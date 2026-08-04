@@ -21,7 +21,7 @@ description: Transcribe English text into learner-friendly IPA using Lindsey-sty
    python validate_transcriptions.py --text "<transcription>"
    ```
 
-   Fix each reported violation and re-run until it reports 0. For JSON files whose items pair source fields with `trans_*` fields, pass file or directory paths instead — that mode also checks source/transcription token parity. Run `--self-test` once to confirm the environment (expect `19/19 passed`).
+   Fix each reported violation and re-run until it reports 0. For JSON files whose items pair source fields with `trans_*` fields, pass file or directory paths instead — that mode also checks source/transcription token parity. Run `--self-test` once to confirm the environment (expect `22/22 passed`).
 
 4. **Encoding trap:** many toolchains silently NFC-normalize `æ` + combining acute (U+0301) into the single precomposed character U+01FD, which this style forbids — the validator reports it as `precomposed-ae`. If that fires on a file you wrote, repair it:
 
@@ -33,5 +33,5 @@ description: Transcribe English text into learner-friendly IPA using Lindsey-sty
 
 - The style is rhotic (r pronounced everywhere) with glide-notation long vowels; stress is marked by acute (primary) and grave (secondary) accents on the vowel itself — never with `ˈ ˌ`.
 - **General American is the reference accent**: wherever English varieties disagree (stress, vowels, yod, silent letters — *either*, *schedule*, *herb*), follow the GA pronunciation, per the guide's §1 table. American yod-dropping applies: `núw`, `stúwdənt`, but `mjúwzɪk`, `hjúwmən`.
-- The judgment calls that most often go wrong are all covered in the guide — check there before guessing: heteronyms like *record*/*use* (§8), auxiliary vs. main verb (*had had*) and conjunction vs. demonstrative (*that that*) (§12, examples 4–5), clause-final strong forms (*looking ǽt?*) (§6), and the LOT `ɒ` / PALM `ɑ` / THOUGHT `ɔ` split (§4.1), and the weak `ɪ`~`ə` spelling tie-breaker — i/y → `ɪ`, any other letter → `ə` (`prɒ́fɪt` vs `mɑ́rkət`) (§4.4).
+- The judgment calls that most often go wrong are all covered in the guide — check there before guessing: heteronyms like *record*/*use* (§8), auxiliary vs. main verb (*had had*) and conjunction vs. demonstrative (*that that*) (§12, examples 4–5), clause-final strong forms (*looking ǽt?*) (§6), and the LOT `ɒ` / PALM `ɑ` / THOUGHT `ɔ` split (§4.1), and the weak `ɪ`~`ə` tie-breaker — fixed morphemes first (reduced prefixes *be-, de-, re-, pre-, se-, e-/ex-* and endings *-ed/-es/-age/-ange* → `ɪ`: `bɪkɒ́z`, `dɪzájn`, `lǽŋɡwɪdʒ`), then spelling: i/y → `ɪ`, any other letter → `ə` (`prɒ́fɪt` vs `mɑ́rkət`) (§4.4).
 - When batch-producing transcriptions, validate the whole output file at the end rather than trusting spot checks.

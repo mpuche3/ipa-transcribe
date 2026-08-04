@@ -4,7 +4,7 @@ A complete, self-contained system for transcribing English text into learner-fri
 
 > What's the newest design from the 1980s that you'd wear during a cool autumn evening?
 
-> `wɒt's ðə núwəst dəzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?`
+> `wɒt's ðə núwəst dɪzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?`
 
 ## What's inside
 

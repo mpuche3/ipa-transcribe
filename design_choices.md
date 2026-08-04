@@ -44,13 +44,13 @@ When goals conflicted, the earlier one won.
 
 **Why:** the split is descriptive without resorting to `ː`, and it preserves information the reader can freely discard: pronouncing `ɒ` identically to `ɑ` yields ordinary GA; keeping them apart yields a more conservative accent. A documented reader's choice, not a prescription.
 
-### `ɪ` or `ə` by spelling — instead of `ᵻ`
+### `ɪ` or `ə` by morpheme, then spelling — instead of `ᵻ`
 
-**Chosen:** in the weak-vowel gray zone, spelling decides: i/y → `ɪ`, any other letter → `ə` (with `-ed`/`-es` fixed as `ɪd`/`ɪz`).
+**Chosen:** in the weak-vowel gray zone, fixed morphemes decide first: the word-initial reduced prefixes *be-, de-, re-, pre-, se-, e-/ex-* and the endings *-ed, -es, -age, -ange* take `ɪ` (`bɪkɒ́z`, `dɪzájn`, `rɪméjnz`, `ɪkspɛ́rɪmənt`, `lǽŋɡwɪdʒ`, `ɔ́rɪndʒ`). Everywhere else, spelling decides: i/y → `ɪ`, any other letter → `ə`.
 
-**Also valid:** the OED/Longman `ᵻ` (honest about the variability, but it defers the decision to the reader); always `ə` (full weak-vowel merger); or following one dictionary's notation (they contradict each other precisely here).
+**Also valid:** the OED/Longman `ᵻ` (honest about the variability, but it defers the decision to the reader); always `ə` (full weak-vowel merger); pure spelling with no morpheme layer (this system's original rule — mechanical, but it forced `ə` into *because, before, design, language*, contradicting Merriam-Webster in some of the most frequent words in English); or following one dictionary's notation (they contradict each other precisely here).
 
-**Why:** determinism. This is the zone where authorities disagree the most, so no lookup can settle it; the spelling rule gives a mechanical answer, visually anchors the transcription to the written word, and matches the distribution unmerged American speakers actually produce.
+**Why:** determinism without betraying the reference accent. M-W's first listings have \i\ in exactly these prefixes and in *-age/-ange*, and unmerged American speakers produce `ɪ` there; promoting that closed morpheme list above the spelling rule keeps the answer fully mechanical — no lookup, no taste — while fixing the words where the pure-spelling rule audibly misfired. Outside the list, the spelling rule still gives a mechanical answer and visually anchors the transcription to the written word.
 
 ### happY as `ij`
 
@@ -156,7 +156,7 @@ When goals conflicted, the earlier one won.
 
 **Also valid:** RP/SSB (Lindsey's own CUBE target — ironically, the glide notation's home accent); a fully merger-maximal GA; or accent-agnostic notation.
 
-**Why:** GA is the accent most learners target and most media exposes them to, and M-W's first listing supplies a single deterministic authority for everything outside the weak `ɪ`~`ə` zone (where the spelling tie-breaker rules). The three documented departures — `ɒ`/`ɑ`, `ǽr`, unwritten flapping — all *preserve optionality* rather than contradict GA: each keeps a distinction in writing that the reader may merge in speech.
+**Why:** GA is the accent most learners target and most media exposes them to, and M-W's first listing supplies a single deterministic authority for everything outside the weak `ɪ`~`ə` zone (where the morpheme-then-spelling tie-breaker rules). The three documented departures — `ɒ`/`ɑ`, `ǽr`, unwritten flapping — all *preserve optionality* rather than contradict GA: each keeps a distinction in writing that the reader may merge in speech.
 
 ---
 
