@@ -113,7 +113,7 @@ Splitting `ɒ` vs `ɑ` vs `ɔ` — **the length principle**: in this vowel area,
 | ɛr | SQUARE | `wɛ́r`, `tʃɛ́r`, `ɛ́rijə`, `vɛ́rijəs` |
 | ɪr | NEAR | `nɪ́r`, `mətɪ́rijəl`, `ʃæ̀ndəlɪ́r`, `pɪ́rijəd` |
 | ʊr | CURE | `dʊ́rəbəl`, `dʊ́rɪŋ`, `ʃʊ́r`, `pjʊ́r`, `sɪkjʊ́rɪtij` |
-| ajər / awər | fire / hour | `rɪkwájər`, `ətájər`, `awər`, `páwər` |
+| ajər / awər | fire / hour | `rɪkwájər`, `ətájər`, `áwər`, `páwər` |
 
 Rules:
 
@@ -141,7 +141,7 @@ Rules:
 | ə | any reduced vowel spelled with a letter other than i/y (tie-breaker below); endings *-al, -on, -an, -ous, -ment, -est*; prefixes *a-, pro-, con-* | `əbáwt`, `prəfáwnd`, `dʒǽkət`, `mɑ́rkət`, `téjbəl`, `kɒ́tən` |
 | ɪ | reduced vowels spelled with i or y (tie-breaker below); endings *-ing, -ic, -ity, -ish, -ify, -ible*; the fixed morphemes *-ed* `ɪd`, *-es* `ɪz`, *-age* `ɪdʒ`, *-ange* `ɪndʒ`; prefixes *in-, im-, dis-* and the reduced prefixes *be-, de-, re-, pre-, se-, e-/ex-* (`ɪks`/`ɪɡz`) | `ríjdɪŋ`, `níjdɪd`, `wɒ́ʃɪz`, `prɒ́fɪt`, `bɪkɒ́z`, `dɪzájnd`, `rɪméjnz`, `ɪɡzǽmpəl`, `lǽŋɡwɪdʒ` |
 | ij | happY: final *-y, -ey, -ie*; *-ly*; before another vowel | `bɒ́dij`, `kówzij`, `lájklij`, `ɛ́rijə` |
-| uw | unstressed GOOSE | `vǽljuw`, `ɪntuw` (*into* — function word, no accent) |
+| uw | unstressed GOOSE | `vǽljuw`, `mɛ́njuw` |
 | ow | unstressed GOAT | `fɒ́low`, `ǽrowz`, `rɛ́trow` |
 
 **The `ɪ` ~ `ə` tie-breaker.** Many reduced syllables could be `ɪ` or `ə` and both are correct — this is the zone some dictionaries mark with `ᵻ` and contradict each other on. Never use `ᵻ`; decide deterministically, in this order:
@@ -152,6 +152,8 @@ Rules:
 4. Vowel digraphs default to `ə`: *mountain* `máwntən`, *captain* `kǽptən`, *foreign* `fɔ́rən`. When one letter of the digraph is silent, the sounded letter decides: *biscuit* `bɪ́skɪt`, *circuit* `sɜ́rkɪt` (the u is silent, as in *build*).
 
 The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and stressed vowels are unaffected. Within this zone the tie-breaker outranks dictionary notation (§1).
+
+**Syncope — parenthesized schwas are dropped.** When Merriam-Webster's first listing shows a medial schwa in parentheses — \(ə-)\ — the syllable is omitted, because the compressed form is how the word is spoken: *different* `dɪ́frənt`, *difference* `dɪ́frəns`, *sovereign* `sɒ́vrən`, *laboratory* `lǽbrətɔ̀rij`, *deliberate* (adj.) `dɪlɪ́brət`. When M-W lists the full form unparenthesized, the schwa stays: *natural* `nǽtʃərəl`. The fixed transcriptions of §6 and §7 outrank this rule — *-ally* is always `əlij` (`tɪ́pɪkəlij`), even where M-W parenthesizes it.
 
 ### 4.5 Glide linking inside words
 
@@ -184,7 +186,7 @@ General American drops /j/ after coronal consonants; this style follows that rul
 ### 5.2 Which words get marked
 
 - **Content words** (nouns, main verbs, adjectives, adverbs, numerals, interjections) always carry exactly one acute — including monosyllables: `méjd`, `fíjl`, `wɔ́rm`, `ǽd`, `tíj`, `wə́n`.
-- **Function words** in their weak form get **no accent at all**, even when the vowel is a strong one: `æz`, `bət`, `nɒt`, `səm`, `ɔl`, `wɒt`, `majt`, `wʊd`, `ðijz`, `dawn` (particle), `əp`. See the table in §6.
+- **Function words** in their weak form get **no accent at all**, even when the vowel is a strong one: `æz`, `bət`, `nɒt`, `səm`, `ɔl`, `wɒt`, `majt`, `wʊd`, `ðijz`, `dawn` (particle), `əp`. See the table in §6. This bare form is for monosyllables only: a function word of two or more syllables keeps the acute of its word-internal stress even when weak — `ɪ́ntə` (*into*), `əbáwt` (*about*), `ówvər` (*over*). The `ajər / awər` nuclei count as one syllable, so *our* stays bare: `awər`.
 - **Wh-question words are accented** (`wɪ́tʃ`, `wɛ́n`, `wɛ́r`, `húw`, `wáj`, `háw`) — **except *what*, which is always bare `wɒt`** (fixed exception in this style).
 - A word never has more than one acute. Longer words add graves for secondary stresses: `mæ̀θəmǽtɪkəl`, `rɛ̀prəzɛ́ntɪd`, `əsówsijèjtɪd`, `vɜ̀rsətɪ́lɪtij`, `ə̀nlájk`.
 
@@ -209,7 +211,7 @@ Use these forms, unaccented, whenever the word is a function word in running tex
 |---|---|
 | Articles | *a* `ə` · *an* `ən` · *the* `ðə` (also before vowels) |
 | Conjunctions | *and* `ənd` · *or* `ɔr` · *but* `bət` · *if* `ɪf` · *as* `æz` · *than* `ðən` · *that* (conj./relative) `ðət` |
-| Prepositions | *of* `əv` · *to* `tə` (also before vowels: `tə ǽd`) · *in* `ɪn` · *on* `ɒn` · *at* `ət` · *by* `baj` · *for* `fɔr` · *from* `frəm` · *with* `wɪð` |
+| Prepositions | *of* `əv` · *to* `tə` (also before vowels: `tə ǽd`) · *into* `ɪ́ntə` (polysyllabic — keeps its acute, §5.2) · *in* `ɪn` · *on* `ɒn` · *at* `ət` · *by* `baj` · *for* `fɔr` · *from* `frəm` · *with* `wɪð` |
 | Particles | *up* `əp` · *down* `dawn` · *out* `awt` (as particle) |
 | Pronouns | *I* `aj` · *you* `juw` · *he* `hij` · *she* `ʃij` · *it* `ɪt` · *we* `wij` · *they* `ðej` · *me* `mij` · *him* `hɪm` · *her* `hər` · *us* `əs` · *them* `ðɛm` |
 | Possessives | *my* `maj` · *your* `jɔr` · *his* `hɪz` · *its* `ɪts` · *our* `awər` · *their* `ðɛr` |
@@ -241,9 +243,9 @@ Quantifiers/adverbs like *any* `ɛ́nij`, *every* `ɛ́vrij`, *both* `bówθ`, *
 | -ture / -sure | `tʃər` / `ʒər` | `fɜ́rnɪtʃər`, `mɛ́ʒər` |
 | -able / -ible | `əbəl` / `ɪbəl` | `dʊ́rəbəl`, `ɪnkrɛ́dɪbəl` |
 | -ous / -al / -ful / -less / -ness | `əs` / `əl` / `fəl` / `ləs` / `nəs` | `rɪbɛ́ljəs`, `nǽtʃərəl`, `júwsfəl`, `tájmləs`, `kówzijnəs` |
-| -ment / -ent / -ant / -ence / -ance | `mənt` / `ənt` / `ənt` / `əns` / `əns` | `stéjtmənt`, `dɪ́fərənt`, `ɪmpɔ́rtənt`, `dɪ́fərəns` |
+| -ment / -ent / -ant / -ence / -ance | `mənt` / `ənt` / `ənt` / `əns` / `əns` | `stéjtmənt`, `dɪ́frənt`, `ɪmpɔ́rtənt`, `dɪ́frəns` |
 | -ate (verb, 3+ syllables) | `èjt` | `rɛ́ɡjəlèjt`, `əsówsijèjt` |
-| -ate (noun/adj.) | `ət` | `dɪlɪ́bərət` |
+| -ate (noun/adj.) | `ət` | `dɪlɪ́brət` |
 | -ize / -ized | `àjz` / `àjzd` | `vɪ́ʒwəlàjz`, `vɪ́ʒwəlàjzd` |
 | -ic / -ical | `ɪk` / `ɪkəl` | `àjkɒ́nɪk`, `tɪ́pɪkəl` |
 | -ism / -ist | `ɪzəm` / `ɪst` | `ríjəlɪzəm`, `ɑ́rtɪst` |

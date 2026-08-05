@@ -57,7 +57,7 @@ LEGACY_SKIP = {"banned-vowels", "centering-schwa"}
 
 WEAK_FORMS = set("""
 ə ən ðə ənd ɔr bət ɪf æz ðən ðət əv tə ɪn ɒn ət baj fɔr frəm wɪð
-əp dawn awt ɪntuw aj juw hij ʃij ɪt wij ðej mij hɪm hər əs ðɛm
+əp dawn awt aj juw hij ʃij ɪt wij ðej mij hɪm hər əs ðɛm
 maj jɔr hɪz ɪts awər ðɛr ðɪs ðijz ðowz
 əm ɪz ɑr wəz wər bij bɪn həv həz həd dəz dɪd
 kən kʊd wɪl wʊd ʃəl ʃʊd mej majt məst

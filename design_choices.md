@@ -52,6 +52,14 @@ When goals conflicted, the earlier one won.
 
 **Why:** determinism without betraying the reference accent. M-W's first listings have \i\ in exactly these prefixes and in *-age/-ange*, and unmerged American speakers produce `ɪ` there; promoting that closed morpheme list above the spelling rule keeps the answer fully mechanical — no lookup, no taste — while fixing the words where the pure-spelling rule audibly misfired. Outside the list, the spelling rule still gives a mechanical answer and visually anchors the transcription to the written word.
 
+### Parenthesized schwas are dropped (syncope)
+
+**Chosen:** when M-W's first listing parenthesizes a medial schwa, it is not written: `dɪ́frənt`, `sɒ́vrən`, `lǽbrətɔ̀rij`. Unparenthesized full forms keep it: `nǽtʃərəl`. The fixed §6/§7 tables outrank the rule, so suffix transcriptions like *-ally* `əlij` stay stable.
+
+**Also valid:** always writing the full form (citation style, closer to the spelling); or a lookup-free phonological rule (drop post-stress schwa before r/l/n), which would however contradict M-W where it lists the full form first (*natural*).
+
+**Why:** connected speech is the point. The compressed forms are what GA speakers actually produce; writing the schwa invites learners to restore a syllable natives skip. The M-W parenthesis makes the call deterministic — the same single authority the system already leans on.
+
 ### happY as `ij`
 
 **Chosen:** `bɒ́dij`, `lájklij`.
@@ -128,7 +136,7 @@ When goals conflicted, the earlier one won.
 
 **Also valid:** citation forms throughout, which is what dictionaries show.
 
-**Why:** connected speech is the point. Rhythm and reduction are where learners' comprehension fails, and a transcription of sentences (rather than isolated words) should show the sentence phonology.
+**Why:** connected speech is the point. Rhythm and reduction are where learners' comprehension fails, and a transcription of sentences (rather than isolated words) should show the sentence phonology. Bareness (no accent) is the written signal of weakness — but only for monosyllables: a polysyllabic function word keeps its word-internal acute (`ɪ́ntə`, `əbáwt`), because there the mark locates the stressed syllable, information a bare form would destroy (and `ə` is stressable in this system, so it is not recoverable).
 
 ## Text conventions
 
