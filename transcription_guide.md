@@ -6,7 +6,7 @@ This document specifies how to transcribe English text into a learner-friendly, 
 
 The system is an **IPA-based respelling of rhotic (American-style) English** using **modern glide notation** (the style popularized by Dr. Geoff Lindsey): long vowels and diphthongs are written as vowel + glide (`ij, uw, ej, ow, aj, aw, ɔj`) instead of the traditional `iː, uː, eɪ, oʊ, aɪ, aʊ, ɔɪ`. Stress is marked with **accent marks placed on the vowel itself** — acute `´` for primary stress, grave `` ` `` for secondary stress — never with the IPA marks `ˈ ˌ`.
 
-The text layout mirrors the source exactly: same words in the same order, same punctuation, all lowercase.
+The text layout mirrors the source: same words in the same order, same spacing and punctuation, all lowercase. The one punctuation exception is a word-internal apostrophe, which is omitted from phonetic words because it represents spelling, not sound (§5.4, §9).
 
 **Reference accent: General American.** Wherever varieties of English disagree — stress placement, vowel choice, yod, silent letters — follow the General American pronunciation (Merriam-Webster's first listing) and map it into this notation. One carve-out: in the weak `ɪ` ~ `ə` zone, where dictionaries contradict one another, the tie-breaker of §4.4 (fixed morphemes, then spelling) decides — not the dictionary. Common traps:
 
@@ -36,7 +36,7 @@ One-glance symbol chart (details in §3–§5):
 | Consonants | `p b t d k ɡ tʃ dʒ f v θ ð s z ʃ ʒ h m n ŋ l r w j` |
 | Stress | acute `´` = primary, grave `` ` `` = secondary, on the first vowel symbol; weak function words unmarked |
 
-1. Transcribe word by word; keep every punctuation mark, space, hyphen, apostrophe, digit, parenthesis, and quote exactly where it was.
+1. Transcribe word by word; keep every punctuation mark, space, hyphen, digit, parenthesis, and quote exactly where it was. Omit word-internal apostrophes from phonetic words (§5.4); preserve them in pass-through tokens such as `'70s`.
 2. Everything is lowercase — including proper nouns and sentence starts (*John* → `dʒɒ́n`). The only capitals allowed are letter-name tokens (rule 8).
 3. Long vowels/diphthongs are vowel + glide: `ij uw ej ow aj aw ɔj`. Never use `ː`, `eɪ`, `oʊ`, etc. The one glide-less long vowel is `ɑ` (PALM: `fɑ́ðər`, `kɑ́m`).
 4. The accent is rhotic: every written/underlying r is pronounced (`lɛ́ðər`, `wɜ́rld`, `ɡɑ́rmənt`).
@@ -170,7 +170,7 @@ General American drops /j/ after coronal consonants; this style follows that rul
 - **No yod after t, d, n, s, z, l, θ, r** when the consonant starts the same syllable: `núw` (*new*), `dúw` (*due*), `túwn` (*tune*), `stúwdənt` (*student*), `núwmərəs` (*numerous*), `əsúwm` (*assume*), `rúwl` (*rule*), `ǽtɪtùwd` (*attitude*), `ǽvənùw` (*avenue*).
 - **Keep yod after the other consonants** (p, b, m, f, v, k, ɡ, h): `pjʊ́r`, `bjúwtəfəl`, `mjúwzɪk`, `fjúw`, `vjúw`, `kjúwb`, `ɑ́rɡjəmənt`, `hjúwmən`.
 - **Keep yod when it starts its own unstressed syllable**, even after a coronal: `vǽljuw` (*value*), `mɛ́njuw` (*menu*), `kəntɪ́njuw` (*continue*).
-- Unstressed *-ture / -dual / -duate* coalesce: `néjtʃər`, `fɜ́rnɪtʃər`, `ɡrǽdʒuəl`, `ɛ̀dʒukéjʃən`-type words use `dʒ`.
+- Unstressed *-ture / -dual / -duate* coalesce: `néjtʃər`, `fɜ́rnɪtʃər`, `ɡrǽdʒuəl`, `ɛ̀dʒəkéjʃən`-type words use `dʒ`.
 - When unsure, follow the first pronunciation listed in an American dictionary (e.g. Merriam-Webster).
 ## 5. Stress marking
 
@@ -198,8 +198,8 @@ General American drops /j/ after coronal consonants; this style follows that rul
 
 ### 5.4 Contractions
 
-- Keep the apostrophe exactly as written and transcribe around it.
-- `ɪt's` (*it's*), `ɪts` (*its*), `wɛ́rər's` (*wearer's*) — possessive/`it`-contractions stay unaccented if the host word is unaccented.
+- Omit word-internal apostrophes and transcribe the whole pronounced form as one phonetic word. The apostrophe encodes spelling, not a sound: *it's* and *its* are both `ɪts`; *wearer's* is `wɛ́rərz`; *O'Connor* is `owkɒ́nər`.
+- A contraction or possessive carries the stress of its host: `ɪts` stays unaccented, while `wɛ́rərz` keeps the acute of *wearer*.
 - Pronoun + auxiliary contractions whose pronoun has a free vowel take an acute: `ðéjv` (*they've*), `ðɛ́r` (*they're*), `júwr` (*you're*), `wíjr` (*we're*), `ájl` (*I'll*).
 - Negative contractions are content-like and accented: `dównt`, `kǽnt`, `wównt`, `ɪ́zənt`.
 
@@ -277,8 +277,8 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
 ## 9. Text formatting rules
 
 1. **Lowercase everything** — sentence-initial words, proper nouns, acronym-derived words: *John* → `dʒɒ́n`. The single exception is capital letters in letter-name tokens (rule 5).
-2. **Preserve all punctuation and spacing** exactly: `. , ? ! ; : ( ) ' " -` and any others. One source word → one transcribed token in the same position.
-3. **Apostrophes stay**: `ɪt's`, `wɛ́rər's`, `dównt`.
+2. **Preserve punctuation and spacing** exactly: `. , ? ! ; : ( ) " -` and any others. One source word → one transcribed token in the same position. The only exception is the word-internal apostrophe described in rule 3.
+3. **Omit apostrophes inside phonetic words:** *it's* → `ɪts`, *wearer's* → `wɛ́rərz`, *don't* → `dównt`, *O'Connor* → `owkɒ́nər`. Preserve apostrophes that act as quotation marks and those inside pass-through digit or notation tokens (`'70s`).
 4. **Digits, years, decades, and numbers stay as written**: `2`, `100`, `1970s`, `'70s`. Do not spell them out phonetically.
 5. **Letters read by name stay as CAPITAL letters.** Since capitals occur nowhere else in a transcription, an uppercase letter is the unambiguous signal "say this letter's name": *T-shirt* → `T-ʃɜ́rt`, *X-ray* → `X-réj`, *USB* → `USB`, *AI* → `AI`. Acronyms pronounced as words are ordinary words — fully phonetic and lowercase (*NASA* → `nǽsə`, *laser* → `léjzər`).
 6. **Never insert or delete words.** The transcription must align 1:1 with the source text.
@@ -294,7 +294,7 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
 
 ## 11. Step-by-step procedure
 
-1. Take the source sentence; lowercase it mentally but keep every punctuation mark and digit in place.
+1. Take the source sentence; lowercase it mentally but keep every punctuation mark and digit in place, except word-internal apostrophes in phonetic words (§5.4).
 2. For each word, decide: **function word?** → copy its weak form from §6, unaccented. For *the*, choose `ðə` before a consonant sound and `ðij` before a vowel sound. Special check for *have / has / had*: followed by a past participle → auxiliary, weak (`həv / həz / həd`); the only verb in the clause, or taking a direct object → main verb, accented (`hǽv / hǽz / hǽd`).
 3. Otherwise, retrieve the word's General American pronunciation — when varieties disagree, GA wins (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
    - long vowels/diphthongs → glide spellings (§4.2),
@@ -302,14 +302,14 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
    - LOT → `ɒ`, PALM (long *ah*) → `ɑ`, THOUGHT/CLOTH → `ɔ` (§4.1), STRUT → `ə`,
    - reduced vowels → `ə`/`ɪ`/`ij` via the §4.4 tie-breaker (fixed morphemes, then spelling), suffixes per §7, yod per §4.6.
 4. Mark stress: one acute per content word on the first vowel symbol of the stressed syllable; graves for secondary stresses and second elements of solid compounds (§5).
-5. Reassemble with the original punctuation, spacing, digits, and apostrophes.
+5. Reassemble with the original punctuation, spacing, and digits; omit word-internal apostrophes from phonetic words but preserve them in pass-through tokens and as quotation marks (§9).
 6. **Self-check:**
    - No `ˈ ˌ ː eɪ oʊ aɪ aʊ ɔɪ iː uː ɜː ɑː ɹ g ᵻ ʌ` anywhere (letter-name tokens are uppercase, so a lowercase `g` is always wrong), and no `ɛər` / `ɪər` / `ʊər` sequences (they are `ɛr` / `ɪr` / `ʊr`).
    - Every content word has exactly one acute; every function word from §6 has none.
    - Every weak *the* matches the next sound: `ðə` before a consonant, `ðij` before a vowel (§6).
    - Every *have / has / had* re-checked: past participle follows it → weak auxiliary; direct object or only verb → accented main verb (§6).
    - Every `r` from the spelling that is pronounced is present.
-   - No uppercase letters outside letter-name tokens (§9); digits untouched; punctuation identical to source.
+   - No uppercase letters outside letter-name tokens (§9); digits untouched; punctuation identical to source except for omitted word-internal apostrophes.
 
 ### Machine-checkable constraints
 
@@ -331,9 +331,12 @@ Checks that need tokenization rather than a single regex:
 
 - `[A-Z]` matches are allowed only inside letter-name tokens (§9).
 - Every combining accent (U+0301 / U+0300) must directly follow a vowel symbol (`a e i o u` arrive precomposed as `á é í ó ú`; `æ ɛ ɪ ɔ ɒ ʊ ə ɜ ɑ` take the combining mark).
+- Within phonetic words, every Latin vowel base must have its required glide: `i` → `ij`, `u` → `uw`, `e` → `ej`, `o` → `ow`, `a` → `aj` or `aw`. The validator checks this after removing stress accents, so it also rejects accented traditional forms such as `méɪd`, `óʊn`, and `ɔ́ɪ`. Pass-through notation and letter-name tokens are exempt.
 - A token with no accent must be a §6 weak form, a digit/letter-name token, notation (§9), or punctuation.
+- A phonetic word must contain no straight or curly apostrophe. Apostrophes remain valid as quotation punctuation and inside pass-through tokens such as `'70s`.
 - Weak *the* must be `ðə` before a consonant sound and `ðij` before a vowel sound. The validator checks this when the next token is phonetic; pass-through digits, letter names, and notation require the transcriber to apply the sound test.
-- The token count must equal the source text's token count.
+- In JSON mode, every source field must have a corresponding transcription, and `WrongAnswers` / `trans_WrongAnswers` arrays must have equal lengths.
+- In JSON mode, source and transcription must have the same token count and exact whitespace runs. Within each paired token, digit sequences and the order of Unicode punctuation/symbol characters must match. Apostrophes are excluded from this layout comparison because phonetic words omit them (§5.4).
 
 ## 12. Worked examples
 
@@ -347,7 +350,7 @@ Checks that need tokenization rather than a single regex:
 
 > What's the newest design from the 1980s that you'd wear during a cool autumn evening?
 
-`wɒt's ðə núwəst dɪzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?`
+`wɒts ðə núwəst dɪzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?`
 
 **Example 3 — derivation walkthrough**
 
@@ -394,6 +397,7 @@ The first *that* introduces the clause — weak `ðət`; the second is a demonst
 | `kwɑ́ntᵻtij` | `kwɑ́ntɪtij` | ᵻ is not part of this alphabet — use ɪ |
 | `wɒ́t` | `wɒt` | *what* is always a bare weak form |
 | `ðə ǽpəl`, `ðij júwnɪt` | `ðij ǽpəl`, `ðə júwnɪt` | weak *the* follows the next sound, not the next letter (§6) |
+| `ɪt's`, `wɛ́rər'z` | `ɪts`, `wɛ́rərz` | omit word-internal apostrophes from phonetic words (§5.4) |
 | `Méjd`, `DƷɒn` | `méjd`, `dʒɒ́n` | lowercase everywhere except letter-name tokens |
 | `usb`, `t-ʃɜ́rt` | `USB`, `T-ʃɜ́rt` | letter-read tokens are capitalized (§9) |
 | `íj = ɛ́m síj skwɛ́rd` for "e = mc^2" | `e = mc^2` | notation passes through verbatim (§9) |

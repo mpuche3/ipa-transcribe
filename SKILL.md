@@ -13,7 +13,7 @@ description: Transcribe English text into learner-friendly IPA using Lindsey-sty
    - All lowercase; the only capitals are letter-name tokens (`USB`, `T-ʃɜ́rt`).
    - Exactly one acute per content word — even monosyllables (`méjd`, `wɜ́rk`); §6 weak-form function words carry no accent at all (`əv`, `ənd`, `tə`, `wɒt`). Weak *the* is `ðə` before a consonant sound and `ðij` before a vowel sound; both are unaccented.
    - Banned everywhere: `ʌ`, `ᵻ`, `ˈ ˌ ː`, `ɹ`, ASCII `g`, and the sequences `ɛər / ɪər / ʊər`.
-   - Digits, punctuation, apostrophes, and notation (equations, formulas, units: `e = mc^2`, `sin(x)`, `km/h`) pass through unchanged; output aligns 1:1 with the source tokens.
+   - Digits, punctuation, and notation (equations, formulas, units: `e = mc^2`, `sin(x)`, `km/h`) pass through unchanged; output aligns 1:1 with the source tokens. Omit word-internal apostrophes from phonetic words (`ɪts`, `ðéjv`, `dównt`), but preserve them in quotation punctuation and pass-through tokens (`'70s`).
 
 3. **Validate** every transcription with the bundled checker (run from this skill's directory, or reference the script by absolute path):
 
@@ -21,7 +21,7 @@ description: Transcribe English text into learner-friendly IPA using Lindsey-sty
    python validate_transcriptions.py --text "<transcription>"
    ```
 
-   Fix each reported violation and re-run until it reports 0. For JSON files whose items pair source fields with `trans_*` fields, pass file or directory paths instead — that mode also checks source/transcription token parity. Run `--self-test` once to confirm the environment (expect `25/25 passed`).
+   Fix each reported violation and re-run until it reports 0. For JSON files whose items pair source fields with `trans_*` fields, pass file or directory paths instead — that mode also requires complete source/transcription pairs and checks token count, exact whitespace, punctuation/symbol layout, and digits. Run `--self-test` once to confirm the environment (expect `42/42 passed`).
 
 4. **Encoding trap:** many toolchains silently NFC-normalize `æ` + combining acute (U+0301) into the single precomposed character U+01FD, which this style forbids — the validator reports it as `precomposed-ae`. If that fires on a file you wrote, repair it:
 

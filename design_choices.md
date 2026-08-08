@@ -140,6 +140,14 @@ When goals conflicted, the earlier one won.
 
 ## Text conventions
 
+### Word-internal apostrophes are omitted
+
+**Chosen:** contractions, possessives, and names are transcribed as single phonetic words without their spelling apostrophe: `ɪts` (*it's*), `wɛ́rərz` (*wearer's*), `ðéjv` (*they've*), `owkɒ́nər` (*O'Connor*). Apostrophes remain only when they are quotation punctuation or part of a pass-through token such as `'70s`.
+
+**Also valid:** preserving the source apostrophe inside every transcription.
+
+**Why:** an apostrophe has no sound, and contractions such as *they're* (`ðɛ́r`) provide no phonologically meaningful place to put one. Omitting it makes the output deterministic and matches the system's broad-phonemic stance. Word-level alignment is unchanged: each contraction is still one token.
+
 ### All lowercase; capitals mean "say the letter name"
 
 **Also valid:** preserving source capitalization; bracketing spelled-out tokens.

@@ -4,7 +4,7 @@ A complete, self-contained system for transcribing English text into learner-fri
 
 > What's the newest design from the 1980s that you'd wear during a cool autumn evening?
 
-> `wɒt's ðə núwəst dɪzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?`
+> `wɒts ðə núwəst dɪzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?`
 
 ## What's inside
 
@@ -39,8 +39,8 @@ Validate output with plain Python (no dependencies):
 
 ```
 python validate_transcriptions.py --text "ðə flɔ́r lǽmp ɪz tɔ́l."    # one string
-python validate_transcriptions.py path/to/questions                 # JSON batches (trans_* fields)
-python validate_transcriptions.py --self-test                       # sanity check (expect 25/25)
+python validate_transcriptions.py path/to/questions                 # JSON batches + source-layout checks
+python validate_transcriptions.py --self-test                       # sanity check (expect 42/42)
 ```
 
 ## The style at a glance
@@ -54,6 +54,7 @@ python validate_transcriptions.py --self-test                       # sanity che
 | SQUARE / NEAR | plain `ɛr` / `ɪr` (`wɛ́r`, `nɪ́r`) — no centering schwa |
 | Yod | American yod-dropping: `núw`, `stúwdənt` — but `mjúwzɪk`, `hjúwmən` |
 | Function words | weak forms, unaccented: `əv ənd tə ðə / ðij həz wɒt` — *the* follows the next sound; strong forms at clause ends |
+| Apostrophes | omitted inside phonetic words: *it's* `ɪts`, *they've* `ðéjv`; preserved in pass-through tokens such as `'70s` |
 | Digits, letter names, notation | pass through as written: `1970s`, `USB`, `e = mc^2`, `sin(x)` |
 
 Three distinctions are kept in writing that readers may merge in their own speech: `ɒ` vs `ɑ` (GA merges them), `ǽr` in *carry/marry* (most GA speakers say `ɛr`), and flapping is never written.
