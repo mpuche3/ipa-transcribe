@@ -314,6 +314,7 @@ VALID_SAMPLES = [D(s) for s in [
     "ðə fə́ŋkʃən sin(x) ɪz pɪ̀rijɒ́dɪk, ə̀nlájk log(x).",
     "ðij ǽpəl ənd ðə júwnɪt",
     "míj dúw méj nów tájm dáwn tʃɔ́js",
+    "dʊ̀rəbɪ́lɪtij",
 ]]
 INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("wɛ́ər", "centering-schwa"),

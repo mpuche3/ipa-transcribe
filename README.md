@@ -40,7 +40,7 @@ Validate output with plain Python (no dependencies):
 ```
 python validate_transcriptions.py --text "ðə flɔ́r lǽmp ɪz tɔ́l."    # one string
 python validate_transcriptions.py path/to/questions                 # JSON batches + source-layout checks
-python validate_transcriptions.py --self-test                       # sanity check (expect 42/42)
+python validate_transcriptions.py --self-test                       # sanity check (expect 43/43)
 ```
 
 ## The style at a glance
@@ -55,7 +55,9 @@ python validate_transcriptions.py --self-test                       # sanity che
 | Yod | American yod-dropping: `núw`, `stúwdənt` — but `mjúwzɪk`, `hjúwmən` |
 | Function words | weak forms, unaccented: `əv ənd tə ðə / ðij həz wɒt` — *the* follows the next sound; strong forms at clause ends |
 | Apostrophes | omitted inside phonetic words: *it's* `ɪts`, *they've* `ðéjv`; preserved in pass-through tokens such as `'70s` |
-| Digits, letter names, notation | pass through as written: `1970s`, `USB`, `e = mc^2`, `sin(x)` |
+| Digits, letter names, notation | classify from context; preserve symbolic material as written (`1970s`, `USB`, `e = mc^2`, `sin(x)`, `camelCase`) |
+
+Notation is a semantic category, not a token shape. The same spelling may be spoken in one context and symbolic in another: *NASA launched it* uses `nǽsə`, while `NASA` used as an identifier stays `NASA`; prose *sine* becomes `sájn`, while the function call `sin(x)` stays unchanged. The transcriber or LLM makes this decision from context. The validator checks mechanical form but cannot prove that the classification was correct.
 
 Three distinctions are kept in writing that readers may merge in their own speech: `ɒ` vs `ɑ` (GA merges them), `ǽr` in *carry/marry* (most GA speakers say `ɛr`), and flapping is never written.
 

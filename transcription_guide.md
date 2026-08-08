@@ -120,7 +120,7 @@ Rules:
 - **No r-vowel takes a centering `ə`.** Never write `ɛər`, `ɪər`, `ʊər`: *wear* `wɛ́r`, *near* `nɪ́r`, *sure* `ʃʊ́r`.
 - DRESS + r and SQUARE are both plain `ɛr`: *very* `vɛ́rij`, *vary* `vɛ́rij`, *error* `ɛ́rər`, *care* `kɛ́r`, *area* `ɛ́rijə`.
 - KIT + r and NEAR are both plain `ɪr`: *mirror* `mɪ́rər`, *spirit* `spɪ́rɪt`, *material* `mətɪ́rijəl`, *period* `pɪ́rijəd`.
-- `æ` survives before intervocalic r: `kǽrəktər` (*character*), `kǽrij` (*carry*) — a deliberate exception to the M-W rule (§1): most GA speakers merge these into `ɛr` (*marry* = *merry*), and either pronunciation is fine.
+- `æ` survives before intervocalic r: `kǽrəktər` (*character*), `kǽrij` (*carry*), `mǽrij` (*marry*) — a deliberate exception to the M-W rule (§1). Always write `ǽr` in these words for deterministic output; readers whose accent merges *marry* with *merry* may pronounce it as `ɛ́r`.
 - Unstressed NURSE/letter syllables are all plain `ər`: `sərprájz`, `pərhǽps`.
 
 **Vowels before intervocalic r** (r between vowels inside a word):
@@ -129,7 +129,7 @@ Rules:
 |---|---|
 | ɛ́r | *very* `vɛ́rij`, *error* `ɛ́rər`, *parent* `pɛ́rənt` |
 | ɪ́r | *mirror* `mɪ́rər`, *spirit* `spɪ́rɪt`, *serious* `sɪ́rijəs` |
-| ǽr | *carry* `kǽrij`, *character* `kǽrəktər` — many GA speakers merge these into `ɛ́r`; either is fine |
+| ǽr | *carry* `kǽrij`, *marry* `mǽrij`, *character* `kǽrəktər` — always write `ǽr`; readers may merge it with `ɛ́r` in speech |
 | ɜ́r | *hurry* `hɜ́rij`, *courage* `kɜ́rɪdʒ`, *current* `kɜ́rənt` — STRUT + r merges into NURSE (no `ə́r` here) |
 | ɒ́r | *borrow* `bɒ́row`, *sorry* `sɒ́rij`, *tomorrow* `təmɒ́row` |
 | ɔ́r | *orange* `ɔ́rɪndʒ`, *story* `stɔ́rij`, *glory* `ɡlɔ́rij` |
@@ -185,10 +185,10 @@ General American drops /j/ after coronal consonants; this style follows that rul
 
 ### 5.2 Which words get marked
 
-- **Content words** (nouns, main verbs, adjectives, adverbs, numerals, interjections) always carry exactly one acute — including monosyllables: `méjd`, `fíjl`, `wɔ́rm`, `ǽd`, `tíj`, `wə́n`.
+- **Unhyphenated content words** (nouns, main verbs, adjectives, adverbs, numerals, interjections) always carry exactly one acute — including monosyllables: `méjd`, `fíjl`, `wɔ́rm`, `ǽd`, `tíj`, `wə́n`. In hyphenated compounds, apply this rule separately to each element (§5.3).
 - **Function words** in their weak form get **no accent at all**, even when the vowel is a strong one: `æz`, `bət`, `nɒt`, `səm`, `ɔl`, `wɒt`, `majt`, `wʊd`, `ðijz`, `dawn` (particle), `əp`. See the table in §6. This bare form is for monosyllables only: a function word of two or more syllables keeps the acute of its word-internal stress even when weak — `ɪ́ntə` (*into*), `əbáwt` (*about*), `ówvər` (*over*). The `ajər / awər` nuclei count as one syllable, so *our* stays bare: `awər`.
 - **Wh-question words are accented** (`wɪ́tʃ`, `wɛ́n`, `wɛ́r`, `húw`, `wáj`, `háw`) — **except *what*, which is always bare `wɒt`** (fixed exception in this style).
-- A word never has more than one acute. Longer words add graves for secondary stresses: `mæ̀θəmǽtɪkəl`, `rɛ̀prəzɛ́ntɪd`, `əsówsijèjtɪd`, `vɜ̀rsətɪ́lɪtij`, `ə̀nlájk`.
+- An unhyphenated word never has more than one acute. Longer words add graves for secondary stresses: `mæ̀θəmǽtɪkəl`, `rɛ̀prəzɛ́ntɪd`, `əsówsijèjtɪd`, `vɜ̀rsətɪ́lɪtij`, `ə̀nlájk`. A hyphenated compound may contain one acute in each content-word element (§5.3).
 
 ### 5.3 Compounds
 
@@ -238,7 +238,7 @@ Quantifiers/adverbs like *any* `ɛ́nij`, *every* `ɛ́vrij`, *both* `bówθ`, *
 | -y / -ies | `ij` / `ijz` | `bɒ́dij`, `æktɪ́vɪtijz` |
 | -ly / -ally / -ily | `lij` / `əlij` / `ɪlij` | `lájklij`, `tɪ́pɪkəlij`, `íjzɪlij` |
 | -er / -or / -est | `ər` / `ər` / `əst` | `kúwlər`, `vɛ́ktər`, `sɪ́mpləst` |
-| -ity / -ities | `ɪtij` / `ɪtijz` | `dərəbɪ́lɪtij`, `kwɑ́ntɪtijz` |
+| -ity / -ities | `ɪtij` / `ɪtijz` | `dʊ̀rəbɪ́lɪtij`, `kwɑ́ntɪtijz` |
 | -age | `ɪdʒ` | `kɜ́rɪdʒ`, `bɛ́vrɪdʒ`, `lǽŋɡwɪdʒ` |
 | -tion / -ssion | `ʃən` | `krijéjʃən`, `dɪskə́ʃən` |
 | -sion (voiced) | `ʒən` | `dɪsɪ́ʒən`, `vɜ́rʒən` |
@@ -283,7 +283,18 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
 5. **Letters read by name stay as CAPITAL letters.** Since capitals occur nowhere else in a transcription, an uppercase letter is the unambiguous signal "say this letter's name": *T-shirt* → `T-ʃɜ́rt`, *X-ray* → `X-réj`, *USB* → `USB`, *AI* → `AI`. Acronyms pronounced as words are ordinary words — fully phonetic and lowercase (*NASA* → `nǽsə`, *laser* → `léjzər`).
 6. **Never insert or delete words.** The transcription must align 1:1 with the source text.
 7. **Obvious misspellings:** transcribe the intended word (*woter* → `wɔ́tər`), keeping the 1:1 alignment. Never render a typo phonetically.
-8. **Notation passes through verbatim** — equations, formulas, function names, variables, units, chemical formulas, code: *e = mc^2* → `e = mc^2`, *sin(x)* → `sin(x)`, *km/h* → `km/h`, *H2O* → `H2O`. Case is preserved inside notation (`e` stays lowercase — the capitals rule applies only to letter names in prose, like `T-ʃɜ́rt`). When the source spells the concept as an English word, transcribe it: *sine* → `sájn`, *equals* → `íjkwəlz`, *squared* → `skwɛ́rd`. Test: if you would have to decide how to read it aloud, it is notation — leave it exactly as written.
+8. **Classify by meaning, then handle notation.** First decide from context whether a token is spoken English, a letter-name token, or symbolic material. Transcribe spoken English, including acronyms pronounced as words. Preserve symbolic material verbatim: equations, formulas, function calls, variables, units, chemical formulas, code, and identifiers. Case is preserved inside notation (`e`, `NaCl`, `camelCase`); the lowercase phonetic rule does not apply there. Capitalization and punctuation are clues, not decisive tests — the same spelling can require different treatment in different contexts.
+
+| Context | Treatment | Why |
+|---|---|---|
+| *NASA launched it* | `nǽsə lɔ́ntʃt ɪt` | *NASA* is pronounced as an English word |
+| *enter `NASA` as the identifier* | preserve `NASA` | the token is an identifier being referenced |
+| *the sine is positive* | transcribe *sine* as `sájn` | the concept is expressed as an English word |
+| *evaluate `sin(x)`* | preserve `sin(x)` | it is a function call |
+| *use camel case* | transcribe the English words | the phrase names a convention in prose |
+| *set `camelCase` to true* | preserve `camelCase` | it is a code identifier |
+
+This classification is a semantic judgment for the transcriber or LLM; no token-shape rule can settle every case. The validator checks mechanical constraints after that decision but cannot prove that a token was correctly classified. In particular, `--text` has no source context, and its notation heuristics may not recognize every valid code or scientific token. Do not change a contextually correct transcription merely to satisfy a generic capitalization or character warning on a verbatim token; re-check the source meaning instead.
 
 ## 10. Encoding notes
 
@@ -296,16 +307,16 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
 
 1. Take the source sentence; lowercase it mentally but keep every punctuation mark and digit in place, except word-internal apostrophes in phonetic words (§5.4).
 2. For each word, decide: **function word?** → copy its weak form from §6, unaccented. For *the*, choose `ðə` before a consonant sound and `ðij` before a vowel sound. Special check for *have / has / had*: followed by a past participle → auxiliary, weak (`həv / həz / həd`); the only verb in the clause, or taking a direct object → main verb, accented (`hǽv / hǽz / hǽd`).
-3. Otherwise, retrieve the word's General American pronunciation — when varieties disagree, GA wins (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
+3. Classify each remaining token from context (§9): spoken English → retrieve its General American pronunciation; letter name → preserve as capitals; notation/code/identifier → preserve verbatim. For spoken English, when varieties disagree, GA wins (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
    - long vowels/diphthongs → glide spellings (§4.2),
    - r-vowels → rhotic spellings (§4.3),
    - LOT → `ɒ`, PALM (long *ah*) → `ɑ`, THOUGHT/CLOTH → `ɔ` (§4.1), STRUT → `ə`,
    - reduced vowels → `ə`/`ɪ`/`ij` via the §4.4 tie-breaker (fixed morphemes, then spelling), suffixes per §7, yod per §4.6.
-4. Mark stress: one acute per content word on the first vowel symbol of the stressed syllable; graves for secondary stresses and second elements of solid compounds (§5).
+4. Mark stress: one acute per unhyphenated content word on the first vowel symbol of the stressed syllable; in hyphenated compounds, apply this separately to each element. Use graves for secondary stresses and second elements of solid compounds (§5).
 5. Reassemble with the original punctuation, spacing, and digits; omit word-internal apostrophes from phonetic words but preserve them in pass-through tokens and as quotation marks (§9).
 6. **Self-check:**
    - No `ˈ ˌ ː eɪ oʊ aɪ aʊ ɔɪ iː uː ɜː ɑː ɹ g ᵻ ʌ` anywhere (letter-name tokens are uppercase, so a lowercase `g` is always wrong), and no `ɛər` / `ɪər` / `ʊər` sequences (they are `ɛr` / `ɪr` / `ʊr`).
-   - Every content word has exactly one acute; every function word from §6 has none.
+   - Every unhyphenated content word has exactly one acute; every function word from §6 has none. Each content-word element of a hyphenated compound has its own acute (§5.3).
    - Every weak *the* matches the next sound: `ðə` before a consonant, `ðij` before a vowel (§6).
    - Every *have / has / had* re-checked: past participle follows it → weak auxiliary; direct object or only verb → accented main verb (§6).
    - Every `r` from the spelling that is pronounced is present.
@@ -337,6 +348,8 @@ Checks that need tokenization rather than a single regex:
 - Weak *the* must be `ðə` before a consonant sound and `ðij` before a vowel sound. The validator checks this when the next token is phonetic; pass-through digits, letter names, and notation require the transcriber to apply the sound test.
 - In JSON mode, every source field must have a corresponding transcription, and `WrongAnswers` / `trans_WrongAnswers` arrays must have equal lengths.
 - In JSON mode, source and transcription must have the same token count and exact whitespace runs. Within each paired token, digit sequences and the order of Unicode punctuation/symbol characters must match. Apostrophes are excluded from this layout comparison because phonetic words omit them (§5.4).
+
+**Semantic limit:** validation cannot determine whether an ambiguous source token should be spoken or preserved as notation. That decision must be made from context before validation (§9). Validator notation recognition is intentionally incomplete and must not override a clearly established code, identifier, formula, or other symbolic reading.
 
 ## 12. Worked examples
 

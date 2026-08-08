@@ -92,7 +92,7 @@ When goals conflicted, the earlier one won.
 
 **Also valid:** merging into `ɛr`, which is what most GA speakers do (M-W prints \ˈker-ē\).
 
-**Why:** reader's choice again — no confusion is possible in either direction, and keeping `ǽr` preserves the distinction for speakers who have it. One of the three documented departures from pure GA.
+**Why:** fixing `ǽr` in writing preserves the distinction for speakers who have it and keeps transcription deterministic. Readers whose accent merges *marry* with *merry* may pronounce written `ǽr` as `ɛ́r`; that freedom belongs to speech, not to the transcription. One of the three documented departures from pure GA.
 
 ## Consonants
 
@@ -158,7 +158,7 @@ When goals conflicted, the earlier one won.
 
 **Also valid:** spelling everything out (`1970s` → `nàjntijn sɛ́vəntijz`).
 
-**Why:** notation has multiple valid readings; expanding it breaks 1:1 token alignment with the source and injects guesses. The test in the guide: if you would have to decide how to read it aloud, it stays as written.
+**Why:** notation has multiple valid readings; expanding it breaks 1:1 token alignment with the source and injects guesses. Whether a token is notation is semantic rather than typographic: `NASA` can be a pronounced acronym or an identifier, while `sin` can be an English word or a function name. The transcriber decides from context first, then either transcribes spoken language or preserves symbolic material. The validator deliberately does not claim to solve this classification problem.
 
 ### Combining accents (`æ` + U+0301), precomposed only for `á é í ó ú`
 
