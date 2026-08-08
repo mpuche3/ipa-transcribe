@@ -132,11 +132,11 @@ When goals conflicted, the earlier one won.
 
 ### Weak forms are transcribed
 
-**Chosen:** function words appear as actually spoken in running text — `əv, tə, ðə, həz` — with strong forms at clause ends and a fixed table (§6) for determinism.
+**Chosen:** function words appear as actually spoken in running text — `əv, tə, ðə / ðij, həz` — with strong forms at clause ends and a fixed table (§6) for determinism. Weak *the* is `ðə` before a consonant sound and `ðij` before a vowel sound; the choice follows pronunciation rather than spelling (`ðə jùwnəvɜ́rsətij`, `ðij áwər`).
 
-**Also valid:** citation forms throughout, which is what dictionaries show.
+**Also valid:** citation forms throughout, which is what dictionaries show; or invariant weak `ðə`, reflecting the considerable variation in spontaneous American speech.
 
-**Why:** connected speech is the point. Rhythm and reduction are where learners' comprehension fails, and a transcription of sentences (rather than isolated words) should show the sentence phonology. Bareness (no accent) is the written signal of weakness — but only for monosyllables: a polysyllabic function word keeps its word-internal acute (`ɪ́ntə`, `əbáwt`), because there the mark locates the stressed syllable, information a bare form would destroy (and `ə` is stressable in this system, so it is not recoverable).
+**Why:** connected speech is the point. Rhythm and reduction are where learners' comprehension fails, and a transcription of sentences (rather than isolated words) should show the sentence phonology. The familiar `ðə` / `ðij` alternation gives learners a deterministic way to avoid vowel hiatus, even though native usage is not categorical. Bareness (no accent) is the written signal of weakness — but only for monosyllables: a polysyllabic function word keeps its word-internal acute (`ɪ́ntə`, `əbáwt`), because there the mark locates the stressed syllable, information a bare form would destroy (and `ə` is stressable in this system, so it is not recoverable).
 
 ## Text conventions
 

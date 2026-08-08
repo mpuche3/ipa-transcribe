@@ -42,7 +42,7 @@ One-glance symbol chart (details in §3–§5):
 4. The accent is rhotic: every written/underlying r is pronounced (`lɛ́ðər`, `wɜ́rld`, `ɡɑ́rmənt`).
 5. No centering schwa before r: SQUARE = `ɛr` (`wɛ́r`), NEAR = `ɪr` (`nɪ́r`). And `ʌ` is never used — STRUT is written `ə`, stressed or not (`kə́lər`, `nə́mbər`).
 6. Primary stress = acute on the first vowel symbol of the stressed syllable (`dʒǽkət`, `káwz`). Secondary stress = grave (`fʊ́twɛ̀r`, `mæ̀θəmǽtɪkəl`).
-7. Content words always carry an accent — even monosyllables (`méjd`, `fíjl`). Function words appear in weak form with **no accent** (`əv`, `ənd`, `tə`, `ðə`, `kən`, `fɔr`).
+7. Content words always carry an accent — even monosyllables (`méjd`, `fíjl`). Function words appear in weak form with **no accent** (`əv`, `ənd`, `tə`, `ðə` / `ðij`, `kən`, `fɔr`).
 8. Digits and years stay in written form (`2`, `1970s`, `'70s`); letters read by name stay as **capital** letters: `T-ʃɜ́rt`, `USB`. Equations, formulas, and units pass through verbatim: `e = mc^2`, `sin(x)`, `km/h` (§9).
 9. Use IPA letterforms: `ɡ` (U+0261) not `g`, `j` for the *y* sound, `r` not `ɹ`.
 10. When varieties of English disagree, General American wins: `íjðər`, `skɛ́dʒuwl`, `ɜ́rb` (§1).
@@ -209,7 +209,7 @@ Use these forms, unaccented, whenever the word is a function word in running tex
 
 | Category | Forms |
 |---|---|
-| Articles | *a* `ə` · *an* `ən` · *the* `ðə` (also before vowels) |
+| Articles | *a* `ə` · *an* `ən` · *the* `ðə` before a consonant sound, `ðij` before a vowel sound |
 | Conjunctions | *and* `ənd` · *or* `ɔr` · *but* `bət` · *if* `ɪf` · *as* `æz` · *than* `ðən` · *that* (conj./relative) `ðət` |
 | Prepositions | *of* `əv` · *to* `tə` (also before vowels: `tə ǽd`) · *into* `ɪ́ntə` (polysyllabic — keeps its acute, §5.2) · *in* `ɪn` · *on* `ɒn` · *at* `ət` · *by* `baj` · *for* `fɔr` · *from* `frəm` · *with* `wɪð` |
 | Particles | *up* `əp` · *down* `dawn` · *out* `awt` (as particle) |
@@ -223,6 +223,8 @@ Use these forms, unaccented, whenever the word is a function word in running tex
 | Other | *not* `nɒt` · *some* `səm` · *all* `ɔl` · *there* (existential) `ðər`; locative *there* is content: `ðɛ́r` · *what* `wɒt` |
 
 Quantifiers/adverbs like *any* `ɛ́nij`, *every* `ɛ́vrij`, *both* `bówθ`, *each* `íjtʃ`, *only* `ównlij`, *very* `vɛ́rij`, *well* `wɛ́l`, *still* `stɪ́l`, *just* `dʒə́st` count as **content words** and are accented.
+
+**The article *the*.** Choose its weak form from the first **sound** of the next word, not its first written letter: `ðə bʊ́k`, `ðij ǽpəl`, `ðə jùwnəvɜ́rsətij` (*the university*), `ðij áwər` (*the hour*). Apply the same sound test when the next token passes through unchanged: `ðij 8`, `ðij FBI`, but `ðə USB`. Both weak forms are unaccented. Genuine emphasis or citation takes the strong form `ðíj` (*not a solution, the solution*).
 
 **Strong forms at clause ends:** a function word stranded at the end of a clause — a preposition with no following complement, or a final auxiliary — takes its strong, accented form: *what are you looking at?* → `wɒt ɑr juw lʊ́kɪŋ ǽt?`; *where do you come from?* → `wɛ́r dúw juw kə́m frɒ́m?`; *yes, it is.* → `jɛ́s, ɪt ɪ́z.` Strong forms: *at* `ǽt`, *of* `ɒ́v`, *to* `túw`, *for* `fɔ́r`, *from* `frɒ́m`, *is* `ɪ́z`, *are* `ɑ́r`, *was* `wɒ́z`, *has* `hǽz`, *can* `kǽn`, *have* `hǽv`, *would* `wʊ́d`.
 
@@ -293,7 +295,7 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
 ## 11. Step-by-step procedure
 
 1. Take the source sentence; lowercase it mentally but keep every punctuation mark and digit in place.
-2. For each word, decide: **function word?** → copy its weak form from §6, unaccented. Special check for *have / has / had*: followed by a past participle → auxiliary, weak (`həv / həz / həd`); the only verb in the clause, or taking a direct object → main verb, accented (`hǽv / hǽz / hǽd`).
+2. For each word, decide: **function word?** → copy its weak form from §6, unaccented. For *the*, choose `ðə` before a consonant sound and `ðij` before a vowel sound. Special check for *have / has / had*: followed by a past participle → auxiliary, weak (`həv / həz / həd`); the only verb in the clause, or taking a direct object → main verb, accented (`hǽv / hǽz / hǽd`).
 3. Otherwise, retrieve the word's General American pronunciation — when varieties disagree, GA wins (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
    - long vowels/diphthongs → glide spellings (§4.2),
    - r-vowels → rhotic spellings (§4.3),
@@ -304,6 +306,7 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
 6. **Self-check:**
    - No `ˈ ˌ ː eɪ oʊ aɪ aʊ ɔɪ iː uː ɜː ɑː ɹ g ᵻ ʌ` anywhere (letter-name tokens are uppercase, so a lowercase `g` is always wrong), and no `ɛər` / `ɪər` / `ʊər` sequences (they are `ɛr` / `ɪr` / `ʊr`).
    - Every content word has exactly one acute; every function word from §6 has none.
+   - Every weak *the* matches the next sound: `ðə` before a consonant, `ðij` before a vowel (§6).
    - Every *have / has / had* re-checked: past participle follows it → weak auxiliary; direct object or only verb → accented main verb (§6).
    - Every `r` from the spelling that is pronounced is present.
    - No uppercase letters outside letter-name tokens (§9); digits untouched; punctuation identical to source.
@@ -329,6 +332,7 @@ Checks that need tokenization rather than a single regex:
 - `[A-Z]` matches are allowed only inside letter-name tokens (§9).
 - Every combining accent (U+0301 / U+0300) must directly follow a vowel symbol (`a e i o u` arrive precomposed as `á é í ó ú`; `æ ɛ ɪ ɔ ɒ ʊ ə ɜ ɑ` take the combining mark).
 - A token with no accent must be a §6 weak form, a digit/letter-name token, notation (§9), or punctuation.
+- Weak *the* must be `ðə` before a consonant sound and `ðij` before a vowel sound. The validator checks this when the next token is phonetic; pass-through digits, letter names, and notation require the transcriber to apply the sound test.
 - The token count must equal the source text's token count.
 
 ## 12. Worked examples
@@ -388,7 +392,8 @@ The first *that* introduces the clause — weak `ðət`; the second is a demonst
 | `aj́`, `ój` (accent on glide) | `áj`, `ɔ́j` | accent goes on the first vowel symbol |
 | `gɑ́rmənt` with `g` | `ɡɑ́rmənt` | use IPA ɡ (U+0261) |
 | `kwɑ́ntᵻtij` | `kwɑ́ntɪtij` | ᵻ is not part of this alphabet — use ɪ |
-| `wɒ́t`, `ðij` | `wɒt`, `ðə` | *what* and *the* are always bare weak forms |
+| `wɒ́t` | `wɒt` | *what* is always a bare weak form |
+| `ðə ǽpəl`, `ðij júwnɪt` | `ðij ǽpəl`, `ðə júwnɪt` | weak *the* follows the next sound, not the next letter (§6) |
 | `Méjd`, `DƷɒn` | `méjd`, `dʒɒ́n` | lowercase everywhere except letter-name tokens |
 | `usb`, `t-ʃɜ́rt` | `USB`, `T-ʃɜ́rt` | letter-read tokens are capitalized (§9) |
 | `íj = ɛ́m síj skwɛ́rd` for "e = mc^2" | `e = mc^2` | notation passes through verbatim (§9) |

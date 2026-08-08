@@ -56,7 +56,7 @@ SEQUENCE_RULES = [
 LEGACY_SKIP = {"banned-vowels", "centering-schwa"}
 
 WEAK_FORMS = set("""
-ə ən ðə ənd ɔr bət ɪf æz ðən ðət əv tə ɪn ɒn ət baj fɔr frəm wɪð
+ə ən ðə ðij ənd ɔr bət ɪf æz ðən ðət əv tə ɪn ɒn ət baj fɔr frəm wɪð
 əp dawn awt aj juw hij ʃij ɪt wij ðej mij hɪm hər əs ðɛm
 maj jɔr hɪz ɪts awər ðɛr ðɪs ðijz ðowz
 əm ɪz ɑr wəz wər bij bɪn həv həz həd dəz dɪd
@@ -85,6 +85,27 @@ def is_notation(seg):
     return False
 
 
+def token_core(raw):
+    """Remove surrounding punctuation while preserving phonetic content."""
+    return raw.strip("".join(PUNCT - {" "}))
+
+
+def phonetic_initial(raw):
+    """Classify an inspectable phonetic token's first sound."""
+    tok = token_core(raw)
+    if not tok:
+        return None
+    seg = tok.split("-", 1)[0]
+    if is_notation(seg) or any(c in CAPS or c in DIGITS for c in seg):
+        return None
+    first = seg[0]
+    if first in IPA_VOWELS or first in LATIN_VOWELS or first in PRECOMPOSED:
+        return "vowel"
+    if first in PHONETIC_LOWER or first in CONSONANT_IPA:
+        return "consonant"
+    return None
+
+
 def check_string(text, legacy=False):
     """Return a list of (rule, detail) violations for one transcription string."""
     out = []
@@ -111,9 +132,22 @@ def check_string(text, legacy=False):
                 out.append(("accent-misplaced",
                             f"'{snippet(text, i - 1)}' — accent must follow a vowel symbol"))
 
+    # The weak form of "the" follows the next sound. Pass-through tokens such
+    # as digits and letter names cannot be inferred from the transcription.
+    raw_tokens = text.split()
+    for index, raw in enumerate(raw_tokens[:-1]):
+        form = token_core(raw)
+        if form not in {"ðə", "ðij"}:
+            continue
+        initial = phonetic_initial(raw_tokens[index + 1])
+        if form == "ðə" and initial == "vowel":
+            out.append(("the-context", f"'{form} {token_core(raw_tokens[index + 1])}' — use ðij before a vowel sound"))
+        elif form == "ðij" and initial == "consonant":
+            out.append(("the-context", f"'{form} {token_core(raw_tokens[index + 1])}' — use ðə before a consonant sound"))
+
     # token-level checks
-    for raw in text.split():
-        tok = raw.strip("".join(PUNCT - {" "}))
+    for raw in raw_tokens:
+        tok = token_core(raw)
         if not tok:
             continue
         for seg in tok.split("-"):
@@ -189,6 +223,7 @@ VALID_SAMPLES = [D(s) for s in [
     "mæ̀θəmǽtɪkəl əsówsijèjtɪd wɔ́l-tə-wɔ́l",
     "ájnstàjnz ɪkwéjʒən e = mc^2 rɪléjts ɛ́nərdʒij ənd mǽs.",
     "ðə fə́ŋkʃən sin(x) ɪz pɪ̀rijɒ́dɪk, ə̀nlájk log(x).",
+    "ðij ǽpəl ənd ðə júwnɪt",
 ]]
 INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("wɛ́ər", "centering-schwa"),
@@ -204,6 +239,8 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("ɹɪ́lij", "banned-allophones"),
     ("kɒ́ŋkə́r", "multiple-acutes"),
     ("ðə leather dʒǽkət", "unaccented-token"),
+    ("ðə ǽpəl", "the-context"),
+    ("ðij júwnɪt", "the-context"),
 ]]
 
 
