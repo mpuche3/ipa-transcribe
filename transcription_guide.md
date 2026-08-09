@@ -120,7 +120,7 @@ Rules:
 - **No r-vowel takes a centering `ə`.** Never write `ɛər`, `ɪər`, `ʊər`: *wear* `wɛ́r`, *near* `nɪ́r`, *sure* `ʃʊ́r`.
 - DRESS + r and SQUARE are both plain `ɛr`: *very* `vɛ́rij`, *vary* `vɛ́rij`, *error* `ɛ́rər`, *care* `kɛ́r`, *area* `ɛ́rijə`.
 - KIT + r and NEAR are both plain `ɪr`: *mirror* `mɪ́rər`, *spirit* `spɪ́rɪt`, *material* `mətɪ́rijəl`, *period* `pɪ́rijəd`.
-- `æ` survives before intervocalic r: `kǽrəktər` (*character*), `kǽrij` (*carry*), `mǽrij` (*marry*) — a deliberate exception to the M-W rule (§1). Always write `ǽr` in these words for deterministic output; readers whose accent merges *marry* with *merry* may pronounce it as `ɛ́r`.
+- **Intervocalic TRAP override — apply before the M-W rule (§1).** When the lexical vowel is TRAP /æ/ and `r` is followed by another vowel within the word, always write `ǽr`, even when merged General American speech suggests `ɛ́r`. This is a general category, not a closed list: `kǽrəktər` (*character*), `kǽrij` (*carry*), `mǽrij` (*marry*), `pǽrəmàwnt` (*paramount*). Contrast non-TRAP words such as `pɛ́rənt` (*parent*) and `vɛ́rij` (*very/vary*). Readers whose accent merges *marry* with *merry* may pronounce written `ǽr` as `ɛ́r`.
 - Unstressed NURSE/letter syllables are all plain `ər`: `sərprájz`, `pərhǽps`.
 
 **Vowels before intervocalic r** (r between vowels inside a word):
@@ -129,7 +129,7 @@ Rules:
 |---|---|
 | ɛ́r | *very* `vɛ́rij`, *error* `ɛ́rər`, *parent* `pɛ́rənt` |
 | ɪ́r | *mirror* `mɪ́rər`, *spirit* `spɪ́rɪt`, *serious* `sɪ́rijəs` |
-| ǽr | *carry* `kǽrij`, *marry* `mǽrij`, *character* `kǽrəktər` — always write `ǽr`; readers may merge it with `ɛ́r` in speech |
+| ǽr | *carry* `kǽrij`, *marry* `mǽrij`, *character* `kǽrəktər`, *paramount* `pǽrəmàwnt` — always write `ǽr` for lexical TRAP; readers may merge it with `ɛ́r` in speech |
 | ɜ́r | *hurry* `hɜ́rij`, *courage* `kɜ́rɪdʒ`, *current* `kɜ́rənt` — STRUT + r merges into NURSE (no `ə́r` here) |
 | ɒ́r | *borrow* `bɒ́row`, *sorry* `sɒ́rij`, *tomorrow* `təmɒ́row` |
 | ɔ́r | *orange* `ɔ́rɪndʒ`, *story* `stɔ́rij`, *glory* `ɡlɔ́rij` |
@@ -403,6 +403,7 @@ The first *that* introduces the clause — weak `ðət`; the second is a demonst
 | `meɪd`, `oʊnli`, `iːkwəl` | `méjd`, `ównlij`, `íjkwəl` | no length marks or traditional diphthongs |
 | `lɛ́ðə`, `wɜ́ːld` | `lɛ́ðər`, `wɜ́rld` | the accent is rhotic — never drop r |
 | `wɛ́ər`, `nɪ́ər`, `ðɛər` | `wɛ́r`, `nɪ́r`, `ðɛr` | no centering ə before r — SQUARE/NEAR are plain `ɛr` / `ɪr` |
+| `pɛ́rəmàwnt` | `pǽrəmàwnt` | *paramount* has lexical TRAP before intervocalic `r`; the `ǽr` override applies before the M-W rule (§4.3) |
 | `kʌ́lər`, `bʌt`, `sʌ́bkʌ̀ltʃər` | `kə́lər`, `bət`, `sə́bkə̀ltʃər` | `ʌ` is never used — STRUT is `ə` |
 | `fɒ́ðər`, `kɒ́m`, `ɒ́mənd` | `fɑ́ðər`, `kɑ́m`, `ɑ́mənd` | PALM words have the long vowel — write `ɑ` (§4.1) |
 | `aj́`, `ój` (accent on glide) | `áj`, `ɔ́j` | accent goes on the first vowel symbol |
