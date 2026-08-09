@@ -3,7 +3,7 @@
 
 Implements the "Machine-checkable constraints" of §11:
   - banned symbols and sequences (regex checks)
-  - capitals only in letter-name tokens
+    - capitals only in letter-name tokens, optionally followed by phonetic s/z/ɪz
   - accent marks only on vowel symbols, with the expected encoding
     - Latin vowel bases use the required j/w glide notation
   - unaccented tokens must be known weak forms (strict mode)
@@ -71,6 +71,8 @@ km cm mm kg mg ml mL kW Hz kHz MHz GHz dB mph
 GREEK_SINGLES = set("πθφλμσδΔΣΩαβγε∞")
 TRADITIONAL_DIPHTHONG = re.compile(r"eɪ|əʊ|oʊ|aɪ|aʊ|ɔɪ")
 REQUIRED_GLIDES = {"a": "jw", "e": "j", "i": "j", "o": "w", "u": "w"}
+LETTER_NAME_SUFFIX = re.compile(r"^([A-Z]+)(ɪz|[sz])$")
+LETTER_NAME_IZ_FINALS = set("HSX")
 
 
 def is_notation(seg):
@@ -169,10 +171,18 @@ def check_string(text, legacy=False):
                 out.append(("word-apostrophe",
                             f"'{seg}' — omit apostrophes inside phonetic words"))
             if any(c in CAPS for c in seg):
-                if not all(c in CAPS for c in seg):
+                suffix_match = LETTER_NAME_SUFFIX.fullmatch(seg)
+                if suffix_match:
+                    stem, suffix = suffix_match.groups()
+                    final_letter = stem[-1]
+                    expected = "s" if final_letter == "F" else "ɪz" if final_letter in LETTER_NAME_IZ_FINALS else "z"
+                    if suffix != expected:
+                        out.append(("letter-name-suffix",
+                                    f"'{seg}' — final {final_letter} takes {expected}"))
+                elif not all(c in CAPS for c in seg):
                     out.append(("mixed-capitals",
-                                f"'{seg}' — capitals only as whole letter-name tokens"))
-                continue                      # USB, T — letter-name segment
+                                f"'{seg}' — capitals only in letter-name tokens and their s / z / ɪz suffixes"))
+                continue                      # USB, USBz, PDFs — letter-name segment
             if "g" in seg:
                 out.append(("ascii-g", f"'{seg}' — must be IPA ɡ (U+0261)"))
             for ch in seg:
@@ -308,6 +318,7 @@ VALID_SAMPLES = [D(s) for s in [
     "ɪf aj həd hǽd wɔ́tər, aj wʊd həv ʃɛ́rd ɪt.",
     "aj ríjəlàjzd ðət ðǽt wəz rɔ́ŋ, túw léjt.",
     "maj fɑ́ðər júwzd ə USB drájv tə rɪkɔ́rd ðə rɪzə́lts — wɛ́r dəz ðə mə́nij kə́m frɒ́m?",
+    "ðə USBz wər nɛ́kst tə ðə PDFs ənd ðə Xɪz.",
     "dɪvájd-ənd-kɒ́ŋkər rɪkɜ́rənsɪz ɒn ə T-ʃɜ́rt frəm ðə '70s",
     "mæ̀θəmǽtɪkəl əsówsijèjtɪd wɔ́l-tə-wɔ́l",
     "ájnstàjnz ɪkwéjʒən e = mc^2 rɪléjts ɛ́nərdʒij ənd mǽs.",
@@ -315,6 +326,7 @@ VALID_SAMPLES = [D(s) for s in [
     "ðij ǽpəl ənd ðə júwnɪt",
     "míj dúw méj nów tájm dáwn tʃɔ́js",
     "dʊ̀rəbɪ́lɪtij",
+    "ɡrǽdʒuwəl",
 ]]
 INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("wɛ́ər", "centering-schwa"),
@@ -326,6 +338,7 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("wɜːld", "length-mark"),
     ("meɪd", "traditional-diphthong"),
     ("Méjd", "mixed-capitals"),
+    ("USBs", "letter-name-suffix"),
     ("fʊtwɛr ɪz", "unaccented-token"),
     ("ɹɪ́lij", "banned-allophones"),
     ("kɒ́ŋkə́r", "multiple-acutes"),
@@ -342,6 +355,7 @@ VALID_LAYOUT_SAMPLES = [
     ("What's wrong?", "wɒts rɔ́ŋ?"),
     ("O'Connor left.", "owkɒ́nər lɛ́ft."),
     ("T-shirt '70s", "T-ʃɜ́rt '70s"),
+    ("USB's", "USBz"),
 ]
 
 INVALID_LAYOUT_SAMPLES = [

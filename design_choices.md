@@ -154,6 +154,14 @@ When goals conflicted, the earlier one won.
 
 **Why:** case carries no sound, so freeing it creates a clean channel: any capital is unambiguously a letter-name token (`USB`, `T-ʃɜ́rt`). Preserving capitalization would make *A* (the word) and *A* (the letter) collide.
 
+### Letter-name endings are lowercase and phonetic
+
+**Chosen:** keep the capital letter-name stem and append its regular spoken plural or possessive allomorph: `USBz`, `PDFs`, `Xɪz`. Select `s` / `z` / `ɪz` from the final sound of the last letter name, exactly as for an ordinary English word, and omit any spelling apostrophe.
+
+**Also valid:** preserving the source ending (`USBs`); fully transcribing the letter names (`jùwɛ̀sbíjz`); or separating the ending typographically (`USB-z`).
+
+**Why:** mixed case cleanly preserves the two kinds of information already encoded by the system: capitals say “read these letters by name,” while lowercase symbols describe the suffix actually heard. Direct attachment keeps the source token aligned without inventing a hyphen, and phonetic allomorph selection distinguishes forms such as `USBz`, `PDFs`, and `Xɪz` deterministically.
+
 ### Digits, formulas, and notation pass through
 
 **Also valid:** spelling everything out (`1970s` → `nàjntijn sɛ́vəntijz`).

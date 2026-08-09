@@ -43,7 +43,7 @@ One-glance symbol chart (details in §3–§5):
 5. No centering schwa before r: SQUARE = `ɛr` (`wɛ́r`), NEAR = `ɪr` (`nɪ́r`). And `ʌ` is never used — STRUT is written `ə`, stressed or not (`kə́lər`, `nə́mbər`).
 6. Primary stress = acute on the first vowel symbol of the stressed syllable (`dʒǽkət`, `káwz`). Secondary stress = grave (`fʊ́twɛ̀r`, `mæ̀θəmǽtɪkəl`).
 7. Content words always carry an accent — even monosyllables (`méjd`, `fíjl`). Function words appear in weak form with **no accent** (`əv`, `ənd`, `tə`, `ðə` / `ðij`, `kən`, `fɔr`).
-8. Digits and years stay in written form (`2`, `1970s`, `'70s`); letters read by name stay as **capital** letters: `T-ʃɜ́rt`, `USB`. Equations, formulas, and units pass through verbatim: `e = mc^2`, `sin(x)`, `km/h` (§9).
+8. Digits and years stay in written form (`2`, `1970s`, `'70s`); letters read by name stay as **capital** letters: `T-ʃɜ́rt`, `USB`. A pronounced plural or possessive suffix is lowercase and phonetic: `USBz`, `PDFs`, `Xɪz`. Equations, formulas, and units pass through verbatim: `e = mc^2`, `sin(x)`, `km/h` (§9).
 9. Use IPA letterforms: `ɡ` (U+0261) not `g`, `j` for the *y* sound, `r` not `ɹ`.
 10. When varieties of English disagree, General American wins: `íjðər`, `skɛ́dʒuwl`, `ɜ́rb` (§1).
 
@@ -170,7 +170,7 @@ General American drops /j/ after coronal consonants; this style follows that rul
 - **No yod after t, d, n, s, z, l, θ, r** when the consonant starts the same syllable: `núw` (*new*), `dúw` (*due*), `túwn` (*tune*), `stúwdənt` (*student*), `núwmərəs` (*numerous*), `əsúwm` (*assume*), `rúwl` (*rule*), `ǽtɪtùwd` (*attitude*), `ǽvənùw` (*avenue*).
 - **Keep yod after the other consonants** (p, b, m, f, v, k, ɡ, h): `pjʊ́r`, `bjúwtəfəl`, `mjúwzɪk`, `fjúw`, `vjúw`, `kjúwb`, `ɑ́rɡjəmənt`, `hjúwmən`.
 - **Keep yod when it starts its own unstressed syllable**, even after a coronal: `vǽljuw` (*value*), `mɛ́njuw` (*menu*), `kəntɪ́njuw` (*continue*).
-- Unstressed *-ture / -dual / -duate* coalesce: `néjtʃər`, `fɜ́rnɪtʃər`, `ɡrǽdʒuəl`, `ɛ̀dʒəkéjʃən`-type words use `dʒ`.
+- Unstressed *-ture / -dual / -duate* coalesce: `néjtʃər`, `fɜ́rnɪtʃər`, `ɡrǽdʒuwəl`, `ɛ̀dʒəkéjʃən`-type words use `dʒ`.
 - When unsure, follow the first pronunciation listed in an American dictionary (e.g. Merriam-Webster).
 ## 5. Stress marking
 
@@ -280,7 +280,7 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
 2. **Preserve punctuation and spacing** exactly: `. , ? ! ; : ( ) " -` and any others. One source word → one transcribed token in the same position. The only exception is the word-internal apostrophe described in rule 3.
 3. **Omit apostrophes inside phonetic words:** *it's* → `ɪts`, *wearer's* → `wɛ́rərz`, *don't* → `dównt`, *O'Connor* → `owkɒ́nər`. Preserve apostrophes that act as quotation marks and those inside pass-through digit or notation tokens (`'70s`).
 4. **Digits, years, decades, and numbers stay as written**: `2`, `100`, `1970s`, `'70s`. Do not spell them out phonetically.
-5. **Letters read by name stay as CAPITAL letters.** Since capitals occur nowhere else in a transcription, an uppercase letter is the unambiguous signal "say this letter's name": *T-shirt* → `T-ʃɜ́rt`, *X-ray* → `X-réj`, *USB* → `USB`, *AI* → `AI`. Acronyms pronounced as words are ordinary words — fully phonetic and lowercase (*NASA* → `nǽsə`, *laser* → `léjzər`).
+5. **Letters read by name stay as CAPITAL letters.** Since capitals occur nowhere else in a transcription, an uppercase letter is the unambiguous signal "say this letter's name": *T-shirt* → `T-ʃɜ́rt`, *X-ray* → `X-réj`, *USB* → `USB`, *AI* → `AI`. Attach pronounced plural and possessive endings directly to this capital stem in lowercase phonetic form. Choose the regular English allomorph from the final sound of the last letter name: `s` after a voiceless non-sibilant (*PDFs* → `PDFs`, because *F* ends in /f/); `ɪz` after a sibilant (*X's* → `Xɪz`); otherwise `z` (*USBs* or *USB's* → `USBz`, *PCs* → `PCz`). The spelling apostrophe is omitted under rule 3. Acronyms pronounced as words are ordinary words — fully phonetic and lowercase, including their endings (*NASA* → `nǽsə`, *NASAs* → `nǽsəz`; *laser* → `léjzər`).
 6. **Never insert or delete words.** The transcription must align 1:1 with the source text.
 7. **Obvious misspellings:** transcribe the intended word (*woter* → `wɔ́tər`), keeping the 1:1 alignment. Never render a typo phonetically.
 8. **Classify by meaning, then handle notation.** First decide from context whether a token is spoken English, a letter-name token, or symbolic material. Transcribe spoken English, including acronyms pronounced as words. Preserve symbolic material verbatim: equations, formulas, function calls, variables, units, chemical formulas, code, and identifiers. Case is preserved inside notation (`e`, `NaCl`, `camelCase`); the lowercase phonetic rule does not apply there. Capitalization and punctuation are clues, not decisive tests — the same spelling can require different treatment in different contexts.
@@ -307,7 +307,7 @@ This classification is a semantic judgment for the transcriber or LLM; no token-
 
 1. Take the source sentence; lowercase it mentally but keep every punctuation mark and digit in place, except word-internal apostrophes in phonetic words (§5.4).
 2. For each word, decide: **function word?** → copy its weak form from §6, unaccented. For *the*, choose `ðə` before a consonant sound and `ðij` before a vowel sound. Special check for *have / has / had*: followed by a past participle → auxiliary, weak (`həv / həz / həd`); the only verb in the clause, or taking a direct object → main verb, accented (`hǽv / hǽz / hǽd`).
-3. Classify each remaining token from context (§9): spoken English → retrieve its General American pronunciation; letter name → preserve as capitals; notation/code/identifier → preserve verbatim. For spoken English, when varieties disagree, GA wins (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
+3. Classify each remaining token from context (§9): spoken English → retrieve its General American pronunciation; letter name → preserve as capitals and attach any pronounced `s` / `z` / `ɪz` suffix in lowercase; notation/code/identifier → preserve verbatim. For spoken English, when varieties disagree, GA wins (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
    - long vowels/diphthongs → glide spellings (§4.2),
    - r-vowels → rhotic spellings (§4.3),
    - LOT → `ɒ`, PALM (long *ah*) → `ɑ`, THOUGHT/CLOTH → `ɔ` (§4.1), STRUT → `ə`,
@@ -340,7 +340,7 @@ Most of the guide's bans are regex-checkable. A valid transcription must have **
 
 Checks that need tokenization rather than a single regex:
 
-- `[A-Z]` matches are allowed only inside letter-name tokens (§9).
+- `[A-Z]` matches are allowed only inside letter-name tokens (§9). Such a token may end in lowercase `s`, `z`, or `ɪz` when that is the regular plural or possessive allomorph selected by the final sound of its last letter name (`PDFs`, `USBz`, `Xɪz`).
 - Every combining accent (U+0301 / U+0300) must directly follow a vowel symbol (`a e i o u` arrive precomposed as `á é í ó ú`; `æ ɛ ɪ ɔ ɒ ʊ ə ɜ ɑ` take the combining mark).
 - Within phonetic words, every Latin vowel base must have its required glide: `i` → `ij`, `u` → `uw`, `e` → `ej`, `o` → `ow`, `a` → `aj` or `aw`. The validator checks this after removing stress accents, so it also rejects accented traditional forms such as `méɪd`, `óʊn`, and `ɔ́ɪ`. Pass-through notation and letter-name tokens are exempt.
 - A token with no accent must be a §6 weak form, a digit/letter-name token, notation (§9), or punctuation.
@@ -413,6 +413,7 @@ The first *that* introduces the clause — weak `ðət`; the second is a demonst
 | `ɪt's`, `wɛ́rər'z` | `ɪts`, `wɛ́rərz` | omit word-internal apostrophes from phonetic words (§5.4) |
 | `Méjd`, `DƷɒn` | `méjd`, `dʒɒ́n` | lowercase everywhere except letter-name tokens |
 | `usb`, `t-ʃɜ́rt` | `USB`, `T-ʃɜ́rt` | letter-read tokens are capitalized (§9) |
+| `USBs`, `USB's`, `PDFz`, `Xs` | `USBz`, `USBz`, `PDFs`, `Xɪz` | letter-name suffixes are lowercase and follow the final pronounced sound (§9) |
 | `íj = ɛ́m síj skwɛ́rd` for "e = mc^2" | `e = mc^2` | notation passes through verbatim (§9) |
 | `túw dajmɛ́nʃənz` for "2 dimensions" | `2 dajmɛ́nʃənz` | digits stay as digits |
 | accent on `əv, ənd, tə, kən…` | bare weak forms | function words carry no accent |
