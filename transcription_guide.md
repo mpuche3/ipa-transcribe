@@ -59,7 +59,7 @@ One-glance symbol chart (details in §3–§5):
 
 Notes:
 
-- **No allophonic detail.** No flapping (*putting* → `pʊ́tɪŋ`, *water* → `wɔ́tər` — t stays t), no glottal stops `ʔ`, no dark l `ɫ`, no aspiration marks.
+- **No allophonic detail, including reduction or deletion.** Preserve the consonants in a word's broad citation-form transcription even when they may be weakened or omitted in casual speech: *identifiers* → `ajdɛ́ntəfàjərz`, *departmental* → `dɪpɑ̀rtmɛ́ntəl`. Likewise, do not write flapping (*putting* → `pʊ́tɪŋ`, *water* → `wɔ́tər` — t stays t), glottal stops `ʔ`, dark l `ɫ`, or aspiration marks. This does not restore consonants that are absent from the standard General American pronunciation, such as the silent h in *vehicle* (`víjɪkəl`).
 - *wh-* is plain `w` (`wɪ́tʃ`), never `ʍ`.
 - *-ng* is `ŋ` finally (`lɔ́ŋ`) and `ŋɡ` where /ɡ/ is really pronounced (`sɪ́ŋɡəl`, `fɪ́ŋɡər`); *-nk* is `ŋk` (`pɪ́ŋk`, `θǽŋks`).
 - Syllabic consonants are written with schwa: `téjbəl`, `kɒ́tən`, `rɪ́ðəm` — never `l̩ n̩ m̩`.
@@ -79,6 +79,8 @@ Notes:
 | ɔ | THOUGHT + CLOTH | `smɔ́l`, `kɔ́l`, `tɔ́l`, `ɔ́fən`, `ɔ́f`, `lɔ́ŋ`, `sɔ́ft`, `əkrɔ́s`, `dɔ́ɡ` |
 
 **Never use `ʌ`.** STRUT shares its symbol with the weak vowel: a stressed STRUT syllable is simply `ə` with an accent mark — `lə́v` (*love*), `mə́nij` (*money*), `sə́mər` (*summer*), `ə̀ndərstǽnd` (*understand*).
+
+**The `-come` trap.** *become, income, outcome, overcome, welcome* all keep the STRUT vowel in `-come` (`bɪkə́m`, `ɪ́nkə̀m`, `áwtkə̀m`, `òwvərkə́m`, `wɛ́lkəm`), never the GOAT vowel of unrelated `-ome` words like *home, dome, chrome* (`hówm`, `dówm`, `krówm`) — the shared spelling invites the wrong glide.
 
 Splitting `ɒ` vs `ɑ` vs `ɔ` — **the length principle**: in this vowel area, write `ɑ` wherever the vowel tends to be **long**, and `ɒ` where it is short:
 
@@ -336,7 +338,7 @@ Most of the guide's bans are regex-checkable. A valid transcription must have **
 | `eɪ` `əʊ` `oʊ` `aɪ` `aʊ` `ɔɪ` | traditional diphthong spellings — write `ej ow aj aw ɔj` |
 | `[iuɜɑɔɒɛ]ː` | length-marked vowels |
 | `wɒ́t` | *what* must be bare `wɒt` |
-| `ǽ` (U+01FD, precomposed) | NFC artifact — write `æ` + combining acute (U+0301) instead |
+| `ǽ` (U+01FD, precomposed) | NFC artifact — write `æ` + combining acute (U+0301) instead |
 
 Checks that need tokenization rather than a single regex:
 

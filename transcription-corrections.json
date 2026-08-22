@@ -1,0 +1,740 @@
+[
+  {
+    "word": "because",
+    "wrong_transcription": "bɪkɔ́z",
+    "correct_transcription": "bɪkɒ́z",
+    "explanation": "The guide explicitly classifies because as a LOT word, so its stressed vowel is short ɒ. The reduced initial be- prefix is fixed as bɪ-."
+  },
+  {
+    "word": "application",
+    "wrong_transcription": "æ̀pləkéjʃən",
+    "correct_transcription": "æ̀plɪkéjʃən",
+    "explanation": "The reduced medial vowel is spelled i, so the guide's weak-vowel tie-breaker requires ɪ rather than ə."
+  },
+  {
+    "word": "open-ended",
+    "wrong_transcription": "ówpən-ɪ́ndɪd",
+    "correct_transcription": "ówpən-ɛ́ndɪd",
+    "explanation": "The second hyphenated content-word element is ended: end has stressed DRESS ɛ, while only the -ed suffix is ɪd."
+  },
+  {
+    "word": "candidate",
+    "wrong_transcription": "kǽndədejt",
+    "correct_transcription": "kǽndɪdejt",
+    "explanation": "The reduced medial vowel is spelled i, so the guide requires ɪ."
+  },
+  {
+    "word": "candidates",
+    "wrong_transcription": "kǽndədejts",
+    "correct_transcription": "kǽndɪdejts",
+    "explanation": "The reduced medial vowel is spelled i, so the guide requires ɪ."
+  },
+  {
+    "word": "similarity",
+    "wrong_transcription": "sɪ̀məlɛ́rɪtij",
+    "correct_transcription": "sɪ̀mɪlɛ́rɪtij",
+    "explanation": "The reduced second syllable is spelled i, so it takes ɪ under the weak-vowel spelling rule."
+  },
+  {
+    "word": "architect",
+    "wrong_transcription": "ɑ́rkətɛ̀kt",
+    "correct_transcription": "ɑ́rkɪtɛ̀kt",
+    "explanation": "The reduced middle vowel is spelled i, so it must be ɪ rather than ə."
+  },
+  {
+    "word": "architecture",
+    "wrong_transcription": "ɑ́rkətɛ̀ktʃər",
+    "correct_transcription": "ɑ́rkɪtɛ̀ktʃər",
+    "explanation": "The reduced middle vowel is spelled i, so it must be ɪ rather than ə."
+  },
+  {
+    "word": "uses",
+    "wrong_transcription": "júwsɪz",
+    "correct_transcription": "júwzɪz",
+    "explanation": "This is the verb use, whose guide form is júwz; júws is the noun."
+  },
+  {
+    "word": "evidence",
+    "wrong_transcription": "ɪ́vədəns",
+    "correct_transcription": "ɛ́vɪdəns",
+    "explanation": "The stressed first syllable has DRESS ɛ, and the following reduced vowel is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "eligible",
+    "wrong_transcription": "ɪ́lədʒɪbəl",
+    "correct_transcription": "ɛ́lɪdʒɪbəl",
+    "explanation": "The stressed first vowel is DRESS ɛ, the reduced medial vowel is spelled i, and -ible is fixed as ɪbəl."
+  },
+  {
+    "word": "A2A",
+    "wrong_transcription": "ə2ə",
+    "correct_transcription": "A2A",
+    "explanation": "A2A is a letter-name and digit token; capitals and digits pass through rather than being phoneticized."
+  },
+  {
+    "word": "company",
+    "wrong_transcription": "kə́mpənìj",
+    "correct_transcription": "kə́mpənij",
+    "explanation": "Final happY -y is ij, and company has no secondary stress on that final syllable."
+  },
+  {
+    "word": "catalog",
+    "wrong_transcription": "kǽtəlɔɡ",
+    "correct_transcription": "kǽtəlɔ̀ɡ",
+    "explanation": "The General American first pronunciation has secondary stress on the final syllable, which the guide marks with a grave."
+  },
+  {
+    "word": "cost",
+    "wrong_transcription": "kɒ́st",
+    "correct_transcription": "kɔ́st",
+    "explanation": "The guide explicitly places cost in the CLOTH set, written with ɔ rather than LOT ɒ."
+  },
+  {
+    "word": "analysis",
+    "wrong_transcription": "ənǽləsəs",
+    "correct_transcription": "ənǽləsɪs",
+    "explanation": "The final reduced vowel is spelled i, so the weak-vowel tie-breaker requires ɪ."
+  },
+  {
+    "word": "vehicle",
+    "wrong_transcription": "víjhɪkəl",
+    "correct_transcription": "víjɪkəl",
+    "explanation": "The h is silent in the General American pronunciation, and the reduced vowel spelled i is ɪ."
+  },
+  {
+    "word": "synthesis",
+    "wrong_transcription": "sɪ́nθəsəs",
+    "correct_transcription": "sɪ́nθəsɪs",
+    "explanation": "The final reduced vowel in -sis is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "hypothesis",
+    "wrong_transcription": "hajpɒ́θəsəs",
+    "correct_transcription": "hajpɒ́θəsɪs",
+    "explanation": "The final reduced vowel in -sis is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "modality",
+    "wrong_transcription": "mədǽlɪtij",
+    "correct_transcription": "mowdǽlɪtij",
+    "explanation": "General American modality begins with the GOAT vowel ow, not a reduced schwa."
+  },
+  {
+    "word": "modalities",
+    "wrong_transcription": "mədǽlɪtijz",
+    "correct_transcription": "mowdǽlɪtijz",
+    "explanation": "General American modalities begins with the GOAT vowel ow, not a reduced schwa."
+  },
+  {
+    "word": "classification",
+    "wrong_transcription": "klæ̀səfəkéjʃən",
+    "correct_transcription": "klæ̀sɪfɪkéjʃən",
+    "explanation": "Both reduced vowels before -cation are spelled i, so the guide's tie-breaker gives ɪ in both syllables."
+  },
+  {
+    "word": "explicit",
+    "wrong_transcription": "ɪksplɪ́sət",
+    "correct_transcription": "ɪksplɪ́sɪt",
+    "explanation": "The final reduced vowel is spelled i, so it takes ɪ rather than ə."
+  },
+  {
+    "word": "explicitly",
+    "wrong_transcription": "ɪksplɪ́sətlij",
+    "correct_transcription": "ɪksplɪ́sɪtlij",
+    "explanation": "The final reduced vowel in explicit is spelled i, so it takes ɪ before -ly."
+  },
+  {
+    "word": "specialist",
+    "wrong_transcription": "spɛ́ʃələst",
+    "correct_transcription": "spɛ́ʃəlɪst",
+    "explanation": "The guide fixes the -ist suffix as ɪst."
+  },
+  {
+    "word": "specialists",
+    "wrong_transcription": "spɛ́ʃələsts",
+    "correct_transcription": "spɛ́ʃəlɪsts",
+    "explanation": "The guide fixes the -ist suffix as ɪst before the plural ending."
+  },
+  {
+    "word": "visual",
+    "wrong_transcription": "vɪ́ʒəwəl",
+    "correct_transcription": "vɪ́ʒwəl",
+    "explanation": "The guide explicitly writes the -ual ending as wəl, not əwəl."
+  },
+  {
+    "word": "textual",
+    "wrong_transcription": "tɛ́kstʃùwəl",
+    "correct_transcription": "tɛ́kstʃwəl",
+    "explanation": "The guide explicitly writes the -ual ending as wəl, without an extra vowel or secondary stress."
+  },
+  {
+    "word": "contextual",
+    "wrong_transcription": "kɒ̀ntɛ́kstʃùwəl",
+    "correct_transcription": "kəntɛ́kstʃwəl",
+    "explanation": "The reduced con- prefix takes ə, and the guide fixes -ual as wəl."
+  },
+  {
+    "word": "impact",
+    "wrong_transcription": "ɪ̀mpǽkt",
+    "correct_transcription": "ɪ́mpækt",
+    "explanation": "In these contexts impact is a noun or adjective, so General American stress is on the first syllable."
+  },
+  {
+    "word": "axes",
+    "wrong_transcription": "ǽksɪ̀z",
+    "correct_transcription": "ǽksijz",
+    "explanation": "In the chart context, axes is the plural of axis and ends in FLEECE ij plus z."
+  },
+  {
+    "word": "scenario",
+    "wrong_transcription": "sɪnɛ́rijow",
+    "correct_transcription": "sənɛ́rijòw",
+    "explanation": "The initial reduced vowel is not spelled i or y, so it takes ə; the final syllable carries secondary stress."
+  },
+  {
+    "word": "scenarios",
+    "wrong_transcription": "sɪnɛ́rijowz",
+    "correct_transcription": "sənɛ́rijòwz",
+    "explanation": "The initial reduced vowel is not spelled i or y, so it takes ə; the final syllable carries secondary stress."
+  },
+  {
+    "word": "triage",
+    "wrong_transcription": "trájɪdʒ",
+    "correct_transcription": "trijɑ́ʒ",
+    "explanation": "The General American first pronunciation is tri-AZH, with final PALM ɑ and ʒ, not PRICE plus the -age suffix."
+  },
+  {
+    "word": "prohibited",
+    "wrong_transcription": "prowhɪ́bətɪd",
+    "correct_transcription": "prowhɪ́bɪtɪd",
+    "explanation": "The reduced vowel in -hibit- is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "personal",
+    "wrong_transcription": "pɜ́rsɪnəl",
+    "correct_transcription": "pɜ́rsənəl",
+    "explanation": "The reduced vowel is spelled o, so the guide's weak-vowel tie-breaker requires ə."
+  },
+  {
+    "word": "medical",
+    "wrong_transcription": "mɛ́dəkəl",
+    "correct_transcription": "mɛ́dɪkəl",
+    "explanation": "The reduced medial vowel is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "clinical",
+    "wrong_transcription": "klɪ́nəkəl",
+    "correct_transcription": "klɪ́nɪkəl",
+    "explanation": "The reduced medial vowel is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "duplicate",
+    "wrong_transcription": "dúwpləkət",
+    "correct_transcription": "dúwplɪkət",
+    "explanation": "The reduced medial vowel is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "pronunciation",
+    "wrong_transcription": "prownə̀nsijéjʃən",
+    "correct_transcription": "prənə̀nsijéjʃən",
+    "explanation": "The initial pro- syllable is reduced and therefore takes ə rather than GOAT ow."
+  },
+  {
+    "word": "compatibility",
+    "wrong_transcription": "kəmpæ̀təbɪ́lətìj",
+    "correct_transcription": "kəmpæ̀tɪbɪ́lɪtij",
+    "explanation": "The reduced vowel after compat- is spelled i, and -ity is fixed as ɪtij without final secondary stress."
+  },
+  {
+    "word": "services",
+    "wrong_transcription": "sɜ́rvəsəz",
+    "correct_transcription": "sɜ́rvɪsɪz",
+    "explanation": "The base service has a reduced vowel spelled i, and the plural -es suffix is fixed as ɪz."
+  },
+  {
+    "word": "editor",
+    "wrong_transcription": "ɪ́dətər",
+    "correct_transcription": "ɛ́dɪtər",
+    "explanation": "The stressed first vowel is DRESS ɛ, and the reduced medial vowel is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "editing",
+    "wrong_transcription": "ɪ́dətɪŋ",
+    "correct_transcription": "ɛ́dɪtɪŋ",
+    "explanation": "The stressed first vowel is DRESS ɛ, and the reduced medial vowel is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "end",
+    "wrong_transcription": "ɪ́nd",
+    "correct_transcription": "ɛ́nd",
+    "explanation": "End has the DRESS vowel ɛ, not KIT ɪ."
+  },
+  {
+    "word": "ends",
+    "wrong_transcription": "ɪ́ndz",
+    "correct_transcription": "ɛ́ndz",
+    "explanation": "Ends has the DRESS vowel ɛ, not KIT ɪ."
+  },
+  {
+    "word": "endpoints",
+    "wrong_transcription": "ɪ́ndpɔ̀jnts",
+    "correct_transcription": "ɛ́ndpɔ̀jnts",
+    "explanation": "Endpoints is a solid compound: end has the stressed DRESS vowel ɛ, point carries secondary stress, and the plural suffix is s."
+  },
+  {
+    "word": "engine",
+    "wrong_transcription": "ɪ́ndʒən",
+    "correct_transcription": "ɛ́ndʒɪn",
+    "explanation": "Engine begins with stressed DRESS ɛ, and its reduced second vowel is spelled i, so the guide's weak-vowel tie-breaker requires KIT ɪ rather than schwa."
+  },
+  {
+    "word": "finance",
+    "wrong_transcription": "fənǽns",
+    "correct_transcription": "fájnæ̀ns",
+    "explanation": "All occurrences use the noun finance, whose first-listed General American form has primary stress and the PRICE vowel on the first syllable, with secondary stress on the final TRAP syllable."
+  },
+  {
+    "word": "enterprise",
+    "wrong_transcription": "ɪ́ntərpràjz",
+    "correct_transcription": "ɛ́ntərpràjz",
+    "explanation": "Enterprise begins with the stressed DRESS vowel ɛ, not KIT ɪ; as a solid compound, its final element retains secondary stress."
+  },
+  {
+    "word": "coordinates",
+    "wrong_transcription": "kowɔ́rdənəts",
+    "correct_transcription": "kowɔ́rdɪnèjts",
+    "explanation": "These occurrences are the verb coordinates: the reduced vowel spelled i is ɪ and verbal -ate is èjt."
+  },
+  {
+    "word": "underperform",
+    "wrong_transcription": "ə́ndərpərfɔ̀rm",
+    "correct_transcription": "ə̀ndərpərfɔ́rm",
+    "explanation": "The verb has primary stress on perform and secondary stress on under-."
+  },
+  {
+    "word": "use",
+    "wrong_transcription": "júwz",
+    "correct_transcription": "júws",
+    "explanation": "These hyphenated occurrences use the noun use, whose guide form ends in voiceless s."
+  },
+  {
+    "word": "decouples",
+    "wrong_transcription": "dìjkə́pəlz",
+    "correct_transcription": "dɪkə́pəlz",
+    "explanation": "The reduced word-initial de- prefix is fixed as dɪ- and carries no secondary stress."
+  },
+  {
+    "word": "every",
+    "wrong_transcription": "ɪ́vərij",
+    "correct_transcription": "ɛ́vrij",
+    "explanation": "The guide explicitly fixes every as ɛ́vrij."
+  },
+  {
+    "word": "everything",
+    "wrong_transcription": "ɪ́vrijθɪ̀ŋ",
+    "correct_transcription": "ɛ́vrɪθɪ̀ŋ",
+    "explanation": "The stressed first vowel is DRESS ɛ, and the final vowel of every becomes KIT ɪ before the following consonant in this compound."
+  },
+  {
+    "word": "entity",
+    "wrong_transcription": "ɪ́ntɪtij",
+    "correct_transcription": "ɛ́ntɪtij",
+    "explanation": "The stressed first syllable has DRESS ɛ, not KIT ɪ."
+  },
+  {
+    "word": "entities",
+    "wrong_transcription": "ɪ́ntɪtijz",
+    "correct_transcription": "ɛ́ntɪtijz",
+    "explanation": "The stressed first syllable has DRESS ɛ, not KIT ɪ."
+  },
+  {
+    "word": "audio",
+    "wrong_transcription": "ɒ́dijòw",
+    "correct_transcription": "ɔ́dijòw",
+    "explanation": "General American audio begins with the THOUGHT vowel ɔ, not LOT ɒ."
+  },
+  {
+    "word": "serial",
+    "wrong_transcription": "sɪ́rìjəl",
+    "correct_transcription": "sɪ́rijəl",
+    "explanation": "Serial has no secondary stress on the medial linking sequence."
+  },
+  {
+    "word": "outrank",
+    "wrong_transcription": "áwtræ̀ŋk",
+    "correct_transcription": "àwtrǽŋk",
+    "explanation": "As a verb, outrank has primary stress on rank and secondary stress on out-."
+  },
+  {
+    "word": "top-k",
+    "wrong_transcription": "tɒ́p-kéj",
+    "correct_transcription": "tɒ́p-K",
+    "explanation": "K is read as a letter name, so the transcription keeps it as a capital letter-name token."
+  },
+  {
+    "word": "identity",
+    "wrong_transcription": "ajdɛ́ntɪtìj",
+    "correct_transcription": "ajdɛ́ntɪtij",
+    "explanation": "The guide fixes -ity as unstressed ɪtij; identity has no final secondary stress."
+  },
+  {
+    "word": "accountability",
+    "wrong_transcription": "əkáwntəbɪ̀lɪtij",
+    "correct_transcription": "əkàwntəbɪ́lɪtij",
+    "explanation": "Primary stress belongs on -bility, with secondary stress on account-."
+  },
+  {
+    "word": "probability",
+    "wrong_transcription": "prɒ̀bəbɪ́lətìj",
+    "correct_transcription": "prɒ̀bəbɪ́lɪtij",
+    "explanation": "The guide fixes -ity as ɪtij and does not place secondary stress on the final syllable."
+  },
+  {
+    "word": "responsible",
+    "wrong_transcription": "rijspɒ́nsɪbəl",
+    "correct_transcription": "rɪspɒ́nsɪbəl",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "responsibilities",
+    "wrong_transcription": "rijspɒ̀nsəbɪ́lɪtijz",
+    "correct_transcription": "rɪspɒ̀nsɪbɪ́lɪtijz",
+    "explanation": "The reduced re- prefix is rɪ-, the following reduced vowel is spelled i, and -ity is fixed as ɪtij."
+  },
+  {
+    "word": "relationships",
+    "wrong_transcription": "rijléjʃənʃɪ̀ps",
+    "correct_transcription": "rɪléjʃənʃɪ̀ps",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "release",
+    "wrong_transcription": "rijlíjs",
+    "correct_transcription": "rɪlíjs",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "reliability",
+    "wrong_transcription": "rijlàjəbɪ́lɪtij",
+    "correct_transcription": "rɪlàjəbɪ́lɪtij",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "relying",
+    "wrong_transcription": "rijlájɪŋ",
+    "correct_transcription": "rɪlájɪŋ",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "remove",
+    "wrong_transcription": "rijmúwv",
+    "correct_transcription": "rɪmúwv",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "removed",
+    "wrong_transcription": "rijmúwvd",
+    "correct_transcription": "rɪmúwvd",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "removes",
+    "wrong_transcription": "rijmúwvz",
+    "correct_transcription": "rɪmúwvz",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "replace",
+    "wrong_transcription": "rìjpléjs",
+    "correct_transcription": "rɪpléjs",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ- and does not carry secondary stress."
+  },
+  {
+    "word": "report",
+    "wrong_transcription": "rijpɔ́rt",
+    "correct_transcription": "rɪpɔ́rt",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "repositories",
+    "wrong_transcription": "rijpɒ́zətɔ̀rijz",
+    "correct_transcription": "rɪpɒ́zətɔ̀rijz",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "require",
+    "wrong_transcription": "rìjkwájər",
+    "correct_transcription": "rɪkwájər",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ- and does not carry secondary stress."
+  },
+  {
+    "word": "required",
+    "wrong_transcription": "rijkwájərd",
+    "correct_transcription": "rɪkwájərd",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "requires",
+    "wrong_transcription": "rijkwájərz",
+    "correct_transcription": "rɪkwájərz",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "requiring",
+    "wrong_transcription": "rijkwájərɪŋ",
+    "correct_transcription": "rɪkwájərɪŋ",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "resolve",
+    "wrong_transcription": "rijzɒ́lv",
+    "correct_transcription": "rɪzɒ́lv",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "resolves",
+    "wrong_transcription": "rijzɒ́lvz",
+    "correct_transcription": "rɪzɒ́lvz",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "respecting",
+    "wrong_transcription": "rijspɛ́ktɪŋ",
+    "correct_transcription": "rɪspɛ́ktɪŋ",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "restrict",
+    "wrong_transcription": "rijstrɪ́kt",
+    "correct_transcription": "rɪstrɪ́kt",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "restricted",
+    "wrong_transcription": "rijstrɪ́ktɪd",
+    "correct_transcription": "rɪstrɪ́ktɪd",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "restrictions",
+    "wrong_transcription": "rijstrɪ́kʃənz",
+    "correct_transcription": "rɪstrɪ́kʃənz",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "retention",
+    "wrong_transcription": "rijtɛ́nʃən",
+    "correct_transcription": "rɪtɛ́nʃən",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "retirement",
+    "wrong_transcription": "rijtájərmənt",
+    "correct_transcription": "rɪtájərmənt",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "retrieved",
+    "wrong_transcription": "rijtríjvd",
+    "correct_transcription": "rɪtríjvd",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "retriever",
+    "wrong_transcription": "rijtríjvər",
+    "correct_transcription": "rɪtríjvər",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "review",
+    "wrong_transcription": "rìjvjúw",
+    "correct_transcription": "rɪvjúw",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ- and does not carry secondary stress."
+  },
+  {
+    "word": "reviewer",
+    "wrong_transcription": "rijvjúwər",
+    "correct_transcription": "rɪvjúwər",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "reviewers",
+    "wrong_transcription": "rijvjúwərz",
+    "correct_transcription": "rɪvjúwərz",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "reviews",
+    "wrong_transcription": "rijvjúwz",
+    "correct_transcription": "rɪvjúwz",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "revisions",
+    "wrong_transcription": "rijvɪ́ʒənz",
+    "correct_transcription": "rɪvɪ́ʒənz",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+  },
+  {
+    "word": "re-point",
+    "wrong_transcription": "réj-pɔ́jnt",
+    "correct_transcription": "ríj-pɔ́jnt",
+    "explanation": "The productive re- element has FLEECE ij rather than FACE ej; the guide gives each content element of a hyphenated form its own acute."
+  },
+  {
+    "word": "replay",
+    "wrong_transcription": "rijpléj",
+    "correct_transcription": "ríjplèj",
+    "explanation": "In this noun context replay is a solid compound with primary stress on re- and secondary stress on play."
+  },
+  {
+    "word": "individual",
+    "wrong_transcription": "ɪ̀ndəvɪ́dʒəwəl",
+    "correct_transcription": "ɪ̀ndɪvɪ́dʒuwəl",
+    "explanation": "The reduced vowel in indi- is spelled i, and the guide writes unstressed -dual as dʒuwəl."
+  },
+  {
+    "word": "edit",
+    "wrong_transcription": "ɪ́dət",
+    "correct_transcription": "ɛ́dɪt",
+    "explanation": "The stressed first vowel is DRESS ɛ, and the reduced second vowel is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "edited",
+    "wrong_transcription": "ɪ́dətɪd",
+    "correct_transcription": "ɛ́dɪtɪd",
+    "explanation": "The base edit has DRESS ɛ plus reduced ɪ, followed by the regular -ed form ɪd."
+  },
+  {
+    "word": "edits",
+    "wrong_transcription": "ɪ́dɪts",
+    "correct_transcription": "ɛ́dɪts",
+    "explanation": "The base edit begins with stressed DRESS ɛ rather than KIT ɪ."
+  },
+  {
+    "word": "actually",
+    "wrong_transcription": "ǽktʃùwəlij",
+    "correct_transcription": "ǽktʃuwəlij",
+    "explanation": "Actually keeps unstressed GOOSE uw in -tually but has no secondary stress on that syllable."
+  },
+  {
+    "word": "comparison",
+    "wrong_transcription": "kəmpɛ́rəsən",
+    "correct_transcription": "kəmpɛ́rɪsən",
+    "explanation": "The reduced vowel in -ison is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "comparisons",
+    "wrong_transcription": "kəmpɛ́rəsənz",
+    "correct_transcription": "kəmpɛ́rɪsənz",
+    "explanation": "The reduced vowel in -isons is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "satisfy",
+    "wrong_transcription": "sǽtəsfàj",
+    "correct_transcription": "sǽtɪsfàj",
+    "explanation": "The reduced middle vowel is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "emphasis",
+    "wrong_transcription": "ɪ́mfəsəs",
+    "correct_transcription": "ɛ́mfəsɪs",
+    "explanation": "The stressed first vowel is DRESS ɛ, and the final reduced vowel is spelled i, so it takes ɪ."
+  },
+  {
+    "word": "character",
+    "wrong_transcription": "kɛ́rɪktər",
+    "correct_transcription": "kǽrəktər",
+    "explanation": "The guide explicitly applies the lexical TRAP ær override before intervocalic r in character."
+  },
+  {
+    "word": "characteristics",
+    "wrong_transcription": "kɛ̀rəktərɪ́stɪks",
+    "correct_transcription": "kæ̀rəktərɪ́stɪks",
+    "explanation": "The lexical TRAP ær override also applies in the derived word characteristics."
+  },
+  {
+    "word": "parallel",
+    "wrong_transcription": "pɛ́rəlɛ̀l",
+    "correct_transcription": "pǽrəlɛ̀l",
+    "explanation": "Parallel has lexical TRAP before intervocalic r, so the guide requires ær rather than ɛr."
+  },
+  {
+    "word": "identifiers",
+    "wrong_transcription": "ajdɛ́nəfàjərz",
+    "correct_transcription": "ajdɛ́ntəfàjərz",
+    "explanation": "The current form incorrectly drops the pronounced t in identifiers."
+  },
+  {
+    "word": "departmental",
+    "wrong_transcription": "dɪpɑ̀rtmɛ́nəl",
+    "correct_transcription": "dɪpɑ̀rtmɛ́ntəl",
+    "explanation": "The current form incorrectly drops the pronounced t in departmental; the guide does not write allophonic deletion."
+  },
+  {
+    "word": "hallucinates",
+    "wrong_transcription": "həlúwsənejts",
+    "correct_transcription": "həlúwsənèjts",
+    "explanation": "The 3+-syllable -ate verb suffix carries secondary stress, marked with a grave."
+  },
+  {
+    "word": "emails",
+    "wrong_transcription": "ijméjlz",
+    "correct_transcription": "íjmèjlz",
+    "explanation": "Email is a solid compound with primary stress on e- and secondary stress on mail."
+  },
+  {
+    "word": "top-p",
+    "wrong_transcription": "tɒ́p-píj",
+    "correct_transcription": "tɒ́p-P",
+    "explanation": "P is read as a letter name, so the transcription keeps it as a capital letter-name token."
+  },
+  {
+    "word": "variability",
+    "wrong_transcription": "vɛrijəbɪ́lɪtij",
+    "correct_transcription": "vɛ̀rijəbɪ́lɪtij",
+    "explanation": "Variability carries secondary stress on the first syllable before primary stress on -bility."
+  },
+  {
+    "word": "drill-down",
+    "wrong_transcription": "drɪ́l-dawn",
+    "correct_transcription": "drɪ́l-dáwn",
+    "explanation": "Each content element of a hyphenated compound receives its own acute; down is not a weak particle here."
+  },
+  {
+    "word": "incident",
+    "wrong_transcription": "ɪ́nsədənt",
+    "correct_transcription": "ɪ́nsɪdənt",
+    "explanation": "The reduced second-syllable vowel is spelled i, so the guide's weak-vowel tie-breaker requires ɪ; the final -ent suffix remains ənt."
+  },
+  {
+    "word": "incidents",
+    "wrong_transcription": "ɪ́nsədənts",
+    "correct_transcription": "ɪ́nsɪdənts",
+    "explanation": "The plural keeps the guide-compliant singular base ɪ́nsɪdənt and adds the regular voiceless s suffix."
+  },
+  {
+    "word": "verification",
+    "wrong_transcription": "vɛ̀rəfəkéjʃən",
+    "correct_transcription": "vɛ̀rɪfɪkéjʃən",
+    "explanation": "Both reduced vowels before -cation are spelled i, so the guide's weak-vowel tie-breaker requires ɪ in both syllables."
+  },
+  {
+    "word": "tangible",
+    "wrong_transcription": "tǽndʒəbəl",
+    "correct_transcription": "tǽndʒɪbəl",
+    "explanation": "The guide fixes the -ible suffix as ɪbəl, so tangible takes ɪ rather than ə in its final syllable sequence."
+  },
+  {
+    "word": "outcomes",
+    "wrong_transcription": "áwtkòwmz",
+    "correct_transcription": "áwtkə̀mz",
+    "explanation": "The -come in outcome is pronounced like come (STRUT), not like home or dome (GOAT), so the solid compound's second element takes ə with a grave, not ow."
+  },
+  {
+    "word": "juggling",
+    "wrong_transcription": "dʒə́ɡəlɪŋ",
+    "correct_transcription": "dʒə́ɡlɪŋ",
+    "explanation": "The base verb juggle keeps its syllabic-l schwa (dʒə́ɡəl), but Merriam-Webster shows the -ing form with a parenthesized schwa, so the syncope rule (§4.4) applies and the schwa is dropped."
+  }
+]
