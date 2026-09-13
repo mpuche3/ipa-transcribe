@@ -310,7 +310,8 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
 2. **Preserve punctuation and spacing** exactly: `. , ? ! ; : ( ) " -` and any others. One source word → one transcribed token in the same position. The only exception is the word-internal apostrophe described in rule 3.
 3. **Omit apostrophes inside phonetic words:** *it's* → `ɪts`, *wearer's* → `wɛ́rərz`, *don't* → `dównt`, *O'Connor* → `owkɒ́nər`. Preserve apostrophes that act as quotation marks and those inside pass-through digit or notation tokens (`'70s`).
 4. **Digits, years, decades, and numbers stay as written**: `2`, `100`, `1970s`, `'70s`. Do not spell them out phonetically.
-5. **Letters read by name stay as CAPITAL letters.** Since capitals occur nowhere else in a transcription, an uppercase letter is the unambiguous signal "say this letter's name": *T-shirt* → `T-ʃɜ́rt`, *X-ray* → `X-réj`, *USB* → `USB`, *AI* → `AI`. Attach pronounced plural and possessive endings directly to this capital stem in lowercase phonetic form. Choose the regular English allomorph from the final sound of the last letter name: `s` after a voiceless non-sibilant (*PDFs* → `PDFs`, because *F* ends in /f/); `ɪz` after a sibilant (*X's* → `Xɪz`); otherwise `z` (*USBs* or *USB's* → `USBz`, *PCs* → `PCz`). The spelling apostrophe is omitted under rule 3. Acronyms pronounced as words are ordinary words — fully phonetic and lowercase, including their endings (*NASA* → `nǽsə`, *NASAs* → `nǽsəz`; *laser* → `léjzər`).
+5. **Letters read by name stay as CAPITAL letters.** Outside verbatim notation (rule 8), an uppercase letter is the unambiguous signal "say this letter's name": *T-shirt* → `T-ʃɜ́rt`, *X-ray* → `X-réj`, *USB* → `USB`, *AI* → `AI`. Attach pronounced plural and possessive endings directly to this capital stem in lowercase phonetic form. Choose the regular English allomorph from the final sound of the last letter name: `s` after a voiceless non-sibilant (*PDFs* → `PDFs`, because *F* ends in /f/); `ɪz` after a sibilant (*X's* → `Xɪz`); otherwise `z` (*USBs* or *USB's* → `USBz`, *PCs* → `PCz`). The spelling apostrophe is omitted under rule 3. Acronyms pronounced as words are ordinary words — fully phonetic and lowercase, including their endings (*NASA* → `nǽsə`, *NASAs* → `nǽsəz`; *laser* → `léjzər`).
+   A spoken word followed directly by letter names stays one token: *OpenAI* → `ówpənAI`, *OpenAI's* → `ówpənAIz`. Keep the phonetic part's stress and vowel rules; the capital part represents letter names, not untranscribed spelling. Do not insert a space or hyphen absent from the source. The article follows the initial sound of the phonetic part: `ðij ówpənAI tɛ́st`.
 6. **Never insert or delete words.** The transcription must align 1:1 with the source text.
    Preserve abbreviation punctuation too: *U.S.* → `U.S.`, *Mrs.* → `mɪ́sɪz.`. When expanding an abbreviation would break token alignment, use a letter-name rendering with the original punctuation: *e.g.* → `E.G.`, not two tokens meaning *for example*. Preserve an orthographic hyphen even in *re-establish* → `ríj-ɪstǽblɪʃ`; each transcribed element follows §5.3.
 7. **Obvious misspellings:** transcribe the intended word (*woter* → `wɔ́tər`), keeping the 1:1 alignment. Never render a typo phonetically.
@@ -324,6 +325,7 @@ Related but grammar-driven rather than spelling-driven: *have / has / had*, *tha
 | *evaluate `sin(x)`* | preserve `sin(x)` | it is a function call |
 | *use camel case* | transcribe the English words | the phrase names a convention in prose |
 | *set `camelCase` to true* | preserve `camelCase` | it is a code identifier |
+| *a program called fingerd* | `ə prówɡræ̀m kɔ́ld fingerd` | *fingerd* names the software identifier; do not partly phoneticize it as `fɪ́ŋɡərD` |
 
 This classification is a semantic judgment for the transcriber or LLM; no token-shape rule can settle every case. The validator checks mechanical constraints after that decision but cannot prove that a token was correctly classified. In particular, `--text` has no source context, and its notation heuristics may not recognize every valid code or scientific token. Do not change a contextually correct transcription merely to satisfy a generic capitalization or character warning on a verbatim token; re-check the source meaning instead.
 
@@ -346,7 +348,7 @@ This classification is a semantic judgment for the transcriber or LLM; no token-
 4. Mark stress: one acute per unhyphenated content word, including verbal particles, *all*, *not*, and demonstratives, on the first vowel symbol of the stressed syllable; in hyphenated compounds, apply this separately to each element. Apply the role-dependent forms, weak copular *be* exception, and fixed exceptions of §6. Use graves for secondary stresses and second elements of solid compounds (§5).
 5. Reassemble with the original punctuation, spacing, and digits; omit word-internal apostrophes from phonetic words but preserve them in pass-through tokens and as quotation marks (§9).
 6. **Self-check:**
-   - No `ˈ ˌ ː eɪ oʊ aɪ aʊ ɔɪ iː uː ɜː ɑː ɹ g ᵻ ʌ` anywhere (letter-name tokens are uppercase, so a lowercase `g` is always wrong), and no `ɛər` / `ɪər` / `ʊər` sequences (they are `ɛr` / `ɪr` / `ʊr`).
+   - No `ˈ ˌ ː eɪ oʊ aɪ aʊ ɔɪ iː uː ɜː ɑː ɹ g ᵻ ʌ` in phonetic material, and no `ɛər` / `ɪər` / `ʊər` sequences (they are `ɛr` / `ɪr` / `ʊr`). Verbatim notation and identifiers keep their original characters (§9).
    - Every unhyphenated content word and verbal particle has exactly one acute; *all*, *not*, and demonstratives always carry an acute. Weak monosyllables are bare, not every word listed in §6: check role-dependent, polysyllabic, strong, and fixed accented forms. Each content-word element of a hyphenated compound has its own acute (§5.3).
    - Re-check *some*, *what* (including contractions), *his*, independent pronoun answers, lexical homonyms of auxiliaries/modals, and particles against their source context. Do not accent *our* or copular *be* merely because the vowel is full or *be* is not an auxiliary; sentence-final pronouns are not automatically accented.
    - Every weak *the* matches the next sound: `ðə` before a consonant, `ðij` before a vowel (§6).
@@ -356,14 +358,14 @@ This classification is a semantic judgment for the transcriber or LLM; no token-
 
 ### Machine-checkable constraints
 
-Most of the guide's bans are regex-checkable. A valid transcription must have **zero matches** for every pattern below (run them over the transcribed string only):
+Most of the guide's bans are regex-checkable. Phonetic material must have **zero matches** for every pattern below; verbatim notation and identifiers are exempt (§9):
 
 | Pattern(s) | Catches |
 |---|---|
 | `[ˈˌː]` | IPA stress and length marks |
 | `[ɹɾʔɫ]` | banned consonant allophones — use plain `r`, `t`, `l` |
 | `[ʌᵻ]` | banned vowels — STRUT is `ə`, and `ᵻ` is never used |
-| `g` | ASCII g — must be `ɡ` (U+0261); letter-name tokens are uppercase, so lowercase `g` is never valid |
+| `g` | ASCII g — must be `ɡ` (U+0261) in phonetic material; preserve it in verbatim identifiers such as `fingerd` |
 | `ɛər` `ɪər` `ʊər` | centering schwa before r — write `ɛr`, `ɪr`, `ʊr` |
 | `eɪ` `əʊ` `oʊ` `aɪ` `aʊ` `ɔɪ` | traditional diphthong spellings — write `ej ow aj aw ɔj` |
 | `[iuɜɑɔɒɛ]ː` | length-marked vowels |
@@ -372,6 +374,7 @@ Most of the guide's bans are regex-checkable. A valid transcription must have **
 Checks that need tokenization rather than a single regex:
 
 - `[A-Z]` matches are allowed only inside letter-name tokens (§9), including punctuated letter sequences such as `U.S.` and `E.G.`. An unpunctuated letter-name token may end in lowercase `s`, `z`, or `ɪz` when that is the regular plural or possessive allomorph selected by the final sound of its last letter name (`PDFs`, `USBz`, `Xɪz`).
+   Letter names may also follow a phonetic word without a separator (`ówpənAI`, `ówpənAIz`); validate the phonetic component and letter-name component separately. This does not permit preserving a spoken word's source capitalization (`OpenAI`) or bypassing phonetic checks (`owpənAI`).
 - Every combining accent (U+0301 / U+0300) must directly follow a vowel symbol (`a e i o u` arrive precomposed as `á é í ó ú`; `æ ɛ ɪ ɔ ɒ ʊ ə ɜ ɑ` take the combining mark).
 - Within phonetic words, every Latin vowel base must have its required glide: `i` → `ij`, `u` → `uw`, `e` → `ej`, `o` → `ow`, `a` → `aj` or `aw`. The validator checks this after removing stress accents, so it also rejects accented traditional forms such as `méɪd`, `óʊn`, and `ɔ́ɪ`. Pass-through notation and letter-name tokens are exempt.
 - A token with no accent must be a permitted §6 weak form, a digit/letter-name token, notation (§9), or punctuation. Bare `ɔl`, `nɒt`, `ðɪs`, `ðijz`, and `ðowz` are not permitted. Membership in the weak-form list permits a spelling, not every grammatical use of it: `əp / dawn / awt` remain valid prepositional forms, not particle forms; `wɒt / wɒts`, `səm`, `hɪz`, personal pronouns, and auxiliary/modal spellings each require the appropriate context.

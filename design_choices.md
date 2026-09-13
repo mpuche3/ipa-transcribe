@@ -118,7 +118,7 @@ When goals conflicted, the earlier one won.
 
 ### `ɡ` (U+0261), never ASCII `g`
 
-**Why:** the IPA letterform is unambiguous, and reserving ASCII `g` as always-an-error makes machine validation trivially strict. Lowercase ASCII `c q x y` are likewise banned from phonetic material for the same reason.
+**Why:** the IPA letterform is unambiguous, and reserving ASCII `g` as an error in phonetic material makes machine validation strict. Lowercase ASCII `c q x y` are likewise banned from phonetic material for the same reason. Verbatim notation and identifiers retain their original characters, including `g` in `fingerd` (§9 of the guide).
 
 ## Stress
 
@@ -174,7 +174,7 @@ When goals conflicted, the earlier one won.
 
 **Also valid:** preserving source capitalization; bracketing spelled-out tokens.
 
-**Why:** case carries no sound, so freeing it creates a clean channel: any capital is unambiguously a letter-name token (`USB`, `T-ʃɜ́rt`). Preserving capitalization would make *A* (the word) and *A* (the letter) collide.
+**Why:** outside verbatim notation, case carries no sound, so freeing it creates a clean channel: a capital represents a letter name (`USB`, `T-ʃɜ́rt`), even when attached to a phonetic word (`ówpənAI`). Preserving spoken words' source capitalization would make *A* (the word) and *A* (the letter) collide. Attached letter names do not exempt the phonetic component from stress and vowel checks.
 
 ### Letter-name endings are lowercase and phonetic
 

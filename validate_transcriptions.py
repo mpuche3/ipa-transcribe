@@ -66,12 +66,14 @@ səm ðər ðərz ðəts wɒt wɒts
 NOTATION_WORDS = set("""
 sin cos tan cot sec csc log ln exp sqrt abs max min lim sup inf arg mod det dim gcd
 km cm mm kg mg ml mL kW Hz kHz MHz GHz dB mph
+fingerd
 """.split())
 GREEK_SINGLES = set("πθφλμσδΔΣΩαβγε∞")
 TRADITIONAL_DIPHTHONG = re.compile(r"eɪ|əʊ|oʊ|aɪ|aʊ|ɔɪ")
 REQUIRED_GLIDES = {"a": "jw", "e": "j", "i": "j", "o": "w", "u": "w"}
 LETTER_NAME_SUFFIX = re.compile(r"^([A-Z]+)(ɪz|[sz])$")
 DOTTED_LETTER_NAMES = re.compile(r"(?:[A-Z]\.)+[A-Z]")
+PHONETIC_WITH_LETTER_NAMES = re.compile(r"([^A-Z]+)([A-Z]+(?:ɪz|[sz])?)")
 LETTER_NAME_IZ_FINALS = set("HSX")
 
 
@@ -100,7 +102,7 @@ def phonetic_initial(raw):
     if not tok:
         return None
     seg = re.split(r"[-–—]", tok, maxsplit=1)[0]
-    if is_notation(seg) or any(c in CAPS or c in DIGITS for c in seg):
+    if is_notation(seg) or seg[0] in CAPS:
         return None
     first = seg[0]
     if first in IPA_VOWELS or first in LATIN_VOWELS or first in PRECOMPOSED:
@@ -173,6 +175,12 @@ def check_string(text, legacy=False):
                 out.append(("word-apostrophe",
                             f"'{seg}' — omit apostrophes inside phonetic words"))
             if any(c in CAPS for c in seg):
+                mixed_match = PHONETIC_WITH_LETTER_NAMES.fullmatch(seg)
+                if mixed_match:
+                    prefix, letter_names = mixed_match.groups()
+                    out.extend(check_string(prefix, legacy=legacy))
+                    out.extend(check_string(letter_names, legacy=legacy))
+                    continue
                 suffix_match = LETTER_NAME_SUFFIX.fullmatch(seg)
                 if suffix_match:
                     stem, suffix = suffix_match.groups()
@@ -357,6 +365,8 @@ VALID_SAMPLES = [D(s) for s in [
     "ðɪ́s–ðǽt",
     "ðərz ə bʊ́k ðəts ówpən. ðǽts ɪt.",
     "ðə U.S. ənd ðə U.K.",
+    "ówpənAI ówpənAIz ðij ówpənAI tɛ́st",
+    "ə prówɡræ̀m kɔ́ld fingerd",
     "ɪɡzǽmpəl rìjɪvæ̀ljuwéjʃən lájklijhʊ̀d sə́tʃ æz nów",
     "háj-stéjks ríj-ɪstǽblɪʃ (E.G., mɪ́sɪz. fɛ́ldmən)",
 ]]
@@ -374,6 +384,13 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("ðɪ́s–ðowz", "unaccented-token"),
     ("U..S.", "mixed-capitals"),
     ("U.s.", "mixed-capitals"),
+    ("OpenAI", "mixed-capitals"),
+    ("owpənAI", "unaccented-token"),
+    ("ópənAI", "invalid-glide-vowel"),
+    ("gówAI", "ascii-g"),
+    ("ówpə́nAI", "multiple-acutes"),
+    ("ówpənAIs", "letter-name-suffix"),
+    ("ðə ówpənAI", "the-context"),
     ("ˈleðər", "stress-marks"),
     ("wɜːld", "length-mark"),
     ("meɪd", "traditional-diphthong"),
@@ -392,6 +409,7 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
 ]]
 
 VALID_LAYOUT_SAMPLES = [
+    ("OpenAI's fingerd test", "ówpənAIz fingerd tɛ́st"),
     ("U.S. (e.g., Mrs. Feldman)", "U.S. (E.G., mɪ́sɪz. fɛ́ldmən)"),
     ("re-establish high-stakes", "ríj-ɪstǽblɪʃ háj-stéjks"),
     ("What's wrong?", "wɒ́ts rɔ́ŋ?"),
