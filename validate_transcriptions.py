@@ -50,7 +50,6 @@ SEQUENCE_RULES = [
     ("banned-allophones", re.compile(r"[ɹɾʔɫ]"), "use plain r / t / l"),
     ("banned-vowels", re.compile(r"[ʌᵻ]"), "STRUT is ə; ᵻ is never used"),
     ("centering-schwa", re.compile("[ɛɪʊ][́̀]?ər"), "write ɛr / ɪr / ʊr"),
-    ("what-accented", re.compile("wɒ" + ACUTE + "t"), "what is always bare wɒt"),
     ("precomposed-ae", re.compile("[ǽǼ]"), "precomposed ae-acute — write æ + combining acute (U+0301)"),
 ]
 LEGACY_SKIP = {"banned-vowels", "centering-schwa"}
@@ -58,10 +57,10 @@ LEGACY_SKIP = {"banned-vowels", "centering-schwa"}
 WEAK_FORMS = set("""
 ə ən ðə ðij ənd ɔr bət ɪf æz ðən ðət əv tə ɪn ɒn ət baj fɔr frəm wɪð
 əp dawn awt aj juw hij ʃij ɪt wij ðej mij hɪm hər əs ðɛm
-maj jɔr hɪz ɪts awər ðɛr ðɪs ðijz ðowz
+maj jɔr hɪz ɪts awər ðɛr
 əm ɪz ɑr wəz wər bij bɪn həv həz həd dəz dɪd
 kən kʊd wɪl wʊd ʃəl ʃʊd mej majt məst
-nɒt səm ɔl ðər wɒt wɒts
+səm ðər ðərz ðəts wɒt wɒts
 """.split())
 
 NOTATION_WORDS = set("""
@@ -72,6 +71,7 @@ GREEK_SINGLES = set("πθφλμσδΔΣΩαβγε∞")
 TRADITIONAL_DIPHTHONG = re.compile(r"eɪ|əʊ|oʊ|aɪ|aʊ|ɔɪ")
 REQUIRED_GLIDES = {"a": "jw", "e": "j", "i": "j", "o": "w", "u": "w"}
 LETTER_NAME_SUFFIX = re.compile(r"^([A-Z]+)(ɪz|[sz])$")
+DOTTED_LETTER_NAMES = re.compile(r"(?:[A-Z]\.)+[A-Z]")
 LETTER_NAME_IZ_FINALS = set("HSX")
 
 
@@ -99,7 +99,7 @@ def phonetic_initial(raw):
     tok = token_core(raw)
     if not tok:
         return None
-    seg = tok.split("-", 1)[0]
+    seg = re.split(r"[-–—]", tok, maxsplit=1)[0]
     if is_notation(seg) or any(c in CAPS or c in DIGITS for c in seg):
         return None
     first = seg[0]
@@ -117,7 +117,9 @@ def stressless(text):
 
 
 def check_string(text, legacy=False):
-    """Return a list of (rule, detail) violations for one transcription string."""
+    """Return mechanical violations; weak-form membership permits a spelling,
+    not its use in every context. Grammatical roles require source review.
+    """
     out = []
 
     for rule, rx, msg in SEQUENCE_RULES:
@@ -160,7 +162,7 @@ def check_string(text, legacy=False):
         tok = token_core(raw)
         if not tok:
             continue
-        for seg in tok.split("-"):
+        for seg in re.split(r"[-–—]", tok):
             seg = seg.strip("".join(PUNCT - {" "}))
             if not seg:
                 continue
@@ -179,7 +181,7 @@ def check_string(text, legacy=False):
                     if suffix != expected:
                         out.append(("letter-name-suffix",
                                     f"'{seg}' — final {final_letter} takes {expected}"))
-                elif not all(c in CAPS for c in seg):
+                elif not all(c in CAPS for c in seg) and not DOTTED_LETTER_NAMES.fullmatch(seg):
                     out.append(("mixed-capitals",
                                 f"'{seg}' — capitals only in letter-name tokens and their s / z / ɪz suffixes"))
                 continue                      # USB, USBz, PDFs — letter-name segment
@@ -314,7 +316,7 @@ def D(s):
 
 VALID_SAMPLES = [D(s) for s in [
     "ðə flɔ́r lǽmp ɪz tɪ́pɪkəlij tɔ́l ənd slɛ́ndər.",
-    "wɒts ðə núwəst dɪzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?",
+    "wɒ́ts ðə núwəst dɪzájn frəm ðə 1980s ðət júwd wɛ́r dʊ́rɪŋ ə kúwl ɔ́təm íjvnɪŋ?",
     "ɪf aj həd hǽd wɔ́tər, aj wʊd həv ʃɛ́rd ɪt.",
     "aj ríjəlàjzd ðət ðǽt wəz rɔ́ŋ, túw léjt.",
     "maj fɑ́ðər júwzd ə USB drájv tə rɪkɔ́rd ðə rɪzə́lts — wɛ́r dəz ðə mə́nij kə́m frɒ́m?",
@@ -327,13 +329,51 @@ VALID_SAMPLES = [D(s) for s in [
     "míj dúw méj nów tájm dáwn tʃɔ́js",
     "dʊ̀rəbɪ́lɪtij",
     "ɡrǽdʒuwəl",
+    "ɔ́l əv ðɛm ət ɔ́l",
+    "pʊ́t ɒ́n ə wɒ́tʃ",
+    "aj lájnd ðɛm ə́p ɒn ðə bɔ́rd.",
+    "rɪláj ɒn ðɛm ənd pʊ́t ə́p wɪð ɪt.",
+    "səm píjsɪz wər tʃɪ́pt. sə́m wər tʃɪ́pt.",
+    "wɒ́t ɪz ðɪ́s? wɒ́t ə déj!",
+    "téjk wɒt juw níjd. téjk wɒts lɛ́ft.",
+    "ʃij də́z ðə wɜ́rk. ʃij dɪ́d ðə wɜ́rk.",
+    "dəz ʃij wɜ́rk? dɪd ʃij wɜ́rk?",
+    "awər frɛ́ndz ɑr hǽpij. awər frɛ́ndz ɑr wɜ́rkɪŋ.",
+    "áwər frɛ́ndz ɑ́r hǽpij. jɛ́s, ðej ɑ́r.",
+    "bɪ́lt-ɪ́n fɒ́low-ə́p stɛ́p-baj-stɛ́p",
+    "slájd awt əv bɛ́d. wɔ́k əp ðə hɪ́l.",
+    "ɪt də́z sów. ɪt də́z wɜ́rk. jɛ́s, ʃij dɪ́d.",
+    "aj wə́ndər wɒ́t juw níjd. wɒ́t ə déj!",
+    "sə́m əv ðɛm frəm náw ɒ́n",
+    "ðej ɑr nɒ́t rɛ́dij. nɒ́t ównlij ðǽt.",
+    "ðɪ́s bʊ́k. ðíjz bʊ́ks. ðówz ɑr hɪ́z.",
+    "aj nów ðət ðǽt wɜ́rks.",
+    "hɪz bʊ́k. ðə bʊ́k ɪz hɪ́z.",
+    "húw dɪd ɪt? míj. aj sɔ́ hɪm.",
+    "ə kǽn. ə wɪ́l. mɪ́lɪtɛ̀rij májt. ə mə́st. méj.",
+    "ʃij kən wɜ́rk. ʃij wɪl wɜ́rk. ʃij majt wɜ́rk. ʃij məst wɜ́rk. ʃij mej wɜ́rk.",
+    "dównt kǽnt ɪ́zənt nɒ́t",
+    "krìjejtɪ́vɪtij—nɒ́t ðɪ́s",
+    "ðɪ́s–ðǽt",
+    "ðərz ə bʊ́k ðəts ówpən. ðǽts ɪt.",
+    "ðə U.S. ənd ðə U.K.",
+    "ɪɡzǽmpəl rìjɪvæ̀ljuwéjʃən lájklijhʊ̀d sə́tʃ æz nów",
+    "háj-stéjks ríj-ɪstǽblɪʃ (E.G., mɪ́sɪz. fɛ́ldmən)",
 ]]
 INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("wɛ́ər", "centering-schwa"),
     ("bʌt", "banned-vowels"),
     ("kwɑ́ntᵻtij", "banned-vowels"),
     ("ðə gɑ́rmənt", "ascii-g"),
-    ("wɒ́t ɪz ðɪs", "what-accented"),
+    ("ɔl əv ðɛm", "unaccented-token"),
+    ("nɒt rɛ́dij", "unaccented-token"),
+    ("ðɪs bʊ́k", "unaccented-token"),
+    ("ðijz bʊ́ks", "unaccented-token"),
+    ("ðowz bʊ́ks", "unaccented-token"),
+    ("ðɪ́s—nɒt", "unaccented-token"),
+    ("ðɪ́s–ðowz", "unaccented-token"),
+    ("U..S.", "mixed-capitals"),
+    ("U.s.", "mixed-capitals"),
     ("ˈleðər", "stress-marks"),
     ("wɜːld", "length-mark"),
     ("meɪd", "traditional-diphthong"),
@@ -352,13 +392,17 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
 ]]
 
 VALID_LAYOUT_SAMPLES = [
-    ("What's wrong?", "wɒts rɔ́ŋ?"),
+    ("U.S. (e.g., Mrs. Feldman)", "U.S. (E.G., mɪ́sɪz. fɛ́ldmən)"),
+    ("re-establish high-stakes", "ríj-ɪstǽblɪʃ háj-stéjks"),
+    ("What's wrong?", "wɒ́ts rɔ́ŋ?"),
     ("O'Connor left.", "owkɒ́nər lɛ́ft."),
     ("T-shirt '70s", "T-ʃɜ́rt '70s"),
     ("USB's", "USBz"),
 ]
 
 INVALID_LAYOUT_SAMPLES = [
+    ("re-establish", "rìjɪstǽblɪʃ", {"punctuation-layout"}),
+    ("Mrs. Feldman", "mɪ́sɪz fɛ́ldmən", {"punctuation-layout"}),
     ("Hello,  world!", "həlów wɜ́rld.", {"whitespace-layout", "punctuation-layout"}),
     ("Use 1980s.", "júwz 1970s.", {"digits-changed"}),
     ("one two", "wə́n", {"whitespace-layout", "token-count"}),
@@ -366,11 +410,12 @@ INVALID_LAYOUT_SAMPLES = [
 ]
 
 VALID_JSON_SAMPLES = [
-    [{"Question": "What's wrong?", "trans_Question": "wɒts rɔ́ŋ?",
+    [{"Question": "What's wrong?", "trans_Question": "wɒ́ts rɔ́ŋ?",
       "WrongAnswers": ["O'Connor left."], "trans_WrongAnswers": ["owkɒ́nər lɛ́ft."]}],
 ]
 
 INVALID_JSON_SAMPLES = [
+    ([{"Question": "All of them.", "trans_Question": "ɔl əv ðɛm."}], {"unaccented-token"}),
     ([{"Question": "Hi"}], {"missing-transcription"}),
     ([{"WrongAnswers": ["a", "b"], "trans_WrongAnswers": ["ə"]}], {"answer-count"}),
     ([{"WrongAnswers": [], "trans_WrongAnswers": ["ə"]}], {"answer-count"}),

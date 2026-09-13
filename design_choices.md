@@ -132,11 +132,33 @@ When goals conflicted, the earlier one won.
 
 ### Weak forms are transcribed
 
-**Chosen:** function words appear as actually spoken in running text — `əv, tə, ðə / ðij, həz` — with strong forms at clause ends and a fixed table (§6) for determinism. Weak *the* is `ðə` before a consonant sound and `ðij` before a vowel sound; the choice follows pronunciation rather than spelling (`ðə jùwnəvɜ́rsətij`, `ðij áwər`).
+**Chosen:** function words use conventional connected-speech forms — `əv, tə, ðə / ðij, həz` — selected by grammatical role, with explicit contrast and clause-final strong forms handled by §6. Weak *the* is `ðə` before a consonant sound and `ðij` before a vowel sound; the choice follows pronunciation rather than spelling (`ðə jùwnəvɜ́rsətij`, `ðij áwər`).
 
 **Also valid:** citation forms throughout, which is what dictionaries show; or invariant weak `ðə`, reflecting the considerable variation in spontaneous American speech.
 
-**Why:** connected speech is the point. Rhythm and reduction are where learners' comprehension fails, and a transcription of sentences (rather than isolated words) should show the sentence phonology. The familiar `ðə` / `ðij` alternation gives learners a deterministic way to avoid vowel hiatus, even though native usage is not categorical. Bareness (no accent) is the written signal of weakness — but only for monosyllables: a polysyllabic function word keeps its word-internal acute (`ɪ́ntə`, `əbáwt`), because there the mark locates the stressed syllable, information a bare form would destroy (and `ə` is stressable in this system, so it is not recoverable).
+**Why:** connected speech is the point. Rhythm and reduction are where learners' comprehension fails, and a transcription of sentences (rather than isolated words) should show conventional reductions without trying to predict every speaker's intonation. The familiar `ðə` / `ðij` alternation gives learners a deterministic way to avoid vowel hiatus, even though native usage is not categorical. Bareness (no accent) is the written signal of weakness — but only for monosyllables: a polysyllabic function word keeps its word-internal acute (`ɪ́ntə`, `əbáwt`), because there the mark locates the stressed syllable, information a bare form would destroy (and `ə` is stressable in this system, so it is not recoverable).
+
+### Grammatical role before weak-form lookup
+
+**Chosen:** *all* is always `ɔ́l`, like *both* and *each*. Verbal particles are content-like and accented, whether adjacent to the verb or separated by its object: *turn on*, *turn it on*. Prepositions remain weak by default, including in prepositional verbs (*rely on*) and particle-plus-preposition constructions (*put up with*: accented *up*, weak *with*). Independent or explicitly contrastive *some* is `sə́m`; the indefinite determiner is `səm`. Interrogative/exclamative *what* is `wɒ́t`, including in contractions and embedded questions; fused-relative *what* is `wɒt`. Lexical *does / did* are `də́z / dɪ́d`, while auxiliaries are weak by default. *Do* retains its fixed always-accented exception.
+
+**Also valid:** an invariant word list regardless of grammar; or a full prosodic transcription based on a particular recording.
+
+**Why:** a bare word list hides distinctions learners need: *line them up on the board* contains both a particle and a preposition, and *some pieces* differs from independent *some*. The written acute encodes conventional word stress, not necessarily sentence focus. Thus a particle stays accented even when the following object is more prominent in speech, just as every noun retains its written accent. *All* is assigned an invariant acute for consistency with the other quantifiers, not because it must always be prominent. The guide provides grammatical tests and default readings for ambiguous particle/preposition and embedded-*what* constructions. This is a text-based convention, not a claim to recover a unique spoken intonation.
+
+**What stays weak:** a full vowel does not imply an acute. Possessive determiners, including *our* `awər`, remain bare by default. Copular *be* behaves like auxiliary *be*: *they are happy* and *they are working* both use `ɑr`. Explicit contrast and clause-final ellipsis can require `áwər`, `ɑ́r`, etc.; being a copula alone cannot.
+
+**Independent and lexical uses:** independent possessive *his* is accented (`hɪ́z`), unlike determiner *his* (`hɪz`). Personal pronouns used as independent answers also take strong accented forms (*who did it? me.*), but a pronoun is not automatically accented just because it is sentence-final (*I saw him*). Likewise, the weak modal list applies only to modals: nominal/verbal *can*, nominal/verbal *will*, nominal *might*, nominal *must*, and the month/name *May* are content words with full accented pronunciations. These clarifications apply the existing role-first principle, not a blanket change to pronouns or modals.
+
+### Not and the four demonstratives are accented
+
+**Chosen:** independent *not* is always `nɒ́t`, including in *not only*. Demonstrative *this / that / these / those* are `ðɪ́s / ðǽt / ðíjz / ðówz` in both determiner and independent uses. Conjunction/relative *that* remains weak `ðət`; negative contractions retain their existing accents.
+
+**Also valid:** accenting demonstratives only when independent; or transcribing their actual prominence from a particular recording.
+
+**Why:** accenting *not* aligns the independent negative with other adverbs and already-accented negative contractions. Giving all four demonstratives the same treatment removes the former arbitrary asymmetry with *that* and avoids an extra determiner/pronoun decision. These fixed accents encode the notation's word-stress convention, not obligatory spoken emphasis: *not* and demonstratives can be less prominent than neighboring words. The update affects whole words, not substrings of words such as *nothing* or *notice*.
+
+**Validation boundary:** the checker rejects bare `ɔl`, `nɒt`, `ðɪs`, `ðijz`, and `ðowz`, but accepts both spellings of context-dependent words. Its weak-form allowlist is not permission to use the weak spelling everywhere. Particle/preposition, determiner/pronoun, independent-answer, interrogative/relative, and lexical/auxiliary distinctions require source review; a clean mechanical result does not certify those decisions.
 
 ## Text conventions
 

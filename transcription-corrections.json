@@ -699,7 +699,7 @@
     "word": "drill-down",
     "wrong_transcription": "drɪ́l-dawn",
     "correct_transcription": "drɪ́l-dáwn",
-    "explanation": "Each content element of a hyphenated compound receives its own acute; down is not a weak particle here."
+    "explanation": "Each content element of a hyphenated compound receives its own acute. Particle-derived down keeps its acute here, just as verbal-particle down is accented in drill down."
   },
   {
     "word": "incident",
@@ -736,5 +736,107 @@
     "wrong_transcription": "dʒə́ɡəlɪŋ",
     "correct_transcription": "dʒə́ɡlɪŋ",
     "explanation": "The base verb juggle keeps its syllabic-l schwa (dʒə́ɡəl), but Merriam-Webster shows the -ing form with a parenthesized schwa, so the syncope rule (§4.4) applies and the schwa is dropped."
+  },
+  {
+    "word": "all",
+    "wrong_transcription": "ɔl",
+    "correct_transcription": "ɔ́l",
+    "explanation": "All is always accented by convention, like both and each, including in all the pieces and at all. The acute does not necessarily indicate sentence focus."
+  },
+  {
+    "word": "put on a watch",
+    "wrong_transcription": "pʊ́t ɒn ə wɒ́tʃ",
+    "correct_transcription": "pʊ́t ɒ́n ə wɒ́tʃ",
+    "explanation": "On is a verbal particle in put on and takes an acute, whether adjacent to the verb or separated by an object."
+  },
+  {
+    "word": "rely on them",
+    "wrong_transcription": "rɪláj ɒ́n ðɛm",
+    "correct_transcription": "rɪláj ɒn ðɛm",
+    "explanation": "In neutral running text, on is a weak preposition in rely on, not a particle. Membership in a multiword verb alone does not require an acute."
+  },
+  {
+    "word": "follow-up",
+    "wrong_transcription": "fɒ́low-əp",
+    "correct_transcription": "fɒ́low-ə́p",
+    "explanation": "The particle element of this hyphenated derivative keeps its own acute, as required by the particle and hyphenated-compound rules."
+  },
+  {
+    "word": "some were chipped",
+    "wrong_transcription": "səm wər tʃɪ́pt",
+    "correct_transcription": "sə́m wər tʃɪ́pt",
+    "explanation": "Independent some is accented; the indefinite, noncontrastive determiner remains bare in some pieces. Copular were stays weak by default."
+  },
+  {
+    "word": "what do you need?",
+    "wrong_transcription": "wɒt dúw juw níjd?",
+    "correct_transcription": "wɒ́t dúw juw níjd?",
+    "explanation": "Interrogative what is accented, including in embedded questions. Exclamative what is also accented. Do retains its fixed always-accented form."
+  },
+  {
+    "word": "take what you need",
+    "wrong_transcription": "téjk wɒ́t juw níjd",
+    "correct_transcription": "téjk wɒt juw níjd",
+    "explanation": "Fused-relative what means the things that and stays bare. Apply the same distinction to contractions: interrogative what's is wɒ́ts, but take what's left uses wɒts."
+  },
+  {
+    "word": "she does the work",
+    "wrong_transcription": "ʃij dəz ðə wɜ́rk",
+    "correct_transcription": "ʃij də́z ðə wɜ́rk",
+    "explanation": "Lexical does is accented, as is lexical did. Auxiliary does and did stay weak by default, except for explicit contrast, affirmative emphatic do-support, or clause-final ellipsis."
+  },
+  {
+    "word": "she did the work",
+    "wrong_transcription": "ʃij dɪd ðə wɜ́rk",
+    "correct_transcription": "ʃij dɪ́d ðə wɜ́rk",
+    "explanation": "Did is the lexical verb here, not an auxiliary introducing another verb, so it carries an acute."
+  },
+  {
+    "word": "our friends are happy",
+    "wrong_transcription": "áwər frɛ́ndz ɑ́r hǽpij",
+    "correct_transcription": "awər frɛ́ndz ɑr hǽpij",
+    "explanation": "For a neutral reading, possessive our and copular are remain weak despite their full vowels. The accented version is reserved for a context that explicitly emphasizes or contrasts those words."
+  },
+  {
+    "word": "not",
+    "wrong_transcription": "nɒt",
+    "correct_transcription": "nɒ́t",
+    "explanation": "The independent word not is always accented by convention, including in not only. Negative contractions retain their existing accents; words containing these letters are not changed."
+  },
+  {
+    "word": "this",
+    "wrong_transcription": "ðɪs",
+    "correct_transcription": "ðɪ́s",
+    "explanation": "All four demonstratives are accented in both determiner and independent uses. This is conventional word stress, not obligatory sentence focus."
+  },
+  {
+    "word": "these",
+    "wrong_transcription": "ðijz",
+    "correct_transcription": "ðíjz",
+    "explanation": "These follows the same always-accented convention as the other demonstratives."
+  },
+  {
+    "word": "those",
+    "wrong_transcription": "ðowz",
+    "correct_transcription": "ðówz",
+    "explanation": "Those is accented as a determiner or independent pronoun. Conjunction and relative that remain weak; the demonstrative convention does not apply to them."
+  },
+  {
+    "word": "the book is his",
+    "wrong_transcription": "ðə bʊ́k ɪz hɪz",
+    "correct_transcription": "ðə bʊ́k ɪz hɪ́z",
+    "explanation": "Independent possessive his is accented, unlike the weak determiner in his book. Copular is stays weak by default."
+  },
+  {
+    "word": "who did it? me.",
+    "wrong_transcription": "húw dɪd ɪt? mij.",
+    "correct_transcription": "húw dɪd ɪt? míj.",
+    "explanation": "A personal pronoun used as an independent answer takes its strong accented form. Sentence-final position alone does not require an accent, as in neutral I saw him."
+  },
+  {
+    "word": "a can",
+    "wrong_transcription": "ə kən",
+    "correct_transcription": "ə kǽn",
+    "explanation": "The noun can uses its full accented pronunciation, not the weak modal form. Apply the same role-first distinction to lexical will, might, must, and the month or name May."
   }
 ]
