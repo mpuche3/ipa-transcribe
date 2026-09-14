@@ -150,15 +150,15 @@ When goals conflicted, the earlier one won.
 
 **Independent and lexical uses:** independent possessive *his* is accented (`hɪ́z`), unlike determiner *his* (`hɪz`). Personal pronouns used as independent answers also take strong accented forms (*who did it? me.*), but a pronoun is not automatically accented just because it is sentence-final (*I saw him*). Likewise, the weak modal list applies only to modals: nominal/verbal *can*, nominal/verbal *will*, nominal *might*, nominal *must*, and the month/name *May* are content words with full accented pronunciations. These clarifications apply the existing role-first principle, not a blanket change to pronouns or modals.
 
-### Not and the four demonstratives are accented
+### Not is accented; demonstratives follow grammatical role
 
-**Chosen:** independent *not* is always `nɒ́t`, including in *not only*. Demonstrative *this / that / these / those* are `ðɪ́s / ðǽt / ðíjz / ðówz` in both determiner and independent uses. Conjunction/relative *that* remains weak `ðət`; negative contractions retain their existing accents.
+**Chosen:** independent *not* is always `nɒ́t`, including in *not only*. Neutral demonstrative determiners are unaccented with full vowels: *this / that / these / those* are `ðɪs / ðæt / ðijz / ðowz`, including before modifiers (*that old book*). Independent or explicitly contrastive uses take `ðɪ́s / ðǽt / ðíjz / ðówz`. Conjunction/relative *that* remains weak `ðət`; demonstrative *that's* and negative contractions retain their existing accents.
 
-**Also valid:** accenting demonstratives only when independent; or transcribing their actual prominence from a particular recording.
+**Also valid:** accenting all demonstratives regardless of grammatical role; or transcribing their actual prominence from a particular recording.
 
-**Why:** accenting *not* aligns the independent negative with other adverbs and already-accented negative contractions. Giving all four demonstratives the same treatment removes the former arbitrary asymmetry with *that* and avoids an extra determiner/pronoun decision. These fixed accents encode the notation's word-stress convention, not obligatory spoken emphasis: *not* and demonstratives can be less prominent than neighboring words. The update affects whole words, not substrings of words such as *nothing* or *notice*.
+**Why:** accenting *not* aligns the independent negative with other adverbs and already-accented negative contractions. The same role-dependent rule for all four demonstratives parallels determiner vs. independent *his* and *some*. Leaving neutral determiners bare better guides learners toward ordinary phrase rhythm without suggesting prominence on every demonstrative before a noun. Full vowels do not require an acute: demonstrative *that book* is `ðæt bʊ́k`, not `ðət bʊ́k`. Independent *that is a book* takes `ðǽt` by convention, although actual spoken prominence may fall on *book*. Explicit contrast also takes an acute (*THAT book, not THIS one*); mere reference to something previously mentioned does not establish contrast. The update affects whole words, not substrings of words such as *nothing* or *notice*.
 
-**Validation boundary:** the checker rejects bare `ɔl`, `nɒt`, `ðɪs`, `ðijz`, and `ðowz`, but accepts both spellings of context-dependent words. Its weak-form allowlist is not permission to use the weak spelling everywhere. Particle/preposition, determiner/pronoun, independent-answer, interrogative/relative, and lexical/auxiliary distinctions require source review; a clean mechanical result does not certify those decisions.
+**Validation boundary:** the checker rejects bare `ɔl` and `nɒt`, but accepts both bare and accented demonstratives. Its weak-form allowlist is not permission to use the weak spelling everywhere: `ðɪs / ðæt / ðijz / ðowz` require neutral determiner uses. Particle/preposition, determiner/pronoun, independent-answer, interrogative/relative, and lexical/auxiliary distinctions require source review; a clean mechanical result does not certify those decisions.
 
 ## Text conventions
 

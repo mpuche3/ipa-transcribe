@@ -58,6 +58,7 @@ WEAK_FORMS = set("""
 ə ən ðə ðij ənd ɔr bət ɪf æz ðən ðət əv tə ɪn ɒn ət baj fɔr frəm wɪð
 əp dawn awt aj juw hij ʃij ɪt wij ðej mij hɪm hər əs ðɛm
 maj jɔr hɪz ɪts awər ðɛr
+ðɪs ðæt ðijz ðowz
 əm ɪz ɑr wəz wər bij bɪn həv həz həd dəz dɪd
 kən kʊd wɪl wʊd ʃəl ʃʊd mej majt məst
 səm ðər ðərz ðəts wɒt wɒts
@@ -354,7 +355,10 @@ VALID_SAMPLES = [D(s) for s in [
     "aj wə́ndər wɒ́t juw níjd. wɒ́t ə déj!",
     "sə́m əv ðɛm frəm náw ɒ́n",
     "ðej ɑr nɒ́t rɛ́dij. nɒ́t ównlij ðǽt.",
-    "ðɪ́s bʊ́k. ðíjz bʊ́ks. ðówz ɑr hɪ́z.",
+    "ðɪs bʊ́k. ðæt bʊ́k. ðijz bʊ́ks. ðowz bʊ́ks.",
+    "ðɪ́s ɪz hɪ́z. ðǽt ɪz ə bʊ́k. ðíjz ɑr hɪ́z. ðówz ɑr májn.",
+    "ðǽt bʊ́k, nɒ́t ðɪ́s wə́n. ðíjz bʊ́ks, nɒ́t ðówz bʊ́ks.",
+    "ðɪs ówld bʊ́k. ðowz ə́ðər bʊ́ks. ðɪs–ðæt.",
     "aj nów ðət ðǽt wɜ́rks.",
     "hɪz bʊ́k. ðə bʊ́k ɪz hɪ́z.",
     "húw dɪd ɪt? míj. aj sɔ́ hɪm.",
@@ -377,11 +381,8 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("ðə gɑ́rmənt", "ascii-g"),
     ("ɔl əv ðɛm", "unaccented-token"),
     ("nɒt rɛ́dij", "unaccented-token"),
-    ("ðɪs bʊ́k", "unaccented-token"),
-    ("ðijz bʊ́ks", "unaccented-token"),
-    ("ðowz bʊ́ks", "unaccented-token"),
     ("ðɪ́s—nɒt", "unaccented-token"),
-    ("ðɪ́s–ðowz", "unaccented-token"),
+    ("ðɪs–nɒt", "unaccented-token"),
     ("U..S.", "mixed-capitals"),
     ("U.s.", "mixed-capitals"),
     ("OpenAI", "mixed-capitals"),
@@ -430,6 +431,10 @@ INVALID_LAYOUT_SAMPLES = [
 VALID_JSON_SAMPLES = [
     [{"Question": "What's wrong?", "trans_Question": "wɒ́ts rɔ́ŋ?",
       "WrongAnswers": ["O'Connor left."], "trans_WrongAnswers": ["owkɒ́nər lɛ́ft."]}],
+        [{"Question": "This book. That book. These books. Those books.",
+            "trans_Question": "ðɪs bʊ́k. ðæt bʊ́k. ðijz bʊ́ks. ðowz bʊ́ks."}],
+        [{"Question": "That is a book. I know that that works. That's it.",
+            "trans_Question": D("ðǽt ɪz ə bʊ́k. aj nów ðət ðǽt wɜ́rks. ðǽts ɪt.")}],
 ]
 
 INVALID_JSON_SAMPLES = [

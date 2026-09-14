@@ -804,22 +804,40 @@
     "explanation": "The independent word not is always accented by convention, including in not only. Negative contractions retain their existing accents; words containing these letters are not changed."
   },
   {
-    "word": "this",
-    "wrong_transcription": "ðɪs",
-    "correct_transcription": "ðɪ́s",
-    "explanation": "All four demonstratives are accented in both determiner and independent uses. This is conventional word stress, not obligatory sentence focus."
+    "word": "this book",
+    "wrong_transcription": "ðɪ́s bʊ́k",
+    "correct_transcription": "ðɪs bʊ́k",
+    "explanation": "Neutral demonstrative determiners are unaccented with full vowels, even before modifiers. Independent or explicitly contrastive this takes ðɪ́s."
   },
   {
-    "word": "these",
-    "wrong_transcription": "ðijz",
-    "correct_transcription": "ðíjz",
-    "explanation": "These follows the same always-accented convention as the other demonstratives."
+    "word": "these books",
+    "wrong_transcription": "ðíjz bʊ́ks",
+    "correct_transcription": "ðijz bʊ́ks",
+    "explanation": "Neutral determiner these is bare; independent or explicitly contrastive these takes ðíjz. The full FLEECE vowel does not require an acute."
   },
   {
-    "word": "those",
-    "wrong_transcription": "ðowz",
-    "correct_transcription": "ðówz",
-    "explanation": "Those is accented as a determiner or independent pronoun. Conjunction and relative that remain weak; the demonstrative convention does not apply to them."
+    "word": "those books",
+    "wrong_transcription": "ðówz bʊ́ks",
+    "correct_transcription": "ðowz bʊ́ks",
+    "explanation": "Neutral determiner those is bare; independent or explicitly contrastive those takes ðówz. Apply the same role-dependent rule to all four demonstratives."
+  },
+  {
+    "word": "that book",
+    "wrong_transcription": "ðǽt bʊ́k",
+    "correct_transcription": "ðæt bʊ́k",
+    "explanation": "Neutral determiner that is unaccented but retains TRAP æ. Do not reduce it to ðət, the weak conjunction or relative form. Explicit contrast takes ðǽt."
+  },
+  {
+    "word": "this is his; that is a book; these are his; those are mine",
+    "wrong_transcription": "ðɪs ɪz hɪ́z; ðæt ɪz ə bʊ́k; ðijz ɑr hɪ́z; ðowz ɑr májn",
+    "correct_transcription": "ðɪ́s ɪz hɪ́z; ðǽt ɪz ə bʊ́k; ðíjz ɑr hɪ́z; ðówz ɑr májn",
+    "explanation": "Independent demonstratives take an acute by convention, even when spoken sentence prominence falls elsewhere. Demonstrative that's likewise remains accented."
+  },
+  {
+    "word": "THAT book, not THIS one",
+    "wrong_transcription": "ðæt bʊ́k, nɒ́t ðɪs wə́n",
+    "correct_transcription": "ðǽt bʊ́k, nɒ́t ðɪ́s wə́n",
+    "explanation": "Explicitly contrastive demonstrative determiners take an acute. Do not infer this contrast from ordinary sentence-initial capitalization or prior mention alone."
   },
   {
     "word": "the book is his",
