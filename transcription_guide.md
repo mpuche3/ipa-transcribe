@@ -4,7 +4,7 @@ This document specifies how to transcribe English text into a learner-friendly, 
 
 ## 1. Overview
 
-The system is an **IPA-based respelling of rhotic (American-style) English** using **modern glide notation** (the style popularized by Dr. Geoff Lindsey): long vowels and diphthongs are written as vowel + glide (`ij, uw, ej, ow, aj, aw, ɔj`) instead of the traditional `iː, uː, eɪ, oʊ, aɪ, aʊ, ɔɪ`. Stress is marked with **accent marks placed on the vowel itself** — acute `´` for primary stress, grave `` ` `` for secondary stress — never with the IPA marks `ˈ ˌ`.
+The system is an **IPA-based respelling of rhotic (American-style) English** using **modern glide notation** (the style popularized by Dr. Geoff Lindsey): glide vowels are written as vowel + glide (`ij, uw, ej, ow, aj, aw, ɔj`) instead of the traditional `iː, uː, eɪ, oʊ, aɪ, aʊ, ɔɪ`. The long monophthongs `ɑ` (PALM) and `ɔ` (THOUGHT + CLOTH) are written without a glide or length mark. Stress is marked with **accent marks placed on the vowel itself** — acute `´` for primary stress, grave `` ` `` for secondary stress — never with the IPA marks `ˈ ˌ`.
 
 The text layout mirrors the source: same words in the same order, same spacing and punctuation, all lowercase. The one punctuation exception is a word-internal apostrophe, which is omitted from phonetic words because it represents spelling, not sound (§5.4, §9).
 
@@ -30,15 +30,16 @@ One-glance symbol chart (details in §3–§5):
 
 | | Symbols |
 |---|---|
-| Short vowels | `ɪ` kit · `ɛ` dress · `æ` trap · `ɒ` lot · `ə` strut + all weak vowels · `ʊ` foot · `ɔ` thought/cloth |
-| Long vowels / diphthongs | `ij` fleece · `uw` goose · `ej` face · `ow` goat · `aj` price · `aw` mouth · `ɔj` choice · `ɑ` palm |
+| Short monophthongs | `ɪ` kit · `ɛ` dress · `æ` trap · `ɒ` lot · `ə` strut + all weak vowels · `ʊ` foot |
+| Long monophthongs (no glide) | `ɑ` palm · `ɔ` thought/cloth |
+| Glide vowels | `ij` fleece · `uw` goose · `ej` face · `ow` goat · `aj` price · `aw` mouth · `ɔj` choice |
 | Vowel + r | `ər` letter · `ɜr` nurse · `ɑr` start · `ɔr` north · `ɛr` square · `ɪr` near · `ʊr` cure |
 | Consonants | `p b t d k ɡ tʃ dʒ f v θ ð s z ʃ ʒ h m n ŋ l r w j` |
 | Stress | acute `´` = primary, grave `` ` `` = secondary, on the first vowel symbol; weak function words unmarked |
 
 1. Transcribe word by word; keep every punctuation mark, space, hyphen, digit, parenthesis, and quote exactly where it was. Omit word-internal apostrophes from phonetic words (§5.4); preserve them in pass-through tokens such as `'70s`.
 2. Everything is lowercase — including proper nouns and sentence starts (*John* → `dʒɒ́n`). The only capitals allowed are letter-name tokens (rule 8).
-3. Long vowels/diphthongs are vowel + glide: `ij uw ej ow aj aw ɔj`. Never use `ː`, `eɪ`, `oʊ`, etc. The one glide-less long vowel is `ɑ` (PALM: `fɑ́ðər`, `kɑ́m`).
+3. Glide vowels are vowel + glide: `ij uw ej ow aj aw ɔj`. Long monophthongs have no glide: `ɑ` (PALM: `fɑ́ðər`, `kɑ́m`) and `ɔ` (THOUGHT + CLOTH: `kɔ́l`, `ɔ́f`). Never use `ː`, `eɪ`, `oʊ`, etc.
 4. The accent is rhotic: every written/underlying r is pronounced (`lɛ́ðər`, `wɜ́rld`, `ɡɑ́rmənt`).
 5. No centering schwa before r: SQUARE = `ɛr` (`wɛ́r`), NEAR = `ɪr` (`nɪ́r`). And `ʌ` is never used — STRUT is written `ə`, stressed or not (`kə́lər`, `nə́mbər`).
 6. Primary stress = acute on the first vowel symbol of the stressed syllable (`dʒǽkət`, `káwz`). Secondary stress = grave (`fʊ́twɛ̀r`, `mæ̀θəmǽtɪkəl`).
@@ -66,7 +67,9 @@ Notes:
 
 ## 4. Vowels
 
-### 4.1 Checked (short) vowels
+The inventory distinguishes short monophthongs, long monophthongs, and glide vowels. A monophthong has a relatively stable vowel quality; a glide vowel changes quality within its nucleus. Here, "short" and "long" are pedagogical categories, not fixed durations or a universal length contrast in General American: actual duration depends on stress and surrounding sounds. Accents also vary in mergers and CLOTH membership; the lexical mappings below remain this system's convention. "Free" describes distribution, not a glide: both `ɑ` and `ɔ` can end a stressed syllable, as in *spa* and *law*.
+
+### 4.1 Short monophthongs
 
 | Symbol | Lexical set | Examples |
 |---|---|---|
@@ -76,7 +79,6 @@ Notes:
 | ɒ | LOT | `kɒ́tən`, `bɒ́dij`, `spɒ́t`, `prɒ́bləm`, `wɒ́ʃɪz` |
 | ə | STRUT (and all weak vowels, §4.4) | `pə́fər`, `kə́lər`, `nə́mbər`, `lə́v` |
 | ʊ | FOOT | `wʊ́l`, `bʊ́k`, `pʊ́tɪŋ` |
-| ɔ | THOUGHT + CLOTH | `smɔ́l`, `kɔ́l`, `tɔ́l`, `ɔ́fən`, `ɔ́f`, `lɔ́ŋ`, `sɔ́ft`, `əkrɔ́s`, `dɔ́ɡ` |
 
 **Never use `ʌ`.** STRUT shares its symbol with the weak vowel: a stressed STRUT syllable is simply `ə` with an accent mark — `lə́v` (*love*), `mə́nij` (*money*), `sə́mər` (*summer*), `ə̀ndərstǽnd` (*understand*).
 
@@ -89,7 +91,18 @@ Splitting `ɒ` vs `ɑ` vs `ɔ` — **the length principle**: in this vowel area,
 - `ɔ` = THOUGHT words (*all, call, law, thought, caught*) **and** CLOTH words (*off, often, soft, cost, lost, long, strong, wrong, across, dog*). If an American dictionary shows /ɔ/ (or /ɒ~ɔː/ variation resolved toward /ɔː/), write `ɔ`.
 - **Operational test for `ɒ` vs `ɑ`:** check the British (RP) form — RP short /ɒ/ → `ɒ`, RP long /ɑː/ → `ɑ`. This RP lookup decides only which symbol to write — GA itself merges the two vowels; everything else about the word still follows GA (§1). (The *qua-* family above is the one deliberate exception: RP has /ɒ/ there, but this system follows the long American vowel.)
 
-### 4.2 Free vowels (glide notation)
+### 4.2 Free vowels
+
+#### 4.2.1 Long monophthongs (no glide)
+
+| Symbol | Lexical set | Examples | Never write |
+|---|---|---|---|
+| ɑ | PALM | `fɑ́ðər`, `kɑ́m`, `spɑ́` | ɑː, a: |
+| ɔ | THOUGHT + CLOTH | `smɔ́l`, `kɔ́l`, `tɔ́l`, `ɔ́fən`, `ɔ́f`, `lɔ́ŋ`, `sɔ́ft`, `əkrɔ́s`, `dɔ́ɡ` | ɔː, ɔ: |
+
+Both are written as a single vowel symbol, without `j`, `w`, or `ː`. See §4.1 for the lexical split between `ɒ`, `ɑ`, and `ɔ`.
+
+#### 4.2.2 Glide vowels
 
 | Symbol | Lexical set | Examples | Never write |
 |---|---|---|---|
@@ -100,9 +113,6 @@ Splitting `ɒ` vs `ɑ` vs `ɔ` — **the length principle**: in this vowel area,
 | aj | PRICE | `tájp`, `hájd`, `stájl` | aɪ |
 | aw | MOUTH | `káwz`, `ráwnd`, `dáwn` | aʊ |
 | ɔj | CHOICE | `pɔ́jnt`, `mɔ́jstʃər`, `tʃɔ́js` | ɔɪ, oj |
-| ɑ | PALM | `fɑ́ðər`, `kɑ́m`, `spɑ́` | ɑː, a: |
-
-`ɑ` is the only free (long) vowel written without a glide — it is simply the long *ah*. See §4.1 for how to split it from short `ɒ`.
 
 ### 4.3 Vowels + r (always rhotic)
 
@@ -348,7 +358,7 @@ This classification is a semantic judgment for the transcriber or LLM; no token-
 1. Take the source sentence; lowercase it mentally but keep every punctuation mark and digit in place, except word-internal apostrophes in phonetic words (§5.4).
 2. For each word, decide its **grammatical role**, then select the corresponding §6 form. Check particles vs. prepositions, neutral determiner vs. independent/contrastive demonstratives and *some*, interrogative/exclamative vs. fused-relative *what*, determiner vs. independent *his*, pronouns used as independent answers, and lexical vs. auxiliary/modal uses. *All*, *not*, and *do* are always accented. Neutral demonstrative determiners keep full vowels without an acute; independent/contrastive demonstratives are accented, while conjunction/relative *that* stays weak `ðət`. Copular and auxiliary *be*, and possessive determiners including *our*, stay weak by default; apply explicit contrast and clause-final strong-form rules where appropriate. For *the*, choose `ðə` before a consonant sound and `ðij` before a vowel sound. Special check for *have / has / had*: followed by a past participle → auxiliary, weak (`həv / həz / həd`); the only verb in the clause, or taking a direct object → main verb, accented (`hǽv / hǽz / hǽd`).
 3. Classify each remaining token from context (§9): spoken English → retrieve its General American pronunciation; letter name → preserve as capitals and attach any pronounced `s` / `z` / `ɪz` suffix in lowercase; notation/code/identifier → preserve verbatim. For spoken English, when varieties disagree, GA wins (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
-   - long vowels/diphthongs → glide spellings (§4.2),
+   - long monophthongs → `ɑ` / `ɔ` without glides or length marks (§4.2.1); glide vowels → `ij uw ej ow aj aw ɔj` (§4.2.2),
    - r-vowels → rhotic spellings (§4.3),
    - LOT → `ɒ`, PALM (long *ah*) → `ɑ`, THOUGHT/CLOTH → `ɔ` (§4.1), STRUT → `ə`,
    - reduced vowels → `ə`/`ɪ`/`ij` via the §4.4 tie-breaker (fixed morphemes, then spelling), suffixes per §7, yod per §4.6.

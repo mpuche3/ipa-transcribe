@@ -38,7 +38,7 @@ When goals conflicted, the earlier one won.
 
 ### The `ɒ` / `ɑ` / `ɔ` area
 
-**Chosen:** a three-way split: short `ɒ` (LOT), long `ɑ` (PALM, START, the *qua-* family), `ɔ` (THOUGHT + CLOTH) — the "length principle," with no length marks.
+**Chosen:** a three-way split: short `ɒ` (LOT), long `ɑ` (PALM, START, the *qua-* family), long `ɔ` (THOUGHT + CLOTH) — the "length principle," with no length marks. The vowel inventory groups `ɑ` and `ɔ` as **long monophthongs (no glide)**, separately from short monophthongs and glide vowels. These are pedagogical categories within this notation, not a claim of fixed duration across American accents or phonetic contexts.
 
 **Also valid:** pure GA two-way (`ɑ` for merged LOT=PALM, `ɔ` for THOUGHT); merger-maximal one-way (`ɑ` for everything, cot = caught); RP-style `ɒ / ɑː / ɔː`.
 

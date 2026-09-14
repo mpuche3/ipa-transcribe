@@ -48,7 +48,8 @@ python validate_transcriptions.py --self-test                       # sanity che
 | Decision | Choice |
 |---|---|
 | Reference accent | General American — when varieties disagree, Merriam-Webster's first pronunciation wins |
-| Long vowels / diphthongs | glide notation `ij uw ej ow aj aw ɔj` plus long `ɑ` — never `iː eɪ oʊ` |
+| Long monophthongs (no glide) | `ɑ` PALM and `ɔ` THOUGHT + CLOTH, without length marks |
+| Glide vowels | `ij uw ej ow aj aw ɔj` — never `iː eɪ oʊ` |
 | Stress | acute = primary, grave = secondary, on the vowel itself: `dʒǽkət`, `mæ̀θəmǽtɪkəl` — never `ˈ ˌ` |
 | STRUT | `ə` even when stressed (`kə́lər`, `lə́v`) — `ʌ` is never used |
 | SQUARE / NEAR | plain `ɛr` / `ɪr` (`wɛ́r`, `nɪ́r`) — no centering schwa |
