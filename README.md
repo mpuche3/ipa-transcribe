@@ -13,6 +13,7 @@ A complete, self-contained system for transcribing English text into learner-fri
 | `transcription_guide.md` | The full spec — symbol charts, stress rules, weak forms, heteronyms, worked examples, machine-checkable constraints |
 | `SKILL.md` | Claude Code skill entry point (workflow and invariants) |
 | `validate_transcriptions.py` | Zero-dependency Python checker for transcriptions |
+| `transcription-corrections.json` | The mistake ledger — word-level wrong → right pairs from past reviews, each naming the rule it broke |
 | `design_choices.md` | Why the notation looks the way it does — each decision and its valid alternatives |
 
 ## Install as a Claude Code skill
@@ -65,6 +66,18 @@ The acute marks conventional word stress, not necessarily the main sentence prom
 Notation is a semantic category, not a token shape. The same spelling may be spoken in one context and symbolic in another: *NASA launched it* uses `nǽsə`, while `NASA` used as an identifier stays `NASA`; prose *sine* becomes `sájn`, while the function call `sin(x)` stays unchanged. The transcriber or LLM makes this decision from context. The validator checks mechanical form but cannot prove that notation or grammatical-role classification was correct. A permitted weak spelling does not license it in every context: particle/preposition, determiner/pronoun, interrogative/relative, and lexical/auxiliary distinctions still require source review.
 
 Three distinctions are kept in writing that readers may merge in their own speech: `ɒ` vs `ɑ` (GA merges them), `ǽr` in *carry/marry* (most GA speakers say `ɛr`), and flapping is never written.
+
+## Recording mistakes
+
+Every caught error should leave a trace, and each kind of finding has exactly one home:
+
+| Finding | Where it goes |
+|---|---|
+| A rule that generalizes to words you have not seen yet | `transcription_guide.md` — the rule itself, plus a row in §13 *Common errors* |
+| One word that keeps tripping transcribers, or is ruled an exception to a rule | `transcription-corrections.json` — `word`, `wrong_transcription`, `correct_transcription`, and an `explanation` that names the rule broken or the reason for the exception |
+| Why a rule exists, and what else was considered | `design_choices.md` |
+
+Worked case: *really* was written `ríjəlij` by copying the base *real* `ríjəl`. M-W's listing for *really* is rē-(ə-)lē, a medial schwa in parentheses, so §4.4 syncope drops it: `ríjlij`. The rule was sharpened in §4.4, the pair went into the ledger, and the rationale went into `design_choices.md`. The ledger is only worth keeping if it gets read, so `SKILL.md` step 2 checks it before transcribing starts.
 
 ## Encoding note
 

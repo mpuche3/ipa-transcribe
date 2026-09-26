@@ -88,7 +88,7 @@
       "OCR mɒ́dəl",
       "vɪ́dijow mɒ́dəl"
     ],
-    "trans_Explanation": "ɪmbɛ́dɪŋ mɒ́dəl. ɪmbɛ́dɪŋz rɛ̀prɪzɛ́nt sɪmǽntɪk míjnɪŋ æz vɛ́ktərz sów sɪ́mələr kɒ́ntɛnt kən bij fáwnd baj dɪ́stəns ɔr sɪ̀mɪlɛ́rɪtij. ɪ́ndɛks ənd kwíjrij vɛ́ktərz məst júws ðə séjm kəmpǽtɪbəl ɪmbɛ́dɪŋ mɒ́dəl ənd dɪmɛ́nʃənz; ɪmbɛ́dɪŋ mɒ́dəlz dúw nɒ́t dʒɛ́nərèjt ðə fájnəl nǽtʃərəl-lǽŋɡwɪdʒ ǽnsər.",
+    "trans_Explanation": "ɪmbɛ́dɪŋ mɒ́dəl. ɪmbɛ́dɪŋz rɛ̀prɪzɛ́nt sɪmǽntɪk míjnɪŋ æz vɛ́ktərz sów sɪ́mələr kɒ́ntɛnt kən bij fáwnd baj dɪ́stəns ɔr sɪ̀mɪlɛ́rɪtij. ɪ́ndɛks ənd kwíjrij vɛ́ktərz məst júws ðə séjm kəmpǽtɪbəl ɪmbɛ́dɪŋ mɒ́dəl ənd dɪmɛ́nʃənz; ɪmbɛ́dɪŋ mɒ́dəlz də nɒ́t dʒɛ́nərèjt ðə fájnəl nǽtʃərəl-lǽŋɡwɪdʒ ǽnsər.",
     "Difficulty": 2
   },
   {
@@ -203,7 +203,7 @@
       "ǽʒər spíjtʃ",
       "ǽʒər fə́ŋkʃənz"
     ],
-    "trans_Explanation": "fáwndrij éjdʒənt sɜ́rvəs. ðɪs sɜ́rvəs mǽnɪdʒɪz éjdʒənt dɛ̀fənɪ́ʃənz, vɜ́rʒənz, kɒ̀nvərséjʃənz, túwlz, nɒ́lədʒ ɪ̀ntəɡréjʃən, ənd əbzɜ̀rvəbɪ́lɪtij. prɒ́mpt éjdʒənts prəvájd dɪklɛ́rətɪv mǽnədʒd bɪhéjvjər, wájl hówstɪd éjdʒənts səpɔ́rt kə́stəm kówd ənd ɔ̀rkəstréjʃən wɛ́n mɔ́r rə́ntàjm kəntrówl ɪz rɪkwájərd.",
+    "trans_Explanation": "fáwndrij éjdʒənt sɜ́rvəs. ðɪs sɜ́rvəs mǽnɪdʒɪz éjdʒənt dɛ̀fɪnɪ́ʃənz, vɜ́rʒənz, kɒ̀nvərséjʃənz, túwlz, nɒ́lədʒ ɪ̀ntəɡréjʃən, ənd əbzɜ̀rvəbɪ́lɪtij. prɒ́mpt éjdʒənts prəvájd dɪklɛ́rətɪv mǽnədʒd bɪhéjvjər, wájl hówstɪd éjdʒənts səpɔ́rt kə́stəm kówd ənd ɔ̀rkəstréjʃən wɛ́n mɔ́r rə́ntàjm kəntrówl ɪz rɪkwájərd.",
     "Difficulty": 2
   },
   {
@@ -585,7 +585,7 @@
       "Provisioned throughput"
     ],
     "Explanation": "Workload isolation. Separate projects or resources reduce blast radius and simplify least-privilege policies for sensitive workloads. Shared components should be used only where governance and risk posture allow it.",
-    "trans_Question": "túw bɪ́znəs júwnəts ʃɛ́r ɡə́vərnəns bət wə́n júwnət prɒ́sɛsɪz hájər-rɪ́sk déjtə ənd níjdz strɪ́ktər sɛ̀pəréjʃən frəm ðij ə́ðər. wɪ́tʃ sɛ́tə̀p prɪ́nsəpəl ʃʊd bij əplájd?",
+    "trans_Question": "túw bɪ́znəs júwnəts ʃɛ́r ɡə́vərnəns bət wə́n júwnət prɒ́sɛsɪz hájər-rɪ́sk déjtə ənd níjdz strɪ́ktər sɛ̀pəréjʃən frəm ðij ə́ðər. wɪ́tʃ sɛ́tə̀p prɪ́nsɪpəl ʃʊd bij əplájd?",
     "trans_RightAnswer": "wɜ́rklòwd àjsəléjʃən",
     "trans_WrongAnswers": [
       "déjtə rɛ́zɪdənsij plǽnɪŋ",
@@ -709,7 +709,7 @@
       "dɪfɔ́ltæ̀ʒərkrɪdɛ̀nʃəl",
       "prɒ́dʒɛkt-skówpt RBAC"
     ],
-    "trans_Explanation": "éjdʒənt vɜ́rʒən rówlbæ̀k. vɜ́rʒənd pə́blɪʃɪŋ lɛ́ts tíjmz ríj-pɔ́jnt ɪ̀ksəkjúwʃən tə ə prájər stéjbəl éjdʒənt rɪlíjs kwɪ́klij. ðɪ́s səpɔ́rts séjfər ɪ̀təréjʃən ðən ɛ́dɪtɪŋ ə lájv prədə́kʃən dɛ̀fənɪ́ʃən ɪn pléjs.",
+    "trans_Explanation": "éjdʒənt vɜ́rʒən rówlbæ̀k. vɜ́rʒənd pə́blɪʃɪŋ lɛ́ts tíjmz ríj-pɔ́jnt ɪ̀ksəkjúwʃən tə ə prájər stéjbəl éjdʒənt rɪlíjs kwɪ́klij. ðɪ́s səpɔ́rts séjfər ɪ̀təréjʃən ðən ɛ́dɪtɪŋ ə lájv prədə́kʃən dɛ̀fɪnɪ́ʃən ɪn pléjs.",
     "Difficulty": 3
   },
   {
@@ -1114,7 +1114,7 @@
       "Groundedness evaluator"
     ],
     "Explanation": "Trace correlation. Shared trace and span context links all AI steps in one request path. Correlated traces speed root-cause analysis during partial failures.",
-    "trans_Question": "ɪ́nsədənt rɪvjúw ʃówz nów wéj tə kənɛ́kt rɪtríjvəl, mɒ́dəl, ənd túwl spǽnz ɪ́ntə wə́n trænzǽkʃən tájmlajn. wɪ́tʃ əbzɜ̀rvəbɪ́lɪtij kɒ́nsɛpt ʃʊd bij ɪnfɔ́rst?",
+    "trans_Question": "ɪ́nsɪdənt rɪvjúw ʃówz nów wéj tə kənɛ́kt rɪtríjvəl, mɒ́dəl, ənd túwl spǽnz ɪ́ntə wə́n trænzǽkʃən tájmlajn. wɪ́tʃ əbzɜ̀rvəbɪ́lɪtij kɒ́nsɛpt ʃʊd bij ɪnfɔ́rst?",
     "trans_RightAnswer": "tréjs kɔ̀rəléjʃən",
     "trans_WrongAnswers": [
       "ówpəntəlɛ̀mətrij tréjsɪz",
@@ -1307,7 +1307,7 @@
       "kíj vɔ́lt",
       "prájvət ɪ́ndpɔ̀jnt"
     ],
-    "trans_Explanation": "mǽnədʒd ajdɛ́ntɪtij. ǽʒər-mǽnədʒd sɜ́rvəs prɪ́nsəpəlz prəvájd tówkən-béjst ǽksɛ̀s wɪθáwt síjkrət dɪ̀strəbjúwʃən ɪn kówd. ðɪ́s sɪ́mpləfàjz rowtéjʃən ənd rɪdúwsəz krɪdɛ́nʃəl ɪkspówʒər.",
+    "trans_Explanation": "mǽnədʒd ajdɛ́ntɪtij. ǽʒər-mǽnədʒd sɜ́rvəs prɪ́nsɪpəlz prəvájd tówkən-béjst ǽksɛ̀s wɪθáwt síjkrət dɪ̀strəbjúwʃən ɪn kówd. ðɪ́s sɪ́mpləfàjz rowtéjʃən ənd rɪdúwsəz krɪdɛ́nʃəl ɪkspówʒər.",
     "Difficulty": 2
   },
   {
@@ -1597,7 +1597,7 @@
       "Safety evaluators"
     ],
     "Explanation": "Layered guardrails. Apply controls across every stage so failures in one layer do not become full incidents. Defense in depth is essential for agentic systems with retrieval and tools.",
-    "trans_Question": "séjftij ɪ́nsədənts ʃów ðət ównlij áwtpʊ̀t mɒ̀dəréjʃən ɪz kɜ́rəntlij ɪnéjbəld. ɑ́rkətɛ̀kts wɒ́nt dɪfɛ́nsəz ət ɪ́npʊ̀t, rɪtríjvəl, túwl ɪ̀ksəkjúwʃən, ənd áwtpʊ̀t stéjdʒɪz. wɒ́t dɪzájn prɪ́nsəpəl ʃʊd ɡájd ðɪ́s?",
+    "trans_Question": "séjftij ɪ́nsɪdənts ʃów ðət ównlij áwtpʊ̀t mɒ̀dəréjʃən ɪz kɜ́rəntlij ɪnéjbəld. ɑ́rkətɛ̀kts wɒ́nt dɪfɛ́nsəz ət ɪ́npʊ̀t, rɪtríjvəl, túwl ɪ̀ksəkjúwʃən, ənd áwtpʊ̀t stéjdʒɪz. wɒ́t dɪzájn prɪ́nsɪpəl ʃʊd ɡájd ðɪ́s?",
     "trans_RightAnswer": "léjərd ɡɑ́rdrèjlz",
     "trans_WrongAnswers": [
       "ǽʒər kɒ́ntɛnt séjftij",
@@ -1606,7 +1606,7 @@
       "rɛ́d tíjmɪŋ",
       "séjftij ɪvǽljuwèjtərz"
     ],
-    "trans_Explanation": "léjərd ɡɑ́rdrèjlz. əpláj kəntrówlz əkrɔ́s ɛ́vrij stéjdʒ sów féjljərz ɪn wə́n léjər dúw nɒ́t bɪkə́m fʊ́l ɪ́nsədənts. dɪfɛ́ns ɪn dɛ́pθ ɪz ɪsɛ́nʃəl fɔr ədʒɛ́ntɪk sɪ́stəmz wɪð rɪtríjvəl ənd túwlz.",
+    "trans_Explanation": "léjərd ɡɑ́rdrèjlz. əpláj kəntrówlz əkrɔ́s ɛ́vrij stéjdʒ sów féjljərz ɪn wə́n léjər də nɒ́t bɪkə́m fʊ́l ɪ́nsɪdənts. dɪfɛ́ns ɪn dɛ́pθ ɪz ɪsɛ́nʃəl fɔr ədʒɛ́ntɪk sɪ́stəmz wɪð rɪtríjvəl ənd túwlz.",
     "Difficulty": 2
   },
   {
@@ -1650,7 +1650,7 @@
       "séjftij ɪvǽljuwèjtərz",
       "léjərd ɡɑ́rdrèjlz",
       "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
-      "RAI prɪ́nsəpəlz"
+      "RAI prɪ́nsɪpəlz"
     ],
     "trans_Explanation": "rɛ́d tíjmɪŋ. ɪt ɪz æ̀dvərsɛ́rijəl tɛ́stɪŋ dɪzájnd tə ənkə́vər séjftij ənd sɪkjʊ́rɪtij féjljər mówdz bɪfɔ́r rɪlíjs. fájndɪŋz ɪ̀nfɔ́rm mɪ̀təɡéjʃənz, θrɛ́ʃòwldz, ənd ɒ̀pəréjʃənəl rə́nbʊ̀ks.",
     "Difficulty": 2
@@ -1672,7 +1672,7 @@
       "rɛ́d tíjmɪŋ",
       "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
       "fɔ́ls pɒ́zətɪv tréjdɔ̀f",
-      "RAI prɪ́nsəpəlz",
+      "RAI prɪ́nsɪpəlz",
       "tréjs lɔ́ɡz"
     ],
     "trans_Explanation": "séjftij ɪvǽljuwèjtərz. ɔ́təmèjtɪd ɪvǽljuwèjtərz skɔ́r áwtpʊ̀ts əɡɛ́nst dɪfájnd kwɑ́lɪtij ənd rɪ́sk dɪmɛ́nʃənz sów CI kən blɒ́k rɪɡrɛ́ʃənz. júws rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts tə méjk pǽs-féjl dɪsɪ́ʒənz míjnɪŋfəl.",
@@ -1689,11 +1689,11 @@
       "Provenance metadata"
     ],
     "Explanation": "Representative datasets. Evaluation data must reflect real user intents, languages, and edge cases to predict live behavior. Weak dataset coverage leads to false confidence before deployment.",
-    "trans_Question": "mɒ́dəl kwɑ́lɪtij lʊ́kt ɡʊ́d ɪn stéjdʒɪŋ, bət prədə́kʃən júwzərz ǽsk dɪ́fərənt kwɛ́stʃənz ənd ɪ́nsədənts rájz. wɪ́tʃ ǽsɛ̀t ʃʊd bij ɪkspǽndɪd tə ɪ̀mprúwv ɪvæ̀ljuwéjʃən ríjəlɪzəm?",
+    "trans_Question": "mɒ́dəl kwɑ́lɪtij lʊ́kt ɡʊ́d ɪn stéjdʒɪŋ, bət prədə́kʃən júwzərz ǽsk dɪ́fərənt kwɛ́stʃənz ənd ɪ́nsɪdənts rájz. wɪ́tʃ ǽsɛ̀t ʃʊd bij ɪkspǽndɪd tə ɪ̀mprúwv ɪvæ̀ljuwéjʃən ríjəlɪzəm?",
     "trans_RightAnswer": "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
     "trans_WrongAnswers": [
       "séjftij ɪvǽljuwèjtərz",
-      "RAI prɪ́nsəpəlz",
+      "RAI prɪ́nsɪpəlz",
       "rɛ́d tíjmɪŋ",
       "tréjs lɔ́ɡz",
       "prɒ́vənəns mɛ́tədèjtə"
@@ -1713,7 +1713,7 @@
     ],
     "Explanation": "RAI principles. Use Responsible AI principles such as fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability to justify governance choices. They provide the policy backbone for controls and reviews.",
     "trans_Question": "kəmplájəns rɪkwájərz jɔr ɔ̀rɡənəzéjʃən tə ʃów háw fɛ́rnəs, trænspɛ́rənsij, ənd əkàwntəbɪ́lɪtij wər kənsɪ́dərd ɪn sɪ́stəm dɪzájn dɪsɪ́ʒənz. wɒ́t fréjmwɜ̀rk ʃʊd bij rɛ́fərənst?",
-    "trans_RightAnswer": "RAI prɪ́nsəpəlz",
+    "trans_RightAnswer": "RAI prɪ́nsɪpəlz",
     "trans_WrongAnswers": [
       "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
       "tréjs lɔ́ɡz",
@@ -1721,7 +1721,7 @@
       "prɒ́vənəns mɛ́tədèjtə",
       "prájvəsij-əwɛ́r rɪtɛ́nʃən"
     ],
-    "trans_Explanation": "RAI prɪ́nsəpəlz. júws rɪspɒ́nsɪbəl AI prɪ́nsəpəlz sə́tʃ æz fɛ́rnəs, rɪlàjəbɪ́lɪtij ənd séjftij, prájvəsij ənd sɪkjʊ́rɪtij, ɪ̀nklúwsɪvnɪs, trænspɛ́rənsij, ənd əkàwntəbɪ́lɪtij tə dʒə́stəfàj ɡə́vərnəns tʃɔ́jsəz. ðej prəvájd ðə pɒ́lɪsij bǽkbòwn fɔr kəntrówlz ənd rɪvjúwz.",
+    "trans_Explanation": "RAI prɪ́nsɪpəlz. júws rɪspɒ́nsɪbəl AI prɪ́nsɪpəlz sə́tʃ æz fɛ́rnəs, rɪlàjəbɪ́lɪtij ənd séjftij, prájvəsij ənd sɪkjʊ́rɪtij, ɪ̀nklúwsɪvnɪs, trænspɛ́rənsij, ənd əkàwntəbɪ́lɪtij tə dʒə́stəfàj ɡə́vərnəns tʃɔ́jsəz. ðej prəvájd ðə pɒ́lɪsij bǽkbòwn fɔr kəntrówlz ənd rɪvjúwz.",
     "Difficulty": 1
   },
   {
@@ -1735,16 +1735,16 @@
       "Human approval"
     ],
     "Explanation": "Trace logs. End-to-end traces capture execution steps and safety signals needed for diagnosis, audits, and post-incident learning. Without them, root-cause analysis is incomplete.",
-    "trans_Question": "dʊ́rɪŋ ɪ́nsədənt rɪvjúw, ɪ̀nvɛ́stəɡèjtərz níjd ə kəmplíjt tʃéjn ʃówɪŋ prɒ́mpt vɜ́rʒən, rɪtríjvd tʃə́ŋks, túwl kɔ́lz, séjftij ɪvɛ́nts, ənd fájnəl dɪsɪ́ʒən pǽθ. wɒ́t təlɛ́mətrij ɑ́rtəfæ̀kt ɪz rɪkwájərd?",
+    "trans_Question": "dʊ́rɪŋ ɪ́nsɪdənt rɪvjúw, ɪ̀nvɛ́stəɡèjtərz níjd ə kəmplíjt tʃéjn ʃówɪŋ prɒ́mpt vɜ́rʒən, rɪtríjvd tʃə́ŋks, túwl kɔ́lz, séjftij ɪvɛ́nts, ənd fájnəl dɪsɪ́ʒən pǽθ. wɒ́t təlɛ́mətrij ɑ́rtəfæ̀kt ɪz rɪkwájərd?",
     "trans_RightAnswer": "tréjs lɔ́ɡz",
     "trans_WrongAnswers": [
-      "RAI prɪ́nsəpəlz",
+      "RAI prɪ́nsɪpəlz",
       "prɒ́vənəns mɛ́tədèjtə",
       "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
       "prájvəsij-əwɛ́r rɪtɛ́nʃən",
       "hjúwmən əprúwvəl"
     ],
-    "trans_Explanation": "tréjs lɔ́ɡz. ɛ́nd-tə-ɛ́nd tréjsɪz kǽptʃər ɪ̀ksəkjúwʃən stɛ́ps ənd séjftij sɪ́ɡnəlz níjdɪd fɔr dàjəɡnówsəs, ɒ́dəts, ənd pówst-ɪ́nsədənt lɜ́rnɪŋ. wɪθáwt ðɛm, rúwt-kɒ́z ənǽləsɪs ɪz ɪ̀nkəmplíjt.",
+    "trans_Explanation": "tréjs lɔ́ɡz. ɛ́nd-tə-ɛ́nd tréjsɪz kǽptʃər ɪ̀ksəkjúwʃən stɛ́ps ənd séjftij sɪ́ɡnəlz níjdɪd fɔr dàjəɡnówsəs, ɒ́dəts, ənd pówst-ɪ́nsɪdənt lɜ́rnɪŋ. wɪθáwt ðɛm, rúwt-kɒ́z ənǽləsɪs ɪz ɪ̀nkəmplíjt.",
     "Difficulty": 2
   },
   {
@@ -1763,7 +1763,7 @@
     "trans_WrongAnswers": [
       "tréjs lɔ́ɡz",
       "prájvəsij-əwɛ́r rɪtɛ́nʃən",
-      "RAI prɪ́nsəpəlz",
+      "RAI prɪ́nsɪpəlz",
       "hjúwmən əprúwvəl",
       "túwl əláwlɪ̀st"
     ],
@@ -1859,7 +1859,7 @@
       "mɒ́dəl kɒ́ntɛnt fɪ́ltərz",
       "prɒ́mpt ʃíjldz"
     ],
-    "trans_Explanation": "kɪ́l swɪ́tʃ. ə fǽst ʃə́tdàwn mɛ́kənɪ̀zəm lɛ́ts ɒ́pərèjtərz hɔ́lt éjdʒənt ǽkʃənz wɛ́n bɪhéjvjər bɪkə́mz ənséjf ɔr ə̀nkəntrówld. pɛ́r ɪt wɪð ɪ̀skəléjʃən ənd rówlbæ̀k prəsíjdʒərz fɔr ɪ́nsədənt rɪspɒ́ns.",
+    "trans_Explanation": "kɪ́l swɪ́tʃ. ə fǽst ʃə́tdàwn mɛ́kənɪ̀zəm lɛ́ts ɒ́pərèjtərz hɔ́lt éjdʒənt ǽkʃənz wɛ́n bɪhéjvjər bɪkə́mz ənséjf ɔr ə̀nkəntrówld. pɛ́r ɪt wɪð ɪ̀skəléjʃən ənd rówlbæ̀k prəsíjdʒərz fɔr ɪ́nsɪdənt rɪspɒ́ns.",
     "Difficulty": 2
   },
   {
@@ -1873,7 +1873,7 @@
       "Indirect attack shield"
     ],
     "Explanation": "Separation of duties. Distinct roles for authoring, approval, and operations reduce fraud and single-point failure risk. This is a core control for accountable production governance.",
-    "trans_Question": "ɒ́dətərz rɪdʒɛ́kt jɔr prɒ́sɛ̀s bɪkɒ́z ðə séjm ɛ̀ndʒənɪ́r ɔ́θərz éjdʒənt prɒ́mpts, əprúwvz rɪlíjsɪz, ənd ɒ́pərèjts prədə́kʃən krədɛ́nʃəlz. wɪ́tʃ ɡə́vərnəns prɪ́nsəpəl ɪz mɪ́sɪŋ?",
+    "trans_Question": "ɒ́dətərz rɪdʒɛ́kt jɔr prɒ́sɛ̀s bɪkɒ́z ðə séjm ɛ̀ndʒənɪ́r ɔ́θərz éjdʒənt prɒ́mpts, əprúwvz rɪlíjsɪz, ənd ɒ́pərèjts prədə́kʃən krədɛ́nʃəlz. wɪ́tʃ ɡə́vərnəns prɪ́nsɪpəl ɪz mɪ́sɪŋ?",
     "trans_RightAnswer": "sɛ̀pəréjʃən əv dúwtijz",
     "trans_WrongAnswers": [
       "kɪ́l swɪ́tʃ",
@@ -2425,7 +2425,7 @@
       "Parallel calls"
     ],
     "Explanation": "JSON Schema. It formalizes parameter types, required properties, and valid values for tool arguments. Strong schemas improve call reliability and reduce runtime validation errors.",
-    "trans_Question": "túwl ɪ̀nvəkéjʃənz féjl bɪkɒ́z ðə mɒ́dəl sɛ́ndz mɪ́sɪŋ rɪkwájərd fíjldz ənd ɪ́nvələd íjnəm vǽljuwz fɔr ə ʃɪ́pɪŋ API. wɪ́tʃ dɛ̀fənɪ́ʃən əprówtʃ ʃʊd bij tájtənd?",
+    "trans_Question": "túwl ɪ̀nvəkéjʃənz féjl bɪkɒ́z ðə mɒ́dəl sɛ́ndz mɪ́sɪŋ rɪkwájərd fíjldz ənd ɪ́nvələd íjnəm vǽljuwz fɔr ə ʃɪ́pɪŋ API. wɪ́tʃ dɛ̀fɪnɪ́ʃən əprówtʃ ʃʊd bij tájtənd?",
     "trans_RightAnswer": "dʒéjsɒn skíjmə",
     "trans_WrongAnswers": [
       "fə́ŋkʃən kɔ́lɪŋ",
@@ -2586,7 +2586,7 @@
       "Environment separation"
     ],
     "Explanation": "Representative dataset. Both baseline and candidate should be evaluated on the same realistic sample of production-like tasks. This ensures fair comparisons and meaningful quality signals.",
-    "trans_Question": "ə tíjm kəmpɛ́rz túw prɒ́mpt strǽtədʒijz bət júwzɪz ǽd hɒ́k ɪɡzǽmpəlz frəm dɪ́fərənt wíjks, méjkɪŋ kənklúwʒənz ə̀nrɪlájəbəl. wɪ́tʃ déjtəsɛ̀t prɪ́nsəpəl ʃʊd ðej ɪnfɔ́rs fɜ́rst?",
+    "trans_Question": "ə tíjm kəmpɛ́rz túw prɒ́mpt strǽtədʒijz bət júwzɪz ǽd hɒ́k ɪɡzǽmpəlz frəm dɪ́fərənt wíjks, méjkɪŋ kənklúwʒənz ə̀nrɪlájəbəl. wɪ́tʃ déjtəsɛ̀t prɪ́nsɪpəl ʃʊd ðej ɪnfɔ́rs fɜ́rst?",
     "trans_RightAnswer": "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀t",
     "trans_WrongAnswers": [
       "rúwlz ɛ́ndʒɪn",
@@ -2701,7 +2701,7 @@
       "Hosted agent"
     ],
     "Explanation": "Agent goal. It states the measurable outcome the agent should optimize for during task selection. A precise goal improves prioritization across competing actions.",
-    "trans_Question": "ən ɒ̀pəréjʃənz bɔ́t kəmplíjts tǽsks kwɪ́klij bət ɔ́fən tʃúwzəz lów-vǽljuw ǽkʃənz ðət dúw nɒ́t rɪdúws tɪ́kət bǽklɒ̀ɡ. wɪ́tʃ dɪzájn kɒ́nsɛpt ʃʊd ðə tíjm rɪfájn?",
+    "trans_Question": "ən ɒ̀pəréjʃənz bɔ́t kəmplíjts tǽsks kwɪ́klij bət ɔ́fən tʃúwzəz lów-vǽljuw ǽkʃənz ðət də nɒ́t rɪdúws tɪ́kət bǽklɒ̀ɡ. wɪ́tʃ dɪzájn kɒ́nsɛpt ʃʊd ðə tíjm rɪfájn?",
     "trans_RightAnswer": "éjdʒənt ɡówl",
     "trans_WrongAnswers": [
       "éjdʒənt rówl",
@@ -2802,7 +2802,7 @@
       "kɒ̀nvərséjʃən ájtəm",
       "rɪspɒ́ns"
     ],
-    "trans_Explanation": "éjdʒənt vɜ́rʒən. ɪt krijéjts ɪ̀mjúwtəbəl dɛ̀fənɪ́ʃənz ðət kən bij prəmówtɪd, kəmpɛ́rd, ənd rówld bǽk séjflij. vɜ́rʒənɪŋ səpɔ́rts rìjprədùwsəbɪ́lɪtij ənd ɡə́vərnəns.",
+    "trans_Explanation": "éjdʒənt vɜ́rʒən. ɪt krijéjts ɪ̀mjúwtəbəl dɛ̀fɪnɪ́ʃənz ðət kən bij prəmówtɪd, kəmpɛ́rd, ənd rówld bǽk séjflij. vɜ́rʒənɪŋ səpɔ́rts rìjprədùwsəbɪ́lɪtij ənd ɡə́vərnəns.",
     "Difficulty": 2
   },
   {
@@ -3239,7 +3239,7 @@
       "tíjmz pə́blɪʃɪŋ",
       "M365 kówpajlət ǽp"
     ],
-    "trans_Explanation": "éjdʒənt ajdɛ́ntɪtij. ɪt júwzɪz ə sɜ́rvəs prɪ́nsəpəl ɔr mǽnədʒd ajdɛ́ntɪtij wɪð líjst-prɪ́vlədʒ skówps. ajdɛ́ntɪtij sɛ̀pəréjʃən rɪdúwsəz ówvərrìjtʃ ənd sɪ́mpləfàjz ɒ́dətɪŋ.",
+    "trans_Explanation": "éjdʒənt ajdɛ́ntɪtij. ɪt júwzɪz ə sɜ́rvəs prɪ́nsɪpəl ɔr mǽnədʒd ajdɛ́ntɪtij wɪð líjst-prɪ́vlədʒ skówps. ajdɛ́ntɪtij sɛ̀pəréjʃən rɪdúwsəz ówvərrìjtʃ ənd sɪ́mpləfàjz ɒ́dətɪŋ.",
     "Difficulty": 3
   },
   {
@@ -3575,7 +3575,7 @@
       "Agent instructions"
     ],
     "Explanation": "Agent governance. It sets autonomy levels, approval gates, safeguards, and execution limits based on risk. It also requires traceability, evaluation, and error analysis for continuous improvement.",
-    "trans_Question": "ə bǽŋk ɪz dɪ̀sájdɪŋ wɛ́n éjdʒənts mej ǽkt ɔ̀tɒ́nowməslij, wɛ́n əprúwvəlz ɑr mǽndətɔ̀rij, ənd háw tə ɪnfɔ́rs lɪ́məts, tréjsɪŋ, ənd pówst-ɪ́nsədənt lɜ́rnɪŋ. wɪ́tʃ ɡə́vərnəns kɒ́nsɛpt bɛ́st fɪ́ts?",
+    "trans_Question": "ə bǽŋk ɪz dɪ̀sájdɪŋ wɛ́n éjdʒənts mej ǽkt ɔ̀tɒ́nowməslij, wɛ́n əprúwvəlz ɑr mǽndətɔ̀rij, ənd háw tə ɪnfɔ́rs lɪ́məts, tréjsɪŋ, ənd pówst-ɪ́nsɪdənt lɜ́rnɪŋ. wɪ́tʃ ɡə́vərnəns kɒ́nsɛpt bɛ́st fɪ́ts?",
     "trans_RightAnswer": "éjdʒənt ɡə́vərnəns",
     "trans_WrongAnswers": [
       "tərmənéjʃən kəndɪ́ʃən",
@@ -3828,7 +3828,7 @@
       "Iteration quality gate"
     ],
     "Explanation": "Self-critique loop (generate, inspect, revise) improves outputs against explicit quality criteria. Self-critique loop (bounded passes) captures gains without uncontrolled latency or cost.",
-    "trans_Question": "ən éjdʒənt drǽfts ɪ́nsədənt sə́mərijz, ðɛ́n tʃɛ́ks ðɛm əɡɛ́nst ɪksplɪ́sɪt kwɑ́lɪtij krajtɪ́rijə ənd rijrájts wíjk sɛ́kʃənz bɪfɔ́r rɪtɜ́rnɪŋ rɪzə́lts. wɪ́tʃ ɒptəməzéjʃən kɒ́nsɛpt ɪz ðɪ́s?",
+    "trans_Question": "ən éjdʒənt drǽfts ɪ́nsɪdənt sə́mərijz, ðɛ́n tʃɛ́ks ðɛm əɡɛ́nst ɪksplɪ́sɪt kwɑ́lɪtij krajtɪ́rijə ənd rijrájts wíjk sɛ́kʃənz bɪfɔ́r rɪtɜ́rnɪŋ rɪzə́lts. wɪ́tʃ ɒptəməzéjʃən kɒ́nsɛpt ɪz ðɪ́s?",
     "trans_RightAnswer": "sɛ́lf-krətíjk lúwp",
     "trans_WrongAnswers": [
       "rǽɡ vɜ́rsəs fájn-túwnɪŋ",
@@ -3897,7 +3897,7 @@
       "Token telemetry"
     ],
     "Explanation": "Iteration quality gate (thresholds plus max cycles) bounds reflective refinement workflows. Iteration quality gate (stop conditions) prevents runaway loops while preserving measurable gains.",
-    "trans_Question": "ə rɪflɛ́ktɪv wɜ́rkflòw səmtájmz lúwps ɪ̀ndɛ́fənətlij ɒn májnər ɛ́dɪts, ɪ̀nkríjsɪŋ léjtənsij ənd spɛ́nd. wɪ́tʃ kəntrówl kɒ́nsɛpt ʃʊd bij ǽdɪd tə ɒ̀pəréjʃənəlàjz kwɑ́lɪtij tʃɛ́ks séjflij?",
+    "trans_Question": "ə rɪflɛ́ktɪv wɜ́rkflòw səmtájmz lúwps ɪ̀ndɛ́fɪnɪtlij ɒn májnər ɛ́dɪts, ɪ̀nkríjsɪŋ léjtənsij ənd spɛ́nd. wɪ́tʃ kəntrówl kɒ́nsɛpt ʃʊd bij ǽdɪd tə ɒ̀pəréjʃənəlàjz kwɑ́lɪtij tʃɛ́ks séjflij?",
     "trans_RightAnswer": "ɪ̀təréjʃən kwɑ́lɪtij ɡéjt",
     "trans_WrongAnswers": [
       "vɛ́rəfàjər mɒ́dəl",
@@ -3943,7 +3943,7 @@
       "Latency breakdown"
     ],
     "Explanation": "Trace correlation IDs (shared request identifiers) stitch distributed events into one traceable flow. Trace correlation IDs (cross-service linkage) accelerate root-cause analysis during incidents.",
-    "trans_Question": "ən ɪ́nsədənt spǽnz rɪtríjvər, mɒ́dəl, ənd péjmənt API kɔ́lz, ənd ɛ̀ndʒənɪ́rz kǽnɒt kənɛ́kt lɔ́ɡz əkrɔ́s sɜ́rvɪsɪz. wɪ́tʃ əbzɜ̀rvəbɪ́lɪtij kɒ́nsɛpt ʃʊd bij ɪ́mpləmɛ̀ntɪd?",
+    "trans_Question": "ən ɪ́nsɪdənt spǽnz rɪtríjvər, mɒ́dəl, ənd péjmənt API kɔ́lz, ənd ɛ̀ndʒənɪ́rz kǽnɒt kənɛ́kt lɔ́ɡz əkrɔ́s sɜ́rvɪsɪz. wɪ́tʃ əbzɜ̀rvəbɪ́lɪtij kɒ́nsɛpt ʃʊd bij ɪ́mpləmɛ̀ntɪd?",
     "trans_RightAnswer": "tréjs kɔ̀rəléjʃən IDz",
     "trans_WrongAnswers": [
       "prɒ́sɛ̀s ríjzənɪŋ ɪvæ̀ljuwéjʃən",
@@ -3952,7 +3952,7 @@
       "fɜ́rst-tówkən léjtənsij",
       "léjtənsij bréjkdàwn"
     ],
-    "trans_Explanation": "tréjs kɔ̀rəléjʃən IDz (ʃɛ́rd rɪkwɛ́st ajdɛ́ntəfàjərz) stɪ́tʃ dɪstrɪ́bjətəd ɪvɛ́nts ɪ́ntə wə́n tréjsəbəl flów. tréjs kɔ̀rəléjʃən IDz (krɔ́s-sɜ́rvəs lɪ́ŋkɪdʒ) æksɛ́lərèjt rúwt-kɒ́z ənǽləsɪs dʊ́rɪŋ ɪ́nsədənts.",
+    "trans_Explanation": "tréjs kɔ̀rəléjʃən IDz (ʃɛ́rd rɪkwɛ́st ajdɛ́ntəfàjərz) stɪ́tʃ dɪstrɪ́bjətəd ɪvɛ́nts ɪ́ntə wə́n tréjsəbəl flów. tréjs kɔ̀rəléjʃən IDz (krɔ́s-sɜ́rvəs lɪ́ŋkɪdʒ) æksɛ́lərèjt rúwt-kɒ́z ənǽləsɪs dʊ́rɪŋ ɪ́nsɪdənts.",
     "Difficulty": 2
   },
   {
@@ -4403,7 +4403,7 @@
       "Reference image conditioning"
     ],
     "Explanation": "Asynchronous generation jobs. Submit long-running requests as jobs, then poll or subscribe for completion state updates. Handle terminal failure states and retries explicitly in orchestration logic.",
-    "trans_Question": "jɔr bæ̀kɛ́nd stɑ́rts lɔ́ŋ vɪ́dijow dʒɛ̀nəréjʃən rɪkwɛ́sts ðət dúw nɒ́t kəmplíjt wɪðɪ́n rɪkwɛ́st tájmàwts, sów ðə UI məst tʃɛ́k prɒ́ɡrɛ̀s ənd hǽndəl féjld rə́nz ɡréjsfəlij. wɪ́tʃ pǽtərn ʃʊd bij ɪ́mpləmɛ̀ntɪd?",
+    "trans_Question": "jɔr bæ̀kɛ́nd stɑ́rts lɔ́ŋ vɪ́dijow dʒɛ̀nəréjʃən rɪkwɛ́sts ðət də nɒ́t kəmplíjt wɪðɪ́n rɪkwɛ́st tájmàwts, sów ðə UI məst tʃɛ́k prɒ́ɡrɛ̀s ənd hǽndəl féjld rə́nz ɡréjsfəlij. wɪ́tʃ pǽtərn ʃʊd bij ɪ́mpləmɛ̀ntɪd?",
     "trans_RightAnswer": "ejsɪ́ŋkrənəs dʒɛ̀nəréjʃən dʒɒ́bz",
     "trans_WrongAnswers": [
       "sɛ́ɡmənt rijdʒɛ̀nəréjʃən",
@@ -4472,7 +4472,7 @@
       "Contextual Alt Text"
     ],
     "Explanation": "Visible Evidence Grounding. Visual question answering should rely only on information that is actually visible in the image. If evidence is missing or ambiguous, the response should state uncertainty instead of inferring facts.",
-    "trans_Question": "ə kəmplájəns rɪvjúwər ǽsks wɛ́ðər ə wɜ́rkər ɪn ən ɪ́mɪdʒ ɪz wɛ́rɪŋ ɡlə́vz, ənd ðə sɪ́stəm məst əvɔ́jd ɡɛ́sɪŋ frəm kɒ́ntɛkst nɒ́t ʃówn. wɪ́tʃ prɪ́nsəpəl ʃʊd drájv ðij ǽnsərɪŋ bɪhéjvjər?",
+    "trans_Question": "ə kəmplájəns rɪvjúwər ǽsks wɛ́ðər ə wɜ́rkər ɪn ən ɪ́mɪdʒ ɪz wɛ́rɪŋ ɡlə́vz, ənd ðə sɪ́stəm məst əvɔ́jd ɡɛ́sɪŋ frəm kɒ́ntɛkst nɒ́t ʃówn. wɪ́tʃ prɪ́nsɪpəl ʃʊd drájv ðij ǽnsərɪŋ bɪhéjvjər?",
     "trans_RightAnswer": "vɪ́zɪbəl ɛ́vɪdəns ɡráwndɪŋ",
     "trans_WrongAnswers": [
       "mə̀ltijmówdəl prɒ́mptɪŋ",
@@ -5438,7 +5438,7 @@
       "Secrets detection"
     ],
     "Explanation": "Domain grounding. It requires outputs to be supported by supplied source text and context. Grounding reduces unsupported additions and improves trust.",
-    "trans_Question": "ən ɔ́dɪtər rɪdʒɛ́kts sə́mərijz ðət ɪ̀ntrədúws fǽkts ǽbsənt frəm ɛ́vɪdəns dɒ́kjəmənts. wɪ́tʃ prɪ́nsəpəl məst ɡájd prɒ́mpt dɪzájn ənd ɪvæ̀ljuwéjʃən?",
+    "trans_Question": "ən ɔ́dɪtər rɪdʒɛ́kts sə́mərijz ðət ɪ̀ntrədúws fǽkts ǽbsənt frəm ɛ́vɪdəns dɒ́kjəmənts. wɪ́tʃ prɪ́nsɪpəl məst ɡájd prɒ́mpt dɪzájn ənd ɪvæ̀ljuwéjʃən?",
     "trans_RightAnswer": "dowméjn ɡráwndɪŋ",
     "trans_WrongAnswers": [
       "fjúw-ʃɒ́t prɒ́mptɪŋ",
@@ -5622,7 +5622,7 @@
       "Speech synthesis"
     ],
     "Explanation": "Short-audio recognition. It is designed for one utterance per request with a clear endpoint. Choose it for command-style interactions rather than ongoing dictation.",
-    "trans_Question": "ə kíjɔ̀sk ǽp lɪ́sənz fɔr sɪ́ŋɡəl spówkən kəmǽndz lájk \"prɪ́nt bǽdʒ\" ənd ʃʊd stɒ́p ǽftər íjtʃ ə́tərəns ɪ̀nstɛ́d əv rə́nɪŋ ɪ̀ndɛ́fənətlij. wɪ́tʃ rɛ̀kəɡnɪ́ʃən mówd ɪz əprówprijət?",
+    "trans_Question": "ə kíjɔ̀sk ǽp lɪ́sənz fɔr sɪ́ŋɡəl spówkən kəmǽndz lájk \"prɪ́nt bǽdʒ\" ənd ʃʊd stɒ́p ǽftər íjtʃ ə́tərəns ɪ̀nstɛ́d əv rə́nɪŋ ɪ̀ndɛ́fɪnɪtlij. wɪ́tʃ rɛ̀kəɡnɪ́ʃən mówd ɪz əprówprijət?",
     "trans_RightAnswer": "ʃɔ́rt-ɔ́dijòw rɛ̀kəɡnɪ́ʃən",
     "trans_WrongAnswers": [
       "bǽtʃ træ̀nskrɪ́pʃən",
@@ -6059,7 +6059,7 @@
       "Indexer schedule"
     ],
     "Explanation": "Push API. Application-managed pushes provide precise control over timing, batching, retries, and idempotency. This is preferred when source systems or SLAs require orchestration beyond indexer scheduling.",
-    "trans_Question": "ə lájn-əv-bɪ́znəs ǽp rɪsíjvz nɪ́r-ríjl-tájm ɪ́nsədənt rɪkɔ́rdz ənd məst dɪ̀sájd ɪɡzǽktlij wɛ́n íjtʃ dɒ́kjəmənt ɪz ɪ́ndɛkst, wɪð kə́stəm rijtráj lɒ́dʒɪk ɪn kówd. wɪ́tʃ ɪ̀ndʒɛ́stʃən mɛ́θəd ɪz ðə bɛ́st fɪ́t?",
+    "trans_Question": "ə lájn-əv-bɪ́znəs ǽp rɪsíjvz nɪ́r-ríjl-tájm ɪ́nsɪdənt rɪkɔ́rdz ənd məst dɪ̀sájd ɪɡzǽktlij wɛ́n íjtʃ dɒ́kjəmənt ɪz ɪ́ndɛkst, wɪð kə́stəm rijtráj lɒ́dʒɪk ɪn kówd. wɪ́tʃ ɪ̀ndʒɛ́stʃən mɛ́θəd ɪz ðə bɛ́st fɪ́t?",
     "trans_RightAnswer": "pʊ́ʃ API",
     "trans_WrongAnswers": [
       "ɪ́ndɛ̀ksər pájplàjn",
@@ -6266,7 +6266,7 @@
       "Hybrid retrieval"
     ],
     "Explanation": "Custom skill. Custom skills inject organization-specific extraction or transformation logic into the enrichment pipeline. They complement built-in skills when proprietary semantics are required.",
-    "trans_Question": "juw məst ɪnrɪ́tʃ tʃə́ŋks wɪð dowméjn-spəsɪ́fɪk rɪ́sk kówdz frəm ən ɪ̀ntɜ́rnəl klǽsəfàjər ðət ǽʒər bɪ́lt-ɪ́n ɪnrɪ́tʃərz dúw nɒ́t prəvájd. wɒ́t ʃʊd juw ǽd?",
+    "trans_Question": "juw məst ɪnrɪ́tʃ tʃə́ŋks wɪð dowméjn-spəsɪ́fɪk rɪ́sk kówdz frəm ən ɪ̀ntɜ́rnəl klǽsəfàjər ðət ǽʒər bɪ́lt-ɪ́n ɪnrɪ́tʃərz də nɒ́t prəvájd. wɒ́t ʃʊd juw ǽd?",
     "trans_RightAnswer": "kə́stəm skɪ́l",
     "trans_WrongAnswers": [
       "tʃə́ŋkɪŋ strǽtədʒij",
@@ -6358,7 +6358,7 @@
       "Suggester"
     ],
     "Explanation": "Reciprocal Rank Fusion. RRF blends multiple ranked lists by rewarding consistently high placements across methods. It is commonly used to combine hybrid retrieval signals.",
-    "trans_Question": "juw ɑr kəmbájnɪŋ lɛ́ksɪkəl ənd vɛ́ktər rǽŋkɪŋz ənd níjd ə prɪ́nsəpəld mɛ́θəd tə mɜ́rdʒ rɪzə́lt lɪ́sts ɪ́ntə wə́n fájnəl ɔ́rdər. wɪ́tʃ rǽŋk fjúwʒən mɛ́θəd əplájz?",
+    "trans_Question": "juw ɑr kəmbájnɪŋ lɛ́ksɪkəl ənd vɛ́ktər rǽŋkɪŋz ənd níjd ə prɪ́nsɪpəld mɛ́θəd tə mɜ́rdʒ rɪzə́lt lɪ́sts ɪ́ntə wə́n fájnəl ɔ́rdər. wɪ́tʃ rǽŋk fjúwʒən mɛ́θəd əplájz?",
     "trans_RightAnswer": "rɪsɪ́prəkəl rǽŋk fjúwʒən",
     "trans_WrongAnswers": [
       "hájbrəd rɪtríjvəl",

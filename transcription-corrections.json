@@ -312,10 +312,10 @@
     "explanation": "The verb has primary stress on perform and secondary stress on under-."
   },
   {
-    "word": "use",
+    "word": "use (noun)",
     "wrong_transcription": "júwz",
     "correct_transcription": "júws",
-    "explanation": "These hyphenated occurrences use the noun use, whose guide form ends in voiceless s."
+    "explanation": "Applies to the NOUN use only, whose guide form ends in voiceless s (§8). The verb use is júwz and must never be changed, and júwzd, júwzɪŋ, júwzɪz, júwzərz and júwzəbəl are likewise verbal. A token-level audit must check the source word's part of speech first, otherwise every verb instance is reported as a false positive."
   },
   {
     "word": "decouples",
@@ -856,5 +856,119 @@
     "wrong_transcription": "ə kən",
     "correct_transcription": "ə kǽn",
     "explanation": "The noun can uses its full accented pronunciation, not the weak modal form. Apply the same role-first distinction to lexical will, might, must, and the month or name May."
+  },
+  {
+    "word": "really",
+    "wrong_transcription": "ríjəlij",
+    "correct_transcription": "ríjlij",
+    "explanation": "M-W's first listing is rē-(ə-)lē: a medial schwa in parentheses, so §4.4 syncope drops the syllable. The base real keeps its schwa (ríjəl); the derived adverb follows its own listing."
+  },
+  {
+    "word": "carefully",
+    "wrong_transcription": "kɛ́rfəlij",
+    "correct_transcription": "kɛ́rflij",
+    "explanation": "M-W's first listing is ker-f(ə-)lē, a parenthesized medial schwa, so §4.4 syncope drops the syllable; only the fixed -ally əlij ending is exempt. The base careful keeps its vowel (kɛ́rfəl, M-W ker-fəl unparenthesized). Author confirmed kɛ́rflij on 2026-09-26 and the four kɛ́rfəlij instances (TRN_CognitiveLoad, TRN_Gaslighitng, TRN_the_case_for_superintelligence x2) were swept."
+  },
+  {
+    "word": "answerable",
+    "wrong_transcription": "ǽnsrəbəl",
+    "correct_transcription": "ǽnsərəbəl",
+    "explanation": "Editorial exception to §4.4 syncope: -able words keep M-W's full form, so the parenthesized schwa is written (æn-sər-ə-bəl). Do not compress it to ǽnsrəbəl."
+  },
+  {
+    "word": "definite",
+    "wrong_transcription": "dɛ́fənət",
+    "correct_transcription": "dɛ́fɪnɪt",
+    "explanation": "Both reduced vowels are spelled i, so the tie-breaker gives ɪ in both syllables; M-W's schwa notation does not override it here. The same ruling covers infinite ɪ́nfɪnɪt and indefinitely ɪ̀ndɛ́fɪnɪtlij."
+  },
+  {
+    "word": "definite (medial syllable only)",
+    "wrong_transcription": "dɛ́fənɪt",
+    "correct_transcription": "dɛ́fɪnɪt",
+    "explanation": "Correcting only the final syllable is not enough: the medial reduced vowel is also spelled i, so it takes ɪ as well."
+  },
+  {
+    "word": "definition",
+    "wrong_transcription": "dɛ̀fənɪ́ʃən",
+    "correct_transcription": "dɛ̀fɪnɪ́ʃən",
+    "explanation": "Same ruling as definite: the medial reduced vowel is spelled i, so it takes ɪ rather than M-W's schwa. Swept 2026-09-26: dɛ̀fənɪ́ʃən in TRN_superintelligence_risk, plus dɛ̀fənɪ́ʃən x2 and dɛ̀fənɪ́ʃənz x2 in AI-103-questions.json."
+  },
+  {
+    "word": "infinite",
+    "wrong_transcription": "ɪ́nfɪnət",
+    "correct_transcription": "ɪ́nfɪnɪt",
+    "explanation": "Same ruling: the final reduced vowel is spelled i, so it takes ɪ rather than ə."
+  },
+  {
+    "word": "indefinitely",
+    "wrong_transcription": "ɪ̀ndɛ́fənətlij",
+    "correct_transcription": "ɪ̀ndɛ́fɪnɪtlij",
+    "explanation": "Same ruling: both reduced vowels are spelled i, so both take ɪ rather than ə."
+  },
+  {
+    "word": "principle",
+    "wrong_transcription": "prɪ́nsəpəl",
+    "correct_transcription": "prɪ́nsɪpəl",
+    "explanation": "The reduced medial vowel is spelled i, so the tie-breaker gives ɪ rather than M-W's schwa, as in definite and definition. Only the final -ple is ə. Older examples and the question data carry the ə form."
+  },
+  {
+    "word": "possible",
+    "wrong_transcription": "pɒ́səbəl",
+    "correct_transcription": "pɒ́sɪbəl",
+    "explanation": "§7 fixes -ible as ɪbəl, so possible takes ɪ; the fixed suffix transcription outranks M-W's schwa, as in incredible ɪnkrɛ́dɪbəl and eligible ɛ́lɪdʒɪbəl."
+  },
+  {
+    "word": "arbitrary",
+    "wrong_transcription": "ɑ́rbətrɛ̀rij",
+    "correct_transcription": "ɑ́rbɪtrɛ̀rij",
+    "explanation": "The reduced medial vowel is spelled i, so it takes ɪ rather than M-W's schwa."
+  },
+  {
+    "word": "writing",
+    "wrong_transcription": "rájɪŋ",
+    "correct_transcription": "rájtɪŋ",
+    "explanation": "The stem-final t of write survives in the -ing form, so the citation form is ˈraɪtɪŋ, exactly as putting is pʊ́tɪŋ; §3 bans writing flapping or deletion. The corpus already carries rájtɪŋ and rìjrájtɪŋ. The flapped [ɾ] of casual speech leaves no trace the validator can see, so this class also depends on the §11 self-check."
+  },
+  {
+    "word": "exciting",
+    "wrong_transcription": "ɪksájɪŋ",
+    "correct_transcription": "ɪksájtɪŋ",
+    "explanation": "Same rule as writing: M-W lists ˈsī-tiŋ with a real t, and the t is kept before -ing. Casual American speech flaps it to [ɾ], which is never written (§3), and a deleted consonant is invisible to the validator."
+  },
+  {
+    "word": "earlier",
+    "wrong_transcription": "ɪ́rlijər",
+    "correct_transcription": "ɜ́rlijər",
+    "explanation": "earlier has the NURSE vowel ɜr, the same as early ɜ́rlij, world wɜ́rld and learn lɜ́rn; M-W's first listing is ˈər-lē-ər, with no /i/ variant. The NEAR vowel ɪr belongs to nearly nɪ́rlij, near and hear. Corpus practice was split 3 files to 4 before this ruling, and ɪ́r is a legal nucleus, so the validator reports nothing."
+  },
+  {
+    "word": "habitability",
+    "wrong_transcription": "hæ̀bətəbɪ́lɪtij",
+    "correct_transcription": "hæ̀bɪtəbɪ́lɪtij",
+    "explanation": "The reduced vowel of the habit- root is spelled i, so the §4.4 spelling tie-breaker gives ɪ even though M-W writes schwa (ˌha-bə-tə-ˈbi-lə-tē). Everything else follows M-W: secondary hæ̀ (ˌha), the a-spelled ə, the primary bɪ́l, and the fixed -ity ending ɪtij. Corpus practice agrees: habituation həbɪ̀tʃuwéjʃən x17, habituate həbɪ́tʃuwèjt x3 and habits hǽbɪts x1 all use bɪ."
+  },
+  {
+    "word": "habitat",
+    "wrong_transcription": "hǽbətæ̀t",
+    "correct_transcription": "hǽbɪtæ̀t",
+    "explanation": "Same habit- root as habitability: the reduced second syllable is spelled i, so the §4.4 tie-breaker gives ɪ rather than M-W's schwa (ˈha-bə-ˌtat). This was the only other word in the corpus using bə in the root, so the sweep brought it in line with habituation, habituate and habits."
+  },
+  {
+    "word": "acknowledge",
+    "wrong_transcription": "ɪknɒ́lɪdʒ",
+    "correct_transcription": "əknɒ́lɪdʒ",
+    "explanation": "The unstressed initial vowel is the a- prefix, which §4.4 lists in the ə row as a fixed morpheme (a-, pro-, con-), and step 3 of the tie-breaker also gives ə because the vowel is spelled a rather than i/y. The corpus's own derivatives agree (əknɒ́lɪdʒɪz, əknɒ́lɪdʒɪŋ) and every other a- word is ə by a wide margin (about 134, across 40, address 16, approach 28, adapt 12, occurs 18). M-W's first listing is ik-ˈnä-lij, but the §1 ɪ~ə carve-out makes the tie-breaker, not the dictionary, decide; ɪknɒ́lɪdʒ is a legal nucleus, so the validator reports nothing."
+  },
+  {
+    "word": "accept",
+    "wrong_transcription": "ɪksɛ́pt",
+    "correct_transcription": "əksɛ́pt",
+    "explanation": "Same a- prefix ruling as acknowledge: §4.4 puts a- in the ə row as a fixed morpheme and the spelling step agrees (a, not i/y). Corpus practice was split before the sweep (əksɛ́pt in Ariane 5, TheEscalationOfCommitment and Y2K vs ɪksɛ́pt in TheCaseForSuperintelligence), and the rest of the family is ə throughout (əksɛ́ptəbəl, əksɛ́ptəblij). The same sweep fixed ə̀nɪksɛ́ptəbəl and ə̀næksɛ́ptəbəl to ə̀nəksɛ́ptəbəl. Do NOT change ɪksɛ́pt where the source word is except — e-/ex- takes ɪ (§4.4)."
+  },
+  {
+    "word": "do (auxiliary)",
+    "wrong_transcription": "dúw",
+    "correct_transcription": "də",
+    "explanation": "Auxiliary do is weak by default in statements, negatives and questions, exactly like auxiliary does dəz and did dɪd; the author replaced the older 'always dúw' exception on 2026-09-26, and the corpus was swept (8 examples + 5 AI-103). Keep dúw for lexical do (what to do, do the work), explicit contrast, affirmative emphatic do-support (aj dúw wɒ́nt tə prəsíjd) and clause-final ellipsis (jɛ́s, ðej dúw). Never sweep by string: dúw tə (due to) and dúwɪŋ (doing) are unrelated. An audit against this entry must check the source word do plus an auxiliary context (followed by not, or question-initial with a wh-word)."
   }
 ]

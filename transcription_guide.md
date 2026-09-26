@@ -167,6 +167,10 @@ The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and s
 
 **Syncope — parenthesized schwas are dropped.** When Merriam-Webster's first listing shows a medial schwa in parentheses — \(ə-)\ — the syllable is omitted, because the compressed form is how the word is spoken: *different* `dɪ́frənt`, *difference* `dɪ́frəns`, *sovereign* `sɒ́vrən`, *laboratory* `lǽbrətɔ̀rij`, *deliberate* (adj.) `dɪlɪ́brət`. When M-W lists the full form unparenthesized, the schwa stays: *natural* `nǽtʃərəl`. The fixed transcriptions of §6 and §7 outrank this rule — *-ally* is always `əlij` (`tɪ́pɪkəlij`), even where M-W parenthesizes it.
 
+**The listing consulted is the word's own, not its base's,** so a derived form can syncopate where its base does not: *real* `ríjəl` but *really* `ríjlij` (M-W rē-(ə-)lē), *careful* `kɛ́rfəl` but *carefully* `kɛ́rflij` (M-W ker-f(ə-)lē).
+
+Individual words can also be ruled to keep the full form as an editorial decision; those rulings live in `transcription-corrections.json`, not in this rule. The `-able` ending is one such case: *answerable* is `ǽnsərəbəl` (æn-sər-ə-bəl), never `ǽnsrəbəl`.
+
 ### 4.5 Glide linking inside words
 
 When a syllable ending in `ij / ej / aj / ɔj` is followed by another vowel, link with `j`:
@@ -234,7 +238,7 @@ Classify the word's **grammatical role before choosing its form**. Use the weak 
 | Demonstratives | Neutral determiners: *this* `ðɪs` · *these* `ðijz` · *that* `ðæt` · *those* `ðowz`. Independent or explicitly contrastive uses: `ðɪ́s` · `ðíjz` · `ðǽt` · `ðówz`. All retain full vowels; conjunction/relative *that* remains weak `ðət`. |
 | *be* | *am* `əm` · *is* `ɪz` · *are* `ɑr` · *was* `wəz` · *were* `wər` · *be* `bij` · *been* `bɪn` — these monosyllabic forms are weak by default in copular, auxiliary, and existential constructions: *they are happy* and *they are working* both use `ɑr`. Explicit contrast, citation, and clause-final ellipsis take strong forms. Polysyllabic *being* keeps its internal stress: `bíjɪŋ` (see below). |
 | *have* | *have* `həv` · *has* `həz` · *had* `həd` — as auxiliaries (followed by a past participle). Main-verb *have / has / had* — possession, experience, consumption, any lexical meaning — are content words: *I have a car* → `aj hǽv ə kɑ́r`; *she has had breakfast* → `ʃij həz hǽd brɛ́kfəst`; *we had a great time* → `wij hǽd ə ɡréjt tájm`. Obligation *have to / has to* devoice: `hǽf tə`, `hǽs tə`. (See Example 4.) |
-| *do* | *do* `dúw` (fixed exception: always accented, including as an auxiliary). Auxiliary *does* `dəz` · *did* `dɪd`; lexical *does* `də́z` · *did* `dɪ́d`: *she does the work*, *she did the work*, *it does so*. Auxiliaries also take the accented forms under explicit contrast, affirmative emphatic do-support (*it does work*), or clause-final ellipsis (*yes, she did*). |
+| *do* | Auxiliary *do* `də` — weak by default in statements, negatives, and questions: *I do not want to proceed* `aj də nɒ́t wɒ́nt tə prəsíjd`. Lexical *do* (main verb) is `dúw`: *what to do* `wɒ́t tə dúw`, *do the work* `dúw ðə wɜ́rk`. Auxiliaries take `dúw` under explicit contrast, affirmative emphatic do-support (*I do want to proceed* `aj dúw wɒ́nt tə prəsíjd`), or clause-final ellipsis (*yes, they do* `jɛ́s, ðej dúw`). Auxiliary *does* `dəz` · *did* `dɪd`; lexical *does* `də́z` · *did* `dɪ́d`: *she does the work*, *she did the work*, *it does so*. |
 | Modals | *can* `kən` · *could* `kʊd` · *will* `wɪl` · *would* `wʊd` · *shall* `ʃəl` · *should* `ʃʊd` · *may* `mej` · *might* `majt` · *must* `məst` — only in modal uses; lexical homonyms are content words (see below). |
 | Other | *not* `nɒ́t` (always accented) · *some* `səm` as an indefinite determiner; independent or explicitly contrastive *some* `sə́m` · *all* `ɔ́l` (always accented) · *there* (existential) `ðər`; locative *there* is content: `ðɛ́r` · interrogative/exclamative *what* `wɒ́t`; fused-relative *what* `wɒt` |
 
@@ -273,7 +277,7 @@ Object movement (*turn on the light* → *turn the light on*) is useful evidence
 
 **The article *the*.** Choose its weak form from the first **sound** of the next word, not its first written letter: `ðə bʊ́k`, `ðij ǽpəl`, `ðə jùwnəvɜ́rsətij` (*the university*), `ðij áwər` (*the hour*). Apply the same sound test when the next token passes through unchanged: `ðij 8`, `ðij FBI`, but `ðə USB`. Both weak forms are unaccented. Genuine emphasis or citation takes the strong form `ðíj` (*not a solution, the solution*).
 
-**Strong forms at clause ends:** a stranded preposition with no following complement, or an auxiliary or *be* form whose complement is elided, takes its strong, accented form: *what are you looking at?* → `wɒ́t ɑr juw lʊ́kɪŋ ǽt?`; *where do you come from?* → `wɛ́r dúw juw kə́m frɒ́m?`; *yes, it is.* → `jɛ́s, ɪt ɪ́z.` Strong forms: *at* `ǽt`, *of* `ɒ́v`, *to* `túw`, *for* `fɔ́r`, *from* `frɒ́m`, *is* `ɪ́z`, *are* `ɑ́r`, *was* `wɒ́z`, *has* `hǽz`, *can* `kǽn`, *have* `hǽv`, *would* `wʊ́d`, *does* `də́z`, *did* `dɪ́d`. This is not a rule to accent every function word before punctuation.
+**Strong forms at clause ends:** a stranded preposition with no following complement, or an auxiliary or *be* form whose complement is elided, takes its strong, accented form: *what are you looking at?* → `wɒ́t ɑr juw lʊ́kɪŋ ǽt?`; *where do you come from?* → `wɛ́r də juw kə́m frɒ́m?`; *yes, it is.* → `jɛ́s, ɪt ɪ́z.` Strong forms: *at* `ǽt`, *of* `ɒ́v`, *to* `túw`, *for* `fɔ́r`, *from* `frɒ́m`, *is* `ɪ́z`, *are* `ɑ́r`, *was* `wɒ́z`, *has* `hǽz`, *can* `kǽn`, *have* `hǽv`, *would* `wʊ́d`, *does* `də́z`, *did* `dɪ́d`. This is not a rule to accent every function word before punctuation.
 
 ## 7. Suffix cheat sheet
 
@@ -319,7 +323,7 @@ Disambiguate by part of speech (or tense) from context **before** transcribing:
 
 The list is not exhaustive — any noun/verb pair with shifting stress (*permit, conduct, increase, project, contract…*) follows the *record* pattern: the noun stresses the first syllable, the verb the second.
 
-Related but grammar-driven rather than spelling-driven: *have / has / had*, *this / that / these / those*, *there*, *some*, *what*, *does / did*, and particle/preposition pairs switch between weak and accented forms by syntactic role — see §6. *Do* itself stays accented as a fixed exception; copular and auxiliary *be* both stay weak by default.
+Related but grammar-driven rather than spelling-driven: *have / has / had*, *this / that / these / those*, *there*, *some*, *what*, *do / does / did*, and particle/preposition pairs switch between weak and accented forms by syntactic role — see §6. Copular and auxiliary *be* both stay weak by default.
 
 ## 9. Text formatting rules
 
@@ -356,7 +360,7 @@ This classification is a semantic judgment for the transcriber or LLM; no token-
 ## 11. Step-by-step procedure
 
 1. Take the source sentence; lowercase it mentally but keep every punctuation mark and digit in place, except word-internal apostrophes in phonetic words (§5.4).
-2. For each word, decide its **grammatical role**, then select the corresponding §6 form. Check particles vs. prepositions, neutral determiner vs. independent/contrastive demonstratives and *some*, interrogative/exclamative vs. fused-relative *what*, determiner vs. independent *his*, pronouns used as independent answers, and lexical vs. auxiliary/modal uses. *All*, *not*, and *do* are always accented. Neutral demonstrative determiners keep full vowels without an acute; independent/contrastive demonstratives are accented, while conjunction/relative *that* stays weak `ðət`. Copular and auxiliary *be*, and possessive determiners including *our*, stay weak by default; apply explicit contrast and clause-final strong-form rules where appropriate. For *the*, choose `ðə` before a consonant sound and `ðij` before a vowel sound. Special check for *have / has / had*: followed by a past participle → auxiliary, weak (`həv / həz / həd`); the only verb in the clause, or taking a direct object → main verb, accented (`hǽv / hǽz / hǽd`).
+2. For each word, decide its **grammatical role**, then select the corresponding §6 form. Check particles vs. prepositions, neutral determiner vs. independent/contrastive demonstratives and *some*, interrogative/exclamative vs. fused-relative *what*, determiner vs. independent *his*, pronouns used as independent answers, and lexical vs. auxiliary/modal uses. *All* and *not* are always accented, while *do* is accented only in its lexical, contrastive, emphatic do-support, and clause-final uses (§6). Neutral demonstrative determiners keep full vowels without an acute; independent/contrastive demonstratives are accented, while conjunction/relative *that* stays weak `ðət`. Copular and auxiliary *be*, and possessive determiners including *our*, stay weak by default; apply explicit contrast and clause-final strong-form rules where appropriate. For *the*, choose `ðə` before a consonant sound and `ðij` before a vowel sound. Special check for *have / has / had*: followed by a past participle → auxiliary, weak (`həv / həz / həd`); the only verb in the clause, or taking a direct object → main verb, accented (`hǽv / hǽz / hǽd`).
 3. Classify each remaining token from context (§9): spoken English → retrieve its General American pronunciation; letter name → preserve as capitals and attach any pronounced `s` / `z` / `ɪz` suffix in lowercase; notation/code/identifier → preserve verbatim. For spoken English, when varieties disagree, GA wins (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
    - long monophthongs → `ɑ` / `ɔ` without glides or length marks (§4.2.1); glide vowels → `ij uw ej ow aj aw ɔj` (§4.2.2),
    - r-vowels → rhotic spellings (§4.3),
@@ -493,7 +497,9 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `ˈleðər`, `ˌʌnˈlaɪk` | `lɛ́ðər`, `ə̀nlájk` | no ˈ ˌ marks; use acute/grave on the vowel |
 | `meɪd`, `oʊnli`, `iːkwəl` | `méjd`, `ównlij`, `íjkwəl` | no length marks or traditional diphthongs |
 | `lɛ́ðə`, `wɜ́ːld` | `lɛ́ðər`, `wɜ́rld` | the accent is rhotic — never drop r |
+| `ɪksájɪŋ`, `rájɪŋ` | `ɪksájtɪŋ`, `rájtɪŋ` | never drop a pronounced stem-final t before `-ing` — the citation form keeps it (`pʊ́tɪŋ`, `lǽstɪŋ`); casual speech flaps it to [ɾ], and flapping or deletion is never written (§3) |
 | `wɛ́ər`, `nɪ́ər`, `ðɛər` | `wɛ́r`, `nɪ́r`, `ðɛr` | no centering ə before r — SQUARE/NEAR are plain `ɛr` / `ɪr` |
+| `ɪ́rlijər`, `lɪ́rn`, `hɪ́rd` | `ɜ́rlijər`, `lɜ́rn`, `hɜ́rd` | NURSE is `ɜr`: *earlier, learn, heard* have the vowel of `wɜ́rld`, not the NEAR `ɪr` of *nearly* `nɪ́rlij` — `ear` spells `ɜr` in *early, learn, heard, earth, search* |
 | `pɛ́rəmàwnt` | `pǽrəmàwnt` | *paramount* has lexical TRAP before intervocalic `r`; the `ǽr` override applies before the M-W rule (§4.3) |
 | `kʌ́lər`, `bʌt`, `sʌ́bkʌ̀ltʃər` | `kə́lər`, `bət`, `sə́bkə̀ltʃər` | `ʌ` is never used — STRUT is `ə` |
 | `fɒ́ðər`, `kɒ́m`, `ɒ́mənd` | `fɑ́ðər`, `kɑ́m`, `ɑ́mənd` | PALM words have the long vowel — write `ɑ` (§4.1) |
@@ -510,6 +516,7 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `pʊ́t ɒn ə wɒ́tʃ` | `pʊ́t ɒ́n ə wɒ́tʃ` | particle *on* is accented; prepositional *on* stays weak in *rely on them* |
 | `səm wər tʃɪ́pt` | `sə́m wər tʃɪ́pt` | independent *some* is accented; indefinite determiner *some* stays weak |
 | `ʃij dɪd ðə wɜ́rk` | `ʃij dɪ́d ðə wɜ́rk` | lexical *did* is accented; auxiliary *did* stays weak by default |
+| `dúw nɒ́t` | `də nɒ́t` | auxiliary *do* is weak by default, like auxiliary *does* and *did*; reserve `dúw` for lexical *do*, explicit contrast, affirmative emphatic do-support, and clause-final ellipsis |
 | `ðə ǽpəl`, `ðij júwnɪt` | `ðij ǽpəl`, `ðə júwnɪt` | weak *the* follows the next sound, not the next letter (§6) |
 | `ɪt's`, `wɛ́rər'z` | `ɪts`, `wɛ́rərz` | omit word-internal apostrophes from phonetic words (§5.4) |
 | `Méjd`, `DƷɒn` | `méjd`, `dʒɒ́n` | lowercase everywhere except letter-name tokens |
@@ -523,3 +530,5 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `həz həd ə prəfáwnd ɪ́mpækt` | `həz hǽd ə prəfáwnd ɪ́mpækt` | the second *had* is a main verb (experienced), not an auxiliary — main-verb *have/has/had* carry stress (§6) |
 | `əɡzǽmpəl`, `dəzájn`, `lǽŋɡwədʒ` | `ɪɡzǽmpəl`, `dɪzájn`, `lǽŋɡwɪdʒ` | the reduced prefixes *be-, de-, re-, pre-, se-, e-/ex-* and the ending *-age* take `ɪ` (§4.4) |
 | `mɑ́rkɪtɪŋ`, `íjzəlij` | `mɑ́rkətɪŋ`, `íjzɪlij` | outside the fixed morphemes, weak `ɪ`~`ə` follows the spelling tie-breaker (§4.4) |
+| `ríjəlij`, `kɛ́rfəlij` | `ríjlij`, `kɛ́rflij` | §4.4 syncope reads the word's own M-W listing, so a parenthesized medial schwa is dropped even when the base keeps it (*real* `ríjəl`, *careful* `kɛ́rfəl`) |
+| `ǽnsrəbəl` | `ǽnsərəbəl` | editorial exception, not a derivation: `-able` words keep M-W's full form, and the ledger records each such ruling |

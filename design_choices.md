@@ -58,6 +58,10 @@ When goals conflicted, the earlier one won.
 
 **Also valid:** always writing the full form (citation style, closer to the spelling); or a lookup-free phonological rule (drop post-stress schwa before r/l/n), which would however contradict M-W where it lists the full form first (*natural*).
 
+**Consequence:** the rule reads the word's own listing, not its base's, so a derived word can syncopate where its base does not: *real* `ríjəl` / *really* `ríjlij`, *careful* `kɛ́rfəl` / *carefully* `kɛ́rflij`. Applying the base's shape to the derived word would silently restore a syllable natives skip in the one form that matters.
+
+**Exception by ruling, not by derivation:** a word can be kept in the full form because the author prefers it spoken that way, even where M-W parenthesizes the schwa. *answerable* is `ǽnsərəbəl`, not `ǽnsrəbəl`; `-able` words keep the three-syllable shape. Such rulings are recorded per word in `transcription-corrections.json`, which keeps this rule derivable while allowing deliberate exceptions.
+
 **Why:** connected speech is the point. The compressed forms are what GA speakers actually produce; writing the schwa invites learners to restore a syllable natives skip. The M-W parenthesis makes the call deterministic — the same single authority the system already leans on.
 
 ### happY as `ij`
@@ -140,7 +144,7 @@ When goals conflicted, the earlier one won.
 
 ### Grammatical role before weak-form lookup
 
-**Chosen:** *all* is always `ɔ́l`, like *both* and *each*. Verbal particles are content-like and accented, whether adjacent to the verb or separated by its object: *turn on*, *turn it on*. Prepositions remain weak by default, including in prepositional verbs (*rely on*) and particle-plus-preposition constructions (*put up with*: accented *up*, weak *with*). Independent or explicitly contrastive *some* is `sə́m`; the indefinite determiner is `səm`. Interrogative/exclamative *what* is `wɒ́t`, including in contractions and embedded questions; fused-relative *what* is `wɒt`. Lexical *does / did* are `də́z / dɪ́d`, while auxiliaries are weak by default. *Do* retains its fixed always-accented exception.
+**Chosen:** *all* is always `ɔ́l`, like *both* and *each*. Verbal particles are content-like and accented, whether adjacent to the verb or separated by its object: *turn on*, *turn it on*. Prepositions remain weak by default, including in prepositional verbs (*rely on*) and particle-plus-preposition constructions (*put up with*: accented *up*, weak *with*). Independent or explicitly contrastive *some* is `sə́m`; the indefinite determiner is `səm`. Interrogative/exclamative *what* is `wɒ́t`, including in contractions and embedded questions; fused-relative *what* is `wɒt`. Lexical *does / did* are `də́z / dɪ́d`, while auxiliaries are weak by default. *Do* follows the same pattern: auxiliary `də`, lexical and emphatic `dúw` (see below).
 
 **Also valid:** an invariant word list regardless of grammar; or a full prosodic transcription based on a particular recording.
 
@@ -149,6 +153,16 @@ When goals conflicted, the earlier one won.
 **What stays weak:** a full vowel does not imply an acute. Possessive determiners, including *our* `awər`, remain bare by default. Copular *be* behaves like auxiliary *be*: *they are happy* and *they are working* both use `ɑr`. Explicit contrast and clause-final ellipsis can require `áwər`, `ɑ́r`, etc.; being a copula alone cannot.
 
 **Independent and lexical uses:** independent possessive *his* is accented (`hɪ́z`), unlike determiner *his* (`hɪz`). Personal pronouns used as independent answers also take strong accented forms (*who did it? me.*), but a pronoun is not automatically accented just because it is sentence-final (*I saw him*). Likewise, the weak modal list applies only to modals: nominal/verbal *can*, nominal/verbal *will*, nominal *might*, nominal *must*, and the month/name *May* are content words with full accented pronunciations. These clarifications apply the existing role-first principle, not a blanket change to pronouns or modals.
+
+### Auxiliary *do* is weak; lexical and emphatic *do* keep the acute
+
+**Chosen:** auxiliary *do* is `də` — weak by default in statements, negatives, and questions — exactly like auxiliary *does* `dəz` and *did* `dɪd`. `dúw` is kept for lexical *do* (*what to do*, *do the work*), explicit contrast, affirmative emphatic do-support (*I do want to proceed* `aj dúw wɒ́nt tə prəsíjd`), and clause-final ellipsis (*yes, they do*). *I do not want to proceed* is `aj də nɒ́t wɒ́nt tə prəsíjd`.
+
+**Also valid:** the previous rule, treating *do* as a fixed exception always accented even as an auxiliary (closer to M-W's citation stress \ˈdü\); or a genuinely prosodic transcription marking whatever the speaker stresses in a given recording.
+
+**Why:** the fixed exception was the only member of its paradigm with no weak form — the checker's allowlist already carried `dəz dɪd həv həz həd əm ɪz ɑr` — and it made the notation contradict what learners hear: `dúw nɒ́t` teaches a full vowel where connected speech has a reduced one. It also produced an internal contradiction between the guide's own examples: *Who did it?* was written with weak auxiliary `dɪd`, while *where do you come from?* was written with accented auxiliary `dúw`, in the same grammatical slot. No new machinery is needed — the strong form uses the three triggers already written for *does* and *did*. The pair `aj dúw wɒ́nt tə prəsíjd` / `aj də nɒ́t wɒ́nt tə prəsíjd` now teaches the actual prosodic contrast, and determinism survives because the test is grammatical rather than impressionistic.
+
+**Validation boundary:** `də` was added to the checker's weak-form allowlist, with a fixture asserting the new pair. The checker cannot distinguish an auxiliary `dúw` from a lexical one — both are legal accented tokens — so this stays a source-review decision, recorded as the ledger entry `do (auxiliary)`. Any sweep must match the source word *do*, never the string `dúw`, which also spells *due to* and *doing*.
 
 ### Not is accented; demonstratives follow grammatical role
 

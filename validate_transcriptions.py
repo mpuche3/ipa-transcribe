@@ -59,7 +59,7 @@ WEAK_FORMS = set("""
 əp dawn awt aj juw hij ʃij ɪt wij ðej mij hɪm hər əs ðɛm
 maj jɔr hɪz ɪts awər ðɛr
 ðɪs ðæt ðijz ðowz
-əm ɪz ɑr wəz wər bij bɪn həv həz həd dəz dɪd
+də əm ɪz ɑr wəz wər bij bɪn həv həz həd dəz dɪd
 kən kʊd wɪl wʊd ʃəl ʃʊd mej majt məst
 səm ðər ðərz ðəts wɒt wɒts
 """.split())
@@ -347,6 +347,7 @@ VALID_SAMPLES = [D(s) for s in [
     "téjk wɒt juw níjd. téjk wɒts lɛ́ft.",
     "ʃij də́z ðə wɜ́rk. ʃij dɪ́d ðə wɜ́rk.",
     "dəz ʃij wɜ́rk? dɪd ʃij wɜ́rk?",
+    "aj də nɒ́t wɒ́nt tə prəsíjd. aj dúw wɒ́nt tə prəsíjd.",
     "awər frɛ́ndz ɑr hǽpij. awər frɛ́ndz ɑr wɜ́rkɪŋ.",
     "áwər frɛ́ndz ɑ́r hǽpij. jɛ́s, ðej ɑ́r.",
     "bɪ́lt-ɪ́n fɒ́low-ə́p stɛ́p-baj-stɛ́p",
