@@ -74,6 +74,32 @@ When goals conflicted, the earlier one won.
 
 **Exception by ruling (2026-09-26):** *reconciling* is `rɛ́kənsàjlɪŋ`, not the `rɛ́kənsàjəlɪŋ` that the `(-ə)` row would derive from the base *reconcile* — M-W lists no participle pronunciation, and the author ruled the compressed form. It is recorded in the ledger like the `-able` exception, so an audit of this class does not "fix" it back.
 
+### `-ible` is `ɪbəl`, `-able` is `əbəl` — a fixed ending outranks M-W's schwa (ruled 2026-09-26)
+
+**Chosen:** every `-ible` word takes `ɪbəl`, and its derivatives `ɪblij` / `ɪbɪ́lɪtij`, while `-able` keeps `əbəl`: `flɛ́ksɪbəl`, `vɪ́zɪbəl`, `rɪspɒ́nsɪbəl`, `səsɛ̀ptɪbɪ́lɪtij` against `dʊ́rəbəl`, `mǽnɪdʒəbəl`. The §7 suffix table is fixed, so it decides before M-W's notation (`ˈflek-sə-bəl`, `ˈvi-zə-bəl`) — the same direction as the §4.4 tie-breaker, since the reduced vowel of `-ible` is spelled *i*.
+
+**Also valid:** following M-W literally, which writes `flɛ́ksəbəl` / `vɪ́zəbəl` / `rɪspɒ́nsəbəl`. That is what the corpus had drifted into on 14 tokens, while the rest of the class already wrote `ɪ` — *possible* ×12, *impossible* ×4, *compatible* ×3, plus *tangible*, *digestible*, *credible*, *plausible*, *accessible*, *reversible*, *invisible*, *eligible* and *visible* ×13 — so the system was split on its own words rather than on a principle.
+
+**Why:** one rule for the whole ending family, applied from the source spelling instead of by taste. Majority could not settle it, because the split ran by word: *responsible* leaned `ə` (6 to 2) while the `ɪ` group was larger but never unanimous, and the ledger already recorded `tangible` as `tǽndʒɪbəl` and `possible` as `pɒ́sɪbəl`, which made the `ə` tokens defects relative to rulings the author had already approved. The `-able` half of the pair is deliberately untouched: M-W compresses *table* to `téjbəl` and keeps *durable* at `dʊ́rəbəl`, and §4.4 already reads M-W's own listing for those.
+
+**Guard:** `validate_transcriptions.py` applies the rule two ways, because `-able` legitimately writes `əbəl` and a transcription alone cannot tell the two endings apart. Pair mode (`check_ible_vowel`) reads the *source* token: if it ends in `-ible`, `-ibly`, `-ibles` or `-ibility`, the vowel before that `b` must not be `ə`. `--text` mode sees no source, so it carries the exact ruled stems (`IBLE_RULINGS`): `flɛ́ksə`, `vɪ́zə`, `spɒ́nsə`, `sɛ̀ptəbɪ́`, `krɛ̀dəbɪ́`, `dùwsəbɪ́`, `sɛsəbɪ́`. *Accountability* was corrected in the same sweep, but only its fixed `-ity` vowel was wrong — it is an `-able` word, so the pair rule does not apply and no sequence is listed for it.
+
+**Sweep (2026-09-26, author approved):** 14 example tokens (`flɛ́ksəbəl` ×2, `rɪspɒ́nsəbəl` ×6 including `ɪ̀rɪspɒ́nsəbəl`, `vɪ́zəbəl`, `səsɛ̀ptəbɪ́lɪtij`, `krɛ̀dəbɪ́lətij`, `ə̀kawntəbɪ́lətij`, `rɪspɒ̀nsəbɪ́lɪtij` ×2) and 8 AI-103 tokens (`flɛ́ksəblij`, `flɛ̀ksəbɪ́lɪtij`, `vɪ̀zəbɪ́lɪtij`, `rìjprədùwsəbɪ́lɪtij` ×2, `æ̀ksɛsəbɪ́lɪtij` ×3); `TRN_ONE.txt` regenerated; ledger 190 → 195 entries.
+
+### The reduced *be-* prefix is `bɪ-`: *behavior* (ruled 2026-09-26)
+
+**Chosen:** the reduced word-initial *be-* is `bɪ-`, exactly like the other reduced prefixes — `bɪhéjvjərz`, `bɪhéjvər`, alongside `bɪkɒ́z`, `bɪfɔ́r`, `bɪhájnd`. M-W's *behavior* is `bi-ˈhā-vyər`: a reduced initial syllable, which the §4.4 fixed-morpheme step resolves to `ɪ` before the spelling rule is ever consulted.
+
+**Also valid:** M-W's literal schwa reading, `bəhéjvjərz` — which is what one file had drifted into. It is not a defensible variant of the reference accent, merely the weak-vowel zone's other option applied without the morpheme layer that §4.4 already provides for `bɪkɒ́z` and `bɪfɔ́r`; treating *behavior* differently from *because* would split the same prefix by taste.
+
+**Why:** the morpheme list exists to keep this zone mechanical, and the corpus was already 253-to-13 for `bɪ-`. The 13 exceptions were not spread across words or files: they were the whole *behavior* family in `TRN_TheSelfishGene.txt` (11 × `bəhéjvjərz`, 2 × `bəhéjvər`), while the rest of the corpus and `AI-103-questions.json` wrote `bɪ-` throughout. The same stem is decisive here — `bɪhéjvjərəl` ×3 already used `ɪ`, so the base form was the odd one out within its own family.
+
+**Found by, not by the validator:** `check_string` reports no violation for `bəhéjvjərz` or `bɪhéjvjərz`, so this is another blind-spot class, like `rájɪŋ`, `flwj`, `vúw` and `rədə́kʃənɪst`. What surfaces it is an aligned dump of every source word starting `be` against its transcription, where the `bə-` tokens stand out immediately (13 against 253).
+
+**No guard, deliberately:** unlike `-ible`, this class is not mechanically decidable from the transcription. A source-aware pair rule would fire on every *be-* word written `bə-`, which is rare but would still need a word list to stay honest, and an unsourced `--text` rule cannot tell a defective `bəhéjvjərz` from a legitimate `bə` (`əbáwt`). Thirteen tokens in one file did not justify that complexity; the ledger entry and the §13 row carry the rule instead.
+
+**Sweep (2026-09-26, author approved):** 13 tokens in `examples/TRN_TheSelfishGene.txt` (byte-neutral `ə`→`ɪ`), `TRN_ONE.txt` regenerated, ledger 196 → 197 entries, and a §13 row placed directly after the reduced-prefix row.
+
 ### happY as `ij`
 
 **Chosen:** `bɒ́dij`, `lájklij`.
@@ -146,7 +172,7 @@ When goals conflicted, the earlier one won.
 
 ### Weak forms are transcribed
 
-**Chosen:** function words use conventional connected-speech forms — `əv, tə, ðə / ðij, həz` — selected by grammatical role, with explicit contrast and clause-final strong forms handled by §6. Weak *the* is `ðə` before a consonant sound and `ðij` before a vowel sound; the choice follows pronunciation rather than spelling (`ðə jùwnəvɜ́rsətij`, `ðij áwər`).
+**Chosen:** function words use conventional connected-speech forms — `əv, tə, ðə / ðij, həz` — selected by grammatical role, with explicit contrast and clause-final strong forms handled by §6. Weak *the* is `ðə` before a consonant sound and `ðij` before a vowel sound; the choice follows pronunciation rather than spelling (`ðə jùwnɪvɜ́rsətij`, `ðij áwər`).
 
 **Also valid:** citation forms throughout, which is what dictionaries show; or invariant weak `ðə`, reflecting the considerable variation in spontaneous American speech.
 

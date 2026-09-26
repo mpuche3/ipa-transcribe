@@ -286,7 +286,7 @@ Object movement (*turn on the light* → *turn the light on*) is useful evidence
 
 **What.** Direct and embedded interrogatives take `wɒ́t`: *what do you need?*, *I wonder what you need*. Exclamatives also take `wɒ́t`: *what a day!* A fused relative denotes a thing rather than asks a question and takes `wɒt`: *take what you need* (= *the things that you need*). Where an embedded construction genuinely permits both readings, use the fused-relative form unless the context establishes a question. Apply the same distinction to contractions: *what's wrong?* `wɒ́ts rɔ́ŋ?`, *take what's left* `téjk wɒts lɛ́ft`. Do not change words containing *what*, such as *whatever*, by substring replacement.
 
-**The article *the*.** Choose its weak form from the first **sound** of the next word, not its first written letter: `ðə bʊ́k`, `ðij ǽpəl`, `ðə jùwnəvɜ́rsətij` (*the university*), `ðij áwər` (*the hour*). Apply the same sound test when the next token passes through unchanged: `ðij 8`, `ðij FBI`, but `ðə USB`. Both weak forms are unaccented. Genuine emphasis or citation takes the strong form `ðíj` (*not a solution, the solution*).
+**The article *the*.** Choose its weak form from the first **sound** of the next word, not its first written letter: `ðə bʊ́k`, `ðij ǽpəl`, `ðə jùwnɪvɜ́rsətij` (*the university*), `ðij áwər` (*the hour*). Apply the same sound test when the next token passes through unchanged: `ðij 8`, `ðij FBI`, but `ðə USB`. Both weak forms are unaccented. Genuine emphasis or citation takes the strong form `ðíj` (*not a solution, the solution*).
 
 **Strong forms at clause ends:** a stranded preposition with no following complement, or an auxiliary or *be* form whose complement is elided, takes its strong, accented form: *what are you looking at?* → `wɒ́t ɑr juw lʊ́kɪŋ ǽt?`; *where do you come from?* → `wɛ́r də juw kə́m frɒ́m?`; *yes, it is.* → `jɛ́s, ɪt ɪ́z.` Strong forms: *at* `ǽt`, *of* `ɒ́v`, *to* `túw`, *for* `fɔ́r`, *from* `frɒ́m`, *is* `ɪ́z`, *are* `ɑ́r`, *was* `wɒ́z`, *has* `hǽz`, *can* `kǽn`, *have* `hǽv`, *would* `wʊ́d`, *does* `də́z`, *did* `dɪ́d`. This is not a rule to accent every function word before punctuation.
 
@@ -401,6 +401,8 @@ Most of the guide's bans are regex-checkable. Phonetic material must have **zero
 | `ɛər` `ɪər` `ʊər` | centering schwa before r — write `ɛr`, `ɪr`, `ʊr` |
 | `eɪ` `əʊ` `oʊ` `aɪ` `aʊ` `ɔɪ` | traditional diphthong spellings — write `ej ow aj aw ɔj` |
 | `[iuɜɑɔɒɛ]ː` | length-marked vowels |
+| `j[úù]wnə` | a reduced `i` written `ə` — `-uni-` (`júwnɪts`, `jùwnɪvɜ́rsətij`), `communi-` (`kəmjúwnɪkèjt`) and *punitive* `pjúwnɪtɪv` take `ɪ`; the tie-breaker outranks M-W's schwa (§4.4) |
+| `flɛ́ksə` `vɪ́zə` `spɒ́nsə` `sɛ̀ptəbɪ́` `krɛ̀dəbɪ́` `dùwsəbɪ́` `sɛsəbɪ́` | a reduced `i` before the `b` of the fixed `-ible` ending written `ə` — `flɛ́ksɪbəl`, `rɪspɒ́nsɪbəl`, `vɪ́zɪbəl`, `səsɛ̀ptɪbɪ́lɪtij`, `krɛ̀dɪbɪ́lɪtij`, `rìjprədùwsɪbɪ́lɪtij`, `æ̀ksɛsɪbɪ́lɪtij` take `ɪ` (§7) |
 | `ǽ` (U+01FD, precomposed) | NFC artifact — write `æ` + combining acute (U+0301) instead |
 
 Checks that need tokenization rather than a single regex:
@@ -414,6 +416,7 @@ Checks that need tokenization rather than a single regex:
 - Weak *the* must be `ðə` before a consonant sound and `ðij` before a vowel sound. The validator checks this when the next token is phonetic; pass-through digits, letter names, and notation require the transcriber to apply the sound test.
 - In JSON mode, every source field must have a corresponding transcription, and `WrongAnswers` / `trans_WrongAnswers` arrays must have equal lengths.
 - In JSON mode, source and transcription must have the same token count and exact whitespace runs. Within each paired token, digit sequences and the order of Unicode punctuation/symbol characters must match. Apostrophes are excluded from this layout comparison because phonetic words omit them (§5.4).
+- In paired mode (JSON fields and `TXT_`/`TRN_` line pairs), a source token spelled `-ible`, `-ibly`, `-ibles` or `-ibility` must not write `ə` before that `b`: §7 fixes `-ible` as `ɪbəl`, so `flɛ́ksəbəl`, `rɪspɒ́nsəbəl` and `vɪ́zəbəl` are rejected in favour of `flɛ́ksɪbəl`, `rɪspɒ́nsɪbəl` and `vɪ́zɪbəl`, and an `-ibility` source keeps the `ɪ` of both the ending and `-ity`. The check needs the source spelling because `-able` legitimately writes `əbəl` (`dʊ́rəbəl`, `mǽnɪdʒəbəl`); `--text` mode sees no source and therefore relies on the ruled `-ible` stems in the table above.
 
 **Semantic limit:** validation cannot determine whether an ambiguous source token should be spoken or preserved as notation, nor whether a word is a particle, preposition, interrogative, relative, determiner, pronoun, lexical verb, or auxiliary. Those decisions must be made from context before validation (§6, §9). Both weak and accented spellings can pass mechanically while only one fits the source. Validator notation recognition is intentionally incomplete and must not override a clearly established code, identifier, formula, or other symbolic reading.
 
@@ -507,6 +510,7 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 |---|---|---|
 | `ˈleðər`, `ˌʌnˈlaɪk` | `lɛ́ðər`, `ə̀nlájk` | no ˈ ˌ marks; use acute/grave on the vowel |
 | `meɪd`, `oʊnli`, `iːkwəl` | `méjd`, `ównlij`, `íjkwəl` | no length marks or traditional diphthongs |
+| `ɪ́nflwjəns`, `ɪ́nflwjənst` | `ɪ́nfluwəns`, `ɪ́nfluwənst` | GOOSE is `uw` and stays `uw` before a vowel (§4.2.2, §4.5) — never write `wj`, which drops the `u` nucleus and invents a yod the word does not have |
 | `lɛ́ðə`, `wɜ́ːld` | `lɛ́ðər`, `wɜ́rld` | the accent is rhotic — never drop r |
 | `ɪksájɪŋ`, `rájɪŋ` | `ɪksájtɪŋ`, `rájtɪŋ` | never drop a pronounced stem-final t before `-ing` — the citation form keeps it (`pʊ́tɪŋ`, `lǽstɪŋ`); casual speech flaps it to [ɾ], and flapping or deletion is never written (§3) |
 | `wɛ́ər`, `nɪ́ər`, `ðɛər` | `wɛ́r`, `nɪ́r`, `ðɛr` | no centering ə before r — SQUARE/NEAR are plain `ɛr` / `ɪr` |
@@ -540,8 +544,11 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `júws` for the verb *use*, `rɛ́kərd` for the verb *record* | `júwz`, `rɪkɔ́rd` | heteronyms — disambiguate by part of speech (§8) |
 | `həz həd ə prəfáwnd ɪ́mpækt` | `həz hǽd ə prəfáwnd ɪ́mpækt` | the second *had* is a main verb (experienced), not an auxiliary — main-verb *have/has/had* carry stress (§6) |
 | `əɡzǽmpəl`, `dəzájn`, `lǽŋɡwədʒ` | `ɪɡzǽmpəl`, `dɪzájn`, `lǽŋɡwɪdʒ` | the reduced prefixes *be-, de-, re-, pre-, se-, e-/ex-* and the ending *-age* take `ɪ` (§4.4) |
+| `bəhéjvjərz`, `bəhéjvər` | `bɪhéjvjərz`, `bɪhéjvər` | the reduced *be-* takes `ɪ` like every other reduced prefix — M-W *behavior* is `bi-ˈhā-vyər`; the other 253 *be-* words in the corpus already used `bɪ-` (§4.4) |
 | `mɑ́rkɪtɪŋ`, `íjzəlij` | `mɑ́rkətɪŋ`, `íjzɪlij` | outside the fixed morphemes, weak `ɪ`~`ə` follows the spelling tie-breaker (§4.4) |
+| `júwnəts`, `jùwnəvɜ́rsətij`, `pjúwnətɪv` | `júwnɪts`, `jùwnɪvɜ́rsətij`, `pjúwnɪtɪv` | a reduced `i` takes `ɪ`, not M-W's schwa, in the `-uni-` and `communi-` families and in *punitive*; the corpus was split, and the guide's own §6 example has been corrected (§4.4) |
 | `ríjəlij`, `kɛ́rfəlij` | `ríjlij`, `kɛ́rflij` | §4.4 syncope reads the word's own M-W listing, so a parenthesized medial schwa is dropped even when the base keeps it (*real* `ríjəl`, *careful* `kɛ́rfəl`) |
 | `ǽnsrəbəl` | `ǽnsərəbəl` | editorial exception, not a derivation: `-able` words keep M-W's full form, and the ledger records each such ruling |
 | `wɒ́bəlɪŋ`, `dɪséjbəlɪŋ`, `kǽnsəlɪŋ`, `mɒ́dəlɪŋ` | `wɒ́blɪŋ`, `dɪséjblɪŋ`, `kǽnslɪŋ`, `mɒ́dlɪŋ` | M-W's own listing for the *-ing* form decides: a bracketed `(ə-)` and an already-compressed listing both lose the syllable (§4.4) |
 | `hǽndlɪŋ`, `θrɒ́tlɪŋ` | `hǽndəlɪŋ`, `θrɒ́təlɪŋ` | a schwa M-W writes in full is kept — a consonant before `l` is not a syncope trigger (§4.4) |
+| `flɛ́ksəbəl`, `rɪspɒ́nsəbəl`, `vɪ́zəbəl` | `flɛ́ksɪbəl`, `rɪspɒ́nsɪbəl`, `vɪ́zɪbəl` | `-ible` / `-ibly` / `-ibility` is a fixed ending and always takes `ɪ` (`ɪbəl`, `ɪblij`, `ɪbɪ́lɪtij`) — never M-W's schwa; the `-able` counterpart keeps `əbəl` (`júwzəbəl` vs `pɒ́sɪbəl`) (§7, §4.4) |

@@ -7,6 +7,7 @@ Implements the "Machine-checkable constraints" of §11:
   - accent marks only on vowel symbols, with the expected encoding
     - Latin vowel bases use the required j/w glide notation
   - unaccented tokens must be known weak forms (strict mode)
+    - ruled weak-vowel spellings, where the §4.4 tie-breaker settled the word
     - complete source/transcription pairs and layout parity (JSON mode)
 
 Usage:
@@ -76,6 +77,35 @@ LETTER_NAME_SUFFIX = re.compile(r"^([A-Z]+)(ɪz|[sz])$")
 DOTTED_LETTER_NAMES = re.compile(r"(?:[A-Z]\.)+[A-Z]")
 PHONETIC_WITH_LETTER_NAMES = re.compile(r"([^A-Z]+)([A-Z]+(?:ɪz|[sz])?)")
 LETTER_NAME_IZ_FINALS = set("HSX")
+
+# §4.4 spelling tie-breaker: a reduced vowel spelled i/y is ɪ, never ə, and the
+# rule outranks M-W's schwa (guide §4.4; design_choices "ɪ or ə by morpheme,
+# then spelling").  Ruled and swept 2026-09-26, so no `j[úù]wnə` sequence is
+# left anywhere: unit / units / uniform / unified / unifies, universe / universal
+# / university, communicate / communication, and punitive.  Only ruled sequences
+# are listed — for other i-spelled vowels the tie-breaker is not derivable here.
+REDUCED_I_RULINGS = [
+    ("júwnə", "júwnɪ"),                 # unit(s), uniform, unified, unifies,
+    ("jùwnə", "jùwnɪ"),                 #   universe, communicate, punitive
+]
+
+# §7 fixes -ible as ɪbəl, so the reduced vowel spelled i before its b is ɪ, never
+# ə (ruled and swept 2026-09-26: flexible, visible, responsible, susceptibility,
+# credibility, reproducibility, accessibility).  A blanket əbəl pattern is
+# impossible here — -able words legitimately write əbəl — so --text mode uses
+# these ruled stems while pair mode derives the rule from the source spelling in
+# check_ible_vowel().  *Accountability* was corrected in the same sweep, but only
+# its fixed -ity vowel was wrong: it is an -able word, so it has no entry here.
+# See the ledger's -ible entries.
+IBLE_RULINGS = [
+    ("flɛ́ksə", "flɛ́ksɪ"), ("flɛ̀ksə", "flɛ̀ksɪ"),
+    ("vɪ́zə", "vɪ́zɪ"), ("vɪ̀zə", "vɪ̀zɪ"),
+    ("spɒ́nsə", "spɒ́nsɪ"), ("spɒ̀nsə", "spɒ̀nsɪ"),
+    ("sɛ̀ptəbɪ́", "sɛ̀ptɪbɪ́"),
+    ("krɛ̀dəbɪ́", "krɛ̀dɪbɪ́"),
+    ("dùwsəbɪ́", "dùwsɪbɪ́"),
+    ("sɛsəbɪ́", "sɛsɪbɪ́"),
+]
 
 
 def is_notation(seg):
@@ -199,6 +229,16 @@ def check_string(text, legacy=False):
             for ch in seg:
                 if ch not in allowed and ch not in RULE_COVERED:
                     out.append(("illegal-char", f"'{ch}' (U+{ord(ch):04X}) in '{seg}'"))
+            for wrong, right in REDUCED_I_RULINGS:
+                if wrong in phonetic_seg:
+                    out.append(("reduced-i-spelling",
+                                f"'{seg}' — the reduced i takes ɪ, write "
+                                f"{phonetic_seg.replace(wrong, right)} (§4.4)"))
+            for wrong, right in IBLE_RULINGS:
+                if wrong in phonetic_seg:
+                    out.append(("ible-reduced-vowel",
+                                f"'{seg}' — -ible is fixed as ɪbəl, write "
+                                f"{phonetic_seg.replace(wrong, right)} (§7)"))
             vowel_shape = stressless(phonetic_seg)
             traditional_matches = list(TRADITIONAL_DIPHTHONG.finditer(vowel_shape))
             if traditional_matches:
@@ -227,6 +267,33 @@ def check_string(text, legacy=False):
 
 def snippet(text, pos, width=12):
     return text[max(0, pos - width // 2): pos + width].replace("\n", " ")
+
+
+IBLE_TAILS = ("ibility", "ibly", "ibles", "ible")
+COMBINING_MARK = re.compile(r"[\u0300-\u036f]")
+
+
+def check_ible_vowel(source_token, trans_token):
+    """§7 fixes -ible as ɪbəl, so the vowel before its b is ɪ, never ə.
+
+    The source spelling is required: -able words legitimately write əbəl and the
+    transcription alone cannot tell the two endings apart.
+    """
+    letters = re.sub(r"[^A-Za-z]", "", source_token).lower()
+    if not letters.endswith(IBLE_TAILS):
+        return None
+    core = token_core(trans_token)
+    pos = core.rfind("b")
+    if pos < 1:
+        return None
+    index = pos - 1
+    while index > 0 and COMBINING_MARK.match(core[index]):
+        index -= 1
+    if core[index] != "ə":
+        return None
+    fixed = core[:index] + "ɪ" + core[pos:]
+    return ("ible-reduced-vowel",
+            f"'{core}' — source '{source_token}' ends in -ible, fixed as ɪbəl; write {fixed} (§7)")
 
 
 def layout_skeleton(token):
@@ -263,6 +330,10 @@ def check_source_layout(source, transcription):
         if source_layout != trans_layout:
             out.append(("punctuation-layout",
                         f"token {index}: source {source_layout!r}, transcription {trans_layout!r}"))
+
+        ible_issue = check_ible_vowel(source_token, trans_token)
+        if ible_issue:
+            out.append((ible_issue[0], f"token {index}: {ible_issue[1]}"))
     return out
 
 
@@ -332,6 +403,8 @@ VALID_SAMPLES = [D(s) for s in [
     "ðə USBz wər nɛ́kst tə ðə PDFs ənd ðə Xɪz.",
     "dɪvájd-ənd-kɒ́ŋkər rɪkɜ́rənsɪz ɒn ə T-ʃɜ́rt frəm ðə '70s",
     "mæ̀θəmǽtɪkəl əsówsijèjtɪd wɔ́l-tə-wɔ́l",
+    "ðə júwnɪts, ə júwnɪfɔ̀rm tríjtmənt, ənd ə júwnɪfàjd prɒ́sɛs",
+    "ðə jùwnɪvɜ́rsətij, jùwnɪvɜ́rsəl kəmjùwnɪkéjʃən, pjúwnɪtɪv mɛ́ʒərz",
     "ájnstàjnz ɪkwéjʒən e = mc^2 rɪléjts ɛ́nərdʒij ənd mǽs.",
     "ðə fə́ŋkʃən sin(x) ɪz pɪ̀rijɒ́dɪk, ə̀nlájk log(x).",
     "ðij ǽpəl ənd ðə júwnɪt",
@@ -404,10 +477,20 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("ðə leather dʒǽkət", "unaccented-token"),
     ("ðə ǽpəl", "the-context"),
     ("ðij júwnɪt", "the-context"),
+    ("júwnəts", "reduced-i-spelling"),
+    ("ə júwnəfɔ̀rm prɒ́sɛs", "reduced-i-spelling"),
+    ("pówst-júwnəts", "reduced-i-spelling"),
+    ("pjúwnətɪv", "reduced-i-spelling"),
+    ("kəmjúwnəkèjt", "reduced-i-spelling"),
+    ("jùwnəvɜ́rsətij", "reduced-i-spelling"),
     ("ɪt's", "word-apostrophe"),
     ("wɛ́rər’z", "word-apostrophe"),
     ("mí dú mé", "invalid-glide-vowel"),
     ("méɪd óʊn áɪ áʊ ɔ́ɪ", "traditional-diphthong"),
+    ("flɛ́ksəbəl", "ible-reduced-vowel"),
+    ("rɪspɒ́nsəbəl", "ible-reduced-vowel"),
+    ("vɪ̀zəbɪ́lɪtij", "ible-reduced-vowel"),
+    ("æ̀ksɛsəbɪ́lɪtij", "ible-reduced-vowel"),
 ]]
 
 VALID_LAYOUT_SAMPLES = [
@@ -418,6 +501,10 @@ VALID_LAYOUT_SAMPLES = [
     ("O'Connor left.", "owkɒ́nər lɛ́ft."),
     ("T-shirt '70s", "T-ʃɜ́rt '70s"),
     ("USB's", "USBz"),
+    ("flexible", "flɛ́ksɪbəl"),
+    ("visible and responsible", "vɪ́zɪbəl ənd rɪspɒ́nsɪbəl"),
+    ("possibility", "pɒ̀sɪbɪ́lɪtij"),
+    ("responsibility", "rɪspɒ̀nsɪbɪ́lɪtij"),
 ]
 
 INVALID_LAYOUT_SAMPLES = [
@@ -427,6 +514,10 @@ INVALID_LAYOUT_SAMPLES = [
     ("Use 1980s.", "júwz 1970s.", {"digits-changed"}),
     ("one two", "wə́n", {"whitespace-layout", "token-count"}),
     (" one", "wə́n ", {"whitespace-layout"}),
+    ("flexible", "flɛ́ksəbəl", {"ible-reduced-vowel"}),
+    ("responsible", "rɪspɒ́nsəbəl", {"ible-reduced-vowel"}),
+    ("responsibility", "rɪspɒ̀nsəbɪ́lɪtij", {"ible-reduced-vowel"}),
+    ("visible", "vɪ́zəbəl", {"ible-reduced-vowel"}),
 ]
 
 VALID_JSON_SAMPLES = [

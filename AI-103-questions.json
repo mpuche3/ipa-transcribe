@@ -456,7 +456,7 @@
       "rɪsɪ́prəkəl rǽŋk fjúwʒən",
       "spíjtʃ sɪ́nθəsɪs mɑ́rkə̀p lǽŋɡwɪdʒ"
     ],
-    "trans_Explanation": "mɒ́dəl kɒ́ntɛkst prówtəkɒ̀l (MCP). MCP stǽndərdàjzɪz háw ən éjdʒənt klájənt dɪskə́vərz ənd ɪ̀nvówks túwlz ɔr ríjsɔrsɪz ɪkspówzd baj ən MCP sɜ́rvər. tríjt rɪmówt túwl dɪskrɪ́pʃənz ənd rɪzə́lts æz ə̀ntrə́stɪd, ɪnfɔ́rs ɔ̀θərəzéjʃən, ənd dɪstɪ́ŋɡwɪʃ MCP frəm A2A, wɪ́tʃ səpɔ́rts kəmjùwnəkéjʃən bɪtwíjn éjdʒənts.",
+    "trans_Explanation": "mɒ́dəl kɒ́ntɛkst prówtəkɒ̀l (MCP). MCP stǽndərdàjzɪz háw ən éjdʒənt klájənt dɪskə́vərz ənd ɪ̀nvówks túwlz ɔr ríjsɔrsɪz ɪkspówzd baj ən MCP sɜ́rvər. tríjt rɪmówt túwl dɪskrɪ́pʃənz ənd rɪzə́lts æz ə̀ntrə́stɪd, ɪnfɔ́rs ɔ̀θərəzéjʃən, ənd dɪstɪ́ŋɡwɪʃ MCP frəm A2A, wɪ́tʃ səpɔ́rts kəmjùwnɪkéjʃən bɪtwíjn éjdʒənts.",
     "Difficulty": 3
   },
   {
@@ -585,7 +585,7 @@
       "Provisioned throughput"
     ],
     "Explanation": "Workload isolation. Separate projects or resources reduce blast radius and simplify least-privilege policies for sensitive workloads. Shared components should be used only where governance and risk posture allow it.",
-    "trans_Question": "túw bɪ́znəs júwnəts ʃɛ́r ɡə́vərnəns bət wə́n júwnət prɒ́sɛsɪz hájər-rɪ́sk déjtə ənd níjdz strɪ́ktər sɛ̀pəréjʃən frəm ðij ə́ðər. wɪ́tʃ sɛ́tə̀p prɪ́nsɪpəl ʃʊd bij əplájd?",
+    "trans_Question": "túw bɪ́znəs júwnɪts ʃɛ́r ɡə́vərnəns bət wə́n júwnɪt prɒ́sɛsɪz hájər-rɪ́sk déjtə ənd níjdz strɪ́ktər sɛ̀pəréjʃən frəm ðij ə́ðər. wɪ́tʃ sɛ́tə̀p prɪ́nsɪpəl ʃʊd bij əplájd?",
     "trans_RightAnswer": "wɜ́rklòwd àjsəléjʃən",
     "trans_WrongAnswers": [
       "déjtə rɛ́zɪdənsij plǽnɪŋ",
@@ -891,7 +891,7 @@
       "rijtráj-ǽftər hɛ́dər",
       "prájvət DNS zówn",
       "ɪ̀kspownɛ́nʃəl bǽkɔ̀f dʒɪ́tər",
-      "prəvɪ́ʒənd θrúwpʊ̀t júwnəts"
+      "prəvɪ́ʒənd θrúwpʊ̀t júwnɪts"
     ],
     "trans_Explanation": "kwówtə skówp. tówkən ənd rɪkwɛ́st lɪ́məts ɑr ɪnfɔ́rst ət dɪplɔ́jmənt skówp, nɒ́t dʒə́st ət ǽp ɪ́nstəns lɛ́vəl. ə̀ndərstǽndɪŋ skówp prɪvɛ́nts fɔ́ls əsə́mpʃənz əbáwt hɔ̀rəzɒ́ntəl ǽp skéjl sɒ́lvɪŋ mɒ́dəl θrɒ́təlɪŋ.",
     "Difficulty": 2
@@ -913,7 +913,7 @@
       "kwówtə skówp",
       "ɪ̀kspownɛ́nʃəl bǽkɔ̀f dʒɪ́tər",
       "dɪfɛ́ns-ɪn-dɛ́pθ ɡə́vərnəns",
-      "prəvɪ́ʒənd θrúwpʊ̀t júwnəts",
+      "prəvɪ́ʒənd θrúwpʊ̀t júwnɪts",
       "tówkən bə́dʒɪtɪŋ"
     ],
     "trans_Explanation": "rijtráj-ǽftər hɛ́dər. ðə sɜ́rvəs-prəvájdɪd dɪléj tɛ́lz klájənts wɛ́n ə rijtráj ɪz lájklij tə səksíjd ǽftər θrɒ́təlɪŋ. rɪspɛ́ktɪŋ ɪt rɪdúwsəz wéjst ənd stéjbəlàjzəz rɪkə́vrij ə́ndər lówd.",
@@ -934,7 +934,7 @@
     "trans_RightAnswer": "ɪ̀kspownɛ́nʃəl bǽkɔ̀f dʒɪ́tər",
     "trans_WrongAnswers": [
       "rijtráj-ǽftər hɛ́dər",
-      "prəvɪ́ʒənd θrúwpʊ̀t júwnəts",
+      "prəvɪ́ʒənd θrúwpʊ̀t júwnɪts",
       "kwówtə skówp",
       "tówkən bə́dʒɪtɪŋ",
       "prɒ́mpt kǽʃɪŋ"
@@ -954,7 +954,7 @@
     ],
     "Explanation": "Provisioned throughput units. PTU capacity reserves predictable throughput for sustained workloads with tighter performance expectations. It is preferred when stability is more important than burst economics.",
     "trans_Question": "ə bǽŋk rɪkwájərz prɪdɪ́ktəbəl θrúwpʊ̀t fɔr ə háj-vɒ́ljuwm əsɪ́stənt dʊ́rɪŋ bɪ́znəs áwərz ənd kǽnɒt tɒ́lərèjt péj-æz-juw-ɡów vɛ̀rijəbɪ́lɪtij. wɪ́tʃ kəpǽsɪtij kɒ́nsɛpt bɛ́st fɪ́ts?",
-    "trans_RightAnswer": "prəvɪ́ʒənd θrúwpʊ̀t júwnəts",
+    "trans_RightAnswer": "prəvɪ́ʒənd θrúwpʊ̀t júwnɪts",
     "trans_WrongAnswers": [
       "ɪ̀kspownɛ́nʃəl bǽkɔ̀f dʒɪ́tər",
       "tówkən bə́dʒɪtɪŋ",
@@ -962,7 +962,7 @@
       "prɒ́mpt kǽʃɪŋ",
       "mɒ́dəl ráwtɪŋ"
     ],
-    "trans_Explanation": "prəvɪ́ʒənd θrúwpʊ̀t júwnəts. PTU kəpǽsɪtij rɪzɜ́rvz prɪdɪ́ktəbəl θrúwpʊ̀t fɔr səstéjnd wɜ́rklòwdz wɪð tájtər pərfɔ́rməns ɪ̀kspɛktéjʃənz. ɪt ɪz prɪfɜ́rd wɛ́n stəbɪ́lɪtij ɪz mɔ́r ɪ̀mpɔ́rtənt ðən bɜ́rst ɪ̀kənɒ́mɪks.",
+    "trans_Explanation": "prəvɪ́ʒənd θrúwpʊ̀t júwnɪts. PTU kəpǽsɪtij rɪzɜ́rvz prɪdɪ́ktəbəl θrúwpʊ̀t fɔr səstéjnd wɜ́rklòwdz wɪð tájtər pərfɔ́rməns ɪ̀kspɛktéjʃənz. ɪt ɪz prɪfɜ́rd wɛ́n stəbɪ́lɪtij ɪz mɔ́r ɪ̀mpɔ́rtənt ðən bɜ́rst ɪ̀kənɒ́mɪks.",
     "Difficulty": 3
   },
   {
@@ -979,7 +979,7 @@
     "trans_Question": "fájnæ̀ns ǽsks ə tíjm tə kə́t spɛ́nd wɪθáwt tʃéjndʒɪŋ mɒ́dəl fǽməlij, ənd lɔ́ɡz ʃów ówvərsàjzd prɒ́mpts ənd lɔ́ŋ áwtpʊ̀ts. wɪ́tʃ kɒ́nsɛpt ʃʊd bij ɪ̀ntrədúwst fɜ́rst?",
     "trans_RightAnswer": "tówkən bə́dʒɪtɪŋ",
     "trans_WrongAnswers": [
-      "prəvɪ́ʒənd θrúwpʊ̀t júwnəts",
+      "prəvɪ́ʒənd θrúwpʊ̀t júwnɪts",
       "prɒ́mpt kǽʃɪŋ",
       "ɪ̀kspownɛ́nʃəl bǽkɔ̀f dʒɪ́tər",
       "mɒ́dəl ráwtɪŋ",
@@ -1004,7 +1004,7 @@
     "trans_WrongAnswers": [
       "tówkən bə́dʒɪtɪŋ",
       "mɒ́dəl ráwtɪŋ",
-      "prəvɪ́ʒənd θrúwpʊ̀t júwnəts",
+      "prəvɪ́ʒənd θrúwpʊ̀t júwnɪts",
       "rìjəlɪ́stɪk lówd prówfàjl",
       "æ̀plɪkéjʃən ɪ́nsàjts"
     ],
@@ -1045,7 +1045,7 @@
       "Trace correlation"
     ],
     "Explanation": "Realistic load profile. Effective tests mirror production token distributions and concurrency spikes, not synthetic averages. This reveals throttling and latency behavior earlier.",
-    "trans_Question": "ə tíjm lówd-tɛ́sts wɪð júwnəfɔ̀rm ʃɔ́rt prɒ́mpts, bət prədə́kʃən ɪ̀nklúwdz mɪ́kst prɒ́mpt lɛ́ŋkθs ənd bɜ́rstij kənkɜ́rənsij. wɪ́tʃ væ̀lədéjʃən kɒ́nsɛpt ɪz mɪ́sɪŋ?",
+    "trans_Question": "ə tíjm lówd-tɛ́sts wɪð júwnɪfɔ̀rm ʃɔ́rt prɒ́mpts, bət prədə́kʃən ɪ̀nklúwdz mɪ́kst prɒ́mpt lɛ́ŋkθs ənd bɜ́rstij kənkɜ́rənsij. wɪ́tʃ væ̀lədéjʃən kɒ́nsɛpt ɪz mɪ́sɪŋ?",
     "trans_RightAnswer": "rìjəlɪ́stɪk lówd prówfàjl",
     "trans_WrongAnswers": [
       "mɒ́dəl ráwtɪŋ",
@@ -1413,7 +1413,7 @@
       "Exponential backoff jitter"
     ],
     "Explanation": "Defense-in-depth governance. Combine VNet outbound restrictions, CMK encryption with in-transit protection, Azure Policy compliance, resource locks, and audit logs for layered control. This integrated posture aligns security, operations, and compliance requirements.",
-    "trans_Question": "ə rɛ́ɡjəlèjtɪd wɜ́rklòwd rɪkwájərz strɪ́kt áwtbàwnd ɪɡrɛ́s kəntrówl, kə́stəmər-mǽnədʒd ɪnkrɪ́pʃən kíjz, pɒ́lɪsij ɡɑ́rdrèjlz, dɪlíjt prətɛ́kʃən, ənd ɪ̀mjúwtəbəl ɛ́vɪdəns əv ədmɪ́nəstrèjtɪv ǽkʃənz. wɪ́tʃ ɡə́vərnəns kɒ́nsɛpt bɛ́st júwnəfàjz ðɪs rɪkwájrmənt?",
+    "trans_Question": "ə rɛ́ɡjəlèjtɪd wɜ́rklòwd rɪkwájərz strɪ́kt áwtbàwnd ɪɡrɛ́s kəntrówl, kə́stəmər-mǽnədʒd ɪnkrɪ́pʃən kíjz, pɒ́lɪsij ɡɑ́rdrèjlz, dɪlíjt prətɛ́kʃən, ənd ɪ̀mjúwtəbəl ɛ́vɪdəns əv ədmɪ́nəstrèjtɪv ǽkʃənz. wɪ́tʃ ɡə́vərnəns kɒ́nsɛpt bɛ́st júwnɪfàjz ðɪs rɪkwájrmənt?",
     "trans_RightAnswer": "dɪfɛ́ns-ɪn-dɛ́pθ ɡə́vərnəns",
     "trans_WrongAnswers": [
       "prájvət DNS zówn",
@@ -1951,7 +1951,7 @@
       "dɪvɛ́ləpər rówl",
       "mowdǽlɪtijz səpɔ́rt"
     ],
-    "trans_Explanation": "rɪspɒ́nsɪz API. ɪt ɪz ðə mɒ́dərn ɪ́ntərfèjs fɔr júwnəfàjd dʒɛ̀nəréjʃən, túwl júws, ənd mə̀ltijmówdəl ɪ̀ntərǽkʃənz. ɪt rɪpléjsɪz frǽɡməntɪd lɛ́ɡəsij kɒ̀nvərséjʃən prɪ́mətɪvz fɔr núw bɪ́ldz.",
+    "trans_Explanation": "rɪspɒ́nsɪz API. ɪt ɪz ðə mɒ́dərn ɪ́ntərfèjs fɔr júwnɪfàjd dʒɛ̀nəréjʃən, túwl júws, ənd mə̀ltijmówdəl ɪ̀ntərǽkʃənz. ɪt rɪpléjsɪz frǽɡməntɪd lɛ́ɡəsij kɒ̀nvərséjʃən prɪ́mətɪvz fɔr núw bɪ́ldz.",
     "Difficulty": 1
   },
   {
@@ -2802,7 +2802,7 @@
       "kɒ̀nvərséjʃən ájtəm",
       "rɪspɒ́ns"
     ],
-    "trans_Explanation": "éjdʒənt vɜ́rʒən. ɪt krijéjts ɪ̀mjúwtəbəl dɛ̀fɪnɪ́ʃənz ðət kən bij prəmówtɪd, kəmpɛ́rd, ənd rówld bǽk séjflij. vɜ́rʒənɪŋ səpɔ́rts rìjprədùwsəbɪ́lɪtij ənd ɡə́vərnəns.",
+    "trans_Explanation": "éjdʒənt vɜ́rʒən. ɪt krijéjts ɪ̀mjúwtəbəl dɛ̀fɪnɪ́ʃənz ðət kən bij prəmówtɪd, kəmpɛ́rd, ənd rówld bǽk séjflij. vɜ́rʒənɪŋ səpɔ́rts rìjprədùwsɪbɪ́lɪtij ənd ɡə́vərnəns.",
     "Difficulty": 2
   },
   {
@@ -2839,7 +2839,7 @@
       "Context compaction"
     ],
     "Explanation": "Conversation item. It represents a discrete piece of conversation content within a thread. Items make history inspection and replay more reliable.",
-    "trans_Question": "dʊ́rɪŋ dijbə́ɡɪŋ, ɛ̀ndʒənɪ́rz níjd tə ɪ̀nspɛ́kt íjtʃ júwzər ɪ́npʊ̀t, túwl áwtpʊ̀t, ənd əsɪ́stənt mɛ́sɪdʒ kǽptʃərd ɪn ə θrɛ́d. wɪ́tʃ kɒ́nsɛpt ajdɛ́ntəfàjz ðijz júwnəts?",
+    "trans_Question": "dʊ́rɪŋ dijbə́ɡɪŋ, ɛ̀ndʒənɪ́rz níjd tə ɪ̀nspɛ́kt íjtʃ júwzər ɪ́npʊ̀t, túwl áwtpʊ̀t, ənd əsɪ́stənt mɛ́sɪdʒ kǽptʃərd ɪn ə θrɛ́d. wɪ́tʃ kɒ́nsɛpt ajdɛ́ntəfàjz ðijz júwnɪts?",
     "trans_RightAnswer": "kɒ̀nvərséjʃən ájtəm",
     "trans_WrongAnswers": [
       "kɒ̀nvərséjʃən",
@@ -3285,7 +3285,7 @@
       "A2A prówtəkɒ̀l",
       "sɪkwɛ́nʃəl ɔ̀rkəstréjʃən"
     ],
-    "trans_Explanation": "tíjmz pə́blɪʃɪŋ. ɪt dɪlɪ́vərz ðij éjdʒənt ɪ́ntə májkrəsɔ̀ft tíjmz fɔr kɒ̀nvərséjʃənəl júwsɪdʒ. ðɪ́s brɪ́ŋz éjdʒənt wɜ́rkflòwz ɪ́ntə déjlij tíjm kəmjùwnəkéjʃən.",
+    "trans_Explanation": "tíjmz pə́blɪʃɪŋ. ɪt dɪlɪ́vərz ðij éjdʒənt ɪ́ntə májkrəsɔ̀ft tíjmz fɔr kɒ̀nvərséjʃənəl júwsɪdʒ. ðɪ́s brɪ́ŋz éjdʒənt wɜ́rkflòwz ɪ́ntə déjlij tíjm kəmjùwnɪkéjʃən.",
     "Difficulty": 2
   },
   {
@@ -3299,7 +3299,7 @@
       "Concurrent orchestration"
     ],
     "Explanation": "M365 Copilot app. It publishes the agent to Microsoft 365 Copilot experiences for wider productivity integration. This expands reach beyond Teams-only entry points.",
-    "trans_Question": "ə bɪ́znəs júwnət wɒ́nts ə fáwndrij éjdʒənt dɪskə́vərəbəl ɪn ðə brɔ́dər májkrəsɔ̀ft 365 əsɪ́stənt íjkowsɪ̀stəm, nɒ́t dʒə́st tʃǽt tʃǽnəlz. wɪ́tʃ ɪ̀ntəɡréjʃən tɑ́rɡət fɪ́ts?",
+    "trans_Question": "ə bɪ́znəs júwnɪt wɒ́nts ə fáwndrij éjdʒənt dɪskə́vərəbəl ɪn ðə brɔ́dər májkrəsɔ̀ft 365 əsɪ́stənt íjkowsɪ̀stəm, nɒ́t dʒə́st tʃǽt tʃǽnəlz. wɪ́tʃ ɪ̀ntəɡréjʃən tɑ́rɡət fɪ́ts?",
     "trans_RightAnswer": "M365 kówpajlət ǽp",
     "trans_WrongAnswers": [
       "tíjmz pə́blɪʃɪŋ",
@@ -3331,7 +3331,7 @@
       "kənkɜ́rənt ɔ̀rkəstréjʃən",
       "hǽndɔ̀f ɔ̀rkəstréjʃən"
     ],
-    "trans_Explanation": "A2A prówtəkɒ̀l. ɪt dɪfájnz éjdʒənt-tə-éjdʒənt dɪskə́vərij, kəmjùwnəkéjʃən, ənd kowɔ́rdənejtɪd tǽsk ɪ̀ksəkjúwʃən. A2A kɒ́mpləmənts MCP baj kənɛ́ktɪŋ éjdʒənts rǽðər ðən túwlz.",
+    "trans_Explanation": "A2A prówtəkɒ̀l. ɪt dɪfájnz éjdʒənt-tə-éjdʒənt dɪskə́vərij, kəmjùwnɪkéjʃən, ənd kowɔ́rdənejtɪd tǽsk ɪ̀ksəkjúwʃən. A2A kɒ́mpləmənts MCP baj kənɛ́ktɪŋ éjdʒənts rǽðər ðən túwlz.",
     "Difficulty": 3
   },
   {
@@ -3966,7 +3966,7 @@
       "Safety block rate"
     ],
     "Explanation": "Token telemetry (input, output, cached, and reasoning counts) exposes real token economics. Token telemetry (per-request and aggregate views) guides routing, caching, and prompt optimization.",
-    "trans_Question": "fájnæ̀ns ǽsks wáj wə́n fíjtʃər ɪz ɪkspɛ́nsɪv, ənd juw níjd vɪ̀zəbɪ́lɪtij ɪ́ntə prɒ́mpt, kəmplíjʃən, kǽʃt, ənd ríjzənɪŋ tówkən júwsɪdʒ pɜ́r rɪkwɛ́st. wɪ́tʃ təlɛ́mətrij kɒ́nsɛpt ɪz rɪkwájərd?",
+    "trans_Question": "fájnæ̀ns ǽsks wáj wə́n fíjtʃər ɪz ɪkspɛ́nsɪv, ənd juw níjd vɪ̀zɪbɪ́lɪtij ɪ́ntə prɒ́mpt, kəmplíjʃən, kǽʃt, ənd ríjzənɪŋ tówkən júwsɪdʒ pɜ́r rɪkwɛ́st. wɪ́tʃ təlɛ́mətrij kɒ́nsɛpt ɪz rɪkwájərd?",
     "trans_RightAnswer": "tówkən təlɛ́mətrij",
     "trans_WrongAnswers": [
       "tréjs kɔ̀rəléjʃən IDz",
@@ -4127,7 +4127,7 @@
       "Prompt versioning"
     ],
     "Explanation": "Rules engine enforcement (deterministic policy checks) applies non-negotiable constraints to high-impact actions. Rules engine enforcement (hybrid LLM plus rules) preserves flexibility while guaranteeing compliance.",
-    "trans_Question": "jɔr əsɪ́stənt məst ɪ̀ntɜ́rprət nǽtʃərəl lǽŋɡwɪdʒ flɛ́ksəblij bət ɪnfɔ́rs nɒ́n-nəɡówʃəbəl əprúwvəl rúwlz fɔr péjmənts ənd əkáwnt dɪlíjʃən. wɪ́tʃ ɑ́rkɪtɛ̀ktʃər kɒ́nsɛpt bɛ́st mǽtʃɪz ðɪs rɪkwájrmənt?",
+    "trans_Question": "jɔr əsɪ́stənt məst ɪ̀ntɜ́rprət nǽtʃərəl lǽŋɡwɪdʒ flɛ́ksɪblij bət ɪnfɔ́rs nɒ́n-nəɡówʃəbəl əprúwvəl rúwlz fɔr péjmənts ənd əkáwnt dɪlíjʃən. wɪ́tʃ ɑ́rkɪtɛ̀ktʃər kɒ́nsɛpt bɛ́st mǽtʃɪz ðɪs rɪkwájrmənt?",
     "trans_RightAnswer": "rúwlz ɛ́ndʒɪn ɪnfɔ́rsmənt",
     "trans_WrongAnswers": [
       "fɔ́lbæ̀k kæskéjd",
@@ -4136,7 +4136,7 @@
       "fjúw-ʃɒ́t prɒ́mptɪŋ",
       "prɒ́mpt vɜ́rʒənɪŋ"
     ],
-    "trans_Explanation": "rúwlz ɛ́ndʒɪn ɪnfɔ́rsmənt (dɪtɜ̀rmənɪ́stɪk pɒ́lɪsij tʃɛ́ks) əplájz nɒ́n-nəɡówʃəbəl kənstréjnts tə háj-ɪ́mpækt ǽkʃənz. rúwlz ɛ́ndʒɪn ɪnfɔ́rsmənt (hájbrəd LLM plə́s rúwlz) prɪzɜ́rvz flɛ̀ksəbɪ́lɪtij wájl ɡɛ̀rəntíjɪŋ kəmplájəns.",
+    "trans_Explanation": "rúwlz ɛ́ndʒɪn ɪnfɔ́rsmənt (dɪtɜ̀rmənɪ́stɪk pɒ́lɪsij tʃɛ́ks) əplájz nɒ́n-nəɡówʃəbəl kənstréjnts tə háj-ɪ́mpækt ǽkʃənz. rúwlz ɛ́ndʒɪn ɪnfɔ́rsmənt (hájbrəd LLM plə́s rúwlz) prɪzɜ́rvz flɛ̀ksɪbɪ́lɪtij wájl ɡɛ̀rəntíjɪŋ kəmplájəns.",
     "Difficulty": 4
   },
   {
@@ -4196,7 +4196,7 @@
       "Mask edge quality"
     ],
     "Explanation": "Generation controls. Use size, aspect ratio, quality level, output count, and seed settings supported by the model. These controls tune consistency, cost, and rendering behavior.",
-    "trans_Question": "ən ǽp məst dʒɛ́nərèjt sówʃəl θə́mnèjlz ɪn mə́ltəpəl fɔ́rmæ̀ts, frəm skwɛ́r príjvjùwz tə wájdskrìjn hɛ́dərz, wájl kəntrówlɪŋ áwtpʊ̀t kwɑ́lɪtij ənd rìjprədùwsəbɪ́lɪtij. wɪ́tʃ kɒ́nsɛpt ɡə́vərnz ðijz pərǽmətərz?",
+    "trans_Question": "ən ǽp məst dʒɛ́nərèjt sówʃəl θə́mnèjlz ɪn mə́ltəpəl fɔ́rmæ̀ts, frəm skwɛ́r príjvjùwz tə wájdskrìjn hɛ́dərz, wájl kəntrówlɪŋ áwtpʊ̀t kwɑ́lɪtij ənd rìjprədùwsɪbɪ́lɪtij. wɪ́tʃ kɒ́nsɛpt ɡə́vərnz ðijz pərǽmətərz?",
     "trans_RightAnswer": "dʒɛ̀nəréjʃən kəntrówlz",
     "trans_WrongAnswers": [
       "rɛ́fərəns ɪ́mɪdʒ kəndɪ́ʃənɪŋ",
@@ -4550,7 +4550,7 @@
       "æksɛ́sɪbəl dɪskrɪ́pʃənz",
       "spéjʃəl ɡráwndɪŋ"
     ],
-    "trans_Explanation": "kəntɛ́kstʃwəl ɒ́lt tɛ́kst. ɒ́lt tɛ́kst ʃʊd kəmjúwnəkèjt ðij ɪ́mɪdʒ pɜ́rpəs ɪn ðə səráwndɪŋ tǽsk kɒ́ntɛkst rǽðər ðən lɪ́stɪŋ ɛ́vrij vɪ́ʒwəl dɪtéjl. ɡʊ́d ɒ́lt tɛ́kst ɪz kənsájs, rɛ́ləvənt, ənd júwsfəl tə əsɪ́stɪv tɛknɒ́lədʒij júwzərz.",
+    "trans_Explanation": "kəntɛ́kstʃwəl ɒ́lt tɛ́kst. ɒ́lt tɛ́kst ʃʊd kəmjúwnɪkèjt ðij ɪ́mɪdʒ pɜ́rpəs ɪn ðə səráwndɪŋ tǽsk kɒ́ntɛkst rǽðər ðən lɪ́stɪŋ ɛ́vrij vɪ́ʒwəl dɪtéjl. ɡʊ́d ɒ́lt tɛ́kst ɪz kənsájs, rɛ́ləvənt, ənd júwsfəl tə əsɪ́stɪv tɛknɒ́lədʒij júwzərz.",
     "Difficulty": 2
   },
   {
@@ -4573,7 +4573,7 @@
       "spéjʃəl ɡráwndɪŋ",
       "báwndɪŋ ríjdʒənz"
     ],
-    "trans_Explanation": "ɪkstɛ́ndɪd dɪskrɪ́pʃən. kɒ́mplɛks dájəɡræ̀mz ɔ́fən rɪkwájər ə lɔ́ŋɡər strə́ktʃərd ɪ̀ksplənéjʃən ðən stǽndərd ɒ́lt tɛ́kst kən prəvájd. ɪkstɛ́ndɪd dɪskrɪ́pʃənz kǽptʃər rɪléjʃənʃɪ̀ps, trɛ́ndz, ənd kíj déjtə pɔ́jnts fɔr æ̀ksɛsəbɪ́lɪtij.",
+    "trans_Explanation": "ɪkstɛ́ndɪd dɪskrɪ́pʃən. kɒ́mplɛks dájəɡræ̀mz ɔ́fən rɪkwájər ə lɔ́ŋɡər strə́ktʃərd ɪ̀ksplənéjʃən ðən stǽndərd ɒ́lt tɛ́kst kən prəvájd. ɪkstɛ́ndɪd dɪskrɪ́pʃənz kǽptʃər rɪléjʃənʃɪ̀ps, trɛ́ndz, ənd kíj déjtə pɔ́jnts fɔr æ̀ksɛsɪbɪ́lɪtij.",
     "Difficulty": 2
   },
   {
@@ -4596,7 +4596,7 @@
       "báwndɪŋ ríjdʒənz",
       "vɪ́ʒwəl OCR"
     ],
-    "trans_Explanation": "æksɛ́sɪbəl dɪskrɪ́pʃənz. æ̀ksɛsəbɪ́lɪtij-fówkəst dɪskrɪ́pʃənz prajɔ́rətàjz klɛ́rɪtij, lɒ́dʒɪkəl ríjdɪŋ síjkwəns, ənd fǽktʃuwəl rɪstréjnt. ðɪ́s prɪvɛ́nts hɑ́rm frəm spɛ́kjələtɪv ajdɛ́ntɪtij ɔr ɪ̀ntɛ́nt kléjmz ənd ɪ̀mprúwvz jùwzəbɪ́lɪtij.",
+    "trans_Explanation": "æksɛ́sɪbəl dɪskrɪ́pʃənz. æ̀ksɛsɪbɪ́lɪtij-fówkəst dɪskrɪ́pʃənz prajɔ́rətàjz klɛ́rɪtij, lɒ́dʒɪkəl ríjdɪŋ síjkwəns, ənd fǽktʃuwəl rɪstréjnt. ðɪ́s prɪvɛ́nts hɑ́rm frəm spɛ́kjələtɪv ajdɛ́ntɪtij ɔr ɪ̀ntɛ́nt kléjmz ənd ɪ̀mprúwvz jùwzəbɪ́lɪtij.",
     "Difficulty": 3
   },
   {
@@ -4771,7 +4771,7 @@
       "Multimodal Prompting"
     ],
     "Explanation": "Video Segmentation. Video segmentation partitions footage into analyzable segments and shots with temporal markers. Those segments enable key-frame selection, transcript alignment, and summary generation.",
-    "trans_Question": "ə míjdijə ɑ́rkàjv məst bréjk lɔ́ŋ fʊ́tɪdʒ ɪ́ntə míjnɪŋfəl júwnəts ənd prədúws kíj fréjmz, tájmstæ̀mps, ʃɒ́t báwndərijz, trǽnskrɪ̀pts, ənd kənsájs sə́mərijz. wɪ́tʃ kɒ́nsɛpt dɪskrájbz ðɪs stéjdʒ?",
+    "trans_Question": "ə míjdijə ɑ́rkàjv məst bréjk lɔ́ŋ fʊ́tɪdʒ ɪ́ntə míjnɪŋfəl júwnɪts ənd prədúws kíj fréjmz, tájmstæ̀mps, ʃɒ́t báwndərijz, trǽnskrɪ̀pts, ənd kənsájs sə́mərijz. wɪ́tʃ kɒ́nsɛpt dɪskrájbz ðɪs stéjdʒ?",
     "trans_RightAnswer": "vɪ́dijow sɛ̀ɡməntéjʃən",
     "trans_WrongAnswers": [
       "ǽnəlàjzər skíjmə",
@@ -4826,7 +4826,7 @@
       "vɪ́zɪbəl ɛ́vɪdəns ɡráwndɪŋ",
       "dɛ́ns kǽpʃənɪŋ"
     ],
-    "trans_Explanation": "vɪ́dijow sǽmplɪŋ. sǽmplɪŋ ənd tʃə́ŋkɪŋ rɪdúws lɔ́ŋ vɪ́dijow ɪ́ntə mǽnɪdʒəbəl júwnəts ðət fɪ́t sɜ́rvəs ənd mɒ́dəl lɪ́məts. ə ɡʊ́d sǽmplɪŋ strǽtədʒij bǽlənsəz kɔ́st, léjtənsij, ənd ðə rɪ́sk əv mɪ́sɪŋ ɪ̀mpɔ́rtənt ɪvɛ́nts.",
+    "trans_Explanation": "vɪ́dijow sǽmplɪŋ. sǽmplɪŋ ənd tʃə́ŋkɪŋ rɪdúws lɔ́ŋ vɪ́dijow ɪ́ntə mǽnɪdʒəbəl júwnɪts ðət fɪ́t sɜ́rvəs ənd mɒ́dəl lɪ́məts. ə ɡʊ́d sǽmplɪŋ strǽtədʒij bǽlənsəz kɔ́st, léjtənsij, ənd ðə rɪ́sk əv mɪ́sɪŋ ɪ̀mpɔ́rtənt ɪvɛ́nts.",
     "Difficulty": 3
   },
   {
@@ -5493,7 +5493,7 @@
       "ǽʒər trænsléjtər",
       "ɡlɔ́sərij træ̀nzlɪ̀təréjʃən"
     ],
-    "trans_Explanation": "sɛ́ntəmənt tówn séjftij. sɛ́ntəmənt mɛ́ʒərz powlɛ́rɪtij, tówn rɪflɛ́kts kəmjùwnəkéjʃən stájl, ənd séjftij tʃɛ́ks pɒ́lɪsij rɪ́sk kǽtəɡɔ̀rijz. tríjtɪŋ ðɛm sɛ́pərətlij əvɔ́jdz ɪ̀nkərɛ́kt mɒ̀dəréjʃən dɪsɪ́ʒənz.",
+    "trans_Explanation": "sɛ́ntəmənt tówn séjftij. sɛ́ntəmənt mɛ́ʒərz powlɛ́rɪtij, tówn rɪflɛ́kts kəmjùwnɪkéjʃən stájl, ənd séjftij tʃɛ́ks pɒ́lɪsij rɪ́sk kǽtəɡɔ̀rijz. tríjtɪŋ ðɛm sɛ́pərətlij əvɔ́jdz ɪ̀nkərɛ́kt mɒ̀dəréjʃən dɪsɪ́ʒənz.",
     "Difficulty": 4
   },
   {
@@ -5815,7 +5815,7 @@
       "tɜ́rn mǽnədʒmənt",
       "ɔ́dijòw-kéjpəbəl mɒ́dəl"
     ],
-    "trans_Explanation": "éjdʒənt spíjtʃ mowdǽlɪtij. ɪt tríjts ɔ́dijòw ɪ́npʊ̀t ənd áwtpʊ̀t æz néjtɪv ɪ̀ntərǽkʃən pǽðz fɔr ðij éjdʒənt. ðɪ́s ɪkspǽndz æ̀ksɛsəbɪ́lɪtij ənd ɪnéjbəlz hǽndz-fríj kɒ̀nvərséjʃənəl ɪkspɪ́rijənsɪz.",
+    "trans_Explanation": "éjdʒənt spíjtʃ mowdǽlɪtij. ɪt tríjts ɔ́dijòw ɪ́npʊ̀t ənd áwtpʊ̀t æz néjtɪv ɪ̀ntərǽkʃən pǽðz fɔr ðij éjdʒənt. ðɪ́s ɪkspǽndz æ̀ksɛsɪbɪ́lɪtij ənd ɪnéjbəlz hǽndz-fríj kɒ̀nvərséjʃənəl ɪkspɪ́rijənsɪz.",
     "Difficulty": 2
   },
   {
@@ -6321,7 +6321,7 @@
       "rɪsɪ́prəkəl rǽŋk fjúwʒən",
       "mɛ́tədèjtə fɪ́ltərz"
     ],
-    "trans_Explanation": "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən. ɪt kowɔ́rdɪnèjts tʃə́ŋkɪŋ, ɪmbɛ́dɪŋ, ɪ́ndɛksɪŋ, ənd kwíjrij-tájm vɛ̀ktərəzéjʃən ɪn ə júwnəfàjd sɜ́rtʃ wɜ́rkflòw. ðɪ́s rɪdúwsəz kə́stəm ɔ̀rkəstréjʃən ənd mɒ́dəl mɪsmǽtʃ rɪ́sks.",
+    "trans_Explanation": "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən. ɪt kowɔ́rdɪnèjts tʃə́ŋkɪŋ, ɪmbɛ́dɪŋ, ɪ́ndɛksɪŋ, ənd kwíjrij-tájm vɛ̀ktərəzéjʃən ɪn ə júwnɪfàjd sɜ́rtʃ wɜ́rkflòw. ðɪ́s rɪdúwsəz kə́stəm ɔ̀rkəstréjʃən ənd mɒ́dəl mɪsmǽtʃ rɪ́sks.",
     "Difficulty": 4
   },
   {

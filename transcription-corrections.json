@@ -393,13 +393,13 @@
     "word": "responsible",
     "wrong_transcription": "rijspɒ́nsɪbəl",
     "correct_transcription": "rɪspɒ́nsɪbəl",
-    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-. The 2026-09-26 -ible sweep also corrected six corpus tokens written rɪspɒ́nsəbəl to rɪspɒ́nsɪbəl — this entry's own correct form — because §7 fixes -ible as ɪbəl. The old spelling differed from this entry's wrong_transcription only in the prefix, so a whole-token ledger audit could not see it."
   },
   {
     "word": "responsibilities",
     "wrong_transcription": "rijspɒ̀nsəbɪ́lɪtijz",
     "correct_transcription": "rɪspɒ̀nsɪbɪ́lɪtijz",
-    "explanation": "The reduced re- prefix is rɪ-, the following reduced vowel is spelled i, and -ity is fixed as ɪtij."
+    "explanation": "The reduced re- prefix is rɪ-, the following reduced vowel is spelled i, and -ity is fixed as ɪtij. The 2026-09-26 -ible sweep corrected the two remaining corpus tokens written rɪspɒ̀nsəbɪ́lɪtij (TRN_TheSelfishGene.txt L10, TRN_TheTherac25RadiationAccidents.txt L3) to this entry's form rɪspɒ̀nsɪbɪ́lɪtij."
   },
   {
     "word": "relationships",
@@ -1024,5 +1024,161 @@
     "wrong_transcription": "rɛ́kənsàjəlɪŋ",
     "correct_transcription": "rɛ́kənsàjlɪŋ",
     "explanation": "Author ruling 2026-09-26: the participle syncopates. M-W lists no pronunciation for reconciling, and the base reconcile uses the (-ə)-after-the-hyphen order that §4.3 power keeps, so the derivation would suggest rɛ́kənsàjəlɪŋ; the author ruled the compressed form instead. Do not \"fix\" rɛ́kənsàjlɪŋ when auditing the -Vl + -ing class, and do not extend this ruling to other (-ə) bases without asking."
+  },
+  {
+    "word": "delves",
+    "wrong_transcription": "dɛ́lz",
+    "correct_transcription": "dɛ́lvz",
+    "explanation": "§3 forbids reduction or deletion: delve is /dɛlvz/ in its broad citation form, so the v must be written. Found 2026-09-26 in TRN_TheSelfishGene.txt; the corpus already keeps the v in the same stem elsewhere — ɪnvɒ́lvz (involves) and dɛ́lvɪŋ (delving)."
+  },
+  {
+    "word": "unit",
+    "wrong_transcription": "júwnət",
+    "correct_transcription": "júwnɪt",
+    "explanation": "The reduced second-syllable vowel is spelled i, so the tie-breaker requires ɪ rather than M-W's schwa (ˈyü-nət), as in definite and incident. Swept AI-103-questions.json (2 tokens) 2026-09-26."
+  },
+  {
+    "word": "units",
+    "wrong_transcription": "júwnəts",
+    "correct_transcription": "júwnɪts",
+    "explanation": "The plural keeps the ruled base júwnɪt and adds the regular s. Swept AI-103-questions.json (11 tokens) and TRN_TheSelfishGene.txt (2, lines 2 and 6) 2026-09-26; TRN_CognitiveLoad and TRN_TheAlignmentProblem already wrote ɪ."
+  },
+  {
+    "word": "uniform",
+    "wrong_transcription": "júwnəfɔ̀rm",
+    "correct_transcription": "júwnɪfɔ̀rm",
+    "explanation": "Same ruling: the reduced vowel after the u is spelled i. Swept AI-103-questions.json (1 token) 2026-09-26; TRN_CognitiveLoad already wrote júwnɪfɔ̀rm."
+  },
+  {
+    "word": "unifies",
+    "wrong_transcription": "júwnəfàjz",
+    "correct_transcription": "júwnɪfàjz",
+    "explanation": "Same ruling, with the -ize suffix grave àj (§5.3). Swept AI-103-questions.json (1 token) 2026-09-26."
+  },
+  {
+    "word": "unified",
+    "wrong_transcription": "júwnəfàjd",
+    "correct_transcription": "júwnɪfàjd",
+    "explanation": "Same ruling. Swept AI-103-questions.json (2 tokens) 2026-09-26."
+  },
+  {
+    "word": "universe",
+    "wrong_transcription": "júwnəvɜ̀rs",
+    "correct_transcription": "júwnɪvɜ̀rs",
+    "explanation": "Same ruling; M-W's ˈyü-nə-ˌvərs writes a schwa, and the spelled i decides. Swept TRN_Move37.txt (1 token) 2026-09-26."
+  },
+  {
+    "word": "universal",
+    "wrong_transcription": "jùwnəvɜ́rsəl",
+    "correct_transcription": "jùwnɪvɜ́rsəl",
+    "explanation": "Same ruling, with the secondary stress on the first syllable (§5). Swept TRN_TheAlignmentProblem.txt (1 token) 2026-09-26."
+  },
+  {
+    "word": "university",
+    "wrong_transcription": "jùwnəvɜ́rsətij",
+    "correct_transcription": "jùwnɪvɜ́rsətij",
+    "explanation": "Same ruling. Swept TRN_CognitiveLoad.txt (2 tokens) 2026-09-26, and with it the §6 article example in transcription_guide.md and design_choices.md, which both printed the ə form."
+  },
+  {
+    "word": "communication",
+    "wrong_transcription": "kəmjùwnəkéjʃən",
+    "correct_transcription": "kəmjùwnɪkéjʃən",
+    "explanation": "Same ruling for the reduced vowel after the u in communi-. Swept AI-103-questions.json (4 tokens) and TRN_TheSelfishGene.txt (2, written kəmjùwnəkɛ́jʃən) 2026-09-26; TRN_TheAlignmentProblem already wrote kəmjùwnɪkéjʃən."
+  },
+  {
+    "word": "communicate",
+    "wrong_transcription": "kəmjúwnəkèjt",
+    "correct_transcription": "kəmjúwnɪkèjt",
+    "explanation": "Same ruling. Swept AI-103-questions.json (1 token) 2026-09-26; TRN_CognitiveLoad already wrote kəmjúwnɪkèjt."
+  },
+  {
+    "word": "punitive",
+    "wrong_transcription": "pjúwnətɪv",
+    "correct_transcription": "pjúwnɪtɪv",
+    "explanation": "Same ruling; the second-syllable vowel is spelled i and the v is pronounced (§3). Swept TRN_TheEscalationOfCommitment.txt (1 token) 2026-09-26."
+  },
+  {
+    "word": "influence",
+    "wrong_transcription": "ɪ́nflwjəns",
+    "correct_transcription": "ɪ́nfluwəns",
+    "explanation": "GOOSE is uw (§4.2.2) and stays uw before a vowel (§4.5), so the u nucleus is never replaced by wj: the wj spelling drops the nucleus and adds a yod the word does not have (M-W influence ˈin-ˌflü-ən(t)s, no /j/). The whole family was wrong in one file — influenced ɪ́nflwjənst, influences ɪ́nflwjənsɪz, influential ɪ̀nflwjɛ́nʃəl. Everywhere else the corpus agrees on fluw: 12 tokens in TRN_CognitiveLoad, TRN_Gaslighitng, TRN_Habituation, TRN_Move37, TRN_TheAlignmentProblem, plus ɪ̀nfluwɛ́nʃəl in TRN_TheTherac25RadiationAccidents and TRN_TheAlignmentProblem. All 10 wj tokens sat in TRN_TheSelfishGene.txt and were swept 2026-09-26."
+  },
+  {
+    "word": "view",
+    "wrong_transcription": "vúw",
+    "correct_transcription": "vjúw",
+    "explanation": "American yod-dropping applies only after t, d, n, s, l and θ; after v the yod is kept (§4.5, whose v example is exactly vjúw), so view is vjúw and views vjúwz (M-W ˈvyü). All 4 offenders sat in TRN_TheSelfishGene.txt — vúw in lines 2, 9 and 11 and vúwz in line 10 — and were swept 2026-09-26. The rest of the corpus already agreed: vjúw ×3 in TRN_superintelligence_risk.txt, vjúw in TRN_TheAriane5RocketFailure.txt, and the review family (rɪvjúw, rɪvjúwɪŋ, rɪvjúwd, rɪvjúwz) everywhere. The validator is blind to the class — check_string returns 0 violations for vúw and vjúw alike."
+  },
+  {
+    "word": "philosophy",
+    "wrong_transcription": "fəlɒ́səfij",
+    "correct_transcription": "fɪlɒ́səfij",
+    "explanation": "The reduced vowel of the first syllable is spelled i, so the §4.4 tie-breaker (step 3) gives ɪ and outranks the dictionary notation (§1, §4.4) — M-W writes fə-ˈlä-sə-fē, Cambridge US writes /fɪˈlɑː.sə.fi/. Same direction as definite dɛ́fɪnɪt, habit- hæ̀bɪtəbɪ́lɪtij, unit júwnɪts and punitive pjúwnɪtɪv. The other syllables are unaffected: -los- is LOT ɒ (lɒ́s), -so- is a reduced vowel spelled o (sə), final -y is happY ij, and the single acute sits on the stressed syllable. The validator is blind to this class — both forms return 0 violations (§4.4)."
+  },
+  {
+    "word": "altruistic",
+    "wrong_transcription": "ɔ̀ltrwɪ́stɪk",
+    "correct_transcription": "æ̀ltruwɪ́stɪk",
+    "explanation": "Two independent fixes in one token. (a) The initial vowel: M-W's first listing is ˌal-trü-ˈi-stik, i.e. TRAP æl — the ˌȯl- form is only the second variant, and this style takes the first listing (several sɛ́vrəl, family fǽmlij, handling hǽndəlɪŋ); internal parallels ǽlfəɡòw and ə̀nǽləsɪs confirm that written al is æl in this corpus, not ɔl (which belongs to all, also, almost, already — words with a genuine /ɔːl/). (b) The glide: GOOSE uw is kept before a vowel (§4.5 — uw/ow/aw before a vowel are left as-is), so /u.ˈɪ/ is uwɪ́; trwɪ́ drops the u nucleus, the same class as the swept flwj → fluw. Decisive internal parallel: intuition ɪ̀ntuwɪ́ʃən (TRN_Move37 L3, TRN_TheTuringMachine L5). Both tokens (TRN_TheSelfishGene.txt L4 and L16) swept 2026-09-26. The validator is blind to both fixes — check_string returns 0 for ɔ̀ltrwɪ́stɪk, æ̀ltruwɪ́stɪk and ɪ̀ntrwɪ́ʃən alike."
+  },
+  {
+    "word": "altruism",
+    "wrong_transcription": "ɔ̀ltrwɪ́zəm",
+    "correct_transcription": "ǽltruwɪ̀zəm",
+    "explanation": "Carries the same two fixes as the altruistic entry (æl for al, uwɪ for /u.ˈɪ/) plus a third: the stress accents are inverted. M-W's first listing is ˈal-trü-ˌi-zəm — primary stress on the first syllable and secondary on the i (AHD ăl′tro͞o-ĭz′əm and Collins ˈæltruːˌɪzəm agree) — so the acute belongs on æ and the grave on ɪ, not the other way round. Both tokens (TRN_TheSelfishGene.txt L5 and L11, the latter followed by a comma) swept 2026-09-26; TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "flexible",
+    "wrong_transcription": "flɛ́ksəbəl",
+    "correct_transcription": "flɛ́ksɪbəl",
+    "explanation": "The guide fixes -ible as ɪbəl (§7), and that fixed ending outranks M-W's schwa (ˈflek-sə-bəl) — the same call already recorded for tangible tǽndʒɪbəl and possible pɒ́sɪbəl. Both tokens (TRN_TheAriane5RocketFailure.txt L3 and TRN_TheTherac25RadiationAccidents.txt L3) swept 2026-09-26, together with the AI-103 derivatives flexibly flɛ́ksɪblij and flexibility flɛ̀ksɪbɪ́lɪtij. The class is now guarded: --text mode rejects flɛ́ksəbəl through IBLE_RULINGS, and pair mode derives the rule from the source spelling (check_ible_vowel), so flɛ́ksəbəl is reported as ible-reduced-vowel while flɛ́ksɪbəl passes."
+  },
+  {
+    "word": "visible",
+    "wrong_transcription": "vɪ́zəbəl",
+    "correct_transcription": "vɪ́zɪbəl",
+    "explanation": "Same fixed -ible ending as flexible: ɪbəl, never M-W's schwa. One offender in TRN_ClimbingWithoutARope.txt L4; the rest of the corpus already wrote vɪ́zɪbəl (TRN_TheAlignmentProblem.txt L21 and L49, TRN_TheY2KNonEvent.txt, AI-103 ×10) and visibly vɪ́zɪblij. Swept 2026-09-26 together with AI-103 visibility vɪ̀zɪbɪ́lɪtij. The same sweep covered the -ible family's other offenders — responsible rɪspɒ́nsəbəl ×6 and rɪspɒ̀nsəbɪ́lɪtij ×2 — which the responsible and responsibilities entries record by prefix error only, so a whole-token audit cannot see them."
+  },
+  {
+    "word": "susceptible",
+    "wrong_transcription": "səsɛ̀ptəbɪ́lɪtij",
+    "correct_transcription": "səsɛ̀ptɪbɪ́lɪtij",
+    "explanation": "susceptibility, corrected in the same 2026-09-26 -ible sweep: the reduced vowel of -ible is spelled i, so §7 (fixed ɪbəl) and the §4.4 tie-breaker give ɪ where M-W writes sə-ˈsep-tə-bəl. One token in TRN_CognitiveLoad.txt L59. The corpus's own dajdʒɛ́stɪbəl (digestible) and kəmpǽtɪbəl (compatible) already kept the ɪ."
+  },
+  {
+    "word": "credible",
+    "wrong_transcription": "krɛ̀dəbɪ́lətij",
+    "correct_transcription": "krɛ̀dɪbɪ́lɪtij",
+    "explanation": "credibility carried two errors in one token: the -ible vowel written ə instead of ɪ, and the fixed -ity vowel written ə instead of ɪ (§7 fixes -ity as ɪtij, §4.4 tie-breaker for -ible). One token in TRN_TheEscalationOfCommitment.txt L8, swept 2026-09-26; the corpus's krɛ́dɪbəl (credible, TRN_TheAlignmentProblem.txt) already had the ending right."
+  },
+  {
+    "word": "accountable",
+    "wrong_transcription": "ə̀kawntəbɪ́lətij",
+    "correct_transcription": "ə̀kawntəbɪ́lɪtij",
+    "explanation": "accountability, corrected in the same 2026-09-26 sweep but for a different reason: -able is əbəl, so the medial ə is right and only the fixed -ity vowel was wrong (ɪtij). One token in TRN_TheEscalationOfCommitment.txt L3 (M-W ə-ˌkaun-tə-ˈbi-lə-tē). No mechanical guard: the source word ends in -able, so the -ible pair rule does not apply and IBLE_RULINGS lists only -ible stems."
+  },
+  {
+    "word": "reproducible",
+    "wrong_transcription": "rìjprədùwsəbɪ́lɪtij",
+    "correct_transcription": "rìjprədùwsɪbɪ́lɪtij",
+    "explanation": "reproducibility: the reduced vowel of -ibility is spelled i, so §7 and the §4.4 tie-breaker give ɪ where M-W writes (ˌ)rē-prə-ˌdü-sə-ˈbi-lə-tē. Two tokens in AI-103-questions.json (items 121 and 182), swept 2026-09-26."
+  },
+  {
+    "word": "accessible",
+    "wrong_transcription": "æ̀ksɛsəbɪ́lɪtij",
+    "correct_transcription": "æ̀ksɛsɪbɪ́lɪtij",
+    "explanation": "accessibility: the same -ibility ruling as reproducible (M-W ik-ˌse-sə-ˈbi-lə-tē). Three tokens in AI-103-questions.json (items 198, 252 and one trans_WrongAnswers entry), swept 2026-09-26; the corpus's əksɛ́sɪbəl (accessible) already agreed."
+  },
+  {
+    "word": "reductionist",
+    "wrong_transcription": "rədə́kʃənɪst",
+    "correct_transcription": "rɪdə́kʃənɪst",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-, never rə: M-W reductionist is ri-ˈdək-sh(ə-)nist, a reduced initial syllable, so the §4.4 fixed-morpheme step gives ɪ. Found 2026-09-26 in TRN_TheSelfishGene.txt line 9 — the only rə- token among the 427 re- words in the corpus, while the same stem already agreed (rɪdúws ×38, rɪdə́kʃən in AI-103-questions.json). Swept 2026-09-26; TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "behavior",
+    "wrong_transcription": "bəhéjvjərz",
+    "correct_transcription": "bɪhéjvjərz",
+    "explanation": "The reduced word-initial be- prefix is fixed as bɪ-, never bə: M-W behavior is bi-ˈhā-vyər, a reduced initial syllable, so the §4.4 fixed-morpheme step gives ɪ — the same call as because bɪkɒ́z, before bɪfɔ́r and the re- entry reductionist. Found 2026-09-26 in TRN_TheSelfishGene.txt: 11 tokens of behaviors (three of them written before a comma) and 2 of behavior were the only bə- forms among the corpus’s 266 be- words, while everything else already agreed — bɪhéjvjər ×26, bɪhéjvjərz, bɪhéjvjərəl ×3, and AI-103-questions.json bɪ- throughout. The entry covers both spellings, since the plural behaviors bɪhéjvjərz takes ərz and the singular behavior bɪhéjvər takes ər. The validator is blind to this class: check_string reports no violation for either form. Swept 2026-09-26; TRN_ONE.txt regenerated."
   }
 ]
