@@ -32,6 +32,8 @@ git clone https://github.com/mpuche3/ipa-transcribe ~/.claude/skills/ipa-transcr
 
 Restart Claude Code, then ask it to transcribe any English text (or invoke `/ipa-transcribe`). The skill reads the guide, transcribes, and validates its own output with the bundled checker. Update later with a plain `git pull`.
 
+That skill directory is a **second checkout of this repository, not a copy of it**: it carries its own `transcription_guide.md`, `validate_transcriptions.py` and `transcription-corrections.json`, and the skill reads those local files. After pushing a change to any of them, pull there too — otherwise the skill keeps transcribing against the older spec. (It had gone weeks without a pull before 2026-09-26, to the point of holding no ledger and no `examples/` at all, which silently disabled the `SKILL.md` step that consults the ledger.)
+
 ## Use without Claude
 
 The guide is a standalone spec: paste `transcription_guide.md` into any LLM as the instructions for a transcription task, or read it yourself — it is written to be followed by humans too.
