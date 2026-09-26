@@ -970,5 +970,59 @@
     "wrong_transcription": "dúw",
     "correct_transcription": "də",
     "explanation": "Auxiliary do is weak by default in statements, negatives and questions, exactly like auxiliary does dəz and did dɪd; the author replaced the older 'always dúw' exception on 2026-09-26, and the corpus was swept (8 examples + 5 AI-103). Keep dúw for lexical do (what to do, do the work), explicit contrast, affirmative emphatic do-support (aj dúw wɒ́nt tə prəsíjd) and clause-final ellipsis (jɛ́s, ðej dúw). Never sweep by string: dúw tə (due to) and dúwɪŋ (doing) are unrelated. An audit against this entry must check the source word do plus an auxiliary context (followed by not, or question-initial with a wh-word)."
+  },
+  {
+    "word": "wobbling",
+    "wrong_transcription": "wɒ́bəlɪŋ",
+    "correct_transcription": "wɒ́blɪŋ",
+    "explanation": "M-W's own listing for wobbling is wa-b(ə-)liŋ: the medial schwa is bracketed, so §4.4 drops the syllable. The base wobble (wa-bəl) keeps it, which is what makes the extra ə tempting. Swept TRN_TheDiscoveryOfChess (1 token) 2026-09-26. Sweep this -Vl + -ing class by the parenthesis, never by the letter l."
+  },
+  {
+    "word": "disabling",
+    "wrong_transcription": "dɪséjbəlɪŋ",
+    "correct_transcription": "dɪséjblɪŋ",
+    "explanation": "M-W lists disabling as dis-a-b(ə-)liŋ, so the bracketed schwa is dropped; disable (dis-a-bəl) keeps the full form. Swept TRN_TheAlignmentProblem (1 token) 2026-09-26."
+  },
+  {
+    "word": "labeling",
+    "wrong_transcription": "léjbəlɪŋ",
+    "correct_transcription": "léjblɪŋ",
+    "explanation": "M-W lists labeling as la-b(ə-)liŋ, so the bracketed schwa is dropped; the noun label (la-bəl) keeps it. Swept TRN_CognitiveLoad (1) and AI-103 (2) 2026-09-26."
+  },
+  {
+    "word": "canceling",
+    "wrong_transcription": "kǽnsəlɪŋ",
+    "correct_transcription": "kǽnslɪŋ",
+    "explanation": "M-W lists canceling as kan(t)-s(ə-)liŋ, so the bracketed schwa is dropped; cancel (kan(t)-səl) keeps it. Swept TRN_TheFlashCrash (1 token) 2026-09-26."
+  },
+  {
+    "word": "unsettling",
+    "wrong_transcription": "ə̀nsɛ́təlɪŋ",
+    "correct_transcription": "ə̀nsɛ́tlɪŋ",
+    "explanation": "M-W's own entry for unsettling lists the compressed form first (en-set-liŋ, no schwa written at all), so it wins even though the base unsettle (en-se-təl) has a schwa. Swept TRN_TheDiscoveryOfChess (1 token) 2026-09-26; TRN_AgentHackingHuggingFace already had the compressed form."
+  },
+  {
+    "word": "modeling",
+    "wrong_transcription": "mɒ́dəlɪŋ",
+    "correct_transcription": "mɒ́dlɪŋ",
+    "explanation": "M-W lists the participle as mad-liŋ first (ma-dəl-iŋ second), while the base model is ma-dəl; §4.4 reads the word's own listing, so modeling compresses while models keeps mɒ́dəlz. Swept TRN_TheAlignmentProblem (1 token) 2026-09-26."
+  },
+  {
+    "word": "enabling",
+    "wrong_transcription": "ɪnéjbəlɪŋ",
+    "correct_transcription": "ɪnéjblɪŋ",
+    "explanation": "M-W lists enabling as i-na-b(ə-)liŋ, so the bracketed schwa is dropped; enable (i-na-bəl) keeps it. Swept AI-103 (3 tokens) 2026-09-26."
+  },
+  {
+    "word": "handling",
+    "wrong_transcription": "hǽndlɪŋ",
+    "correct_transcription": "hǽndəlɪŋ",
+    "explanation": "Reverse direction, same rule: M-W's own listing for handling writes the schwa in full (han-dəl-iŋ first, han(d)-liŋ second), so a consonant before l is NOT a syncope trigger. The corpus already wrote handles as hǽndəlz. Swept AI-103 (17 tokens) 2026-09-26."
+  },
+  {
+    "word": "reconciling",
+    "wrong_transcription": "rɛ́kənsàjəlɪŋ",
+    "correct_transcription": "rɛ́kənsàjlɪŋ",
+    "explanation": "Author ruling 2026-09-26: the participle syncopates. M-W lists no pronunciation for reconciling, and the base reconcile uses the (-ə)-after-the-hyphen order that §4.3 power keeps, so the derivation would suggest rɛ́kənsàjəlɪŋ; the author ruled the compressed form instead. Do not \"fix\" rɛ́kənsàjlɪŋ when auditing the -Vl + -ing class, and do not extend this ruling to other (-ə) bases without asking."
   }
 ]

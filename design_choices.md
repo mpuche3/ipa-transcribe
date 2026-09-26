@@ -64,6 +64,16 @@ When goals conflicted, the earlier one won.
 
 **Why:** connected speech is the point. The compressed forms are what GA speakers actually produce; writing the schwa invites learners to restore a syllable natives skip. The M-W parenthesis makes the call deterministic — the same single authority the system already leans on.
 
+### Syncope before `l` in `-Vl + ing` forms — the parenthesis decides, not the letter (ruled 2026-09-26)
+
+**Chosen:** apply §4.4 mechanically to every `-Vl + ing` form, reading M-W's *own* listing of that form. Three shapes, three outcomes: a bracketed `(ə-)` drops the syllable (*wobbling* `wɒ́blɪŋ`, *disabling* `dɪséjblɪŋ`, *labeling* `léjblɪŋ`, *canceling* `kǽnslɪŋ`, *enabling* `ɪnéjblɪŋ`, *sampling* `sǽmplɪŋ`); an already-compressed first listing stays compressed (*modeling* `mɒ́dlɪŋ`, *unsettling* `ə̀nsɛ́tlɪŋ`, *coupling* `kə́plɪŋ`); a schwa M-W writes in full is kept (*handling* `hǽndəlɪŋ`, *throttling* `θrɒ́təlɪŋ`, *signaling* `sɪ́ɡnəlɪŋ`, *untangling* `ə̀ntǽŋɡəlɪŋ`).
+
+**Also valid:** an editorial exception keeping the full form everywhere — the corpus ran that way 8–3 for the drop group, and the `-able` ruling shows the pattern for such exceptions; or syncopating every `-Vl + ing` form regardless of the parenthesis, which is the simplest rule but contradicts M-W in *handling*, *throttling* and *signaling*.
+
+**Why:** the corpus was split and the validator is blind here — `check_string` returns 0 issues for both `wɒ́bəlɪŋ` and `wɒ́blɪŋ`, so only a rule keeps the corpus consistent. Deciding by the parenthesis rather than the letter `l` keeps one principle for the whole guide: the same `(ə-)` that compresses *different* and *really* compresses *wobbling*, and the same unparenthesized schwa that preserves *natural* preserves *handling*. The corpus had erred in both directions — keeping a syllable M-W brackets in *wobbling*, and dropping one M-W writes in full in *handling* while already writing the schwa in *handles* `hǽndəlz`.
+
+**Exception by ruling (2026-09-26):** *reconciling* is `rɛ́kənsàjlɪŋ`, not the `rɛ́kənsàjəlɪŋ` that the `(-ə)` row would derive from the base *reconcile* — M-W lists no participle pronunciation, and the author ruled the compressed form. It is recorded in the ledger like the `-able` exception, so an audit of this class does not "fix" it back.
+
 ### happY as `ij`
 
 **Chosen:** `bɒ́dij`, `lájklij`.

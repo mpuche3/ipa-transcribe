@@ -318,7 +318,7 @@
       "kɒ́ntɛnt ə̀ndərstǽndɪŋ",
       "fáwndrij IQ"
     ],
-    "trans_Explanation": "ǽʒər lǽŋɡwɪdʒ. ǽʒər lǽŋɡwɪdʒ ɔ́fərz prìjbɪ́lt ənd kə́stəmàjzəbəl tɛ́kst-ənǽləsɪs ɒ̀pəréjʃənz, ɪ̀nklúwdɪŋ ɛ́ntɪtijz, kíj fréjzəz, sɛ́ntəmənt, lǽŋɡwɪdʒ dɪtɛ́kʃən, sə̀mərəzéjʃən, klæ̀sɪfɪkéjʃən, ənd PII hǽndlɪŋ. prɪfɜ́r ɪt wɛ́n ə səpɔ́rtɪd, pɜ́rpəs-bɪ́lt ɒ̀pəréjʃən ɪz mɔ́r prɪdɪ́ktəbəl ðən ówpən-ɛ́ndɪd prɒ́mptɪŋ.",
+    "trans_Explanation": "ǽʒər lǽŋɡwɪdʒ. ǽʒər lǽŋɡwɪdʒ ɔ́fərz prìjbɪ́lt ənd kə́stəmàjzəbəl tɛ́kst-ənǽləsɪs ɒ̀pəréjʃənz, ɪ̀nklúwdɪŋ ɛ́ntɪtijz, kíj fréjzəz, sɛ́ntəmənt, lǽŋɡwɪdʒ dɪtɛ́kʃən, sə̀mərəzéjʃən, klæ̀sɪfɪkéjʃən, ənd PII hǽndəlɪŋ. prɪfɜ́r ɪt wɛ́n ə səpɔ́rtɪd, pɜ́rpəs-bɪ́lt ɒ̀pəréjʃən ɪz mɔ́r prɪdɪ́ktəbəl ðən ówpən-ɛ́ndɪd prɒ́mptɪŋ.",
     "Difficulty": 1
   },
   {
@@ -364,7 +364,7 @@
       "ɒ́bdʒɛkt dɪtɛ́kʃən",
       "prəvɪ́ʒənd θrúwpʊ̀t"
     ],
-    "trans_Explanation": "rɪtríjvəl-ɔɡmɛ́ntɪd dʒɛ̀nəréjʃən (rǽɡ). rǽɡ rɪtríjvz kɜ́rənt ɪkstɜ́rnəl ɛ́vɪdəns ət rɪkwɛ́st tájm ənd pléjsəz ɪt ɪn ðə mɒ́dəl kɒ́ntɛkst, ɪnéjbəlɪŋ ɡráwndɪd ǽnsərz ənd sajtéjʃənz. fájn-túwnɪŋ ɪz bɛ́tər fɔr stéjbəl bɪhéjvjər ɔr stájl tʃéjndʒɪz ənd ɪz nɒ́t ən ɪfɪ́ʃənt nɒ́lədʒ-əpdéjt mɛ́kənɪ̀zəm.",
+    "trans_Explanation": "rɪtríjvəl-ɔɡmɛ́ntɪd dʒɛ̀nəréjʃən (rǽɡ). rǽɡ rɪtríjvz kɜ́rənt ɪkstɜ́rnəl ɛ́vɪdəns ət rɪkwɛ́st tájm ənd pléjsəz ɪt ɪn ðə mɒ́dəl kɒ́ntɛkst, ɪnéjblɪŋ ɡráwndɪd ǽnsərz ənd sajtéjʃənz. fájn-túwnɪŋ ɪz bɛ́tər fɔr stéjbəl bɪhéjvjər ɔr stájl tʃéjndʒɪz ənd ɪz nɒ́t ən ɪfɪ́ʃənt nɒ́lədʒ-əpdéjt mɛ́kənɪ̀zəm.",
     "Difficulty": 2
   },
   {
@@ -1022,7 +1022,7 @@
       "OpenTelemetry traces"
     ],
     "Explanation": "Model routing. Requests are sent to different models based on complexity, risk, latency, or budget policy. Routing avoids overpaying when smaller models are sufficient.",
-    "trans_Question": "jɔr plǽtfɔ̀rm hǽndəlz sɪ́mpəl FAQ ənd kɒ́mplɛks líjɡəl drǽftɪŋ ɪn wə́n ɪ́ndpɔ̀jnt, ənd líjdərʃɪ̀p wɒ́nts tʃíjpər hǽndlɪŋ fɔr íjzij rɪkwɛ́sts. wɪ́tʃ ɔ̀rkəstréjʃən kɒ́nsɛpt əplájz?",
+    "trans_Question": "jɔr plǽtfɔ̀rm hǽndəlz sɪ́mpəl FAQ ənd kɒ́mplɛks líjɡəl drǽftɪŋ ɪn wə́n ɪ́ndpɔ̀jnt, ənd líjdərʃɪ̀p wɒ́nts tʃíjpər hǽndəlɪŋ fɔr íjzij rɪkwɛ́sts. wɪ́tʃ ɔ̀rkəstréjʃən kɒ́nsɛpt əplájz?",
     "trans_RightAnswer": "mɒ́dəl ráwtɪŋ",
     "trans_WrongAnswers": [
       "prɒ́mpt kǽʃɪŋ",
@@ -1390,7 +1390,7 @@
       "Retry-After header"
     ],
     "Explanation": "Private DNS zone. Private endpoint hostnames must resolve to private IP addresses within connected networks. Correct DNS linking is essential for private connectivity.",
-    "trans_Question": "ǽftər ɪnéjbəlɪŋ prájvət ɛ́ndpɔ̀jnts, æ̀pləkéjʃənz stɪ́l féjl DNS rɛ̀zəlúwʃən tə sɜ́rvəs FQDNz frəm ðə víjnɛ̀t. wɪ́tʃ nɛ́twɜ̀rkɪŋ kɒ́nsɛpt ɪz mɪ́sɪŋ?",
+    "trans_Question": "ǽftər ɪnéjblɪŋ prájvət ɛ́ndpɔ̀jnts, æ̀pləkéjʃənz stɪ́l féjl DNS rɛ̀zəlúwʃən tə sɜ́rvəs FQDNz frəm ðə víjnɛ̀t. wɪ́tʃ nɛ́twɜ̀rkɪŋ kɒ́nsɛpt ɪz mɪ́sɪŋ?",
     "trans_RightAnswer": "prájvət DNS zówn",
     "trans_WrongAnswers": [
       "prájvət ɪ́ndpɔ̀jnt",
@@ -2540,7 +2540,7 @@
       "Task completion"
     ],
     "Explanation": "Tool result correlation. Tool outputs are linked to the corresponding call so the model can continue accurately. Proper correlation prevents cross-call confusion in complex flows.",
-    "trans_Question": "ǽftər ə túwl rɪtɜ́rnz ə péjmənt stǽtəs, ðə mɒ́dəl ʃʊd kəntɪ́njuw ríjzənɪŋ wɪð ðæt ɛ́vɪdəns ɪn ðə séjm kɒ̀nvərséjʃən tɜ́rn. wɪ́tʃ déjtə hǽndlɪŋ kɒ́nsɛpt ɪnéjbəlz ðɪ́s?",
+    "trans_Question": "ǽftər ə túwl rɪtɜ́rnz ə péjmənt stǽtəs, ðə mɒ́dəl ʃʊd kəntɪ́njuw ríjzənɪŋ wɪð ðæt ɛ́vɪdəns ɪn ðə séjm kɒ̀nvərséjʃən tɜ́rn. wɪ́tʃ déjtə hǽndəlɪŋ kɒ́nsɛpt ɪnéjbəlz ðɪ́s?",
     "trans_RightAnswer": "túwl rɪzə́lt kɔ̀rəléjʃən",
     "trans_WrongAnswers": [
       "sɪkwɛ́nʃəl kɔ́lz",
@@ -3515,7 +3515,7 @@
       "tərmənéjʃən kəndɪ́ʃən",
       "éjdʒənt ɡə́vərnəns"
     ],
-    "trans_Explanation": "ʃɛ́rd stéjt. ɪt prɪzɜ́rvz kowɔ́rdənejtɪd tǽsk kɒ́ntɛkst əkrɔ́s spɛ́ʃəlɪsts ənd ɪ̀ksəkjúwʃən stɛ́ps. kərɛ́kt stéjt hǽndlɪŋ prɪvɛ́nts drɪ́ft ənd dúwplɪkət wɜ́rk.",
+    "trans_Explanation": "ʃɛ́rd stéjt. ɪt prɪzɜ́rvz kowɔ́rdənejtɪd tǽsk kɒ́ntɛkst əkrɔ́s spɛ́ʃəlɪsts ənd ɪ̀ksəkjúwʃən stɛ́ps. kərɛ́kt stéjt hǽndəlɪŋ prɪvɛ́nts drɪ́ft ənd dúwplɪkət wɜ́rk.",
     "Difficulty": 3
   },
   {
@@ -4311,7 +4311,7 @@
       "Segment regeneration"
     ],
     "Explanation": "Content preservation. Use prompt instructions that explicitly constrain unchanged regions and protected details. Combine with targeted editing so unedited content remains stable.",
-    "trans_Question": "ən ɛ́dɪtər əpdéjts ə prɒ́dəkt síjn wɪð núw bǽkɡràwnd ɪ̀nstrə́kʃənz, bət líjɡəl rɪkwájərz əntʃéjndʒd prɒ́dəkt léjbəlɪŋ ənd əntə́tʃt ɛ́rijəz tə rɪméjn féjθfəl. wɪ́tʃ kɒ́nsɛpt ʃʊd ɡájd ðij ɛ́dɪt prɒ́mpt?",
+    "trans_Question": "ən ɛ́dɪtər əpdéjts ə prɒ́dəkt síjn wɪð núw bǽkɡràwnd ɪ̀nstrə́kʃənz, bət líjɡəl rɪkwájərz əntʃéjndʒd prɒ́dəkt léjblɪŋ ənd əntə́tʃt ɛ́rijəz tə rɪméjn féjθfəl. wɪ́tʃ kɒ́nsɛpt ʃʊd ɡájd ðij ɛ́dɪt prɒ́mpt?",
     "trans_RightAnswer": "kɒ́ntɛnt prɛ̀zərvéjʃən",
     "trans_WrongAnswers": [
       "áwtpèjntɪŋ",
@@ -5424,7 +5424,7 @@
       "pówstvæ̀lədèjʃən",
       "sɛ́ntəmənt tówn séjftij"
     ],
-    "trans_Explanation": "fjúw-ʃɒ́t prɒ́mptɪŋ. ɪt səplájz rɛ̀prəzɛ́ntətɪv ɪ́npʊ̀t-áwtpʊ̀t ɪɡzǽmpəlz ðət dɛ́mənstrèjt ðə dɪzájərd léjbəlɪŋ stájl. ðɪ́s ɪ̀mprúwvz dowméjn əlájnmənt wɪθáwt mɒ́dəl rijtréjnɪŋ.",
+    "trans_Explanation": "fjúw-ʃɒ́t prɒ́mptɪŋ. ɪt səplájz rɛ̀prəzɛ́ntətɪv ɪ́npʊ̀t-áwtpʊ̀t ɪɡzǽmpəlz ðət dɛ́mənstrèjt ðə dɪzájərd léjblɪŋ stájl. ðɪ́s ɪ̀mprúwvz dowméjn əlájnmənt wɪθáwt mɒ́dəl rijtréjnɪŋ.",
     "Difficulty": 2
   },
   {
@@ -5507,7 +5507,7 @@
       "Language detection"
     ],
     "Explanation": "Secrets detection. Secrets like keys and tokens are sensitive credentials but are not always PII. They require dedicated detection patterns and stricter handling controls.",
-    "trans_Question": "ə sɪkjʊ́rɪtij rɪvjúw fájndz API kíjz ɪn səpɔ́rt íjmèjlz. ðə tíjm ǽsks wɛ́ðər ðɪ́s ɪz ðə séjm æz PII hǽndlɪŋ. wɪ́tʃ kɒ́nsɛpt ʃʊd bij klǽsəfàjd sɛ́pərətlij?",
+    "trans_Question": "ə sɪkjʊ́rɪtij rɪvjúw fájndz API kíjz ɪn səpɔ́rt íjmèjlz. ðə tíjm ǽsks wɛ́ðər ðɪ́s ɪz ðə séjm æz PII hǽndəlɪŋ. wɪ́tʃ kɒ́nsɛpt ʃʊd bij klǽsəfàjd sɛ́pərətlij?",
     "trans_RightAnswer": "síjkrəts dɪtɛ́kʃən",
     "trans_WrongAnswers": [
       "sɛ́ntəmənt tówn séjftij",
@@ -5516,7 +5516,7 @@
       "ɡlɔ́sərij træ̀nzlɪ̀təréjʃən",
       "lǽŋɡwɪdʒ dɪtɛ́kʃən"
     ],
-    "trans_Explanation": "síjkrəts dɪtɛ́kʃən. síjkrəts lájk kíjz ənd tówkənz ɑr sɛ́nsətɪv krədɛ́nʃəlz bət ɑr nɒ́t ɔ́lwèjz PII. ðej rɪkwájər dɛ́dəkejtəd dɪtɛ́kʃən pǽtərnz ənd strɪ́ktər hǽndlɪŋ kəntrówlz.",
+    "trans_Explanation": "síjkrəts dɪtɛ́kʃən. síjkrəts lájk kíjz ənd tówkənz ɑr sɛ́nsətɪv krədɛ́nʃəlz bət ɑr nɒ́t ɔ́lwèjz PII. ðej rɪkwájər dɛ́dəkejtəd dɪtɛ́kʃən pǽtərnz ənd strɪ́ktər hǽndəlɪŋ kəntrówlz.",
     "Difficulty": 3
   },
   {
@@ -5562,7 +5562,7 @@
       "néjmd ɛ́ntɪtij rɛ̀kəɡnɪ́ʃən",
       "PII rɪdǽkʃən"
     ],
-    "trans_Explanation": "ǽʒər trænsléjtər. ɪt səpɔ́rts tɛ́kst trænzléjʃən wɜ́rkflòwz ðət kɒ́mbajn sɔ́rs-lǽŋɡwɪdʒ dɪtɛ́kʃən, træ̀nzlɪ̀təréjʃən fɔr skrɪ́pt kənvɜ́rʒən, ənd əprúwvd tɜ̀rmɪnɒ́lədʒij hǽndlɪŋ wɛ́r səpɔ́rtɪd. ðijz kəntrówlz ɪ̀mprúwv kənsɪ́stənsij ɪn mə̀ltijlɪ́ŋwəl áwtpʊ̀t.",
+    "trans_Explanation": "ǽʒər trænsléjtər. ɪt səpɔ́rts tɛ́kst trænzléjʃən wɜ́rkflòwz ðət kɒ́mbajn sɔ́rs-lǽŋɡwɪdʒ dɪtɛ́kʃən, træ̀nzlɪ̀təréjʃən fɔr skrɪ́pt kənvɜ́rʒən, ənd əprúwvd tɜ̀rmɪnɒ́lədʒij hǽndəlɪŋ wɛ́r səpɔ́rtɪd. ðijz kəntrówlz ɪ̀mprúwv kənsɪ́stənsij ɪn mə̀ltijlɪ́ŋwəl áwtpʊ̀t.",
     "Difficulty": 4
   },
   {
@@ -5967,7 +5967,7 @@
       "Short-audio recognition"
     ],
     "Explanation": "Speech quality metrics. They quantify latency, recognition accuracy, and synthesized voice quality with repeatable measures. Include safety and privacy indicators to evaluate responsible performance, not only raw utility.",
-    "trans_Question": "bɪfɔ́r prədə́kʃən lɔ́ntʃ, líjdərʃɪ̀p ǽsks fɔr əbdʒɛ́ktɪv trǽkɪŋ əv léjtənsij, træ̀nskrɪ́pʃən ǽkjərəsij, vɔ́js nǽtʃərəlnəs, séjftij áwtkə̀mz, ənd prájvəsij hǽndlɪŋ kwɑ́lɪtij ówvər tájm. wɪ́tʃ ɪvæ̀ljuwéjʃən fówkəs ʃʊd ðə tíjm ɪ́mpləmənt?",
+    "trans_Question": "bɪfɔ́r prədə́kʃən lɔ́ntʃ, líjdərʃɪ̀p ǽsks fɔr əbdʒɛ́ktɪv trǽkɪŋ əv léjtənsij, træ̀nskrɪ́pʃən ǽkjərəsij, vɔ́js nǽtʃərəlnəs, séjftij áwtkə̀mz, ənd prájvəsij hǽndəlɪŋ kwɑ́lɪtij ówvər tájm. wɪ́tʃ ɪvæ̀ljuwéjʃən fówkəs ʃʊd ðə tíjm ɪ́mpləmənt?",
     "trans_RightAnswer": "spíjtʃ kwɑ́lɪtij mɛ́trɪks",
     "trans_WrongAnswers": [
       "spíjtʃ MCP sɜ́rvər",
@@ -6082,7 +6082,7 @@
       "Multimodal ingestion"
     ],
     "Explanation": "Incremental indexing. Change detection lets the indexer process new or modified content instead of rebuilding everything. This reduces compute usage and helps keep freshness targets predictable.",
-    "trans_Question": "ównlij tʃéjndʒd fájlz ʃʊd bij rijprɔ́sɛst íjtʃ nájt tə kə́t kɔ́st ənd léjtənsij ɪn jɔr ɪnrɪ́tʃmənt dʒɒ́b. wɪ́tʃ ɪ́ndɛksɪŋ bɪhéjvjər ɑr juw ɪnéjbəlɪŋ?",
+    "trans_Question": "ównlij tʃéjndʒd fájlz ʃʊd bij rijprɔ́sɛst íjtʃ nájt tə kə́t kɔ́st ənd léjtənsij ɪn jɔr ɪnrɪ́tʃmənt dʒɒ́b. wɪ́tʃ ɪ́ndɛksɪŋ bɪhéjvjər ɑr juw ɪnéjblɪŋ?",
     "trans_RightAnswer": "ɪ̀nkrəmɛ́ntəl ɪ́ndɛksɪŋ",
     "trans_WrongAnswers": [
       "pʊ́ʃ API",
@@ -6114,7 +6114,7 @@
       "mə̀ltijmówdəl ɪ̀ndʒɛ́stʃən",
       "OCR"
     ],
-    "trans_Explanation": "dɪlíjʃən dɪtɛ́kʃən. ɪt mǽps sɔ́rs dɪlíjʃənz tə ɪ́ndɛks dɒ́kjəmənt rɪmúwvəlz sów stéjl kɒ́ntɛnt dəz nɒ́t pərsɪ́st. kərɛ́kt dɪlíjt hǽndlɪŋ ɪz rɪkwájərd fɔr trə́stwɜ̀rðij ɡráwndɪŋ ənd kəmplájəns.",
+    "trans_Explanation": "dɪlíjʃən dɪtɛ́kʃən. ɪt mǽps sɔ́rs dɪlíjʃənz tə ɪ́ndɛks dɒ́kjəmənt rɪmúwvəlz sów stéjl kɒ́ntɛnt dəz nɒ́t pərsɪ́st. kərɛ́kt dɪlíjt hǽndəlɪŋ ɪz rɪkwájərd fɔr trə́stwɜ̀rðij ɡráwndɪŋ ənd kəmplájəns.",
     "Difficulty": 3
   },
   {
@@ -6664,7 +6664,7 @@
       "dɒ́kjəmənt klǽsəfàjər",
       "prìjbɪ́lt mɒ́dəl",
       "kɒ́nfədəns θrɛ́ʃhòwldɪŋ",
-      "krɔ́s-péjdʒ téjbəl hǽndlɪŋ"
+      "krɔ́s-péjdʒ téjbəl hǽndəlɪŋ"
     ],
     "trans_Explanation": "kəmpówzd mɒ́dəl. ə kəmpówzd mɒ́dəl kəmbájnz mə́ltəpəl tréjnd ɪkstrǽktərz ənd dɪspǽtʃɪz tə ðə bɛ́st mǽtʃ fɔr íjtʃ dɒ́kjəmənt. ɪt sɪ́mpləfàjz ɪ̀ntəɡréjʃən wɛ́n sɛ́vrəl dɒ́kjəmənt tájps ʃɛ́r wə́n wɜ́rkflòw.",
     "Difficulty": 3
@@ -6686,7 +6686,7 @@
       "kəmpówzd mɒ́dəl",
       "kɒ́nfədəns θrɛ́ʃhòwldɪŋ",
       "kə́stəm mɒ́dəl",
-      "krɔ́s-péjdʒ téjbəl hǽndlɪŋ",
+      "krɔ́s-péjdʒ téjbəl hǽndəlɪŋ",
       "ɪ́mɪdʒ prìjprɒ́sɛsɪŋ"
     ],
     "trans_Explanation": "dɒ́kjəmənt klǽsəfàjər. ə klǽsəfàjər əsájnz ən ɪksplɪ́sɪt dɒ́kjəmənt klǽs ðət ən ɔ̀rkəstréjʃən pájplàjn kən júws bɪfɔ́r sɪlɛ́ktɪŋ ɛ́nij dáwnstrìjm prɒ́sɛ̀sər. ə kəmpówzd mɒ́dəl ɪ̀nstɛ́d sɪlɛ́kts əmə́ŋ ɪts ɪ̀nklúwdəd ɪkstrǽkʃən mɒ́dəlz wɪðɪ́n wə́n dɒ́kjəmənt ɪ̀ntɛ́lədʒəns ənǽləsɪs flów.",
@@ -6707,7 +6707,7 @@
     "trans_RightAnswer": "kɒ́nfədəns θrɛ́ʃhòwldɪŋ",
     "trans_WrongAnswers": [
       "dɒ́kjəmənt klǽsəfàjər",
-      "krɔ́s-péjdʒ téjbəl hǽndlɪŋ",
+      "krɔ́s-péjdʒ téjbəl hǽndəlɪŋ",
       "kəmpówzd mɒ́dəl",
       "ɪ́mɪdʒ prìjprɒ́sɛsɪŋ",
       "mə̀ltijmówdəl ɪkstrǽkʃən"
@@ -6726,8 +6726,8 @@
       "Analyzer schema"
     ],
     "Explanation": "Cross-page table handling. Multi-page tables require preserving row and column continuity across page breaks. Without this, totals and line items can be misjoined or truncated.",
-    "trans_Question": "ən ɪkspɛ́ns rɪpɔ́rt ɪ̀nklúwdz wə́n lɔ́ŋ téjbəl ðət kəntɪ́njuwz əkrɔ́s mə́ltəpəl péjdʒəz, ənd tówtəlz məst rɪméjn əlájnd baj rów. wɪ́tʃ hǽndlɪŋ rɪkwájrmənt ɪz mówst krɪ́tɪkəl?",
-    "trans_RightAnswer": "krɔ́s-péjdʒ téjbəl hǽndlɪŋ",
+    "trans_Question": "ən ɪkspɛ́ns rɪpɔ́rt ɪ̀nklúwdz wə́n lɔ́ŋ téjbəl ðət kəntɪ́njuwz əkrɔ́s mə́ltəpəl péjdʒəz, ənd tówtəlz məst rɪméjn əlájnd baj rów. wɪ́tʃ hǽndəlɪŋ rɪkwájrmənt ɪz mówst krɪ́tɪkəl?",
+    "trans_RightAnswer": "krɔ́s-péjdʒ téjbəl hǽndəlɪŋ",
     "trans_WrongAnswers": [
       "kɒ́nfədəns θrɛ́ʃhòwldɪŋ",
       "ɪ́mɪdʒ prìjprɒ́sɛsɪŋ",
@@ -6735,7 +6735,7 @@
       "mə̀ltijmówdəl ɪkstrǽkʃən",
       "ǽnəlàjzər skíjmə"
     ],
-    "trans_Explanation": "krɔ́s-péjdʒ téjbəl hǽndlɪŋ. mə́ltij-péjdʒ téjbəlz rɪkwájər prɪzɜ́rvɪŋ rów ənd kɒ́ləm kɒ̀ntənúwɪtij əkrɔ́s péjdʒ bréjks. wɪθáwt ðɪ́s, tówtəlz ənd lájn ájtəmz kən bij mɪsdʒɔ́jnd ɔr trə́ŋkèjtɪd.",
+    "trans_Explanation": "krɔ́s-péjdʒ téjbəl hǽndəlɪŋ. mə́ltij-péjdʒ téjbəlz rɪkwájər prɪzɜ́rvɪŋ rów ənd kɒ́ləm kɒ̀ntənúwɪtij əkrɔ́s péjdʒ bréjks. wɪθáwt ðɪ́s, tówtəlz ənd lájn ájtəmz kən bij mɪsdʒɔ́jnd ɔr trə́ŋkèjtɪd.",
     "Difficulty": 3
   },
   {
@@ -6752,7 +6752,7 @@
     "trans_Question": "ə fíjld sɜ́rvəs ǽp ɪndʒɛ́sts fówn fówtòwz əv hǽndrɪ̀tən fɔ́rmz ðət ɑr skjúwd ənd əníjvənlij lɪ́t, rɪdúwsɪŋ ɪkstrǽkʃən kwɑ́lɪtij. wɒ́t prìjprɒ́sɛsɪŋ fówkəs ʃʊd kə́m fɜ́rst?",
     "trans_RightAnswer": "ɪ́mɪdʒ prìjprɒ́sɛsɪŋ",
     "trans_WrongAnswers": [
-      "krɔ́s-péjdʒ téjbəl hǽndlɪŋ",
+      "krɔ́s-péjdʒ téjbəl hǽndəlɪŋ",
       "mə̀ltijmówdəl ɪkstrǽkʃən",
       "kɒ́nfədəns θrɛ́ʃhòwldɪŋ",
       "ǽnəlàjzər skíjmə",
@@ -6777,7 +6777,7 @@
     "trans_WrongAnswers": [
       "ɪ́mɪdʒ prìjprɒ́sɛsɪŋ",
       "ǽnəlàjzər skíjmə",
-      "krɔ́s-péjdʒ téjbəl hǽndlɪŋ",
+      "krɔ́s-péjdʒ téjbəl hǽndəlɪŋ",
       "strə́ktʃərd dʒéjsɒn áwtpʊ̀t",
       "ɡráwndɪd mɑ́rkdàwn áwtpʊ̀t"
     ],

@@ -167,9 +167,20 @@ The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and s
 
 **Syncope — parenthesized schwas are dropped.** When Merriam-Webster's first listing shows a medial schwa in parentheses — \(ə-)\ — the syllable is omitted, because the compressed form is how the word is spoken: *different* `dɪ́frənt`, *difference* `dɪ́frəns`, *sovereign* `sɒ́vrən`, *laboratory* `lǽbrətɔ̀rij`, *deliberate* (adj.) `dɪlɪ́brət`. When M-W lists the full form unparenthesized, the schwa stays: *natural* `nǽtʃərəl`. The fixed transcriptions of §6 and §7 outrank this rule — *-ally* is always `əlij` (`tɪ́pɪkəlij`), even where M-W parenthesizes it.
 
+**Which parenthesis counts.** M-W's listing of the *form in question* uses four notations, and each one decides differently:
+
+| M-W writes | Write | Examples |
+|---|---|---|
+| `(ə-)` — schwa bracketed *before* the hyphen | drop the syllable | *wobbling* `wɒ́blɪŋ` (M-W wä-b(ə-)liŋ), *disabling* `dɪséjblɪŋ`, *labeling* `léjblɪŋ`, *canceling* `kǽnslɪŋ`, *enabling* `ɪnéjblɪŋ`, *sampling* `sǽmplɪŋ`, *troubling* `trə́blɪŋ`, *juggling* `dʒə́ɡlɪŋ` |
+| no schwa at all — the listing is already compressed | keep the compressed form | *modeling* `mɒ́dlɪŋ` (M-W mäd-liŋ, first listing), *unsettling* `ə̀nsɛ́tlɪŋ` (en-set-liŋ), *coupling* `kə́plɪŋ` (kə-pliŋ) |
+| `ᵊ` or `ə`, unparenthesized | keep the vowel | *handling* `hǽndəlɪŋ` (M-W han-dᵊl-iŋ), *throttling* `θrɒ́təlɪŋ` (thrä-tᵊl-iŋ), *signaling* `sɪ́ɡnəlɪŋ` (sig-nə-liŋ), *untangling* `ə̀ntǽŋɡəlɪŋ` |
+| `(-ə)` — schwa bracketed *after* the hyphen | keep the vowel | *power* `páwər` (M-W pau̇(-ə)r, §4.3) |
+
+The `-le` / `-el` + *-ing* forms are the common case, but the rule is the **parenthesis, not the letter `l`**: a consonant before `l` does not by itself force syncope (*handling* `hǽndəlɪŋ`, never `hǽndlɪŋ`), and a bracketed schwa is dropped wherever it appears (*different*, *really*, *wobbling*).
+
 **The listing consulted is the word's own, not its base's,** so a derived form can syncopate where its base does not: *real* `ríjəl` but *really* `ríjlij` (M-W rē-(ə-)lē), *careful* `kɛ́rfəl` but *carefully* `kɛ́rflij` (M-W ker-f(ə-)lē).
 
-Individual words can also be ruled to keep the full form as an editorial decision; those rulings live in `transcription-corrections.json`, not in this rule. The `-able` ending is one such case: *answerable* is `ǽnsərəbəl` (æn-sər-ə-bəl), never `ǽnsrəbəl`.
+Individual words can also be ruled against the derivation in either direction as an editorial decision; those rulings live in `transcription-corrections.json`, not in this rule. The `-able` ending is one such case: *answerable* is `ǽnsərəbəl` (æn-sər-ə-bəl), never `ǽnsrəbəl`. The other direction: *reconciling* is `rɛ́kənsàjlɪŋ`, syncopated even though its base's bracketed `(-ə)` would keep the vowel.
 
 ### 4.5 Glide linking inside words
 
@@ -532,3 +543,5 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `mɑ́rkɪtɪŋ`, `íjzəlij` | `mɑ́rkətɪŋ`, `íjzɪlij` | outside the fixed morphemes, weak `ɪ`~`ə` follows the spelling tie-breaker (§4.4) |
 | `ríjəlij`, `kɛ́rfəlij` | `ríjlij`, `kɛ́rflij` | §4.4 syncope reads the word's own M-W listing, so a parenthesized medial schwa is dropped even when the base keeps it (*real* `ríjəl`, *careful* `kɛ́rfəl`) |
 | `ǽnsrəbəl` | `ǽnsərəbəl` | editorial exception, not a derivation: `-able` words keep M-W's full form, and the ledger records each such ruling |
+| `wɒ́bəlɪŋ`, `dɪséjbəlɪŋ`, `kǽnsəlɪŋ`, `mɒ́dəlɪŋ` | `wɒ́blɪŋ`, `dɪséjblɪŋ`, `kǽnslɪŋ`, `mɒ́dlɪŋ` | M-W's own listing for the *-ing* form decides: a bracketed `(ə-)` and an already-compressed listing both lose the syllable (§4.4) |
+| `hǽndlɪŋ`, `θrɒ́tlɪŋ` | `hǽndəlɪŋ`, `θrɒ́təlɪŋ` | a schwa M-W writes in full is kept — a consonant before `l` is not a syncope trigger (§4.4) |
