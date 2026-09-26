@@ -404,6 +404,7 @@ Most of the guide's bans are regex-checkable. Phonetic material must have **zero
 | `j[úù]wnə` | a reduced `i` written `ə` — `-uni-` (`júwnɪts`, `jùwnɪvɜ́rsətij`), `communi-` (`kəmjúwnɪkèjt`) and *punitive* `pjúwnɪtɪv` take `ɪ`; the tie-breaker outranks M-W's schwa (§4.4) |
 | `flɛ́ksə` `vɪ́zə` `spɒ́nsə` `sɛ̀ptəbɪ́` `krɛ̀dəbɪ́` `dùwsəbɪ́` `sɛsəbɪ́` | a reduced `i` before the `b` of the fixed `-ible` ending written `ə` — `flɛ́ksɪbəl`, `rɪspɒ́nsɪbəl`, `vɪ́zɪbəl`, `səsɛ̀ptɪbɪ́lɪtij`, `krɛ̀dɪbɪ́lɪtij`, `rìjprədùwsɪbɪ́lɪtij`, `æ̀ksɛsɪbɪ́lɪtij` take `ɪ` (§7) |
 | `ǽ` (U+01FD, precomposed) | NFC artifact — write `æ` + combining acute (U+0301) instead |
+| `ɛ́j`, `ɛ̀j` (ɛ + accent + j) | FACE is `ej` — write `éj` / `èj` (`béjsɪs`, `dɪbéjt`, `ɪ̀nəvéjʃənz`); `ɛ` is DRESS, and no word writes DRESS + glide (§4.2) |
 
 Checks that need tokenization rather than a single regex:
 
@@ -545,6 +546,9 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `həz həd ə prəfáwnd ɪ́mpækt` | `həz hǽd ə prəfáwnd ɪ́mpækt` | the second *had* is a main verb (experienced), not an auxiliary — main-verb *have/has/had* carry stress (§6) |
 | `əɡzǽmpəl`, `dəzájn`, `lǽŋɡwədʒ` | `ɪɡzǽmpəl`, `dɪzájn`, `lǽŋɡwɪdʒ` | the reduced prefixes *be-, de-, re-, pre-, se-, e-/ex-* and the ending *-age* take `ɪ` (§4.4) |
 | `bəhéjvjərz`, `bəhéjvər` | `bɪhéjvjərz`, `bɪhéjvər` | the reduced *be-* takes `ɪ` like every other reduced prefix — M-W *behavior* is `bi-ˈhā-vyər`; the other 253 *be-* words in the corpus already used `bɪ-` (§4.4) |
+| `bɛ́jsɪs`, `dɪbɛ́jt`, `rɪlɛ́jʃənʃɪp` | `béjsɪs`, `dɪbéjt`, `rɪléjʃənʃɪ̀p` | FACE is `ej`, never `ɛ` + glide — `ɛ` is DRESS, so `ɛj` is not a vowel of this system, and the validator rejects it (§4.2) |
+| `wɪ́ðɪn`, `ɪ́nsajts`, `pɜ́rsənəlajzd` | `wɪðɪ́n`, `ɪ́nsàjts`, `pɜ́rsənəlàjzd` | a word's primary stress takes the acute wherever it falls, and every other stressed syllable takes the grave — M-W's `wi-ˈthin`, `ˈin-ˌsīt`, `ˈpər-sə-nə-ˌlīzd` (§5) |
+| `kɑ́nsɛpt`, `kowɑ̀pərèjʃən` | `kɒ́nsɛ̀pt`, `kowɒ̀pəréjʃən` | LOT is `ɒ` (*concept*, *cooperation*, *competition*, *population*); `ɑ` is PALM (*father*, *heart*, *argue*) — M-W writes `ä` for both, so the word's class decides, not the dictionary glyph (§4.1) |
 | `mɑ́rkɪtɪŋ`, `íjzəlij` | `mɑ́rkətɪŋ`, `íjzɪlij` | outside the fixed morphemes, weak `ɪ`~`ə` follows the spelling tie-breaker (§4.4) |
 | `júwnəts`, `jùwnəvɜ́rsətij`, `pjúwnətɪv` | `júwnɪts`, `jùwnɪvɜ́rsətij`, `pjúwnɪtɪv` | a reduced `i` takes `ɪ`, not M-W's schwa, in the `-uni-` and `communi-` families and in *punitive*; the corpus was split, and the guide's own §6 example has been corrected (§4.4) |
 | `ríjəlij`, `kɛ́rfəlij` | `ríjlij`, `kɛ́rflij` | §4.4 syncope reads the word's own M-W listing, so a parenthesized medial schwa is dropped even when the base keeps it (*real* `ríjəl`, *careful* `kɛ́rfəl`) |

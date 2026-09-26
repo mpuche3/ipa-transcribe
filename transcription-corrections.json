@@ -1180,5 +1180,41 @@
     "wrong_transcription": "bəhéjvjərz",
     "correct_transcription": "bɪhéjvjərz",
     "explanation": "The reduced word-initial be- prefix is fixed as bɪ-, never bə: M-W behavior is bi-ˈhā-vyər, a reduced initial syllable, so the §4.4 fixed-morpheme step gives ɪ — the same call as because bɪkɒ́z, before bɪfɔ́r and the re- entry reductionist. Found 2026-09-26 in TRN_TheSelfishGene.txt: 11 tokens of behaviors (three of them written before a comma) and 2 of behavior were the only bə- forms among the corpus’s 266 be- words, while everything else already agreed — bɪhéjvjər ×26, bɪhéjvjərz, bɪhéjvjərəl ×3, and AI-103-questions.json bɪ- throughout. The entry covers both spellings, since the plural behaviors bɪhéjvjərz takes ərz and the singular behavior bɪhéjvər takes ər. The validator is blind to this class: check_string reports no violation for either form. Swept 2026-09-26; TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "intricate",
+    "wrong_transcription": "ɪ́ntrəkət",
+    "correct_transcription": "ɪ́ntrɪkət",
+    "explanation": "The medial reduced vowel is written i, so the §4.4 spelling tie-breaker gives ɪ where M-W writes a schwa-adjacent ‘i’ (M-W ˈin-tri-kət, whose plain i is also /ɪ/). Part of the 2026-09-26 full review of TRN_TheSelfishGene.txt: both tokens of intricate were the only ones in the corpus. The same medial-i class covered detrimental below, individual ɪ̀ndɪvɪ́dʒuwəl, oversimplifies òwvərsɪ́mplɪfàjz and underestimates ə̀ndərɛ́stɪmèjts, and the validator is blind to all of it."
+  },
+  {
+    "word": "detrimental",
+    "wrong_transcription": "dɛ̀trəmɛ́ntəl",
+    "correct_transcription": "dɛ̀trɪmɛ́ntəl",
+    "explanation": "Same medial-i ruling as intricate: the second syllable is spelled tri-, so the §4.4 tie-breaker gives ɪ (M-W ˌde-trə-ˈmen-tᵊl). One token in TRN_TheSelfishGene.txt, swept 2026-09-26. The first syllable keeps ɛ: M-W writes a full e under secondary stress, so the reduced-prefix rule for de- does not apply here. TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "overridden",
+    "wrong_transcription": "òwvərrɪ́dɪn",
+    "correct_transcription": "òwvərrɪ́dən",
+    "explanation": "The final syllable is spelled -den, so the reduced vowel is ə, not ɪ — the spelling tie-breaker sends e to the schwa branch while only i/y take ɪ. M-W over·rid·den ˌō-vər-ˈri-dᵊn writes the schwa, and the guide's §4.4 reading of M-W's parenthesis keeps it. This was the corpus's only ɪ-final -den form: the other 37 -en words (broken, hidden, given, seven, taken, written …) all end in ən. One token in TRN_TheSelfishGene.txt, swept 2026-09-26."
+  },
+  {
+    "word": "predisposed",
+    "wrong_transcription": "prədɪ́spowzd",
+    "correct_transcription": "prìjdɪspówzd",
+    "explanation": "Two errors in one token. (a) ˌpre- takes prìj: M-W predisposed is ˌprē-di-ˈspōzd, whose macron marks a full /ɪ/ vowel under secondary stress, so the reduced-prefix rule does not apply — the corpus already wrote prìjdɪfájnd (predefined) and prìjvijəslij (previously). (b) The acute belongs on the primary stress spówzd, not on the second syllable. One token in TRN_TheSelfishGene.txt, swept 2026-09-26; TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "predispositions",
+    "wrong_transcription": "prədɪ̀spəzɪ́ʃənz",
+    "correct_transcription": "prìjdɪ̀spəzɪ́ʃənz",
+    "explanation": "Same ˌprē- ruling as predisposed: prìj, grave on ɪ, primary acute on zɪ́. The ɪ in the ˌdi- syllable was already right, and the grave on dɪ̀ matches M-W's ˌdi-. Two tokens in TRN_TheSelfishGene.txt, swept 2026-09-26."
+  },
+  {
+    "word": "even",
+    "wrong_transcription": "íjvn",
+    "correct_transcription": "íjvən",
+    "explanation": "M-W even is ˈē-vən: the medial schwa is written in full, so §4.4 syncope does not apply and the syllable stays. The trap is the derived form — evening is ˈēv-niŋ, compressed in M-W's own listing, which is why íjvnɪŋ is right (§4.4 reads the word's own listing, not its base). The corpus had íjvən 23 times against one íjvn; the same ə holds for every other -en word in the corpus. One token in TRN_TheSelfishGene.txt, swept 2026-09-26. Related and separate: AI-103-questions.json wrote íjvɪn ten times against íjvən once, and those ten were swept to íjvən in the same pass (e is spelled e, so it takes ə)."
   }
 ]

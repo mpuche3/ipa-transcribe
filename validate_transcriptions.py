@@ -51,6 +51,8 @@ SEQUENCE_RULES = [
     ("banned-allophones", re.compile(r"[ɹɾʔɫ]"), "use plain r / t / l"),
     ("banned-vowels", re.compile(r"[ʌᵻ]"), "STRUT is ə; ᵻ is never used"),
     ("centering-schwa", re.compile("[ɛɪʊ][́̀]?ər"), "write ɛr / ɪr / ʊr"),
+    ("epsilon-glide", re.compile("\u025b[\u0300\u0301]j"),
+     "FACE is ej — ɛ is DRESS, so ɛ + accent + j is never right (guide §4.2)"),
     ("precomposed-ae", re.compile("[ǽǼ]"), "precomposed ae-acute — write æ + combining acute (U+0301)"),
 ]
 LEGACY_SKIP = {"banned-vowels", "centering-schwa"}
@@ -445,6 +447,7 @@ VALID_SAMPLES = [D(s) for s in [
     "ðə U.S. ənd ðə U.K.",
     "ówpənAI ówpənAIz ðij ówpənAI tɛ́st",
     "ə prówɡræ̀m kɔ́ld fingerd",
+    "béjsɪs dɪbéjt rɪléjʃənʃɪ̀p ɪ̀nəvéjʃənz",
     "ɪɡzǽmpəl rìjɪvæ̀ljuwéjʃən lájklijhʊ̀d sə́tʃ æz nów",
     "háj-stéjks ríj-ɪstǽblɪʃ (E.G., mɪ́sɪz. fɛ́ldmən)",
 ]]
@@ -477,6 +480,8 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("ðə leather dʒǽkət", "unaccented-token"),
     ("ðə ǽpəl", "the-context"),
     ("ðij júwnɪt", "the-context"),
+    ("bɛ́jsɪs dɪbɛ́jt", "epsilon-glide"),
+    ("rɪlɛ́jʃənʃɪp ɛ́j ɛ̀j", "epsilon-glide"),
     ("júwnəts", "reduced-i-spelling"),
     ("ə júwnəfɔ̀rm prɒ́sɛs", "reduced-i-spelling"),
     ("pówst-júwnəts", "reduced-i-spelling"),

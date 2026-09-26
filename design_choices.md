@@ -100,6 +100,20 @@ When goals conflicted, the earlier one won.
 
 **Sweep (2026-09-26, author approved):** 13 tokens in `examples/TRN_TheSelfishGene.txt` (byte-neutral `ə`→`ɪ`), `TRN_ONE.txt` regenerated, ledger 196 → 197 entries, and a §13 row placed directly after the reduced-prefix row.
 
+### The `ɛ́j` class, and what a full audit of one file shows (2026-09-26)
+
+**Chosen:** FACE is `ej` and nothing else; `ɛ` remains DRESS. A transcription that writes `ɛ́j` (`bɛ́jsɪs`, `dɪbɛ́jt`, `kəmjúwnɪkɛ́jʃən`, `rɪlɛ́jʃənʃɪp`) is not a variant of the reference accent but a different diphthong, so it is corrected to `éj` and mechanically rejected (`epsilon-glide`).
+
+**Also valid:** nothing. This is the one class in the guide where the notation itself leaves no room — §4.2 lists `ij uw ej ow aj aw ɔj`, `ɛ` is a short monophthong, and the corpus writes `éj` 5085 times against 58. There is no dialect or dictionary reading in which DRESS plus a glide spells FACE.
+
+**Why record it at all:** the validator could not see it. `invalid-glide-vowel` checks Latin base letters (`a e i o u`), and `ɛ` is not one, so `bɛ́jsɪs` passed every mechanical check while `béjsɪs` also passed. The class survived 19 file reviews and a 24 000-token consolidation, and 28 of its 58 instances sat in one file.
+
+**How it was found:** not by the validator and not by spot checks, but by an audit that compares each source word's transcription *across files* and then scans every token against the classes already recorded in repo memory. Ten reviewer-flagged tokens were the entry point; the audit turned up forty more defects in the same file — misplaced primary stress (`dɪ́sɔrdərz` → `dɪsɔ́rdərz`), omitted secondary-stress graves (`ɪ́nsajts` → `ɪ́nsàjts`), LOT/PALM confusion (`kɑ́nsɛpt` → `kɒ́nsɛ̀pt`), a dropped `r` in a cluster (`kɒ̀ntrəvɜ́ʃəl` → `kɒ̀ntrəvɜ́rʃəl`), a dropped `g` (`sədʒɛ́stɪŋ` → `səɡdʒɛ́stɪŋ`), a lost `j` (`bɪhéjvər` → `bɪhéjvjər`), a dropped `u` nucleus (`dʒwəl` → `dʒuwəl`), and one word whose transcription was borrowed from its base (`evolutionarily` written as `evolutionary`, invisible to any string rule because the file wrote both as the same token).
+
+**Guard:** `epsilon-glide` in `SEQUENCE_RULES`, with two invalid fixtures and one valid counterpart. It is a whole-text regex, so it also catches `ɛ̀j`. `--self-test` went from 123 to 126.
+
+**Lesson worth keeping:** the mechanical checks were green on that file before and after. What found the defects was source-aligned comparison across files — two files spelling the same source word differently means at least one is wrong, and the majority plus §4.4 resolves most of them. Every class that survives a validator pass needs an audit that reads the source.
+
 ### happY as `ij`
 
 **Chosen:** `bɒ́dij`, `lájklij`.

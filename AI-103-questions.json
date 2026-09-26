@@ -884,7 +884,7 @@
       "Provisioned throughput units"
     ],
     "Explanation": "Quota scope. Token and request limits are enforced at deployment scope, not just at app instance level. Understanding scope prevents false assumptions about horizontal app scale solving model throttling.",
-    "trans_Question": "ə prədə́kʃən tʃǽt dɪplɔ́jmənt stɑ́rts féjlɪŋ dʊ́rɪŋ trǽfɪk bɜ́rsts íjvɪn ðów CPU júwsɪdʒ ɪz lów, ənd lɔ́ɡz ʃów tówkən-pɜ́r-mɪ́nət lɪ́məts ɑr ɪksíjdɪd. wɪ́tʃ kɒ́nsɛpt ʃʊd ðə tíjm rɪvjúw fɜ́rst tə ə̀ndərstǽnd θrɒ́təlɪŋ skówp?",
+    "trans_Question": "ə prədə́kʃən tʃǽt dɪplɔ́jmənt stɑ́rts féjlɪŋ dʊ́rɪŋ trǽfɪk bɜ́rsts íjvən ðów CPU júwsɪdʒ ɪz lów, ənd lɔ́ɡz ʃów tówkən-pɜ́r-mɪ́nət lɪ́məts ɑr ɪksíjdɪd. wɪ́tʃ kɒ́nsɛpt ʃʊd ðə tíjm rɪvjúw fɜ́rst tə ə̀ndərstǽnd θrɒ́təlɪŋ skówp?",
     "trans_RightAnswer": "kwówtə skówp",
     "trans_WrongAnswers": [
       "dɪfɛ́ns-ɪn-dɛ́pθ ɡə́vərnəns",
@@ -1169,7 +1169,7 @@
       "ɪ̀ndʒɛ́stʃən frɛ́ʃnəs",
       "rɛ́ləvəns mɛ́trɪks"
     ],
-    "trans_Explanation": "mɒ́dəl drɪ́ft mɒ́nətərɪŋ. bɪhéjvjərəl kwɑ́lɪtij kən ríjɡrɛs ówvər tájm íjvɪn wɛ́n trədɪ́ʃənəl déjtə dɪ̀strəbjúwʃənz ɑr stéjbəl. kəntɪ́njuwəs ɪvæ̀ljuwéjʃən dɪtɛ́kts ðijz ʃɪ́fts bɪfɔ́r ðej ɪ́skəlèjt.",
+    "trans_Explanation": "mɒ́dəl drɪ́ft mɒ́nətərɪŋ. bɪhéjvjərəl kwɑ́lɪtij kən ríjɡrɛs ówvər tájm íjvən wɛ́n trədɪ́ʃənəl déjtə dɪ̀strəbjúwʃənz ɑr stéjbəl. kəntɪ́njuwəs ɪvæ̀ljuwéjʃən dɪtɛ́kts ðijz ʃɪ́fts bɪfɔ́r ðej ɪ́skəlèjt.",
     "Difficulty": 4
   },
   {
@@ -1551,7 +1551,7 @@
       "False positive tradeoff"
     ],
     "Explanation": "Blocklists. They enforce application-specific prohibited terms or phrases beyond generic harm classifiers. Apply them for strict business rules where category filtering alone is insufficient.",
-    "trans_Question": "jɔr ɪ̀dʒəkéjʃən tʃǽtbɒ̀t məst nɛ́vər áwtpʊ̀t spəsɪ́fɪk bǽnd ɪɡzǽm ǽnsərz, íjvɪn wɛ́n ðowz tɜ́rmz ɑr nɒ́t ɪnhɪ́rəntlij ənséjf kǽtəɡɔ̀rijz. wɒ́t ɪz ðə mówst dərɛ́kt kəntrówl?",
+    "trans_Question": "jɔr ɪ̀dʒəkéjʃən tʃǽtbɒ̀t məst nɛ́vər áwtpʊ̀t spəsɪ́fɪk bǽnd ɪɡzǽm ǽnsərz, íjvən wɛ́n ðowz tɜ́rmz ɑr nɒ́t ɪnhɪ́rəntlij ənséjf kǽtəɡɔ̀rijz. wɒ́t ɪz ðə mówst dərɛ́kt kəntrówl?",
     "trans_RightAnswer": "blɒ́klɪ̀sts",
     "trans_WrongAnswers": [
       "ɡráwndɪdnəs dɪtɛ́kʃən",
@@ -2034,7 +2034,7 @@
       "Retry backoff"
     ],
     "Explanation": "Streaming. It returns partial output progressively and improves perceived responsiveness. It is useful when user experience prioritizes first visible output over full-response simplicity.",
-    "trans_Question": "prɒ́dəkt mǽnədʒərz wɒ́nt ðə UI tə dɪspléj wɜ́rdz æz súwn æz ðej ɑr dʒɛ́nərèjtəd, íjvɪn ɪf tówtəl kəmplíjʃən tájm ɪz əntʃéjndʒd. wɪ́tʃ rɪspɒ́ns mówd ʃʊd bij ɪnéjbəld?",
+    "trans_Question": "prɒ́dəkt mǽnədʒərz wɒ́nt ðə UI tə dɪspléj wɜ́rdz æz súwn æz ðej ɑr dʒɛ́nərèjtəd, íjvən ɪf tówtəl kəmplíjʃən tájm ɪz əntʃéjndʒd. wɪ́tʃ rɪspɒ́ns mówd ʃʊd bij ɪnéjbəld?",
     "trans_RightAnswer": "stríjmɪŋ",
     "trans_WrongAnswers": [
       "mowdǽlɪtijz səpɔ́rt",
@@ -2310,7 +2310,7 @@
       "Access trimming"
     ],
     "Explanation": "Grounding instructions. They explicitly require prompt augmentation with provided sources and allow abstention when evidence is missing. This reduces unsupported claims in responses.",
-    "trans_Question": "ə mɒ́dəl həlúwsənèjts pɒ́lɪsij dɪtéjlz íjvɪn wɛ́n sajtéjʃənz ɑr əvéjləbəl ɪn ðə rɪtríjvd tɛ́kst. wɪ́tʃ ɪ̀nstrə́kʃən kɒ́nsɛpt ʃʊd bij strɛ́ŋθənd ɪn ðə prɒ́mpt?",
+    "trans_Question": "ə mɒ́dəl həlúwsənèjts pɒ́lɪsij dɪtéjlz íjvən wɛ́n sajtéjʃənz ɑr əvéjləbəl ɪn ðə rɪtríjvd tɛ́kst. wɪ́tʃ ɪ̀nstrə́kʃən kɒ́nsɛpt ʃʊd bij strɛ́ŋθənd ɪn ðə prɒ́mpt?",
     "trans_RightAnswer": "ɡráwndɪŋ ɪ̀nstrə́kʃənz",
     "trans_WrongAnswers": [
       "kwíjrij rijrájtɪŋ",
@@ -2448,7 +2448,7 @@
       "Sequential calls"
     ],
     "Explanation": "Argument validation. The application must verify tool inputs against business and safety rules before execution. This prevents harmful or invalid actions from model mistakes.",
-    "trans_Question": "ə túwl kən trɪ́ɡər əkáwnt dɪlíjʃən, sów ðij ǽp məst rɪdʒɛ́kt mæ̀lfɔ́rmd ɔr dɪ̀səláwd ɑ́rɡjəmənts íjvɪn wɛ́n mɒ́dəl áwtpʊ̀t lʊ́ks plɔ́zɪbəl. wɪ́tʃ ɡɑ́rd kɒ́nsɛpt ɪz ɪsɛ́nʃəl?",
+    "trans_Question": "ə túwl kən trɪ́ɡər əkáwnt dɪlíjʃən, sów ðij ǽp məst rɪdʒɛ́kt mæ̀lfɔ́rmd ɔr dɪ̀səláwd ɑ́rɡjəmənts íjvən wɛ́n mɒ́dəl áwtpʊ̀t lʊ́ks plɔ́zɪbəl. wɪ́tʃ ɡɑ́rd kɒ́nsɛpt ɪz ɪsɛ́nʃəl?",
     "trans_RightAnswer": "ɑ́rɡjəmənt væ̀lədéjʃən",
     "trans_WrongAnswers": [
       "dʒéjsɒn skíjmə",
@@ -3713,7 +3713,7 @@
       "Model selection"
     ],
     "Explanation": "Output token limit (maximum completion length) controls response size, cost, and latency spread. Output token limit (task-aligned caps) prevents verbose outputs while preserving required content.",
-    "trans_Question": "ə tʃǽt ɪ́ndpɔ̀jnt rɪtɜ́rnz lɔ́ŋ, kɒ́stlij ǽnsərz ðət ɪksíjd UI kənstréjnts, íjvɪn ðów ǽnsər kwɑ́lɪtij ɪz fájn ɪn ðə fɜ́rst pǽrəɡræ̀fs. wɪ́tʃ dʒɛ̀nəréjʃən sɛ́tɪŋ ʃʊd bij tájtənd?",
+    "trans_Question": "ə tʃǽt ɪ́ndpɔ̀jnt rɪtɜ́rnz lɔ́ŋ, kɒ́stlij ǽnsərz ðət ɪksíjd UI kənstréjnts, íjvən ðów ǽnsər kwɑ́lɪtij ɪz fájn ɪn ðə fɜ́rst pǽrəɡræ̀fs. wɪ́tʃ dʒɛ̀nəréjʃən sɛ́tɪŋ ʃʊd bij tájtənd?",
     "trans_RightAnswer": "áwtpʊ̀t tówkən lɪ́mət",
     "trans_WrongAnswers": [
       "tɒ́p-P sǽmplɪŋ",
@@ -3989,7 +3989,7 @@
       "Cost quality attribution"
     ],
     "Explanation": "First-token latency (time to first streamed token) drives perceived responsiveness for users. First-token latency (distinct from total latency) can improve experience even when full duration is unchanged.",
-    "trans_Question": "júwzərz kəmpléjn ðət ðij ǽp fíjlz slów íjvɪn wɛ́n tówtəl rɪspɒ́ns tájm ɪz æksɛ́ptəbəl, ənd prɒ́dəkt wɒ́nts tə ɪ̀mprúwv pərsíjvd rɪspɒ́nsɪvnəs fɜ́rst. wɪ́tʃ léjtənsij mɛ́trɪk ʃʊd bij prajɔ́rətàjzd?",
+    "trans_Question": "júwzərz kəmpléjn ðət ðij ǽp fíjlz slów íjvən wɛ́n tówtəl rɪspɒ́ns tájm ɪz æksɛ́ptəbəl, ənd prɒ́dəkt wɒ́nts tə ɪ̀mprúwv pərsíjvd rɪspɒ́nsɪvnəs fɜ́rst. wɪ́tʃ léjtənsij mɛ́trɪk ʃʊd bij prajɔ́rətàjzd?",
     "trans_RightAnswer": "fɜ́rst-tówkən léjtənsij",
     "trans_WrongAnswers": [
       "tówkən təlɛ́mətrij",
@@ -3998,7 +3998,7 @@
       "séjftij blɒ́k réjt",
       "kɔ́st kwɑ́lɪtij æ̀trɪbjúwʃən"
     ],
-    "trans_Explanation": "fɜ́rst-tówkən léjtənsij (tájm tə fɜ́rst stríjmd tówkən) drájvz pərsíjvd rɪspɒ́nsɪvnəs fɔr júwzərz. fɜ́rst-tówkən léjtənsij (dɪstɪ́ŋkt frəm tówtəl léjtənsij) kən ɪ̀mprúwv ɪkspɪ́rijəns íjvɪn wɛ́n fʊ́l dʊréjʃən ɪz əntʃéjndʒd.",
+    "trans_Explanation": "fɜ́rst-tówkən léjtənsij (tájm tə fɜ́rst stríjmd tówkən) drájvz pərsíjvd rɪspɒ́nsɪvnəs fɔr júwzərz. fɜ́rst-tówkən léjtənsij (dɪstɪ́ŋkt frəm tówtəl léjtənsij) kən ɪ̀mprúwv ɪkspɪ́rijəns íjvən wɛ́n fʊ́l dʊréjʃən ɪz əntʃéjndʒd.",
     "Difficulty": 2
   },
   {
@@ -5576,7 +5576,7 @@
       "Continuous recognition"
     ],
     "Explanation": "Real-time transcription. It streams recognition results during live audio and supports low-latency experiences. Use it when responsiveness matters more than waiting for post-call processing.",
-    "trans_Question": "ə kɒ́ntæ̀kt sɛ́ntər níjdz kǽpʃənz tə əpɪ́r wájl ə kɔ́lər ɪz stɪ́l spíjkɪŋ sów ən éjdʒənt kən rijǽkt ɪ̀míjdìjətlij, íjvɪn ɪf wɜ́rdɪŋ mej rɪvájz bɪfɔ́r kəmplíjʃən. wɪ́tʃ spíjtʃ kɒ́nsɛpt ʃʊd bij sɪlɛ́ktɪd?",
+    "trans_Question": "ə kɒ́ntæ̀kt sɛ́ntər níjdz kǽpʃənz tə əpɪ́r wájl ə kɔ́lər ɪz stɪ́l spíjkɪŋ sów ən éjdʒənt kən rijǽkt ɪ̀míjdìjətlij, íjvən ɪf wɜ́rdɪŋ mej rɪvájz bɪfɔ́r kəmplíjʃən. wɪ́tʃ spíjtʃ kɒ́nsɛpt ʃʊd bij sɪlɛ́ktɪd?",
     "trans_RightAnswer": "ríjl-tájm træ̀nskrɪ́pʃən",
     "trans_WrongAnswers": [
       "spíjtʃ kwɑ́lɪtij mɛ́trɪks",
