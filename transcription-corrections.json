@@ -458,8 +458,8 @@
   {
     "word": "repositories",
     "wrong_transcription": "rijpɒ́zətɔ̀rijz",
-    "correct_transcription": "rɪpɒ́zətɔ̀rijz",
-    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-."
+    "correct_transcription": "rɪpɒ́zɪtɔ̀rijz",
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-. The 2026-09-27 full-class pass fixed the reduced medial -i- in the same word: rɪpɒ́zɪtɔ̀rijz."
   },
   {
     "word": "require",
@@ -662,8 +662,8 @@
   {
     "word": "identifiers",
     "wrong_transcription": "ajdɛ́nəfàjərz",
-    "correct_transcription": "ajdɛ́ntəfàjərz",
-    "explanation": "The current form incorrectly drops the pronounced t in identifiers."
+    "correct_transcription": "ajdɛ́ntɪfàjərz",
+    "explanation": "The current form incorrectly drops the pronounced t in identifiers. The 2026-09-27 full-class pass also fixed the reduced medial -i-, so the current form is ajdɛ́ntɪfàjərz (cf. identify ajdɛ́ntɪfàj)."
   },
   {
     "word": "departmental",
@@ -1562,8 +1562,8 @@
   {
     "word": "primarily",
     "wrong_transcription": "prájmɛ̀rəlij",
-    "correct_transcription": "prajmɛ́rəlij",
-    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: prájmɛ̀rəlij ×1 (examples 1, AI-103 0); prajmɛ́rəlij ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated. The two shapes differed only in stress, so M-W prī-ˈmer-ə-lē decides rather than the vowel rule; the medial ə stays as in necessarily and temporarily, which were not swept."
+    "correct_transcription": "prajmɛ́rɪlij",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: prájmɛ̀rəlij ×1 (examples 1, AI-103 0); prajmɛ́rəlij ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated. The two shapes differed only in stress, so M-W prī-ˈmer-ə-lē decided the grave; the later full-class pass of 2026-09-27 applied the vowel rule as well, since the medial syllable is spelled i, giving prajmɛ́rɪlij (cf. necessarily nɛ̀səsɛ́rɪlij and temporarily tɛ́mpərɛ̀rɪlij, swept in the same pass)."
   },
   {
     "word": "calibration",
@@ -1628,7 +1628,595 @@
   {
     "word": "universities",
     "wrong_transcription": "juwnəvɜ́rsətijz",
-    "correct_transcription": "jùwnɪvɜ́rsətijz",
-    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: juwnəvɜ́rsətijz ×2 (examples 2, AI-103 0). Swept 2 token(s) (examples 2, AI-103 0); TRN_ONE.txt regenerated. The -uni- outlier: its unaccented u escaped the validator's j[úù]wnə guard, and M-W yü-nə-ˈvər-sə-tē needs the first-syllable grave plus ɪ for -ni-. Two tokens in TRN_TheMorrisWorm.txt."
+    "correct_transcription": "jùwnɪvɜ́rsɪtijz",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: juwnəvɜ́rsətijz ×2 (examples 2, AI-103 0). Swept 2 token(s) (examples 2, AI-103 0); TRN_ONE.txt regenerated. The -uni- outlier: its unaccented u escaped the validator's j[úù]wnə guard, and M-W yü-nə-ˈvər-sə-tē needs the first-syllable grave plus ɪ for -ni-. Two tokens in TRN_TheMorrisWorm.txt. The 2026-09-27 full-class pass then applied the vowel rule to -ties as well, giving jùwnɪvɜ́rsɪtijz (cf. unity júwnɪtij)."
+  },
+  {
+    "word": "hybrid",
+    "wrong_transcription": "hájbrəd",
+    "correct_transcription": "hájbrɪd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: hájbrəd ×24 (examples 0, AI-103 24). Swept 24 token(s) (examples 0, AI-103 24); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "sentiment",
+    "wrong_transcription": "sɛ́ntəmənt",
+    "correct_transcription": "sɛ́ntɪmənt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: sɛ́ntəmənt ×23 (examples 0, AI-103 23). Swept 23 token(s) (examples 0, AI-103 23); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "ordinary",
+    "wrong_transcription": "ɔ́rdənɛ̀rij",
+    "correct_transcription": "ɔ́rdɪnɛ̀rij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɔ́rdənɛ̀rij ×10 (examples 10, AI-103 0). Swept 10 token(s) (examples 10, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "authentication",
+    "wrong_transcription": "ɔθɛ̀ntəkéjʃən",
+    "correct_transcription": "ɔθɛ̀ntɪkéjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɔθɛ̀ntəkéjʃən ×10 (examples 0, AI-103 10). Swept 10 token(s) (examples 0, AI-103 10); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "attributes",
+    "wrong_transcription": "ǽtrəbjùwts",
+    "correct_transcription": "ǽtrɪbjùwts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ǽtrəbjùwts ×9 (examples 0, AI-103 9). Swept 9 token(s) (examples 0, AI-103 9); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "verifier",
+    "wrong_transcription": "vɛ́rəfàjər",
+    "correct_transcription": "vɛ́rɪfàjər",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: vɛ́rəfàjər ×8 (examples 0, AI-103 8). Swept 8 token(s) (examples 0, AI-103 8); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "positive",
+    "wrong_transcription": "pɒ́zətɪv",
+    "correct_transcription": "pɒ́zɪtɪv",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: pɒ́zətɪv ×8 (examples 1, AI-103 7). Swept 8 token(s) (examples 1, AI-103 7); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "identify",
+    "wrong_transcription": "ajdɛ́ntəfàj",
+    "correct_transcription": "ajdɛ́ntɪfàj",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ajdɛ́ntəfàj ×7 (examples 1, AI-103 6). Swept 7 token(s) (examples 1, AI-103 6); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "sensitive",
+    "wrong_transcription": "sɛ́nsətɪv",
+    "correct_transcription": "sɛ́nsɪtɪv",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: sɛ́nsətɪv ×7 (examples 0, AI-103 7). Swept 7 token(s) (examples 0, AI-103 7); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "simplifies",
+    "wrong_transcription": "sɪ́mpləfàjz",
+    "correct_transcription": "sɪ́mplɪfàjz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: sɪ́mpləfàjz ×7 (examples 0, AI-103 7). Swept 7 token(s) (examples 0, AI-103 7); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "interim",
+    "wrong_transcription": "ɪ́ntərəm",
+    "correct_transcription": "ɪ́ntərɪm",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪ́ntərəm ×7 (examples 0, AI-103 7). Swept 7 token(s) (examples 0, AI-103 7); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "postvalidation",
+    "wrong_transcription": "pówstvæ̀lədèjʃən",
+    "correct_transcription": "pówstvæ̀lɪdèjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: pówstvæ̀lədèjʃən ×7 (examples 0, AI-103 7). Swept 7 token(s) (examples 0, AI-103 7); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "lexical",
+    "wrong_transcription": "lɛ́ksɪkəl",
+    "correct_transcription": "lɛ́ksɪkɪl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: lɛ́ksɪkəl ×6 (examples 0, AI-103 6). Swept 6 token(s) (examples 0, AI-103 6); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "minimal",
+    "wrong_transcription": "mɪ́nəməl",
+    "correct_transcription": "mɪ́nɪməl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mɪ́nəməl ×6 (examples 0, AI-103 6). Swept 6 token(s) (examples 0, AI-103 6); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "identifies",
+    "wrong_transcription": "ajdɛ́ntəfàjz",
+    "correct_transcription": "ajdɛ́ntɪfàjz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ajdɛ́ntəfàjz ×5 (examples 1, AI-103 4). Swept 5 token(s) (examples 1, AI-103 4); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "invalid",
+    "wrong_transcription": "ɪ́nvələd",
+    "correct_transcription": "ɪ́nvəlɪd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪ́nvələd ×5 (examples 0, AI-103 5). Swept 5 token(s) (examples 0, AI-103 5); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "continuity",
+    "wrong_transcription": "kɒ̀ntənúwɪtij",
+    "correct_transcription": "kɒ̀ntɪnúwɪtij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: kɒ̀ntənúwɪtij ×5 (examples 0, AI-103 5). Swept 5 token(s) (examples 0, AI-103 5); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "artifact",
+    "wrong_transcription": "ɑ́rtəfæ̀kt",
+    "correct_transcription": "ɑ́rtɪfæ̀kt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɑ́rtəfæ̀kt ×4 (examples 0, AI-103 4). Swept 4 token(s) (examples 0, AI-103 4); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "validated",
+    "wrong_transcription": "vǽlədejtɪd",
+    "correct_transcription": "vǽlɪdejtɪd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: vǽlədejtɪd ×4 (examples 0, AI-103 4). Swept 4 token(s) (examples 0, AI-103 4); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "auditors",
+    "wrong_transcription": "ɒ́dətərz",
+    "correct_transcription": "ɒ́dɪtərz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ́dətərz ×4 (examples 0, AI-103 4). Swept 4 token(s) (examples 0, AI-103 4); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "fragile",
+    "wrong_transcription": "frǽdʒəl",
+    "correct_transcription": "frǽdʒɪl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: frǽdʒəl ×4 (examples 3, AI-103 1). Swept 4 token(s) (examples 3, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "mobile",
+    "wrong_transcription": "mówbəl",
+    "correct_transcription": "mówbɪl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mówbəl ×3 (examples 2, AI-103 1). Swept 3 token(s) (examples 2, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "determine",
+    "wrong_transcription": "dɪtɜ́rmən",
+    "correct_transcription": "dɪtɜ́rmɪn",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: dɪtɜ́rmən ×3 (examples 0, AI-103 3). Swept 3 token(s) (examples 0, AI-103 3); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "prioritized",
+    "wrong_transcription": "prajɔ́rətàjzd",
+    "correct_transcription": "prajɔ́rɪtàjzd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: prajɔ́rətàjzd ×3 (examples 0, AI-103 3). Swept 3 token(s) (examples 0, AI-103 3); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "auditability",
+    "wrong_transcription": "ɔ̀dətəbɪ́lɪtij",
+    "correct_transcription": "ɔ̀dɪtəbɪ́lɪtij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɔ̀dətəbɪ́lɪtij ×3 (examples 0, AI-103 3). Swept 3 token(s) (examples 0, AI-103 3); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "replication",
+    "wrong_transcription": "rɛ̀pləkéjʃən",
+    "correct_transcription": "rɛ̀plɪkéjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: rɛ̀pləkéjʃən ×3 (examples 3, AI-103 0). Swept 3 token(s) (examples 3, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "evolutionarily",
+    "wrong_transcription": "ɛ̀vəlúwʃənɛ̀rəlij",
+    "correct_transcription": "ɛ̀vəlúwʃənɛ̀rɪlij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɛ̀vəlúwʃənɛ̀rəlij ×3 (examples 3, AI-103 0). Swept 3 token(s) (examples 3, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "auditing",
+    "wrong_transcription": "ɒ́dətɪŋ",
+    "correct_transcription": "ɒ́dɪtɪŋ",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ́dətɪŋ ×3 (examples 0, AI-103 3). Swept 3 token(s) (examples 0, AI-103 3); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "temporarily",
+    "wrong_transcription": "tɛ́mpərɛ̀rəlij",
+    "correct_transcription": "tɛ́mpərɛ̀rɪlij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: tɛ́mpərɛ̀rəlij ×2 (examples 2, AI-103 0). Swept 2 token(s) (examples 2, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "identifiable",
+    "wrong_transcription": "ajdɛ́ntəfàjəbəl",
+    "correct_transcription": "ajdɛ́ntɪfàjəbəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ajdɛ́ntəfàjəbəl ×2 (examples 1, AI-103 1). Swept 2 token(s) (examples 1, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "medicine",
+    "wrong_transcription": "mɛ́dəsɪn",
+    "correct_transcription": "mɛ́dɪsɪn",
+    "explanation": "M-W ˈme-də-sən writes the medial schwa, but the syllable is spelled i, so §4.4's tie-breaker gives ɪ — the same shape the guide itself prints as the example for this rule. Before: mɛ́dəsɪn ×2 (examples 2, AI-103 0). Swept 2 token(s) (examples 2, AI-103 0)."
+  },
+  {
+    "word": "institutions",
+    "wrong_transcription": "ɪ̀nstətúwʃənz",
+    "correct_transcription": "ɪ̀nstɪtúwʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪ̀nstətúwʃənz ×2 (examples 2, AI-103 0). Swept 2 token(s) (examples 2, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "authenticate",
+    "wrong_transcription": "ɔθɛ́ntəkèjt",
+    "correct_transcription": "ɔθɛ́ntɪkèjt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɔθɛ́ntəkèjt ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "distributions",
+    "wrong_transcription": "dɪ̀strəbjúwʃənz",
+    "correct_transcription": "dɪ̀strɪbjúwʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: dɪ̀strəbjúwʃənz ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "audits",
+    "wrong_transcription": "ɒ́dəts",
+    "correct_transcription": "ɒ́dɪts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ́dəts ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "accidentally",
+    "wrong_transcription": "æ̀ksədɛ́ntəlij",
+    "correct_transcription": "æ̀ksɪdɛ́ntəlij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: æ̀ksədɛ́ntəlij ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "indicators",
+    "wrong_transcription": "ɪ́ndəkèjtərz",
+    "correct_transcription": "ɪ́ndɪkèjtərz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪ́ndəkèjtərz ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "hostile",
+    "wrong_transcription": "hɒ́stəl",
+    "correct_transcription": "hɒ́stɪl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: hɒ́stəl ×2 (examples 1, AI-103 1). Swept 2 token(s) (examples 1, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "family",
+    "wrong_transcription": "fǽməlij",
+    "correct_transcription": "fǽmlij",
+    "explanation": "Ruled syncope, not ɪ: M-W's first listing is ˈfam-lē, compressed, so §4.4 drops the syllable rather than writing the reduced i at all (cf. several sɛ́vrəl). The corpus had fǽməlij ×2 in AI-103 against fǽmlij ×1, and the author ruled the compressed form 2026-09-27. Before: fǽməlij ×2 (examples 0, AI-103 2); fǽmlij ×1 (examples 1, AI-103 0). Swept 2 token(s) (examples 0, AI-103 2)."
+  },
+  {
+    "word": "prioritize",
+    "wrong_transcription": "prajɔ́rətàjz",
+    "correct_transcription": "prajɔ́rɪtàjz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: prajɔ́rətàjz ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "maximum",
+    "wrong_transcription": "mǽksəməm",
+    "correct_transcription": "mǽksɪməm",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mǽksəməm ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "yosemite",
+    "wrong_transcription": "jowsɛ́mətij",
+    "correct_transcription": "jowsɛ́mɪtij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: jowsɛ́mətij ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "specificitychange",
+    "wrong_transcription": "spɛ̀səfɪ́sɪtij—tʃéjndʒ",
+    "correct_transcription": "spɛ̀sɪfɪ́sɪtij—tʃéjndʒ",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: spɛ̀səfɪ́sɪtij—tʃéjndʒ ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "deficits",
+    "wrong_transcription": "dɛ́fəsəts",
+    "correct_transcription": "dɛ́fɪsɪts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: dɛ́fəsəts ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "illuminates",
+    "wrong_transcription": "ɪlúwmənèjts",
+    "correct_transcription": "ɪlúwmɪnèjts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪlúwmənèjts ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "beautiful",
+    "wrong_transcription": "bjúwtəfəl",
+    "correct_transcription": "bjúwtɪfəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: bjúwtəfəl ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "necessarily",
+    "wrong_transcription": "nɛ̀səsɛ́rəlij",
+    "correct_transcription": "nɛ̀səsɛ́rɪlij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: nɛ̀səsɛ́rəlij ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "extraordinary",
+    "wrong_transcription": "ɪkstrɔ́rdənɛ̀rij",
+    "correct_transcription": "ɪkstrɔ́rdɪnɛ̀rij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪkstrɔ́rdənɛ̀rij ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "maturity",
+    "wrong_transcription": "mətʊ́rətij",
+    "correct_transcription": "mətʊ́rɪtij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mətʊ́rətij ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "liquidity",
+    "wrong_transcription": "lɪkwɪ́dətij",
+    "correct_transcription": "lɪkwɪ́dɪtij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: lɪkwɪ́dətij ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "destabilizing",
+    "wrong_transcription": "dɪstéjbəlàjzɪŋ",
+    "correct_transcription": "dɪstéjbɪlàjzɪŋ",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: dɪstéjbəlàjzɪŋ ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "replicate",
+    "wrong_transcription": "ríjpləkèjt",
+    "correct_transcription": "ríjplɪkèjt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ríjpləkèjt ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "sacrifices",
+    "wrong_transcription": "sǽkrəfàjsɪz",
+    "correct_transcription": "sǽkrɪfàjsɪz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: sǽkrəfàjsɪz ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "sterile",
+    "wrong_transcription": "stɛ́rəl",
+    "correct_transcription": "stɛ́rɪl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: stɛ́rəl ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "manifestation",
+    "wrong_transcription": "mænəfɛ̀stéjʃən",
+    "correct_transcription": "mænɪfɛ̀stéjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mænəfɛ̀stéjʃən ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "replicators",
+    "wrong_transcription": "rɛ́pləkèjtərz",
+    "correct_transcription": "rɛ́plɪkèjtərz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: rɛ́pləkèjtərz ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "justifying",
+    "wrong_transcription": "dʒə́stəfàjɪŋ",
+    "correct_transcription": "dʒə́stɪfàjɪŋ",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: dʒə́stəfàjɪŋ ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "epigenetics",
+    "wrong_transcription": "ɛ̀pədʒənɛ́tɪks",
+    "correct_transcription": "ɛ̀pɪdʒənɛ́tɪks",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɛ̀pədʒənɛ́tɪks ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "epigenetic",
+    "wrong_transcription": "ɛ̀pədʒənɛ́tɪk",
+    "correct_transcription": "ɛ̀pɪdʒənɛ́tɪk",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɛ̀pədʒənɛ́tɪk ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "modifications",
+    "wrong_transcription": "mɒ̀dɪfəkéjʃənz",
+    "correct_transcription": "mɒ̀dɪfɪkéjʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mɒ̀dɪfəkéjʃənz ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "citizen",
+    "wrong_transcription": "sɪ́təzən",
+    "correct_transcription": "sɪ́tɪzən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: sɪ́təzən ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "motivation",
+    "wrong_transcription": "mòwtəvéjʃən",
+    "correct_transcription": "mòwtɪvéjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mòwtəvéjʃən ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "sacrificed",
+    "wrong_transcription": "sǽkrəfàjst",
+    "correct_transcription": "sǽkrɪfàjst",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: sǽkrəfàjst ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "experimentation",
+    "wrong_transcription": "ɪkspɛ̀rəməntéjʃən",
+    "correct_transcription": "ɪkspɛ̀rɪməntéjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪkspɛ̀rəməntéjʃən ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "magnitude",
+    "wrong_transcription": "mǽɡnətùwd",
+    "correct_transcription": "mǽɡnɪtùwd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mǽɡnətùwd ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "contribution",
+    "wrong_transcription": "kɒ̀ntrəbjúwʃən",
+    "correct_transcription": "kɒ̀ntrɪbjúwʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: kɒ̀ntrəbjúwʃən ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "validates",
+    "wrong_transcription": "vǽlədèjts",
+    "correct_transcription": "vǽlɪdèjts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: vǽlədèjts ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "inherit",
+    "wrong_transcription": "ɪ̀nhɛ́rət",
+    "correct_transcription": "ɪ̀nhɛ́rɪt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪ̀nhɛ́rət ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "identifier",
+    "wrong_transcription": "ajdɛ́ntəfàjər",
+    "correct_transcription": "ajdɛ́ntɪfàjər",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ajdɛ́ntəfàjər ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "continents",
+    "wrong_transcription": "kɒ́ntənənts",
+    "correct_transcription": "kɒ́ntɪnənts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: kɒ́ntənənts ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "minimizes",
+    "wrong_transcription": "mɪ́nəmàjzəz",
+    "correct_transcription": "mɪ́nɪmàjzəz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mɪ́nəmàjzəz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "stabilizes",
+    "wrong_transcription": "stéjbəlàjzəz",
+    "correct_transcription": "stéjbɪlàjzəz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: stéjbəlàjzəz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "monitored",
+    "wrong_transcription": "mɒ́nətərd",
+    "correct_transcription": "mɒ́nɪtərd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mɒ́nətərd ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "indicate",
+    "wrong_transcription": "ɪ́ndəkèjt",
+    "correct_transcription": "ɪ́ndɪkèjt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪ́ndəkèjt ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "modify",
+    "wrong_transcription": "mɒ́dəfàj",
+    "correct_transcription": "mɒ́dɪfàj",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mɒ́dəfàj ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "administrative",
+    "wrong_transcription": "ədmɪ́nəstrèjtɪv",
+    "correct_transcription": "ədmɪ́nɪstrèjtɪv",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ədmɪ́nəstrèjtɪv ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "mitigations",
+    "wrong_transcription": "mɪ̀təɡéjʃənz",
+    "correct_transcription": "mɪ̀tɪɡéjʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mɪ̀təɡéjʃənz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "origin",
+    "wrong_transcription": "ɔ́rədʒən",
+    "correct_transcription": "ɔ́rɪdʒɪn",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɔ́rədʒən ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "primitives",
+    "wrong_transcription": "prɪ́mətɪvz",
+    "correct_transcription": "prɪ́mɪtɪvz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: prɪ́mətɪvz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "prioritizes",
+    "wrong_transcription": "prajɔ́rətàjzɪz",
+    "correct_transcription": "prajɔ́rɪtàjzɪz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: prajɔ́rətàjzɪz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "probabilistic",
+    "wrong_transcription": "prɒ̀bəbɪlɪ́stək",
+    "correct_transcription": "prɒ̀bəbɪlɪ́stɪk",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: prɒ̀bəbɪlɪ́stək ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "verifiable",
+    "wrong_transcription": "vɛ́rəfàjəbəl",
+    "correct_transcription": "vɛ́rɪfàjəbəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: vɛ́rəfàjəbəl ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "specifications",
+    "wrong_transcription": "spɛ̀səfəkéjʃənz",
+    "correct_transcription": "spɛ̀sɪfɪkéjʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: spɛ̀səfəkéjʃənz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "duediligence",
+    "wrong_transcription": "dúw-dɪ́lədʒəns",
+    "correct_transcription": "dúw-dɪ́lɪdʒəns",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: dúw-dɪ́lədʒəns ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "participants",
+    "wrong_transcription": "pɑrtɪ́səpənts",
+    "correct_transcription": "pɑrtɪ́sɪpənts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: pɑrtɪ́səpənts ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "stabilize",
+    "wrong_transcription": "stéjbəlàjz",
+    "correct_transcription": "stéjbɪlàjz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: stéjbəlàjz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "delimiters",
+    "wrong_transcription": "dɪlɪ́mətərz",
+    "correct_transcription": "dɪlɪ́mɪtərz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: dɪlɪ́mətərz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "unedited",
+    "wrong_transcription": "ənɛ́dətɪd",
+    "correct_transcription": "ənɛ́dɪtɪd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ənɛ́dətɪd ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "animation",
+    "wrong_transcription": "æ̀nəméjʃən",
+    "correct_transcription": "æ̀nɪméjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: æ̀nəméjʃən ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "misattribution",
+    "wrong_transcription": "mɪ̀sətrəbjúwʃən",
+    "correct_transcription": "mɪ̀sətrɪbjúwʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mɪ̀sətrəbjúwʃən ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "accidental",
+    "wrong_transcription": "æ̀ksədɛ́ntəl",
+    "correct_transcription": "æ̀ksɪdɛ́ntəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: æ̀ksədɛ́ntəl ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "origins",
+    "wrong_transcription": "ɔ́rədʒɪnz",
+    "correct_transcription": "ɔ́rɪdʒɪnz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɔ́rədʒɪnz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "dominant",
+    "wrong_transcription": "dɒ́mənənt",
+    "correct_transcription": "dɒ́mɪnənt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: dɒ́mənənt ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "posteditor",
+    "wrong_transcription": "pówst-ɪ́dətər",
+    "correct_transcription": "pówst-ɪ́dɪtər",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: pówst-ɪ́dətər ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "attribute",
+    "wrong_transcription": "ǽtrəbjùwt",
+    "correct_transcription": "ǽtrɪbjùwt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ǽtrəbjùwt ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "modified",
+    "wrong_transcription": "mɒ́dəfàjd",
+    "correct_transcription": "mɒ́dɪfàjd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mɒ́dəfàjd ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "identifierandconcept",
+    "wrong_transcription": "ajdɛ́ntəfàjər-ənd-kɒ́nsɛpt",
+    "correct_transcription": "ajdɛ́ntɪfàjər-ənd-kɒ́nsɛpt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ajdɛ́ntəfàjər-ənd-kɒ́nsɛpt ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "obligations",
+    "wrong_transcription": "ɒ̀bləɡéjʃənz",
+    "correct_transcription": "ɒ̀blɪɡéjʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ̀bləɡéjʃənz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
   }
 ]
