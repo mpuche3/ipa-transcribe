@@ -92,8 +92,8 @@
   {
     "word": "analysis",
     "wrong_transcription": "ənǽləsəs",
-    "correct_transcription": "ənǽləsɪs",
-    "explanation": "The final reduced vowel is spelled i, so the weak-vowel tie-breaker requires ɪ."
+    "correct_transcription": "ənǽlɪsɪs",
+    "explanation": "The final reduced vowel is spelled i, so the weak-vowel tie-breaker requires ɪ. The medial -ly- was swept the same way on 2026-09-27: the corpus wrote ənǽləsɪs ×30 (1 example + 29 AI-103) against ənǽlɪsɪs ×2, and the ɪ form now stands everywhere (ledger entry rewritten for the 2026-09-27 consistency sweep)."
   },
   {
     "word": "vehicle",
@@ -375,7 +375,7 @@
     "word": "identity",
     "wrong_transcription": "ajdɛ́ntɪtìj",
     "correct_transcription": "ajdɛ́ntɪtij",
-    "explanation": "The guide fixes -ity as unstressed ɪtij; identity has no final secondary stress."
+    "explanation": "The guide fixes -ity as unstressed ɪtij; identity has no final secondary stress. The medial -ti- was swept by the same rule on 2026-09-27: ajdɛ́ntətij ×1 (Escalation) became ajdɛ́ntɪtij, which the other 25 tokens already used."
   },
   {
     "word": "accountability",
@@ -591,7 +591,7 @@
     "word": "individual",
     "wrong_transcription": "ɪ̀ndəvɪ́dʒəwəl",
     "correct_transcription": "ɪ̀ndɪvɪ́dʒuwəl",
-    "explanation": "The reduced vowel in indi- is spelled i, and the guide writes unstressed -dual as dʒuwəl."
+    "explanation": "The reduced vowel in indi- is spelled i, and the guide writes unstressed -dual as dʒuwəl. The 2026-09-27 consistency sweep also removed the second variant shape ɪ̀ndɪvɪ́dʒəwəl ×2, leaving one form corpus-wide."
   },
   {
     "word": "edit",
@@ -717,7 +717,7 @@
     "word": "verification",
     "wrong_transcription": "vɛ̀rəfəkéjʃən",
     "correct_transcription": "vɛ̀rɪfɪkéjʃən",
-    "explanation": "Both reduced vowels before -cation are spelled i, so the guide's weak-vowel tie-breaker requires ɪ in both syllables."
+    "explanation": "Both reduced vowels before -cation are spelled i, so the guide's weak-vowel tie-breaker requires ɪ in both syllables. The 2026-09-27 consistency sweep removed vɛ̀rəfɪkéjʃən ×2, which had ɪ only in the second syllable."
   },
   {
     "word": "tangible",
@@ -1276,5 +1276,359 @@
     "wrong_transcription": "déjnədʒər",
     "correct_transcription": "déjndʒər",
     "explanation": "Editorial ruling for the whole danger family (2026-09-27): the medial schwa is not written, against M-W's ˈdān-jər, which prints it unparenthesized. The compressed form governs the noun and its derivatives alike — see the dangerous entry. This was the corpus's only exception: TRN_TheY2KNonEvent.txt wrote déjnədʒər once, while the other seventeen danger tokens already read déjndʒər. Swept 2026-09-27; TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "cognitive",
+    "wrong_transcription": "kɒ́ɡnətɪv",
+    "correct_transcription": "kɒ́ɡnɪtɪv",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: kɒ́ɡnɪtɪv ×199 (examples 199, AI-103 0); kɒ́ɡnətɪv ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "policy",
+    "wrong_transcription": "pɒ́ləsij",
+    "correct_transcription": "pɒ́lɪsij",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: pɒ́lɪsij ×56 (examples 8, AI-103 48); pɒ́ləsij ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "validation",
+    "wrong_transcription": "væ̀lədéjʃən",
+    "correct_transcription": "væ̀lɪdéjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: væ̀lɪdéjʃən ×3 (examples 3, AI-103 0); væ̀lədéjʃən ×30 (examples 0, AI-103 30). Swept 30 token(s) (examples 0, AI-103 30); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "service",
+    "wrong_transcription": "sɜ́rvəs",
+    "correct_transcription": "sɜ́rvɪs",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: sɜ́rvɪs ×1 (examples 1, AI-103 0); sɜ́rvəs ×31 (examples 0, AI-103 31). Swept 31 token(s) (examples 0, AI-103 31); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "confidence",
+    "wrong_transcription": "kɒ́nfədəns",
+    "correct_transcription": "kɒ́nfɪdəns",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: kɒ́nfɪdəns ×8 (examples 8, AI-103 0); kɒ́nfədəns ×17 (examples 0, AI-103 17). Swept 17 token(s) (examples 0, AI-103 17); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "multiple",
+    "wrong_transcription": "mə́ltəpəl",
+    "correct_transcription": "mə́ltɪpəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: mə́ltɪpəl ×12 (examples 12, AI-103 0); mə́ltəpəl ×10 (examples 0, AI-103 10). Swept 10 token(s) (examples 0, AI-103 10); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "limits",
+    "wrong_transcription": "lɪ́məts",
+    "correct_transcription": "lɪ́mɪts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: lɪ́mɪts ×7 (examples 7, AI-103 0); lɪ́məts ×13 (examples 0, AI-103 13). Swept 13 token(s) (examples 0, AI-103 13); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "deterministic",
+    "wrong_transcription": "dɪtɜ̀rmənɪ́stɪk",
+    "correct_transcription": "dɪtɜ̀rmɪnɪ́stɪk",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: dɪtɜ́rmɪnɪstɪk ×1 (examples 1, AI-103 0); dɪtɜ̀rmənɪ́stɪk ×19 (examples 0, AI-103 19). Swept 20 token(s) (examples 1, AI-103 19); TRN_ONE.txt regenerated. The examples' one token also had the primary stress on the wrong syllable, so the ruled form moves the acute to -nis- and keeps a grave on -ter- (M-W di-ˌtər-mə-ˈni-stik)."
+  },
+  {
+    "word": "optimization",
+    "wrong_transcription": "ɒptəməzéjʃən",
+    "correct_transcription": "ɒ̀ptɪməzéjʃən",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: ɒ̀ptɪməzéjʃən ×8 (examples 8, AI-103 0); ɒptəməzéjʃən ×7 (examples 0, AI-103 7). Swept 7 token(s) (examples 0, AI-103 7); TRN_ONE.txt regenerated. The AI-103 shape also lacked the secondary-stress grave, so the ruled form keeps the examples' ɒ̀."
+  },
+  {
+    "word": "monitoring",
+    "wrong_transcription": "mɒ́nətərɪŋ",
+    "correct_transcription": "mɒ́nɪtərɪŋ",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: mɒ́nɪtərɪŋ ×4 (examples 4, AI-103 0); mɒ́nətərɪŋ ×11 (examples 0, AI-103 11). Swept 11 token(s) (examples 0, AI-103 11); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "practical",
+    "wrong_transcription": "prǽktəkəl",
+    "correct_transcription": "prǽktɪkəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: prǽktɪkəl ×13 (examples 13, AI-103 0); prǽktəkəl ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "implications",
+    "wrong_transcription": "ɪ̀mpləkéjʃənz",
+    "correct_transcription": "ɪ̀mplɪkéjʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɪ̀mplɪkéjʃənz ×11 (examples 11, AI-103 0); ɪ̀mpləkéjʃənz ×3 (examples 3, AI-103 0). Swept 3 token(s) (examples 3, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "limit",
+    "wrong_transcription": "lɪ́mət",
+    "correct_transcription": "lɪ́mɪt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: lɪ́mɪt ×3 (examples 3, AI-103 0); lɪ́mət ×11 (examples 0, AI-103 11). Swept 11 token(s) (examples 0, AI-103 11); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "practice",
+    "wrong_transcription": "prǽktəs",
+    "correct_transcription": "prǽktɪs",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: prǽktɪs ×10 (examples 10, AI-103 0); prǽktəs ×3 (examples 0, AI-103 3). Swept 3 token(s) (examples 0, AI-103 3); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "original",
+    "wrong_transcription": "ərɪ́dʒənəl",
+    "correct_transcription": "ərɪ́dʒɪnəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ərɪ́dʒɪnəl ×3 (examples 3, AI-103 0); ərɪ́dʒənəl ×8 (examples 3, AI-103 5). Swept 8 token(s) (examples 3, AI-103 5); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "limited",
+    "wrong_transcription": "lɪ́mətɪd",
+    "correct_transcription": "lɪ́mɪtɪd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: lɪ́mɪtɪd ×10 (examples 10, AI-103 0); lɪ́mətɪd ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "distribution",
+    "wrong_transcription": "dɪ̀strəbjúwʃən",
+    "correct_transcription": "dɪ̀strɪbjúwʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: dɪ̀strɪbjúwʃən ×8 (examples 8, AI-103 0); dɪ̀strəbjúwʃən ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "limitations",
+    "wrong_transcription": "lɪ̀mətéjʃənz",
+    "correct_transcription": "lɪ̀mɪtéjʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: lɪ̀mətéjʃənz ×8 (examples 8, AI-103 0); lɪ̀mɪtéjʃənz ×1 (examples 1, AI-103 0). Swept 8 token(s) (examples 8, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "engineering",
+    "wrong_transcription": "ɛ̀ndʒənɪ́rɪŋ",
+    "correct_transcription": "ɛ̀ndʒɪnɪ́rɪŋ",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɛ̀ndʒɪnɪ́rɪŋ ×3 (examples 3, AI-103 0); ɛ̀ndʒənɪ́rɪŋ ×6 (examples 5, AI-103 1). Swept 6 token(s) (examples 5, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "minimize",
+    "wrong_transcription": "mɪ́nəmàjz",
+    "correct_transcription": "mɪ́nɪmàjz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: mɪ́nɪmàjz ×8 (examples 8, AI-103 0); mɪ́nəmàjz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "optimized",
+    "wrong_transcription": "ɒ́ptəmàjzd",
+    "correct_transcription": "ɒ́ptɪmàjzd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɒ́ptɪmàjzd ×3 (examples 3, AI-103 0); ɒ́ptəmàjzd ×5 (examples 0, AI-103 5). Swept 5 token(s) (examples 0, AI-103 5); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "applications",
+    "wrong_transcription": "æ̀pləkéjʃənz",
+    "correct_transcription": "æ̀plɪkéjʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: æ̀plɪkéjʃənz ×3 (examples 3, AI-103 0); æ̀pləkéjʃənz ×5 (examples 0, AI-103 5). Swept 5 token(s) (examples 0, AI-103 5); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "digital",
+    "wrong_transcription": "dɪ́dʒətəl",
+    "correct_transcription": "dɪ́dʒɪtəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: dɪ́dʒɪtəl ×7 (examples 7, AI-103 0); dɪ́dʒətəl ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "navigation",
+    "wrong_transcription": "næ̀vəɡéjʃən",
+    "correct_transcription": "næ̀vɪɡéjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: næ̀vɪɡéjʃən ×5 (examples 5, AI-103 0); næ̀vəɡéjʃən ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "optimize",
+    "wrong_transcription": "ɒ́ptəmàjz",
+    "correct_transcription": "ɒ́ptɪmàjz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɒ́ptɪmàjz ×5 (examples 5, AI-103 0); ɒ́ptəmàjz ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "engineer",
+    "wrong_transcription": "ɛ̀ndʒənɪ́r",
+    "correct_transcription": "ɛ̀ndʒɪnɪ́r",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɛ̀ndʒɪnɪ́r ×1 (examples 1, AI-103 0); ɛ̀ndʒənɪ́r ×5 (examples 0, AI-103 5). Swept 5 token(s) (examples 0, AI-103 5); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "engineers",
+    "wrong_transcription": "ɛ̀ndʒənɪ́rz",
+    "correct_transcription": "ɛ̀ndʒɪnɪ́rz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɛ̀ndʒɪnɪ́rz ×3 (examples 3, AI-103 0); ɛ̀ndʒənɪ́rz ×3 (examples 0, AI-103 3). Swept 3 token(s) (examples 0, AI-103 3); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "verify",
+    "wrong_transcription": "vɛ́rəfàj",
+    "correct_transcription": "vɛ́rɪfàj",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: vɛ́rɪfàj ×1 (examples 1, AI-103 0); vɛ́rəfàj ×5 (examples 0, AI-103 5). Swept 5 token(s) (examples 0, AI-103 5); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "coordinated",
+    "wrong_transcription": "kowɔ́rdənejtɪd",
+    "correct_transcription": "kowɔ́rdɪnèjtɪd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: kowɔ́rdɪnèjtɪd ×4 (examples 4, AI-103 0); kowɔ́rdənejtɪd ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "legitimate",
+    "wrong_transcription": "lədʒɪ́təmət",
+    "correct_transcription": "lɪdʒɪ́tɪmət",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: lədʒɪ́təmət ×3 (examples 2, AI-103 1); lɪdʒɪ́tɪmət ×2 (examples 2, AI-103 0). Swept 3 token(s) (examples 2, AI-103 1); TRN_ONE.txt regenerated. The first syllable is M-W li- (plain i = ɪ) and the -gi- takes ɪ; the -mate is ə because it is spelled a."
+  },
+  {
+    "word": "artifacts",
+    "wrong_transcription": "ɑ́rtəfæ̀kts",
+    "correct_transcription": "ɑ́rtɪfæ̀kts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɑ́rtɪfæ̀kts ×1 (examples 1, AI-103 0); ɑ́rtəfæ̀kts ×4 (examples 0, AI-103 4). Swept 4 token(s) (examples 0, AI-103 4); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "minimizing",
+    "wrong_transcription": "mɪ́nəmàjzɪŋ",
+    "correct_transcription": "mɪ́nɪmàjzɪŋ",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: mɪ́nɪmàjzɪŋ ×4 (examples 4, AI-103 0); mɪ́nəmàjzɪŋ ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "clarity",
+    "wrong_transcription": "klǽrətij",
+    "correct_transcription": "klǽrɪtij",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: klǽrɪtij ×2 (examples 2, AI-103 0); klǽrətij ×1 (examples 1, AI-103 0); klɛ́rɪtij ×1 (examples 0, AI-103 1). Swept 2 token(s) (examples 1, AI-103 1); TRN_ONE.txt regenerated. The medial i takes ɪ, and the first vowel is TRAP æ per the §4.3 ær override (RP /ˈklærəti/), which is also the corpus majority."
+  },
+  {
+    "word": "simplify",
+    "wrong_transcription": "sɪ́mpləfàj",
+    "correct_transcription": "sɪ́mplɪfàj",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: sɪ́mplɪfàj ×2 (examples 2, AI-103 0); sɪ́mpləfàj ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "justify",
+    "wrong_transcription": "dʒə́stəfàj",
+    "correct_transcription": "dʒə́stɪfàj",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: dʒə́stɪfàj ×3 (examples 3, AI-103 0); dʒə́stəfàj ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "investigators",
+    "wrong_transcription": "ɪ̀nvɛ́stəɡèjtərz",
+    "correct_transcription": "ɪnvɛ́stɪɡèjtərz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɪnvɛ́stɪɡèjtərz ×3 (examples 3, AI-103 0); ɪ̀nvɛ́stəɡèjtərz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "coordinate",
+    "wrong_transcription": "kowɔ́rdənət",
+    "correct_transcription": "kowɔ́rdɪnət",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: kowɔ́rdɪnèjt ×2 (examples 2, AI-103 0); kowɔ́rdənət ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated. Noun and adjective use only; the verb is kowɔ́rdɪnèjt (heteronyms, §8)."
+  },
+  {
+    "word": "determines",
+    "wrong_transcription": "dɪtɜ́rmənz",
+    "correct_transcription": "dɪtɜ́rmɪnz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: dɪtɜ́rmɪnz ×2 (examples 2, AI-103 0); dɪtɜ́rmənz ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "mitigate",
+    "wrong_transcription": "mɪ́təɡèjt",
+    "correct_transcription": "mɪ́tɪɡèjt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: mɪ́tɪɡèjt ×3 (examples 3, AI-103 0); mɪ́təɡèjt ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "repetitive",
+    "wrong_transcription": "rɪpɛ́tətɪv",
+    "correct_transcription": "rɪpɛ́tɪtɪv",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: rɪpɛ́tətɪv ×2 (examples 2, AI-103 0); rɪpɛ́tɪtɪv ×1 (examples 0, AI-103 1). Swept 2 token(s) (examples 2, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "estimated",
+    "wrong_transcription": "ɛ́stəmèjtɪd",
+    "correct_transcription": "ɛ́stɪmèjtɪd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɛ́stəmèjtɪd ×1 (examples 1, AI-103 0); ɛ́stɪmèjtɪd ×2 (examples 2, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "clarifies",
+    "wrong_transcription": "klɛ́rəfàjz",
+    "correct_transcription": "klɛ́rɪfàjz",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: klɛ́rəfajz ×1 (examples 1, AI-103 0); klɛ́rəfàjz ×2 (examples 0, AI-103 2). Swept 3 token(s) (examples 1, AI-103 2); TRN_ONE.txt regenerated. -ify is a fixed §4.4 ɪ ending, so the medial takes ɪ; clarify keeps ɛ́ while the related clarity keeps ǽ."
+  },
+  {
+    "word": "validate",
+    "wrong_transcription": "vǽlədejt",
+    "correct_transcription": "vǽlɪdèjt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: vǽlɪdèjt ×2 (examples 2, AI-103 0); vǽlədejt ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "horizontal",
+    "wrong_transcription": "hɔ̀rəzɒ́ntəl",
+    "correct_transcription": "hɔ̀rɪzɒ́ntəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: hɔ̀rɪzɒ́ntəl ×2 (examples 2, AI-103 0); hɔ̀rəzɒ́ntəl ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "dedicated",
+    "wrong_transcription": "dɛ́dəkejtəd",
+    "correct_transcription": "dɛ́dɪkèjtɪd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: dɛ́dɪkèjtɪd ×1 (examples 1, AI-103 0); dɛ́dəkejtəd ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "limitation",
+    "wrong_transcription": "lɪ̀mətéjʃən",
+    "correct_transcription": "lɪ̀mɪtéjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: lɪ̀mɪtéjʃən ×1 (examples 1, AI-103 0); lɪ̀mətéjʃən ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "rapid",
+    "wrong_transcription": "rǽpəd",
+    "correct_transcription": "rǽpɪd",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: rǽpəd ×1 (examples 1, AI-103 0); rǽpɪd ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "primarily",
+    "wrong_transcription": "prájmɛ̀rəlij",
+    "correct_transcription": "prajmɛ́rəlij",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: prájmɛ̀rəlij ×1 (examples 1, AI-103 0); prajmɛ́rəlij ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated. The two shapes differed only in stress, so M-W prī-ˈmer-ə-lē decides rather than the vowel rule; the medial ə stays as in necessarily and temporarily, which were not swept."
+  },
+  {
+    "word": "calibration",
+    "wrong_transcription": "kæ̀ləbréjʃən",
+    "correct_transcription": "kæ̀lɪbréjʃən",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: kæ̀lɪbréjʃən ×1 (examples 1, AI-103 0); kæ̀ləbréjʃən ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "diagnosis",
+    "wrong_transcription": "dajəɡnówsɪs",
+    "correct_transcription": "dàjəɡnówsɪs",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: dajəɡnówsɪs ×1 (examples 1, AI-103 0); dàjəɡnówsəs ×1 (examples 0, AI-103 1). Swept 2 token(s) (examples 1, AI-103 1); TRN_ONE.txt regenerated. Combines M-W's ˌdī- grave with the ɪ of -sis (M-W -səs, spelled i); neither corpus shape had both."
+  },
+  {
+    "word": "verifying",
+    "wrong_transcription": "vɛ́rəfàjɪŋ",
+    "correct_transcription": "vɛ́rɪfàjɪŋ",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: vɛ́rɪfàjɪŋ ×1 (examples 1, AI-103 0); vɛ́rəfàjɪŋ ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "prioritization",
+    "wrong_transcription": "pràjərɪtɪzéjʃən",
+    "correct_transcription": "prajɔ̀rɪtɪzéjʃən",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: pràjərɪtɪzéjʃən ×1 (examples 1, AI-103 0); prajɔ̀rətəzéjʃən ×1 (examples 0, AI-103 1). Swept 2 token(s) (examples 1, AI-103 1); TRN_ONE.txt regenerated. M-W prī-ˌȯr-ə-tə-ˈzā-shən puts the grave on -or-, not on pri-, and the reduced i's take ɪ; neither corpus shape had both."
+  },
+  {
+    "word": "critique",
+    "wrong_transcription": "krətíjk",
+    "correct_transcription": "krɪtíjk",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: krɪtíjk ×1 (examples 1, AI-103 0); krətíjk ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "monitor",
+    "wrong_transcription": "mɒ́nətər",
+    "correct_transcription": "mɒ́nɪtər",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: mɒ́nɪtər ×1 (examples 1, AI-103 0); mɒ́nətər ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "terminal",
+    "wrong_transcription": "tɜ́rmənəl",
+    "correct_transcription": "tɜ́rmɪnəl",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: tɜ́rmɪnəl ×1 (examples 1, AI-103 0); tɜ́rmənəl ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "competitor",
+    "wrong_transcription": "kəmpɛ́tətər",
+    "correct_transcription": "kəmpɛ́tɪtər",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: kəmpɛ́tɪtər ×1 (examples 1, AI-103 0); kəmpɛ́tətər ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "investigate",
+    "wrong_transcription": "ɪ̀nvɛ́stəɡèjt",
+    "correct_transcription": "ɪnvɛ́stɪɡèjt",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: ɪnvɛ́stɪɡèjt ×1 (examples 1, AI-103 0); ɪ̀nvɛ́stəɡèjt ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "medications",
+    "wrong_transcription": "mɛ̀dəkéjʃənz",
+    "correct_transcription": "mɛ̀dɪkéjʃənz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform across examples/ and AI-103-questions.json. Before: mɛ̀dɪkéjʃənz ×1 (examples 1, AI-103 0); mɛ̀dəkéjʃənz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "universities",
+    "wrong_transcription": "juwnəvɜ́rsətijz",
+    "correct_transcription": "jùwnɪvɜ́rsətijz",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: juwnəvɜ́rsətijz ×2 (examples 2, AI-103 0). Swept 2 token(s) (examples 2, AI-103 0); TRN_ONE.txt regenerated. The -uni- outlier: its unaccented u escaped the validator's j[úù]wnə guard, and M-W yü-nə-ˈvər-sə-tē needs the first-syllable grave plus ɪ for -ni-. Two tokens in TRN_TheMorrisWorm.txt."
   }
 ]
