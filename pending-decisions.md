@@ -51,6 +51,22 @@ The surname in `TRN_NicaraguanSignLanguage.txt` was transcribed as `sɛ́ŋɡəs
 source confirms the Nicaraguan pronunciation.
 **Needed:** confirm the reading or leave it flagged.
 
+## 6. Reduced `e` — ɪ or ə (no general rule yet)
+**Status:** the words ruled so far are applied; the *rule* is not settled.
+The 2026-09-27 sweep reads a reduced `e` like `i`/`y` (→ `ɪ`, keeping `ə` before
+`r l n m ŋ t`, with `t` added after the author rejected 15 forms: *market* `mɑ́rkət`,
+*ticket* `tɪ́kət`, *benefit* `bɛ́nɪfət`). The author's ruling of the same day is that no clear rule
+can be stated from this corpus, because M-W disagrees with the default in **both** directions:
+`sɪ́nθɪsɪs` / `nɛ̀sɪsɛ́rɪlij` (rule `ɪ`, M-W `ˈsin(t)-thə-səs` / `ˌne-sə-ˈser-ə-lē`) against
+`dɛ́fɪnɪt` (rule `ɪ` for a spelled `i`, M-W `ˈde-fə-nət`), while *hundred* `hə́ndrəd` and
+*market* `mɑ́rkət` take a schwa on both readings.
+**In force today:** only the **ə half** of the default is machine-checked, in paired mode — a reduced `e` before
+`r l n m ŋ t` must be `ə` (`check_e_reduction()`); the **ɪ half is practice**, kept behind
+`E_ENFORCE_KIT = False` in the validator, with the per-word rulings recorded in the ledger and §13. The three
+corpus words realigned to the default are `sɪ́nθɪsɪs`, `hajpɒ́θɪsɪs` and `nɛ̀sɪsɛ́rɪlij`.
+**Needed:** once the corpus is larger, restate the rule from the corpus — or drop the default and
+keep the ledger as a pure per-word register.
+
 ## Housekeeping (not decisions)
 - The skill checkout `C:\Users\mpuch\.claude\skills\ipa-transcribe` is a second checkout of this
   repository and must be `git pull --ff-only`-ed after every push, or the skill runs on an old guide.

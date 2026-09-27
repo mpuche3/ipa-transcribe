@@ -104,13 +104,13 @@
   {
     "word": "synthesis",
     "wrong_transcription": "sɪ́nθəsəs",
-    "correct_transcription": "sɪ́nθəsɪs",
+    "correct_transcription": "sɪ́nθɪsɪs",
     "explanation": "The final reduced vowel in -sis is spelled i, so it takes ɪ."
   },
   {
     "word": "hypothesis",
     "wrong_transcription": "hajpɒ́θəsəs",
-    "correct_transcription": "hajpɒ́θəsɪs",
+    "correct_transcription": "hajpɒ́θɪsɪs",
     "explanation": "The final reduced vowel in -sis is spelled i, so it takes ɪ."
   },
   {
@@ -673,9 +673,9 @@
   },
   {
     "word": "hallucinates",
-    "wrong_transcription": "həlúwsənejts",
-    "correct_transcription": "həlúwsənèjts",
-    "explanation": "The 3+-syllable -ate verb suffix carries secondary stress, marked with a grave."
+    "wrong_transcription": "həlúwsənèjts",
+    "correct_transcription": "həlúwsɪnèjts",
+    "explanation": "The reduced medial syllable is spelled ci/ce, so the §4.4 spelling tie-breaker gives ɪ rather than M-W's schwa (M-W hə-ˌlü-sə-ˈnā-shən) — the same environment as hallucination and the other -ination words. Item 100 was swept on 2026-09-27; the entry's earlier form həlúwsənèjts also lacked the grave on -nèjts."
   },
   {
     "word": "emails",
@@ -1910,7 +1910,7 @@
   {
     "word": "necessarily",
     "wrong_transcription": "nɛ̀səsɛ́rəlij",
-    "correct_transcription": "nɛ̀səsɛ́rɪlij",
+    "correct_transcription": "nɛ̀sɪsɛ́rɪlij",
     "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: nɛ̀səsɛ́rəlij ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
   },
   {
@@ -2266,5 +2266,575 @@
     "wrong_transcription": "sɛ́prət",
     "correct_transcription": "sɛ́pərèjt",
     "explanation": "The adjective's syncopated form must never be used for the verb: M-W's verb listing is ˈse-pə-ˌrāt, unparenthesized, so the schwa stays — sɛ́pərèjt, and likewise sɛ́pərèjts, sɛ́pərèjtɪd, sɛ́pərèjtɪŋ and the noun sɛ̀pəréjʃən. Found in TRN_TheY2KNonEvent L10 (source: 'The result alone can never separate the two'), which had used the adjective's form; fixed 2026-09-27. Caveat for a token-level audit: after the syncope sweep the adjective's correct form is exactly this entry's wrong_transcription, so an audit that ignores part of speech reports the synopated adjective tokens as hits — those are intentional false positives."
+  },
+  {
+    "word": "added",
+    "wrong_transcription": "ǽdəd",
+    "correct_transcription": "ǽdɪd",
+    "explanation": "the fixed -ed ending is ɪd (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "aggregate",
+    "wrong_transcription": "ǽɡrəɡət",
+    "correct_transcription": "ǽɡrɪɡət",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "algebra",
+    "wrong_transcription": "ǽldʒəbrə",
+    "correct_transcription": "ǽldʒɪbrə",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "already",
+    "wrong_transcription": "ɔ̀lrɛ́dij",
+    "correct_transcription": "ɔlrɛ́dij",
+    "explanation": "already carries a single acute on -red- and no grave (ruled 2026-09-27)."
+  },
+  {
+    "word": "also",
+    "wrong_transcription": "ɔ́lsòw",
+    "correct_transcription": "ɔ́lsow",
+    "explanation": "editorial ruling: also is written ɔ́lsow, with no grave on -sow (2026-09-27)."
+  },
+  {
+    "word": "application-specific",
+    "wrong_transcription": "æ̀plɪkéjʃən-spəsɪ́fɪk",
+    "correct_transcription": "æ̀plɪkéjʃən-spɪsɪ́fɪk",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "average",
+    "wrong_transcription": "ǽvərɪdʒ",
+    "correct_transcription": "ǽvrɪdʒ",
+    "explanation": "M-W brackets the medial schwa (ˈa-v(ə-)rij), so §4.4 syncope drops it (ruled 2026-09-27)."
+  },
+  {
+    "word": "averaging",
+    "wrong_transcription": "ǽvərɪdʒɪŋ",
+    "correct_transcription": "ǽvrɪdʒɪŋ",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "beneficial",
+    "wrong_transcription": "bɛ̀nəfɪ́ʃəl",
+    "correct_transcription": "bɛ̀nɪfɪ́ʃəl",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "benefit",
+    "wrong_transcription": "bɛ́nəfɪt",
+    "correct_transcription": "bɛ́nɪfət",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "benefits",
+    "wrong_transcription": "bɛ́nəfɪts",
+    "correct_transcription": "bɛ́nɪfəts",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "cannot",
+    "wrong_transcription": "kǽnɒ̀t",
+    "correct_transcription": "kǽnɒt",
+    "explanation": "editorial ruling: cannot is unified as kǽnɒt (2026-09-27)."
+  },
+  {
+    "word": "case-specific",
+    "wrong_transcription": "kéjs-spəsɪ́fɪk",
+    "correct_transcription": "kéjs-spɪsɪ́fɪk",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "categories",
+    "wrong_transcription": "kǽtəɡɔ̀rijz",
+    "correct_transcription": "kǽtɪɡɔ̀rijz",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "categorization",
+    "wrong_transcription": "kæ̀təɡərɪzéjʃən",
+    "correct_transcription": "kæ̀tɪɡərɪzéjʃən",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "category",
+    "wrong_transcription": "kǽtəɡɔ̀rij",
+    "correct_transcription": "kǽtɪɡɔ̀rij",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "challenge",
+    "wrong_transcription": "tʃǽlɪndʒ",
+    "correct_transcription": "tʃǽləndʒ",
+    "explanation": "a reduced e before a syllable-final n takes ə, so the -enge syllable is ləndʒ (§4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "challenges",
+    "wrong_transcription": "tʃǽlɪndʒɪz",
+    "correct_transcription": "tʃǽləndʒɪz",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "challenging",
+    "wrong_transcription": "tʃǽlɪndʒɪŋ",
+    "correct_transcription": "tʃǽləndʒɪŋ",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "clearly",
+    "wrong_transcription": "klíjrlij",
+    "correct_transcription": "klɪ́rlij",
+    "explanation": "clear has the NEAR vowel ɪr, not FLEECE ij (§4.3, ruled 2026-09-27)."
+  },
+  {
+    "word": "concept",
+    "wrong_transcription": "kɒ́nsɛ̀pt",
+    "correct_transcription": "kɒ́nsɛpt",
+    "explanation": "a two-syllable word does not write a grave on its final syllable (ruled 2026-09-27)."
+  },
+  {
+    "word": "consequence",
+    "wrong_transcription": "kɒ́nsəkwɛ̀ns",
+    "correct_transcription": "kɒ́nsɪkwɛ̀ns",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "consequences",
+    "wrong_transcription": "kɒ́nsəkwɛ̀nsɪz",
+    "correct_transcription": "kɒ́nsɪkwɛ̀nsɪz",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "consequential",
+    "wrong_transcription": "kɒ̀nsəkwɛ́nʃəl",
+    "correct_transcription": "kɒ̀nsɪkwɛ́nʃəl",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "consequently",
+    "wrong_transcription": "kɒ́nsəkwəntlij",
+    "correct_transcription": "kɒ́nsɪkwəntlij",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "contexts",
+    "wrong_transcription": "kɒ́ntɛ̀ksts",
+    "correct_transcription": "kɒ́ntɛksts",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "corresponding",
+    "wrong_transcription": "kɔ̀rəspɒ́ndɪŋ",
+    "correct_transcription": "kɔ̀rɪspɒ́ndɪŋ",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "credentials",
+    "wrong_transcription": "krədɛ́nʃəlz",
+    "correct_transcription": "krɪdɛ́nʃəlz",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "data-processing",
+    "wrong_transcription": "déjtə-prɑ́sɛ̀sɪŋ",
+    "correct_transcription": "déjtə-prɒ́sɛsɪŋ",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "domain-specific",
+    "wrong_transcription": "dowméjn-spəsɪ́fɪk",
+    "correct_transcription": "dowméjn-spɪsɪ́fɪk",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "effective",
+    "wrong_transcription": "əfɛ́ktɪv",
+    "correct_transcription": "ɪfɛ́ktɪv",
+    "explanation": "the reduced prefix e-/ex- takes ɪ (§4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "effectively",
+    "wrong_transcription": "əfɛ́ktɪvlij",
+    "correct_transcription": "ɪfɛ́ktɪvlij",
+    "explanation": "the reduced prefix e-/ex- takes ɪ (§4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "effort—already",
+    "wrong_transcription": "ɛ́fərt—ɔ̀lrɛ́dij",
+    "correct_transcription": "ɛ́fərt—ɔlrɛ́dij",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "element",
+    "wrong_transcription": "ɛ́lɪmənt",
+    "correct_transcription": "ɛ́ləmənt",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "elements",
+    "wrong_transcription": "ɛ́lɪmənts",
+    "correct_transcription": "ɛ́ləmənts",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "eleven",
+    "wrong_transcription": "ɪlɛ́vən",
+    "correct_transcription": "əlɛ́vən",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "ensuring",
+    "wrong_transcription": "ənʃʊ́rɪŋ",
+    "correct_transcription": "ɪnʃʊ́rɪŋ",
+    "explanation": "the reduced prefix en- is treated with in-/im- and takes ɪ (ruled 2026-09-27)."
+  },
+  {
+    "word": "especially",
+    "wrong_transcription": "əspɛ́ʃəlij",
+    "correct_transcription": "ɪspɛ́ʃəlij",
+    "explanation": "the reduced prefix e-/ex- takes ɪ (§4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "eventually",
+    "wrong_transcription": "ɪvɛ́ntʃəwəlij",
+    "correct_transcription": "ɪvɛ́ntʃuwəlij",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "genuinely",
+    "wrong_transcription": "dʒɛ́njuwɪnlij",
+    "correct_transcription": "dʒɛ́njuwənlij",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "here",
+    "wrong_transcription": "híjr",
+    "correct_transcription": "hɪ́r",
+    "explanation": "here has the NEAR vowel ɪr, not FLEECE ij (§4.3, ruled 2026-09-27)."
+  },
+  {
+    "word": "history",
+    "wrong_transcription": "hɪ́stərij",
+    "correct_transcription": "hɪ́strij",
+    "explanation": "M-W brackets the medial schwa (ˈhi-st(ə-)rē), so §4.4 syncope drops it (ruled 2026-09-27)."
+  },
+  {
+    "word": "honesty",
+    "wrong_transcription": "ɒ́nəstij",
+    "correct_transcription": "ɒ́nɪstij",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "individually",
+    "wrong_transcription": "ɪ̀ndɪvɪ́dʒəwəlij",
+    "correct_transcription": "ɪ̀ndɪvɪ́dʒuwəlij",
+    "explanation": "the reduced vowel in indi- is spelled i, and unstressed -dual is dʒuwəl (ledger + 2026-09-27)."
+  },
+  {
+    "word": "ineffective",
+    "wrong_transcription": "ɪ̀nəfɛ́ktɪv",
+    "correct_transcription": "ɪ̀nɪfɛ́ktɪv",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "inertia",
+    "wrong_transcription": "ɪnɜ́ʃə",
+    "correct_transcription": "ɪnɜ́rʃə",
+    "explanation": "the pronounced r in M-W i-ˈnər-shə is written (§3, ruled 2026-09-27)."
+  },
+  {
+    "word": "interest",
+    "wrong_transcription": "ɪ́ntrəst",
+    "correct_transcription": "ɪ́ntrɛst",
+    "explanation": "editorial ruling: interest follows M-W's second listing, ˈin-ˌtrest, giving ɪ́ntrɛst (2026-09-27)."
+  },
+  {
+    "word": "interested",
+    "wrong_transcription": "ɪ́ntrəstɪd",
+    "correct_transcription": "ɪ́ntrɛstɪd",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "interesting",
+    "wrong_transcription": "ɪ́ntrəstɪŋ",
+    "correct_transcription": "ɪ́ntrɛstɪŋ",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "irrelevance",
+    "wrong_transcription": "ɪrɛ́ləvəns",
+    "correct_transcription": "ɪrɛ́lɪvəns",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "irrelevant",
+    "wrong_transcription": "ɪrɛ́ləvənt",
+    "correct_transcription": "ɪrɛ́lɪvənt",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27), so the medial e is ɪ, not ə. The corpus was also split 6-to-3 on the accent alone; M-W writes ir-ˈre-lə-vənt with the primary stress on -rel-, so the author unified the word on the acute, ɪrɛ́lɪvənt."
+  },
+  {
+    "word": "irreversible",
+    "wrong_transcription": "ɪ̀rəvɜ́rsɪbəl",
+    "correct_transcription": "ɪ̀rɪvɜ́rsɪbəl",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "knowledge",
+    "wrong_transcription": "nɒ́lədʒ",
+    "correct_transcription": "nɒ́lɪdʒ",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "knowledge-update",
+    "wrong_transcription": "nɒ́lədʒ-əpdéjt",
+    "correct_transcription": "nɒ́lɪdʒ-əpdéjt",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "language-specific",
+    "wrong_transcription": "lǽŋɡwɪdʒ-spəsɪ́fɪk",
+    "correct_transcription": "lǽŋɡwɪdʒ-spɪsɪ́fɪk",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "loss",
+    "wrong_transcription": "lɒ́s",
+    "correct_transcription": "lɔ́s",
+    "explanation": "loss is a CLOTH word, so its vowel is ɔ (§4.1, ruled 2026-09-27)."
+  },
+  {
+    "word": "market-intelligence",
+    "wrong_transcription": "mɑ́rkət-ɪ̀ntɛ́lədʒəns",
+    "correct_transcription": "mɑ́rkɪt-ɪ̀ntɛ́lədʒəns",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "mechanical",
+    "wrong_transcription": "məkǽnɪkəl",
+    "correct_transcription": "mɪkǽnɪkəl",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "mechanically",
+    "wrong_transcription": "məkǽnɪkəlij",
+    "correct_transcription": "mɪkǽnɪkəlij",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "memetic",
+    "wrong_transcription": "mɪmɛ́tɪk",
+    "correct_transcription": "məmɛ́tɪk",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "memetics",
+    "wrong_transcription": "mɪmɛ́tɪks",
+    "correct_transcription": "məmɛ́tɪks",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "nearest-neighbor",
+    "wrong_transcription": "nɪ́rəst-néjbər",
+    "correct_transcription": "nɪ́rɪst-néjbər",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "necessary",
+    "wrong_transcription": "nɛ́səsɛ̀rij",
+    "correct_transcription": "nɛ́sɪsɛ̀rij",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "necessity",
+    "wrong_transcription": "nəsɛ́sɪtij",
+    "correct_transcription": "nɪsɛ́sɪtij",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "non-negotiable",
+    "wrong_transcription": "nɒ́n-nəɡówʃəbəl",
+    "correct_transcription": "nɒ́n-nɪɡówʃəbəl",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "nothing",
+    "wrong_transcription": "nə́θɪŋ",
+    "correct_transcription": "nə́θɪ̀ŋ",
+    "explanation": "-thing is a solid compound, so it keeps the acute+grave pattern nə́θɪ̀ŋ (§5.3, ruled 2026-09-27)."
+  },
+  {
+    "word": "orchestrating",
+    "wrong_transcription": "ɔ́rkəstrèjtɪŋ",
+    "correct_transcription": "ɔ́rkɪstrèjtɪŋ",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "orchestration",
+    "wrong_transcription": "ɔ̀rkəstréjʃən",
+    "correct_transcription": "ɔ̀rkɪstréjʃən",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "organization-specific",
+    "wrong_transcription": "ɔ̀rɡənɪzéjʃən-spəsɪ́fɪk",
+    "correct_transcription": "ɔ̀rɡənɪzéjʃən-spɪsɪ́fɪk",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "perfectly",
+    "wrong_transcription": "pɜ́rfəktlij",
+    "correct_transcription": "pɜ́rfɪktlij",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "perseverance",
+    "wrong_transcription": "pɜ̀rsəvɪ́rəns",
+    "correct_transcription": "pɜ̀rsɪvɪ́rəns",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "phenomena",
+    "wrong_transcription": "fənɒ́mɪnə",
+    "correct_transcription": "fənɒ́mənə",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "photosynthesis",
+    "wrong_transcription": "fòwtowsɪ́nθəsɪs",
+    "correct_transcription": "fòwtowsɪ́nθɪsɪs",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "process",
+    "wrong_transcription": "prɑ́sɛ̀s",
+    "correct_transcription": "prɒ́sɛs",
+    "explanation": "a two-syllable word does not write a grave on its final syllable; the first vowel is LOT ɒ (ruled 2026-09-27)."
+  },
+  {
+    "word": "processing",
+    "wrong_transcription": "prɑ́sɛ̀sɪŋ",
+    "correct_transcription": "prɒ́sɛsɪŋ",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "product",
+    "wrong_transcription": "prɒ́də̀kt",
+    "correct_transcription": "prɒ́dəkt",
+    "explanation": "a two-syllable word does not write a grave on its final syllable (ruled 2026-09-27)."
+  },
+  {
+    "word": "program",
+    "wrong_transcription": "prówɡræ̀m",
+    "correct_transcription": "prówɡræm",
+    "explanation": "a two-syllable word does not write a grave on its final syllable (ruled 2026-09-27)."
+  },
+  {
+    "word": "programming",
+    "wrong_transcription": "prówɡræ̀mɪŋ",
+    "correct_transcription": "prówɡræmɪŋ",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "programs",
+    "wrong_transcription": "prówɡræ̀mz",
+    "correct_transcription": "prówɡræmz",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "progress",
+    "wrong_transcription": "prɒ́ɡrəs",
+    "correct_transcription": "prɒ́ɡrɛs",
+    "explanation": "progress has DRESS ɛ in its final syllable (M-W ˈprä-ˌgres), not a reduced vowel (ruled 2026-09-27)."
+  },
+  {
+    "word": "reference",
+    "wrong_transcription": "rɛ́fərəns",
+    "correct_transcription": "rɛ́frəns",
+    "explanation": "M-W brackets the medial schwa (ˈre-f(ə-)rəns), so §4.4 syncope drops it (ruled 2026-09-27)."
+  },
+  {
+    "word": "referenced",
+    "wrong_transcription": "rɛ́fərənst",
+    "correct_transcription": "rɛ́frənst",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "references",
+    "wrong_transcription": "rɛ́fərənsɪz",
+    "correct_transcription": "rɛ́frənsɪz",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "regimes",
+    "wrong_transcription": "rɛjʒíjmz",
+    "correct_transcription": "rɪʒíjmz",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "software",
+    "wrong_transcription": "sɒ́ftwɛ̀r",
+    "correct_transcription": "sɔ́ftwɛ̀r",
+    "explanation": "soft is a CLOTH word, so the first element is sɔ́ft (§4.1, ruled 2026-09-27)."
+  },
+  {
+    "word": "specific",
+    "wrong_transcription": "spəsɪ́fɪk",
+    "correct_transcription": "spɪsɪ́fɪk",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "strategies",
+    "wrong_transcription": "strǽtədʒijz",
+    "correct_transcription": "strǽtɪdʒijz",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "strategy",
+    "wrong_transcription": "strǽtədʒij",
+    "correct_transcription": "strǽtɪdʒij",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "subsequent",
+    "wrong_transcription": "sə́bsəkwənt",
+    "correct_transcription": "sə́bsɪkwənt",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "synthesis-heavy",
+    "wrong_transcription": "sɪ́nθəsɪs-hɛ́vij",
+    "correct_transcription": "sɪ́nθɪsɪs-hɛ́vij",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "synthesizer",
+    "wrong_transcription": "sɪ́nθəsàjzər",
+    "correct_transcription": "sɪ́nθɪsàjzər",
+    "explanation": "A reduced e takes ɪ unless it stands before r, l, n, m, ŋ or t (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "task-specific",
+    "wrong_transcription": "tǽsk-spəsɪ́fɪk",
+    "correct_transcription": "tǽsk-spɪsɪ́fɪk",
+    "explanation": "A reduced e before a consonant other than r, l, n, m or ng takes ɪ, exactly as a spelled i or y does in the same position (guide §4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "unreliable",
+    "wrong_transcription": "ə̀nrəlájəbəl",
+    "correct_transcription": "ə̀nrɪlájəbəl",
+    "explanation": "the reduced re- prefix takes ɪ wherever it sits (§4.4, ruled 2026-09-27)."
+  },
+  {
+    "word": "inappropriate",
+    "wrong_transcription": "ɪ̀nəprówprijɪt",
+    "correct_transcription": "ɪ̀nəprówprijət",
+    "explanation": "The -ate noun/adjective ending is ət (§7), as in appropriate əprówprijət (9 corpus tokens), private, separate and delicate; only this one token wrote ɪ after the t. The adverb keeps the same ending: əprówprijətlij."
+  },
+  {
+    "word": "intermediate",
+    "wrong_transcription": "ɪ̀ntərmíjdijɪt",
+    "correct_transcription": "ɪ̀ntərmíjdijət",
+    "explanation": "The -ate noun/adjective ending is ət (§7); the verb would be ɪ̀ntərmíjdijèjt. The corpus was split 1-to-1 between ɪt and ət, so the adjective was unified on the §7 row, next to ɪ̀míjdìjət (immediate)."
   }
 ]

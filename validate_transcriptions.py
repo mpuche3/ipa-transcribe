@@ -298,6 +298,139 @@ def check_ible_vowel(source_token, trans_token):
             f"'{core}' — source '{source_token}' ends in -ible, fixed as ɪbəl; write {fixed} (§7)")
 
 
+# §4.4 spelling tie-breaker for a reduced vowel spelled e: it takes ɪ, and takes ə
+# when the vowel is followed by r, l, n, m, ŋ or t (judged by adjacency in the
+# transcription, since syllable boundaries are not written).  The fixed §6 and §7
+# endings outrank the rule, so an e that IS the vowel of a fixed ending is skipped.
+# Ruled 2026-09-27 and swept corpus-wide; pair mode is needed because only the
+# source spelling says whether the reduced vowel is an e.
+#
+# Only the *ə* half is enforced (see E_ENFORCE_KIT).  The ə half never contradicts
+# the dictionary — a reduced e before r/l/n/m/ŋ/t is a schwa in every word the
+# corpus and M-W agree on (mɑ́rkət, téjbəl, prɒ́bləm, fɪ́tnəs, hə́ndrəd) — and it is
+# what keeps mɑ́rkɪt / pǽkɪts from coming back.  The ɪ half does contradict M-W in
+# many of those words (specific spə-, synthesis -thə-, necessarily -sə-), the author
+# ruled 2026-09-27 that no clear rule can be stated from a corpus this size, and the
+# words already decided are registered in the ledger, so it is reported as practice
+# rather than asserted as a rule.
+E_NUCLEI = ("ij", "uw", "ej", "ow", "aj", "aw", "ɔj",
+            "ər", "ɜr", "ɑr", "ɔr", "ɛr", "ɪr", "ʊr",
+            "ɪ", "ɛ", "æ", "ɒ", "ə", "ʊ", "ɑ", "ɔ")
+E_SONORANT = set("rlnmŋt")
+E_ENFORCE_KIT = False   # the ɪ half of the rule; flip to True once a rule lands
+E_FIXED_END = ("ness", "less", "est", "ous", "ment", "ments", "ent", "ents",
+               "ence", "ences", "ant", "ants", "ance", "ances", "er", "or", "ers",
+               "ors", "al", "als", "ful", "ed", "es", "age", "ange", "ible",
+               "ibles", "ibly", "ability", "able", "ables", "ably", "ic", "ics",
+               "ing", "ity", "ities", "ish", "ify", "ate", "ates", "ize", "ized",
+               "izes", "tion", "tions", "sion", "sions", "ture", "sure", "ly",
+               "ally", "ily")
+E_FIXED_PREFIX = ("be", "de", "re", "pre", "se", "e", "ex", "in", "im", "dis",
+                  "mis", "en", "em", "un")
+E_DERIVATION = ("s", "es", "d", "ed", "ing", "ness", "less", "ly", "al", "ally",
+                "ily", "ity", "ities", "ism", "ist", "ment", "ments", "ful",
+                "ous", "ate", "ates")
+E_FUNCTION_SEG = {"the", "a", "an", "to", "of", "and", "or", "but", "if", "as",
+                  "than", "that", "in", "on", "at", "by", "for", "from", "with",
+                  "is", "are", "was", "were"}
+
+
+def e_nuclei(word):
+    """Nucleus symbols of a stressless phonetic token, with their start offsets."""
+    out, i = [], 0
+    while i < len(word):
+        for nucleus in E_NUCLEI:
+            if word.startswith(nucleus, i):
+                out.append((nucleus, i))
+                i += len(nucleus)
+                break
+        else:
+            i += 1
+    return out
+
+
+def e_vowel_groups(letters):
+    """Spelling-side vowel groups (a final silent e is dropped, -le excepted)."""
+    groups = [(m.group(0), m.start()) for m in re.finditer(r"[aeiouy]+", letters)]
+    if letters.endswith("e") and not letters.endswith("le") and len(groups) > 1 \
+            and groups[-1][0] == "e":
+        groups = groups[:-1]
+    return groups
+
+
+def e_fixed_ending(letters, pos):
+    """True when the group at pos is the vowel of a fixed §6/§7 ending."""
+    for ending in E_FIXED_END:
+        start = pos if ending.startswith("e") else pos - 1
+        if start < 0 or letters[start:start + len(ending)] != ending:
+            continue
+        after = letters[start + len(ending):]
+        if after == "" or after in E_DERIVATION:
+            return True
+    return False
+
+
+def base_offset(plain, accented, plain_index):
+    """Index in the accented token of the base character at plain_index."""
+    seen = 0
+    for i, ch in enumerate(accented):
+        if unicodedata.combining(ch):
+            continue
+        if seen == plain_index:
+            return i
+        seen += 1
+    return None
+
+
+def check_e_reduction(source_token, trans_token):
+    """§4.4: a reduced e before r/l/n/m/ŋ/t is ə (adjacency).  The ɪ half is off."""
+    naked = token_core(source_token).lower()
+    if " " in naked:  # a phrase, not a token: nothing to align to
+        return None
+    segments = re.split(r"[-–—]", naked)
+    if any(segment.lower() in E_FUNCTION_SEG for segment in segments):
+        return None
+    if any(segment.lower().startswith(E_FIXED_PREFIX)
+           for segment in segments if segment):
+        return None
+    letters = re.sub(r"[^a-z]", "", naked)
+    if len(letters) < 4 or "e" not in letters:
+        return None
+    core = token_core(trans_token)
+    if not core:
+        return None
+    plain = stressless(core)
+    if not plain or plain in WEAK_FORMS or is_notation(plain):
+        return None
+    groups = e_vowel_groups(letters)
+    nuclei = e_nuclei(plain)
+    if len(groups) != len(nuclei):
+        return None
+    for (group, gpos), (nucleus, index) in zip(groups, nuclei):
+        if group != "e" or e_fixed_ending(letters, gpos):
+            continue
+        schwa = nucleus.startswith("ə")
+        kit = nucleus == "ɪ"
+        if not schwa and not kit:
+            continue
+        following = ("r" if schwa and nucleus[1:2] == "r"
+                     else plain[index + len(nucleus): index + len(nucleus) + 1])
+        if not following:
+            continue
+        if following in E_SONORANT:
+            if kit:
+                fixed = plain[:index] + "ə" + plain[index + 1:]
+                return ("e-reduction",
+                        f"'{core}' — source '{source_token}' has a reduced e before "
+                        f"{following}; write ə ({fixed}) (§4.4)")
+        elif schwa and E_ENFORCE_KIT:
+            fixed = plain[:index] + "ɪ" + plain[index + 1:]
+            return ("e-reduction",
+                    f"'{core}' — source '{source_token}' has a reduced e not before "
+                    f"r/l/n/m/ŋ/t; write ɪ ({fixed}) (§4.4)")
+    return None
+
+
 def layout_skeleton(token):
     """Return punctuation and symbols, excluding the omitted apostrophe class."""
     return "".join(ch for ch in token
@@ -336,6 +469,10 @@ def check_source_layout(source, transcription):
         ible_issue = check_ible_vowel(source_token, trans_token)
         if ible_issue:
             out.append((ible_issue[0], f"token {index}: {ible_issue[1]}"))
+
+        e_issue = check_e_reduction(source_token, trans_token)
+        if e_issue:
+            out.append((e_issue[0], f"token {index}: {e_issue[1]}"))
     return out
 
 
@@ -510,6 +647,25 @@ VALID_LAYOUT_SAMPLES = [
     ("visible and responsible", "vɪ́zɪbəl ənd rɪspɒ́nsɪbəl"),
     ("possibility", "pɒ̀sɪbɪ́lɪtij"),
     ("responsibility", "rɪspɒ̀nsɪbɪ́lɪtij"),
+    ("market", "mɑ́rkət"),
+    ("targets", "tɑ́rɡəts"),
+    ("ticket", "tɪ́kət"),
+    ("packets", "pǽkəts"),
+    ("rocket", "rɒ́kət"),
+    ("benefits", "bɛ́nɪfəts"),
+    # the ɪ half of the rule is practice, not a check: both shapes are accepted
+    ("specific", "spɪsɪ́fɪk"),
+    ("knowledge", "nɒ́lɪdʒ"),
+    ("phenomena", "fənɒ́mənə"),
+    ("(deterministic", "(dɪtɜ̀rmɪnɪ́stɪk"),
+    ("knowledge", "nɒ́lɪdʒ"),
+    ("strategies", "strǽtɪdʒijz"),
+    ("open", "ówpən"),
+    ("problem", "prɒ́bləm"),
+    ("model", "mɒ́dəl"),
+    ("fitness", "fɪ́tnəs"),
+    ("irrelevant", "ɪrɛ́lɪvənt"),
+    ("generic", "dʒɛ́nərɪk"),
 ]
 
 INVALID_LAYOUT_SAMPLES = [
@@ -523,6 +679,9 @@ INVALID_LAYOUT_SAMPLES = [
     ("responsible", "rɪspɒ́nsəbəl", {"ible-reduced-vowel"}),
     ("responsibility", "rɪspɒ̀nsəbɪ́lɪtij", {"ible-reduced-vowel"}),
     ("visible", "vɪ́zəbəl", {"ible-reduced-vowel"}),
+    ("market", "mɑ́rkɪt", {"e-reduction"}),
+    ("packets", "pǽkɪts", {"e-reduction"}),
+    ("rocket", "rɒ́kɪt", {"e-reduction"}),
 ]
 
 VALID_JSON_SAMPLES = [
