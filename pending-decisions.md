@@ -53,4 +53,3 @@ source confirms the Nicaraguan pronunciation.
 ## Housekeeping (not decisions)
 - The skill checkout `C:\Users\mpuch\.claude\skills\ipa-transcribe` is a second checkout of this
   repository and must be `git pull --ff-only`-ed after every push, or the skill runs on an old guide.
-- The 2026-09-27 ruling batch is **uncommitted** in the workspace.
