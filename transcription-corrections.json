@@ -1216,5 +1216,47 @@
     "wrong_transcription": "íjvn",
     "correct_transcription": "íjvən",
     "explanation": "M-W even is ˈē-vən: the medial schwa is written in full, so §4.4 syncope does not apply and the syllable stays. The trap is the derived form — evening is ˈēv-niŋ, compressed in M-W's own listing, which is why íjvnɪŋ is right (§4.4 reads the word's own listing, not its base). The corpus had íjvən 23 times against one íjvn; the same ə holds for every other -en word in the corpus. One token in TRN_TheSelfishGene.txt, swept 2026-09-26. Related and separate: AI-103-questions.json wrote íjvɪn ten times against íjvən once, and those ten were swept to íjvən in the same pass (e is spelled e, so it takes ə)."
+  },
+  {
+    "word": "byte",
+    "wrong_transcription": "jájt",
+    "correct_transcription": "bájt",
+    "explanation": "A dropped consonant, not a vowel error: the source token is byte and jájt has lost its initial b. §3 forbids writing reduction or deletion of a consonant the citation form has, and byte keeps its b (M-W ˈbīt). One token in TRN_TheY2KNonEvent.txt (every byte was precious), swept 2026-09-27; TRN_ONE.txt regenerated. The validator cannot see this class — jájt, bájt and bajt all pass — so dropped consonants need an aligned source-to-transcription hand-check."
+  },
+  {
+    "word": "anticipating",
+    "wrong_transcription": "æntɪ́səpèjtɪŋ",
+    "correct_transcription": "æntɪ́sɪpèjtɪŋ",
+    "explanation": "The medial syllable is spelled ci, so the §4.4 spelling tie-breaker gives ɪ rather than M-W's schwa (M-W an-ˈti-sə-ˌpāt-iŋ). Same class as the principle ruling and as the corpus's five ɪlɪ́mɪnèjtɪŋ (eliminating) tokens, which already had ɪ. One token in TRN_superintelligence_risk.txt, swept 2026-09-27; TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "domination",
+    "wrong_transcription": "dɒ̀mənéjʃən",
+    "correct_transcription": "dɒ̀mɪnéjʃən",
+    "explanation": "The reduced medial syllable is spelled mi, so it takes ɪ under the §4.4 spelling tie-breaker (M-W ˌdä-mə-ˈnā-shən) — exactly as kɒ̀mbɪnéjʃən (combination, three tokens) and dɪ̀tɜrmɪnéjʃən (determination) already did. One token in TRN_the_case_for_superintelligence.txt (crave domination), swept 2026-09-27; TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "imagination",
+    "wrong_transcription": "ɪmæ̀dʒənéjʃən",
+    "correct_transcription": "ɪmæ̀dʒɪnéjʃən",
+    "explanation": "The same -ination ruling as domination: the reduced syllable before -nation is spelled gi, so §4.4's tie-breaker gives ɪ, not M-W's schwa (M-W i-ˌma-jə-ˈnā-shən). The corpus's only token, in TRN_the_case_for_superintelligence.txt (a failure of imagination), swept 2026-09-27; its derivative ə̀nɪmǽdʒɪnəblij (unimaginably) already had the ɪ."
+  },
+  {
+    "word": "eliminate",
+    "wrong_transcription": "ɪlɪ́mənèjt",
+    "correct_transcription": "ɪlɪ́mɪnèjt",
+    "explanation": "The reduced medial syllable is spelled mi, so the §4.4 spelling tie-breaker gives ɪ (M-W i-ˈli-mə-ˌnāt) — matching the corpus's five ɪlɪ́mɪnèjtɪŋ (eliminating) and ɪlɪ́mɪnèjtɪd tokens, which already had it. Swept one token in TRN_TheEscalationOfCommitment.txt and one in AI-103-questions.json (item 164), 2026-09-27; TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "similar",
+    "wrong_transcription": "sɪ́mələr",
+    "correct_transcription": "sɪ́mɪlər",
+    "explanation": "The reduced medial syllable is spelled mi, so §4.4's spelling tie-breaker gives ɪ (M-W ˈsi-mə-lər). The corpus majority already agreed — sɪ́mɪlər and sɪ́mɪlərlij throughout TRN_CognitiveLoad.txt, plus sɪ́mɪlər in TRN_Habituation.txt and TRN_Move37.txt — and the derivative similarity already had it (sɪ̀mɪlɛ́rɪtij). Swept four tokens 2026-09-27: one in TRN_TheEscalationOfCommitment.txt and three in AI-103-questions.json (items 3, 6 and 280); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "dangerous",
+    "wrong_transcription": "déjnədʒərəs",
+    "correct_transcription": "déjndʒərəs",
+    "explanation": "An editorial ruling against the derivation, not a derivation: M-W lists dangerous ˈdān-jə-rəs with the schwa unparenthesized, so §4.4 syncope would keep it and give déjnədʒərəs. The author ruled the compressed déjndʒərəs (2026-09-27), which is what all ten corpus tokens already used (déjndʒərəs, déjndʒərəslij, déjndʒərz), so nothing was swept — this entry exists so a later reader applying M-W does not 'correct' them."
   }
 ]

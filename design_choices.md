@@ -52,6 +52,10 @@ When goals conflicted, the earlier one won.
 
 **Why:** determinism without betraying the reference accent. M-W's first listings have \i\ in exactly these prefixes and in *-age/-ange*, and unmerged American speakers produce `ɪ` there; promoting that closed morpheme list above the spelling rule keeps the answer fully mechanical — no lookup, no taste — while fixing the words where the pure-spelling rule audibly misfired. Outside the list, the spelling rule still gives a mechanical answer and visually anchors the transcription to the written word.
 
+**Extended to reduced medial `i` (2026-09-27).** The spelling layer settles a *medial* reduced syllable spelled `i` on the same terms, where the dictionaries write a schwa and the corpus had drifted: *anticipating* `æntɪ́sɪpèjtɪŋ` (M-W `an-ˈti-sə-ˌpāt-iŋ`), *domination* `dɒ̀mɪnéjʃən`, *imagination* `ɪmæ̀dʒɪnéjʃən`, *eliminate* `ɪlɪ́mɪnèjt`, *similar* `sɪ́mɪlər`. Five tokens in `examples/` and four in `AI-103-questions.json` were swept, and the corpus already used `ɪ` for the same environment (*combination* `kɒ̀mbɪnéjʃən` ×3, *determination* `dɪ̀tɜrmɪnéjʃən`, *eliminating* `ɪlɪ́mɪnèjtɪŋ` ×5, *similarity* `sɪ̀mɪlɛ́rɪtij`) — the same direction as the *principle* ruling.
+
+**No guard, deliberately:** unlike `-ible`, this class is not decidable from the transcription, because the defect and the rule are the same character in the same position — `sɪ́mələr` and `mɑ́rkətɪŋ` differ only in which letter the source spells, and both vowels are legal there. `check_string` returns 0 issues for either form, so the judge is the source word: a guard would need the aligned source, and a blanket `[a-z]+ənéjʃən` rule would fire on legitimate `ə` (the `a` of *explanation* `ɛ̀ksplənéjʃən`, the `u` of *documentation* `dɒ̀kjəmɛntéjʃən`). The ledger entries and the §13 row carry the rule instead.
+
 ### Parenthesized schwas are dropped (syncope)
 
 **Chosen:** when M-W's first listing parenthesizes a medial schwa, it is not written: `dɪ́frənt`, `sɒ́vrən`, `lǽbrətɔ̀rij`. Unparenthesized full forms keep it: `nǽtʃərəl`. The fixed §6/§7 tables outrank the rule, so suffix transcriptions like *-ally* `əlij` stay stable.
@@ -61,6 +65,8 @@ When goals conflicted, the earlier one won.
 **Consequence:** the rule reads the word's own listing, not its base's, so a derived word can syncopate where its base does not: *real* `ríjəl` / *really* `ríjlij`, *careful* `kɛ́rfəl` / *carefully* `kɛ́rflij`. Applying the base's shape to the derived word would silently restore a syllable natives skip in the one form that matters.
 
 **Exception by ruling, not by derivation:** a word can be kept in the full form because the author prefers it spoken that way, even where M-W parenthesizes the schwa. *answerable* is `ǽnsərəbəl`, not `ǽnsrəbəl`; `-able` words keep the three-syllable shape. Such rulings are recorded per word in `transcription-corrections.json`, which keeps this rule derivable while allowing deliberate exceptions.
+
+**Exception by ruling in the other direction (2026-09-27):** *dangerous* is ruled compressed — `déjndʒərəs`, not the `déjnədʒərəs` that §4.4 derives from M-W's `ˈdān-jə-rəs`, whose medial schwa is unparenthesized. All ten corpus tokens already used the compressed form (`déjndʒərəs`, `déjndʒərəslij`, `déjndʒərz`), so nothing was swept; the ledger entry exists so a later reader applying M-W does not “fix” them back. Standing apart from that ruling: the bare noun *danger* is still split in the corpus (`déjnədʒər` ×2 against `déjndʒər` ×2) and is not settled here.
 
 **Why:** connected speech is the point. The compressed forms are what GA speakers actually produce; writing the schwa invites learners to restore a syllable natives skip. The M-W parenthesis makes the call deterministic — the same single authority the system already leans on.
 

@@ -88,7 +88,7 @@
       "OCR mɒ́dəl",
       "vɪ́dijow mɒ́dəl"
     ],
-    "trans_Explanation": "ɪmbɛ́dɪŋ mɒ́dəl. ɪmbɛ́dɪŋz rɛ̀prɪzɛ́nt sɪmǽntɪk míjnɪŋ æz vɛ́ktərz sów sɪ́mələr kɒ́ntɛnt kən bij fáwnd baj dɪ́stəns ɔr sɪ̀mɪlɛ́rɪtij. ɪ́ndɛks ənd kwíjrij vɛ́ktərz məst júws ðə séjm kəmpǽtɪbəl ɪmbɛ́dɪŋ mɒ́dəl ənd dɪmɛ́nʃənz; ɪmbɛ́dɪŋ mɒ́dəlz də nɒ́t dʒɛ́nərèjt ðə fájnəl nǽtʃərəl-lǽŋɡwɪdʒ ǽnsər.",
+    "trans_Explanation": "ɪmbɛ́dɪŋ mɒ́dəl. ɪmbɛ́dɪŋz rɛ̀prɪzɛ́nt sɪmǽntɪk míjnɪŋ æz vɛ́ktərz sów sɪ́mɪlər kɒ́ntɛnt kən bij fáwnd baj dɪ́stəns ɔr sɪ̀mɪlɛ́rɪtij. ɪ́ndɛks ənd kwíjrij vɛ́ktərz məst júws ðə séjm kəmpǽtɪbəl ɪmbɛ́dɪŋ mɒ́dəl ənd dɪmɛ́nʃənz; ɪmbɛ́dɪŋ mɒ́dəlz də nɒ́t dʒɛ́nərèjt ðə fájnəl nǽtʃərəl-lǽŋɡwɪdʒ ǽnsər.",
     "Difficulty": 2
   },
   {
@@ -148,7 +148,7 @@
       "Default Deployment Name"
     ],
     "Explanation": "Representative Evaluation. Evaluate candidate models against realistic prompts, expected answers, safety cases, latency, and cost from the actual workload. Public benchmarks are useful screening evidence but may not predict domain-specific quality or operational behavior.",
-    "trans_Question": "túw kǽtəlɔ̀ɡ mɒ́dəlz hǽv sɪ́mələr pə́blɪk bɛ́ntʃmɑ̀rk skɔ́rz, bət ðij æ̀plɪkéjʃən júwzɪz spɛ́ʃəlàjzd líjɡəl lǽŋɡwɪdʒ. wɒ́t ʃʊd dɪtɜ́rmən ðə fájnəl sɪlɛ́kʃən?",
+    "trans_Question": "túw kǽtəlɔ̀ɡ mɒ́dəlz hǽv sɪ́mɪlər pə́blɪk bɛ́ntʃmɑ̀rk skɔ́rz, bət ðij æ̀plɪkéjʃən júwzɪz spɛ́ʃəlàjzd líjɡəl lǽŋɡwɪdʒ. wɒ́t ʃʊd dɪtɜ́rmən ðə fájnəl sɪlɛ́kʃən?",
     "trans_RightAnswer": "rɛ̀prəzɛ́ntətɪv ɪvæ̀ljuwéjʃən",
     "trans_WrongAnswers": [
       "prəvájdər pɒ̀pjəlɛ́rɪtij",
@@ -3791,7 +3791,7 @@
       "sɛ́lf-krətíjk lúwp",
       "túwl-rɪzə́lt rɪflɛ́kʃən"
     ],
-    "trans_Explanation": "mɒ́dəl sɪlɛ́kʃən (bɪfɔ́r æ̀dəptéjʃən) kəmpɛ́rz kèjpəbɪ́lɪtij, léjtənsij, kɔ́st, ənd rɪ́sk ɒn rɛ̀prəzɛ́ntətɪv déjtə. mɒ́dəl sɪlɛ́kʃən (fɜ́rst dɪsɪ́ʒən pɔ́jnt) kən ɪlɪ́mənèjt ənnɛ́səsɛ̀rij fájn-túwnɪŋ wɜ́rk.",
+    "trans_Explanation": "mɒ́dəl sɪlɛ́kʃən (bɪfɔ́r æ̀dəptéjʃən) kəmpɛ́rz kèjpəbɪ́lɪtij, léjtənsij, kɔ́st, ənd rɪ́sk ɒn rɛ̀prəzɛ́ntətɪv déjtə. mɒ́dəl sɪlɛ́kʃən (fɜ́rst dɪsɪ́ʒən pɔ́jnt) kən ɪlɪ́mɪnèjt ənnɛ́səsɛ̀rij fájn-túwnɪŋ wɜ́rk.",
     "Difficulty": 2
   },
   {
@@ -6450,7 +6450,7 @@
       "Embedding compatibility"
     ],
     "Explanation": "Scoring profile. Scoring profiles apply weighted boosts and functions to lexical ranking behavior. They encode business relevance beyond raw term frequency.",
-    "trans_Question": "líjɡəl sajtéjʃənz məst àwtrǽŋk blɔ́ɡ pówsts wɛ́n bówθ kəntéjn sɪ́mələr tɜ́rmz, béjst ɒn ə dɒ́kjəmənt ɪ̀mpɔ́rtəns fíjld. wɪ́tʃ rǽŋkɪŋ kə̀stəməzéjʃən ɪz dɪzájnd fɔr ðɪ́s?",
+    "trans_Question": "líjɡəl sajtéjʃənz məst àwtrǽŋk blɔ́ɡ pówsts wɛ́n bówθ kəntéjn sɪ́mɪlər tɜ́rmz, béjst ɒn ə dɒ́kjəmənt ɪ̀mpɔ́rtəns fíjld. wɪ́tʃ rǽŋkɪŋ kə̀stəməzéjʃən ɪz dɪzájnd fɔr ðɪ́s?",
     "trans_RightAnswer": "skɔ́rɪŋ prówfàjl",
     "trans_WrongAnswers": [
       "səɡdʒɛ́stər",
