@@ -2836,5 +2836,11 @@
     "wrong_transcription": "ɪ̀ntərmíjdijɪt",
     "correct_transcription": "ɪ̀ntərmíjdijət",
     "explanation": "The -ate noun/adjective ending is ət (§7); the verb would be ɪ̀ntərmíjdijèjt. The corpus was split 1-to-1 between ɪt and ət, so the adjective was unified on the §7 row, next to ɪ̀míjdìjət (immediate)."
+  },
+  {
+    "word": "generally",
+    "wrong_transcription": "dʒɛ́nrəlij",
+    "correct_transcription": "dʒɛ́nərəlij",
+    "explanation": "The *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən), so §4.4 syncope would drop the syllable; the author ruled the full form 2026-09-27, the mirror of the *danger* ruling. Every other token in the family already read dʒɛ́nərəl / dʒɛ́nərəlàjzɪz / dʒɛ́nərəlàjzɪŋ / dʒɛ̀nərəlɪzéjʃən, so only *generally* was swept (dʒɛ́nrəlij ×2, TRN_Habituation.txt and TRN_TheSelfishGene.txt) and TRN_ONE.txt regenerated. *generate* dʒɛ́nərèjt and *generation* dʒɛ̀nəréjʃən are unaffected — M-W writes their medial schwa unparenthesized."
   }
 ]
