@@ -2842,5 +2842,29 @@
     "wrong_transcription": "dʒɛ́nrəlij",
     "correct_transcription": "dʒɛ́nərəlij",
     "explanation": "The *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən), so §4.4 syncope would drop the syllable; the author ruled the full form 2026-09-27, the mirror of the *danger* ruling. Every other token in the family already read dʒɛ́nərəl / dʒɛ́nərəlàjzɪz / dʒɛ́nərəlàjzɪŋ / dʒɛ̀nərəlɪzéjʃən, so only *generally* was swept (dʒɛ́nrəlij ×2, TRN_Habituation.txt and TRN_TheSelfishGene.txt) and TRN_ONE.txt regenerated. *generate* dʒɛ́nərèjt and *generation* dʒɛ̀nəréjʃən are unaffected — M-W writes their medial schwa unparenthesized."
+  },
+  {
+    "word": "general",
+    "wrong_transcription": "dʒɛ́nrəl",
+    "correct_transcription": "dʒɛ́nərəl",
+    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. The corpus wrote dʒɛ́nərəl ×4 (examples 3, AI-103 1) and dʒɛ́nrəl nowhere, so nothing was swept; the plural is dʒɛ́nərəlz."
+  },
+  {
+    "word": "generalizes",
+    "wrong_transcription": "dʒɛ́nrəlàjzɪz",
+    "correct_transcription": "dʒɛ́nərəlàjzɪz",
+    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. M-W's *generalize* is ˈjen-rə-ˌlīz, compressed, so the same ruling covers it. The corpus wrote dʒɛ́nərəlàjzɪz ×2 (TRN_Gaslighitng.txt, TRN_TheAlignmentProblem.txt) and dʒɛ́nərəlàjzɪŋ ×1, all correct."
+  },
+  {
+    "word": "generalizing",
+    "wrong_transcription": "dʒɛ́nrəlàjzɪŋ",
+    "correct_transcription": "dʒɛ́nərəlàjzɪŋ",
+    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. One token in the corpus (TRN_TheAlignmentProblem.txt L10), already the ruled shape."
+  },
+  {
+    "word": "generalization",
+    "wrong_transcription": "dʒɛ̀nrəlɪzéjʃən",
+    "correct_transcription": "dʒɛ̀nərəlɪzéjʃən",
+    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. M-W's *generalization* is ˌjen-rə-lə-ˈzā-shən. The corpus wrote dʒɛ̀nərəlɪzéjʃən ×3 (TRN_TheAlignmentProblem.txt L9, L20, L26); the plural keeps the grave, dʒɛ̀nərəlɪzéjʃənz."
   }
 ]
