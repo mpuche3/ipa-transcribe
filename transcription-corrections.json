@@ -1328,8 +1328,8 @@
   {
     "word": "optimization",
     "wrong_transcription": "ɒptəməzéjʃən",
-    "correct_transcription": "ɒ̀ptɪməzéjʃən",
-    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: ɒ̀ptɪməzéjʃən ×8 (examples 8, AI-103 0); ɒptəməzéjʃən ×7 (examples 0, AI-103 7). Swept 7 token(s) (examples 0, AI-103 7); TRN_ONE.txt regenerated. The AI-103 shape also lacked the secondary-stress grave, so the ruled form keeps the examples' ɒ̀."
+    "correct_transcription": "ɒ̀ptɪmɪzéjʃən",
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: ɒ̀ptɪməzéjʃən ×8 (examples 8, AI-103 0); ɒptəməzéjʃən ×7 (examples 0, AI-103 7). Swept 7 token(s) (examples 0, AI-103 7); TRN_ONE.txt regenerated. The AI-103 shape also lacked the secondary-stress grave, so the ruled form keeps the examples' ɒ̀. The 2026-09-27 `-ization` ruling then withdrew the fixed `ə` ending, so the form is now ɒ̀ptɪmɪzéjʃən."
   },
   {
     "word": "monitoring",
@@ -2218,5 +2218,29 @@
     "wrong_transcription": "ɒ̀bləɡéjʃənz",
     "correct_transcription": "ɒ̀blɪɡéjʃənz",
     "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ̀bləɡéjʃənz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+  },
+  {
+    "word": "camera",
+    "wrong_transcription": "kǽmərəz",
+    "correct_transcription": "kǽmrəz",
+    "explanation": "M-W's first listing ˈkam-rə is already compressed, so §4.4 syncope drops the medial syllable (the shape of *family* ˈfam-lē → fǽmlij and *several* ˈsev-rəl → sɛ́vrəl). The singular is kǽmrə. Ruled 2026-09-27; 4 tokens swept (examples 1, AI-103 3). The sibling *memory* (ˈmem-rē) was not ruled: the corpus writes mɛ́mərij ×47 against mɛ́mrij ×2."
+  },
+  {
+    "word": "compliment",
+    "wrong_transcription": "kɒ́mpləmənts",
+    "correct_transcription": "kɒ́mplɪmənts",
+    "explanation": "*compliment* is spelled with i, so §4.4's spelling tie-breaker gives ɪ — kɒ́mplɪmənt, kɒ́mplɪmənts, kɒ̀mplɪmɛ́ntərij — even though M-W writes a schwa (ˈkäm-plə-mənt). The look-alike *complement* is spelled with e and keeps kɒ́mpləmənts / kɒ́mpləmɛ̀nt. Every complement token in the corpus is spelled *complement*, so no transcription changed; ruled 2026-09-27."
+  },
+  {
+    "word": "memory",
+    "wrong_transcription": "mɛ́mərij",
+    "correct_transcription": "mɛ́mrij",
+    "explanation": "M-W's first listing ˈmem-rē is already compressed, so §4.4 syncope drops the medial syllable, exactly as in *family* ˈfam-lē → fǽmlij and *camera* ˈkam-rə → kǽmrə (all three ruled 2026-09-27). *memories* is mɛ́mrijz. The corpus wrote mɛ́mərij ×56 against mɛ́mrij ×2, so this sweep went against the majority; nothing else in the family writes the schwa now."
+  },
+  {
+    "word": "presentation",
+    "wrong_transcription": "prìjzɑ̀ntéjʃən",
+    "correct_transcription": "prɛ̀zəntéjʃən",
+    "explanation": "Editorial exception to §1's first-listing rule: M-W lists ˌprē-ˌzen-ˈtā-shən first and ˌpre-zᵊ-n- second, and the author ruled the compressed second listing for *presentation* (2026-09-27). The one deviating token (*Habituation*) also carried PALM ɑ where DRESS ɛ belongs; ɑ is not a vowel of that syllable in any variety. All 5 corpus tokens now read prɛ̀zəntéjʃən."
   }
 ]

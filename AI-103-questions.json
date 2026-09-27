@@ -19,7 +19,7 @@
       "spíjtʃ mɒ́dəl",
       "ɒ́bdʒɛkt dɪtɛ́kʃən mɒ́dəl"
     ],
-    "trans_Explanation": "lɑ́rdʒ lǽŋɡwɪdʒ mɒ́dəl (LLM). ən LLM ɪz súwtɪd tə brɔ́d lǽŋɡwɪdʒ dʒɛ̀nəréjʃən, sə̀mərəzéjʃən, ənd ríjzənɪŋ ówvər səbstǽnʃəl kɒ́ntɛkst. kəmpɛ́r kǽndɪdejt LLMz ɒn rɛ̀prəzɛ́ntətɪv kɒ̀nvərséjʃənz bɪkɒ́z kɒ́ntɛkst lɛ́ŋkθ, kwɑ́lɪtij, léjtənsij, ríjdʒənəl əvèjləbɪ́lɪtij, ənd kɔ́st dɪ́fər baj mɒ́dəl ənd dɪplɔ́jmənt.",
+    "trans_Explanation": "lɑ́rdʒ lǽŋɡwɪdʒ mɒ́dəl (LLM). ən LLM ɪz súwtɪd tə brɔ́d lǽŋɡwɪdʒ dʒɛ̀nəréjʃən, sə̀mərɪzéjʃən, ənd ríjzənɪŋ ówvər səbstǽnʃəl kɒ́ntɛkst. kəmpɛ́r kǽndɪdejt LLMz ɒn rɛ̀prəzɛ́ntətɪv kɒ̀nvərséjʃənz bɪkɒ́z kɒ́ntɛkst lɛ́ŋkθ, kwɑ́lɪtij, léjtənsij, ríjdʒənəl əvèjləbɪ́lɪtij, ənd kɔ́st dɪ́fər baj mɒ́dəl ənd dɪplɔ́jmənt.",
     "Difficulty": 2
   },
   {
@@ -318,7 +318,7 @@
       "kɒ́ntɛnt ə̀ndərstǽndɪŋ",
       "fáwndrij IQ"
     ],
-    "trans_Explanation": "ǽʒər lǽŋɡwɪdʒ. ǽʒər lǽŋɡwɪdʒ ɔ́fərz prìjbɪ́lt ənd kə́stəmàjzəbəl tɛ́kst-ənǽlɪsɪs ɒ̀pəréjʃənz, ɪ̀nklúwdɪŋ ɛ́ntɪtijz, kíj fréjzəz, sɛ́ntɪmənt, lǽŋɡwɪdʒ dɪtɛ́kʃən, sə̀mərəzéjʃən, klæ̀sɪfɪkéjʃən, ənd PII hǽndəlɪŋ. prɪfɜ́r ɪt wɛ́n ə səpɔ́rtɪd, pɜ́rpəs-bɪ́lt ɒ̀pəréjʃən ɪz mɔ́r prɪdɪ́ktəbəl ðən ówpən-ɛ́ndɪd prɒ́mptɪŋ.",
+    "trans_Explanation": "ǽʒər lǽŋɡwɪdʒ. ǽʒər lǽŋɡwɪdʒ ɔ́fərz prìjbɪ́lt ənd kə́stəmàjzəbəl tɛ́kst-ənǽlɪsɪs ɒ̀pəréjʃənz, ɪ̀nklúwdɪŋ ɛ́ntɪtijz, kíj fréjzɪz, sɛ́ntɪmənt, lǽŋɡwɪdʒ dɪtɛ́kʃən, sə̀mərɪzéjʃən, klæ̀sɪfɪkéjʃən, ənd PII hǽndəlɪŋ. prɪfɜ́r ɪt wɛ́n ə səpɔ́rtɪd, pɜ́rpəs-bɪ́lt ɒ̀pəréjʃən ɪz mɔ́r prɪdɪ́ktəbəl ðən ówpən-ɛ́ndɪd prɒ́mptɪŋ.",
     "Difficulty": 1
   },
   {
@@ -355,7 +355,7 @@
       "Provisioned Throughput"
     ],
     "Explanation": "Retrieval-Augmented Generation (RAG). RAG retrieves current external evidence at request time and places it in the model context, enabling grounded answers and citations. Fine-tuning is better for stable behavior or style changes and is not an efficient knowledge-update mechanism.",
-    "trans_Question": "ə tʃǽtbɒ̀t məst ǽnsər frəm pɒ́lɪsijz ðət tʃéjndʒ wíjklij ənd sájt ðə kɜ́rənt sɔ́rs wɪθáwt rijtréjnɪŋ ðə mɒ́dəl. wɪ́tʃ ɒ̀ptɪməzéjʃən əprówtʃ ʃʊd bij júwzd?",
+    "trans_Question": "ə tʃǽtbɒ̀t məst ǽnsər frəm pɒ́lɪsijz ðət tʃéjndʒ wíjklij ənd sájt ðə kɜ́rənt sɔ́rs wɪθáwt rijtréjnɪŋ ðə mɒ́dəl. wɪ́tʃ ɒ̀ptɪmɪzéjʃən əprówtʃ ʃʊd bij júwzd?",
     "trans_RightAnswer": "rɪtríjvəl-ɔɡmɛ́ntɪd dʒɛ̀nəréjʃən",
     "trans_WrongAnswers": [
       "fájn-túwnɪŋ",
@@ -387,7 +387,7 @@
       "fájn-túwnɪŋ",
       "prɒ́mpt ɛ̀ndʒɪnɪ́rɪŋ"
     ],
-    "trans_Explanation": "hájbrɪd sɜ́rtʃ. hájbrɪd sɜ́rtʃ sɛ́ndz lɛ́ksɪkɪl ənd vɛ́ktər kwɪ́rijz təɡɛ́ðər ənd fjúwzəz ðɛr rǽŋkt rɪzə́lts, prɪzɜ́rvɪŋ ɪɡzǽkt-tɜ́rm mǽtʃɪŋ wájl ǽdɪŋ sɪmǽntɪk sɪ̀mɪlɛ́rɪtij. sɪmǽntɪk rǽŋkɪŋ kən ðɛ́n rìjrǽŋk ən ɛ́lɪdʒɪbəl ɪ̀nɪ́ʃəl rɪzə́lt sɛ́t fɔr ədɪ́ʃənəl rɛ́ləvəns.",
+    "trans_Explanation": "hájbrɪd sɜ́rtʃ. hájbrɪd sɜ́rtʃ sɛ́ndz lɛ́ksɪkɪl ənd vɛ́ktər kwɪ́rijz təɡɛ́ðər ənd fjúwzɪz ðɛr rǽŋkt rɪzə́lts, prɪzɜ́rvɪŋ ɪɡzǽkt-tɜ́rm mǽtʃɪŋ wájl ǽdɪŋ sɪmǽntɪk sɪ̀mɪlɛ́rɪtij. sɪmǽntɪk rǽŋkɪŋ kən ðɛ́n rìjrǽŋk ən ɛ́lɪdʒɪbəl ɪ̀nɪ́ʃəl rɪzə́lt sɛ́t fɔr ədɪ́ʃənəl rɛ́ləvəns.",
     "Difficulty": 3
   },
   {
@@ -402,7 +402,7 @@
     ],
     "Explanation": "Integrated Vectorization. This Azure AI Search capability coordinates supported chunking, embedding, indexing, and query-time vectorization in the search pipeline. The configured vectorizer and indexed vectors must remain dimensionally and semantically compatible.",
     "trans_Question": "ə tíjm wɒ́nts ǽʒər AI sɜ́rtʃ tə splɪ́t dɒ́kjəmənts, kɔ́l ən ɪmbɛ́dɪŋ skɪ́l, stɔ́r vɛ́ktərz, ənd vɛ́ktəràjz kwɪ́rijz wɪð lɛ́s kə́stəm ɪ̀ndʒɛ́stʃən kówd. wɪ́tʃ fíjtʃər ʃʊd ɪt kənfɪ́ɡjər?",
-    "trans_RightAnswer": "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən",
+    "trans_RightAnswer": "ɪ́ntəɡrèjtəd vɛ̀ktərɪzéjʃən",
     "trans_WrongAnswers": [
       "sɪmǽntɪk kǽpʃənz",
       "skɔ́rɪŋ prówfàjlz",
@@ -410,7 +410,7 @@
       "prɒ́mpt ʃíjldz",
       "prəvɪ́ʒənd θrúwpʊ̀t"
     ],
-    "trans_Explanation": "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən. ðɪs ǽʒər AI sɜ́rtʃ kèjpəbɪ́lɪtij kowɔ́rdɪnèjts səpɔ́rtɪd tʃə́ŋkɪŋ, ɪmbɛ́dɪŋ, ɪ́ndɛksɪŋ, ənd kwíjrij-tájm vɛ̀ktərəzéjʃən ɪn ðə sɜ́rtʃ pájplàjn. ðə kənfɪ́ɡjərd vɛ́ktəràjzər ənd ɪ́ndɛkst vɛ́ktərz məst rɪméjn dɪmɛ́nʃənəlij ənd sɪmǽntɪklij kəmpǽtɪbəl.",
+    "trans_Explanation": "ɪ́ntəɡrèjtəd vɛ̀ktərɪzéjʃən. ðɪs ǽʒər AI sɜ́rtʃ kèjpəbɪ́lɪtij kowɔ́rdɪnèjts səpɔ́rtɪd tʃə́ŋkɪŋ, ɪmbɛ́dɪŋ, ɪ́ndɛksɪŋ, ənd kwíjrij-tájm vɛ̀ktərɪzéjʃən ɪn ðə sɜ́rtʃ pájplàjn. ðə kənfɪ́ɡjərd vɛ́ktəràjzər ənd ɪ́ndɛkst vɛ́ktərz məst rɪméjn dɪmɛ́nʃənəlij ənd sɪmǽntɪklij kəmpǽtɪbəl.",
     "Difficulty": 3
   },
   {
@@ -433,7 +433,7 @@
       "kɒ́ntɛnt fɪ́ltər",
       "spíjtʃ sɪ́nθəsàjzər"
     ],
-    "trans_Explanation": "fə́ŋkʃən túwl. ə fə́ŋkʃən túwl dɪskrájbz æ̀plɪkéjʃən kówd wɪð ə klɪ́r néjm, pɜ́rpəs, ənd dʒéjsɒn skíjmə pərǽmətərz; ðə mɒ́dəl prəpówzɪz ðə kɔ́l, bət trə́stɪd æ̀plɪkéjʃən kówd vǽlɪdèjts ənd ɪ́ksəkjùwts ɪt. ɔθɛ̀ntɪkéjʃən, ɔ̀θərəzéjʃən, àjdəmpówtənsij, tájmàwts, ənd rɪzə́lt væ̀lɪdéjʃən rɪméjn æ̀plɪkéjʃən rɪspɒ̀nsɪbɪ́lɪtijz.",
+    "trans_Explanation": "fə́ŋkʃən túwl. ə fə́ŋkʃən túwl dɪskrájbz æ̀plɪkéjʃən kówd wɪð ə klɪ́r néjm, pɜ́rpəs, ənd dʒéjsɒn skíjmə pərǽmətərz; ðə mɒ́dəl prəpówzɪz ðə kɔ́l, bət trə́stɪd æ̀plɪkéjʃən kówd vǽlɪdèjts ənd ɪ́ksəkjùwts ɪt. ɔθɛ̀ntɪkéjʃən, ɔ̀θərɪzéjʃən, àjdəmpówtənsij, tájmàwts, ənd rɪzə́lt væ̀lɪdéjʃən rɪméjn æ̀plɪkéjʃən rɪspɒ̀nsɪbɪ́lɪtijz.",
     "Difficulty": 2
   },
   {
@@ -447,7 +447,7 @@
       "Speech Synthesis Markup Language"
     ],
     "Explanation": "Model Context Protocol (MCP). MCP standardizes how an agent client discovers and invokes tools or resources exposed by an MCP server. Treat remote tool descriptions and results as untrusted, enforce authorization, and distinguish MCP from A2A, which supports communication between agents.",
-    "trans_Question": "ən ɔ̀rɡənəzéjʃən wɒ́nts éjdʒənts frəm dɪ́fərənt fréjmwɜ̀rks tə dɪskə́vər ənd ɪ̀nvówk ə sɛ́ntrəlij hówstɪd kəlɛ́kʃən əv rijúwzəbəl túwlz θrúw ə stǽndərd prówtəkɒ̀l. wɪ́tʃ ɪ̀ntəɡréjʃən ɪz əprówprijət?",
+    "trans_Question": "ən ɔ̀rɡənɪzéjʃən wɒ́nts éjdʒənts frəm dɪ́fərənt fréjmwɜ̀rks tə dɪskə́vər ənd ɪ̀nvówk ə sɛ́ntrəlij hówstɪd kəlɛ́kʃən əv rijúwzəbəl túwlz θrúw ə stǽndərd prówtəkɒ̀l. wɪ́tʃ ɪ̀ntəɡréjʃən ɪz əprówprijət?",
     "trans_RightAnswer": "mɒ́dəl kɒ́ntɛkst prówtəkɒ̀l",
     "trans_WrongAnswers": [
       "éjdʒənt-tə-éjdʒənt prówtəkɒ̀l",
@@ -456,7 +456,7 @@
       "rɪsɪ́prəkəl rǽŋk fjúwʒən",
       "spíjtʃ sɪ́nθəsɪs mɑ́rkə̀p lǽŋɡwɪdʒ"
     ],
-    "trans_Explanation": "mɒ́dəl kɒ́ntɛkst prówtəkɒ̀l (MCP). MCP stǽndərdàjzɪz háw ən éjdʒənt klájənt dɪskə́vərz ənd ɪ̀nvówks túwlz ɔr ríjsɔrsɪz ɪkspówzd baj ən MCP sɜ́rvər. tríjt rɪmówt túwl dɪskrɪ́pʃənz ənd rɪzə́lts æz ə̀ntrə́stɪd, ɪnfɔ́rs ɔ̀θərəzéjʃən, ənd dɪstɪ́ŋɡwɪʃ MCP frəm A2A, wɪ́tʃ səpɔ́rts kəmjùwnɪkéjʃən bɪtwíjn éjdʒənts.",
+    "trans_Explanation": "mɒ́dəl kɒ́ntɛkst prówtəkɒ̀l (MCP). MCP stǽndərdàjzɪz háw ən éjdʒənt klájənt dɪskə́vərz ənd ɪ̀nvówks túwlz ɔr ríjsɔrsɪz ɪkspówzd baj ən MCP sɜ́rvər. tríjt rɪmówt túwl dɪskrɪ́pʃənz ənd rɪzə́lts æz ə̀ntrə́stɪd, ɪnfɔ́rs ɔ̀θərɪzéjʃən, ənd dɪstɪ́ŋɡwɪʃ MCP frəm A2A, wɪ́tʃ səpɔ́rts kəmjùwnɪkéjʃən bɪtwíjn éjdʒənts.",
     "Difficulty": 3
   },
   {
@@ -502,7 +502,7 @@
       "kəntrówl ənd déjtə pléjnz",
       "déjtə rɛ́zɪdənsij plǽnɪŋ"
     ],
-    "trans_Explanation": "fáwndrij prɒ́dʒɛkt. prɒ́dʒɛkts prəvájd kəlæ̀bəréjʃən ənd àjsəléjʃən fɔr ɪ̀ndɪvɪ́dʒuwəl æ̀plɪkéjʃənz ɔr ɪnvájrənmənts ə́ndər wə́n ríjsɔrs. ðɪ́s ɪz ðə kɜ́rənt pǽtərn ɪ̀nstɛ́d əv klǽsɪk hə́b-béjst ɔ̀rɡənəzéjʃən.",
+    "trans_Explanation": "fáwndrij prɒ́dʒɛkt. prɒ́dʒɛkts prəvájd kəlæ̀bəréjʃən ənd àjsəléjʃən fɔr ɪ̀ndɪvɪ́dʒuwəl æ̀plɪkéjʃənz ɔr ɪnvájrənmənts ə́ndər wə́n ríjsɔrs. ðɪ́s ɪz ðə kɜ́rənt pǽtərn ɪ̀nstɛ́d əv klǽsɪk hə́b-béjst ɔ̀rɡənɪzéjʃən.",
     "Difficulty": 2
   },
   {
@@ -525,7 +525,7 @@
       "déjtə rɛ́zɪdənsij plǽnɪŋ",
       "wɜ́rklòwd àjsəléjʃən"
     ],
-    "trans_Explanation": "prɒ́dʒɛkt ɪ́ndpɔ̀jnt. ɪt ɪz ðə kərɛ́kt béjs ǽdrɛ̀s fɔr prɒ́dʒɛkt-skówpt mɒ́dəl ənd éjdʒənt ɪ̀ntərǽkʃənz ɪn kɜ́rənt fáwndrij sɛ́tə̀ps. júwzɪŋ ənə́ðər ɪ́ndpɔ̀jnt kən bájpæ̀s ɪ̀ntɛ́ndɪd prɒ́dʒɛkt kɒ́ntɛkst ənd féjl ɔ̀θərəzéjʃən ɔr ráwtɪŋ.",
+    "trans_Explanation": "prɒ́dʒɛkt ɪ́ndpɔ̀jnt. ɪt ɪz ðə kərɛ́kt béjs ǽdrɛ̀s fɔr prɒ́dʒɛkt-skówpt mɒ́dəl ənd éjdʒənt ɪ̀ntərǽkʃənz ɪn kɜ́rənt fáwndrij sɛ́tə̀ps. júwzɪŋ ənə́ðər ɪ́ndpɔ̀jnt kən bájpæ̀s ɪ̀ntɛ́ndɪd prɒ́dʒɛkt kɒ́ntɛkst ənd féjl ɔ̀θərɪzéjʃən ɔr ráwtɪŋ.",
     "Difficulty": 2
   },
   {
@@ -677,7 +677,7 @@
       "DefaultAzureCredential"
     ],
     "Explanation": "Staged model rollout. Create a new deployment path, validate behavior, and shift traffic gradually with rollback criteria. This avoids a single high-risk cutover when versions change.",
-    "trans_Question": "ə mɒ́dəl vɜ́rʒən júwzd ɪn prədə́kʃən ɪz skɛ́dʒuwld fɔr rɪtájərmənt ɪn fɔ́r mə́nθs. wɪ́tʃ rɪlíjs əprówtʃ mɪ́nɪmàjzəz rɪ́sk wájl múwvɪŋ tə ə səpɔ́rtɪd vɜ́rʒən?",
+    "trans_Question": "ə mɒ́dəl vɜ́rʒən júwzd ɪn prədə́kʃən ɪz skɛ́dʒuwld fɔr rɪtájərmənt ɪn fɔ́r mə́nθs. wɪ́tʃ rɪlíjs əprówtʃ mɪ́nɪmàjzɪz rɪ́sk wájl múwvɪŋ tə ə səpɔ́rtɪd vɜ́rʒən?",
     "trans_RightAnswer": "stéjdʒd mɒ́dəl rówlàwt",
     "trans_WrongAnswers": [
       "prəvɪ́ʒənd θrúwpʊ̀t",
@@ -769,7 +769,7 @@
       "Evaluation gates"
     ],
     "Explanation": "Project-scoped RBAC. Assign least-privilege roles at the narrowest practical scope to constrain automation impact. This prevents overbroad access that often comes from higher-level role assignments.",
-    "trans_Question": "ə CI dʒɒ́b kən ɔθɛ́ntɪkèjt səksɛ́sfəlij bət ʃʊd ównlij dɪplɔ́j mɒ́dəlz ɪn wə́n prɒ́dʒɛkt, nɒ́t ɛ́dɪt səbskrɪ́pʃən-wájd ríjsɔrsɪz. wɪ́tʃ ɔ̀θərəzéjʃən dɪzájn ɪnfɔ́rsɪz ðæt báwndərij?",
+    "trans_Question": "ə CI dʒɒ́b kən ɔθɛ́ntɪkèjt səksɛ́sfəlij bət ʃʊd ównlij dɪplɔ́j mɒ́dəlz ɪn wə́n prɒ́dʒɛkt, nɒ́t ɛ́dɪt səbskrɪ́pʃən-wájd ríjsɔrsɪz. wɪ́tʃ ɔ̀θərɪzéjʃən dɪzájn ɪnfɔ́rsɪz ðæt báwndərij?",
     "trans_RightAnswer": "prɒ́dʒɛkt-skówpt RBAC",
     "trans_WrongAnswers": [
       "dɪfɔ́ltæ̀ʒərkrɪdɛ̀nʃəl",
@@ -916,7 +916,7 @@
       "prəvɪ́ʒənd θrúwpʊ̀t júwnɪts",
       "tówkən bə́dʒɪtɪŋ"
     ],
-    "trans_Explanation": "rijtráj-ǽftər hɛ́dər. ðə sɜ́rvɪs-prəvájdɪd dɪléj tɛ́lz klájənts wɛ́n ə rijtráj ɪz lájklij tə səksíjd ǽftər θrɒ́təlɪŋ. rɪspɛ́ktɪŋ ɪt rɪdúwsəz wéjst ənd stéjbɪlàjzəz rɪkə́vrij ə́ndər lówd.",
+    "trans_Explanation": "rijtráj-ǽftər hɛ́dər. ðə sɜ́rvɪs-prəvájdɪd dɪléj tɛ́lz klájənts wɛ́n ə rijtráj ɪz lájklij tə səksíjd ǽftər θrɒ́təlɪŋ. rɪspɛ́ktɪŋ ɪt rɪdúwsəz wéjst ənd stéjbɪlàjzɪz rɪkə́vrij ə́ndər lówd.",
     "Difficulty": 1
   },
   {
@@ -999,7 +999,7 @@
       "Application Insights"
     ],
     "Explanation": "Prompt caching. Reused prompt segments can be cached so repeated context does not incur full token processing each time. This lowers spend for repetitive conversation scaffolding.",
-    "trans_Question": "ə səpɔ́rt kówpajlət rɪpíjts ðə séjm lɔ́ŋ pɒ́lɪsij prijǽmbəl ɒn ɛ́vrij tɜ́rn, drájvɪŋ tówkən kɒ́sts ə́p. wɪ́tʃ ɒ̀ptɪməzéjʃən kɒ́nsɛpt ədrɛ́sɪz ðɪs spəsɪ́fɪk wéjst?",
+    "trans_Question": "ə səpɔ́rt kówpajlət rɪpíjts ðə séjm lɔ́ŋ pɒ́lɪsij prijǽmbəl ɒn ɛ́vrij tɜ́rn, drájvɪŋ tówkən kɒ́sts ə́p. wɪ́tʃ ɒ̀ptɪmɪzéjʃən kɒ́nsɛpt ədrɛ́sɪz ðɪs spəsɪ́fɪk wéjst?",
     "trans_RightAnswer": "prɒ́mpt kǽʃɪŋ",
     "trans_WrongAnswers": [
       "tówkən bə́dʒɪtɪŋ",
@@ -1560,7 +1560,7 @@
       "léjərd ɡɑ́rdrèjlz",
       "fɔ́ls pɒ́zɪtɪv tréjdɔ̀f"
     ],
-    "trans_Explanation": "blɒ́klɪ̀sts. ðej ɪnfɔ́rs æ̀plɪkéjʃən-spəsɪ́fɪk prowhɪ́bɪtɪd tɜ́rmz ɔr fréjzəz bɪɒ́nd dʒənɛ́rɪk hɑ́rm klǽsəfàjərz. əpláj ðɛm fɔr strɪ́kt bɪ́znəs rúwlz wɛ́r kǽtəɡɔ̀rij fɪ́ltərɪŋ əlówn ɪz ɪ̀nsəfɪ́ʃənt.",
+    "trans_Explanation": "blɒ́klɪ̀sts. ðej ɪnfɔ́rs æ̀plɪkéjʃən-spəsɪ́fɪk prowhɪ́bɪtɪd tɜ́rmz ɔr fréjzɪz bɪɒ́nd dʒənɛ́rɪk hɑ́rm klǽsəfàjərz. əpláj ðɛm fɔr strɪ́kt bɪ́znəs rúwlz wɛ́r kǽtəɡɔ̀rij fɪ́ltərɪŋ əlówn ɪz ɪ̀nsəfɪ́ʃənt.",
     "Difficulty": 1
   },
   {
@@ -1597,7 +1597,7 @@
       "Safety evaluators"
     ],
     "Explanation": "Layered guardrails. Apply controls across every stage so failures in one layer do not become full incidents. Defense in depth is essential for agentic systems with retrieval and tools.",
-    "trans_Question": "séjftij ɪ́nsɪdənts ʃów ðət ównlij áwtpʊ̀t mɒ̀dəréjʃən ɪz kɜ́rəntlij ɪnéjbəld. ɑ́rkətɛ̀kts wɒ́nt dɪfɛ́nsəz ət ɪ́npʊ̀t, rɪtríjvəl, túwl ɪ̀ksəkjúwʃən, ənd áwtpʊ̀t stéjdʒɪz. wɒ́t dɪzájn prɪ́nsɪpəl ʃʊd ɡájd ðɪ́s?",
+    "trans_Question": "séjftij ɪ́nsɪdənts ʃów ðət ównlij áwtpʊ̀t mɒ̀dəréjʃən ɪz kɜ́rəntlij ɪnéjbəld. ɑ́rkətɛ̀kts wɒ́nt dɪfɛ́nsɪz ət ɪ́npʊ̀t, rɪtríjvəl, túwl ɪ̀ksəkjúwʃən, ənd áwtpʊ̀t stéjdʒɪz. wɒ́t dɪzájn prɪ́nsɪpəl ʃʊd ɡájd ðɪ́s?",
     "trans_RightAnswer": "léjərd ɡɑ́rdrèjlz",
     "trans_WrongAnswers": [
       "ǽʒər kɒ́ntɛnt séjftij",
@@ -1712,7 +1712,7 @@
       "Privacy-aware retention"
     ],
     "Explanation": "RAI principles. Use Responsible AI principles such as fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability to justify governance choices. They provide the policy backbone for controls and reviews.",
-    "trans_Question": "kəmplájəns rɪkwájərz jɔr ɔ̀rɡənəzéjʃən tə ʃów háw fɛ́rnəs, trænspɛ́rənsij, ənd əkàwntəbɪ́lɪtij wər kənsɪ́dərd ɪn sɪ́stəm dɪzájn dɪsɪ́ʒənz. wɒ́t fréjmwɜ̀rk ʃʊd bij rɛ́fərənst?",
+    "trans_Question": "kəmplájəns rɪkwájərz jɔr ɔ̀rɡənɪzéjʃən tə ʃów háw fɛ́rnəs, trænspɛ́rənsij, ənd əkàwntəbɪ́lɪtij wər kənsɪ́dərd ɪn sɪ́stəm dɪzájn dɪsɪ́ʒənz. wɒ́t fréjmwɜ̀rk ʃʊd bij rɛ́fərənst?",
     "trans_RightAnswer": "RAI prɪ́nsɪpəlz",
     "trans_WrongAnswers": [
       "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
@@ -2296,7 +2296,7 @@
       "sajtéjʃənz",
       "ɡráwndɪdnəs"
     ],
-    "trans_Explanation": "kwíjrij rijrájtɪŋ. ɪt rɪfɔ́rməlèjts æmbɪ́ɡjuwəs ɪ́npʊ̀t ɪ́ntə klɪ́rər, kɒ́ntɛkst-rɪ́tʃ rɪtríjvəl kwɪ́rijz. kwíjrij rijrájt kwɑ́lɪtij ɪnkríjsəz ɛ́vɪdəns rɛ́ləvəns bɪfɔ́r dʒɛ̀nəréjʃən.",
+    "trans_Explanation": "kwíjrij rijrájtɪŋ. ɪt rɪfɔ́rməlèjts æmbɪ́ɡjuwəs ɪ́npʊ̀t ɪ́ntə klɪ́rər, kɒ́ntɛkst-rɪ́tʃ rɪtríjvəl kwɪ́rijz. kwíjrij rijrájt kwɑ́lɪtij ɪnkríjsɪz ɛ́vɪdəns rɛ́ləvəns bɪfɔ́r dʒɛ̀nəréjʃən.",
     "Difficulty": 3
   },
   {
@@ -2701,7 +2701,7 @@
       "Hosted agent"
     ],
     "Explanation": "Agent goal. It states the measurable outcome the agent should optimize for during task selection. A precise goal improves prioritization across competing actions.",
-    "trans_Question": "ən ɒ̀pəréjʃənz bɔ́t kəmplíjts tǽsks kwɪ́klij bət ɔ́fən tʃúwzəz lów-vǽljuw ǽkʃənz ðət də nɒ́t rɪdúws tɪ́kət bǽklɒ̀ɡ. wɪ́tʃ dɪzájn kɒ́nsɛpt ʃʊd ðə tíjm rɪfájn?",
+    "trans_Question": "ən ɒ̀pəréjʃənz bɔ́t kəmplíjts tǽsks kwɪ́klij bət ɔ́fən tʃúwzɪz lów-vǽljuw ǽkʃənz ðət də nɒ́t rɪdúws tɪ́kət bǽklɒ̀ɡ. wɪ́tʃ dɪzájn kɒ́nsɛpt ʃʊd ðə tíjm rɪfájn?",
     "trans_RightAnswer": "éjdʒənt ɡówl",
     "trans_WrongAnswers": [
       "éjdʒənt rówl",
@@ -2869,7 +2869,7 @@
       "kɒ̀nvərséjʃən hɪ́stərij",
       "kɒ̀nvərséjʃən",
       "kɒ́ntɛkst kəmpǽkʃən",
-      "dʊ́rəbəl mɛ́mərij"
+      "dʊ́rəbəl mɛ́mrij"
     ],
     "trans_Explanation": "rɪspɒ́ns. ɪt ɪz ðij ɪ̀ksəkjúwʃən rɪzə́lt ɒ́bdʒɛkt fɔr mɒ́dəl ɔr éjdʒənt prɒ́sɛsɪŋ ɪn ðə kɜ́rənt API mɒ́dəl. ɪt kǽptʃərz áwtpʊ̀ts ðət æ̀plɪkéjʃənz kən tʃéjn ɔr ɪ̀nspɛ́kt.",
     "Difficulty": 2
@@ -2891,7 +2891,7 @@
       "rɪspɒ́ns",
       "kɒ̀nvərséjʃən hɪ́stərij",
       "kɒ̀nvərséjʃən ájtəm",
-      "dʊ́rəbəl mɛ́mərij",
+      "dʊ́rəbəl mɛ́mrij",
       "rɪtríjvəl túwl"
     ],
     "trans_Explanation": "kɒ́ntɛkst kəmpǽkʃən. ɪt sə́məràjzɪz ɔr rɪmúwvz ówldər kɒ̀nvərséjʃən kɒ́ntɛnt tə rɪdúws tówkən kɔ́st wájl prɪzɜ́rvɪŋ ɪ̀nfərméjʃən níjdɪd fɔr kɒ̀ntɪnúwɪtij. əpláj ɪksplɪ́sɪt rɪtɛ́nʃən rúwlz sów ɪ̀mpɔ́rtənt ɪ̀nstrə́kʃənz ənd ríjsənt kɒ́ntɛkst rɪméjn əvéjləbəl.",
@@ -2912,7 +2912,7 @@
     "trans_RightAnswer": "kɒ́ntɛkst kəmpǽkʃən",
     "trans_WrongAnswers": [
       "kɒ̀nvərséjʃən hɪ́stərij",
-      "dʊ́rəbəl mɛ́mərij",
+      "dʊ́rəbəl mɛ́mrij",
       "rɪspɒ́ns",
       "rɪtríjvəl túwl",
       "fáwndrij IQ"
@@ -2931,8 +2931,8 @@
       "Azure AI Search"
     ],
     "Explanation": "Durable memory. It stores persistent user or agent facts beyond a single conversation lifecycle. Durable memory improves personalization across sessions.",
-    "trans_Question": "ə trǽvəl əsɪ́stənt ʃʊd rɪmɛ́mbər júwzər síjtɪŋ prɛ́fərənsɪz əkrɔ́s sɛ́pərèjt sɛ́ʃənz ənd fjúwtʃər kɒ̀nvərséjʃənz. wɪ́tʃ mɛ́mərij kɒ́nsɛpt ɪz rɪkwájərd?",
-    "trans_RightAnswer": "dʊ́rəbəl mɛ́mərij",
+    "trans_Question": "ə trǽvəl əsɪ́stənt ʃʊd rɪmɛ́mbər júwzər síjtɪŋ prɛ́fərənsɪz əkrɔ́s sɛ́pərèjt sɛ́ʃənz ənd fjúwtʃər kɒ̀nvərséjʃənz. wɪ́tʃ mɛ́mrij kɒ́nsɛpt ɪz rɪkwájərd?",
+    "trans_RightAnswer": "dʊ́rəbəl mɛ́mrij",
     "trans_WrongAnswers": [
       "kɒ́ntɛkst kəmpǽkʃən",
       "rɪtríjvəl túwl",
@@ -2940,7 +2940,7 @@
       "fáwndrij IQ",
       "ǽʒər AI sɜ́rtʃ"
     ],
-    "trans_Explanation": "dʊ́rəbəl mɛ́mərij. ɪt stɔ́rz pərsɪ́stənt júwzər ɔr éjdʒənt fǽkts bɪɒ́nd ə sɪ́ŋɡəl kɒ̀nvərséjʃən lájfsàjkəl. dʊ́rəbəl mɛ́mərij ɪ̀mprúwvz pɜ̀rsənələzéjʃən əkrɔ́s sɛ́ʃənz.",
+    "trans_Explanation": "dʊ́rəbəl mɛ́mrij. ɪt stɔ́rz pərsɪ́stənt júwzər ɔr éjdʒənt fǽkts bɪɒ́nd ə sɪ́ŋɡəl kɒ̀nvərséjʃən lájfsàjkəl. dʊ́rəbəl mɛ́mrij ɪ̀mprúwvz pɜ̀rsənəlɪzéjʃən əkrɔ́s sɛ́ʃənz.",
     "Difficulty": 2
   },
   {
@@ -2957,7 +2957,7 @@
     "trans_Question": "ən ɪ̀ntɜ́rnəl pɒ́lɪsij bɔ́t məst ǽnsər ównlij frəm əprúwvd ɛ́ntərpràjz dɒ́kjəmənts ənd ɪ̀nklúwd sajtéjʃənz. wɪ́tʃ túwl kǽtəɡɔ̀rij prəvájdz ðɪs ɡráwndɪŋ bɪhéjvjər?",
     "trans_RightAnswer": "rɪtríjvəl túwl",
     "trans_WrongAnswers": [
-      "dʊ́rəbəl mɛ́mərij",
+      "dʊ́rəbəl mɛ́mrij",
       "fáwndrij IQ",
       "kɒ́ntɛkst kəmpǽkʃən",
       "ǽʒər AI sɜ́rtʃ",
@@ -2982,11 +2982,11 @@
     "trans_WrongAnswers": [
       "rɪtríjvəl túwl",
       "ǽʒər AI sɜ́rtʃ",
-      "dʊ́rəbəl mɛ́mərij",
+      "dʊ́rəbəl mɛ́mrij",
       "fájl sɜ́rtʃ túwl",
       "fə́ŋkʃən túwl"
     ],
-    "trans_Explanation": "fáwndrij IQ. ɪt prəvájdz rijúwzəbəl ʃɛ́rd nɒ́lədʒ béjsəz fɔr pərmɪ́ʃən-əwɛ́r ɛ́ntərpràjz ɡráwndɪŋ. ɪt sɪ́mplɪfàjz krɔ́s-éjdʒənt nɒ́lədʒ rijjúws.",
+    "trans_Explanation": "fáwndrij IQ. ɪt prəvájdz rijúwzəbəl ʃɛ́rd nɒ́lədʒ béjsɪz fɔr pərmɪ́ʃən-əwɛ́r ɛ́ntərpràjz ɡráwndɪŋ. ɪt sɪ́mplɪfàjz krɔ́s-éjdʒənt nɒ́lədʒ rijjúws.",
     "Difficulty": 2
   },
   {
@@ -3023,7 +3023,7 @@
       "MCP server"
     ],
     "Explanation": "File search tool. It targets constrained document collections for case-specific retrieval. Scoped search reduces irrelevant or unauthorized context exposure.",
-    "trans_Question": "ə líjɡəl əsɪ́stənt ʃʊd sɜ́rtʃ ównlij ə skówpt dɒ́kjəmənt sɛ́t ə́plòwdɪd fɔr wə́n kéjs ənd əvɔ́jd brɔ́dər ɔ̀rɡənəzéjʃənəl ɪ́ndɛksɪz. wɪ́tʃ túwl ʃʊd bij júwzd?",
+    "trans_Question": "ə líjɡəl əsɪ́stənt ʃʊd sɜ́rtʃ ównlij ə skówpt dɒ́kjəmənt sɛ́t ə́plòwdɪd fɔr wə́n kéjs ənd əvɔ́jd brɔ́dər ɔ̀rɡənɪzéjʃənəl ɪ́ndɛksɪz. wɪ́tʃ túwl ʃʊd bij júwzd?",
     "trans_RightAnswer": "fájl sɜ́rtʃ túwl",
     "trans_WrongAnswers": [
       "ǽʒər AI sɜ́rtʃ",
@@ -3145,7 +3145,7 @@
       "ǽʒər lǽŋɡwɪdʒ MCP",
       "MCP sɜ́rvər",
       "ǽʒər spíjtʃ MCP",
-      "dɛ́ləɡèjtəd ɔ̀θərəzéjʃən"
+      "dɛ́ləɡèjtəd ɔ̀θərɪzéjʃən"
     ],
     "trans_Explanation": "wɛ́b sɜ́rtʃ túwl. ɪt rɪtríjvz kɜ́rənt pə́blɪk ɪ̀nfərméjʃən wɛ́n ríjsənsij ɪz ɪsɛ́nʃəl. pɒ́lɪsij kəntrówlz ʃʊd ɡə́vərn wɛ́n ɪkstɜ́rnəl sɜ́rtʃ ɪz pərmɪ́tɪd.",
     "Difficulty": 2
@@ -3167,10 +3167,10 @@
       "wɛ́b sɜ́rtʃ túwl",
       "ǽʒər spíjtʃ MCP",
       "kówd ɪ̀ntɜ́rprətər",
-      "dɛ́ləɡèjtəd ɔ̀θərəzéjʃən",
+      "dɛ́ləɡèjtəd ɔ̀θərɪzéjʃən",
       "éjdʒənt ajdɛ́ntɪtij"
     ],
-    "trans_Explanation": "ǽʒər lǽŋɡwɪdʒ MCP. ɪt ɪkspówzɪz lǽŋɡwɪdʒ-ənǽlɪsɪs kèjpəbɪ́lɪtijz æz dɪskə́vərəbəl MCP túwlz. ðɪ́s səpɔ́rts kənsɪ́stənt ɛ́ntɪtij, sɛ́ntɪmənt, kíj-fréjz, PII, ənd sə̀mərəzéjʃən wɜ́rkflòwz wɪθáwt kə́stəm rǽpərz.",
+    "trans_Explanation": "ǽʒər lǽŋɡwɪdʒ MCP. ɪt ɪkspówzɪz lǽŋɡwɪdʒ-ənǽlɪsɪs kèjpəbɪ́lɪtijz æz dɪskə́vərəbəl MCP túwlz. ðɪ́s səpɔ́rts kənsɪ́stənt ɛ́ntɪtij, sɛ́ntɪmənt, kíj-fréjz, PII, ənd sə̀mərɪzéjʃən wɜ́rkflòwz wɪθáwt kə́stəm rǽpərz.",
     "Difficulty": 3
   },
   {
@@ -3188,7 +3188,7 @@
     "trans_RightAnswer": "ǽʒər spíjtʃ MCP",
     "trans_WrongAnswers": [
       "ǽʒər lǽŋɡwɪdʒ MCP",
-      "dɛ́ləɡèjtəd ɔ̀θərəzéjʃən",
+      "dɛ́ləɡèjtəd ɔ̀θərɪzéjʃən",
       "wɛ́b sɜ́rtʃ túwl",
       "éjdʒənt ajdɛ́ntɪtij",
       "wɜ́rk IQ"
@@ -3208,7 +3208,7 @@
     ],
     "Explanation": "Delegated authorization. It applies per-user permissions when a tool call executes on behalf of a user. This model protects boundaries across tenants and roles.",
     "trans_Question": "ə bɔ́t kən rɛ́d júwzər fájlz ównlij ǽftər ǽktɪŋ ɒn bɪhǽf əv ðæt sájnd-ɪ́n júwzər ənd ɒ́nərɪŋ ðɛr pərmɪ́ʃənz. wɪ́tʃ ǽksɛ̀s mɒ́dəl ɪz ðɪ́s?",
-    "trans_RightAnswer": "dɛ́ləɡèjtəd ɔ̀θərəzéjʃən",
+    "trans_RightAnswer": "dɛ́ləɡèjtəd ɔ̀θərɪzéjʃən",
     "trans_WrongAnswers": [
       "ǽʒər spíjtʃ MCP",
       "éjdʒənt ajdɛ́ntɪtij",
@@ -3216,7 +3216,7 @@
       "wɜ́rk IQ",
       "tíjmz pə́blɪʃɪŋ"
     ],
-    "trans_Explanation": "dɛ́ləɡèjtəd ɔ̀θərəzéjʃən. ɪt əplájz pɜ́r-júwzər pərmɪ́ʃənz wɛ́n ə túwl kɔ́l ɪ́ksəkjùwts ɒn bɪhǽf əv ə júwzər. ðɪs mɒ́dəl prətɛ́kts báwndərijz əkrɔ́s tɛ́nənts ənd rówlz.",
+    "trans_Explanation": "dɛ́ləɡèjtəd ɔ̀θərɪzéjʃən. ɪt əplájz pɜ́r-júwzər pərmɪ́ʃənz wɛ́n ə túwl kɔ́l ɪ́ksəkjùwts ɒn bɪhǽf əv ə júwzər. ðɪs mɒ́dəl prətɛ́kts báwndərijz əkrɔ́s tɛ́nənts ənd rówlz.",
     "Difficulty": 3
   },
   {
@@ -3233,7 +3233,7 @@
     "trans_Question": "ən ənətɛ́ndɪd nájtlij éjdʒənt sɪ́ŋks rɪkɔ́rdz júwzɪŋ ɪts ówn skówpt pərmɪ́ʃənz rǽðər ðən ɛ́nij ɪ̀ndɪvɪ́dʒuwəl ɪmplɔ́jij əkáwnt. wɪ́tʃ sɪkjʊ́rɪtij kɒ́nsɛpt dəz ðɪ́s rɛ̀prɪzɛ́nt?",
     "trans_RightAnswer": "éjdʒənt ajdɛ́ntɪtij",
     "trans_WrongAnswers": [
-      "dɛ́ləɡèjtəd ɔ̀θərəzéjʃən",
+      "dɛ́ləɡèjtəd ɔ̀θərɪzéjʃən",
       "wɜ́rk IQ",
       "ǽʒər spíjtʃ MCP",
       "tíjmz pə́blɪʃɪŋ",
@@ -3258,7 +3258,7 @@
     "trans_WrongAnswers": [
       "éjdʒənt ajdɛ́ntɪtij",
       "tíjmz pə́blɪʃɪŋ",
-      "dɛ́ləɡèjtəd ɔ̀θərəzéjʃən",
+      "dɛ́ləɡèjtəd ɔ̀θərɪzéjʃən",
       "M365 kówpajlət ǽp",
       "A2A prówtəkɒ̀l"
     ],
@@ -3276,7 +3276,7 @@
       "Sequential orchestration"
     ],
     "Explanation": "Teams publishing. It delivers the agent into Microsoft Teams for conversational usage. This brings agent workflows into daily team communication.",
-    "trans_Question": "jɔr ɔ̀rɡənəzéjʃən wɒ́nts ɪmplɔ́jijz tə ɪ̀nvówk ə fáwndrij-bɪ́lt éjdʒənt dərɛ́ktlij wɪðɪ́n kəlæ̀bəréjʃən tʃǽts. wɪ́tʃ pə́blɪʃɪŋ tɑ́rɡət ʃʊd bij sɪlɛ́ktɪd?",
+    "trans_Question": "jɔr ɔ̀rɡənɪzéjʃən wɒ́nts ɪmplɔ́jijz tə ɪ̀nvówk ə fáwndrij-bɪ́lt éjdʒənt dərɛ́ktlij wɪðɪ́n kəlæ̀bəréjʃən tʃǽts. wɪ́tʃ pə́blɪʃɪŋ tɑ́rɡət ʃʊd bij sɪlɛ́ktɪd?",
     "trans_RightAnswer": "tíjmz pə́blɪʃɪŋ",
     "trans_WrongAnswers": [
       "wɜ́rk IQ",
@@ -3699,7 +3699,7 @@
       "fríjkwənsij pɛ́nəltij",
       "dʒéjsɒn skíjmə væ̀lɪdéjʃən"
     ],
-    "trans_Explanation": "tɒ́p-P sǽmplɪŋ (núwklijəs sɪlɛ́kʃən) lɪ́mɪts tʃɔ́jsəz tə ðə smɔ́ləst háj-prɒ̀bəbɪ́lɪtij tówkən mǽs. tɒ́p-P sǽmplɪŋ (sɛ́pərèjt frəm tɛ́mprətʃər túwnɪŋ) kíjps dàjəɡnɒ́stɪks klɪ́rər dʊ́rɪŋ ɒ̀ptɪməzéjʃən.",
+    "trans_Explanation": "tɒ́p-P sǽmplɪŋ (núwklijəs sɪlɛ́kʃən) lɪ́mɪts tʃɔ́jsəz tə ðə smɔ́ləst háj-prɒ̀bəbɪ́lɪtij tówkən mǽs. tɒ́p-P sǽmplɪŋ (sɛ́pərèjt frəm tɛ́mprətʃər túwnɪŋ) kíjps dàjəɡnɒ́stɪks klɪ́rər dʊ́rɪŋ ɒ̀ptɪmɪzéjʃən.",
     "Difficulty": 2
   },
   {
@@ -3736,7 +3736,7 @@
       "RAG vs fine-tuning"
     ],
     "Explanation": "Frequency penalty (repeat suppression) lowers probability for tokens already used in the response. Frequency penalty (moderate settings) improves readability when outputs become redundant.",
-    "trans_Question": "ə mɒ́dəl kíjps rɪpíjtɪŋ fréjzəz ɪn lɔ́ŋ sə́mərijz, rɪdúwsɪŋ rìjdəbɪ́lɪtij. wɪ́tʃ kəntrówl ɪz dɪzájnd tə rɪdúws rɪpíjtɪd tówkən pǽtərnz wɛ́n səpɔ́rtɪd?",
+    "trans_Question": "ə mɒ́dəl kíjps rɪpíjtɪŋ fréjzɪz ɪn lɔ́ŋ sə́mərijz, rɪdúwsɪŋ rìjdəbɪ́lɪtij. wɪ́tʃ kəntrówl ɪz dɪzájnd tə rɪdúws rɪpíjtɪd tówkən pǽtərnz wɛ́n səpɔ́rtɪd?",
     "trans_RightAnswer": "fríjkwənsij pɛ́nəltij",
     "trans_WrongAnswers": [
       "áwtpʊ̀t tówkən lɪ́mɪt",
@@ -3805,7 +3805,7 @@
       "Verifier model"
     ],
     "Explanation": "RAG vs fine-tuning (knowledge freshness versus behavior shaping) clarifies the correct optimization path. RAG vs fine-tuning (dynamic facts for retrieval, stable patterns for tuning) avoids misapplied training.",
-    "trans_Question": "prɒ́dəkt dɒ́ks əpdéjt déjlij, ənd júwzərz níjd kɜ́rənt fǽkts wɪð sajtéjʃənz, wájl brǽnd tówn ʃʊd rɪméjn kənsɪ́stənt. wɪ́tʃ kɒ́nsɛpt dɪstɪ́ŋɡwɪʃɪz nɒ́lədʒ frɛ́ʃnəs strǽtədʒij frəm bɪhéjvjər spɛ̀ʃələzéjʃən?",
+    "trans_Question": "prɒ́dəkt dɒ́ks əpdéjt déjlij, ənd júwzərz níjd kɜ́rənt fǽkts wɪð sajtéjʃənz, wájl brǽnd tówn ʃʊd rɪméjn kənsɪ́stənt. wɪ́tʃ kɒ́nsɛpt dɪstɪ́ŋɡwɪʃɪz nɒ́lədʒ frɛ́ʃnəs strǽtədʒij frəm bɪhéjvjər spɛ̀ʃəlɪzéjʃən?",
     "trans_RightAnswer": "rǽɡ vɜ́rsəs fájn-túwnɪŋ",
     "trans_WrongAnswers": [
       "mɒ́dəl sɪlɛ́kʃən",
@@ -3814,7 +3814,7 @@
       "túwl-rɪzə́lt rɪflɛ́kʃən",
       "vɛ́rɪfàjər mɒ́dəl"
     ],
-    "trans_Explanation": "rǽɡ vɜ́rsəs fájn-túwnɪŋ (nɒ́lədʒ frɛ́ʃnəs vɜ́rsəs bɪhéjvjər ʃéjpɪŋ) klɛ́rɪfàjz ðə kərɛ́kt ɒ̀ptɪməzéjʃən pǽθ. rǽɡ vɜ́rsəs fájn-túwnɪŋ (dajnǽmɪk fǽkts fɔr rɪtríjvəl, stéjbəl pǽtərnz fɔr túwnɪŋ) əvɔ́jdz mɪ̀səplájd tréjnɪŋ.",
+    "trans_Explanation": "rǽɡ vɜ́rsəs fájn-túwnɪŋ (nɒ́lədʒ frɛ́ʃnəs vɜ́rsəs bɪhéjvjər ʃéjpɪŋ) klɛ́rɪfàjz ðə kərɛ́kt ɒ̀ptɪmɪzéjʃən pǽθ. rǽɡ vɜ́rsəs fájn-túwnɪŋ (dajnǽmɪk fǽkts fɔr rɪtríjvəl, stéjbəl pǽtərnz fɔr túwnɪŋ) əvɔ́jdz mɪ̀səplájd tréjnɪŋ.",
     "Difficulty": 3
   },
   {
@@ -3828,7 +3828,7 @@
       "Iteration quality gate"
     ],
     "Explanation": "Self-critique loop (generate, inspect, revise) improves outputs against explicit quality criteria. Self-critique loop (bounded passes) captures gains without uncontrolled latency or cost.",
-    "trans_Question": "ən éjdʒənt drǽfts ɪ́nsɪdənt sə́mərijz, ðɛ́n tʃɛ́ks ðɛm əɡɛ́nst ɪksplɪ́sɪt kwɑ́lɪtij krajtɪ́rijə ənd rijrájts wíjk sɛ́kʃənz bɪfɔ́r rɪtɜ́rnɪŋ rɪzə́lts. wɪ́tʃ ɒ̀ptɪməzéjʃən kɒ́nsɛpt ɪz ðɪ́s?",
+    "trans_Question": "ən éjdʒənt drǽfts ɪ́nsɪdənt sə́mərijz, ðɛ́n tʃɛ́ks ðɛm əɡɛ́nst ɪksplɪ́sɪt kwɑ́lɪtij krajtɪ́rijə ənd rijrájts wíjk sɛ́kʃənz bɪfɔ́r rɪtɜ́rnɪŋ rɪzə́lts. wɪ́tʃ ɒ̀ptɪmɪzéjʃən kɒ́nsɛpt ɪz ðɪ́s?",
     "trans_RightAnswer": "sɛ́lf-krɪtíjk lúwp",
     "trans_WrongAnswers": [
       "rǽɡ vɜ́rsəs fájn-túwnɪŋ",
@@ -3860,7 +3860,7 @@
       "ɪ̀təréjʃən kwɑ́lɪtij ɡéjt",
       "prɒ́sɛ̀s ríjzənɪŋ ɪvæ̀ljuwéjʃən"
     ],
-    "trans_Explanation": "túwl-rɪzə́lt rɪflɛ́kʃən (plǽn əpdéjts frəm túwl ɛ́vɪdəns) rɪpléjsɪz əsə́mpʃənz wɪð əbzɜ́rvd rɪzə́lts. túwl-rɪzə́lt rɪflɛ́kʃən (ǽftər kənflɪ́kts ɔr ɪ́rərz) ɪnkríjsəz rowbə́stnəs ɪn mə́ltijstɛ̀p ɪ̀ksəkjúwʃən.",
+    "trans_Explanation": "túwl-rɪzə́lt rɪflɛ́kʃən (plǽn əpdéjts frəm túwl ɛ́vɪdəns) rɪpléjsɪz əsə́mpʃənz wɪð əbzɜ́rvd rɪzə́lts. túwl-rɪzə́lt rɪflɛ́kʃən (ǽftər kənflɪ́kts ɔr ɪ́rərz) ɪnkríjsɪz rowbə́stnəs ɪn mə́ltijstɛ̀p ɪ̀ksəkjúwʃən.",
     "Difficulty": 3
   },
   {
@@ -3975,7 +3975,7 @@
       "léjtənsij bréjkdàwn",
       "séjftij blɒ́k réjt"
     ],
-    "trans_Explanation": "tówkən təlɛ́mətrij (ɪ́npʊ̀t, áwtpʊ̀t, kǽʃt, ənd ríjzənɪŋ káwnts) ɪkspówzɪz ríjl tówkən ɪ̀kənɒ́mɪks. tówkən təlɛ́mətrij (pɜ́r-rɪkwɛ́st ənd ǽɡrəɡət vjúwz) ɡájdz ráwtɪŋ, kǽʃɪŋ, ənd prɒ́mpt ɒ̀ptɪməzéjʃən.",
+    "trans_Explanation": "tówkən təlɛ́mətrij (ɪ́npʊ̀t, áwtpʊ̀t, kǽʃt, ənd ríjzənɪŋ káwnts) ɪkspówzɪz ríjl tówkən ɪ̀kənɒ́mɪks. tówkən təlɛ́mətrij (pɜ́r-rɪkwɛ́st ənd ǽɡrəɡət vjúwz) ɡájdz ráwtɪŋ, kǽʃɪŋ, ənd prɒ́mpt ɒ̀ptɪmɪzéjʃən.",
     "Difficulty": 2
   },
   {
@@ -4067,7 +4067,7 @@
       "fɔ́lbæ̀k kæskéjd",
       "rúwlz ɛ́ndʒɪn ɪnfɔ́rsmənt"
     ],
-    "trans_Explanation": "kɔ́st kwɑ́lɪtij æ̀trɪbjúwʃən (kwɑ́lɪtij ənd spɛ́nd baj dɪmɛ́nʃən) ajdɛ́ntɪfàjz háj-ɪ́mpækt ɒ̀ptɪməzéjʃən tɑ́rɡəts. kɔ́st kwɑ́lɪtij æ̀trɪbjúwʃən (mɒ́dəl, rúwt, prɒ́mpt, tɛ́nənt, ənd fíjtʃər vjúwz) səpɔ́rts pɔrtfówlijòw dɪsɪ́ʒənz.",
+    "trans_Explanation": "kɔ́st kwɑ́lɪtij æ̀trɪbjúwʃən (kwɑ́lɪtij ənd spɛ́nd baj dɪmɛ́nʃən) ajdɛ́ntɪfàjz háj-ɪ́mpækt ɒ̀ptɪmɪzéjʃən tɑ́rɡəts. kɔ́st kwɑ́lɪtij æ̀trɪbjúwʃən (mɒ́dəl, rúwt, prɒ́mpt, tɛ́nənt, ənd fíjtʃər vjúwz) səpɔ́rts pɔrtfówlijòw dɪsɪ́ʒənz.",
     "Difficulty": 4
   },
   {
@@ -4159,7 +4159,7 @@
       "dʒɛ̀nəréjʃən kəntrówlz",
       "ɪ́mɪdʒ vɛ̀rijéjʃən"
     ],
-    "trans_Explanation": "prɒ́mpt kəmpównənts. dɪfájn səbdʒɛ́kt, kɒ̀mpəzɪ́ʃən, stájl, lájtɪŋ, kǽmərə ɪ̀ntɛ́nt, ənd kənstréjnts ɪn ə strə́ktʃərd prɒ́mpt. ǽd nɛ́ɡətɪv ɪ̀nstrə́kʃənz wɛ́r səpɔ́rtɪd tə rɪdúws ənwɔ́ntɪd ɪ́ləmənts.",
+    "trans_Explanation": "prɒ́mpt kəmpównənts. dɪfájn səbdʒɛ́kt, kɒ̀mpəzɪ́ʃən, stájl, lájtɪŋ, kǽmrə ɪ̀ntɛ́nt, ənd kənstréjnts ɪn ə strə́ktʃərd prɒ́mpt. ǽd nɛ́ɡətɪv ɪ̀nstrə́kʃənz wɛ́r səpɔ́rtɪd tə rɪdúws ənwɔ́ntɪd ɪ́ləmənts.",
     "Difficulty": 1
   },
   {
@@ -4357,7 +4357,7 @@
       "Media provenance controls"
     ],
     "Explanation": "Video generation controls. Configure duration, aspect ratio, resolution, motion strength, camera behavior, and seed where available. These settings provide predictable iteration for review cycles.",
-    "trans_Question": "ə stúwdijòw níjdz rɪpíjtəbəl vɪ́dijow rɛ́ndərz wɪð spəsɪ́fɪk klɪ́p lɛ́ŋkθ, fréjmɪŋ, rɛ̀zəlúwʃən, mówʃən stájl, ənd kǽmərə múwvmənt fɔr ɪ́tərèjtɪv rɪvjúwz. wɪ́tʃ kɒ́nsɛpt ʃʊd ðej túwn?",
+    "trans_Question": "ə stúwdijòw níjdz rɪpíjtəbəl vɪ́dijow rɛ́ndərz wɪð spəsɪ́fɪk klɪ́p lɛ́ŋkθ, fréjmɪŋ, rɛ̀zəlúwʃən, mówʃən stájl, ənd kǽmrə múwvmənt fɔr ɪ́tərèjtɪv rɪvjúwz. wɪ́tʃ kɒ́nsɛpt ʃʊd ðej túwn?",
     "trans_RightAnswer": "vɪ́dijow dʒɛ̀nəréjʃən kəntrówlz",
     "trans_WrongAnswers": [
       "vɪ́dijow dʒɛ̀nəréjʃən mówdz",
@@ -4366,7 +4366,7 @@
       "ejsɪ́ŋkrənəs dʒɛ̀nəréjʃən dʒɒ́bz",
       "míjdijə prɒ́vənəns kəntrówlz"
     ],
-    "trans_Explanation": "vɪ́dijow dʒɛ̀nəréjʃən kəntrówlz. kənfɪ́ɡjər dʊréjʃən, ǽspɛ̀kt réjʃijòw, rɛ̀zəlúwʃən, mówʃən strɛ́ŋkθ, kǽmərə bɪhéjvjər, ənd síjd wɛ́r əvéjləbəl. ðijz sɛ́tɪŋz prəvájd prɪdɪ́ktəbəl ɪ̀təréjʃən fɔr rɪvjúw sájkəlz.",
+    "trans_Explanation": "vɪ́dijow dʒɛ̀nəréjʃən kəntrówlz. kənfɪ́ɡjər dʊréjʃən, ǽspɛ̀kt réjʃijòw, rɛ̀zəlúwʃən, mówʃən strɛ́ŋkθ, kǽmrə bɪhéjvjər, ənd síjd wɛ́r əvéjləbəl. ðijz sɛ́tɪŋz prəvájd prɪdɪ́ktəbəl ɪ̀təréjʃən fɔr rɪvjúw sájkəlz.",
     "Difficulty": 3
   },
   {
@@ -4711,7 +4711,7 @@
       "ǽnəlàjzər skíjmə",
       "vɪ́dijow sɛ̀ɡməntéjʃən"
     ],
-    "trans_Explanation": "sɪ́ŋɡəl-tǽsk pájplàjn. sɪ́ŋɡəl-tǽsk pájplàjnz fówkəs ɒn wə́n ɪkstrǽkʃən əbdʒɛ́ktɪv ənd ɑr ɪfɪ́ʃənt fɔr tɑ́rɡətɪd sənɛ́rijòwz. ðej rɪdúws kəmplɛ́ksɪtij wɛ́n brɔ́d kə̀stəməzéjʃən ɪz ənnɛ́səsɛ̀rij.",
+    "trans_Explanation": "sɪ́ŋɡəl-tǽsk pájplàjn. sɪ́ŋɡəl-tǽsk pájplàjnz fówkəs ɒn wə́n ɪkstrǽkʃən əbdʒɛ́ktɪv ənd ɑr ɪfɪ́ʃənt fɔr tɑ́rɡətɪd sənɛ́rijòwz. ðej rɪdúws kəmplɛ́ksɪtij wɛ́n brɔ́d kə̀stəmɪzéjʃən ɪz ənnɛ́səsɛ̀rij.",
     "Difficulty": 2
   },
   {
@@ -4734,7 +4734,7 @@
       "vɪ́dijow sɛ̀ɡməntéjʃən",
       "vɪ́dijow ɪ́ndɛ̀ksər"
     ],
-    "trans_Explanation": "prów-mówd pájplàjn. prów-mówd pájplàjnz səpɔ́rt díjpər kə̀stəməzéjʃən fɔr kɒ́mplɛks ə̀ndərstǽndɪŋ rɪkwájrmənts ənd ədvǽnst prɒ́sɛsɪŋ bɪhéjvjər. ðej ɑr əprówprijət wɛ́n sɪ́mpəl fówkəst pájplàjnz kǽnɒt kǽptʃər sənɛ́rijòw níjdz.",
+    "trans_Explanation": "prów-mówd pájplàjn. prów-mówd pájplàjnz səpɔ́rt díjpər kə̀stəmɪzéjʃən fɔr kɒ́mplɛks ə̀ndərstǽndɪŋ rɪkwájrmənts ənd ədvǽnst prɒ́sɛsɪŋ bɪhéjvjər. ðej ɑr əprówprijət wɛ́n sɪ́mpəl fówkəst pájplàjnz kǽnɒt kǽptʃər sənɛ́rijòw níjdz.",
     "Difficulty": 3
   },
   {
@@ -5102,7 +5102,7 @@
       "kíj fréjz ɪkstrǽkʃən",
       "tɒ́pɪk ɪ́nfərəns"
     ],
-    "trans_Explanation": "néjmd ɛ́ntɪtij rɛ̀kəɡnɪ́ʃən. ɪt ɪ́kstræ̀kts ɛ́ntɪtijz ənd léjbəlz ðɛm baj kǽtəɡɔ̀rij sə́tʃ æz ɔ̀rɡənəzéjʃən, déjt, ɔr kwɑ́ntɪtij. kǽtəɡəràjzd ɛ́ntɪtijz səpɔ́rt prɪsájs wɜ́rkflòw ráwtɪŋ ənd æ̀nəlɪ́tɪks.",
+    "trans_Explanation": "néjmd ɛ́ntɪtij rɛ̀kəɡnɪ́ʃən. ɪt ɪ́kstræ̀kts ɛ́ntɪtijz ənd léjbəlz ðɛm baj kǽtəɡɔ̀rij sə́tʃ æz ɔ̀rɡənɪzéjʃən, déjt, ɔr kwɑ́ntɪtij. kǽtəɡəràjzd ɛ́ntɪtijz səpɔ́rt prɪsájs wɜ́rkflòw ráwtɪŋ ənd æ̀nəlɪ́tɪks.",
     "Difficulty": 2
   },
   {
@@ -5148,7 +5148,7 @@
       "sɛ́ntɪmənt ənǽlɪsɪs",
       "əpɪ́njən májnɪŋ"
     ],
-    "trans_Explanation": "kíj fréjz ɪkstrǽkʃən. ɪt rɪtɜ́rnz kənsájs tɜ́rmz ðət rɛ̀prɪzɛ́nt séjlijənt ajdíjəz ɪn ðə sɔ́rs tɛ́kst. ðijz fréjzəz ɑr júwsfəl fɔr ɪ́ndɛksɪŋ, fɪ́ltərɪŋ, ənd kwɪ́k trijɑ́ʒ.",
+    "trans_Explanation": "kíj fréjz ɪkstrǽkʃən. ɪt rɪtɜ́rnz kənsájs tɜ́rmz ðət rɛ̀prɪzɛ́nt séjlijənt ajdíjəz ɪn ðə sɔ́rs tɛ́kst. ðijz fréjzɪz ɑr júwsfəl fɔr ɪ́ndɛksɪŋ, fɪ́ltərɪŋ, ənd kwɪ́k trijɑ́ʒ.",
     "Difficulty": 1
   },
   {
@@ -5169,9 +5169,9 @@
       "sɛ́ntɪmənt ənǽlɪsɪs",
       "PII rɪdǽkʃən",
       "əpɪ́njən májnɪŋ",
-      "ɪkstrǽktɪv sə̀mərəzéjʃən"
+      "ɪkstrǽktɪv sə̀mərɪzéjʃən"
     ],
-    "trans_Explanation": "tɒ́pɪk ɪ́nfərəns. ɪt ɡrúwps kɒ́ntɛnt ɪ́ntə brɔ́dər θíjmz ðət sə́məràjz wɒt kəlɛ́kʃənz əv dɒ́kjəmənts dɪskə́s. ðɪ́s ɪz dɪ́fərənt frəm kíj fréjzəz, wɪ́tʃ ɑr lówkəl tɛ́kst spǽnz.",
+    "trans_Explanation": "tɒ́pɪk ɪ́nfərəns. ɪt ɡrúwps kɒ́ntɛnt ɪ́ntə brɔ́dər θíjmz ðət sə́məràjz wɒt kəlɛ́kʃənz əv dɒ́kjəmənts dɪskə́s. ðɪ́s ɪz dɪ́fərənt frəm kíj fréjzɪz, wɪ́tʃ ɑr lówkəl tɛ́kst spǽnz.",
     "Difficulty": 3
   },
   {
@@ -5191,8 +5191,8 @@
       "tɒ́pɪk ɪ́nfərəns",
       "əpɪ́njən májnɪŋ",
       "kíj fréjz ɪkstrǽkʃən",
-      "ɪkstrǽktɪv sə̀mərəzéjʃən",
-      "æbstrǽktɪv sə̀mərəzéjʃən"
+      "ɪkstrǽktɪv sə̀mərɪzéjʃən",
+      "æbstrǽktɪv sə̀mərɪzéjʃən"
     ],
     "trans_Explanation": "sɛ́ntɪmənt ənǽlɪsɪs. ɪt skɔ́rz powlɛ́rɪtij ət dɒ́kjəmənt ənd sɛ́ntəns ɡræ̀njəlɛ́rɪtij. ðɪ́s səpɔ́rts ǽɡrəɡət KPIz ənd tɑ́rɡətɪd rɪmìjdijéjʃən fɔr prɒ̀bləmǽtɪk stéjtmənts.",
     "Difficulty": 2
@@ -5212,9 +5212,9 @@
     "trans_RightAnswer": "əpɪ́njən májnɪŋ",
     "trans_WrongAnswers": [
       "sɛ́ntɪmənt ənǽlɪsɪs",
-      "ɪkstrǽktɪv sə̀mərəzéjʃən",
+      "ɪkstrǽktɪv sə̀mərɪzéjʃən",
       "tɒ́pɪk ɪ́nfərəns",
-      "æbstrǽktɪv sə̀mərəzéjʃən",
+      "æbstrǽktɪv sə̀mərɪzéjʃən",
       "hɛ́lθkɛ̀r NER"
     ],
     "trans_Explanation": "əpɪ́njən májnɪŋ. ɪt lɪ́ŋks sɛ́ntɪmənt tə spəsɪ́fɪk tɑ́rɡəts ənd ðɛr əsɛ́smənts. ðɪ́s prədúwsɪz ǽspɛ̀kt-lɛ́vəl ɪ́nsàjts rǽðər ðən wə́n blɛ́ndɪd sɛ́ntɪmənt skɔ́r.",
@@ -5231,16 +5231,16 @@
       "Asynchronous jobs"
     ],
     "Explanation": "Extractive summarization. It selects existing sentences from the original text based on salience. Because wording is reused, hallucination risk is generally lower.",
-    "trans_Question": "ə líjɡəl tíjm rɪkwájərz sə́mərijz kəmpówzd ównlij əv ɪɡzǽkt sɛ́ntənsəz frəm sɔ́rs kɒ́ntræ̀kts tə rɪdúws fǽktʃuwəl drɪ́ft. wɪ́tʃ sə̀mərəzéjʃən mówd ɪz əprówprijət?",
-    "trans_RightAnswer": "ɪkstrǽktɪv sə̀mərəzéjʃən",
+    "trans_Question": "ə líjɡəl tíjm rɪkwájərz sə́mərijz kəmpówzd ównlij əv ɪɡzǽkt sɛ́ntənsəz frəm sɔ́rs kɒ́ntræ̀kts tə rɪdúws fǽktʃuwəl drɪ́ft. wɪ́tʃ sə̀mərɪzéjʃən mówd ɪz əprówprijət?",
+    "trans_RightAnswer": "ɪkstrǽktɪv sə̀mərɪzéjʃən",
     "trans_WrongAnswers": [
       "əpɪ́njən májnɪŋ",
-      "æbstrǽktɪv sə̀mərəzéjʃən",
+      "æbstrǽktɪv sə̀mərɪzéjʃən",
       "sɛ́ntɪmənt ənǽlɪsɪs",
       "hɛ́lθkɛ̀r NER",
       "ejsɪ́ŋkrənəs dʒɒ́bz"
     ],
-    "trans_Explanation": "ɪkstrǽktɪv sə̀mərəzéjʃən. ɪt sɪlɛ́kts ɪɡzɪ́stɪŋ sɛ́ntənsəz frəm ðij ərɪ́dʒɪnəl tɛ́kst béjst ɒn séjlijəns. bɪkɒ́z wɜ́rdɪŋ ɪz rijúwzd, həlùwsɪnéjʃən rɪ́sk ɪz dʒɛ́nərəlij lówər.",
+    "trans_Explanation": "ɪkstrǽktɪv sə̀mərɪzéjʃən. ɪt sɪlɛ́kts ɪɡzɪ́stɪŋ sɛ́ntənsəz frəm ðij ərɪ́dʒɪnəl tɛ́kst béjst ɒn séjlijəns. bɪkɒ́z wɜ́rdɪŋ ɪz rijúwzd, həlùwsɪnéjʃən rɪ́sk ɪz dʒɛ́nərəlij lówər.",
     "Difficulty": 2
   },
   {
@@ -5255,15 +5255,15 @@
     ],
     "Explanation": "Abstractive summarization. It generates new wording that condenses and rephrases source content. This can improve readability but needs grounding checks.",
     "trans_Question": "ɪɡzɛ́kjətɪvz rɪkwɛ́st kənsájs nǽrətɪv ríjkæ̀ps ðət mɜ́rdʒ dúwplɪkət dɪtéjlz frəm lɔ́ŋ rɪpɔ́rts ɪ̀nstɛ́d əv kɒ́pijɪŋ ərɪ́dʒɪnəl sɛ́ntənsəz. wɪ́tʃ mówd ʃʊd juw tʃúwz?",
-    "trans_RightAnswer": "æbstrǽktɪv sə̀mərəzéjʃən",
+    "trans_RightAnswer": "æbstrǽktɪv sə̀mərɪzéjʃən",
     "trans_WrongAnswers": [
-      "ɪkstrǽktɪv sə̀mərəzéjʃən",
+      "ɪkstrǽktɪv sə̀mərɪzéjʃən",
       "hɛ́lθkɛ̀r NER",
       "əpɪ́njən májnɪŋ",
       "ejsɪ́ŋkrənəs dʒɒ́bz",
       "prìjbɪ́lt ɒ̀pəréjʃənz"
     ],
-    "trans_Explanation": "æbstrǽktɪv sə̀mərəzéjʃən. ɪt dʒɛ́nərèjts núw wɜ́rdɪŋ ðət kəndɛ́nsɪz ənd rɪfréjzɪz sɔ́rs kɒ́ntɛnt. ðɪ́s kən ɪ̀mprúwv rìjdəbɪ́lɪtij bət níjdz ɡráwndɪŋ tʃɛ́ks.",
+    "trans_Explanation": "æbstrǽktɪv sə̀mərɪzéjʃən. ɪt dʒɛ́nərèjts núw wɜ́rdɪŋ ðət kəndɛ́nsɪz ənd rɪfréjzɪz sɔ́rs kɒ́ntɛnt. ðɪ́s kən ɪ̀mprúwv rìjdəbɪ́lɪtij bət níjdz ɡráwndɪŋ tʃɛ́ks.",
     "Difficulty": 2
   },
   {
@@ -5280,9 +5280,9 @@
     "trans_Question": "ə hɒ́spɪ̀təl æ̀nəlɪ́tɪks wɜ́rkflòw məst ajdɛ́ntɪfàj mɛ̀dɪkéjʃənz, dàjəɡnówsijz, ənd klɪ́nɪkəl rɪléjʃənʃɪ̀ps frəm dɪstʃɑ́rdʒ nówts. wɪ́tʃ spɛ́ʃəlàjzd lǽŋɡwɪdʒ fíjtʃər ɪz dɪzájnd fɔr ðɪ́s?",
     "trans_RightAnswer": "hɛ́lθkɛ̀r NER",
     "trans_WrongAnswers": [
-      "æbstrǽktɪv sə̀mərəzéjʃən",
+      "æbstrǽktɪv sə̀mərɪzéjʃən",
       "ejsɪ́ŋkrənəs dʒɒ́bz",
-      "ɪkstrǽktɪv sə̀mərəzéjʃən",
+      "ɪkstrǽktɪv sə̀mərɪzéjʃən",
       "prìjbɪ́lt ɒ̀pəréjʃənz",
       "lǽŋɡwɪdʒ MCP sɜ́rvər"
     ],
@@ -5305,7 +5305,7 @@
     "trans_WrongAnswers": [
       "hɛ́lθkɛ̀r NER",
       "prìjbɪ́lt ɒ̀pəréjʃənz",
-      "æbstrǽktɪv sə̀mərəzéjʃən",
+      "æbstrǽktɪv sə̀mərɪzéjʃən",
       "lǽŋɡwɪdʒ MCP sɜ́rvər",
       "dʒéjsɒn skíjmə"
     ],
@@ -5332,7 +5332,7 @@
       "dʒéjsɒn skíjmə",
       "íjnəmz"
     ],
-    "trans_Explanation": "prìjbɪ́lt ɒ̀pəréjʃənz. ǽʒər lǽŋɡwɪdʒ prəvájdz stǽndərd tǽsks lájk sɛ́ntɪmənt, NER, ənd sə̀mərəzéjʃən wɪð kənsɪ́stənt kɒ́ntræ̀kts. dʒɛ́nərətɪv prɒ́mptɪŋ ɪz ðɛ́n júwzd wɛ́n kə́stəm bɪhéjvjər ɪz rɪkwájərd.",
+    "trans_Explanation": "prìjbɪ́lt ɒ̀pəréjʃənz. ǽʒər lǽŋɡwɪdʒ prəvájdz stǽndərd tǽsks lájk sɛ́ntɪmənt, NER, ənd sə̀mərɪzéjʃən wɪð kənsɪ́stənt kɒ́ntræ̀kts. dʒɛ́nərətɪv prɒ́mptɪŋ ɪz ðɛ́n júwzd wɛ́n kə́stəm bɪhéjvjər ɪz rɪkwájərd.",
     "Difficulty": 2
   },
   {
@@ -5530,7 +5530,7 @@
       "Named entity recognition"
     ],
     "Explanation": "Azure Translator. It provides predictable API-based translation behavior across supported language pairs. LLM translation is useful for nuanced rewriting but is typically more variable.",
-    "trans_Question": "ə lòwkələzéjʃən pájplàjn níjdz dɪtɜ̀rmɪnɪ́stɪk trænzléjʃənz fɔr səpɔ́rtɪd lǽŋɡwɪdʒɪz ɪn prədə́kʃən SLAz, wájl mɪ́nɪmàjzɪŋ krijéjtɪv vɛ́rijəns. wɪ́tʃ sɜ́rvɪs ɪz ðə bɛ́st dɪfɔ́lt?",
+    "trans_Question": "ə lòwkəlɪzéjʃən pájplàjn níjdz dɪtɜ̀rmɪnɪ́stɪk trænzléjʃənz fɔr səpɔ́rtɪd lǽŋɡwɪdʒɪz ɪn prədə́kʃən SLAz, wájl mɪ́nɪmàjzɪŋ krijéjtɪv vɛ́rijəns. wɪ́tʃ sɜ́rvɪs ɪz ðə bɛ́st dɪfɔ́lt?",
     "trans_RightAnswer": "ǽʒər trænsléjtər",
     "trans_WrongAnswers": [
       "síjkrəts dɪtɛ́kʃən",
@@ -5723,7 +5723,7 @@
       "spíjtʃ trænzléjʃən",
       "trænzléjʃən wɜ́rkflòw ɔ̀rkəstréjʃən"
     ],
-    "trans_Explanation": "SSML vɔ́js kəntrówlz. SSML lɛ́ts juw sɛ́t pɔ́zəz, réjt, pɪ́tʃ, ɛ́mfəsɪs, ənd prənə̀nsijéjʃən ɪn ə strə́ktʃərd wéj. ɪt prəvájdz fájnər kəntrówl ðən pléjn tɛ́kst-tə-spíjtʃ dɪfɔ́lts.",
+    "trans_Explanation": "SSML vɔ́js kəntrówlz. SSML lɛ́ts juw sɛ́t pɔ́zɪz, réjt, pɪ́tʃ, ɛ́mfəsɪs, ənd prənə̀nsijéjʃən ɪn ə strə́ktʃərd wéj. ɪt prəvájdz fájnər kəntrówl ðən pléjn tɛ́kst-tə-spíjtʃ dɪfɔ́lts.",
     "Difficulty": 3
   },
   {
@@ -6250,7 +6250,7 @@
       "kə́stəm skɪ́l",
       "dɒ́kjəmənt krǽkɪŋ",
       "nɒ́lədʒ prədʒɛ́kʃən",
-      "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən"
+      "ɪ́ntəɡrèjtəd vɛ̀ktərɪzéjʃən"
     ],
     "trans_Explanation": "tʃə́ŋkɪŋ strǽtədʒij. tʃúwzɪŋ péjdʒ, pǽrəɡræ̀f, hɛ́dɪŋ, sɛ́ntəns, tówkən, ɔr sɪmǽntɪk báwndərijz dɪtɜ́rmɪnz rɪtríjvəl prijsɪ́ʒən ənd kɒ́ntɛkst kowhɪ́rəns. prɒ́pər ówvərlæ̀p ənd báwndərij rúwlz rɪdúws frǽɡməntɪd ɛ́vɪdəns.",
     "Difficulty": 3
@@ -6272,10 +6272,10 @@
       "tʃə́ŋkɪŋ strǽtədʒij",
       "nɒ́lədʒ prədʒɛ́kʃən",
       "léjàwt ɪkstrǽkʃən",
-      "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən",
+      "ɪ́ntəɡrèjtəd vɛ̀ktərɪzéjʃən",
       "hájbrɪd rɪtríjvəl"
     ],
-    "trans_Explanation": "kə́stəm skɪ́l. kə́stəm skɪ́lz ɪ̀ndʒɛ́kt ɔ̀rɡənəzéjʃən-spəsɪ́fɪk ɪkstrǽkʃən ɔr træ̀nsfərméjʃən lɒ́dʒɪk ɪ́ntə ðij ɪnrɪ́tʃmənt pájplàjn. ðej kɒ́mpləmənt bɪ́lt-ɪ́n skɪ́lz wɛ́n prəprájətɛ̀rij sɪmǽntɪks ɑr rɪkwájərd.",
+    "trans_Explanation": "kə́stəm skɪ́l. kə́stəm skɪ́lz ɪ̀ndʒɛ́kt ɔ̀rɡənɪzéjʃən-spəsɪ́fɪk ɪkstrǽkʃən ɔr træ̀nsfərméjʃən lɒ́dʒɪk ɪ́ntə ðij ɪnrɪ́tʃmənt pájplàjn. ðej kɒ́mpləmənt bɪ́lt-ɪ́n skɪ́lz wɛ́n prəprájətɛ̀rij sɪmǽntɪks ɑr rɪkwájərd.",
     "Difficulty": 3
   },
   {
@@ -6293,7 +6293,7 @@
     "trans_RightAnswer": "nɒ́lədʒ prədʒɛ́kʃən",
     "trans_WrongAnswers": [
       "kə́stəm skɪ́l",
-      "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən",
+      "ɪ́ntəɡrèjtəd vɛ̀ktərɪzéjʃən",
       "tʃə́ŋkɪŋ strǽtədʒij",
       "hájbrɪd rɪtríjvəl",
       "rɪsɪ́prəkəl rǽŋk fjúwʒən"
@@ -6313,7 +6313,7 @@
     ],
     "Explanation": "Integrated vectorization. It coordinates chunking, embedding, indexing, and query-time vectorization in a unified Search workflow. This reduces custom orchestration and model mismatch risks.",
     "trans_Question": "juw wɒ́nt wə́n mǽnədʒd pájplàjn tə splɪ́t kɒ́ntɛnt, krijéjt ɪmbɛ́dɪŋz, rájt vɛ́ktərz, ənd ɪmbɛ́d júwzər kwɪ́rijz ət rə́ntàjm wɪð mɪ́nɪməl ǽp kówd. wɪ́tʃ fíjtʃər mǽtʃɪz ðɪs rɪkwájrmənt?",
-    "trans_RightAnswer": "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən",
+    "trans_RightAnswer": "ɪ́ntəɡrèjtəd vɛ̀ktərɪzéjʃən",
     "trans_WrongAnswers": [
       "nɒ́lədʒ prədʒɛ́kʃən",
       "hájbrɪd rɪtríjvəl",
@@ -6321,7 +6321,7 @@
       "rɪsɪ́prəkəl rǽŋk fjúwʒən",
       "mɛ́tədèjtə fɪ́ltərz"
     ],
-    "trans_Explanation": "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən. ɪt kowɔ́rdɪnèjts tʃə́ŋkɪŋ, ɪmbɛ́dɪŋ, ɪ́ndɛksɪŋ, ənd kwíjrij-tájm vɛ̀ktərəzéjʃən ɪn ə júwnɪfàjd sɜ́rtʃ wɜ́rkflòw. ðɪ́s rɪdúwsəz kə́stəm ɔ̀rkəstréjʃən ənd mɒ́dəl mɪsmǽtʃ rɪ́sks.",
+    "trans_Explanation": "ɪ́ntəɡrèjtəd vɛ̀ktərɪzéjʃən. ɪt kowɔ́rdɪnèjts tʃə́ŋkɪŋ, ɪmbɛ́dɪŋ, ɪ́ndɛksɪŋ, ənd kwíjrij-tájm vɛ̀ktərɪzéjʃən ɪn ə júwnɪfàjd sɜ́rtʃ wɜ́rkflòw. ðɪ́s rɪdúwsəz kə́stəm ɔ̀rkəstréjʃən ənd mɒ́dəl mɪsmǽtʃ rɪ́sks.",
     "Difficulty": 4
   },
   {
@@ -6338,7 +6338,7 @@
     "trans_Question": "ə səpɔ́rt əsɪ́stənt ʃʊd kɒ́mbajn ɪɡzǽkt SKU kíjwɜ̀rd mǽtʃɪz wɪð sɪmǽntɪk sɪ̀mɪlɛ́rɪtij frəm ɪmbɛ́dɪŋz ɪn ə sɪ́ŋɡəl rɪkwɛ́st. wɪ́tʃ rɪtríjvəl mówd ʃʊd bij júwzd?",
     "trans_RightAnswer": "hájbrɪd rɪtríjvəl",
     "trans_WrongAnswers": [
-      "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən",
+      "ɪ́ntəɡrèjtəd vɛ̀ktərɪzéjʃən",
       "rɪsɪ́prəkəl rǽŋk fjúwʒən",
       "nɒ́lədʒ prədʒɛ́kʃən",
       "mɛ́tədèjtə fɪ́ltərz",
@@ -6363,7 +6363,7 @@
     "trans_WrongAnswers": [
       "hájbrɪd rɪtríjvəl",
       "mɛ́tədèjtə fɪ́ltərz",
-      "ɪ́ntəɡrèjtəd vɛ̀ktərəzéjʃən",
+      "ɪ́ntəɡrèjtəd vɛ̀ktərɪzéjʃən",
       "fǽsəts",
       "səɡdʒɛ́stər"
     ],
@@ -6450,7 +6450,7 @@
       "Embedding compatibility"
     ],
     "Explanation": "Scoring profile. Scoring profiles apply weighted boosts and functions to lexical ranking behavior. They encode business relevance beyond raw term frequency.",
-    "trans_Question": "líjɡəl sajtéjʃənz məst àwtrǽŋk blɔ́ɡ pówsts wɛ́n bówθ kəntéjn sɪ́mɪlər tɜ́rmz, béjst ɒn ə dɒ́kjəmənt ɪ̀mpɔ́rtəns fíjld. wɪ́tʃ rǽŋkɪŋ kə̀stəməzéjʃən ɪz dɪzájnd fɔr ðɪ́s?",
+    "trans_Question": "líjɡəl sajtéjʃənz məst àwtrǽŋk blɔ́ɡ pówsts wɛ́n bówθ kəntéjn sɪ́mɪlər tɜ́rmz, béjst ɒn ə dɒ́kjəmənt ɪ̀mpɔ́rtəns fíjld. wɪ́tʃ rǽŋkɪŋ kə̀stəmɪzéjʃən ɪz dɪzájnd fɔr ðɪ́s?",
     "trans_RightAnswer": "skɔ́rɪŋ prówfàjl",
     "trans_WrongAnswers": [
       "səɡdʒɛ́stər",
