@@ -165,7 +165,7 @@ Rules:
 
 The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and stressed vowels are unaffected. Within this zone the tie-breaker outranks dictionary notation (§1).
 
-**Syncope — parenthesized schwas are dropped.** When Merriam-Webster's first listing shows a medial schwa in parentheses — \(ə-)\ — the syllable is omitted, because the compressed form is how the word is spoken: *different* `dɪ́frənt`, *difference* `dɪ́frəns`, *sovereign* `sɒ́vrən`, *laboratory* `lǽbrətɔ̀rij`, *deliberate* (adj.) `dɪlɪ́brət`. When M-W lists the full form unparenthesized, the schwa stays: *natural* `nǽtʃərəl`. The fixed transcriptions of §6 and §7 outrank this rule — *-ally* is always `əlij` (`tɪ́pɪkəlij`), even where M-W parenthesizes it.
+**Syncope — parenthesized schwas are dropped.** When Merriam-Webster's first listing shows a medial schwa in parentheses — \(ə-)\ — the syllable is omitted, because the compressed form is how the word is spoken: *different* `dɪ́frənt`, *difference* `dɪ́frəns`, *sovereign* `sɒ́vrən`, *laboratory* `lǽbrətɔ̀rij`, *deliberate* (adj.) `dɪlɪ́brət`. When M-W lists the full form unparenthesized, the schwa stays: *natural* `nǽtʃərəl`. One word can go both ways by part of speech: *separate* (adj.) `sɛ́prət` (M-W `ˈse-p(ə-)rət`) but the verb *separate* `sɛ́pərèjt` (M-W `ˈse-pə-ˌrāt`). The fixed transcriptions of §6 and §7 outrank this rule — *-ally* is always `əlij` (`tɪ́pɪkəlij`), even where M-W parenthesizes it.
 
 **Which parenthesis counts.** M-W's listing of the *form in question* uses four notations, and each one decides differently:
 
@@ -178,7 +178,7 @@ The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and s
 
 The `-le` / `-el` + *-ing* forms are the common case, but the rule is the **parenthesis, not the letter `l`**: a consonant before `l` does not by itself force syncope (*handling* `hǽndəlɪŋ`, never `hǽndlɪŋ`), and a bracketed schwa is dropped wherever it appears (*different*, *really*, *wobbling*).
 
-**The listing consulted is the word's own, not its base's,** so a derived form can syncopate where its base does not: *real* `ríjəl` but *really* `ríjlij` (M-W rē-(ə-)lē), *careful* `kɛ́rfəl` but *carefully* `kɛ́rflij` (M-W ker-f(ə-)lē).
+**The listing consulted is the word's own, not its base's,** so a derived form can syncopate where its base does not: *real* `ríjəl` but *really* `ríjlij` (M-W rē-(ə-)lē), *careful* `kɛ́rfəl` but *carefully* `kɛ́rflij` (M-W ker-f(ə-)lē) — and a form derived from an already-syncopated adjective keeps the loss: *separately* `sɛ́prətlij`.
 
 Individual words can also be ruled against the derivation in either direction as an editorial decision; those rulings live in `transcription-corrections.json`, not in this rule. The `-able` ending is one such case: *answerable* is `ǽnsərəbəl` (æn-sər-ə-bəl), never `ǽnsrəbəl`. The other direction: *reconciling* is `rɛ́kənsàjlɪŋ`, syncopated even though its base's bracketed `(-ə)` would keep the vowel.
 
@@ -560,6 +560,7 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `fréjzəz`, `ɪnkríjsəz`, `mɪ́nɪmàjzəz` | `fréjzɪz`, `ɪnkríjsɪz`, `mɪ́nɪmàjzɪz` | the fixed *-es* ending is `ɪz` even after a sibilant (§4.4); 14 AI-103 tokens wrote `əz`, while every `examples/` token was already correct |
 | `fǽməlij`, `kǽmərəz`, `mɛ́mərij` | `fǽmlij`, `kǽmrəz`, `mɛ́mrij` | *family*, *camera* and *memory* are syncope, not `ɪ`: M-W's first listing is already compressed (`ˈfam-lē`, `ˈkam-rə`, `ˈmem-rē`), so §4.4 drops the syllable (cf. *several* `sɛ́vrəl`) |
 | `ríjəlij`, `kɛ́rfəlij` | `ríjlij`, `kɛ́rflij` | §4.4 syncope reads the word's own M-W listing, so a parenthesized medial schwa is dropped even when the base keeps it (*real* `ríjəl`, *careful* `kɛ́rfəl`) |
+| `sɛ́pərət`, `sɛ́pərətlij` | `sɛ́prət`, `sɛ́prətlij` | the adjective *separate* and its adverb are ordinary §4.4 syncope (M-W `ˈse-p(ə-)rət`), so the bracketed schwa is dropped; the verb is the opposite case and keeps it, `sɛ́pərèjt` (M-W `ˈse-pə-ˌrāt`) — the corpus held 8 adjective/adverb tokens with the schwa, and one token wrote the verb with the adjective's form |
 | `ǽnsrəbəl` | `ǽnsərəbəl` | editorial exception, not a derivation: `-able` words keep M-W's full form, and the ledger records each such ruling |
 | `déjnədʒərəs`, `déjnədʒər` | `déjndʒərəs`, `déjndʒər` | editorial exception in the opposite direction from `ǽnsrəbəl`: M-W prints the *danger* family's medial schwa unparenthesized (`ˈdān-jə-rəs`, `ˈdān-jər`), so §4.4 would keep it — the compressed form is ruled for the whole family, and the ledger records it |
 | `wɒ́bəlɪŋ`, `dɪséjbəlɪŋ`, `kǽnsəlɪŋ`, `mɒ́dəlɪŋ` | `wɒ́blɪŋ`, `dɪséjblɪŋ`, `kǽnslɪŋ`, `mɒ́dlɪŋ` | M-W's own listing for the *-ing* form decides: a bracketed `(ə-)` and an already-compressed listing both lose the syllable (§4.4) |

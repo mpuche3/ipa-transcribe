@@ -2248,5 +2248,23 @@
     "wrong_transcription": "strájɪŋ",
     "correct_transcription": "strájkɪŋ",
     "explanation": "The k of *strike* is pronounced, so it has to be written — §3 bans writing deletion, and the §13 row for dropped consonants covers the class (*writing* rájɪŋ → rájtɪŋ, *exciting* ɪksájɪŋ → ɪksájtɪŋ, *suggests* sədʒɛ́sts → səɡdʒɛ́sts). Found in TRN_NicaraguanSignLanguage L4 on 2026-09-27 and fixed; a corpus-wide scan of source k/ck against the transcription found no other real instance (the remaining hits are silent-k *unknown*/*well-known* and pass-through identifiers such as SDK, KPI, SKU, Top-k)."
+  },
+  {
+    "word": "separate (adjective)",
+    "wrong_transcription": "sɛ́pərət",
+    "correct_transcription": "sɛ́prət",
+    "explanation": "§4.4 syncope: M-W's own listing of the adjective is ˈse-p(ə-)rət, so the bracketed medial (ə-) is dropped. The verb is the opposite case — M-W ˈse-pə-ˌrāt is unparenthesized, so it keeps its schwa (sɛ́pərèjt). The corpus was split, not uniform: 6 tokens wrote sɛ́pərət (TRN_CognitiveLoad L27/L35/L44/L55, TRN_TheAlignmentProblem L25, TRN_the_case_for_superintelligence L7) against 3 that were already sɛ́prət (TRN_AgentHackingHuggingFace L5, TRN_TheTuringMachine L5, and the Y2K line, which is the verb). Swept 2026-09-27; the adverb separately went with it, and the guide's §4.4 syncope paragraph now shows the adjective/verb pair."
+  },
+  {
+    "word": "separately",
+    "wrong_transcription": "sɛ́pərətlij",
+    "correct_transcription": "sɛ́prətlij",
+    "explanation": "The adverb built on a syncopating adjective keeps the loss: M-W lists the adjective as ˈse-p(ə-)rət, and the run-on adverb inherits it, so §4.4 drops the bracketed schwa. 5 tokens were wrong: TRN_TheAlignmentProblem L13 and L43, plus 3 in AI-103-questions.json (two trans_Question fields and one trans_Explanation). Swept 2026-09-27, and the guide's §4.4 derived-form paragraph now shows the pair."
+  },
+  {
+    "word": "separate (verb)",
+    "wrong_transcription": "sɛ́prət",
+    "correct_transcription": "sɛ́pərèjt",
+    "explanation": "The adjective's syncopated form must never be used for the verb: M-W's verb listing is ˈse-pə-ˌrāt, unparenthesized, so the schwa stays — sɛ́pərèjt, and likewise sɛ́pərèjts, sɛ́pərèjtɪd, sɛ́pərèjtɪŋ and the noun sɛ̀pəréjʃən. Found in TRN_TheY2KNonEvent L10 (source: 'The result alone can never separate the two'), which had used the adjective's form; fixed 2026-09-27. Caveat for a token-level audit: after the syncope sweep the adjective's correct form is exactly this entry's wrong_transcription, so an audit that ignores part of speech reports the synopated adjective tokens as hits — those are intentional false positives."
   }
 ]

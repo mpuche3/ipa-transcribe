@@ -5484,7 +5484,7 @@
       "Glossary transliteration"
     ],
     "Explanation": "Sentiment tone safety. Sentiment measures polarity, tone reflects communication style, and safety checks policy risk categories. Treating them separately avoids incorrect moderation decisions.",
-    "trans_Question": "ə mɒ̀dəréjʃən wɜ́rkflòw məst dɪstɪ́ŋɡwɪʃ ɪmówʃənəl powlɛ́rɪtij frəm rájtɪŋ stájl ənd frəm hɑ́rmfəl kɒ́ntɛnt rɪ́sk. wɪ́tʃ mǽpɪŋ ɪz kərɛ́kt tə mɒ́dəl ðíjz sɛ́pərətlij?",
+    "trans_Question": "ə mɒ̀dəréjʃən wɜ́rkflòw məst dɪstɪ́ŋɡwɪʃ ɪmówʃənəl powlɛ́rɪtij frəm rájtɪŋ stájl ənd frəm hɑ́rmfəl kɒ́ntɛnt rɪ́sk. wɪ́tʃ mǽpɪŋ ɪz kərɛ́kt tə mɒ́dəl ðíjz sɛ́prətlij?",
     "trans_RightAnswer": "sɛ́ntɪmənt tówn séjftij",
     "trans_WrongAnswers": [
       "pówstvæ̀lɪdèjʃən",
@@ -5493,7 +5493,7 @@
       "ǽʒər trænsléjtər",
       "ɡlɔ́sərij træ̀nzlɪ̀təréjʃən"
     ],
-    "trans_Explanation": "sɛ́ntɪmənt tówn séjftij. sɛ́ntɪmənt mɛ́ʒərz powlɛ́rɪtij, tówn rɪflɛ́kts kəmjùwnɪkéjʃən stájl, ənd séjftij tʃɛ́ks pɒ́lɪsij rɪ́sk kǽtəɡɔ̀rijz. tríjtɪŋ ðɛm sɛ́pərətlij əvɔ́jdz ɪ̀nkərɛ́kt mɒ̀dəréjʃən dɪsɪ́ʒənz.",
+    "trans_Explanation": "sɛ́ntɪmənt tówn séjftij. sɛ́ntɪmənt mɛ́ʒərz powlɛ́rɪtij, tówn rɪflɛ́kts kəmjùwnɪkéjʃən stájl, ənd séjftij tʃɛ́ks pɒ́lɪsij rɪ́sk kǽtəɡɔ̀rijz. tríjtɪŋ ðɛm sɛ́prətlij əvɔ́jdz ɪ̀nkərɛ́kt mɒ̀dəréjʃən dɪsɪ́ʒənz.",
     "Difficulty": 4
   },
   {
@@ -5507,7 +5507,7 @@
       "Language detection"
     ],
     "Explanation": "Secrets detection. Secrets like keys and tokens are sensitive credentials but are not always PII. They require dedicated detection patterns and stricter handling controls.",
-    "trans_Question": "ə sɪkjʊ́rɪtij rɪvjúw fájndz API kíjz ɪn səpɔ́rt íjmèjlz. ðə tíjm ǽsks wɛ́ðər ðɪ́s ɪz ðə séjm æz PII hǽndəlɪŋ. wɪ́tʃ kɒ́nsɛpt ʃʊd bij klǽsəfàjd sɛ́pərətlij?",
+    "trans_Question": "ə sɪkjʊ́rɪtij rɪvjúw fájndz API kíjz ɪn səpɔ́rt íjmèjlz. ðə tíjm ǽsks wɛ́ðər ðɪ́s ɪz ðə séjm æz PII hǽndəlɪŋ. wɪ́tʃ kɒ́nsɛpt ʃʊd bij klǽsəfàjd sɛ́prətlij?",
     "trans_RightAnswer": "síjkrəts dɪtɛ́kʃən",
     "trans_WrongAnswers": [
       "sɛ́ntɪmənt tówn séjftij",
