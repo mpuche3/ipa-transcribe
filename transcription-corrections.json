@@ -1257,6 +1257,24 @@
     "word": "dangerous",
     "wrong_transcription": "déjnədʒərəs",
     "correct_transcription": "déjndʒərəs",
-    "explanation": "An editorial ruling against the derivation, not a derivation: M-W lists dangerous ˈdān-jə-rəs with the schwa unparenthesized, so §4.4 syncope would keep it and give déjnədʒərəs. The author ruled the compressed déjndʒərəs (2026-09-27), which is what all ten corpus tokens already used (déjndʒərəs, déjndʒərəslij, déjndʒərz), so nothing was swept — this entry exists so a later reader applying M-W does not 'correct' them."
+    "explanation": "An editorial ruling against the derivation, not a derivation: M-W lists dangerous ˈdān-jə-rəs with the schwa unparenthesized, so §4.4 syncope would keep it and give déjnədʒərəs. The author ruled the compressed déjndʒərəs (2026-09-27), which is what all fifteen corpus tokens of dangerous, dangerously and dangers already used (déjndʒərəs, déjndʒərəslij, déjndʒərz), so nothing was swept, and the bare noun danger was ruled the same way in the same pass (see the danger entry) — this entry exists so a later reader applying M-W does not 'correct' them."
+  },
+  {
+    "word": "hallucination",
+    "wrong_transcription": "həlùwsənéjʃən",
+    "correct_transcription": "həlùwsɪnéjʃən",
+    "explanation": "The reduced medial syllable is spelled ci, so the §4.4 spelling tie-breaker gives ɪ rather than M-W's schwa (M-W hə-ˌlü-sə-ˈnā-shən) — the same environment as elimination and the other -ination words. Swept two tokens in AI-103-questions.json (items 51 and 227) on 2026-09-27, together with hallucinates həlúwsɪnèjts (item 100), which has the same medial i."
+  },
+  {
+    "word": "termination",
+    "wrong_transcription": "tərmənéjʃən",
+    "correct_transcription": "tərmɪnéjʃən",
+    "explanation": "The reduced -mi- before -nation is spelled i, so the §4.4 spelling tie-breaker gives ɪ (M-W ˌtər-mə-ˈnā-shən), matching the corpus's own dɪ̀tɜrmɪnéjʃən (determination) and dɪtɜ́rmɪnd (determined). Swept eight tokens in AI-103-questions.json on 2026-09-27: item 154 (its right answer plus two explanation tokens) and the five trans_WrongAnswers entries for the distractor Termination condition (items 116, 151, 152, 153, 155). Counting trap: trans_WrongAnswers is a list, so a Question/RightAnswer/Explanation pair scan sees only three of the eight — scan the raw file or cover every field."
+  },
+  {
+    "word": "danger",
+    "wrong_transcription": "déjnədʒər",
+    "correct_transcription": "déjndʒər",
+    "explanation": "Editorial ruling for the whole danger family (2026-09-27): the medial schwa is not written, against M-W's ˈdān-jər, which prints it unparenthesized. The compressed form governs the noun and its derivatives alike — see the dangerous entry. This was the corpus's only exception: TRN_TheY2KNonEvent.txt wrote déjnədʒər once, while the other seventeen danger tokens already read déjndʒər. Swept 2026-09-27; TRN_ONE.txt regenerated."
   }
 ]

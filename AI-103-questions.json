@@ -1192,7 +1192,7 @@
       "rɛ́ləvəns mɛ́trɪks",
       "hjúwmən fíjdbæ̀k lúwp"
     ],
-    "trans_Explanation": "ɡráwndɪdnəs ɪvǽljuwèjtər. ɪt skɔ́rz wɛ́ðər dʒɛ́nərèjtəd kléjmz ɑr səpɔ́rtɪd baj sájtɪd sɔ́rs kɒ́ntɛkst. ɡráwndɪdnəs tʃɛ́ks ɑr krɪ́tɪkəl fɔr həlùwsənéjʃən rɪ́sk kəntrówl.",
+    "trans_Explanation": "ɡráwndɪdnəs ɪvǽljuwèjtər. ɪt skɔ́rz wɛ́ðər dʒɛ́nərèjtəd kléjmz ɑr səpɔ́rtɪd baj sájtɪd sɔ́rs kɒ́ntɛkst. ɡráwndɪdnəs tʃɛ́ks ɑr krɪ́tɪkəl fɔr həlùwsɪnéjʃən rɪ́sk kəntrówl.",
     "Difficulty": 3
   },
   {
@@ -2310,7 +2310,7 @@
       "Access trimming"
     ],
     "Explanation": "Grounding instructions. They explicitly require prompt augmentation with provided sources and allow abstention when evidence is missing. This reduces unsupported claims in responses.",
-    "trans_Question": "ə mɒ́dəl həlúwsənèjts pɒ́lɪsij dɪtéjlz íjvən wɛ́n sajtéjʃənz ɑr əvéjləbəl ɪn ðə rɪtríjvd tɛ́kst. wɪ́tʃ ɪ̀nstrə́kʃən kɒ́nsɛpt ʃʊd bij strɛ́ŋθənd ɪn ðə prɒ́mpt?",
+    "trans_Question": "ə mɒ́dəl həlúwsɪnèjts pɒ́lɪsij dɪtéjlz íjvən wɛ́n sajtéjʃənz ɑr əvéjləbəl ɪn ðə rɪtríjvd tɛ́kst. wɪ́tʃ ɪ̀nstrə́kʃən kɒ́nsɛpt ʃʊd bij strɛ́ŋθənd ɪn ðə prɒ́mpt?",
     "trans_RightAnswer": "ɡráwndɪŋ ɪ̀nstrə́kʃənz",
     "trans_WrongAnswers": [
       "kwíjrij rijrájtɪŋ",
@@ -2683,7 +2683,7 @@
     "trans_WrongAnswers": [
       "éjdʒənt ɡə́vərnəns",
       "éjdʒənt ɡówl",
-      "tərmənéjʃən kəndɪ́ʃən",
+      "tərmɪnéjʃən kəndɪ́ʃən",
       "éjdʒənt ɪ̀nstrə́kʃənz",
       "prɒ́mpt éjdʒənt"
     ],
@@ -3490,7 +3490,7 @@
       "ʃɛ́rd stéjt",
       "mədʒɛ́ntɪk ɔ̀rkəstréjʃən",
       "mɛ́sɪdʒ kɒ́ntræ̀kt",
-      "tərmənéjʃən kəndɪ́ʃən"
+      "tərmɪnéjʃən kəndɪ́ʃən"
     ],
     "trans_Explanation": "fáwndrij wɜ́rkflòw. ɪt kəmpówzɪz mǽnədʒd ɔ̀rkəstréjʃən stéjdʒɪz ðət mɪ́ks dɪtɜ̀rmənɪ́stɪk ənd mɒ́dəl-dərɛ́ktɪd ɪ̀ksəkjúwʃən. wɜ́rkflòwz sɪ́mpləfàj ɒ̀pəréjʃənəl dɪzájn ənd ɡə́vərnəns.",
     "Difficulty": 3
@@ -3512,7 +3512,7 @@
       "fáwndrij wɜ́rkflòw",
       "mɛ́sɪdʒ kɒ́ntræ̀kt",
       "éjdʒənt fréjmwɜ̀rk",
-      "tərmənéjʃən kəndɪ́ʃən",
+      "tərmɪnéjʃən kəndɪ́ʃən",
       "éjdʒənt ɡə́vərnəns"
     ],
     "trans_Explanation": "ʃɛ́rd stéjt. ɪt prɪzɜ́rvz kowɔ́rdənejtɪd tǽsk kɒ́ntɛkst əkrɔ́s spɛ́ʃəlɪsts ənd ɪ̀ksəkjúwʃən stɛ́ps. kərɛ́kt stéjt hǽndəlɪŋ prɪvɛ́nts drɪ́ft ənd dúwplɪkət wɜ́rk.",
@@ -3533,7 +3533,7 @@
     "trans_RightAnswer": "mɛ́sɪdʒ kɒ́ntræ̀kt",
     "trans_WrongAnswers": [
       "ʃɛ́rd stéjt",
-      "tərmənéjʃən kəndɪ́ʃən",
+      "tərmɪnéjʃən kəndɪ́ʃən",
       "fáwndrij wɜ́rkflòw",
       "éjdʒənt ɡə́vərnəns",
       "éjdʒənt rówl"
@@ -3553,7 +3553,7 @@
     ],
     "Explanation": "Termination condition. It defines explicit stop rules for completion, failure, or limit thresholds. Clear termination prevents runaway orchestration loops.",
     "trans_Question": "ə súwpərvàjzər éjdʒənt əkéjʒənəlij lúwps fərɛ́vər ɒn ənsɜ́rtən kéjsɪz ənd məst stɒ́p séjflij ǽftər ɪksplɪ́sɪt kəmplíjʃən ɔr kə́tɔ̀f krajtɪ́rijə. wɪ́tʃ kəntrówl kɒ́nsɛpt rɪzɒ́lvz ðɪ́s?",
-    "trans_RightAnswer": "tərmənéjʃən kəndɪ́ʃən",
+    "trans_RightAnswer": "tərmɪnéjʃən kəndɪ́ʃən",
     "trans_WrongAnswers": [
       "mɛ́sɪdʒ kɒ́ntræ̀kt",
       "éjdʒənt ɡə́vərnəns",
@@ -3561,7 +3561,7 @@
       "éjdʒənt rówl",
       "éjdʒənt ɡówl"
     ],
-    "trans_Explanation": "tərmənéjʃən kəndɪ́ʃən. ɪt dɪfájnz ɪksplɪ́sɪt stɒ́p rúwlz fɔr kəmplíjʃən, féjljər, ɔr lɪ́mət θrɛ́ʃòwldz. klɪ́r tərmənéjʃən prɪvɛ́nts rə́nəwèj ɔ̀rkəstréjʃən lúwps.",
+    "trans_Explanation": "tərmɪnéjʃən kəndɪ́ʃən. ɪt dɪfájnz ɪksplɪ́sɪt stɒ́p rúwlz fɔr kəmplíjʃən, féjljər, ɔr lɪ́mət θrɛ́ʃòwldz. klɪ́r tərmɪnéjʃən prɪvɛ́nts rə́nəwèj ɔ̀rkəstréjʃən lúwps.",
     "Difficulty": 3
   },
   {
@@ -3578,7 +3578,7 @@
     "trans_Question": "ə bǽŋk ɪz dɪ̀sájdɪŋ wɛ́n éjdʒənts mej ǽkt ɔ̀tɒ́nowməslij, wɛ́n əprúwvəlz ɑr mǽndətɔ̀rij, ənd háw tə ɪnfɔ́rs lɪ́məts, tréjsɪŋ, ənd pówst-ɪ́nsɪdənt lɜ́rnɪŋ. wɪ́tʃ ɡə́vərnəns kɒ́nsɛpt bɛ́st fɪ́ts?",
     "trans_RightAnswer": "éjdʒənt ɡə́vərnəns",
     "trans_WrongAnswers": [
-      "tərmənéjʃən kəndɪ́ʃən",
+      "tərmɪnéjʃən kəndɪ́ʃən",
       "éjdʒənt rówl",
       "mɛ́sɪdʒ kɒ́ntræ̀kt",
       "éjdʒənt ɡówl",
@@ -5240,7 +5240,7 @@
       "hɛ́lθkɛ̀r NER",
       "ejsɪ́ŋkrənəs dʒɒ́bz"
     ],
-    "trans_Explanation": "ɪkstrǽktɪv sə̀mərəzéjʃən. ɪt sɪlɛ́kts ɪɡzɪ́stɪŋ sɛ́ntənsəz frəm ðij ərɪ́dʒənəl tɛ́kst béjst ɒn séjlijəns. bɪkɒ́z wɜ́rdɪŋ ɪz rijúwzd, həlùwsənéjʃən rɪ́sk ɪz dʒɛ́nərəlij lówər.",
+    "trans_Explanation": "ɪkstrǽktɪv sə̀mərəzéjʃən. ɪt sɪlɛ́kts ɪɡzɪ́stɪŋ sɛ́ntənsəz frəm ðij ərɪ́dʒənəl tɛ́kst béjst ɒn séjlijəns. bɪkɒ́z wɜ́rdɪŋ ɪz rijúwzd, həlùwsɪnéjʃən rɪ́sk ɪz dʒɛ́nərəlij lówər.",
     "Difficulty": 2
   },
   {
