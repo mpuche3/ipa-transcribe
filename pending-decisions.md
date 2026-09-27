@@ -32,8 +32,9 @@ is inconsistent about it (`ˈfī(-ə)r` parenthesized, `ˈkäm-rə` compressed).
 ## 3. §11 step 6 — consonant presence
 The self-check bullet reads "every `r` from the spelling that is pronounced is present". The
 dropped-consonant class is wider than `r`, and the validator cannot see it: `rájɪŋ` (dropped `t`),
-`bájt` (dropped `y` in *byte*), `dɛ́lz` (dropped `v` in *delves*), and `sədʒɛ́sts` (dropped `g` in
-*suggests*, found and fixed 2026-09-27) all validate cleanly.
+`bájt` (dropped `y` in *byte*), `dɛ́lz` (dropped `v` in *delves*), `sədʒɛ́sts` (dropped `g` in
+*suggests*) and `strájɪŋ` (dropped `k` in *striking*) all validate cleanly — the last two were found
+and fixed on 2026-09-27, and a source-`k`/`ck` scan over the whole corpus found no third instance.
 **Needed:** generalise the bullet from "every `r`" to "every consonant", with the audit recipe
 (align source and transcription, diff the consonant letters of the source stem against the symbols
 present, then discard the `ð`/`θ` and `-tion` → `ʃən` false positives).

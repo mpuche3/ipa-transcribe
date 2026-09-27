@@ -2242,5 +2242,11 @@
     "wrong_transcription": "prìjzɑ̀ntéjʃən",
     "correct_transcription": "prɛ̀zəntéjʃən",
     "explanation": "Editorial exception to §1's first-listing rule: M-W lists ˌprē-ˌzen-ˈtā-shən first and ˌpre-zᵊ-n- second, and the author ruled the compressed second listing for *presentation* (2026-09-27). The one deviating token (*Habituation*) also carried PALM ɑ where DRESS ɛ belongs; ɑ is not a vowel of that syllable in any variety. All 5 corpus tokens now read prɛ̀zəntéjʃən."
+  },
+  {
+    "word": "striking",
+    "wrong_transcription": "strájɪŋ",
+    "correct_transcription": "strájkɪŋ",
+    "explanation": "The k of *strike* is pronounced, so it has to be written — §3 bans writing deletion, and the §13 row for dropped consonants covers the class (*writing* rájɪŋ → rájtɪŋ, *exciting* ɪksájɪŋ → ɪksájtɪŋ, *suggests* sədʒɛ́sts → səɡdʒɛ́sts). Found in TRN_NicaraguanSignLanguage L4 on 2026-09-27 and fixed; a corpus-wide scan of source k/ck against the transcription found no other real instance (the remaining hits are silent-k *unknown*/*well-known* and pass-through identifiers such as SDK, KPI, SKU, Top-k)."
   }
 ]
