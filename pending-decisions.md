@@ -53,6 +53,16 @@ source confirms the Nicaraguan pronunciation.
 
 ## 6. Reduced `e` — ɪ or ə (no general rule yet)
 **Status:** the words ruled so far are applied; the *rule* is not settled.
+**2026-09-28 additions (ruled and swept):** *relevant* / *relevance* `rɛ́lɪv-`, *independent* /
+*independently* `ɪ̀ndɪp-`, *efficient* / *efficiency* / *efficiently* `ɪfɪ́ʃ-`, *inefficient*
+`ɪ̀nɪfɪ́ʃ-`, *intelligence* `ɪntɛ́lɪdʒəns` (also dropping the spurious grave on `in-`), and the
+*integrat-* family `ɪ̀ntɪɡr-`, *inconsequential* `ɪ̀nkɒ̀nsɪkwɛ́nʃəl`, *modest* `mɒ́dɪst` / *modestly*
+`mɒ́dɪstlij`, *specifically* `spɪsɪ́fɪklij`. All keep the `ɪ` default; the first four were split
+between the two corpora, the *integrat-* family was uniform `ə` in AI-103 (27 tokens) against a
+6-to-3 `ɪ` majority in `examples/`, and the last three were single deviating tokens closed on the
+rule so the corpus stays uniform. Each word has a ledger entry. **Also resolved off this file:**
+*metadata* (now `mɛ̀tədéjtə`, M-W's `ˌme-tə-ˈdā-tə`), *inside* (unified on `ɪ̀nsájd`) and *genuinely*
+(kept `dʒɛ́njuwənlij`, ruled separately from the adjective `dʒɛ́njuwɪn`).
 The 2026-09-27 sweep reads a reduced `e` like `i`/`y` (→ `ɪ`, keeping `ə` before
 `r l n m ŋ t`, with `t` added after the author rejected 15 forms: *market* `mɑ́rkət`,
 *ticket* `tɪ́kət`, *benefit* `bɛ́nɪfət`). The author's ruling of the same day is that no clear rule

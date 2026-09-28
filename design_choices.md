@@ -316,4 +316,27 @@ When goals conflicted, the earlier one won.
 
 ---
 
+### The 2026-09-28 corpus audit: five classes the validator cannot see
+
+**How it was found.** The mechanical suite was green before the audit and stayed green after it: `--self-test` 147/147, 19 pair checks 0, `check_string(TRN_ONE)` 0, `check_json_file(AI-103)` 0. Everything below came from reading the *source* against the transcription, with four methods worth reusing:
+
+1. **Cross-file consistency on punctuation-stripped tokens.** Comparing raw tokens gives ~1000 phantom rows, because a trailing comma or period makes the same word look like two forms; stripping the outside punctuation leaves only real disagreements (*dɪrɛ́kt* ×5 in `examples/` against *dərɛ́kt* ×9 in AI-103). Two files spelling one source word differently means at least one is wrong.
+2. **Per-source-word counts in `examples/` against AI-103.** The two corpora drift apart independently, so one is often the witness for the other.
+3. **Targeted fixed-morpheme scans** (§7 endings: `-es`, `-ed`, `-age`) driven from the *source* tail, which is what makes them decidable at all.
+4. **M-W first-listing verification when a claim would change many tokens.** This killed a false alarm: *difficulty* is `ˈdi-fi-(ˌ)kəl-tē` with a **parenthesized** secondary stress, so both `dɪ́fɪkəltij` (11 tokens) and `dɪ́fɪkə̀ltij` are correct and nothing was swept.
+
+**Chosen:** 319 tokens changed — 77 in `examples/`, 242 in `AI-103-questions.json` — in five classes: (a) the fixed `-es` → `ɪz` and `-ed` → `ɪd` endings, which had drifted in AI-103 only (50 + 47 tokens); (b) the missing grave on the `un-` prefix where M-W writes `ˌən-` (65 tokens; *until*/*unless* are the exceptions and `ə̀ntɪ́l` was the reverse error); (c) the reduced `i`/`y` layer in AI-103 (*direct* family, *manage* family, *privilege*); (d) word-level sound errors (`dɪvɜ́rs` → `dajvɜ́rs`, `ɛ̀ntájər` → `ɪntájər`, `sɜ́rfɪs` → `sɜ́rfəs`, `lájklɪhʊ̀d` → `lájklijhʊ̀d`, `ɪntɜ́rprɪt` → `ɪntɜ́rprət`); and (e) stress/grave placement (`ðɛ́rfɔr` → `ðɛ́rfɔ̀r`, `hàwɛ́vər` → `hawɛ́vər`, `ɒ́ntə` → `ɒ́ntùw`, `ɪ́nsàjd` → `ɪnsájd`). Three dropped segments were also restored (`kájd` → `kájnd`, `stréjnər` → `stréjndʒər`, `dɪlɪ́brətij` → `dɪlɪ́brətlij`).
+
+**Also valid:** leaving the drift in place. It survived a green validator and two full class sweeps (2026-09-27) precisely because none of it is mechanically visible — a wrong stress accent, a missing grave and a missing consonant all produce legal tokens.
+
+**Why the author has to rule on some of it.** The `e` case is the zone the guide already declares word by word, and the audit found the corpus split *inside itself* there: `ɪ̀ndəpɛ́ndənt` ×7 in `examples/` against `ɪ̀ndɪpɛ́ndənt` ×5 in AI-103, `əfɪ́ʃənsij` ×6 against `ɪfɪ́ʃənsij`, `ɪ̀ntəɡréjʃən` ×16 against `ɪ̀ntɪɡréjʃən` ×1. Both sides cannot be right, and the two rules that could settle it (M-W's schwa, the `ɪ` default) point opposite ways — so the 2026-09-28 rulings on *relevant*, *independent*, *efficiency*, *intelligence* and the *integrat-* family are recorded per word in the ledger, and the general rule stays open.
+
+**Per-word rulings against a derivation, in both directions (2026-09-28).** *genuine* is `dʒɛ́njuwɪn`, not M-W's first listing `ˈjen-yə-wən`; *comfortable* is `kə́mftərbəl`, not M-W's `ˈkəm(p)-fər-tə-bəl`; *accountability* is `əkàwntəbɪ́lɪtij`, which reverses the shape the 2026-09-26 `-ible` sweep had written; *complex* (adjective) follows M-W's first listing `käm-ˈpleks` while the corpus had used the noun-like stress; *technology* loses a grave; *accessibility* takes the `əks-` of *accessible* rather than the `æ̀ks-` of *access*. Each is a ledger entry, following the *danger* and *general* precedent: a word ruled against its own derivation must be recorded, or a later reader applying the rule will "fix" it back.
+
+**Not swept, and why.** The reduced-prefix follow-up (the *represent* family, 50 tokens) and the `(-ə)r` bucket are the two standing items in `pending-decisions.md`; the audit re-confirmed them but added nothing.
+
+**Second batch — the four items the audit had deferred, ruled the same day (44 tokens).** *metadata* `mɛ́tədèjtə` → `mɛ̀tədéjtə` (×31, AI-103): the author chose M-W's `ˌme-tə-ˈdā-tə` over the widespread first-syllable stress, so *this* word is derived rather than ruled, unlike the per-word list above. *inside*: the corpus split between `ɪnsájd` and `ɪ̀nsájd`, and since M-W's `(ˌ)in-ˈsīd` parenthesizes the secondary stress both are licensed — the author picked `ɪ̀nsájd`, so the 8 examples tokens were swept (the earlier pass had only fixed `ɪ́nsàjd`, whose acute was on the wrong syllable). *genuinely* stays `dʒɛ́njuwənlij`, ruled separately from the adjective `dʒɛ́njuwɪn` rather than harmonised with it. And the last three `e`-case words were closed on the e-rule default, "made consistent across the corpus": *inconsequential* `ɪ̀nkɒ̀nsɪkwɛ́nʃəl`, *modest* `mɒ́dɪst` / *modestly* `mɒ́dɪstlij`, *specifically* `spɪsɪ́fɪklij` — each matching a related form the corpus already wrote (`spɪsɪ́fɪk` ×14). Ledger 524 → 528 entries (the *genuinely* entry already existed and agreed, so it was left alone).
+
+---
+
 *If you disagree with a choice here, the guide's machine-checkable constraints (§11) make it safe to fork: change the rule, update the validator to match, and your corpus stays internally consistent.*

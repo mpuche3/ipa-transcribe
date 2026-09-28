@@ -2866,5 +2866,305 @@
     "wrong_transcription": "dʒɛ̀nrəlɪzéjʃən",
     "correct_transcription": "dʒɛ̀nərəlɪzéjʃən",
     "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. M-W's *generalization* is ˌjen-rə-lə-ˈzā-shən. The corpus wrote dʒɛ̀nərəlɪzéjʃən ×3 (TRN_TheAlignmentProblem.txt L9, L20, L26); the plural keeps the grave, dʒɛ̀nərəlɪzéjʃənz."
+  },
+  {
+    "word": "direct",
+    "wrong_transcription": "dərɛ́kt",
+    "correct_transcription": "dɪrɛ́kt",
+    "explanation": "the reduced *di-* is a fixed prefix and takes ɪ like *de-* / *re-* (§4.4); M-W `də-ˈrekt` writes a schwa, but the spelling tie-breaker outranks it. Swept 2026-09-28: TRN_AI-103 dərɛ́kt ×9 (the examples already had dɪrɛ́kt ×5). Covers directly, director, directory, indirect."
+  },
+  {
+    "word": "directly",
+    "wrong_transcription": "dərɛ́ktlij",
+    "correct_transcription": "dɪrɛ́ktlij",
+    "explanation": "same *di-* prefix as *direct*; the examples already wrote dɪrɛ́ktlij ×8. Swept in TRN_AI-103 ×7."
+  },
+  {
+    "word": "managed",
+    "wrong_transcription": "mǽnədʒd",
+    "correct_transcription": "mǽnɪdʒd",
+    "explanation": "the fixed §7 ending *-age* is ɪdʒ, and the reduced vowel is spelled *a* only when the letter is *a*; *manage* has the ɪdʒ of *language* / *courage*. The examples already wrote mǽnɪdʒd ×4. Swept in TRN_AI-103 ×26 (managed, Managed, Microsoft-managed, Azure-managed, customer-managed, Application-managed). Covers management, manager(s), managing."
+  },
+  {
+    "word": "management",
+    "wrong_transcription": "mǽnədʒmənt",
+    "correct_transcription": "mǽnɪdʒmənt",
+    "explanation": "same fixed -age ending as *managed*; the examples already wrote mǽnɪdʒmənt ×2. Swept in TRN_AI-103 ×11."
+  },
+  {
+    "word": "privilege",
+    "wrong_transcription": "prɪ́vlədʒ",
+    "correct_transcription": "prɪ́vlɪdʒ",
+    "explanation": "the reduced vowel of the final syllable is spelled *i*, so it takes ɪ (§4.4 spelling step); M-W `ˈpriv-(ə-)lij`. Swept in TRN_AI-103 ×11 (privilege, Least-privilege, least-privilege); *privileged* prɪ́vlɪdʒd ×1."
+  },
+  {
+    "word": "integration",
+    "wrong_transcription": "ɪ̀ntəɡréjʃən",
+    "correct_transcription": "ɪ̀ntɪɡréjʃən",
+    "explanation": "the reduced *e* of *inte-* is followed by `ɡ`, which is not in the sonorant carve-out (*r l n m ŋ t*), so it takes ɪ (§4.4 e-rule). Swept in TRN_AI-103 ×16 and TRN_TheSelfishGene.txt L16 ×1 (the examples already wrote ɪ́ntɪɡrèjt ×6). Covers integrate, integrated, integrating, integrates."
+  },
+  {
+    "word": "integrated",
+    "wrong_transcription": "ɪ́ntəɡrèjtəd",
+    "correct_transcription": "ɪ́ntɪɡrèjtɪd",
+    "explanation": "two errors in one token: the reduced *e* before `ɡ` takes ɪ (§4.4 e-rule) and the fixed §7 *-ed* after `t` is ɪd. Swept in TRN_AI-103 ×10; *integrate* ɪ́ntɪɡrèjt ×1."
+  },
+  {
+    "word": "relevant",
+    "wrong_transcription": "rɛ́ləvənt",
+    "correct_transcription": "rɛ́lɪvənt",
+    "explanation": "author ruling 2026-09-28: the reduced *e* before `v` takes ɪ, the default of the §4.4 e-rule. M-W writes `ˈre-lə-vənt`, so this is a recorded per-word ruling, not a derivation. Swept 18 tokens (examples 11, TRN_AI-103 7). Covers the noun *relevance* rɛ́lɪvəns (TRN_AI-103 ×15)."
+  },
+  {
+    "word": "independent",
+    "wrong_transcription": "ɪ̀ndəpɛ́ndənt",
+    "correct_transcription": "ɪ̀ndɪpɛ́ndənt",
+    "explanation": "author ruling 2026-09-28: the reduced *e* of *inde-* is followed by `p`, so it takes ɪ — the examples had drifted to ə while TRN_AI-103 already wrote ɪ. Swept the examples ×7. Covers independently, and agrees with *dependent* dɪpɛ́ndənt."
+  },
+  {
+    "word": "efficiency",
+    "wrong_transcription": "əfɪ́ʃənsij",
+    "correct_transcription": "ɪfɪ́ʃənsij",
+    "explanation": "author ruling 2026-09-28: the initial reduced *e* before `f` takes ɪ, which is also M-W's `i-ˈfi-`. Swept the examples ×6 (TRN_AI-103 already wrote ɪfɪ́ʃənsij). Covers *efficient* ɪfɪ́ʃənt, *efficiently* ɪfɪ́ʃəntlij and *inefficient* ɪ̀nɪfɪ́ʃənt (examples ×1 + ×3 + ×1)."
+  },
+  {
+    "word": "intelligence",
+    "wrong_transcription": "ɪ̀ntɛ́lədʒəns",
+    "correct_transcription": "ɪntɛ́lɪdʒəns",
+    "explanation": "two errors: the reduced *e* of *-li-* takes ɪ, and *in-* has no secondary stress (M-W `in-ˈte-lə-jən(t)s`, no ˌ). The examples already wrote ɪntɛ́lɪdʒəns ×25. Swept in TRN_AI-103 ×5."
+  },
+  {
+    "word": "complex (adjective)",
+    "wrong_transcription": "kɒ́mplɛks",
+    "correct_transcription": "kəmplɛ́ks",
+    "explanation": "author ruling 2026-09-28: the adjective follows M-W's first listing `käm-ˈpleks` (the noun-like `ˈkäm-ˌpleks` is the second). Swept 38 tokens (examples 30, TRN_AI-103 8) — every occurrence in the corpus is adjectival (*complex information*, *complex workflows*)."
+  },
+  {
+    "word": "technology",
+    "wrong_transcription": "tɛ̀knɒ́lədʒij",
+    "correct_transcription": "tɛknɒ́lədʒij",
+    "explanation": "the noun has no secondary stress (M-W `tek-ˈnä-lə-jē`); the grave belongs only to *technological* tɛ̀knəlɒ́dʒɪkəl. Swept 9 tokens (tɛ̀knɒ́lədʒij ×7, tɛ̀knɒ́lədʒijz ×2); TRN_AI-103 already wrote the flat form."
+  },
+  {
+    "word": "genuine",
+    "wrong_transcription": "dʒɛ́njəwɪn",
+    "correct_transcription": "dʒɛ́njuwɪn",
+    "explanation": "author ruling 2026-09-28: prefer dʒɛ́njuwɪn (the corpus majority, ×6) over M-W's first listing `ˈjen-yə-wən` and over the variant dʒɛ́njəwɪn. Swept the deviating ×2. Open: *genuinely*. The corpus writes dʒɛ́njuwənlij ×5."
+  },
+  {
+    "word": "comfortable",
+    "wrong_transcription": "kə́mfərtəbəl",
+    "correct_transcription": "kə́mftərbəl",
+    "explanation": "author ruling 2026-09-28: prefer the compressed kə́mftərbəl (the corpus majority) over M-W's `ˈkəm(p)-fər-tə-bəl`. Swept ə̀nkə́mfərtəbəl → ə̀nkə́mftərbəl ×1; the rest of the family already read kə́mftərbəl."
+  },
+  {
+    "word": "adaptation",
+    "wrong_transcription": "æ̀dæptéjʃən",
+    "correct_transcription": "æ̀dəptéjʃən",
+    "explanation": "author ruling 2026-09-28: the second syllable is reduced, ə — the same reading as *adaptive* ədǽptɪv and the corpus majority (æ̀dəptéjʃən ×10). Swept the deviating TRN_the_case_for_superintelligence.txt ×1."
+  },
+  {
+    "word": "accessibility",
+    "wrong_transcription": "æ̀ksɛsəbɪ́lɪtij",
+    "correct_transcription": "əksɛ̀sɪbɪ́lɪtij",
+    "explanation": "author ruling 2026-09-28: the *ac-* of the access family takes ə, as in *accept* əksɛ́pt and *accessible* əksɛ́sɪbəl; M-W's secondary stress on `-se-` gives the grave. Swept TRN_AI-103 ×3."
+  },
+  {
+    "word": "familiarity",
+    "wrong_transcription": "fəmɪ̀ljǽrɪtij",
+    "correct_transcription": "fəmɪ̀lijǽrɪtij",
+    "explanation": "rationale: the syllable spelled *-li-* keeps its ɪ (⟨i⟩ is spelled, §4.4), matching *familiar* fəmɪ́ljər and the corpus majority. Swept TRN_TheAlignmentProblem.txt ×1."
+  },
+  {
+    "word": "honest",
+    "wrong_transcription": "ɒ́nəst",
+    "correct_transcription": "ɒ́nɪst",
+    "explanation": "author ruling 2026-09-28: the reduced *e* before `s` is outside the sonorant carve-out, so it takes ɪ. Swept ɒ́nəst ×2 and ɒ́nəstlij ×1; the ɪ forms were already the other half of the corpus."
+  },
+  {
+    "word": "real",
+    "wrong_transcription": "ríjl",
+    "correct_transcription": "ríjəl",
+    "explanation": "the guide's own exemplar has *real* ríjəl and *really* ríjlij; syncope applies only to the derived adverb. Swept ríjl → ríjəl in ríjl, ríjl-tájm, ríjl-wɜ́rld (examples ×1, TRN_AI-103 ×15). M-W `ˈrē(-ə)l` keeps the vowel."
+  },
+  {
+    "word": "kind",
+    "wrong_transcription": "kájd",
+    "correct_transcription": "kájnd",
+    "explanation": "dropped `n` — the validator cannot see a missing consonant (§3). TRN_the_case_for_superintelligence.txt ×2."
+  },
+  {
+    "word": "stranger",
+    "wrong_transcription": "stréjnər",
+    "correct_transcription": "stréjndʒər",
+    "explanation": "dropped `dʒ` (§3). TRN_TheY2KNonEvent.txt ×1."
+  },
+  {
+    "word": "deliberately",
+    "wrong_transcription": "dɪlɪ́brətij",
+    "correct_transcription": "dɪlɪ́brətlij",
+    "explanation": "dropped `l` plus the fixed §7 *-ly* → lij; the syncope is §4.4's `ˈli-b(ə-)rət-lē`. TRN_superintelligence_risk.txt ×1."
+  },
+  {
+    "word": "diverse",
+    "wrong_transcription": "dɪvɜ́rs",
+    "correct_transcription": "dajvɜ́rs",
+    "explanation": "PRICE, not KIT (M-W `dī-ˈvərs`); the same file already writes dajvɜ́rsɪtij. TRN_TheAlignmentProblem.txt ×1."
+  },
+  {
+    "word": "entire",
+    "wrong_transcription": "ɛ̀ntájər",
+    "correct_transcription": "ɪntájər",
+    "explanation": "the reduced *in-* is ɪ, not ɛ̀ (M-W `in-ˈtī(-ə)r`); corpus majority ɪntájər ×16. TRN_TheY2KNonEvent.txt ×1."
+  },
+  {
+    "word": "environments",
+    "wrong_transcription": "ɛnvájrənmənts",
+    "correct_transcription": "ɪnvájrənmənts",
+    "explanation": "the reduced *en-* takes ɪ (M-W `in-ˈvī-rə(n)-mənts`). TRN_TheEscalationOfCommitment.txt ×2."
+  },
+  {
+    "word": "exemplifies",
+    "wrong_transcription": "ɪɡzǽmplɪfàjz",
+    "correct_transcription": "ɪɡzɛ́mplɪfàjz",
+    "explanation": "DRESS, not TRAP (M-W `ig-ˈzem-plə-ˌfī`); the other file already wrote ɪɡzɛ́mplɪfàjz. TRN_Habituation.txt ×1."
+  },
+  {
+    "word": "severe",
+    "wrong_transcription": "sɪvɪ́r",
+    "correct_transcription": "səvɪ́r",
+    "explanation": "reduced *sə-* (M-W `sə-ˈvir`); the corpus otherwise writes səvɪ́r. TRN_TheAlignmentProblem.txt ×1."
+  },
+  {
+    "word": "surface",
+    "wrong_transcription": "sɜ́rfɪs",
+    "correct_transcription": "sɜ́rfəs",
+    "explanation": "the final *-ace* is reduced ə (M-W `ˈsər-fəs`), not ɪ. TRN_CognitiveLoad.txt ×1; *surfaced* sɜ́rfɪst → sɜ́rfəst ×2 (TRN_TheY2KNonEvent.txt, TRN_AI-103)."
+  },
+  {
+    "word": "expertise",
+    "wrong_transcription": "ɛ̀ksɜrtíjz",
+    "correct_transcription": "ɛ̀kspərtíjz",
+    "explanation": "the medial *-ise* is reduced ər (M-W `ˌek-spər-ˈtēz`), not NURSE ɜr. TRN_Move37.txt ×2."
+  },
+  {
+    "word": "unexpected",
+    "wrong_transcription": "ə̀nəkspɛ́ktɪd",
+    "correct_transcription": "ə̀nɪkspɛ́ktɪd",
+    "explanation": "the *ex-* fixed prefix takes ɪ (cf. ɪkspɛ́ktɪd) — the *accept* əksɛ́pt ruling does not extend to it because the letter is *e*, not *a*. TRN_TheAlignmentProblem.txt ×1."
+  },
+  {
+    "word": "likelihood",
+    "wrong_transcription": "lájklɪhʊ̀d",
+    "correct_transcription": "lájklijhʊ̀d",
+    "explanation": "the fixed §7 *-ly* keeps happY ij; the corpus already writes lájklijhʊ̀d. TRN_the_case_for_superintelligence.txt ×2."
+  },
+  {
+    "word": "interpret",
+    "wrong_transcription": "ɪntɜ́rprɪt",
+    "correct_transcription": "ɪntɜ́rprət",
+    "explanation": "the reduced *e* is followed by `t`, which is in the §4.4 sonorant/t carve-out, so it keeps ə. TRN_TheY2KNonEvent.txt ×1."
+  },
+  {
+    "word": "therefore",
+    "wrong_transcription": "ðɛ́rfɔr",
+    "correct_transcription": "ðɛ́rfɔ̀r",
+    "explanation": "solid compounds take a grave on the second element (§5.3); M-W `ˈt͟her-ˌfȯr`. Swept the examples ×7."
+  },
+  {
+    "word": "however",
+    "wrong_transcription": "hàwɛ́vər",
+    "correct_transcription": "hawɛ́vər",
+    "explanation": "no secondary stress (M-W `hau̇-ˈe-vər`); the corpus majority is hawɛ́vər. Swept the examples ×3."
+  },
+  {
+    "word": "foundational",
+    "wrong_transcription": "fàwndéjʃənəl",
+    "correct_transcription": "fawndéjʃənəl",
+    "explanation": "no secondary stress (M-W `fau̇n-ˈdā-shə-nᵊl`); the corpus majority is fawndéjʃənəl. TRN_TheEscalationOfCommitment.txt ×1."
+  },
+  {
+    "word": "mechanism",
+    "wrong_transcription": "mɛ́kənɪzəm",
+    "correct_transcription": "mɛ́kənɪ̀zəm",
+    "explanation": "the grave on *-ni-* (M-W `ˈme-kə-ˌni-zəm`) — the corpus already writes mɛ́kənɪ̀zəm ×17. TRN_the_case_for_superintelligence.txt ×1."
+  },
+  {
+    "word": "onto",
+    "wrong_transcription": "ɒ́ntə",
+    "correct_transcription": "ɒ́ntùw",
+    "explanation": "GOOSE, not ə (M-W `ˈȯn-(ˌ)tü`); the corpus already writes ɒ́ntùw. TRN_the_case_for_superintelligence.txt ×1."
+  },
+  {
+    "word": "algorithm",
+    "wrong_transcription": "ǽlɡərɪðəm",
+    "correct_transcription": "ǽlɡərɪ̀ðəm",
+    "explanation": "the grave on *-ri-* (M-W `ˈal-gə-ˌri-t͟həm`); TRN_AI-103 already wrote it. TRN_TheFlashCrash.txt ×1."
+  },
+  {
+    "word": "access",
+    "wrong_transcription": "ǽksɛs",
+    "correct_transcription": "ǽksɛ̀s",
+    "explanation": "the grave on *-cess* (M-W `ˈak-ˌses`); the corpus already writes ǽksɛ̀s ×25. TRN_CognitiveLoad.txt ×1."
+  },
+  {
+    "word": "finite",
+    "wrong_transcription": "fájnajt",
+    "correct_transcription": "fájnàjt",
+    "explanation": "the grave on *-nite* (M-W `ˈfī-ˌnīt`). TRN_CognitiveLoad.txt ×2."
+  },
+  {
+    "word": "handful",
+    "wrong_transcription": "hǽndfəl",
+    "correct_transcription": "hǽndfʊ̀l",
+    "explanation": "solid compound with a grave on the second element (M-W `ˈhand-ˌfu̇l`); the other file already wrote hǽndfʊ̀l. TRN_TheMorrisWorm.txt, TRN_TheTherac25RadiationAccidents.txt ×1 each."
+  },
+  {
+    "word": "situation",
+    "wrong_transcription": "sɪtʃuwéjʃən",
+    "correct_transcription": "sɪ̀tʃuwéjʃən",
+    "explanation": "the grave on *si-* (M-W `ˌsi-chə-ˈwā-shən`). TRN_TheEscalationOfCommitment.txt ×2."
+  },
+  {
+    "word": "relationship",
+    "wrong_transcription": "rɪléjʃənʃɪp",
+    "correct_transcription": "rɪléjʃənʃɪ̀p",
+    "explanation": "the grave on *-ship* (M-W `ri-ˈlā-shən-ˌship`) — the ledger's *relationships* entry requires it. Swept the examples ×4 (TRN_Gaslighitng.txt); the plural rɪléjʃənʃɪps ×2 → rɪléjʃənʃɪ̀ps (TRN_TheEscalationOfCommitment.txt)."
+  },
+  {
+    "word": "conversely",
+    "wrong_transcription": "kɒ́nvɜ̀rslij",
+    "correct_transcription": "kənvɜ́rslij",
+    "explanation": "stress on *-vers-* (M-W `kən-ˈvərs-lē`), not on the first syllable. TRN_TheAlignmentProblem.txt ×1."
+  },
+  {
+    "word": "inside",
+    "wrong_transcription": "ɪ́nsàjd",
+    "correct_transcription": "ɪ̀nsájd",
+    "explanation": "author ruling 2026-09-28: unify on ɪ̀nsájd, the form the corpus already used in TRN_the_case_for_superintelligence.txt and TRN_AI-103 ×4 (M-W `(ˌ)in-ˈsīd` licenses the grave). The 8 examples tokens that read ɪnsájd were swept; ɪ́nsàjd was wrong in any case because the acute belongs on *-side*."
+  },
+  {
+    "word": "metadata",
+    "wrong_transcription": "mɛ́tədèjtə",
+    "correct_transcription": "mɛ̀tədéjtə",
+    "explanation": "author ruling 2026-09-28: follow M-W `ˌme-tə-ˈdā-tə` — secondary stress on *me*, primary on *da* — rather than the widespread first-syllable stress. Swept 31 tokens in TRN_AI-103 (no `examples/` occurrence). The reduced *-ta-* is spelled `a`, so it keeps ə."
+  },
+  {
+    "word": "inconsequential",
+    "wrong_transcription": "ɪ̀nkɒ̀nsəkwɛ́nʃəl",
+    "correct_transcription": "ɪ̀nkɒ̀nsɪkwɛ́nʃəl",
+    "explanation": "completed 2026-09-28 with the other e-case rulings: the reduced *e* of *-se-* precedes `q`, which is not in the `r l n m ŋ t` carve-out, so it takes ɪ (M-W `-sə-`). TRN_Habituation.txt ×1."
+  },
+  {
+    "word": "modestly",
+    "wrong_transcription": "mɒ́dəstlij",
+    "correct_transcription": "mɒ́dɪstlij",
+    "explanation": "ruled consistent across the corpus 2026-09-28: the reduced *e* before `s` takes ɪ, so the family reads mɒ́dɪst (modest) and mɒ́dɪstlij (modestly). M-W writes `ˈmä-dəst-lē`, but the e-rule default outranks it here. Swept mɒ́dəst ×1 (TRN_TheDiscoveryOfChess.txt) and mɒ́dəstlij ×1 (TRN_AI-103)."
+  },
+  {
+    "word": "specifically",
+    "wrong_transcription": "spəsɪ́fɪklij",
+    "correct_transcription": "spɪsɪ́fɪklij",
+    "explanation": "completed 2026-09-28: the initial reduced *e* before `c` takes ɪ, which is what the corpus already wrote for *specific* spɪsɪ́fɪk ×14. Swept spəsɪ́fɪklij ×2 (TRN_TheMorrisWorm.txt, TRN_AI-103)."
   }
 ]
