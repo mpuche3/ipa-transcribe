@@ -77,6 +77,37 @@ corpus words realigned to the default are `sɪ́nθɪsɪs`, `hajpɒ́θɪsɪs` a
 **Needed:** once the corpus is larger, restate the rule from the corpus — or drop the default and
 keep the ledger as a pure per-word register.
 
+## 7. The spelled-`i` shape in *brilliant* - one word or a class?
+**Status:** *brilliant* was corrected by the author on 2026-09-28 from `brɪ́ljənt` to `brɪ́lijənt`.
+That writes the medial `i` as the §4.5 glide link (`brɪ́l` + `ij` + `ənt`,
+as in *area* `ɛ́rijə`, *material* `mətɪ́rijəl`). M-W's only listing is the
+two-syllable `ˈbril-yənt`, so the correction is a ruling against the dictionary rather than a
+derivation from it — and the shape recurs **19 times** in `examples/` (10 distinct forms, 13 files),
+always without the `i`:
+
+| corpus form | source words | tokens |
+| --- | --- | --- |
+| `fəmɪ́ljər` / `ə̀nfəmɪ́ljər` | *familiar* / *unfamiliar* | 8 |
+| `mɪ́ljən` / `mɪ́ljənz` | *million* / *millions* | 4 |
+| `bɪ́ljənz` (+ `fɔ́r-bɪ́ljən-dɒ́lər`) | *billions* | 3 |
+| `trɪ́ljən` | *trillion* | 1 |
+| `əpɪ́njən` | *opinion* | 1 |
+| `kəmpǽnjən` | *companion* | 1 |
+| `rɪzɪ́ljəns` | *resilience* | 1 |
+
+M-W is uniform across all of them — `ˈmi(l)-yən`, `ˈbil-yən`, `ˈtril-yən`,
+`fə-ˈmil-yər`, `ri-ˈzil-yəns`, `ə-ˈpin-yən`, `kəm-ˈpan-yən` —
+one listing each, always consonant + `y`, never a written vowel of its own. (Words whose `ə`-glide
+comes from a spelled `u` — *valuable* `vǽljəbəl`, *volume* `vɒ́ljəm`,
+*particular*, *regular*, *argument* - are a different question and are NOT part of this item; nor is
+*convenient* `kənvɪ́jnjənt`, where M-W itself writes the FLEECE `ē`.)
+
+**Needed:** is `brɪ́lijənt` a one-word ruling (the author's own pronunciation has the extra syllable)
+or a class rule for every word that spells `i` between a consonant and a vowel? If it is a class rule, the
+sweep is 19 tokens in 11 files, plus a §4.5 guide amendment and a ledger entry per family member.
+
+---
+
 ## Housekeeping (not decisions)
 - The skill checkout `C:\Users\mpuch\.claude\skills\ipa-transcribe` is a second checkout of this
   repository and must be `git pull --ff-only`-ed after every push, or the skill runs on an old guide.

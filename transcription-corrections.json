@@ -3166,5 +3166,17 @@
     "wrong_transcription": "spəsɪ́fɪklij",
     "correct_transcription": "spɪsɪ́fɪklij",
     "explanation": "completed 2026-09-28: the initial reduced *e* before `c` takes ɪ, which is what the corpus already wrote for *specific* spɪsɪ́fɪk ×14. Swept spəsɪ́fɪklij ×2 (TRN_TheMorrisWorm.txt, TRN_AI-103)."
+  },
+  {
+    "word": "comfortably",
+    "wrong_transcription": "kə́mfərtəblij",
+    "correct_transcription": "kə́mftərblij",
+    "explanation": "author ruling 2026-09-28: the adverb takes the compressed shape, matching the *comfortable* entry. M-W agrees - its own first listing for the adverb is `ˈkəm(p)(f)-tər-blē`, with the -tə- and -fər- shapes listed only as variants after it. Swept ×1 (TRN_CognitiveLoad.txt)."
+  },
+  {
+    "word": "brilliant",
+    "wrong_transcription": "brɪ́ljənt",
+    "correct_transcription": "brɪ́lijənt",
+    "explanation": "author ruling 2026-09-28: the medial i is written, giving the §4.5 glide-link shape brɪ́l + ij + ənt (compare *area* ɛ́rijə, *material* mətɪ́rijəl), against M-W's two-syllable first listing `ˈbril-yənt`. Swept ×1 (TRN_the_case_for_superintelligence.txt). The same spelled-i shape in *million* mɪ́ljən, *billions* bɪ́ljənz, *trillion* trɪ́ljən, *opinion* əpɪ́njən, *companion* kəmpǽnjən, *familiar* fəmɪ́ljər and *resilience* rɪzɪ́ljəns is deliberately unchanged - see pending-decisions.md §7."
   }
 ]
