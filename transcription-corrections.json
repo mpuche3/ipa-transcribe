@@ -798,10 +798,16 @@
     "explanation": "Did is the lexical verb here, not an auxiliary introducing another verb, so it carries an acute."
   },
   {
-    "word": "our friends are happy",
-    "wrong_transcription": "áwər frɛ́ndz ɑ́r hǽpij",
-    "correct_transcription": "awər frɛ́ndz ɑr hǽpij",
-    "explanation": "For a neutral reading, possessive our and copular are remain weak despite their full vowels. The accented version is reserved for a context that explicitly emphasizes or contrasts those words."
+    "word": "our",
+    "wrong_transcription": "awər",
+    "correct_transcription": "áwər",
+    "explanation": "Author ruling 2026-10-01: the possessive determiner *our* keeps the acute of its word-internal stress. The bare (accentless) form is for monosyllables (§5.2), and *our* is the only two-syllable possessive determiner, so the earlier carve-out that counted the ajər / awər sequence as one syllable (and therefore left neutral *our* bare) is withdrawn — the guide now lists áwər with ɪ́ntə, əbáwt and ówvər. The monosyllabic determiners stay bare (maj, jɔr, hɪz, ɪts, ðɛr) and copular *are* stays weak ɑr; the independent possessive *ours* is áwərz. The noun *hour* is unchanged (áwər), so determiner *our* and noun *hour* are homographs — the source word decides. 34 corpus tokens swept (TRN_CognitiveLoad 15, TRN_Habituation 5, TRN_TheDiscoveryOfChess 5, TRN_Move37 4, TRN_TheSelfishGene 3, TRN_the_case_for_superintelligence 2) plus their TRN_ONE.txt mirrors; AI-103-questions.json has no source *our*. The validator now rejects bare awər (awər was removed from WEAK_FORMS)."
+  },
+  {
+    "word": "ours",
+    "wrong_transcription": "awərz",
+    "correct_transcription": "áwərz",
+    "explanation": "Independent possessive *ours* is accented like the other independent possessives (mine, yours, hers, theirs) — M-W ˈau̇(-ə)rz. No corpus occurrence yet (examples 0, AI-103 0) — recorded 2026-10-01 with the *our* ruling so a token-level audit can see the class, as with the theoretical wrong forms of *dangerous* and *general*."
   },
   {
     "word": "not",

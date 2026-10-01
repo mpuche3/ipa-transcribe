@@ -60,7 +60,7 @@ LEGACY_SKIP = {"banned-vowels", "centering-schwa"}
 WEAK_FORMS = set("""
 ə ən ðə ðij ənd ɔr bət ɪf æz ðən ðət əv tə ɪn ɒn ət baj fɔr frəm wɪð
 əp dawn awt aj juw hij ʃij ɪt wij ðej mij hɪm hər əs ðɛm
-maj jɔr hɪz ɪts awər ðɛr
+maj jɔr hɪz ɪts ðɛr
 ðɪs ðæt ðijz ðowz
 də əm ɪz ɑr wəz wər bij bɪn həv həz həd dəz dɪd
 kən kʊd wɪl wʊd ʃəl ʃʊd mej majt məst
@@ -560,7 +560,7 @@ VALID_SAMPLES = [D(s) for s in [
     "ʃij də́z ðə wɜ́rk. ʃij dɪ́d ðə wɜ́rk.",
     "dəz ʃij wɜ́rk? dɪd ʃij wɜ́rk?",
     "aj də nɒ́t wɒ́nt tə prəsíjd. aj dúw wɒ́nt tə prəsíjd.",
-    "awər frɛ́ndz ɑr hǽpij. awər frɛ́ndz ɑr wɜ́rkɪŋ.",
+    "áwər frɛ́ndz ɑr hǽpij. áwər frɛ́ndz ɑr wɜ́rkɪŋ.",
     "áwər frɛ́ndz ɑ́r hǽpij. jɛ́s, ðej ɑ́r.",
     "bɪ́lt-ɪ́n fɒ́low-ə́p stɛ́p-baj-stɛ́p",
     "slájd awt əv bɛ́d. wɔ́k əp ðə hɪ́l.",
@@ -595,6 +595,7 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("ðə gɑ́rmənt", "ascii-g"),
     ("ɔl əv ðɛm", "unaccented-token"),
     ("nɒt rɛ́dij", "unaccented-token"),
+    ("awər frɛ́ndz ɑr hǽpij", "unaccented-token"),
     ("ðɪ́s—nɒt", "unaccented-token"),
     ("ðɪs–nɒt", "unaccented-token"),
     ("U..S.", "mixed-capitals"),

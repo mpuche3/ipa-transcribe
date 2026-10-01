@@ -236,7 +236,7 @@ When goals conflicted, the earlier one won.
 
 **Also valid:** citation forms throughout, which is what dictionaries show; or invariant weak `ðə`, reflecting the considerable variation in spontaneous American speech.
 
-**Why:** connected speech is the point. Rhythm and reduction are where learners' comprehension fails, and a transcription of sentences (rather than isolated words) should show conventional reductions without trying to predict every speaker's intonation. The familiar `ðə` / `ðij` alternation gives learners a deterministic way to avoid vowel hiatus, even though native usage is not categorical. Bareness (no accent) is the written signal of weakness — but only for monosyllables: a polysyllabic function word keeps its word-internal acute (`ɪ́ntə`, `əbáwt`), because there the mark locates the stressed syllable, information a bare form would destroy (and `ə` is stressable in this system, so it is not recoverable).
+**Why:** connected speech is the point. Rhythm and reduction are where learners' comprehension fails, and a transcription of sentences (rather than isolated words) should show conventional reductions without trying to predict every speaker's intonation. The familiar `ðə` / `ðij` alternation gives learners a deterministic way to avoid vowel hiatus, even though native usage is not categorical. Bareness (no accent) is the written signal of weakness — but only for monosyllables: a polysyllabic function word keeps its word-internal acute (`ɪ́ntə`, `əbáwt`, `áwər`), because there the mark locates the stressed syllable, information a bare form would destroy (and `ə` is stressable in this system, so it is not recoverable).
 
 ### Grammatical role before weak-form lookup
 
@@ -246,9 +246,19 @@ When goals conflicted, the earlier one won.
 
 **Why:** a bare word list hides distinctions learners need: *line them up on the board* contains both a particle and a preposition, and *some pieces* differs from independent *some*. The written acute encodes conventional word stress, not necessarily sentence focus. Thus a particle stays accented even when the following object is more prominent in speech, just as every noun retains its written accent. *All* is assigned an invariant acute for consistency with the other quantifiers, not because it must always be prominent. The guide provides grammatical tests and default readings for ambiguous particle/preposition and embedded-*what* constructions. This is a text-based convention, not a claim to recover a unique spoken intonation.
 
-**What stays weak:** a full vowel does not imply an acute. Possessive determiners, including *our* `awər`, remain bare by default. Copular *be* behaves like auxiliary *be*: *they are happy* and *they are working* both use `ɑr`. Explicit contrast and clause-final ellipsis can require `áwər`, `ɑ́r`, etc.; being a copula alone cannot.
+**What stays weak:** a full vowel does not imply an acute, and the monosyllabic possessive determiners (`maj`, `jɔr`, `hɪz`, `ɪts`, `ðɛr`) stay bare. Copular *be* behaves like auxiliary *be*: *they are happy* and *they are working* both use `ɑr`. Explicit contrast and clause-final ellipsis can require `ɑ́r` etc.; being a copula alone cannot. *our* is the one exception — see the next subsection.
 
 **Independent and lexical uses:** independent possessive *his* is accented (`hɪ́z`), unlike determiner *his* (`hɪz`). Personal pronouns used as independent answers also take strong accented forms (*who did it? me.*), but a pronoun is not automatically accented just because it is sentence-final (*I saw him*). Likewise, the weak modal list applies only to modals: nominal/verbal *can*, nominal/verbal *will*, nominal *might*, nominal *must*, and the month/name *May* are content words with full accented pronunciations. These clarifications apply the existing role-first principle, not a blanket change to pronouns or modals.
+
+### *our* keeps the acute of its word-internal stress
+
+**Chosen:** the possessive determiner *our* is `áwər` in neutral use — not bare `awər` (author ruling, 2026-10-01). The monosyllabic possessive determiners stay bare (`maj`, `jɔr`, `hɪz`, `ɪts`, `ðɛr`), and copular *are* stays weak `ɑr`; the independent possessive *ours* follows the independent-possessive rule and is `áwərz`. The noun *hour(s)* is unchanged (`áwər`, `áwərz`), so determiner *our* and noun *hour* are homographs — the source word disambiguates them, and both are /aʊər/.
+
+**Also valid:** the previous reading, which left neutral *our* bare and reserved `áwər` for explicit contrast; the corpus wrote the bare form in all 34 occurrences.
+
+**Why:** the bare form is for monosyllables (§5.2), and the guide already makes a polysyllabic function word keep the acute of its word-internal stress — `ɪ́ntə`, `əbáwt`, `ówvər`. `awər` was the single exception, kept bare only by a carve-out sentence that called the `ajər / awər` sequence one syllable. *our* is the only possessive determiner that is not a monosyllable, so deleting the carve-out leaves one rule instead of a rule plus an exception, aligns *our* with the rest of its own nucleus (`páwər`, `fláwər`, `áwərz`), and needs no new machinery: the acute still marks word stress, not sentence focus.
+
+**Validation boundary:** `awər` was removed from the checker's weak-form allowlist, so a bare `awər` now fails the paired and strict checks as an unaccented token (new invalid fixture; the old valid sample now uses `áwər`). The change is decidable from the transcription alone — a reduced *our* is written `ɑr`, never `awər` — which is why this ruling can be guarded mechanically, unlike the per-word rulings delivered against a derivation (*general*, *danger*). 34 corpus tokens were swept (6 example files, mirrored in `TRN_ONE.txt`); `AI-103-questions.json` has no source *our*.
 
 ### Auxiliary *do* is weak; lexical and emphatic *do* keep the acute
 
