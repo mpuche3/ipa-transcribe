@@ -102,6 +102,12 @@
     "explanation": "The h is silent in the General American pronunciation, and the reduced vowel spelled i is ɪ."
   },
   {
+    "word": "vehicles",
+    "wrong_transcription": "víjhɪkəlz",
+    "correct_transcription": "víjɪkəlz",
+    "explanation": "The plural of vehicle, and the same two points: the h is silent in General American, so it is never written, and the reduced vowel spelled i is ɪ. The singular entry rules víjɪkəl; the corpus's two Ariane 5 tokens were already correct and this one token in TRN_TheSelfishGene.txt (\"vehicles for gene propagation\") was not. Swept 2026-10-01; TRN_ONE.txt regenerated."
+  },
+  {
     "word": "synthesis",
     "wrong_transcription": "sɪ́nθəsəs",
     "correct_transcription": "sɪ́nθɪsɪs",
@@ -1940,8 +1946,32 @@
   {
     "word": "replicate",
     "wrong_transcription": "ríjpləkèjt",
-    "correct_transcription": "ríjplɪkèjt",
-    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ríjpləkèjt ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated."
+    "correct_transcription": "rɛ́plɪkèjt",
+    "explanation": "Two rules in one token, and the 2026-09-27 pass fixed only the second. (a) The first syllable is DRESS ɛ, not FLEECE íj: M-W's first listing is ˈre-plə-ˌkāt, whose plain e is /ɛ/, and this is the Latin re- of replicare — not the productive English re- 'again', which M-W writes with a macron (ˌrē-, ˈrē-) and this notation writes ríj (replay ríjplèj, re-point ríj-pɔ́jnt, rewriting rìjrájtɪŋ). (b) The medial syllable is spelled pli, so §4.4's spelling tie-breaker gives ɪ rather than M-W's schwa. The corpus had the word only one way, ríjpləkèjt ×1 (examples 1, AI-103 0, TRN_TheSelfishGene.txt L3, 'the drive to replicate'); the 2026-09-27 full-class pass rewrote it to ríjplɪkèjt, which corrected (b) and left (a) wrong — the ledger's own correct_transcription was wrong too, so a whole-token audit could never see it. Both halves are swept as of 2026-10-01: rɛ́plɪkèjt, TRN_ONE.txt regenerated (225402 → 225403 bytes). The rest of the family is the internal evidence and was already right: rɛ́plɪkèjtərz (replicators) and rɛ̀plɪkéjʃən (replication, ×2) sit in the same paragraph, and M-W gives every member plain e (ˈre-plə-ˌkā-tər, ˌre-plə-ˈkā-shən) against the ˌrē- of reproduce rìjprədúws and related rìjrə́n. See the 'replicate (first vowel only)' entry for the interim shape, and replicated / replicates / replicating for the derived forms."
+  },
+  {
+    "word": "replicate (first vowel only)",
+    "wrong_transcription": "ríjplɪkèjt",
+    "correct_transcription": "rɛ́plɪkèjt",
+    "explanation": "Registered separately so a token-level audit can see the interim shape, mirroring the existing 'definite (medial syllable only)' entry. Between 2026-09-27 and 2026-10-01 this ledger itself printed ríjplɪkèjt as the correct form of replicate, so a transcriber applying only the medial rule produces exactly this token. The first syllable is DRESS ɛ (M-W ˈre-plə-ˌkāt, plain e), never the FLEECE íj that the productive re- prefix takes. See the replicate entry."
+  },
+  {
+    "word": "replicated",
+    "wrong_transcription": "ríjplɪkèjtɪd",
+    "correct_transcription": "rɛ́plɪkèjtɪd",
+    "explanation": "No corpus occurrence yet (examples 0, AI-103 0) — recorded 2026-10-01 with the replicate ruling so the token-level audit can see the class, as with the theoretical wrong forms of *dangerous* and *general*. Both rules of rɛ́plɪkèjt apply: M-W's plain e in ˈre-plə-ˌkāt is DRESS ɛ, not the FLEECE íj of the productive re- prefix (rìjprədúws), and the medial -pli- takes ɪ under §4.4. The corpus's own rɛ́plɪkèjtərz and rɛ̀plɪkéjʃən are the internal evidence."
+  },
+  {
+    "word": "replicates",
+    "wrong_transcription": "ríjplɪkèjts",
+    "correct_transcription": "rɛ́plɪkèjts",
+    "explanation": "No corpus occurrence yet (examples 0, AI-103 0) — recorded 2026-10-01 with the replicate ruling so the token-level audit can see the class. The first syllable is DRESS ɛ (M-W ˈre-plə-ˌkāt, plain e), not FLEECE íj; the medial -pli- takes ɪ under §4.4; and the third-person ending after t is the regular voiceless s. See the replicate entry."
+  },
+  {
+    "word": "replicating",
+    "wrong_transcription": "ríjplɪkèjtɪŋ",
+    "correct_transcription": "rɛ́plɪkèjtɪŋ",
+    "explanation": "No corpus occurrence yet (examples 0, AI-103 0) — recorded 2026-10-01 with the replicate ruling so the token-level audit can see the class. The first syllable is DRESS ɛ (M-W ˈre-plə-ˌkāt, plain e), not FLEECE íj; the medial -pli- takes ɪ under §4.4; and the stem keeps its t before -ing (§3). See the replicate entry."
   },
   {
     "word": "sacrifices",
