@@ -3045,7 +3045,7 @@
     "word": "diverse",
     "wrong_transcription": "dɪvɜ́rs",
     "correct_transcription": "dajvɜ́rs",
-    "explanation": "PRICE, not KIT (M-W `dī-ˈvərs`); the same file already writes dajvɜ́rsɪtij. TRN_TheAlignmentProblem.txt ×1."
+    "explanation": "PRICE, not KIT (M-W `dī-ˈvərs`). The 2026-10-01 `di-` ruling takes the kit vowel where M-W lists both readings, but *diverse* is excluded by author ruling: its PRICE reading stands, so a later reader must not \"fix\" it from that rule. TRN_superintelligence_risk.txt ×1, TRN_TheAlignmentProblem.txt ×1."
   },
   {
     "word": "entire",
@@ -3214,5 +3214,47 @@
     "wrong_transcription": "brɪ́ljənt",
     "correct_transcription": "brɪ́lijənt",
     "explanation": "author ruling 2026-09-28: the medial i is written, giving the §4.5 glide-link shape brɪ́l + ij + ənt (compare *area* ɛ́rijə, *material* mətɪ́rijəl), against M-W's two-syllable first listing `ˈbril-yənt`. Swept ×1 (TRN_the_case_for_superintelligence.txt). The same spelled-i shape in *million* mɪ́ljən, *billions* bɪ́ljənz, *trillion* trɪ́ljən, *opinion* əpɪ́njən, *companion* kəmpǽnjən, *familiar* fəmɪ́ljər and *resilience* rɪzɪ́ljəns is deliberately unchanged - see pending-decisions.md §7."
+  },
+  {
+    "word": "diversity",
+    "wrong_transcription": "dajvɜ́rsɪtij",
+    "correct_transcription": "dɪvɜ́rsɪtij",
+    "explanation": "author ruling 2026-10-01: where M-W lists both readings for the first syllable of a `di-` word, the kit vowel is preferred. M-W `də-ˈvər-sə-tē, dī-` lists the reduced reading first and the §4.4 spelling tie-breaker turns it into ɪ. Swept ×2 (TRN_TheSelfishGene.txt L2, L12); TRN_ONE.txt regenerated, byte-neutral."
+  },
+  {
+    "word": "biodiversity",
+    "wrong_transcription": "bàjowdajvɜ́rsɪtij",
+    "correct_transcription": "bàjowdɪvɜ́rsɪtij",
+    "explanation": "same 2026-10-01 ruling: M-W `ˌbī-(ˌ)ō-də-ˈvər-sə-tē also -dī-` lists the reduced reading first. Swept ×1 (TRN_TheSelfishGene.txt L12), so *biodiversity* matches *diversity*."
+  },
+  {
+    "word": "dimension",
+    "wrong_transcription": "dajmɛ́nʃən",
+    "correct_transcription": "dɪmɛ́nʃən",
+    "explanation": "same 2026-10-01 ruling: M-W `də-ˈmen(t)-shən also dī-`. The theoretical PRICE form is recorded although no token used it — the corpus already wrote dɪmɛ́nʃən ×3 and dɪmɛ́nʃənəlij, so only the plural had drifted."
+  },
+  {
+    "word": "dimensions",
+    "wrong_transcription": "dajmɛ́nʃənz",
+    "correct_transcription": "dɪmɛ́nʃənz",
+    "explanation": "same 2026-10-01 ruling; swept ×1 (TRN_Move37.txt L9) so the plural matches the singular dɪmɛ́nʃən."
+  },
+  {
+    "word": "digestible",
+    "wrong_transcription": "dajdʒɛ́stɪbəl",
+    "correct_transcription": "dɪdʒɛ́stɪbəl",
+    "explanation": "same 2026-10-01 ruling: M-W `dī-ˈje-stə-bəl, də-` also lists the reduced reading, and the author's tie-break prefers the kit vowel where both are in use. Swept ×1 (TRN_CognitiveLoad.txt L4)."
+  },
+  {
+    "word": "digression",
+    "wrong_transcription": "dajɡrɛ́ʃən",
+    "correct_transcription": "dɪɡrɛ́ʃən",
+    "explanation": "same 2026-10-01 ruling: M-W `dī-ˈgre-shən, də-`. Theoretical form (no singular token in the corpus); recorded so a lookup on the lemma finds the ruling."
+  },
+  {
+    "word": "digressions",
+    "wrong_transcription": "dajɡrɛ́ʃənz",
+    "correct_transcription": "dɪɡrɛ́ʃənz",
+    "explanation": "same 2026-10-01 ruling; swept ×1 (TRN_CognitiveLoad.txt L15)."
   }
 ]
