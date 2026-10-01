@@ -3043,9 +3043,9 @@
   },
   {
     "word": "diverse",
-    "wrong_transcription": "dɪvɜ́rs",
-    "correct_transcription": "dajvɜ́rs",
-    "explanation": "PRICE, not KIT (M-W `dī-ˈvərs`). The 2026-10-01 `di-` ruling takes the kit vowel where M-W lists both readings, but *diverse* is excluded by author ruling: its PRICE reading stands, so a later reader must not \"fix\" it from that rule. TRN_superintelligence_risk.txt ×1, TRN_TheAlignmentProblem.txt ×1."
+    "wrong_transcription": "dajvɜ́rs",
+    "correct_transcription": "dɪvɜ́rs",
+    "explanation": "author ruling 2026-10-01: *diverse* joins the `di-` rule, so the reduced (kit) vowel wins, not PRICE — M-W lists `dī-ˈvərs, də-ˈvərs, ˈdī-ˌvərs`, the two readings are similarly widely used, and the §4.4 spelling tie-breaker gives ɪ. The 2026-09-28 audit had corrected dɪvɜ́rs to dajvɜ́rs; that is reversed here, and this entry now stands the other way round. Swept ×2 (TRN_superintelligence_risk.txt, TRN_TheAlignmentProblem.txt); TRN_ONE.txt regenerated, byte-neutral."
   },
   {
     "word": "entire",
