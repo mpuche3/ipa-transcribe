@@ -77,7 +77,7 @@ When goals conflicted, the earlier one won.
 
 **The fixed *-es* ending was slipping in AI-103.** `mɪ́nɪmàjzəz` (*minimizes*), `stéjbɪlàjzəz` (*stabilizes*), `fréjzəz` (*phrases* ×5), `ɪnkríjsəz` (*increases*), `tʃúwzəz` (*chooses*), `dɪfɛ́nsəz` (*defenses*), `béjsəz` (*bases*), `pɔ́zəz` (*pauses*) and `fjúwzəz` (*fuses*) wrote `əz` where §4.4's fixed *-es* → `ɪz` applies after a sibilant: 14 tokens swept to `…ɪz`. Every `examples/` token was already correct, which is why no pair check ever flagged it.
 
-**The fixed prefixes are not position-bound.** §4.4 used to say the `be-, de-, re-, pre-, se-, e-/ex-` prefixes take `ɪ` only when word-initial, and used *represent* `rɛ̀prəzɛ́ntɪd` as the spelling-rule counter-example. The author ruled the restriction wrong; the phrase and the counter-example are gone from the guide. The corpus follow-up is **pending**, and it is not small: the *represent* family alone is 50 `rɛ̀prə…` tokens (examples 18, AI-103 32 — `rɛ̀prəzɛ́ntətɪv` ×28, `rɛ̀prəzɛ́nts` ×9) against 5 that already write `rɛ̀prɪ…` (all in AI-103), *reproduce* adds `rɛ̀prədə́ktɪv` ×3 and `rɛ̀prədə́kʃən` ×2, and *undesirable* `ə̀ndəzájərəbəl` is the only `de-` case found. M-W writes plain `i` for all of them (`ˌre-pri-ˈzent`, `ˌən-di-ˈzī-rə-bəl`), so the `ɪ` form is what the corrected rule implies.
+**The fixed prefixes are not position-bound, and the corpus has followed (swept 2026-10-04).** §4.4 used to say the `be-, de-, re-, pre-, se-, e-/ex-` prefixes take `ɪ` only when word-initial, and used *represent* `rɛ̀prəzɛ́ntɪd` as the spelling-rule counter-example. The author ruled the restriction wrong; the phrase and the counter-example went with it, and on 2026-10-04 the author ruled the family itself — every `rɛ̀prə…` token became `rɛ̀prɪ…`. 50 tokens swept: 18 in `examples/` across 8 files, 32 in AI-103 (`rɛ̀prəzɛ́ntətɪv` ×28, `rɛ̀prəzɛntéjʃən` ×2, and the `zə`-spelled pair ×2), against 11 that already wrote `rɛ̀prɪ…` (6 in `examples/`, 5 in AI-103) — AI-103 had been split 5-to-32 inside itself. M-W writes plain `i` for all of them (`ˌre-pri-ˈzent`, `ˌre-pri-ˈzen-tə-tiv`), so the `ɪ` form is what the corrected rule implies. Six ledger entries, one per family member; `TRN_ONE.txt` was left alone (author, 2026-10-04): it is the notebook's artifact and is currently stale against `examples/`, so a hand edit there is not wanted. The family's medial vowel was ruled the same day: the corpus wrote `zɛ` in seven *representation* tokens and `zə` in two (AI-103 #4 and #298), and the author keeps `zə` — what §4.4's spelling step gives a reduced `e` before `n` — so the seven were swept to `rɛ̀prɪzəntéjʃən(z)` and the family is uniform. *undesirable* `ə̀ndəzájərəbəl` → `ə̀ndɪzájərəbəl` was ruled the same day (1 token, `TRN_TheAlignmentProblem.txt` L10, ledger entry), so both rows the prefix ruling left open are now closed; the author closed the wider audit the same day — no further internal cases are to be sought, which is why `pending-decisions.md` carries no open questions. (*reproduce / reproduction* appeared here too, but its reduced syllable is *pro*, spelled `o` — a §4.4 spelling-step `ə`, not a fixed prefix; the family’s first vowel was swept from `rɛ̀-` to `rìj-` on 2026-10-02.)
 
 ***presentation* is split as well, and ruled for the second listing.** `prɛ̀zəntéjʃən` ×4 matches M-W's *second* listing `ˌpre-zᵊn-ˈtā-shən`; the single *Habituation* token followed the *first* listing's accent pattern (`ˌprē-ˌzen-ˈtā-shən`) and had the wrong vowel symbol (PALM `ɑ̀` for DRESS `ɛ̀`). The author ruled the compressed second listing on 2026-09-27, so all 5 tokens read `prɛ̀zəntéjʃən` — an editorial exception to §1's first-listing rule, recorded as a §13 row and in the ledger.
 
@@ -89,7 +89,7 @@ When goals conflicted, the earlier one won.
 
 **`t` was carved out the same day, on the author's review.** The first sweep wrote `ɪ` before `t` as well, which produced 15 forms the author rejected — *market, target, ticket, carpet, pocket, cabinet, benefit(s)* and their inflections. M-W writes a schwa in every one of them (`ˈmär-kət`, `ˈtär-gət`, `ˈtik-ət`, `ˈkär-pət`, `ˈpä-kət`, `ˈka-bə-nət`, `ˈbe-nə-ˌfit`), so `t` joins the exception list, and both the swept forms and the same environment that already wrote `ɪ` before the sweep — *rocket(s)*, *budget/budgeting/budgeted*, *planet*, *supermarket*, *benefit(s)* — were reverted to the schwa: 37 forms, 140 tokens. The carve-out makes the rule question the reference accent twice over, so it is recorded here and in the §13 row rather than left to the guard.
 
-**Where the sweep stops.** Only vowels spelled `e` are in scope. The same *environment* in words spelled `i` or `y` is untouched — *profit* `prɒ́fɪt`, *quality* `kwɑ́lɪtij`, *edits* `ɛ́dɪts`, *cognitive* `kɒ́ɡnɪtɪv` — with *benefit(s)* `bɛ́nɪfət(s)` ruled the other way explicitly, because the author read the schwa for the consonant as well as for the letter. The internal reduced prefixes (*represent*, *delivery*, *retrieval*, *remaining*) are also out of scope: their `ɪ` is a fixed morpheme, and that corpus follow-up is still pending (above).
+**Where the sweep stops.** Only vowels spelled `e` are in scope. The same *environment* in words spelled `i` or `y` is untouched — *profit* `prɒ́fɪt`, *quality* `kwɑ́lɪtij`, *edits* `ɛ́dɪts`, *cognitive* `kɒ́ɡnɪtɪv` — with *benefit(s)*, first ruled the other way (`bɛ́nɪfət(s)`, the author reading the schwa for the consonant as well as for the letter) and then ruled back to `bɛ́nɪfɪt(s)` by the author on 2026-10-04, so both of its reduced vowels take `ɪ`. The internal reduced prefixes (*represent*, *delivery*, *retrieval*, *remaining*) are also out of scope: their `ɪ` is a fixed morpheme, and that corpus follow-up is still pending (above).
 
 **An individual basis for now (author, 2026-09-27).** The author's own reading is that the `e` case resists a clear rule: M-W writes a plain schwa where the letter rule predicts `ɪ` (*synthesis* `ˈsin(t)-thə-səs`, *necessarily* `ˌne-sə-ˈser-ə-lē`) and a plain `i` where the spelling rule already gives `ɪ` (*definite* `ˈde-fə-nət`), and the same two letters take a schwa in *market* and *hundred*. So the decision stays **word by word** for the moment: the default above is what the swept corpus follows and what the guard enforces, a word that M-W writes with a schwa may be ruled the other way and registered in the ledger, and the general rule is restated once the corpus is large enough to show it. The t-class amendment (above) is itself an instance of that: 15 words were ruled back to the schwa on the author's review, not by re-deriving the rule.
 
@@ -246,7 +246,7 @@ When goals conflicted, the earlier one won.
 
 ### Weak forms are transcribed
 
-**Chosen:** function words use conventional connected-speech forms — `əv, tə, ðə / ðij, həz` — selected by grammatical role, with explicit contrast and clause-final strong forms handled by §6. Weak *the* is `ðə` before a consonant sound and `ðij` before a vowel sound; the choice follows pronunciation rather than spelling (`ðə jùwnɪvɜ́rsətij`, `ðij áwər`).
+**Chosen:** function words use conventional connected-speech forms — `əv, tə, ðə / ðij, həz` — selected by grammatical role, with explicit contrast and clause-final strong forms handled by §6. Weak *the* is `ðə` before a consonant sound and `ðij` before a vowel sound; the choice follows pronunciation rather than spelling (`ðə jùwnɪvɜ́rsɪtij`, `ðij áwər`).
 
 **Also valid:** citation forms throughout, which is what dictionaries show; or invariant weak `ðə`, reflecting the considerable variation in spontaneous American speech.
 
@@ -357,11 +357,116 @@ When goals conflicted, the earlier one won.
 
 **Per-word rulings against a derivation, in both directions (2026-09-28).** *genuine* is `dʒɛ́njuwɪn`, not M-W's first listing `ˈjen-yə-wən`; *comfortable* is `kə́mftərbəl`, not M-W's `ˈkəm(p)-fər-tə-bəl`; *accountability* is `əkàwntəbɪ́lɪtij`, which reverses the shape the 2026-09-26 `-ible` sweep had written; *complex* (adjective) follows M-W's first listing `käm-ˈpleks` while the corpus had used the noun-like stress; *technology* loses a grave; *accessibility* takes the `əks-` of *accessible* rather than the `æ̀ks-` of *access*. Each is a ledger entry, following the *danger* and *general* precedent: a word ruled against its own derivation must be recorded, or a later reader applying the rule will "fix" it back.
 
-**Not swept, and why.** The reduced-prefix follow-up (the *represent* family, 50 tokens) and the `(-ə)r` bucket are the two standing items in `pending-decisions.md`; the audit re-confirmed them but added nothing.
+**Not swept, and why.** The `(-ə)r` bucket (§2) and the morpheme audit of the remaining internal reduced prefixes (§1) were the standing items in `pending-decisions.md`; the audit re-confirmed them but added nothing. Of the three items this paragraph's list grew into, the *represent* family and *undesirable* were ruled and swept on 2026-10-04 (see the fixed-prefix paragraph above) and the bucket itself was ruled the same day, keeping its schwa — what remains open is the *environment* half of the bucket (§2) and the audit itself (§1).
 
 **Second batch — the four items the audit had deferred, ruled the same day (44 tokens).** *metadata* `mɛ́tədèjtə` → `mɛ̀tədéjtə` (×31, AI-103): the author chose M-W's `ˌme-tə-ˈdā-tə` over the widespread first-syllable stress, so *this* word is derived rather than ruled, unlike the per-word list above. *inside*: the corpus split between `ɪnsájd` and `ɪ̀nsájd`, and since M-W's `(ˌ)in-ˈsīd` parenthesizes the secondary stress both are licensed — the author picked `ɪ̀nsájd`, so the 8 examples tokens were swept (the earlier pass had only fixed `ɪ́nsàjd`, whose acute was on the wrong syllable). *genuinely* stays `dʒɛ́njuwənlij`, ruled separately from the adjective `dʒɛ́njuwɪn` rather than harmonised with it. And the last three `e`-case words were closed on the e-rule default, "made consistent across the corpus": *inconsequential* `ɪ̀nkɒ̀nsɪkwɛ́nʃəl`, *modest* `mɒ́dɪst` / *modestly* `mɒ́dɪstlij`, *specifically* `spɪsɪ́fɪklij` — each matching a related form the corpus already wrote (`spɪsɪ́fɪk` ×14). Ledger 524 → 528 entries (the *genuinely* entry already existed and agreed, so it was left alone).
 
-**Two tokens the author caught directly (2026-09-28).** *comfortably* was `kə́mfərtəblij`; the adverb is `kə́mftərblij`, which is what M-W's *first* listing already says (`ˈkəm(p)(f)-tər-blē`, the `-tə-` and `-fər-` shapes being variants listed after it) and what the compressed *comfortable* `kə́mftərbəl` predicts — so that one is derived, not ruled. *brilliant* was `brɪ́ljənt`, and there the author ruled against M-W's single listing `ˈbril-yənt` in favour of writing the medial `i`: `brɪ́lijənt`, the §4.5 link shape `brɪ́l` + `ij` + `ənt` (compare *area* `ɛ́rijə`, *material* `mətɪ́rijəl`). Both are ledger entries; the second raises a class question — the same spelled-`i` shape in *million*, *billions*, *trillion*, *opinion*, *companion*, *familiar* and *resilience* - which is parked in `pending-decisions.md` §7 rather than swept on a guess. `TRN_ONE.txt` was regenerated with the notebook's own transform (225403 → 225402 bytes, 297 lines / 23997 tokens) after proving the pre-edit file equalled that transform of the pre-edit `examples/`.
+**Two tokens the author caught directly (2026-09-28).** *comfortably* was `kə́mfərtəblij`; the adverb is `kə́mftərblij`, which is what M-W's *first* listing already says (`ˈkəm(p)(f)-tər-blē`, the `-tə-` and `-fər-` shapes being variants listed after it) and what the compressed *comfortable* `kə́mftərbəl` predicts — so that one is derived, not ruled. *brilliant* was `brɪ́ljənt`, and there the author ruled against M-W's single listing `ˈbril-yənt` in favour of writing the medial `i`: `brɪ́lijənt`, the §4.5 link shape `brɪ́l` + `ij` + `ənt` (compare *area* `ɛ́rijə`, *material* `mətɪ́rijəl`). Both are ledger entries; the second raises a class question — the same spelled-`i` shape in *million*, *billions*, *trillion*, *opinion*, *companion*, *familiar* and *resilience* - which was parked in `pending-decisions.md` rather than swept on a guess. **Reversed 2026-10-04:** the author withdrew the medial `i`, so *brilliant* is `brɪ́ljənt` again and the class question is answered for the glide case — see the 2026-10-04 rulings below. `TRN_ONE.txt` was regenerated with the notebook's own transform (225403 → 225402 bytes, 297 lines / 23997 tokens) after proving the pre-edit file equalled that transform of the pre-edit `examples/`.
+
+## The 2026-10-04 rulings (author)
+
+Seven questions had been parked in `pending-decisions.md`; the author ruled them in one pass, and the corpus changed only where a
+ruling asked for it.
+
+**The `(-\u0259)r` bucket keeps its schwa.** The 28 words / 94 occurrences where a reduced schwa sits directly before `r` — *fire*
+`fájər`, *entire* `ɪntájər`, *requires* `rɪkwájərz` — are never compressed to `ə`-less shapes for shortness alone.
+That is what §4.4's `(-ə)` row already said for *power* `páwər`; the row now names the bucket, §13 carries it as an error, and the
+corpus needed no sweep. The neighbouring question was ruled the same day: the schwa *after* `r` in *environment* stays too, because a bracketed *consonant* is not a bracketed
+schwa — M-W's `-ˈvī-rə(n)-` brackets the `n`. The corpus, which wrote the compressed form 29 times against 15 full ones, was swept to the full form,
+and the older ledger entry that had licensed the compressed shape was corrected with it.
+
+**Consonant presence, not just `r` (§11 step 6).** The self-check bullet is generalised: every consonant the spelling
+pronounces must be present, and no symbol may stand in for one that is not — the substitution case (`səfvájvz` for *survives*, `f` for `r`)
+is invisible to the same audit as a deletion. The bullet now carries the recipe: align source and transcription word by word,
+diff the source stem's consonant letters against the symbols present, then discard the silent-letter and digraph false positives
+(*half* `hǽf`, *law* `lɔ́`, *heir* `ɛ́r`; `ch`, `sh`, `th`, `gh`, *-tion* → `ʃən`). It remains a review queue, not a pass/fail check,
+because the validator cannot see the class at all.
+
+***subject* keeps `ɪ`.** `sə́bdʒɪkt` is confirmed as written: the reduced vowel is `e` before `k`, so §4.4's spelling step gives `ɪ`, and M-W's
+`ˈsəb-jikt` agrees. The mirror case *obstacle* `ɒ́bstəkəl` stays `ə` because it is spelled with `a` — the pair is a spelling contrast, not a
+per-word exception.
+
+***Senghas* stays `sɛ́ŋɡəs`.** The surname in `TRN_NicaraguanSignLanguage.txt` has no dictionary or corpus source; the transcription read
+from the spelling is confirmed, so the guess is now the recorded reading rather than a flagged one.
+
+**The `e` case is a register, not a rule.** A reduced `e` reduces to either `ɪ` or `ə`, and which one a word takes is a property of the word:
+the author's ruling is that no rule can be stated from this corpus. §4.4 now says so, keeps the spelled-`e` → `ɪ` default as the
+starting point, and points at the ledger as the place a word's vowel is looked up; the ledger entries of 2026-09-27/28 (including
+*subject* above) are that register, and the mechanical half of the rule — a reduced `e` before *r l n m ŋ t* is `ə` — is unchanged.
+
+***brilliant* goes back to the glide: `brɪ́ljənt`.** The 2026-09-28 correction that inserted the medial `i` (`brɪ́lijənt`, on the strength of
+§4.5's `ij` link) is withdrawn, and the author states the rule behind it: **an unstressed `ijə` is written `jə`** — the glide alone, which is
+what M-W's `ˈbril-yənt` gives and what the corpus already wrote in *million* `mɪ́ljən`, *familiar* `fəmɪ́ljər`, *opinion* `əpɪ́njən`,
+*companion* `kəmpǽnjən` and *resilience* `rɪzɪ́ljəns`, so those tokens were left alone. One token was swept
+(`TRN_the_case_for_superintelligence.txt` L5) and the *brilliant* ledger entry was inverted in place. **Scope, ruled the same day:** the glide case only. The 343-token `ijə` layer whose listing gives the medial vowel its own syllable — *area* `ɛ́rijə`,
+*material* `mətɪ́rijəl`, *experience* `ɪkspɪ́rijəns` — keeps the `ij` link of §4.5, which now states the boundary: the dictionary's own shape decides.
+
+**Spanish names are read as Spanish.** A name or term from another language is transcribed in that language, and the English rules
+do not apply to it (`El Mundo` `el múndo` `<>` — not `ɛ́l mə́ndow`). A new guide §14 carries the subsystem: five plain vowels, `j`/`w` for
+diphthongs, one acute per word, Spanish consonant values including seseo (`Azcona` `azkóna`), and the note that the English machine
+checks *expect* to fire on such tokens (`invalid-glide-vowel` on plain `e o a u`, `unaccented-token` on `el`) — they are false
+positives by construction, and the English material around a name is what gets validated. `examples/TRN_NudaPropiedad.txt` was swept
+on this ruling: 25 tokens, the title *Nuda Propiedad* `núda propjedád` and nine names, each with a ledger entry; the English words in that
+file (including the noun *property* on L4) are untouched. `TRN_ONE.txt` was left alone, as the author ruled the same day.
+
+## The 2026-10-10 sweep (author)
+
+Eight forms were reported as suspected corpus errors and audited source-against-transcription. Three words turned out to be real defects, two
+families had drifted into inconsistent shapes, and two reports were cleared; a follow-up question about the *do* paradigm drew a further ruling
+and two more sweeps: **54 tokens changed in five transcription files**, and the ledger grew from 671 to 684 entries.
+
+**The spelling layer, three more words.** *latin* `lǽtən` → `lǽtɪn` (23 tokens across two files), *servitude* `sɜ́rvətùwd` → `sɜ́rvɪtùwd` (1) and
+*festivals* / *festival* `fɛ́stəvəlz` / `fɛ́stəvəl` → `fɛ́stɪvəlz` / `fɛ́stɪvəl` (2). All three are §4.4 step 3 — a reduced vowel spelled `i` takes
+`ɪ` against the dictionary's schwa, as already ruled for *medicine* `mɛ́dɪsɪn`, *vehicle* `víjɪkəl` and *service* `sɜ́rvɪs`, the last of which is the
+same `rv-` environment as *servitude*. All three are invisible to the validator in both directions: `lǽtən`, `lǽtɪn`, `fɛ́stəvəlz`,
+`fɛ́stɪvəlz`, `sɜ́rvətùwd` and `sɜ́rvɪtùwd` each return 0 issues, and `check_e_reduction` has nothing to say because the reduced vowel is not an
+`e` — the "no guard, deliberately" position recorded on 2026-09-27. Each word has a ledger entry.
+
+**One word, two shapes.** *generations* `dʒənəréjʃənz` → `dʒɛ̀nəréjʃənz` (15 tokens). M-W's `ˌje-nə-ˈrā-shənz` puts secondary stress on the first
+syllable, so the plural matches the singular `dʒɛ̀nəréjʃən` the corpus already wrote in all 76 of its tokens; the 15 had dropped both the grave
+and the full vowel. This is the "a word written two ways is a defect whatever the rule says" case, not a new rule.
+
+**The *thorough* family: `-ough-` is `ə`, not `ow` (author, 2026-10-10).** The family had drifted three ways — *thoroughly* `θɜ́rəlij` ×10 (the
+ledger's ruled shape), *thorough* `θə́row` ×2 against `θɜ́rə` ×1, *thoroughfare* `θɜ́rowfɛ̀r` ×1, and *thoroughness* one token in each medial shape.
+The author ruled the family on the *thoroughly* precedent, so it now reads: *thorough* `θɜ́rə`, *thoroughness* `θɜ́rənəs`, *thoroughfare*
+`θɜ́rəfɛ̀r`, *thoroughly* `θɜ́rəlij`. Only the medial element was open; the first vowel was never in doubt, because the syllable is stressed and
+STRUT + r is NURSE, so `θə́r` was an error in all five tokens (§4.3). The family is a deliberate departure from M-W's first listing (`ˈthər-ō`,
+`ˈthər-ō-lē`), which is why it is recorded in three new ledger entries alongside the existing *thoroughly* ruling instead of being derived.
+
+**Two reports the audit cleared — and one entry keeps them cleared.** *profit* `prɒ́fət` is not a corpus form at all: the three `prɒ́fət` tokens
+transcribe the source word *prophet* (TRN_AHomeOrAnAsset.txt L51, L127, L129), where `ə` is **correct**, because the reduced vowel is spelled `e`
+and the next symbol is `t` — §4.4's carve-out, exactly as in *market* `mɑ́rkət`. *Profit* itself is `prɒ́fɪt` in all 51 of its tokens. A ledger
+entry now records the *prophet* ruling, so a later reader applying the *profit* spelling rule cannot "fix" it back. The second cleared report is
+*foreigners* `fɔ́rənərz` (5 tokens) with *foreigner* `fɔ́rənər` (1): §4.4 step 4 gives the digraph default `ə` and names *foreign* `fɔ́rən` as its
+example, so the `fɔ́rɪnərz` preference recorded with the report would be a change to that rule rather than a correction — the author left the
+corpus as it was.
+
+**Pro-verb *do* is lexical, so it takes `dúw` (author, 2026-10-10).** A substitute *do* — one standing for a verb just used, with no auxiliary
+role — is the main verb of its own clause, so it is accented: *as they **do** in every generation* is `æz ðej dúw ɪn ɛ́vrij dʒɛ̀nəréjʃən`. The
+corpus had already written the substitute use `dúw` 28 times (*as they do in most of life*, *as Vienna and Munich do by attaching obligations*,
+*something people do*) against one deviating `də`, and the rest of the paradigm agreed (substitute *did* — *they did so*, *so did the policy*;
+substitute *does* — *it does so by the mechanism*). `də` stays where the `do (auxiliary)` entry's test puts it: do-support before *not*, and
+question-initial. One token swept (TRN_AHomeOrAnAsset.txt L19), with a ledger entry.
+
+**The negative is always weak — `də nɒ́t`, `dəz nɒ́t`, `dɪd nɒ́t` (author, 2026-10-10).** Six tokens read `dúw nɒ́t`, and the author ruled that none
+of §6's remaining triggers reaches a negated auxiliary: `nɒ́t` already carries the acute (§13), so a second one on the auxiliary double-marks the
+same unit, and the explicit-contrast and clause-final-ellipsis triggers are for the affirmative case (*yes, they do*), where the auxiliary is the
+only carrier of the verb left. All six were swept — *and those who do not.* (TRN_AHomeOrAnAsset.txt L937), *those who own and those who do not*
+(L2385 and TRN_HomeOrAsset_Long.txt L116), *buyers who do not intend to live in them* (L891) and *and do not forbid it to* (L2383) — alongside
+the four the corpus already had weak (L635, L1529, L2247, TRN_HomeOrAsset_Long.txt L33). The same audit closed the paradigm's two other holes:
+*does not* written `də nɒ́t`, a dropped `z` (TRN_ThePhysicsOfMusic.txt L7), and *did not* written `dɪ́d nɒ́t`, the one strong negative out of 221
+(TRN_AHomeOrAnAsset.txt L405). The corpus now reads the weak auxiliary in all 222 of its *do/does/did + not* tokens, as AI-103 already did
+(`də nɒ́t` 5/5); lexical and substitute forms are untouched (*People do want the freedom*, *they did so*, *it does so by the mechanism*,
+*and those who do*), so the audit test is the following *not*, never the string. Ledger entries: `do not`, `does not`, `did not`.
+
+**`TRN_ONE.txt` was left alone**, following the 2026-10-04 ruling. It is a snapshot of an earlier `examples/` state and no longer contains the
+21 files added since — nor, therefore, any of the tokens swept here. Regenerating it is the notebook's job, not a sweep's.
+
+**One caution for anyone repeating this sweep.** `lǽtən` is a substring of `flǽtənd` (*flattened*, TRN_AHomeOrAnAsset.txt L1303), so a
+mechanical replacement of that shape silently corrupts it; the class sweep has to be driven from the aligned source word, or by token, never by
+substring. The mistake was caught in the post-sweep reconciliation and reverted, and `check_e_reduction` does not catch it either — the guard
+returns clean for both `flǽtənd` and `flǽtɪnd`.
+
 
 ---
 

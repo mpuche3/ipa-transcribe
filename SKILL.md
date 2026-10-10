@@ -7,6 +7,8 @@ description: Transcribe English text into learner-friendly IPA using Lindsey-sty
 
 ## Workflow
 
+When writing an original essay and its transcription, always begin the TXT file with a short, plain-text title on its own first line and the TRN file with its transcribed title. Put each body paragraph on one line, with no empty or whitespace-only lines anywhere in either file. Keep the line structure identical and verify this before finishing. When transcribing existing supplied text, preserve its layout as required by the guide.
+
 1. **Read `transcription_guide.md` in this skill directory in full before transcribing anything.** It is the complete, self-contained spec: symbol chart, vowel/consonant tables, stress rules, weak forms, heteronyms, formatting and encoding rules, worked examples, and a step-by-step procedure (§11).
 
 2. **Check the mistake ledger.** `transcription-corrections.json` records words that earlier reviews corrected, with the rule each one broke. Look up the words in your text that appear there, confirm the recorded context matches, and use the ledger's form — where the ledger and your own dictionary reading disagree, the ledger wins.

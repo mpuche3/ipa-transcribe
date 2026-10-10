@@ -543,7 +543,7 @@ VALID_SAMPLES = [D(s) for s in [
     "dɪvájd-ənd-kɒ́ŋkər rɪkɜ́rənsɪz ɒn ə T-ʃɜ́rt frəm ðə '70s",
     "mæ̀θəmǽtɪkəl əsówsijèjtɪd wɔ́l-tə-wɔ́l",
     "ðə júwnɪts, ə júwnɪfɔ̀rm tríjtmənt, ənd ə júwnɪfàjd prɒ́sɛs",
-    "ðə jùwnɪvɜ́rsətij, jùwnɪvɜ́rsəl kəmjùwnɪkéjʃən, pjúwnɪtɪv mɛ́ʒərz",
+    "ðə jùwnɪvɜ́rsɪtij, jùwnɪvɜ́rsəl kəmjùwnɪkéjʃən, pjúwnɪtɪv mɛ́ʒərz",
     "ájnstàjnz ɪkwéjʒən e = mc^2 rɪléjts ɛ́nərdʒij ənd mǽs.",
     "ðə fə́ŋkʃən sin(x) ɪz pɪ̀rijɒ́dɪk, ə̀nlájk log(x).",
     "ðij ǽpəl ənd ðə júwnɪt",
@@ -653,7 +653,7 @@ VALID_LAYOUT_SAMPLES = [
     ("ticket", "tɪ́kət"),
     ("packets", "pǽkəts"),
     ("rocket", "rɒ́kət"),
-    ("benefits", "bɛ́nɪfəts"),
+    ("benefits", "bɛ́nɪfɪts"),
     # the ɪ half of the rule is practice, not a check: both shapes are accepted
     ("specific", "spɪsɪ́fɪk"),
     ("knowledge", "nɒ́lɪdʒ"),

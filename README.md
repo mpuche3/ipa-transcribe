@@ -34,6 +34,25 @@ Restart Claude Code, then ask it to transcribe any English text (or invoke `/ipa
 
 That skill directory is a **second checkout of this repository, not a copy of it**: it carries its own `transcription_guide.md`, `validate_transcriptions.py` and `transcription-corrections.json`, and the skill reads those local files. After pushing a change to any of them, pull there too — otherwise the skill keeps transcribing against the older spec. (It had gone weeks without a pull before 2026-09-26, to the point of holding no ledger and no `examples/` at all, which silently disabled the `SKILL.md` step that consults the ledger.)
 
+## Use with GitHub Copilot in VS Code
+
+The repository includes the `write-and-transcribe-essay` agent skill in
+[.github/skills/write-and-transcribe-essay/SKILL.md](.github/skills/write-and-transcribe-essay/SKILL.md).
+Open this repository as your workspace, start a Copilot chat session, and invoke
+`/write-and-transcribe-essay` with an essay topic. The skill writes matching
+`examples/TXT_<TopicName>.txt` and `examples/TRN_<TopicName>.txt` files and validates
+the transcription against this repository's guide and correction ledger.
+Both files begin with a short title (transcribed in the TRN file), followed by
+one paragraph per line with no blank lines.
+
+Use **Chat: Open Customizations** from the Command Palette and check the **Skills**
+tab to confirm discovery. If an existing session does not show the new skill,
+start a new session.
+
+The original [prompt file](.github/prompts/write-and-transcribe-essay.prompt.md)
+is retained for Local-agent compatibility. VS Code Agent Host sessions do not
+load `.prompt.md` files; they use agent skills instead.
+
 ## Use without Claude
 
 The guide is a standalone spec: paste `transcription_guide.md` into any LLM as the instructions for a transcription task, or read it yourself — it is written to be followed by humans too.

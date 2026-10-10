@@ -19,7 +19,7 @@
       "spíjtʃ mɒ́dəl",
       "ɒ́bdʒɛkt dɪtɛ́kʃən mɒ́dəl"
     ],
-    "trans_Explanation": "lɑ́rdʒ lǽŋɡwɪdʒ mɒ́dəl (LLM). ən LLM ɪz súwtɪd tə brɔ́d lǽŋɡwɪdʒ dʒɛ̀nəréjʃən, sə̀mərɪzéjʃən, ənd ríjzənɪŋ ówvər səbstǽnʃəl kɒ́ntɛkst. kəmpɛ́r kǽndɪdejt LLMz ɒn rɛ̀prəzɛ́ntətɪv kɒ̀nvərséjʃənz bɪkɒ́z kɒ́ntɛkst lɛ́ŋkθ, kwɑ́lɪtij, léjtənsij, ríjdʒənəl əvèjləbɪ́lɪtij, ənd kɔ́st dɪ́fər baj mɒ́dəl ənd dɪplɔ́jmənt.",
+    "trans_Explanation": "lɑ́rdʒ lǽŋɡwɪdʒ mɒ́dəl (LLM). ən LLM ɪz súwtɪd tə brɔ́d lǽŋɡwɪdʒ dʒɛ̀nəréjʃən, sə̀mərɪzéjʃən, ənd ríjzənɪŋ ówvər səbstǽnʃəl kɒ́ntɛkst. kəmpɛ́r kǽndɪdejt LLMz ɒn rɛ̀prɪzɛ́ntətɪv kɒ̀nvərséjʃənz bɪkɒ́z kɒ́ntɛkst lɛ́ŋkθ, kwɑ́lɪtij, léjtənsij, ríjdʒənəl əvèjləbɪ́lɪtij, ənd kɔ́st dɪ́fər baj mɒ́dəl ənd dɪplɔ́jmənt.",
     "Difficulty": 2
   },
   {
@@ -79,7 +79,7 @@
       "Video Model"
     ],
     "Explanation": "Embedding Model. Embeddings represent semantic meaning as vectors so similar content can be found by distance or similarity. Index and query vectors must use the same compatible embedding model and dimensions; embedding models do not generate the final natural-language answer.",
-    "trans_Question": "ə rɪtríjvəl sɪ́stəm məst kɒ́nvərt dɒ́kjəmənt tʃə́ŋks ənd júwzər kwɪ́rijz ɪ́ntə nuwmɛ́rɪk rɛ̀prəzəntéjʃənz fɔr sɪ̀mɪlɛ́rɪtij sɜ́rtʃ. wɪ́tʃ mɒ́dəl ʃʊd ɪt dɪplɔ́j?",
+    "trans_Question": "ə rɪtríjvəl sɪ́stəm məst kɒ́nvərt dɒ́kjəmənt tʃə́ŋks ənd júwzər kwɪ́rijz ɪ́ntə nuwmɛ́rɪk rɛ̀prɪzəntéjʃənz fɔr sɪ̀mɪlɛ́rɪtij sɜ́rtʃ. wɪ́tʃ mɒ́dəl ʃʊd ɪt dɪplɔ́j?",
     "trans_RightAnswer": "ɪmbɛ́dɪŋ mɒ́dəl",
     "trans_WrongAnswers": [
       "tʃǽt mɒ́dəl",
@@ -134,7 +134,7 @@
       "prɒ́mpt ʃíjld",
       "tréjs dǽʃbɔ̀rd"
     ],
-    "trans_Explanation": "mɒ́dəl kǽtəlɔ̀ɡ. ðə kǽtəlɔ̀ɡ səpɔ́rts dɪskə́vərij ənd kəmpɛ́rɪsən əv mɒ́dəlz frəm mə́ltɪpəl prəvájdərz júwzɪŋ mɒ́dəl kɑ́rdz, kèjpəbɪ́lɪtijz, bɛ́ntʃmɑ̀rks, lájsənsɪz, ənd dɪplɔ́jmənt ɪ̀nfərméjʃən. kǽtəlɔ̀ɡ bɛ́ntʃmɑ̀rks nɛ́row ðə fíjld, bət æ̀plɪkéjʃən ɪvæ̀ljuwéjʃən ɒn rɛ̀prəzɛ́ntətɪv déjtə ʃʊd dɪtɜ́rmɪn ðə fájnəl tʃɔ́js.",
+    "trans_Explanation": "mɒ́dəl kǽtəlɔ̀ɡ. ðə kǽtəlɔ̀ɡ səpɔ́rts dɪskə́vərij ənd kəmpɛ́rɪsən əv mɒ́dəlz frəm mə́ltɪpəl prəvájdərz júwzɪŋ mɒ́dəl kɑ́rdz, kèjpəbɪ́lɪtijz, bɛ́ntʃmɑ̀rks, lájsənsɪz, ənd dɪplɔ́jmənt ɪ̀nfərméjʃən. kǽtəlɔ̀ɡ bɛ́ntʃmɑ̀rks nɛ́row ðə fíjld, bət æ̀plɪkéjʃən ɪvæ̀ljuwéjʃən ɒn rɛ̀prɪzɛ́ntətɪv déjtə ʃʊd dɪtɜ́rmɪn ðə fájnəl tʃɔ́js.",
     "Difficulty": 2
   },
   {
@@ -149,7 +149,7 @@
     ],
     "Explanation": "Representative Evaluation. Evaluate candidate models against realistic prompts, expected answers, safety cases, latency, and cost from the actual workload. Public benchmarks are useful screening evidence but may not predict domain-specific quality or operational behavior.",
     "trans_Question": "túw kǽtəlɔ̀ɡ mɒ́dəlz hǽv sɪ́mɪlər pə́blɪk bɛ́ntʃmɑ̀rk skɔ́rz, bət ðij æ̀plɪkéjʃən júwzɪz spɛ́ʃəlàjzd líjɡəl lǽŋɡwɪdʒ. wɒ́t ʃʊd dɪtɜ́rmɪn ðə fájnəl sɪlɛ́kʃən?",
-    "trans_RightAnswer": "rɛ̀prəzɛ́ntətɪv ɪvæ̀ljuwéjʃən",
+    "trans_RightAnswer": "rɛ̀prɪzɛ́ntətɪv ɪvæ̀ljuwéjʃən",
     "trans_WrongAnswers": [
       "prəvájdər pɒ̀pjəlɛ́rɪtij",
       "lɑ́rdʒəst pərǽmətər káwnt",
@@ -157,7 +157,7 @@
       "lɔ́ŋɡəst mɒ́dəl néjm",
       "dɪfɔ́lt dɪplɔ́jmənt néjm"
     ],
-    "trans_Explanation": "rɛ̀prəzɛ́ntətɪv ɪvæ̀ljuwéjʃən. ɪvǽljuwèjt kǽndɪdejt mɒ́dəlz əɡɛ́nst rìjəlɪ́stɪk prɒ́mpts, ɪkspɛ́ktɪd ǽnsərz, séjftij kéjsɪz, léjtənsij, ənd kɔ́st frəm ðij ǽktʃəwəl wɜ́rklòwd. pə́blɪk bɛ́ntʃmɑ̀rks ɑr júwsfəl skríjnɪŋ ɛ́vɪdəns bət mej nɒ́t prɪdɪ́kt dowméjn-spɪsɪ́fɪk kwɑ́lɪtij ɔr ɒ̀pəréjʃənəl bɪhéjvjər.",
+    "trans_Explanation": "rɛ̀prɪzɛ́ntətɪv ɪvæ̀ljuwéjʃən. ɪvǽljuwèjt kǽndɪdejt mɒ́dəlz əɡɛ́nst rìjəlɪ́stɪk prɒ́mpts, ɪkspɛ́ktɪd ǽnsərz, séjftij kéjsɪz, léjtənsij, ənd kɔ́st frəm ðij ǽktʃəwəl wɜ́rklòwd. pə́blɪk bɛ́ntʃmɑ̀rks ɑr júwsfəl skríjnɪŋ ɛ́vɪdəns bət mej nɒ́t prɪdɪ́kt dowméjn-spɪsɪ́fɪk kwɑ́lɪtij ɔr ɒ̀pəréjʃənəl bɪhéjvjər.",
     "Difficulty": 3
   },
   {
@@ -493,7 +493,7 @@
       "Data residency planning"
     ],
     "Explanation": "Foundry project. Projects provide collaboration and isolation for individual applications or environments under one resource. This is the current pattern instead of classic hub-based organization.",
-    "trans_Question": "ə kə́mpənij májɡrèjtɪŋ frəm klǽsɪk hə́b-béjst prɒ́dʒɛkts níjdz sɛ́pərèjt dɛ́v ənd prɒ́d wɜ́rkspèjsɪz wɪθáwt dúwplɪkèjtɪŋ ðij ɪntájər mǽnɪdʒmənt stǽk. wɪ́tʃ báwndərij ʃʊd ðej júws fɔr íjtʃ ɪnvájrənmənt?",
+    "trans_Question": "ə kə́mpənij májɡrèjtɪŋ frəm klǽsɪk hə́b-béjst prɒ́dʒɛkts níjdz sɛ́pərèjt dɛ́v ənd prɒ́d wɜ́rkspèjsɪz wɪθáwt dúwplɪkèjtɪŋ ðij ɪntájər mǽnɪdʒmənt stǽk. wɪ́tʃ báwndərij ʃʊd ðej júws fɔr íjtʃ ɪnvájərənmənt?",
     "trans_RightAnswer": "fáwndrij prɒ́dʒɛkt",
     "trans_WrongAnswers": [
       "fáwndrij ríjsɔrs",
@@ -502,7 +502,7 @@
       "kəntrówl ənd déjtə pléjnz",
       "déjtə rɛ́zɪdənsij plǽnɪŋ"
     ],
-    "trans_Explanation": "fáwndrij prɒ́dʒɛkt. prɒ́dʒɛkts prəvájd kəlæ̀bəréjʃən ənd àjsəléjʃən fɔr ɪ̀ndɪvɪ́dʒuwəl æ̀plɪkéjʃənz ɔr ɪnvájrənmənts ə́ndər wə́n ríjsɔrs. ðɪ́s ɪz ðə kɜ́rənt pǽtərn ɪ̀nstɛ́d əv klǽsɪk hə́b-béjst ɔ̀rɡənɪzéjʃən.",
+    "trans_Explanation": "fáwndrij prɒ́dʒɛkt. prɒ́dʒɛkts prəvájd kəlæ̀bəréjʃən ənd àjsəléjʃən fɔr ɪ̀ndɪvɪ́dʒuwəl æ̀plɪkéjʃənz ɔr ɪnvájərənmənts ə́ndər wə́n ríjsɔrs. ðɪ́s ɪz ðə kɜ́rənt pǽtərn ɪ̀nstɛ́d əv klǽsɪk hə́b-béjst ɔ̀rɡənɪzéjʃən.",
     "Difficulty": 2
   },
   {
@@ -640,7 +640,7 @@
       "stéjdʒd mɒ́dəl rówlàwt",
       "éjdʒənt vɜ́rʒən rówlbæ̀k"
     ],
-    "trans_Explanation": "ɡlówbəl dɪplɔ́jmənt. ɪt rúwts trǽfɪk əkrɔ́s səpɔ́rtɪd ríjdʒənz fɔr brɔ́d əvèjləbɪ́lɪtij ənd léjtənsij bɛ́nɪfəts. ðɪ́s rɪdúwsɪz kə́stəm klájənt-sájd féjlòwvər ənd dʒìjəɡrǽfɪk ráwtɪŋ kəmplɛ́ksɪtij.",
+    "trans_Explanation": "ɡlówbəl dɪplɔ́jmənt. ɪt rúwts trǽfɪk əkrɔ́s səpɔ́rtɪd ríjdʒənz fɔr brɔ́d əvèjləbɪ́lɪtij ənd léjtənsij bɛ́nɪfɪts. ðɪ́s rɪdúwsɪz kə́stəm klájənt-sájd féjlòwvər ənd dʒìjəɡrǽfɪk ráwtɪŋ kəmplɛ́ksɪtij.",
     "Difficulty": 3
   },
   {
@@ -755,7 +755,7 @@
       "kíj vɔ́lt rɛ́frənsɪz",
       "ɪ̀nfrəstrə́ktʃər æz kówd"
     ],
-    "trans_Explanation": "dɪfɔ́ltæ̀ʒərkrɪdɛ̀nʃəl. ɪt tʃéjnz ajdɛ́ntɪtij sɔ́rsɪz fɔr lówkəl dɪvɛ́ləpmənt ənd mǽnɪdʒd rə́ntàjm ɪnvájrənmənts wɪð wə́n kówd pǽθ. ðɪ́s ɪnéjbəlz kíjləs ɔθɛ̀ntɪkéjʃən əlájnd wɪð ɛ́ntrə-béjst ǽksɛ̀s pǽtərnz.",
+    "trans_Explanation": "dɪfɔ́ltæ̀ʒərkrɪdɛ̀nʃəl. ɪt tʃéjnz ajdɛ́ntɪtij sɔ́rsɪz fɔr lówkəl dɪvɛ́ləpmənt ənd mǽnɪdʒd rə́ntàjm ɪnvájərənmənts wɪð wə́n kówd pǽθ. ðɪ́s ɪnéjbəlz kíjləs ɔθɛ̀ntɪkéjʃən əlájnd wɪð ɛ́ntrə-béjst ǽksɛ̀s pǽtərnz.",
     "Difficulty": 2
   },
   {
@@ -792,7 +792,7 @@
       "Canary rollout"
     ],
     "Explanation": "Key Vault references. Store secrets centrally and retrieve them securely at runtime instead of embedding them in code or static config. This improves rotation, auditing, and separation of duties.",
-    "trans_Question": "ən ǽp məst kɔ́l dáwnstrìjm sɜ́rvɪsɪz ðət stɪ́l rɪkwájər síjkrəts, ənd sɪkjʊ́rɪtij pɒ́lɪsij fərbɪ́dz pə́tɪŋ krɪdɛ́nʃəlz ɪn ríjpow fájlz ɔr pléjn ɪnvájrənmənt kɒ́nfɪɡz. wɒ́t ʃʊd ðə tíjm ɪ́mpləmənt?",
+    "trans_Question": "ən ǽp məst kɔ́l dáwnstrìjm sɜ́rvɪsɪz ðət stɪ́l rɪkwájər síjkrəts, ənd sɪkjʊ́rɪtij pɒ́lɪsij fərbɪ́dz pə́tɪŋ krɪdɛ́nʃəlz ɪn ríjpow fájlz ɔr pléjn ɪnvájərənmənt kɒ́nfɪɡz. wɒ́t ʃʊd ðə tíjm ɪ́mpləmənt?",
     "trans_RightAnswer": "kíj vɔ́lt rɛ́frənsɪz",
     "trans_WrongAnswers": [
       "prɒ́dʒɛkt-skówpt RBAC",
@@ -824,7 +824,7 @@
       "kənɛ́rij rówlàwt",
       "fáwndrij ríjsɔrs"
     ],
-    "trans_Explanation": "ɪ̀nfrəstrə́ktʃər æz kówd. dɪklɛ́rətɪv tɛ́mpləts méjk ɪnvájrənmənt sɛ́tə̀p rɪpíjtəbəl, rɪvjúwəbəl, ənd kənsɪ́stənt əkrɔ́s stéjdʒɪz. ðej ɔ́lsow ɪ́ntɪɡrèjt klíjnlij wɪð ɔ́təmèjtɪd væ̀lɪdéjʃən ənd dɪplɔ́jmənt wɜ́rkflòwz.",
+    "trans_Explanation": "ɪ̀nfrəstrə́ktʃər æz kówd. dɪklɛ́rətɪv tɛ́mpləts méjk ɪnvájərənmənt sɛ́tə̀p rɪpíjtəbəl, rɪvjúwəbəl, ənd kənsɪ́stənt əkrɔ́s stéjdʒɪz. ðej ɔ́lsow ɪ́ntɪɡrèjt klíjnlij wɪð ɔ́təmèjtɪd væ̀lɪdéjʃən ənd dɪplɔ́jmənt wɜ́rkflòwz.",
     "Difficulty": 2
   },
   {
@@ -1229,7 +1229,7 @@
       "Managed identity"
     ],
     "Explanation": "Relevance metrics. Ranking measures on labeled query sets turn retrieval tuning into a repeatable process. Objective metrics make semantic and hybrid changes comparable.",
-    "trans_Question": "sɜ́rtʃ kwɑ́lɪtij dɪbéjts ɑr səbdʒɛ́ktɪv bɪkɒ́z tíjmz lǽk ə rɪpíjtəbəl bɛ́ntʃmɑ̀rk əkrɔ́s rɛ̀prəzɛ́ntətɪv kwɪ́rijz ənd hjúwmən dʒə́dʒmənts. wɪ́tʃ mɛ́ʒərmənt kɒ́nsɛpt ʃʊd ðej ɪ́mpləmənt?",
+    "trans_Question": "sɜ́rtʃ kwɑ́lɪtij dɪbéjts ɑr səbdʒɛ́ktɪv bɪkɒ́z tíjmz lǽk ə rɪpíjtəbəl bɛ́ntʃmɑ̀rk əkrɔ́s rɛ̀prɪzɛ́ntətɪv kwɪ́rijz ənd hjúwmən dʒə́dʒmənts. wɪ́tʃ mɛ́ʒərmənt kɒ́nsɛpt ʃʊd ðej ɪ́mpləmənt?",
     "trans_RightAnswer": "rɛ́lɪvəns mɛ́trɪks",
     "trans_WrongAnswers": [
       "ɪ̀ndʒɛ́stʃən frɛ́ʃnəs",
@@ -1627,7 +1627,7 @@
       "rɛ́d tíjmɪŋ",
       "ǽʒər kɒ́ntɛnt séjftij",
       "séjftij ɪvǽljuwèjtərz",
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts"
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀ts"
     ],
     "trans_Explanation": "fɔ́ls pɒ́zɪtɪv tréjdɔ̀f. strɪ́ktər θrɛ́ʃòwldz kən ɪ̀mprúwv rɪ́sk rɪdə́kʃən bət mej ówvər-blɒ́k lɪdʒɪ́tɪmət kɒ́ntɛnt ənd hɜ́rt tǽsk kəmplíjʃən. kæ̀lɪbréjʃən ʃʊd bǽləns séjftij wɪð juwtɪ́lɪtij fɔr ðə sənɛ́rijòw.",
     "Difficulty": 3
@@ -1649,7 +1649,7 @@
       "fɔ́ls pɒ́zɪtɪv tréjdɔ̀f",
       "séjftij ɪvǽljuwèjtərz",
       "léjərd ɡɑ́rdrèjlz",
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀ts",
       "RAI prɪ́nsɪpəlz"
     ],
     "trans_Explanation": "rɛ́d tíjmɪŋ. ɪt ɪz æ̀dvərsɛ́rijəl tɛ́stɪŋ dɪzájnd tə ə̀nkə́vər séjftij ənd sɪkjʊ́rɪtij féjljər mówdz bɪfɔ́r rɪlíjs. fájndɪŋz ɪ̀nfɔ́rm mɪ̀tɪɡéjʃənz, θrɛ́ʃòwldz, ənd ɒ̀pəréjʃənəl rə́nbʊ̀ks.",
@@ -1666,16 +1666,16 @@
       "Trace logs"
     ],
     "Explanation": "Safety evaluators. Automated evaluators score outputs against defined quality and risk dimensions so CI can block regressions. Use representative datasets to make pass-fail decisions meaningful.",
-    "trans_Question": "jɔr CI pájplàjn məst féjl wɛ́n tɒksɪ́sɪtij ɔr ɡráwndɪdnəs skɔ́rz fɔ́l bɪlów pɒ́lɪsij ɒn rɛ̀prəzɛ́ntətɪv bɛ́ntʃmɑ̀rk prɒ́mpts. wɒ́t ʃʊd ɪnfɔ́rs ðɪs ɡéjt?",
+    "trans_Question": "jɔr CI pájplàjn məst féjl wɛ́n tɒksɪ́sɪtij ɔr ɡráwndɪdnəs skɔ́rz fɔ́l bɪlów pɒ́lɪsij ɒn rɛ̀prɪzɛ́ntətɪv bɛ́ntʃmɑ̀rk prɒ́mpts. wɒ́t ʃʊd ɪnfɔ́rs ðɪs ɡéjt?",
     "trans_RightAnswer": "séjftij ɪvǽljuwèjtərz",
     "trans_WrongAnswers": [
       "rɛ́d tíjmɪŋ",
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀ts",
       "fɔ́ls pɒ́zɪtɪv tréjdɔ̀f",
       "RAI prɪ́nsɪpəlz",
       "tréjs lɔ́ɡz"
     ],
-    "trans_Explanation": "séjftij ɪvǽljuwèjtərz. ɔ́təmèjtɪd ɪvǽljuwèjtərz skɔ́r áwtpʊ̀ts əɡɛ́nst dɪfájnd kwɑ́lɪtij ənd rɪ́sk dɪmɛ́nʃənz sów CI kən blɒ́k rɪɡrɛ́ʃənz. júws rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts tə méjk pǽs-féjl dɪsɪ́ʒənz míjnɪŋfəl.",
+    "trans_Explanation": "séjftij ɪvǽljuwèjtərz. ɔ́təmèjtɪd ɪvǽljuwèjtərz skɔ́r áwtpʊ̀ts əɡɛ́nst dɪfájnd kwɑ́lɪtij ənd rɪ́sk dɪmɛ́nʃənz sów CI kən blɒ́k rɪɡrɛ́ʃənz. júws rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀ts tə méjk pǽs-féjl dɪsɪ́ʒənz míjnɪŋfəl.",
     "Difficulty": 3
   },
   {
@@ -1690,7 +1690,7 @@
     ],
     "Explanation": "Representative datasets. Evaluation data must reflect real user intents, languages, and edge cases to predict live behavior. Weak dataset coverage leads to false confidence before deployment.",
     "trans_Question": "mɒ́dəl kwɑ́lɪtij lʊ́kt ɡʊ́d ɪn stéjdʒɪŋ, bət prədə́kʃən júwzərz ǽsk dɪ́fərənt kwɛ́stʃənz ənd ɪ́nsɪdənts rájz. wɪ́tʃ ǽsɛ̀t ʃʊd bij ɪkspǽndɪd tə ɪ̀mprúwv ɪvæ̀ljuwéjʃən ríjəlɪzəm?",
-    "trans_RightAnswer": "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
+    "trans_RightAnswer": "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀ts",
     "trans_WrongAnswers": [
       "séjftij ɪvǽljuwèjtərz",
       "RAI prɪ́nsɪpəlz",
@@ -1698,7 +1698,7 @@
       "tréjs lɔ́ɡz",
       "prɒ́vənəns mɛ̀tədéjtə"
     ],
-    "trans_Explanation": "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts. ɪvæ̀ljuwéjʃən déjtə məst rɪflɛ́kt ríjəl júwzər ɪ̀ntɛ́nts, lǽŋɡwɪdʒɪz, ənd ɪ́dʒ kéjsɪz tə prɪdɪ́kt lájv bɪhéjvjər. wíjk déjtəsɛ̀t kə́vərɪdʒ líjdz tə fɔ́ls kɒ́nfɪdəns bɪfɔ́r dɪplɔ́jmənt.",
+    "trans_Explanation": "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀ts. ɪvæ̀ljuwéjʃən déjtə məst rɪflɛ́kt ríjəl júwzər ɪ̀ntɛ́nts, lǽŋɡwɪdʒɪz, ənd ɪ́dʒ kéjsɪz tə prɪdɪ́kt lájv bɪhéjvjər. wíjk déjtəsɛ̀t kə́vərɪdʒ líjdz tə fɔ́ls kɒ́nfɪdəns bɪfɔ́r dɪplɔ́jmənt.",
     "Difficulty": 3
   },
   {
@@ -1715,7 +1715,7 @@
     "trans_Question": "kəmplájəns rɪkwájərz jɔr ɔ̀rɡənɪzéjʃən tə ʃów háw fɛ́rnəs, trænspɛ́rənsij, ənd əkàwntəbɪ́lɪtij wər kənsɪ́dərd ɪn sɪ́stəm dɪzájn dɪsɪ́ʒənz. wɒ́t fréjmwɜ̀rk ʃʊd bij rɛ́frənst?",
     "trans_RightAnswer": "RAI prɪ́nsɪpəlz",
     "trans_WrongAnswers": [
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀ts",
       "tréjs lɔ́ɡz",
       "séjftij ɪvǽljuwèjtərz",
       "prɒ́vənəns mɛ̀tədéjtə",
@@ -1740,7 +1740,7 @@
     "trans_WrongAnswers": [
       "RAI prɪ́nsɪpəlz",
       "prɒ́vənəns mɛ̀tədéjtə",
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀ts",
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀ts",
       "prájvəsij-əwɛ́r rɪtɛ́nʃən",
       "hjúwmən əprúwvəl"
     ],
@@ -1899,7 +1899,7 @@
     "trans_Question": "ə tíjm májɡrèjtɪd tə fáwndrij prɒ́dʒɛkts ənd wɒ́nts ðə rɛ̀kəmɛ́ndɪd SDK pǽtərn fɔr ɪ̀nvówkɪŋ dɪplɔ́jd mɒ́dəlz frəm ə sɪ́ŋɡəl prɒ́dʒɛkt ɪ́ndpɔ̀jnt. wɪ́tʃ klájənt ʃʊd ðej stǽndərdàjz ɒ́n?",
     "trans_RightAnswer": "ówpənèjàj klájənt",
     "trans_WrongAnswers": [
-      "ɪnvájrənmənt sɛ̀pəréjʃən",
+      "ɪnvájərənmənt sɛ̀pəréjʃən",
       "prɒ́dʒɛkt ɪ́ndpɔ̀jnt",
       "prɒ́dʒɛkt kənɛ́kʃənz",
       "rɪspɒ́nsɪz API",
@@ -1919,16 +1919,16 @@
       "Environment variable"
     ],
     "Explanation": "Project endpoint. It centralizes access for models and connected resources within one Foundry project boundary. It simplifies environment configuration and reduces endpoint sprawl.",
-    "trans_Question": "dɪvɛ́ləpərz kɜ́rəntlij stɔ́r sɛ́pərèjt ríjdʒənəl ɪ́nfərəns URLz ənd kíjp swɪ́tʃɪŋ hówsts baj ɪnvájrənmənt, kɒ́zɪŋ mɪsrúwts. wɪ́tʃ ɪ́ndpɔ̀jnt kɒ́nsɛpt ʃʊd ðej ədɒ́pt fɔr mɒ́dərn prɒ́dʒɛkt-béjst ǽps?",
+    "trans_Question": "dɪvɛ́ləpərz kɜ́rəntlij stɔ́r sɛ́pərèjt ríjdʒənəl ɪ́nfərəns URLz ənd kíjp swɪ́tʃɪŋ hówsts baj ɪnvájərənmənt, kɒ́zɪŋ mɪsrúwts. wɪ́tʃ ɪ́ndpɔ̀jnt kɒ́nsɛpt ʃʊd ðej ədɒ́pt fɔr mɒ́dərn prɒ́dʒɛkt-béjst ǽps?",
     "trans_RightAnswer": "prɒ́dʒɛkt ɪ́ndpɔ̀jnt",
     "trans_WrongAnswers": [
       "prɒ́dʒɛkt kənɛ́kʃən",
       "mɒ́dəl dɪplɔ́jmənt",
       "fáwndrij ríjsɔrs",
       "ówpənèjàj klájənt",
-      "ɪnvájrənmənt vɛ́rijəbəl"
+      "ɪnvájərənmənt vɛ́rijəbəl"
     ],
-    "trans_Explanation": "prɒ́dʒɛkt ɪ́ndpɔ̀jnt. ɪt sɛ́ntrəlàjzɪz ǽksɛ̀s fɔr mɒ́dəlz ənd kənɛ́ktɪd ríjsɔrsɪz wɪðɪ́n wə́n fáwndrij prɒ́dʒɛkt báwndərij. ɪt sɪ́mplɪfàjz ɪnvájrənmənt kənfɪ̀ɡjəréjʃən ənd rɪdúwsɪz ɪ́ndpɔ̀jnt sprɔ́l.",
+    "trans_Explanation": "prɒ́dʒɛkt ɪ́ndpɔ̀jnt. ɪt sɛ́ntrəlàjzɪz ǽksɛ̀s fɔr mɒ́dəlz ənd kənɛ́ktɪd ríjsɔrsɪz wɪðɪ́n wə́n fáwndrij prɒ́dʒɛkt báwndərij. ɪt sɪ́mplɪfàjz ɪnvájərənmənt kənfɪ̀ɡjəréjʃən ənd rɪdúwsɪz ɪ́ndpɔ̀jnt sprɔ́l.",
     "Difficulty": 1
   },
   {
@@ -2524,7 +2524,7 @@
       "túwl rɪzə́lt kɔ̀rəléjʃən",
       "túwl tájps",
       "rúwlz ɛ́ndʒɪn",
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀t"
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀t"
     ],
     "trans_Explanation": "sɪkwɛ́nʃəl kɔ́lz. dɪpɛ́ndənt túwl stɛ́ps məst rə́n ɪn ɔ́rdər sów íjtʃ stéjdʒ kən júws prájər rɪzə́lts. ðɪ́s mejntéjnz kərɛ́ktnəs ɪn mə́ltijstɛ̀p wɜ́rkflòwz wɪð déjtə dɪpɛ́ndənsijz.",
     "Difficulty": 2
@@ -2546,7 +2546,7 @@
       "sɪkwɛ́nʃəl kɔ́lz",
       "rúwlz ɛ́ndʒɪn",
       "pǽrəlɛ̀l kɔ́lz",
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀t",
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀t",
       "tǽsk kəmplíjʃən"
     ],
     "trans_Explanation": "túwl rɪzə́lt kɔ̀rəléjʃən. túwl áwtpʊ̀ts ɑr lɪ́ŋkt tə ðə kɔ̀rɪspɒ́ndɪŋ kɔ́l sów ðə mɒ́dəl kən kəntɪ́njuw ǽkjərətlij. prɒ́pər kɔ̀rəléjʃən prɪvɛ́nts krɔ́s-kɔ́l kənfjúwʒən ɪn kəmplɛ́ks flówz.",
@@ -2567,7 +2567,7 @@
     "trans_RightAnswer": "rúwlz ɛ́ndʒɪn",
     "trans_WrongAnswers": [
       "túwl rɪzə́lt kɔ̀rəléjʃən",
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀t",
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀t",
       "sɪkwɛ́nʃəl kɔ́lz",
       "tǽsk kəmplíjʃən",
       "prɒ́dʒɛkt kənɛ́kʃənz"
@@ -2587,15 +2587,15 @@
     ],
     "Explanation": "Representative dataset. Both baseline and candidate should be evaluated on the same realistic sample of production-like tasks. This ensures fair comparisons and meaningful quality signals.",
     "trans_Question": "ə tíjm kəmpɛ́rz túw prɒ́mpt strǽtɪdʒijz bət júwzɪz ǽd hɒ́k ɪɡzǽmpəlz frəm dɪ́fərənt wíjks, méjkɪŋ kənklúwʒənz ə̀nrɪlájəbəl. wɪ́tʃ déjtəsɛ̀t prɪ́nsɪpəl ʃʊd ðej ɪnfɔ́rs fɜ́rst?",
-    "trans_RightAnswer": "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀t",
+    "trans_RightAnswer": "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀t",
     "trans_WrongAnswers": [
       "rúwlz ɛ́ndʒɪn",
       "tǽsk kəmplíjʃən",
       "túwl rɪzə́lt kɔ̀rəléjʃən",
       "prɒ́dʒɛkt kənɛ́kʃənz",
-      "ɪnvájrənmənt sɛ̀pəréjʃən"
+      "ɪnvájərənmənt sɛ̀pəréjʃən"
     ],
-    "trans_Explanation": "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀t. bówθ béjslàjn ənd kǽndɪdejt ʃʊd bij ɪvǽljuwèjtɪd ɒn ðə séjm rìjəlɪ́stɪk sǽmpəl əv prədə́kʃən-lájk tǽsks. ðɪ́s ɪnʃʊ́rz fɛ́r kəmpɛ́rɪsənz ənd míjnɪŋfəl kwɑ́lɪtij sɪ́ɡnəlz.",
+    "trans_Explanation": "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀t. bówθ béjslàjn ənd kǽndɪdejt ʃʊd bij ɪvǽljuwèjtɪd ɒn ðə séjm rìjəlɪ́stɪk sǽmpəl əv prədə́kʃən-lájk tǽsks. ðɪ́s ɪnʃʊ́rz fɛ́r kəmpɛ́rɪsənz ənd míjnɪŋfəl kwɑ́lɪtij sɪ́ɡnəlz.",
     "Difficulty": 2
   },
   {
@@ -2612,10 +2612,10 @@
     "trans_Question": "ən ɪvǽljuwèjtər skɔ́rz rɛ́lɪvəns hájlij, jɛ́t júwzərz stɪ́l rɪpɔ́rt ə̀nhɛ́lpfəl ǽnsərz bɪkɒ́z rɪkwájərd tǽsk áwtkə̀mz ɑr nɒ́t mɛ́t. wɪ́tʃ ɪvæ̀ljuwéjʃən fówkəs ʃʊd bij ǽdɪd?",
     "trans_RightAnswer": "tǽsk kəmplíjʃən",
     "trans_WrongAnswers": [
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀t",
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀t",
       "prɒ́dʒɛkt kənɛ́kʃənz",
       "rúwlz ɛ́ndʒɪn",
-      "ɪnvájrənmənt sɛ̀pəréjʃən",
+      "ɪnvájərənmənt sɛ̀pəréjʃən",
       "ówpənèjàj klájənt"
     ],
     "trans_Explanation": "tǽsk kəmplíjʃən. ɪt mɛ́ʒərz wɛ́ðər ðij æ̀plɪkéjʃən ǽktʃuwəlij fʊlfɪ́lz ðə júwzər əbdʒɛ́ktɪv, nɒ́t dʒə́st lɪŋɡwɪ́stɪk kwɑ́lɪtij. kəmbájnɪŋ ɪt wɪð rɛ́lɪvəns ənd ɡráwndɪdnəs ɡɪ́vz ə fʊ́lər kwɑ́lɪtij pɪ́ktʃər.",
@@ -2636,12 +2636,12 @@
     "trans_RightAnswer": "prɒ́dʒɛkt kənɛ́kʃənz",
     "trans_WrongAnswers": [
       "tǽsk kəmplíjʃən",
-      "ɪnvájrənmənt sɛ̀pəréjʃən",
-      "rɛ̀prəzɛ́ntətɪv déjtəsɛ̀t",
+      "ɪnvájərənmənt sɛ̀pəréjʃən",
+      "rɛ̀prɪzɛ́ntətɪv déjtəsɛ̀t",
       "ówpənèjàj klájənt",
       "prɒ́dʒɛkt ɪ́ndpɔ̀jnt"
     ],
-    "trans_Explanation": "prɒ́dʒɛkt kənɛ́kʃənz. ðej prəvájd mǽnɪdʒd rɛ́frənsɪz tə ɪkstɜ́rnəl ríjsɔrsɪz wɪðɪ́n ðə prɒ́dʒɛkt kɒ́ntɛkst. ðɪ́s sɪ́mplɪfàjz sɪkjʊ́r ɪ̀ntɪɡréjʃən ənd kənsɪ́stənt ɪnvájrənmənt wájrɪŋ.",
+    "trans_Explanation": "prɒ́dʒɛkt kənɛ́kʃənz. ðej prəvájd mǽnɪdʒd rɛ́frənsɪz tə ɪkstɜ́rnəl ríjsɔrsɪz wɪðɪ́n ðə prɒ́dʒɛkt kɒ́ntɛkst. ðɪ́s sɪ́mplɪfàjz sɪkjʊ́r ɪ̀ntɪɡréjʃən ənd kənsɪ́stənt ɪnvájərənmənt wájrɪŋ.",
     "Difficulty": 2
   },
   {
@@ -2656,7 +2656,7 @@
     ],
     "Explanation": "Environment separation. Local, test, staging, and production should use isolated configuration and credentials. This reduces deployment risk and prevents cross-environment leakage.",
     "trans_Question": "ə tíjm æ̀ksɪdɛ́ntəlij dɪplɔ́jd stéjdʒɪŋ krɪdɛ́nʃəlz tə prədə́kʃən bɪkɒ́z vǽljuwz wər mǽnjuwəlij ɛ́dɪtɪd ɪn sɔ́rs fájlz. wɪ́tʃ kənfɪ̀ɡjəréjʃən prǽktɪs ʃʊd ðej ədɒ́pt?",
-    "trans_RightAnswer": "ɪnvájrənmənt sɛ̀pəréjʃən",
+    "trans_RightAnswer": "ɪnvájərənmənt sɛ̀pəréjʃən",
     "trans_WrongAnswers": [
       "prɒ́dʒɛkt kənɛ́kʃənz",
       "ówpənèjàj klájənt",
@@ -2664,7 +2664,7 @@
       "prɒ́dʒɛkt ɪ́ndpɔ̀jnt",
       "rɪspɒ́nsɪz API"
     ],
-    "trans_Explanation": "ɪnvájrənmənt sɛ̀pəréjʃən. lówkəl, tɛ́st, stéjdʒɪŋ, ənd prədə́kʃən ʃʊd júws ájsəlèjtɪd kənfɪ̀ɡjəréjʃən ənd krɪdɛ́nʃəlz. ðɪ́s rɪdúwsɪz dɪplɔ́jmənt rɪ́sk ənd prɪvɛ́nts krɔ́s-ɪnvájrənmənt líjkɪdʒ.",
+    "trans_Explanation": "ɪnvájərənmənt sɛ̀pəréjʃən. lówkəl, tɛ́st, stéjdʒɪŋ, ənd prədə́kʃən ʃʊd júws ájsəlèjtɪd kənfɪ̀ɡjəréjʃən ənd krɪdɛ́nʃəlz. ðɪ́s rɪdúwsɪz dɪplɔ́jmənt rɪ́sk ənd prɪvɛ́nts krɔ́s-ɪnvájərənmənt líjkɪdʒ.",
     "Difficulty": 2
   },
   {
@@ -3782,7 +3782,7 @@
       "Tool-result reflection"
     ],
     "Explanation": "Model selection (before adaptation) compares capability, latency, cost, and risk on representative data. Model selection (first decision point) can eliminate unnecessary fine-tuning work.",
-    "trans_Question": "ə tíjm plǽnz tə fájn-túwn ɪ̀míjdìjətlij fɔr ə kə́stəmər-səpɔ́rt tǽsk bət həz nɒ́t kəmpɛ́rd núwər béjs mɒ́dəlz əɡɛ́nst rɛ̀prəzɛ́ntətɪv tɪ́kəts. wɪ́tʃ dɪsɪ́ʒən kɒ́nsɛpt ʃʊd kə́m fɜ́rst?",
+    "trans_Question": "ə tíjm plǽnz tə fájn-túwn ɪ̀míjdìjətlij fɔr ə kə́stəmər-səpɔ́rt tǽsk bət həz nɒ́t kəmpɛ́rd núwər béjs mɒ́dəlz əɡɛ́nst rɛ̀prɪzɛ́ntətɪv tɪ́kəts. wɪ́tʃ dɪsɪ́ʒən kɒ́nsɛpt ʃʊd kə́m fɜ́rst?",
     "trans_RightAnswer": "mɒ́dəl sɪlɛ́kʃən",
     "trans_WrongAnswers": [
       "dʒéjsɒn skíjmə væ̀lɪdéjʃən",
@@ -3791,7 +3791,7 @@
       "sɛ́lf-krɪtíjk lúwp",
       "túwl-rɪzə́lt rɪflɛ́kʃən"
     ],
-    "trans_Explanation": "mɒ́dəl sɪlɛ́kʃən (bɪfɔ́r æ̀dəptéjʃən) kəmpɛ́rz kèjpəbɪ́lɪtij, léjtənsij, kɔ́st, ənd rɪ́sk ɒn rɛ̀prəzɛ́ntətɪv déjtə. mɒ́dəl sɪlɛ́kʃən (fɜ́rst dɪsɪ́ʒən pɔ́jnt) kən ɪlɪ́mɪnèjt ə̀nnɛ́səsɛ̀rij fájn-túwnɪŋ wɜ́rk.",
+    "trans_Explanation": "mɒ́dəl sɪlɛ́kʃən (bɪfɔ́r æ̀dəptéjʃən) kəmpɛ́rz kèjpəbɪ́lɪtij, léjtənsij, kɔ́st, ənd rɪ́sk ɒn rɛ̀prɪzɛ́ntətɪv déjtə. mɒ́dəl sɪlɛ́kʃən (fɜ́rst dɪsɪ́ʒən pɔ́jnt) kən ɪlɪ́mɪnèjt ə̀nnɛ́səsɛ̀rij fájn-túwnɪŋ wɜ́rk.",
     "Difficulty": 2
   },
   {
@@ -4817,7 +4817,7 @@
       "Dense Captioning"
     ],
     "Explanation": "Video Sampling. Sampling and chunking reduce long video into manageable units that fit service and model limits. A good sampling strategy balances cost, latency, and the risk of missing important events.",
-    "trans_Question": "ə 3-áwər tréjnɪŋ rɪkɔ́rdɪŋ ɪksíjdz mɒ́dəl ɪ́npʊ̀t lɪ́mɪts, sów ðə tíjm məst tʃúwz rɛ̀prəzɛ́ntətɪv ɪ́ntərvəlz bɪfɔ́r ənǽlɪsɪs wájl prɪzɜ́rvɪŋ kə́vərɪdʒ. wɪ́tʃ kɒ́nsɛpt ədrɛ́sɪz ðɪs kənstréjnt?",
+    "trans_Question": "ə 3-áwər tréjnɪŋ rɪkɔ́rdɪŋ ɪksíjdz mɒ́dəl ɪ́npʊ̀t lɪ́mɪts, sów ðə tíjm məst tʃúwz rɛ̀prɪzɛ́ntətɪv ɪ́ntərvəlz bɪfɔ́r ənǽlɪsɪs wájl prɪzɜ́rvɪŋ kə́vərɪdʒ. wɪ́tʃ kɒ́nsɛpt ədrɛ́sɪz ðɪs kənstréjnt?",
     "trans_RightAnswer": "vɪ́dijow sǽmplɪŋ",
     "trans_WrongAnswers": [
       "vɪ́dijow ɪ́ndɛ̀ksər",
@@ -5424,7 +5424,7 @@
       "pówstvæ̀lɪdèjʃən",
       "sɛ́ntɪmənt tówn séjftij"
     ],
-    "trans_Explanation": "fjúw-ʃɒ́t prɒ́mptɪŋ. ɪt səplájz rɛ̀prəzɛ́ntətɪv ɪ́npʊ̀t-áwtpʊ̀t ɪɡzǽmpəlz ðət dɛ́mənstrèjt ðə dɪzájərd léjblɪŋ stájl. ðɪ́s ɪ̀mprúwvz dowméjn əlájnmənt wɪθáwt mɒ́dəl rijtréjnɪŋ.",
+    "trans_Explanation": "fjúw-ʃɒ́t prɒ́mptɪŋ. ɪt səplájz rɛ̀prɪzɛ́ntətɪv ɪ́npʊ̀t-áwtpʊ̀t ɪɡzǽmpəlz ðət dɛ́mənstrèjt ðə dɪzájərd léjblɪŋ stájl. ðɪ́s ɪ̀mprúwvz dowméjn əlájnmənt wɪθáwt mɒ́dəl rijtréjnɪŋ.",
     "Difficulty": 2
   },
   {
@@ -5677,7 +5677,7 @@
       "SSML vɔ́js kəntrówlz",
       "ɔ́dijòw fɔ́rmæ̀t kəmpæ̀tɪbɪ́lɪtij"
     ],
-    "trans_Explanation": "ɪ́ntərɪm hajpɒ́θɪsɪs. ɪt prəvájdz lów-léjtənsij pɑ́rʃəl rɛ̀kəɡnɪ́ʃən ðət kən tʃéjndʒ æz mɔ́r ɔ́dijòw ərájvz. tríjt ɪt æz prəvɪ́ʒənəl tɛ́kst ənd əvɔ́jd júwzɪŋ ɪt fɔr fájnəl bɪ́znəs rɪkɔ́rdz.",
+    "trans_Explanation": "ɪ́ntərɪm hajpɒ́θɪsɪs. ɪt prəvájdz lów-léjtənsij pɑ́rʃəl rɛ̀kəɡnɪ́ʃən ðət kən tʃéjndʒ æz mɔ́r ɔ́dijòw ərájvz. tríjt ɪt æz prəvɪ́ʒnəl tɛ́kst ənd əvɔ́jd júwzɪŋ ɪt fɔr fájnəl bɪ́znəs rɪkɔ́rdz.",
     "Difficulty": 2
   },
   {
@@ -5898,7 +5898,7 @@
       "Speech quality metrics"
     ],
     "Explanation": "Custom Speech adaptation. It tailors recognition to domain vocabulary and acoustic conditions using representative data. This improves accuracy when baseline models underperform in specialized environments.",
-    "trans_Question": "fǽktərij flɔ́r træ̀nskrɪ́pʃən mɪ́sɪz dowméjn tɜ́rmz ənd pərfɔ́rmz púwrlij ə́ndər məʃíjnərij nɔ́jz, ənd ðə tíjm hǽz rɛ̀prəzɛ́ntətɪv rɪkɔ́rdɪŋz ənd trǽnskrɪ̀pts. wɪ́tʃ ɪ̀mprúwvmənt pǽθ ʃʊd ðej júws?",
+    "trans_Question": "fǽktərij flɔ́r træ̀nskrɪ́pʃən mɪ́sɪz dowméjn tɜ́rmz ənd pərfɔ́rmz púwrlij ə́ndər məʃíjnərij nɔ́jz, ənd ðə tíjm hǽz rɛ̀prɪzɛ́ntətɪv rɪkɔ́rdɪŋz ənd trǽnskrɪ̀pts. wɪ́tʃ ɪ̀mprúwvmənt pǽθ ʃʊd ðej júws?",
     "trans_RightAnswer": "kə́stəm spíjtʃ æ̀dəptéjʃən",
     "trans_WrongAnswers": [
       "ɔ́dijòw-kéjpəbəl mɒ́dəl",
@@ -5907,7 +5907,7 @@
       "spíjtʃ MCP sɜ́rvər",
       "spíjtʃ kwɑ́lɪtij mɛ́trɪks"
     ],
-    "trans_Explanation": "kə́stəm spíjtʃ æ̀dəptéjʃən. ɪt téjlərz rɛ̀kəɡnɪ́ʃən tə dowméjn vowkǽbjəlɛ̀rij ənd əkúwstɪk kəndɪ́ʃənz júwzɪŋ rɛ̀prəzɛ́ntətɪv déjtə. ðɪ́s ɪ̀mprúwvz ǽkjərəsij wɛ́n béjslàjn mɒ́dəlz ə̀ndərpərfɔ́rm ɪn spɛ́ʃəlàjzd ɪnvájrənmənts.",
+    "trans_Explanation": "kə́stəm spíjtʃ æ̀dəptéjʃən. ɪt téjlərz rɛ̀kəɡnɪ́ʃən tə dowméjn vowkǽbjəlɛ̀rij ənd əkúwstɪk kəndɪ́ʃənz júwzɪŋ rɛ̀prɪzɛ́ntətɪv déjtə. ðɪ́s ɪ̀mprúwvz ǽkjərəsij wɛ́n béjslàjn mɒ́dəlz ə̀ndərpərfɔ́rm ɪn spɛ́ʃəlàjzd ɪnvájərənmənts.",
     "Difficulty": 4
   },
   {
@@ -6482,7 +6482,7 @@
       "ɪmbɛ́dɪŋ kəmpæ̀tɪbɪ́lɪtij",
       "fíjld ǽtrɪbjùwts"
     ],
-    "trans_Explanation": "vɛ́ktər pərǽmətərz. ANN ǽlɡərɪ̀ðəm sɛ́tɪŋz, tɒ́p-K sájz, θrɛ́ʃòwldz, ənd ɪɡzɔ́stɪv ɒ́pʃənz ʃéjp léjtənsij-ríjkɔ̀l tréjdɔ̀fs. pərǽmətər túwnɪŋ ʃʊd bij vǽlɪdejtɪd ɒn rɛ̀prəzɛ́ntətɪv rɛ́lɪvəns dʒə́dʒmənts.",
+    "trans_Explanation": "vɛ́ktər pərǽmətərz. ANN ǽlɡərɪ̀ðəm sɛ́tɪŋz, tɒ́p-K sájz, θrɛ́ʃòwldz, ənd ɪɡzɔ́stɪv ɒ́pʃənz ʃéjp léjtənsij-ríjkɔ̀l tréjdɔ̀fs. pərǽmətər túwnɪŋ ʃʊd bij vǽlɪdejtɪd ɒn rɛ̀prɪzɛ́ntətɪv rɛ́lɪvəns dʒə́dʒmənts.",
     "Difficulty": 5
   },
   {
@@ -6818,7 +6818,7 @@
       "Deterministic validation"
     ],
     "Explanation": "Structured JSON output. JSON provides deterministic keys and machine-friendly values for transactional integration. It is typically preferred when automation needs strict parsing and validation.",
-    "trans_Question": "ə bǽk-ɔ́fɪs sɪ́stəm məst pówst ɪkstrǽktɪd vǽljuwz dɪrɛ́ktlij ɪ́ntə ERP trænzǽkʃənz wɪð stéjbəl kíjz ənd déjtə tájps. wɪ́tʃ rɛ̀prəzɛntéjʃən ʃʊd bij rɪkwɛ́stɪd?",
+    "trans_Question": "ə bǽk-ɔ́fɪs sɪ́stəm məst pówst ɪkstrǽktɪd vǽljuwz dɪrɛ́ktlij ɪ́ntə ERP trænzǽkʃənz wɪð stéjbəl kíjz ənd déjtə tájps. wɪ́tʃ rɛ̀prɪzəntéjʃən ʃʊd bij rɪkwɛ́stɪd?",
     "trans_RightAnswer": "strə́ktʃərd dʒéjsɒn áwtpʊ̀t",
     "trans_WrongAnswers": [
       "ǽnəlàjzər skíjmə",
@@ -6841,7 +6841,7 @@
       "OCR text recognition"
     ],
     "Explanation": "Grounded Markdown output. Markdown keeps headings and section flow that improve semantic chunking for retrieval. Clean grounded representations remove irrelevant artifacts while retaining traceable source meaning.",
-    "trans_Question": "ə rǽɡ pájplàjn níjdz dɒ́kjəmənt hájərɑ̀rkij prɪzɜ́rvd fɔr rɪtríjvəl, bət nɔ́jz lájk dɛ́krətɪv ɑ́rtɪfæ̀kts ʃʊd bij rɪmúwvd bɪfɔ́r ɪ́ndɛksɪŋ. wɪ́tʃ rɛ̀prəzɛntéjʃən strǽtɪdʒij bɛ́st fɪ́ts?",
+    "trans_Question": "ə rǽɡ pájplàjn níjdz dɒ́kjəmənt hájərɑ̀rkij prɪzɜ́rvd fɔr rɪtríjvəl, bət nɔ́jz lájk dɛ́krətɪv ɑ́rtɪfæ̀kts ʃʊd bij rɪmúwvd bɪfɔ́r ɪ́ndɛksɪŋ. wɪ́tʃ rɛ̀prɪzəntéjʃən strǽtɪdʒij bɛ́st fɪ́ts?",
     "trans_RightAnswer": "ɡráwndɪd mɑ́rkdàwn áwtpʊ̀t",
     "trans_WrongAnswers": [
       "strə́ktʃərd dʒéjsɒn áwtpʊ̀t",
@@ -6850,7 +6850,7 @@
       "dɪtɜ̀rmɪnɪ́stɪk væ̀lɪdéjʃən",
       "OCR tɛ́kst rɛ̀kəɡnɪ́ʃən"
     ],
-    "trans_Explanation": "ɡráwndɪd mɑ́rkdàwn áwtpʊ̀t. mɑ́rkdàwn kíjps hɛ́dɪŋz ənd sɛ́kʃən flów ðət ɪ̀mprúwv sɪmǽntɪk tʃə́ŋkɪŋ fɔr rɪtríjvəl. klíjn ɡráwndɪd rɛ̀prəzəntéjʃənz rɪmúwv ɪrɛ́lɪvənt ɑ́rtɪfæ̀kts wájl rɪtéjnɪŋ tréjsəbəl sɔ́rs míjnɪŋ.",
+    "trans_Explanation": "ɡráwndɪd mɑ́rkdàwn áwtpʊ̀t. mɑ́rkdàwn kíjps hɛ́dɪŋz ənd sɛ́kʃən flów ðət ɪ̀mprúwv sɪmǽntɪk tʃə́ŋkɪŋ fɔr rɪtríjvəl. klíjn ɡráwndɪd rɛ̀prɪzəntéjʃənz rɪmúwv ɪrɛ́lɪvənt ɑ́rtɪfæ̀kts wájl rɪtéjnɪŋ tréjsəbəl sɔ́rs míjnɪŋ.",
     "Difficulty": 3
   },
   {
