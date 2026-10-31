@@ -1,5 +1,257 @@
 [
   {
+    "word": "subject",
+    "wrong_transcription": "sə́bdʒɛkt",
+    "correct_transcription": "sə́bdʒɪkt",
+    "explanation": "The noun's reduced second vowel is ɪ, as specified in the subject ruling."
+  },
+  {
+    "word": "gratitude",
+    "wrong_transcription": "ɡrǽtətùwd",
+    "correct_transcription": "ɡrǽtɪtùwd",
+    "explanation": "The reduced medial vowel is spelled i, so it is ɪ."
+  },
+  {
+    "word": "cousin",
+    "wrong_transcription": "kə́zən",
+    "correct_transcription": "kə́zɪn",
+    "explanation": "The reduced final vowel is spelled i, so it is ɪ."
+  },
+  {
+    "word": "union",
+    "wrong_transcription": "júwnɪən",
+    "correct_transcription": "júwnjən",
+    "explanation": "The medial link is the consonant glide j, not an additional vowel."
+  },
+  {
+    "word": "California",
+    "wrong_transcription": "kæ̀ləfɔ́rnjə",
+    "correct_transcription": "kæ̀lɪfɔ́rnjə",
+    "explanation": "The reduced medial vowel is spelled i, so it is ɪ."
+  },
+  {
+    "word": "behavior",
+    "wrong_transcription": "bɪhéjvjərz",
+    "correct_transcription": "bɪhéjvjər",
+    "explanation": "The singular noun behavior has no final z; bɪhéjvjərz is plural behaviors."
+  },
+  {
+    "word": "improves",
+    "wrong_transcription": "ɪ̀mprúwvz",
+    "correct_transcription": "ɪmprúwvz",
+    "explanation": "The initial reduced syllable has no secondary stress."
+  },
+  {
+    "word": "prerequisite",
+    "wrong_transcription": "prijrɛ́kwəzət",
+    "correct_transcription": "prijrɛ́kwɪzɪt",
+    "explanation": "The two reduced vowels in the requisite element are spelled i and take ɪ."
+  },
+  {
+    "word": "inspect",
+    "wrong_transcription": "ɪ̀nspɛ́kt",
+    "correct_transcription": "ɪnspɛ́kt",
+    "explanation": "The initial reduced syllable has no secondary stress."
+  },
+  {
+    "word": "opposites",
+    "wrong_transcription": "ɒ́pəzəts",
+    "correct_transcription": "ɒ́pəzɪts",
+    "explanation": "The reduced vowel spelled i takes ɪ."
+  },
+  {
+    "word": "execute",
+    "wrong_transcription": "ɪ́ksəkjùwt",
+    "correct_transcription": "ɛ́ksɪkjùwt",
+    "explanation": "The stressed first vowel is DRESS ɛ, and the reduced medial e takes ɪ."
+  },
+  {
+    "word": "instruction",
+    "wrong_transcription": "ɪ̀nstrə́kʃən",
+    "correct_transcription": "ɪnstrə́kʃən",
+    "explanation": "The initial reduced syllable has no secondary stress."
+  },
+  {
+    "word": "campaign",
+    "wrong_transcription": "kæ̀mpéjn",
+    "correct_transcription": "kæmpéjn",
+    "explanation": "The initial syllable is unstressed; the primary stress is on -paign."
+  },
+  {
+    "word": "stabilized",
+    "wrong_transcription": "stéjbəlàjzd",
+    "correct_transcription": "stéjbɪlàjzd",
+    "explanation": "The reduced vowel spelled i remains ɪ, as in the recorded form of stabilize."
+  },
+  {
+    "word": "execution",
+    "wrong_transcription": "ɪ̀ksəkjúwʃən",
+    "correct_transcription": "ɛ̀ksɪkjúwʃən",
+    "explanation": "The first syllable has secondary-stressed DRESS ɛ; the reduced medial e takes ɪ."
+  },
+  {
+    "word": "Wisconsin",
+    "wrong_transcription": "wɪskɒ́nsən",
+    "correct_transcription": "wɪskɒ́nsɪn",
+    "explanation": "The reduced final vowel is spelled i, so it is ɪ."
+  },
+  {
+    "word": "recalls",
+    "wrong_transcription": "rɪkɔ́lz",
+    "correct_transcription": "ríjkɔ̀lz",
+    "explanation": "The plural noun has initial primary stress and a secondary-stressed second element; the verb has different stress."
+  },
+  {
+    "word": "testified",
+    "wrong_transcription": "tɛ́stəfàjd",
+    "correct_transcription": "tɛ́stɪfàjd",
+    "explanation": "The reduced vowel spelled i takes ɪ, including in the fixed -ify ending."
+  },
+  {
+    "word": "precision",
+    "wrong_transcription": "prijsɪ́ʒən",
+    "correct_transcription": "prɪsɪ́ʒən",
+    "explanation": "The reduced pre- prefix is prɪ, not a full FLEECE vowel."
+  },
+  {
+    "word": "pioneers",
+    "wrong_transcription": "pàjəníjrz",
+    "correct_transcription": "pàjənɪ́rz",
+    "explanation": "The stressed final syllable has NEAR ɪr, not FLEECE ij before r."
+  },
+  {
+    "word": "misunderstandings",
+    "wrong_transcription": "mɪ̀sə̀ndərstǽndɪŋz",
+    "correct_transcription": "mɪ̀səndərstǽndɪŋz",
+    "explanation": "Secondary stress is on mis-, not also on the following syllable of the word."
+  },
+  {
+    "word": "misunderstanding",
+    "wrong_transcription": "mɪ̀sə̀ndərstǽndɪŋ",
+    "correct_transcription": "mɪ̀səndərstǽndɪŋ",
+    "explanation": "Secondary stress is on mis-, not also on the following syllable of the word."
+  },
+  {
+    "word": "misunderstood",
+    "wrong_transcription": "mɪ̀sə̀ndərstʊ́d",
+    "correct_transcription": "mɪ̀səndərstʊ́d",
+    "explanation": "Secondary stress is on mis-, not also on the following syllable of the word."
+  },
+  {
+    "word": "societal",
+    "wrong_transcription": "sowsájətəl",
+    "correct_transcription": "səsájətəl",
+    "explanation": "The initial syllable is reduced to schwa, not the GOAT vowel."
+  },
+  {
+    "word": "oneself",
+    "wrong_transcription": "wə́nsɛ̀lf",
+    "correct_transcription": "wənsɛ́lf",
+    "explanation": "The reflexive pronoun takes primary stress on -self."
+  },
+  {
+    "word": "pupil",
+    "wrong_transcription": "pjúwpəl",
+    "correct_transcription": "pjúwpɪl",
+    "explanation": "The reduced vowel is spelled i, so the weak-vowel tie-breaker gives ɪ."
+  },
+  {
+    "word": "pupils",
+    "wrong_transcription": "pjúwpəlz",
+    "correct_transcription": "pjúwpɪlz",
+    "explanation": "The reduced vowel is spelled i, so the weak-vowel tie-breaker gives ɪ."
+  },
+  {
+    "word": "utilized",
+    "wrong_transcription": "júwtəlàjzd",
+    "correct_transcription": "júwtɪlàjzd",
+    "explanation": "The reduced medial vowel is spelled i, so it is ɪ."
+  },
+  {
+    "word": "utilizing",
+    "wrong_transcription": "júwtəlàjzɪŋ",
+    "correct_transcription": "júwtɪlàjzɪŋ",
+    "explanation": "The reduced medial vowel is spelled i, so it is ɪ."
+  },
+  {
+    "word": "civilizations",
+    "wrong_transcription": "sɪ̀vəlɪzéjʃənz",
+    "correct_transcription": "sɪ̀vɪlɪzéjʃənz",
+    "explanation": "The reduced vowel in the civil stem is spelled i and is ɪ, as in the recorded form of civil."
+  },
+  {
+    "word": "businessperson",
+    "wrong_transcription": "bɪ́znɪspɜ̀rsən",
+    "correct_transcription": "bɪ́znəspɜ̀rsən",
+    "explanation": "The business element retains the fixed -ness vowel ə."
+  },
+  {
+    "word": "impact",
+    "wrong_transcription": "ɪ́mpækt",
+    "correct_transcription": "ɪmpǽkt",
+    "explanation": "The verb impact takes final stress; the noun and adjective use the separately recorded initial-stress form."
+  },
+  {
+    "word": "young",
+    "wrong_transcription": "jə́ŋɡ",
+    "correct_transcription": "jə́ŋ",
+    "explanation": "Young ends in the velar nasal ŋ; it has no separate final ɡ."
+  },
+  {
+    "word": "senior",
+    "wrong_transcription": "síjnijər",
+    "correct_transcription": "síjnjər",
+    "explanation": "The consonant glide in the second syllable is j, not an additional ij vowel."
+  },
+  {
+    "word": "actual",
+    "wrong_transcription": "ǽktʃəwəl",
+    "correct_transcription": "ǽktʃuwəl",
+    "explanation": "The unstressed GOOSE vowel in -tual is uw, as in the recorded form of actually."
+  },
+  {
+    "word": "automation",
+    "wrong_transcription": "ɔtəméjʃən",
+    "correct_transcription": "ɔ̀təméjʃən",
+    "explanation": "The initial vowel carries secondary stress, while the primary stress falls on -mation."
+  },
+  {
+    "word": "camera",
+    "wrong_transcription": "kǽmrəz",
+    "correct_transcription": "kǽmrə",
+    "explanation": "The singular camera has no final z; kǽmrəz is the plural cameras."
+  },
+  {
+    "word": "coordinate",
+    "wrong_transcription": "kowɔ́rdɪnət",
+    "correct_transcription": "kowɔ́rdɪnèjt",
+    "explanation": "The verb has stressed FACE in -ate; kowɔ́rdɪnət is the noun or adjective."
+  },
+  {
+    "word": "combine",
+    "wrong_transcription": "kɒ́mbajn",
+    "correct_transcription": "kəmbájn",
+    "explanation": "The verb has initial schwa and final primary stress; the noun has different stress."
+  },
+  {
+    "word": "accountable",
+    "wrong_transcription": "ə̀kawntəbɪ́lɪtij",
+    "correct_transcription": "əkáwntəbəl",
+    "explanation": "The adjective accountable is not the longer noun accountability."
+  },
+  {
+    "word": "unnecessary",
+    "wrong_transcription": "ə̀nnɛ́səsɛ̀rij",
+    "correct_transcription": "ə̀nnɛ́sɪsɛ̀rij",
+    "explanation": "The necessary stem keeps its recorded reduced ɪ; the un- prefix carries secondary stress."
+  },
+  {
+    "word": "rework",
+    "wrong_transcription": "rijwɜ́rk",
+    "correct_transcription": "ríjwɜ̀rk",
+    "explanation": "The noun rework is a solid compound with primary stress on the first element and secondary stress on the second; the verb has different stress."
+  },
+  {
     "word": "because",
     "wrong_transcription": "bɪkɔ́z",
     "correct_transcription": "bɪkɒ́z",
@@ -1170,10 +1422,10 @@
     "explanation": "credibility carried two errors in one token: the -ible vowel written ə instead of ɪ, and the fixed -ity vowel written ə instead of ɪ (§7 fixes -ity as ɪtij, §4.4 tie-breaker for -ible). One token in TRN_TheEscalationOfCommitment.md L8, swept 2026-09-26; the corpus's krɛ́dɪbəl (credible, TRN_TheAlignmentProblem.md) already had the ending right."
   },
   {
-    "word": "accountable",
+    "word": "accountability",
     "wrong_transcription": "ə̀kawntəbɪ́lətij",
-    "correct_transcription": "ə̀kawntəbɪ́lɪtij",
-    "explanation": "accountability, corrected in the same 2026-09-26 sweep but for a different reason: -able is əbəl, so the medial ə is right and only the fixed -ity vowel was wrong (ɪtij). One token in TRN_TheEscalationOfCommitment.md L3 (M-W ə-ˌkaun-tə-ˈbi-lə-tē). No mechanical guard: the source word ends in -able, so the -ible pair rule does not apply and IBLE_RULINGS lists only -ible stems."
+    "correct_transcription": "əkàwntəbɪ́lɪtij",
+    "explanation": "The source word in the 2026-09-26 sweep was accountability, not accountable. The fixed -ity vowel is ɪ, and the later word-specific ruling places secondary stress on -count- and primary stress on -bil-, superseding the older stress placement."
   },
   {
     "word": "reproducible",
@@ -1197,7 +1449,7 @@
     "word": "behavior",
     "wrong_transcription": "bəhéjvjərz",
     "correct_transcription": "bɪhéjvjərz",
-    "explanation": "The reduced word-initial be- prefix is fixed as bɪ-, never bə: M-W behavior is bi-ˈhā-vyər, a reduced initial syllable, so the §4.4 fixed-morpheme step gives ɪ — the same call as because bɪkɒ́z, before bɪfɔ́r and the re- entry reductionist. Found 2026-09-26 in TRN_TheSelfishGene.md: 11 tokens of behaviors (three of them written before a comma) and 2 of behavior were the only bə- forms among the corpus’s 266 be- words, while everything else already agreed — bɪhéjvjər ×26, bɪhéjvjərz, bɪhéjvjərəl ×3, and AI-103-questions.json bɪ- throughout. The entry covers both spellings, since the plural behaviors bɪhéjvjərz takes ərz and the singular behavior bɪhéjvər takes ər. The validator is blind to this class: check_string reports no violation for either form. Swept 2026-09-26; TRN_ONE.txt regenerated."
+    "explanation": "The reduced word-initial be- prefix is fixed as bɪ-, never bə: M-W behavior is bi-ˈhā-vyər, a reduced initial syllable, so the §4.4 fixed-morpheme step gives ɪ — the same call as because bɪkɒ́z, before bɪfɔ́r and the re- entry reductionist. Found 2026-09-26 in TRN_TheSelfishGene.md: 11 tokens of behaviors (three of them written before a comma) and 2 of behavior were the only bə- forms among the corpus’s 266 be- words, while everything else already agreed — bɪhéjvjər ×26, bɪhéjvjərz, bɪhéjvjərəl ×3, and AI-103-questions.json bɪ- throughout. The entry covers both spellings, since the plural behaviors bɪhéjvjərz takes ərz and the singular behavior bɪhéjvjər takes ər. The validator is blind to this class: check_string reports no violation for either form. Swept 2026-09-26; TRN_ONE.txt regenerated."
   },
   {
     "word": "intricate",
