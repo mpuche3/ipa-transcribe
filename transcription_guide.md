@@ -8,7 +8,7 @@ The system is an **IPA-based respelling of rhotic (American-style) English** usi
 
 The text layout mirrors the source: same words in the same order, same spacing and punctuation, all lowercase. The one punctuation exception is a word-internal apostrophe, which is omitted from phonetic words because it represents spelling, not sound (§5.4, §9).
 
-**Reference accent: General American.** Wherever varieties of English disagree — stress placement, vowel choice, yod, silent letters — follow the General American pronunciation (Merriam-Webster's first listing) and map it into this notation. One carve-out: in the weak `ɪ` ~ `ə` zone, where dictionaries contradict one another, the tie-breaker of §4.4 (fixed morphemes, then spelling) decides — not the dictionary. Common traps:
+**Reference accent: General American.** Wherever varieties of English disagree — stress placement, vowel choice, yod, silent letters — follow the General American pronunciation (Merriam-Webster's first listing) and map it into this notation. Explicit lexical overrides (§1.1 and the correction ledger) take precedence over dictionary readings. In the weak `ɪ` ~ `ə` zone, where dictionaries contradict one another, the tie-breaker of §4.4 (fixed morphemes, then spelling) decides — not the dictionary. Common traps:
 
 | Word | Write (GA) | Avoid (British) |
 |---|---|---|
@@ -24,6 +24,20 @@ The text layout mirrors the source: same words in the same order, same spacing a
 | -ization | `-ɪzéjʃən` (`ɔ̀rɡənɪzéjʃən`) | `-ajzéjʃən` |
 
 Three deliberate departures from pure GA remain: the `ɒ`/`ɑ` distinction is kept even though GA merges those vowels (§4.1); `æ` is kept before intervocalic r even though most GA speakers merge *marry* into *merry* (§4.3); and allophonic detail such as flapping is never written (§3). Each keeps a distinction in writing that the reader is free to merge in speech.
+
+### 1.1 Word-family pronunciation preferences
+
+These are author-selected lexical overrides (2026-10-25), not general sound-change rules. Apply them before the dictionary default and consult `transcription-corrections.json` for concrete replacements.
+
+| Family | Write | Do not use for this family |
+|---|---|---|
+| *toward / towards* | `təwɔ́rd` / `təwɔ́rdz` — two syllables, retaining the initial schwa and `w` | `tɔ́rd` / `tɔ́rdz`, `twɔ́rd` / `twɔ́rdz` |
+| *poor* and its derivatives | *poor* `pɔ́r`, *poorer* `pɔ́rər`, *poorest* `pɔ́rəst`, *poorly* `pɔ́rlij`; retain the `pɔr` stem in other derivatives and compounds | the corresponding `pʊr` or `puwr` stem |
+
+The spellings *toward / towards* retain their word-internal acute in running text, including prepositional uses, as polysyllabic function words (§6). In other derivatives and compounds, change only the relevant stem sounds; retain the applicable suffix, stress, and layout rules.
+
+**Scope is lexical, not a substring match.** These preferences affect only these two word families. They do not merge CURE into NORTH/FORCE generally: *sure* `ʃʊ́r`, *pure* `pjʊ́r`, *during* `dʊ́rɪŋ`, and *security* `sɪkjʊ́rɪtij` remain unchanged. Do not infer changes to unrelated `t` or `w` sequences.
+
 ## 2. The system at a glance
 
 One-glance symbol chart (details in §3–§5):
@@ -46,7 +60,7 @@ One-glance symbol chart (details in §3–§5):
 7. Content words always carry an accent — even monosyllables (`méjd`, `fíjl`). Treat *all* (`ɔ́l`), *not* (`nɒ́t`), independent demonstratives (`ðɪ́s`, `ðǽt`, `ðíjz`, `ðówz`), and verbal particles (`ə́p`, `dáwn`, `áwt`, `ɒ́n`) as content-like. Neutral demonstrative determiners are bare (`ðɪs`, `ðæt`, `ðijz`, `ðowz`); explicit contrast takes the accented forms. Choose function-word forms by grammatical role (§6): weak monosyllables have **no accent** (`əv`, `ənd`, `tə`, `ðə` / `ðij`, `kən`, `fɔr`); polysyllables keep their internal stress. Interrogative/exclamative *what* is `wɒ́t`; fused-relative *what* is bare `wɒt`. Conjunction/relative *that* remains `ðət`.
 8. Digits and years stay in written form (`2`, `1970s`, `'70s`); letters read by name stay as **capital** letters: `T-ʃɜ́rt`, `USB`. A pronounced plural or possessive suffix is lowercase and phonetic: `USBz`, `PDFs`, `Xɪz`. Equations, formulas, and units pass through verbatim: `e = mc^2`, `sin(x)`, `km/h` (§9).
 9. Use IPA letterforms: `ɡ` (U+0261) not `g`, `j` for the *y* sound, `r` not `ɹ`.
-10. When varieties of English disagree, General American wins: `íjðər`, `skɛ́dʒuwl`, `ɜ́rb` (§1).
+10. When varieties of English disagree, General American wins unless an explicit lexical override applies: `íjðər`, `skɛ́dʒuwl`, `ɜ́rb`; *towards* `təwɔ́rdz`, *poor* `pɔ́r` (§1).
 
 ## 3. Consonants
 
@@ -60,7 +74,7 @@ One-glance symbol chart (details in §3–§5):
 
 Notes:
 
-- **No allophonic detail, including reduction or deletion.** Preserve the consonants in a word's broad citation-form transcription even when they may be weakened or omitted in casual speech: *identifiers* → `ajdɛ́ntəfàjərz`, *departmental* → `dɪpɑ̀rtmɛ́ntəl`. Likewise, do not write flapping (*putting* → `pʊ́tɪŋ`, *water* → `wɔ́tər` — t stays t), glottal stops `ʔ`, dark l `ɫ`, or aspiration marks. This does not restore consonants that are absent from the standard General American pronunciation, such as the silent h in *vehicle* (`víjɪkəl`).
+- **No allophonic detail, including reduction or deletion.** Preserve the consonants in a word's broad citation-form transcription even when they may be weakened or omitted in casual speech: *identifiers* → `ajdɛ́ntəfàjərz`, *departmental* → `dɪpɑ̀rtmɛ́ntəl`. Likewise, do not write flapping (*putting* → `pʊ́tɪŋ`, *water* → `wɔ́tər` — t stays t), glottal stops `ʔ`, dark l `ɫ`, or aspiration marks. This does not restore consonants that are absent from the standard General American pronunciation, such as the silent h in *vehicle* (`víjɪkəl`). The one ruled exception is the *suggest* family, which does not write its `ɡ` (§13; author, 2026-10-11).
 - *wh-* is plain `w` (`wɪ́tʃ`), never `ʍ`.
 - *-ng* is `ŋ` finally (`lɔ́ŋ`) and `ŋɡ` where /ɡ/ is really pronounced (`sɪ́ŋɡəl`, `fɪ́ŋɡər`); *-nk* is `ŋk` (`pɪ́ŋk`, `θǽŋks`).
 - Syllabic consonants are written with schwa: `téjbəl`, `kɒ́tən`, `rɪ́ðəm` — never `l̩ n̩ m̩`.
@@ -166,6 +180,8 @@ Rules:
 The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and stressed vowels are unaffected. Within this zone the tie-breaker outranks dictionary notation (§1).
 
 **The `di-` first syllable: PRICE `aj` or reduced `ɪ`.** A few `di-` words have two readings in the dictionaries — a PRICE first syllable (`dī-`) and a reduced one (`də-`): *diversity* (`də-ˈvər-sə-tē, dī-`), *dimension* (`də-ˈmen(t)-shən also dī-`), *diverge* (`də-ˈvərj, dī-`), *digestible* (`dī-ˈje-stə-bəl, də-`) and *digression* (`dī-ˈgre-shən, də-`) and *diverse* (`dī-ˈvərs, də-ˈvərs, ˈdī-ˌvərs`). **Write the reduced one, `dɪ`** — the spelling tie-breaker sends a reduced syllable spelled `i` to `ɪ`, giving `dɪvɜ́rsɪtij`, `bàjowdɪvɜ́rsɪtij`, `dɪmɛ́nʃən`, `dɪvɜ́rdʒ`, `dɪdʒɛ́stɪbəl`, `dɪɡrɛ́ʃən`, `dɪvɜ́rs`. The author's rule (2026-10-01) is to prefer the kit vowel whenever the two readings are similarly widely used, which is what the corpus already did for the rest of the family (*divide* `dɪvájd`, *diminish* `dɪmɪ́nɪʃ`, *diverge* `dɪvɜ́rdʒ`). Which reading the dictionary lists first does not decide — it is the reduced one for *diversity* and *dimension* and the PRICE one for *diverse*, *digestible* and *digression*. Words with a single reading are untouched — *dynamic* `dajnǽmɪk`, *diagram* `dájəɡræ̀m`, *dialogue* `dájəlɔ̀ɡ`, *diagnosis* `dàjəɡnówsɪs` and *die / dies / died* `dáj / dájz / dájd` are all PRICE only.
+
+**The *finance* family writes PRICE `aj` with the acute on the first syllable (author, 2026-10-11).** Every member of the family takes the acute on `fáj-`, verb and noun alike, with the final TRAP syllable keeping its grave: *finance* `fájnæ̀ns`, *finances* `fájnæ̀nsɪz`, *financed* `fájnæ̀nst`, *financing* `fájnæ̀nsɪŋ`, *financial* `fájnæ̀nʃəl`, *financially* `fájnæ̀nʃəlij`, *financialisation* `fájnæ̀nʃəlɪzèjʃən`, *refinance* `rìjfájnæ̀ns`, *refinanced* `rìjfájnæ̀nst`, *refinancing* `rìjfájnæ̀nsɪŋ`. The family is **not** split by part of speech: the verb's final-stressed reading, which the dictionaries list (`fɪnǽnst`, AHD `fə-năns`), is not written, so no reduced first syllable ever arises and the tie-breaker above has nothing to decide — the ruling outranks it. Where a later syllable would otherwise carry the word's stress, the first syllable takes the acute and that syllable is demoted to a grave (§5.2): `fájnæ̀nʃəlɪzèjʃən`, never `fɪnæ̀nʃəlɪzéjʃən`. It is an editorial ruling in the manner of the *danger* and *general* families, recorded in the ledger, not a derivation from a dictionary listing.
 
 **Syncope — parenthesized schwas are dropped.** When Merriam-Webster's first listing shows a medial schwa in parentheses — \(ə-)\ — the syllable is omitted, because the compressed form is how the word is spoken: *different* `dɪ́frənt`, *difference* `dɪ́frəns`, *sovereign* `sɒ́vrən`, *laboratory* `lǽbrətɔ̀rij`, *deliberate* (adj.) `dɪlɪ́brət`. When M-W lists the full form unparenthesized, the schwa stays: *natural* `nǽtʃərəl`. One word can go both ways by part of speech: *separate* (adj.) `sɛ́prət` (M-W `ˈse-p(ə-)rət`) but the verb *separate* `sɛ́pərèjt` (M-W `ˈse-pə-ˌrāt`). The fixed transcriptions of §6 and §7 outrank this rule — *-ally* is always `əlij` (`tɪ́pɪkəlij`), even where M-W parenthesizes it.
 
@@ -379,7 +395,7 @@ This classification is a semantic judgment for the transcriber or LLM; no token-
 
 1. Take the source sentence; lowercase it mentally but keep every punctuation mark and digit in place, except word-internal apostrophes in phonetic words (§5.4).
 2. For each word, decide its **grammatical role**, then select the corresponding §6 form. Check particles vs. prepositions, neutral determiner vs. independent/contrastive demonstratives and *some*, interrogative/exclamative vs. fused-relative *what*, determiner vs. independent *his*, pronouns used as independent answers, and lexical vs. auxiliary/modal uses. *All* and *not* are always accented, while *do* is accented only in its lexical, contrastive, emphatic do-support, and clause-final uses (§6). Neutral demonstrative determiners keep full vowels without an acute; independent/contrastive demonstratives are accented, while conjunction/relative *that* stays weak `ðət`. Copular and auxiliary *be* and the monosyllabic possessive determiners stay weak by default, while *our* `áwər` keeps the acute of its word-internal stress; apply explicit contrast and clause-final strong-form rules where appropriate. For *the*, choose `ðə` before a consonant sound and `ðij` before a vowel sound. Special check for *have / has / had*: followed by a past participle → auxiliary, weak (`həv / həz / həd`); the only verb in the clause, or taking a direct object → main verb, accented (`hǽv / hǽz / hǽd`).
-3. Classify each remaining token from context (§9): spoken English → retrieve its General American pronunciation; a name or term from another language → transcribe it in that language (§14); letter name → preserve as capitals and attach any pronounced `s` / `z` / `ɪz` suffix in lowercase; notation/code/identifier → preserve verbatim. For spoken English, when varieties disagree, GA wins (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
+3. Classify each remaining token from context (§9): spoken English → retrieve its General American pronunciation, applying explicit lexical overrides and the correction ledger first (§1.1); a name or term from another language → transcribe it in that language (§14); letter name → preserve as capitals and attach any pronounced `s` / `z` / `ɪz` suffix in lowercase; notation/code/identifier → preserve verbatim. For spoken English, when varieties disagree, GA wins unless explicitly overridden (§1); for heteronyms like *record* or *use*, pick by part of speech (§8) — then map it into this notation:
    - long monophthongs → `ɑ` / `ɔ` without glides or length marks (§4.2.1); glide vowels → `ij uw ej ow aj aw ɔj` (§4.2.2),
    - r-vowels → rhotic spellings (§4.3),
    - LOT → `ɒ`, PALM (long *ah*) → `ɑ`, THOUGHT/CLOTH → `ɔ` (§4.1), STRUT → `ə`,
@@ -392,7 +408,7 @@ This classification is a semantic judgment for the transcriber or LLM; no token-
    - Re-check demonstratives, *some*, *what* (including contractions), *his*, independent pronoun answers, lexical homonyms of auxiliaries/modals, and particles against their source context. Do not accent the monosyllabic possessive determiners or copular *be* merely because the vowel is full or *be* is not an auxiliary — *our* is the exception and always takes `áwər`; sentence-final pronouns are not automatically accented.
    - Every weak *the* matches the next sound: `ðə` before a consonant, `ðij` before a vowel (§6).
    - Every *have / has / had* re-checked: past participle follows it → weak auxiliary; direct object or only verb → accented main verb (§6).
-   - Every consonant from the spelling that is pronounced is present, and no symbol stands in for one that is not: `rájɪŋ` → `rájtɪŋ`, `bájt` for *byte*, `dɛ́lz` for *delves*, `sədʒɛ́sts` for *suggests*, and `səfvájvz` for *survives*, where `f` replaced the `r`. The validator cannot see any of it, so audit it by hand: align the source and the transcription word by word, diff the source stem's consonant letters against the symbols present, then discard the false positives — silent letters (*half* `hǽf`, *law* `lɔ́`, *heir* `ɛ́r`) and digraphs (`ch`, `sh`, `th`, `gh`, and *-tion* → `ʃən`).
+   - Every consonant from the spelling that is pronounced is present, and no symbol stands in for one that is not: `rájɪŋ` → `rájtɪŋ`, `bájt` for *byte*, `dɛ́lz` for *delves*, `strájɪŋ` for *striking*, and `səfvájvz` for *survives*, where `f` replaced the `r`. The validator cannot see any of it, so audit it by hand: align the source and the transcription word by word, diff the source stem's consonant letters against the symbols present, then discard the false positives — silent letters (*half* `hǽf`, *law* `lɔ́`, *heir* `ɛ́r`) and digraphs (`ch`, `sh`, `th`, `gh`, and *-tion* → `ʃən`). The *suggest* family is the one class ruled the other way and writes no `ɡ` (§13).
    - No uppercase letters outside letter-name tokens (§9); digits untouched; punctuation identical to source except for omitted word-internal apostrophes.
 
 ### Machine-checkable constraints
@@ -516,6 +532,8 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 
 | ❌ Wrong | ✅ Right | Why |
 |---|---|---|
+| `tɔ́rd(z)`, `twɔ́rd(z)` | `təwɔ́rd` / `təwɔ́rdz` | author preference for *toward / towards* only: retain the initial schwa and `w`, with the acute on `ɔ` (§1.1) |
+| `pʊ́r`, `púwr`, `pʊ́rlij`, `púwrlij` | `pɔ́r`, `pɔ́rlij` | *poor* and its derivatives use `ɔr`; unrelated CURE words are unchanged (§1.1) |
 | `ˈleðər`, `ˌʌnˈlaɪk` | `lɛ́ðər`, `ə̀nlájk` | no ˈ ˌ marks; use acute/grave on the vowel |
 | `meɪd`, `oʊnli`, `iːkwəl` | `méjd`, `ównlij`, `íjkwəl` | no length marks or traditional diphthongs |
 | `ɪ́nflwjəns`, `ɪ́nflwjənst` | `ɪ́nfluwəns`, `ɪ́nfluwənst` | GOOSE is `uw` and stays `uw` before a vowel (§4.2.2, §4.5) — never write `wj`, which drops the `u` nucleus and invents a yod the word does not have |
@@ -583,6 +601,7 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `mǽnədʒd`, `mǽnədʒmənt`, `prɪ́vlədʒ` | `mǽnɪdʒd`, `mǽnɪdʒmənt`, `prɪ́vlɪdʒ` | the fixed *-age* ending is `ɪdʒ` (§4.4, §7), so the reduced vowel before it takes `ɪ`: *manage(d/ment/er/ing)* and *privilege(d)* — the examples already wrote `ɪ` |
 | `dərɛ́kt`, `dərɛ́ktlij`, `ɪ̀ndərɛ́kt` | `dɪrɛ́kt`, `dɪrɛ́ktlij`, `ɪ̀ndɪrɛ́kt` | the reduced *di-*/*de-* prefix takes `ɪ` wherever it sits (§4.4), so *direct* keeps `dɪr-`; M-W's `də-` is overridden by the spelling tie-breaker |
 | `dajvɜ́rsɪtij`, `bàjowdajvɜ́rsɪtij`, `dajmɛ́nʃənz`, `dajdʒɛ́stɪbəl`, `dajɡrɛ́ʃənz`, `dajvɜ́rs` | `dɪvɜ́rsɪtij`, `bàjowdɪvɜ́rsɪtij`, `dɪmɛ́nʃənz`, `dɪdʒɛ́stɪbəl`, `dɪɡrɛ́ʃənz`, `dɪvɜ́rs` | a `di-` word whose first syllable M-W lists both ways takes the reduced (kit) vowel, not PRICE — `də-ˈvər-sə-tē, dī-`, `də-ˈmen(t)-shən also dī-`, `dī-ˈje-stə-bəl, də-`, `dī-ˈgre-shən, də-`, `dī-ˈvərs, də-ˈvərs`; the spelling tie-breaker then gives `dɪ`, and which reading the dictionary lists first does not decide. Words with a single reading are untouched (`dajnǽmɪk`, `dájəɡræ̀m`, `dàjəɡnówsɪs`) (§4.4) |
+| `fɪnǽnst`, `fɪnǽnʃəl`, `rìjfɪnǽns` | `fájnæ̀nst`, `fájnæ̀nʃəl`, `rìjfájnæ̀ns` | the *finance* family takes the acute on the first syllable in **every** member — verb or noun — with the grave on the final TRAP syllable; the reduced readings (`fɪnǽnst`, `fənǽnst`) are not written even though the dictionaries list the verb's reduced form (author, 2026-10-11) (§4.4) |
 | `ənsɜ́rtəntij`, `ənséjf`, `ənnɛ́səsɛ̀rij`, `əntə́tʃt` | `ə̀nsɜ́rtəntij`, `ə̀nséjf`, `ə̀nnɛ́səsɛ̀rij`, `ə̀ntə́tʃt` | M-W marks a secondary stress on the *un-* prefix (`ˌən-`), so it takes the grave (§5.2); *until* `əntɪ́l` and *unless* `ənlɛ́s` are the exceptions (no `ˌ`), and `ə̀ntɪ́l` is the error in the other direction |
 | `rɛ́ləvənt`, `əfɪ́ʃənsij`, `ɪ̀ntɛ́lədʒəns`, `ɪ̀ndəpɛ́ndənt`, `ɪ̀nkɒ̀nsəkwɛ́nʃəl`, `mɒ́dəst(lij)`, `spəsɪ́fɪklij` | `rɛ́lɪvənt`, `ɪfɪ́ʃənsij`, `ɪntɛ́lɪdʒəns`, `ɪ̀ndɪpɛ́ndənt`, `ɪ̀nkɒ̀nsɪkwɛ́nʃəl`, `mɒ́dɪst(lij)`, `spɪsɪ́fɪklij` | author rulings 2026-09-28 in the `e` case that §4.4 leaves word by word: a reduced `e` outside the `r l n m ŋ t` carve-out takes `ɪ`, and *intelligence* also drops the spurious grave on `in-` (§4.4) |
 | `ɪ̀ntəɡréjʃən`, `ɪ́ntəɡrèjt`, `ɪ́ntəɡrèjtɪŋ` | `ɪ̀ntɪɡréjʃən`, `ɪ́ntɪɡrèjt`, `ɪ́ntɪɡrèjtɪŋ` | same `e` case: the reduced `e` of *inte-* precedes `ɡ`, which is not in the carve-out, so it takes `ɪ` — M-W writes `ˌin-tə-ˈgrā-` (§4.4) |
@@ -593,6 +612,7 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `ðɛ́rfɔr`, `hàwɛ́vər`, `fàwndéjʃənəl`, `mɛ́kənɪzəm`, `ɒ́ntə`, `ǽlɡərɪðəm`, `ǽksɛs`, `fájnajt`, `hǽndfəl`, `sənɛ́rijowz`, `səbsíjkwənt`, `sɪtʃuwéjʃən`, `rɪléjʃənʃɪp`, `kɒ́nvɜ̀rslij`, `ɪ́nsàjd`, `mɛ́tədèjtə` | `ðɛ́rfɔ̀r`, `hawɛ́vər`, `fawndéjʃənəl`, `mɛ́kənɪ̀zəm`, `ɒ́ntùw`, `ǽlɡərɪ̀ðəm`, `ǽksɛ̀s`, `fájnàjt`, `hǽndfʊ̀l`, `sənɛ́rijòwz`, `sə́bsɪkwənt`, `sɪ̀tʃuwéjʃən`, `rɪléjʃənʃɪ̀p`, `kənvɜ́rslij`, `ɪ̀nsájd`, `mɛ̀tədéjtə` | the acute goes wherever M-W puts the primary stress, every secondary stress takes the grave, and a solid compound needs the grave on its second element (§5.2, §5.3); *inside* keeps the grave M-W parenthesizes, and *metadata* follows `ˌme-tə-ˈdā-tə` |
 | `kájd`, `stréjnər`, `dɪlɪ́brətij` | `kájnd`, `stréjndʒər`, `dɪlɪ́brətlij` | never drop a pronounced consonant or syllable: *kind* keeps its `n`, *stranger* its `dʒ`, and *deliberately* both its `l` and the fixed `-ly` (§3, §7) — the validator cannot see a missing segment |
 | `XI`, `XV`, `III`, `XIII` left as capitals | `ɪlɛ́vənθ`, `fɪ́ftìjnθ`, `θɜ́rd`, `θɜ̀rtíjnθ` | a Roman numeral after a name is spoken as its ordinal and written as one token in place (§9 rule 4); the capitals would read as letter names, *ex-eye* for *eleven* |
+| `səɡdʒɛ́st`, `səɡdʒɛ́sts`, `səɡdʒɛ́stɪd`, `səɡdʒɛ́stɪŋ` | `sədʒɛ́st`, `sədʒɛ́sts`, `sədʒɛ́stɪd`, `sədʒɛ́stɪŋ` | the *suggest* family leaves out the written `ɡ`: the ɡ-less reading (`sə-ˈjest`) is the one this notation keeps, ruled by the author on 2026-10-11. It is the single exception to §3's consonant rule and licenses no other omission — *struggle* `strə́ɡəl` keeps its `ɡ` (§3) |
 
 ## 14. Names and terms from other languages
 

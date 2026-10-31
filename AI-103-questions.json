@@ -3621,7 +3621,7 @@
       "Top-p sampling"
     ],
     "Explanation": "Few-shot prompting (task examples before inference) steers style and behavior without retraining. Few-shot prompting (relative to zero-shot) works best when conventions are subtle but easy to demonstrate.",
-    "trans_Question": "ə səpɔ́rt bɔ́t pərfɔ́rmz púwrlij ɒn nɪ́tʃ rɪfə́nd wɜ́rdɪŋ, bət ɪ̀mprúwvz ɪ̀míjdìjətlij wɛ́n dɪvɛ́ləpərz prɪpɛ́nd θríj háj-kwɑ́lɪtij ɪ́npʊ̀t-áwtpʊ̀t ɪɡzǽmpəlz pɜ́r rɪkwɛ́st. wɒ́t prɒ́mptɪŋ kɒ́nsɛpt ɪz bíjɪŋ júwzd?",
+    "trans_Question": "ə səpɔ́rt bɔ́t pərfɔ́rmz pɔ́rlij ɒn nɪ́tʃ rɪfə́nd wɜ́rdɪŋ, bət ɪ̀mprúwvz ɪ̀míjdìjətlij wɛ́n dɪvɛ́ləpərz prɪpɛ́nd θríj háj-kwɑ́lɪtij ɪ́npʊ̀t-áwtpʊ̀t ɪɡzǽmpəlz pɜ́r rɪkwɛ́st. wɒ́t prɒ́mptɪŋ kɒ́nsɛpt ɪz bíjɪŋ júwzd?",
     "trans_RightAnswer": "fjúw-ʃɒ́t prɒ́mptɪŋ",
     "trans_WrongAnswers": [
       "prɒ́mpt kənstréjnts",
@@ -5898,7 +5898,7 @@
       "Speech quality metrics"
     ],
     "Explanation": "Custom Speech adaptation. It tailors recognition to domain vocabulary and acoustic conditions using representative data. This improves accuracy when baseline models underperform in specialized environments.",
-    "trans_Question": "fǽktərij flɔ́r træ̀nskrɪ́pʃən mɪ́sɪz dowméjn tɜ́rmz ənd pərfɔ́rmz púwrlij ə́ndər məʃíjnərij nɔ́jz, ənd ðə tíjm hǽz rɛ̀prɪzɛ́ntətɪv rɪkɔ́rdɪŋz ənd trǽnskrɪ̀pts. wɪ́tʃ ɪ̀mprúwvmənt pǽθ ʃʊd ðej júws?",
+    "trans_Question": "fǽktərij flɔ́r træ̀nskrɪ́pʃən mɪ́sɪz dowméjn tɜ́rmz ənd pərfɔ́rmz pɔ́rlij ə́ndər məʃíjnərij nɔ́jz, ənd ðə tíjm hǽz rɛ̀prɪzɛ́ntətɪv rɪkɔ́rdɪŋz ənd trǽnskrɪ̀pts. wɪ́tʃ ɪ̀mprúwvmənt pǽθ ʃʊd ðej júws?",
     "trans_RightAnswer": "kə́stəm spíjtʃ æ̀dəptéjʃən",
     "trans_WrongAnswers": [
       "ɔ́dijòw-kéjpəbəl mɒ́dəl",
@@ -6220,7 +6220,7 @@
       "Knowledge projection"
     ],
     "Explanation": "Layout extraction. Capturing headings, regions, and structural cues improves chunk boundaries and citation precision. Structure-aware chunks usually outperform flat text splits for enterprise docs.",
-    "trans_Question": "júwzərz ǽsk sɛ́kʃən-lɛ́vəl kwɛ́stʃənz, bət kɜ́rənt tʃə́ŋks ɪ̀ɡnɔ́r hɛ́dɪŋz ənd téjbəl báwndərijz, kɒ́zɪŋ púwr ɡráwndɪŋ. wɪ́tʃ ɪkstrǽkʃən fówkəs ʃʊd bij ǽdɪd tə prɪzɜ́rv dɒ́kjəmənt strə́ktʃər?",
+    "trans_Question": "júwzərz ǽsk sɛ́kʃən-lɛ́vəl kwɛ́stʃənz, bət kɜ́rənt tʃə́ŋks ɪ̀ɡnɔ́r hɛ́dɪŋz ənd téjbəl báwndərijz, kɒ́zɪŋ pɔ́r ɡráwndɪŋ. wɪ́tʃ ɪkstrǽkʃən fówkəs ʃʊd bij ǽdɪd tə prɪzɜ́rv dɒ́kjəmənt strə́ktʃər?",
     "trans_RightAnswer": "léjàwt ɪkstrǽkʃən",
     "trans_WrongAnswers": [
       "dɒ́kjəmənt krǽkɪŋ",
@@ -6365,7 +6365,7 @@
       "mɛ̀tədéjtə fɪ́ltərz",
       "ɪ́ntɪɡrèjtɪd vɛ̀ktərɪzéjʃən",
       "fǽsəts",
-      "səɡdʒɛ́stər"
+      "sədʒɛ́stər"
     ],
     "trans_Explanation": "rɪsɪ́prəkəl rǽŋk fjúwʒən. RRF blɛ́ndz mə́ltɪpəl rǽŋkt lɪ́sts baj rɪwɔ́rdɪŋ kənsɪ́stəntlij háj pléjsmənts əkrɔ́s mɛ́θədz. ɪt ɪz kɒ́mənlij júwzd tə kɒ́mbajn hájbrɪd rɪtríjvəl sɪ́ɡnəlz.",
     "Difficulty": 4
@@ -6387,7 +6387,7 @@
       "rɪsɪ́prəkəl rǽŋk fjúwʒən",
       "fǽsəts",
       "hájbrɪd rɪtríjvəl",
-      "səɡdʒɛ́stər",
+      "sədʒɛ́stər",
       "skɔ́rɪŋ prówfàjl"
     ],
     "trans_Explanation": "mɛ̀tədéjtə fɪ́ltərz. fɪ́ltərz ɪnfɔ́rs ɪɡzǽkt kənstréjnts sə́tʃ æz tɛ́nənt, ACL, ɔr ríjdʒən bɪfɔ́r ɔr dʊ́rɪŋ rǽŋkɪŋ. ðej ɑr sɛ́ntrəl tə sɪkjʊ́rɪtij trɪ́mɪŋ ənd pɒ́lɪsij-kəmplájənt ɡráwndɪŋ.",
@@ -6408,7 +6408,7 @@
     "trans_RightAnswer": "fǽsəts",
     "trans_WrongAnswers": [
       "mɛ̀tədéjtə fɪ́ltərz",
-      "səɡdʒɛ́stər",
+      "sədʒɛ́stər",
       "rɪsɪ́prəkəl rǽŋk fjúwʒən",
       "skɔ́rɪŋ prówfàjl",
       "vɛ́ktər pərǽmətərz"
@@ -6428,7 +6428,7 @@
     ],
     "Explanation": "Suggester. Suggesters power autocomplete and typeahead experiences from indexed terms. They improve query formulation speed and reduce spelling-related misses.",
     "trans_Question": "æz júwzərz tájp ɪn ə pɔ́rtəl sɜ́rtʃ bɒ́ks, juw wɒ́nt lájklij kwíjrij kəmplíjʃənz ənd dɒ́kjəmənt hɪ́nts bɪfɔ́r səbmɪ́t. wɪ́tʃ kèjpəbɪ́lɪtij ʃʊd bij kənfɪ́ɡjərd?",
-    "trans_RightAnswer": "səɡdʒɛ́stər",
+    "trans_RightAnswer": "sədʒɛ́stər",
     "trans_WrongAnswers": [
       "fǽsəts",
       "skɔ́rɪŋ prówfàjl",
@@ -6436,7 +6436,7 @@
       "vɛ́ktər pərǽmətərz",
       "sɪmǽntɪk kənfɪ̀ɡjəréjʃən"
     ],
-    "trans_Explanation": "səɡdʒɛ́stər. səɡdʒɛ́stərz páwər ɔ̀towkəmplíjt ənd tájpəhɛ̀d ɪkspɪ́rijənsɪz frəm ɪ́ndɛkst tɜ́rmz. ðej ɪ̀mprúwv kwíjrij fɔ̀rmjəléjʃən spíjd ənd rɪdúws spɛ́lɪŋ-rɪléjtɪd mɪ́sɪz.",
+    "trans_Explanation": "sədʒɛ́stər. sədʒɛ́stərz páwər ɔ̀towkəmplíjt ənd tájpəhɛ̀d ɪkspɪ́rijənsɪz frəm ɪ́ndɛkst tɜ́rmz. ðej ɪ̀mprúwv kwíjrij fɔ̀rmjəléjʃən spíjd ənd rɪdúws spɛ́lɪŋ-rɪléjtɪd mɪ́sɪz.",
     "Difficulty": 1
   },
   {
@@ -6453,7 +6453,7 @@
     "trans_Question": "líjɡəl sajtéjʃənz məst àwtrǽŋk blɔ́ɡ pówsts wɛ́n bówθ kəntéjn sɪ́mɪlər tɜ́rmz, béjst ɒn ə dɒ́kjəmənt ɪ̀mpɔ́rtəns fíjld. wɪ́tʃ rǽŋkɪŋ kə̀stəmɪzéjʃən ɪz dɪzájnd fɔr ðɪ́s?",
     "trans_RightAnswer": "skɔ́rɪŋ prówfàjl",
     "trans_WrongAnswers": [
-      "səɡdʒɛ́stər",
+      "sədʒɛ́stər",
       "vɛ́ktər pərǽmətərz",
       "fǽsəts",
       "sɪmǽntɪk kənfɪ̀ɡjəréjʃən",
@@ -6478,7 +6478,7 @@
     "trans_WrongAnswers": [
       "skɔ́rɪŋ prówfàjl",
       "sɪmǽntɪk kənfɪ̀ɡjəréjʃən",
-      "səɡdʒɛ́stər",
+      "sədʒɛ́stər",
       "ɪmbɛ́dɪŋ kəmpæ̀tɪbɪ́lɪtij",
       "fíjld ǽtrɪbjùwts"
     ],
@@ -6496,7 +6496,7 @@
       "Key field"
     ],
     "Explanation": "Semantic configuration. It identifies title, content, and keyword fields used by semantic ranker features like captions and answers. Correct mapping is required for high-quality semantic reranking.",
-    "trans_Question": "sɪmǽntɪk rǽŋkɪŋ ɪz ɪnéjbəld, bət ǽnsər kwɑ́lɪtij ɪz púwr bɪkɒ́z tájtəlz ənd bɒ́dij fíjldz wər nɒ́t mǽpt kərɛ́ktlij fɔr sɪmǽntɪk prɒ́sɛsɪŋ. wɪ́tʃ kənfɪ̀ɡjəréjʃən ɪz mɪ́sɪŋ?",
+    "trans_Question": "sɪmǽntɪk rǽŋkɪŋ ɪz ɪnéjbəld, bət ǽnsər kwɑ́lɪtij ɪz pɔ́r bɪkɒ́z tájtəlz ənd bɒ́dij fíjldz wər nɒ́t mǽpt kərɛ́ktlij fɔr sɪmǽntɪk prɒ́sɛsɪŋ. wɪ́tʃ kənfɪ̀ɡjəréjʃən ɪz mɪ́sɪŋ?",
     "trans_RightAnswer": "sɪmǽntɪk kənfɪ̀ɡjəréjʃən",
     "trans_WrongAnswers": [
       "vɛ́ktər pərǽmətərz",

@@ -105,7 +105,7 @@
     "word": "vehicles",
     "wrong_transcription": "víjhɪkəlz",
     "correct_transcription": "víjɪkəlz",
-    "explanation": "The plural of vehicle, and the same two points: the h is silent in General American, so it is never written, and the reduced vowel spelled i is ɪ. The singular entry rules víjɪkəl; the corpus's two Ariane 5 tokens were already correct and this one token in TRN_TheSelfishGene.txt (\"vehicles for gene propagation\") was not. Swept 2026-10-01; TRN_ONE.txt regenerated."
+    "explanation": "The plural of vehicle, and the same two points: the h is silent in General American, so it is never written, and the reduced vowel spelled i is ɪ. The singular entry rules víjɪkəl; the corpus's two Ariane 5 tokens were already correct and this one token in TRN_TheSelfishGene.md (\"vehicles for gene propagation\") was not. Swept 2026-10-01; TRN_ONE.txt regenerated."
   },
   {
     "word": "synthesis",
@@ -297,7 +297,7 @@
     "word": "finance",
     "wrong_transcription": "fənǽns",
     "correct_transcription": "fájnæ̀ns",
-    "explanation": "All occurrences use the noun finance, whose first-listed General American form has primary stress and the PRICE vowel on the first syllable, with secondary stress on the final TRAP syllable."
+    "explanation": "Family ruling (author, 2026-10-11), now stated in §4.4 of the guide and applied to every member: the finance family writes the PRICE vowel on the first syllable with the acute, verb and noun alike, keeping the grave on the final TRAP syllable — fájnæ̀ns, fájnæ̀nsɪz, fájnæ̀nst, fájnæ̀nsɪŋ, fájnæ̀nʃəl, fájnæ̀nʃəlij, fájnæ̀nʃəlɪzèjʃən, rìjfájnæ̀ns, rìjfájnæ̀nst, rìjfájnæ̀nsɪŋ. The verb's final-stressed reading (fɪnǽnst) is no longer written, so no reduced first syllable arises and the §4.4 spelling tie-breaker, which would send a reduced i to ɪ, has nothing to decide. The five other entries of the family were inverted in the same sweep."
   },
   {
     "word": "enterprise",
@@ -405,7 +405,7 @@
     "word": "responsibilities",
     "wrong_transcription": "rijspɒ̀nsəbɪ́lɪtijz",
     "correct_transcription": "rɪspɒ̀nsɪbɪ́lɪtijz",
-    "explanation": "The reduced re- prefix is rɪ-, the following reduced vowel is spelled i, and -ity is fixed as ɪtij. The 2026-09-26 -ible sweep corrected the two remaining corpus tokens written rɪspɒ̀nsəbɪ́lɪtij (TRN_TheSelfishGene.txt L10, TRN_TheTherac25RadiationAccidents.txt L3) to this entry's form rɪspɒ̀nsɪbɪ́lɪtij."
+    "explanation": "The reduced re- prefix is rɪ-, the following reduced vowel is spelled i, and -ity is fixed as ɪtij. The 2026-09-26 -ible sweep corrected the two remaining corpus tokens written rɪspɒ̀nsəbɪ́lɪtij (TRN_TheSelfishGene.md L10, TRN_TheTherac25RadiationAccidents.md L3) to this entry's form rɪspɒ̀nsɪbɪ́lɪtij."
   },
   {
     "word": "relationships",
@@ -1041,7 +1041,7 @@
     "word": "delves",
     "wrong_transcription": "dɛ́lz",
     "correct_transcription": "dɛ́lvz",
-    "explanation": "§3 forbids reduction or deletion: delve is /dɛlvz/ in its broad citation form, so the v must be written. Found 2026-09-26 in TRN_TheSelfishGene.txt; the corpus already keeps the v in the same stem elsewhere — ɪnvɒ́lvz (involves) and dɛ́lvɪŋ (delving)."
+    "explanation": "§3 forbids reduction or deletion: delve is /dɛlvz/ in its broad citation form, so the v must be written. Found 2026-09-26 in TRN_TheSelfishGene.md; the corpus already keeps the v in the same stem elsewhere — ɪnvɒ́lvz (involves) and dɛ́lvɪŋ (delving)."
   },
   {
     "word": "unit",
@@ -1053,7 +1053,7 @@
     "word": "units",
     "wrong_transcription": "júwnəts",
     "correct_transcription": "júwnɪts",
-    "explanation": "The plural keeps the ruled base júwnɪt and adds the regular s. Swept AI-103-questions.json (11 tokens) and TRN_TheSelfishGene.txt (2, lines 2 and 6) 2026-09-26; TRN_CognitiveLoad and TRN_TheAlignmentProblem already wrote ɪ."
+    "explanation": "The plural keeps the ruled base júwnɪt and adds the regular s. Swept AI-103-questions.json (11 tokens) and TRN_TheSelfishGene.md (2, lines 2 and 6) 2026-09-26; TRN_CognitiveLoad and TRN_TheAlignmentProblem already wrote ɪ."
   },
   {
     "word": "uniform",
@@ -1077,13 +1077,13 @@
     "word": "universe",
     "wrong_transcription": "júwnəvɜ̀rs",
     "correct_transcription": "júwnɪvɜ̀rs",
-    "explanation": "Same ruling; M-W's ˈyü-nə-ˌvərs writes a schwa, and the spelled i decides. Swept TRN_Move37.txt (1 token) 2026-09-26."
+    "explanation": "Same ruling; M-W's ˈyü-nə-ˌvərs writes a schwa, and the spelled i decides. Swept TRN_Move37.md (1 token) 2026-09-26."
   },
   {
     "word": "universal",
     "wrong_transcription": "jùwnəvɜ́rsəl",
     "correct_transcription": "jùwnɪvɜ́rsəl",
-    "explanation": "Same ruling, with the secondary stress on the first syllable (§5). Swept TRN_TheAlignmentProblem.txt (1 token) 2026-09-26."
+    "explanation": "Same ruling, with the secondary stress on the first syllable (§5). Swept TRN_TheAlignmentProblem.md (1 token) 2026-09-26."
   },
   {
     "word": "university",
@@ -1095,7 +1095,7 @@
     "word": "communication",
     "wrong_transcription": "kəmjùwnəkéjʃən",
     "correct_transcription": "kəmjùwnɪkéjʃən",
-    "explanation": "Same ruling for the reduced vowel after the u in communi-. Swept AI-103-questions.json (4 tokens) and TRN_TheSelfishGene.txt (2, written kəmjùwnəkɛ́jʃən) 2026-09-26; TRN_TheAlignmentProblem already wrote kəmjùwnɪkéjʃən."
+    "explanation": "Same ruling for the reduced vowel after the u in communi-. Swept AI-103-questions.json (4 tokens) and TRN_TheSelfishGene.md (2, written kəmjùwnəkɛ́jʃən) 2026-09-26; TRN_TheAlignmentProblem already wrote kəmjùwnɪkéjʃən."
   },
   {
     "word": "communicate",
@@ -1107,19 +1107,19 @@
     "word": "punitive",
     "wrong_transcription": "pjúwnətɪv",
     "correct_transcription": "pjúwnɪtɪv",
-    "explanation": "Same ruling; the second-syllable vowel is spelled i and the v is pronounced (§3). Swept TRN_TheEscalationOfCommitment.txt (1 token) 2026-09-26."
+    "explanation": "Same ruling; the second-syllable vowel is spelled i and the v is pronounced (§3). Swept TRN_TheEscalationOfCommitment.md (1 token) 2026-09-26."
   },
   {
     "word": "influence",
     "wrong_transcription": "ɪ́nflwjəns",
     "correct_transcription": "ɪ́nfluwəns",
-    "explanation": "GOOSE is uw (§4.2.2) and stays uw before a vowel (§4.5), so the u nucleus is never replaced by wj: the wj spelling drops the nucleus and adds a yod the word does not have (M-W influence ˈin-ˌflü-ən(t)s, no /j/). The whole family was wrong in one file — influenced ɪ́nflwjənst, influences ɪ́nflwjənsɪz, influential ɪ̀nflwjɛ́nʃəl. Everywhere else the corpus agrees on fluw: 12 tokens in TRN_CognitiveLoad, TRN_Gaslighitng, TRN_Habituation, TRN_Move37, TRN_TheAlignmentProblem, plus ɪ̀nfluwɛ́nʃəl in TRN_TheTherac25RadiationAccidents and TRN_TheAlignmentProblem. All 10 wj tokens sat in TRN_TheSelfishGene.txt and were swept 2026-09-26."
+    "explanation": "GOOSE is uw (§4.2.2) and stays uw before a vowel (§4.5), so the u nucleus is never replaced by wj: the wj spelling drops the nucleus and adds a yod the word does not have (M-W influence ˈin-ˌflü-ən(t)s, no /j/). The whole family was wrong in one file — influenced ɪ́nflwjənst, influences ɪ́nflwjənsɪz, influential ɪ̀nflwjɛ́nʃəl. Everywhere else the corpus agrees on fluw: 12 tokens in TRN_CognitiveLoad, TRN_Gaslighitng, TRN_Habituation, TRN_Move37, TRN_TheAlignmentProblem, plus ɪ̀nfluwɛ́nʃəl in TRN_TheTherac25RadiationAccidents and TRN_TheAlignmentProblem. All 10 wj tokens sat in TRN_TheSelfishGene.md and were swept 2026-09-26."
   },
   {
     "word": "view",
     "wrong_transcription": "vúw",
     "correct_transcription": "vjúw",
-    "explanation": "American yod-dropping applies only after t, d, n, s, l and θ; after v the yod is kept (§4.5, whose v example is exactly vjúw), so view is vjúw and views vjúwz (M-W ˈvyü). All 4 offenders sat in TRN_TheSelfishGene.txt — vúw in lines 2, 9 and 11 and vúwz in line 10 — and were swept 2026-09-26. The rest of the corpus already agreed: vjúw ×3 in TRN_superintelligence_risk.txt, vjúw in TRN_TheAriane5RocketFailure.txt, and the review family (rɪvjúw, rɪvjúwɪŋ, rɪvjúwd, rɪvjúwz) everywhere. The validator is blind to the class — check_string returns 0 violations for vúw and vjúw alike."
+    "explanation": "American yod-dropping applies only after t, d, n, s, l and θ; after v the yod is kept (§4.5, whose v example is exactly vjúw), so view is vjúw and views vjúwz (M-W ˈvyü). All 4 offenders sat in TRN_TheSelfishGene.md — vúw in lines 2, 9 and 11 and vúwz in line 10 — and were swept 2026-09-26. The rest of the corpus already agreed: vjúw ×3 in TRN_superintelligence_risk.md, vjúw in TRN_TheAriane5RocketFailure.md, and the review family (rɪvjúw, rɪvjúwɪŋ, rɪvjúwd, rɪvjúwz) everywhere. The validator is blind to the class — check_string returns 0 violations for vúw and vjúw alike."
   },
   {
     "word": "philosophy",
@@ -1131,49 +1131,49 @@
     "word": "philosopher",
     "wrong_transcription": "fəlɒ́səfər",
     "correct_transcription": "fɪlɒ́səfər",
-    "explanation": "Same ruling as philosophy, one word further along the family: the reduced vowel of the first syllable is spelled i, so the §4.4 tie-breaker (step 3) gives ɪ and outranks the dictionary notation (§1, §4.4) — M-W writes fə-ˈlä-sə-fər, the same fə- that philosophy's entry rejects. The remaining syllables were already right and are unchanged: -los- is LOT ɒ́ with the single acute on the stressed syllable, -so- is a reduced vowel spelled o (sə), and -pher is the reduced e before r of §4.3/§4.4 (ər). One token in TRN_SturgeonsLaw.txt L6, swept 2026-10-03; the corpus already had the family's first syllable right elsewhere, since TRN_TheSelfishGene.txt L10 and its TRN_ONE.txt copy write fɪlɒ́səfij. The validator is blind to this class — check_string returns 0 for fəlɒ́səfər and fɪlɒ́səfər alike."
+    "explanation": "Same ruling as philosophy, one word further along the family: the reduced vowel of the first syllable is spelled i, so the §4.4 tie-breaker (step 3) gives ɪ and outranks the dictionary notation (§1, §4.4) — M-W writes fə-ˈlä-sə-fər, the same fə- that philosophy's entry rejects. The remaining syllables were already right and are unchanged: -los- is LOT ɒ́ with the single acute on the stressed syllable, -so- is a reduced vowel spelled o (sə), and -pher is the reduced e before r of §4.3/§4.4 (ər). One token in TRN_SturgeonsLaw.md L6, swept 2026-10-03; the corpus already had the family's first syllable right elsewhere, since TRN_TheSelfishGene.md L10 and its TRN_ONE.txt copy write fɪlɒ́səfij. The validator is blind to this class — check_string returns 0 for fəlɒ́səfər and fɪlɒ́səfər alike."
   },
   {
     "word": "altruistic",
     "wrong_transcription": "ɔ̀ltrwɪ́stɪk",
     "correct_transcription": "æ̀ltruwɪ́stɪk",
-    "explanation": "Two independent fixes in one token. (a) The initial vowel: M-W's first listing is ˌal-trü-ˈi-stik, i.e. TRAP æl — the ˌȯl- form is only the second variant, and this style takes the first listing (several sɛ́vrəl, family fǽmlij, handling hǽndəlɪŋ); internal parallels ǽlfəɡòw and ə̀nǽləsɪs confirm that written al is æl in this corpus, not ɔl (which belongs to all, also, almost, already — words with a genuine /ɔːl/). (b) The glide: GOOSE uw is kept before a vowel (§4.5 — uw/ow/aw before a vowel are left as-is), so /u.ˈɪ/ is uwɪ́; trwɪ́ drops the u nucleus, the same class as the swept flwj → fluw. Decisive internal parallel: intuition ɪ̀ntuwɪ́ʃən (TRN_Move37 L3, TRN_TheTuringMachine L5). Both tokens (TRN_TheSelfishGene.txt L4 and L16) swept 2026-09-26. The validator is blind to both fixes — check_string returns 0 for ɔ̀ltrwɪ́stɪk, æ̀ltruwɪ́stɪk and ɪ̀ntrwɪ́ʃən alike."
+    "explanation": "Two independent fixes in one token. (a) The initial vowel: M-W's first listing is ˌal-trü-ˈi-stik, i.e. TRAP æl — the ˌȯl- form is only the second variant, and this style takes the first listing (several sɛ́vrəl, family fǽmlij, handling hǽndəlɪŋ); internal parallels ǽlfəɡòw and ə̀nǽləsɪs confirm that written al is æl in this corpus, not ɔl (which belongs to all, also, almost, already — words with a genuine /ɔːl/). (b) The glide: GOOSE uw is kept before a vowel (§4.5 — uw/ow/aw before a vowel are left as-is), so /u.ˈɪ/ is uwɪ́; trwɪ́ drops the u nucleus, the same class as the swept flwj → fluw. Decisive internal parallel: intuition ɪ̀ntuwɪ́ʃən (TRN_Move37 L3, TRN_TheTuringMachine L5). Both tokens (TRN_TheSelfishGene.md L4 and L16) swept 2026-09-26. The validator is blind to both fixes — check_string returns 0 for ɔ̀ltrwɪ́stɪk, æ̀ltruwɪ́stɪk and ɪ̀ntrwɪ́ʃən alike."
   },
   {
     "word": "altruism",
     "wrong_transcription": "ɔ̀ltrwɪ́zəm",
     "correct_transcription": "ǽltruwɪ̀zəm",
-    "explanation": "Carries the same two fixes as the altruistic entry (æl for al, uwɪ for /u.ˈɪ/) plus a third: the stress accents are inverted. M-W's first listing is ˈal-trü-ˌi-zəm — primary stress on the first syllable and secondary on the i (AHD ăl′tro͞o-ĭz′əm and Collins ˈæltruːˌɪzəm agree) — so the acute belongs on æ and the grave on ɪ, not the other way round. Both tokens (TRN_TheSelfishGene.txt L5 and L11, the latter followed by a comma) swept 2026-09-26; TRN_ONE.txt regenerated."
+    "explanation": "Carries the same two fixes as the altruistic entry (æl for al, uwɪ for /u.ˈɪ/) plus a third: the stress accents are inverted. M-W's first listing is ˈal-trü-ˌi-zəm — primary stress on the first syllable and secondary on the i (AHD ăl′tro͞o-ĭz′əm and Collins ˈæltruːˌɪzəm agree) — so the acute belongs on æ and the grave on ɪ, not the other way round. Both tokens (TRN_TheSelfishGene.md L5 and L11, the latter followed by a comma) swept 2026-09-26; TRN_ONE.txt regenerated."
   },
   {
     "word": "flexible",
     "wrong_transcription": "flɛ́ksəbəl",
     "correct_transcription": "flɛ́ksɪbəl",
-    "explanation": "The guide fixes -ible as ɪbəl (§7), and that fixed ending outranks M-W's schwa (ˈflek-sə-bəl) — the same call already recorded for tangible tǽndʒɪbəl and possible pɒ́sɪbəl. Both tokens (TRN_TheAriane5RocketFailure.txt L3 and TRN_TheTherac25RadiationAccidents.txt L3) swept 2026-09-26, together with the AI-103 derivatives flexibly flɛ́ksɪblij and flexibility flɛ̀ksɪbɪ́lɪtij. The class is now guarded: --text mode rejects flɛ́ksəbəl through IBLE_RULINGS, and pair mode derives the rule from the source spelling (check_ible_vowel), so flɛ́ksəbəl is reported as ible-reduced-vowel while flɛ́ksɪbəl passes."
+    "explanation": "The guide fixes -ible as ɪbəl (§7), and that fixed ending outranks M-W's schwa (ˈflek-sə-bəl) — the same call already recorded for tangible tǽndʒɪbəl and possible pɒ́sɪbəl. Both tokens (TRN_TheAriane5RocketFailure.md L3 and TRN_TheTherac25RadiationAccidents.md L3) swept 2026-09-26, together with the AI-103 derivatives flexibly flɛ́ksɪblij and flexibility flɛ̀ksɪbɪ́lɪtij. The class is now guarded: --text mode rejects flɛ́ksəbəl through IBLE_RULINGS, and pair mode derives the rule from the source spelling (check_ible_vowel), so flɛ́ksəbəl is reported as ible-reduced-vowel while flɛ́ksɪbəl passes."
   },
   {
     "word": "visible",
     "wrong_transcription": "vɪ́zəbəl",
     "correct_transcription": "vɪ́zɪbəl",
-    "explanation": "Same fixed -ible ending as flexible: ɪbəl, never M-W's schwa. One offender in TRN_ClimbingWithoutARope.txt L4; the rest of the corpus already wrote vɪ́zɪbəl (TRN_TheAlignmentProblem.txt L21 and L49, TRN_TheY2KNonEvent.txt, AI-103 ×10) and visibly vɪ́zɪblij. Swept 2026-09-26 together with AI-103 visibility vɪ̀zɪbɪ́lɪtij. The same sweep covered the -ible family's other offenders — responsible rɪspɒ́nsəbəl ×6 and rɪspɒ̀nsəbɪ́lɪtij ×2 — which the responsible and responsibilities entries record by prefix error only, so a whole-token audit cannot see them."
+    "explanation": "Same fixed -ible ending as flexible: ɪbəl, never M-W's schwa. One offender in TRN_ClimbingWithoutARope.md L4; the rest of the corpus already wrote vɪ́zɪbəl (TRN_TheAlignmentProblem.md L21 and L49, TRN_TheY2KNonEvent.md, AI-103 ×10) and visibly vɪ́zɪblij. Swept 2026-09-26 together with AI-103 visibility vɪ̀zɪbɪ́lɪtij. The same sweep covered the -ible family's other offenders — responsible rɪspɒ́nsəbəl ×6 and rɪspɒ̀nsəbɪ́lɪtij ×2 — which the responsible and responsibilities entries record by prefix error only, so a whole-token audit cannot see them."
   },
   {
     "word": "susceptible",
     "wrong_transcription": "səsɛ̀ptəbɪ́lɪtij",
     "correct_transcription": "səsɛ̀ptɪbɪ́lɪtij",
-    "explanation": "susceptibility, corrected in the same 2026-09-26 -ible sweep: the reduced vowel of -ible is spelled i, so §7 (fixed ɪbəl) and the §4.4 tie-breaker give ɪ where M-W writes sə-ˈsep-tə-bəl. One token in TRN_CognitiveLoad.txt L59. The corpus's own dajdʒɛ́stɪbəl (digestible) and kəmpǽtɪbəl (compatible) already kept the ɪ."
+    "explanation": "susceptibility, corrected in the same 2026-09-26 -ible sweep: the reduced vowel of -ible is spelled i, so §7 (fixed ɪbəl) and the §4.4 tie-breaker give ɪ where M-W writes sə-ˈsep-tə-bəl. One token in TRN_CognitiveLoad.md L59. The corpus's own dajdʒɛ́stɪbəl (digestible) and kəmpǽtɪbəl (compatible) already kept the ɪ."
   },
   {
     "word": "credible",
     "wrong_transcription": "krɛ̀dəbɪ́lətij",
     "correct_transcription": "krɛ̀dɪbɪ́lɪtij",
-    "explanation": "credibility carried two errors in one token: the -ible vowel written ə instead of ɪ, and the fixed -ity vowel written ə instead of ɪ (§7 fixes -ity as ɪtij, §4.4 tie-breaker for -ible). One token in TRN_TheEscalationOfCommitment.txt L8, swept 2026-09-26; the corpus's krɛ́dɪbəl (credible, TRN_TheAlignmentProblem.txt) already had the ending right."
+    "explanation": "credibility carried two errors in one token: the -ible vowel written ə instead of ɪ, and the fixed -ity vowel written ə instead of ɪ (§7 fixes -ity as ɪtij, §4.4 tie-breaker for -ible). One token in TRN_TheEscalationOfCommitment.md L8, swept 2026-09-26; the corpus's krɛ́dɪbəl (credible, TRN_TheAlignmentProblem.md) already had the ending right."
   },
   {
     "word": "accountable",
     "wrong_transcription": "ə̀kawntəbɪ́lətij",
     "correct_transcription": "ə̀kawntəbɪ́lɪtij",
-    "explanation": "accountability, corrected in the same 2026-09-26 sweep but for a different reason: -able is əbəl, so the medial ə is right and only the fixed -ity vowel was wrong (ɪtij). One token in TRN_TheEscalationOfCommitment.txt L3 (M-W ə-ˌkaun-tə-ˈbi-lə-tē). No mechanical guard: the source word ends in -able, so the -ible pair rule does not apply and IBLE_RULINGS lists only -ible stems."
+    "explanation": "accountability, corrected in the same 2026-09-26 sweep but for a different reason: -able is əbəl, so the medial ə is right and only the fixed -ity vowel was wrong (ɪtij). One token in TRN_TheEscalationOfCommitment.md L3 (M-W ə-ˌkaun-tə-ˈbi-lə-tē). No mechanical guard: the source word ends in -able, so the -ible pair rule does not apply and IBLE_RULINGS lists only -ible stems."
   },
   {
     "word": "reproducible",
@@ -1191,85 +1191,85 @@
     "word": "reductionist",
     "wrong_transcription": "rədə́kʃənɪst",
     "correct_transcription": "rɪdə́kʃənɪst",
-    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-, never rə: M-W reductionist is ri-ˈdək-sh(ə-)nist, a reduced initial syllable, so the §4.4 fixed-morpheme step gives ɪ. Found 2026-09-26 in TRN_TheSelfishGene.txt line 9 — the only rə- token among the 427 re- words in the corpus, while the same stem already agreed (rɪdúws ×38, rɪdə́kʃən in AI-103-questions.json). Swept 2026-09-26; TRN_ONE.txt regenerated."
+    "explanation": "The reduced word-initial re- prefix is fixed as rɪ-, never rə: M-W reductionist is ri-ˈdək-sh(ə-)nist, a reduced initial syllable, so the §4.4 fixed-morpheme step gives ɪ. Found 2026-09-26 in TRN_TheSelfishGene.md line 9 — the only rə- token among the 427 re- words in the corpus, while the same stem already agreed (rɪdúws ×38, rɪdə́kʃən in AI-103-questions.json). Swept 2026-09-26; TRN_ONE.txt regenerated."
   },
   {
     "word": "behavior",
     "wrong_transcription": "bəhéjvjərz",
     "correct_transcription": "bɪhéjvjərz",
-    "explanation": "The reduced word-initial be- prefix is fixed as bɪ-, never bə: M-W behavior is bi-ˈhā-vyər, a reduced initial syllable, so the §4.4 fixed-morpheme step gives ɪ — the same call as because bɪkɒ́z, before bɪfɔ́r and the re- entry reductionist. Found 2026-09-26 in TRN_TheSelfishGene.txt: 11 tokens of behaviors (three of them written before a comma) and 2 of behavior were the only bə- forms among the corpus’s 266 be- words, while everything else already agreed — bɪhéjvjər ×26, bɪhéjvjərz, bɪhéjvjərəl ×3, and AI-103-questions.json bɪ- throughout. The entry covers both spellings, since the plural behaviors bɪhéjvjərz takes ərz and the singular behavior bɪhéjvər takes ər. The validator is blind to this class: check_string reports no violation for either form. Swept 2026-09-26; TRN_ONE.txt regenerated."
+    "explanation": "The reduced word-initial be- prefix is fixed as bɪ-, never bə: M-W behavior is bi-ˈhā-vyər, a reduced initial syllable, so the §4.4 fixed-morpheme step gives ɪ — the same call as because bɪkɒ́z, before bɪfɔ́r and the re- entry reductionist. Found 2026-09-26 in TRN_TheSelfishGene.md: 11 tokens of behaviors (three of them written before a comma) and 2 of behavior were the only bə- forms among the corpus’s 266 be- words, while everything else already agreed — bɪhéjvjər ×26, bɪhéjvjərz, bɪhéjvjərəl ×3, and AI-103-questions.json bɪ- throughout. The entry covers both spellings, since the plural behaviors bɪhéjvjərz takes ərz and the singular behavior bɪhéjvər takes ər. The validator is blind to this class: check_string reports no violation for either form. Swept 2026-09-26; TRN_ONE.txt regenerated."
   },
   {
     "word": "intricate",
     "wrong_transcription": "ɪ́ntrəkət",
     "correct_transcription": "ɪ́ntrɪkət",
-    "explanation": "The medial reduced vowel is written i, so the §4.4 spelling tie-breaker gives ɪ where M-W writes a schwa-adjacent ‘i’ (M-W ˈin-tri-kət, whose plain i is also /ɪ/). Part of the 2026-09-26 full review of TRN_TheSelfishGene.txt: both tokens of intricate were the only ones in the corpus. The same medial-i class covered detrimental below, individual ɪ̀ndɪvɪ́dʒuwəl, oversimplifies òwvərsɪ́mplɪfàjz and underestimates ə̀ndərɛ́stɪmèjts, and the validator is blind to all of it."
+    "explanation": "The medial reduced vowel is written i, so the §4.4 spelling tie-breaker gives ɪ where M-W writes a schwa-adjacent ‘i’ (M-W ˈin-tri-kət, whose plain i is also /ɪ/). Part of the 2026-09-26 full review of TRN_TheSelfishGene.md: both tokens of intricate were the only ones in the corpus. The same medial-i class covered detrimental below, individual ɪ̀ndɪvɪ́dʒuwəl, oversimplifies òwvərsɪ́mplɪfàjz and underestimates ə̀ndərɛ́stɪmèjts, and the validator is blind to all of it."
   },
   {
     "word": "detrimental",
     "wrong_transcription": "dɛ̀trəmɛ́ntəl",
     "correct_transcription": "dɛ̀trɪmɛ́ntəl",
-    "explanation": "Same medial-i ruling as intricate: the second syllable is spelled tri-, so the §4.4 tie-breaker gives ɪ (M-W ˌde-trə-ˈmen-tᵊl). One token in TRN_TheSelfishGene.txt, swept 2026-09-26. The first syllable keeps ɛ: M-W writes a full e under secondary stress, so the reduced-prefix rule for de- does not apply here. TRN_ONE.txt regenerated."
+    "explanation": "Same medial-i ruling as intricate: the second syllable is spelled tri-, so the §4.4 tie-breaker gives ɪ (M-W ˌde-trə-ˈmen-tᵊl). One token in TRN_TheSelfishGene.md, swept 2026-09-26. The first syllable keeps ɛ: M-W writes a full e under secondary stress, so the reduced-prefix rule for de- does not apply here. TRN_ONE.txt regenerated."
   },
   {
     "word": "overridden",
     "wrong_transcription": "òwvərrɪ́dɪn",
     "correct_transcription": "òwvərrɪ́dən",
-    "explanation": "The final syllable is spelled -den, so the reduced vowel is ə, not ɪ — the spelling tie-breaker sends e to the schwa branch while only i/y take ɪ. M-W over·rid·den ˌō-vər-ˈri-dᵊn writes the schwa, and the guide's §4.4 reading of M-W's parenthesis keeps it. This was the corpus's only ɪ-final -den form: the other 37 -en words (broken, hidden, given, seven, taken, written …) all end in ən. One token in TRN_TheSelfishGene.txt, swept 2026-09-26."
+    "explanation": "The final syllable is spelled -den, so the reduced vowel is ə, not ɪ — the spelling tie-breaker sends e to the schwa branch while only i/y take ɪ. M-W over·rid·den ˌō-vər-ˈri-dᵊn writes the schwa, and the guide's §4.4 reading of M-W's parenthesis keeps it. This was the corpus's only ɪ-final -den form: the other 37 -en words (broken, hidden, given, seven, taken, written …) all end in ən. One token in TRN_TheSelfishGene.md, swept 2026-09-26."
   },
   {
     "word": "predisposed",
     "wrong_transcription": "prədɪ́spowzd",
     "correct_transcription": "prìjdɪspówzd",
-    "explanation": "Two errors in one token. (a) ˌpre- takes prìj: M-W predisposed is ˌprē-di-ˈspōzd, whose macron marks a full /ɪ/ vowel under secondary stress, so the reduced-prefix rule does not apply — the corpus already wrote prìjdɪfájnd (predefined) and prìjvijəslij (previously). (b) The acute belongs on the primary stress spówzd, not on the second syllable. One token in TRN_TheSelfishGene.txt, swept 2026-09-26; TRN_ONE.txt regenerated."
+    "explanation": "Two errors in one token. (a) ˌpre- takes prìj: M-W predisposed is ˌprē-di-ˈspōzd, whose macron marks a full /ɪ/ vowel under secondary stress, so the reduced-prefix rule does not apply — the corpus already wrote prìjdɪfájnd (predefined) and prìjvijəslij (previously). (b) The acute belongs on the primary stress spówzd, not on the second syllable. One token in TRN_TheSelfishGene.md, swept 2026-09-26; TRN_ONE.txt regenerated."
   },
   {
     "word": "predispositions",
     "wrong_transcription": "prədɪ̀spəzɪ́ʃənz",
     "correct_transcription": "prìjdɪ̀spəzɪ́ʃənz",
-    "explanation": "Same ˌprē- ruling as predisposed: prìj, grave on ɪ, primary acute on zɪ́. The ɪ in the ˌdi- syllable was already right, and the grave on dɪ̀ matches M-W's ˌdi-. Two tokens in TRN_TheSelfishGene.txt, swept 2026-09-26."
+    "explanation": "Same ˌprē- ruling as predisposed: prìj, grave on ɪ, primary acute on zɪ́. The ɪ in the ˌdi- syllable was already right, and the grave on dɪ̀ matches M-W's ˌdi-. Two tokens in TRN_TheSelfishGene.md, swept 2026-09-26."
   },
   {
     "word": "even",
     "wrong_transcription": "íjvn",
     "correct_transcription": "íjvən",
-    "explanation": "M-W even is ˈē-vən: the medial schwa is written in full, so §4.4 syncope does not apply and the syllable stays. The trap is the derived form — evening is ˈēv-niŋ, compressed in M-W's own listing, which is why íjvnɪŋ is right (§4.4 reads the word's own listing, not its base). The corpus had íjvən 23 times against one íjvn; the same ə holds for every other -en word in the corpus. One token in TRN_TheSelfishGene.txt, swept 2026-09-26. Related and separate: AI-103-questions.json wrote íjvɪn ten times against íjvən once, and those ten were swept to íjvən in the same pass (e is spelled e, so it takes ə)."
+    "explanation": "M-W even is ˈē-vən: the medial schwa is written in full, so §4.4 syncope does not apply and the syllable stays. The trap is the derived form — evening is ˈēv-niŋ, compressed in M-W's own listing, which is why íjvnɪŋ is right (§4.4 reads the word's own listing, not its base). The corpus had íjvən 23 times against one íjvn; the same ə holds for every other -en word in the corpus. One token in TRN_TheSelfishGene.md, swept 2026-09-26. Related and separate: AI-103-questions.json wrote íjvɪn ten times against íjvən once, and those ten were swept to íjvən in the same pass (e is spelled e, so it takes ə)."
   },
   {
     "word": "byte",
     "wrong_transcription": "jájt",
     "correct_transcription": "bájt",
-    "explanation": "A dropped consonant, not a vowel error: the source token is byte and jájt has lost its initial b. §3 forbids writing reduction or deletion of a consonant the citation form has, and byte keeps its b (M-W ˈbīt). One token in TRN_TheY2KNonEvent.txt (every byte was precious), swept 2026-09-27; TRN_ONE.txt regenerated. The validator cannot see this class — jájt, bájt and bajt all pass — so dropped consonants need an aligned source-to-transcription hand-check."
+    "explanation": "A dropped consonant, not a vowel error: the source token is byte and jájt has lost its initial b. §3 forbids writing reduction or deletion of a consonant the citation form has, and byte keeps its b (M-W ˈbīt). One token in TRN_TheY2KNonEvent.md (every byte was precious), swept 2026-09-27; TRN_ONE.txt regenerated. The validator cannot see this class — jájt, bájt and bajt all pass — so dropped consonants need an aligned source-to-transcription hand-check."
   },
   {
     "word": "anticipating",
     "wrong_transcription": "æntɪ́səpèjtɪŋ",
     "correct_transcription": "æntɪ́sɪpèjtɪŋ",
-    "explanation": "The medial syllable is spelled ci, so the §4.4 spelling tie-breaker gives ɪ rather than M-W's schwa (M-W an-ˈti-sə-ˌpāt-iŋ). Same class as the principle ruling and as the corpus's five ɪlɪ́mɪnèjtɪŋ (eliminating) tokens, which already had ɪ. One token in TRN_superintelligence_risk.txt, swept 2026-09-27; TRN_ONE.txt regenerated."
+    "explanation": "The medial syllable is spelled ci, so the §4.4 spelling tie-breaker gives ɪ rather than M-W's schwa (M-W an-ˈti-sə-ˌpāt-iŋ). Same class as the principle ruling and as the corpus's five ɪlɪ́mɪnèjtɪŋ (eliminating) tokens, which already had ɪ. One token in TRN_superintelligence_risk.md, swept 2026-09-27; TRN_ONE.txt regenerated."
   },
   {
     "word": "domination",
     "wrong_transcription": "dɒ̀mənéjʃən",
     "correct_transcription": "dɒ̀mɪnéjʃən",
-    "explanation": "The reduced medial syllable is spelled mi, so it takes ɪ under the §4.4 spelling tie-breaker (M-W ˌdä-mə-ˈnā-shən) — exactly as kɒ̀mbɪnéjʃən (combination, three tokens) and dɪ̀tɜrmɪnéjʃən (determination) already did. One token in TRN_the_case_for_superintelligence.txt (crave domination), swept 2026-09-27; TRN_ONE.txt regenerated."
+    "explanation": "The reduced medial syllable is spelled mi, so it takes ɪ under the §4.4 spelling tie-breaker (M-W ˌdä-mə-ˈnā-shən) — exactly as kɒ̀mbɪnéjʃən (combination, three tokens) and dɪ̀tɜrmɪnéjʃən (determination) already did. One token in TRN_the_case_for_superintelligence.md (crave domination), swept 2026-09-27; TRN_ONE.txt regenerated."
   },
   {
     "word": "imagination",
     "wrong_transcription": "ɪmæ̀dʒənéjʃən",
     "correct_transcription": "ɪmæ̀dʒɪnéjʃən",
-    "explanation": "The same -ination ruling as domination: the reduced syllable before -nation is spelled gi, so §4.4's tie-breaker gives ɪ, not M-W's schwa (M-W i-ˌma-jə-ˈnā-shən). The corpus's only token, in TRN_the_case_for_superintelligence.txt (a failure of imagination), swept 2026-09-27; its derivative ə̀nɪmǽdʒɪnəblij (unimaginably) already had the ɪ."
+    "explanation": "The same -ination ruling as domination: the reduced syllable before -nation is spelled gi, so §4.4's tie-breaker gives ɪ, not M-W's schwa (M-W i-ˌma-jə-ˈnā-shən). The corpus's only token, in TRN_the_case_for_superintelligence.md (a failure of imagination), swept 2026-09-27; its derivative ə̀nɪmǽdʒɪnəblij (unimaginably) already had the ɪ."
   },
   {
     "word": "eliminate",
     "wrong_transcription": "ɪlɪ́mənèjt",
     "correct_transcription": "ɪlɪ́mɪnèjt",
-    "explanation": "The reduced medial syllable is spelled mi, so the §4.4 spelling tie-breaker gives ɪ (M-W i-ˈli-mə-ˌnāt) — matching the corpus's five ɪlɪ́mɪnèjtɪŋ (eliminating) and ɪlɪ́mɪnèjtɪd tokens, which already had it. Swept one token in TRN_TheEscalationOfCommitment.txt and one in AI-103-questions.json (item 164), 2026-09-27; TRN_ONE.txt regenerated."
+    "explanation": "The reduced medial syllable is spelled mi, so the §4.4 spelling tie-breaker gives ɪ (M-W i-ˈli-mə-ˌnāt) — matching the corpus's five ɪlɪ́mɪnèjtɪŋ (eliminating) and ɪlɪ́mɪnèjtɪd tokens, which already had it. Swept one token in TRN_TheEscalationOfCommitment.md and one in AI-103-questions.json (item 164), 2026-09-27; TRN_ONE.txt regenerated."
   },
   {
     "word": "similar",
     "wrong_transcription": "sɪ́mələr",
     "correct_transcription": "sɪ́mɪlər",
-    "explanation": "The reduced medial syllable is spelled mi, so §4.4's spelling tie-breaker gives ɪ (M-W ˈsi-mə-lər). The corpus majority already agreed — sɪ́mɪlər and sɪ́mɪlərlij throughout TRN_CognitiveLoad.txt, plus sɪ́mɪlər in TRN_Habituation.txt and TRN_Move37.txt — and the derivative similarity already had it (sɪ̀mɪlɛ́rɪtij). Swept four tokens 2026-09-27: one in TRN_TheEscalationOfCommitment.txt and three in AI-103-questions.json (items 3, 6 and 280); TRN_ONE.txt regenerated."
+    "explanation": "The reduced medial syllable is spelled mi, so §4.4's spelling tie-breaker gives ɪ (M-W ˈsi-mə-lər). The corpus majority already agreed — sɪ́mɪlər and sɪ́mɪlərlij throughout TRN_CognitiveLoad.md, plus sɪ́mɪlər in TRN_Habituation.md and TRN_Move37.md — and the derivative similarity already had it (sɪ̀mɪlɛ́rɪtij). Swept four tokens 2026-09-27: one in TRN_TheEscalationOfCommitment.md and three in AI-103-questions.json (items 3, 6 and 280); TRN_ONE.txt regenerated."
   },
   {
     "word": "dangerous",
@@ -1293,7 +1293,7 @@
     "word": "danger",
     "wrong_transcription": "déjnədʒər",
     "correct_transcription": "déjndʒər",
-    "explanation": "Editorial ruling for the whole danger family (2026-09-27): the medial schwa is not written, against M-W's ˈdān-jər, which prints it unparenthesized. The compressed form governs the noun and its derivatives alike — see the dangerous entry. This was the corpus's only exception: TRN_TheY2KNonEvent.txt wrote déjnədʒər once, while the other seventeen danger tokens already read déjndʒər. Swept 2026-09-27; TRN_ONE.txt regenerated."
+    "explanation": "Editorial ruling for the whole danger family (2026-09-27): the medial schwa is not written, against M-W's ˈdān-jər, which prints it unparenthesized. The compressed form governs the noun and its derivatives alike — see the dangerous entry. This was the corpus's only exception: TRN_TheY2KNonEvent.md wrote déjnədʒər once, while the other seventeen danger tokens already read déjndʒər. Swept 2026-09-27; TRN_ONE.txt regenerated."
   },
   {
     "word": "cognitive",
@@ -1647,7 +1647,7 @@
     "word": "universities",
     "wrong_transcription": "juwnəvɜ́rsətijz",
     "correct_transcription": "jùwnɪvɜ́rsɪtijz",
-    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: juwnəvɜ́rsətijz ×2 (examples 2, AI-103 0). Swept 2 token(s) (examples 2, AI-103 0); TRN_ONE.txt regenerated. The -uni- outlier: its unaccented u escaped the validator's j[úù]wnə guard, and M-W yü-nə-ˈvər-sə-tē needs the first-syllable grave plus ɪ for -ni-. Two tokens in TRN_TheMorrisWorm.txt. The 2026-09-27 full-class pass then applied the vowel rule to -ties as well, giving jùwnɪvɜ́rsɪtijz (cf. unity júwnɪtij)."
+    "explanation": "The corpus had written both shapes; the 2026-09-27 consistency sweep made it uniform. Before: juwnəvɜ́rsətijz ×2 (examples 2, AI-103 0). Swept 2 token(s) (examples 2, AI-103 0); TRN_ONE.txt regenerated. The -uni- outlier: its unaccented u escaped the validator's j[úù]wnə guard, and M-W yü-nə-ˈvər-sə-tē needs the first-syllable grave plus ɪ for -ni-. Two tokens in TRN_TheMorrisWorm.md. The 2026-09-27 full-class pass then applied the vowel rule to -ties as well, giving jùwnɪvɜ́rsɪtijz (cf. unity júwnɪtij)."
   },
   {
     "word": "hybrid",
@@ -1959,7 +1959,7 @@
     "word": "replicate",
     "wrong_transcription": "ríjpləkèjt",
     "correct_transcription": "rɛ́plɪkèjt",
-    "explanation": "Two rules in one token, and the 2026-09-27 pass fixed only the second. (a) The first syllable is DRESS ɛ, not FLEECE íj: M-W's first listing is ˈre-plə-ˌkāt, whose plain e is /ɛ/, and this is the Latin re- of replicare — not the productive English re- 'again', which M-W writes with a macron (ˌrē-, ˈrē-) and this notation writes ríj (replay ríjplèj, re-point ríj-pɔ́jnt, rewriting rìjrájtɪŋ). (b) The medial syllable is spelled pli, so §4.4's spelling tie-breaker gives ɪ rather than M-W's schwa. The corpus had the word only one way, ríjpləkèjt ×1 (examples 1, AI-103 0, TRN_TheSelfishGene.txt L3, 'the drive to replicate'); the 2026-09-27 full-class pass rewrote it to ríjplɪkèjt, which corrected (b) and left (a) wrong — the ledger's own correct_transcription was wrong too, so a whole-token audit could never see it. Both halves are swept as of 2026-10-01: rɛ́plɪkèjt, TRN_ONE.txt regenerated (225402 → 225403 bytes). The rest of the family is the internal evidence and was already right: rɛ́plɪkèjtərz (replicators) and rɛ̀plɪkéjʃən (replication, ×2) sit in the same paragraph, and M-W gives every member plain e (ˈre-plə-ˌkā-tər, ˌre-plə-ˈkā-shən) against the ˌrē- of reproduce rìjprədúws and related rìjrə́n. See the 'replicate (first vowel only)' entry for the interim shape, and replicated / replicates / replicating for the derived forms."
+    "explanation": "Two rules in one token, and the 2026-09-27 pass fixed only the second. (a) The first syllable is DRESS ɛ, not FLEECE íj: M-W's first listing is ˈre-plə-ˌkāt, whose plain e is /ɛ/, and this is the Latin re- of replicare — not the productive English re- 'again', which M-W writes with a macron (ˌrē-, ˈrē-) and this notation writes ríj (replay ríjplèj, re-point ríj-pɔ́jnt, rewriting rìjrájtɪŋ). (b) The medial syllable is spelled pli, so §4.4's spelling tie-breaker gives ɪ rather than M-W's schwa. The corpus had the word only one way, ríjpləkèjt ×1 (examples 1, AI-103 0, TRN_TheSelfishGene.md L3, 'the drive to replicate'); the 2026-09-27 full-class pass rewrote it to ríjplɪkèjt, which corrected (b) and left (a) wrong — the ledger's own correct_transcription was wrong too, so a whole-token audit could never see it. Both halves are swept as of 2026-10-01: rɛ́plɪkèjt, TRN_ONE.txt regenerated (225402 → 225403 bytes). The rest of the family is the internal evidence and was already right: rɛ́plɪkèjtərz (replicators) and rɛ̀plɪkéjʃən (replication, ×2) sit in the same paragraph, and M-W gives every member plain e (ˈre-plə-ˌkā-tər, ˌre-plə-ˈkā-shən) against the ˌrē- of reproduce rìjprədúws and related rìjrə́n. See the 'replicate (first vowel only)' entry for the interim shape, and replicated / replicates / replicating for the derived forms."
   },
   {
     "word": "replicate (first vowel only)",
@@ -2061,7 +2061,7 @@
     "word": "magnitude",
     "wrong_transcription": "mǽɡnətùwd",
     "correct_transcription": "mǽɡnɪtùwd",
-    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mǽɡnətùwd ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated. A later review found a second, plural token mǽɡnətùwdz in examples/TRN_ProspectTheory_long.txt:10 that the sweep's corpus did not include; it was corrected to mǽɡnɪtùwdz (examples 1 additional)."
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mǽɡnətùwd ×1 (examples 1, AI-103 0). Swept 1 token(s) (examples 1, AI-103 0); TRN_ONE.txt regenerated. A later review found a second, plural token mǽɡnətùwdz in examples/TRN_ProspectTheory_long.md:10 that the sweep's corpus did not include; it was corrected to mǽɡnɪtùwdz (examples 1 additional)."
   },
   {
     "word": "contribution",
@@ -2139,7 +2139,7 @@
     "word": "origin",
     "wrong_transcription": "ɔ́rədʒən",
     "correct_transcription": "ɔ́rɪdʒɪn",
-    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɔ́rədʒən ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated. A later review found a hybrid token ɔ́rədʒɪn in examples/TRN_ProspectTheory_long.txt that wrote ɪ in the final syllable but ə in the medial one, so neither shape the sweep looked for matched it; it was corrected to ɔ́rɪdʒɪn ×1 (examples 1, AI-103 0)."
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɔ́rədʒən ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated. A later review found a hybrid token ɔ́rədʒɪn in examples/TRN_ProspectTheory_long.md that wrote ɪ in the final syllable but ə in the medial one, so neither shape the sweep looked for matched it; it was corrected to ɔ́rɪdʒɪn ×1 (examples 1, AI-103 0)."
   },
   {
     "word": "primitives",
@@ -2289,7 +2289,7 @@
     "word": "striking",
     "wrong_transcription": "strájɪŋ",
     "correct_transcription": "strájkɪŋ",
-    "explanation": "The k of *strike* is pronounced, so it has to be written — §3 bans writing deletion, and the §13 row for dropped consonants covers the class (*writing* rájɪŋ → rájtɪŋ, *exciting* ɪksájɪŋ → ɪksájtɪŋ, *suggests* sədʒɛ́sts → səɡdʒɛ́sts). Found in TRN_NicaraguanSignLanguage L4 on 2026-09-27 and fixed; a corpus-wide scan of source k/ck against the transcription found no other real instance (the remaining hits are silent-k *unknown*/*well-known* and pass-through identifiers such as SDK, KPI, SKU, Top-k)."
+    "explanation": "The k of *strike* is pronounced, so it has to be written — §3 bans writing deletion, and the §13 row for dropped consonants covers the class (*writing* rájɪŋ → rájtɪŋ, *exciting* ɪksájɪŋ → ɪksájtɪŋ). Found in TRN_NicaraguanSignLanguage L4 on 2026-09-27 and fixed; a corpus-wide scan of source k/ck against the transcription found no other real instance (the remaining hits are silent-k *unknown*/*well-known* and pass-through identifiers such as SDK, KPI, SKU, Top-k). The same scan once swept *suggests* into this class; the 2026-10-11 *suggest* ruling moved that family out of it, so it is no longer cited here."
   },
   {
     "word": "separate (adjective)",
@@ -2883,7 +2883,7 @@
     "word": "generally",
     "wrong_transcription": "dʒɛ́nrəlij",
     "correct_transcription": "dʒɛ́nərəlij",
-    "explanation": "The *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən), so §4.4 syncope would drop the syllable; the author ruled the full form 2026-09-27, the mirror of the *danger* ruling. Every other token in the family already read dʒɛ́nərəl / dʒɛ́nərəlàjzɪz / dʒɛ́nərəlàjzɪŋ / dʒɛ̀nərəlɪzéjʃən, so only *generally* was swept (dʒɛ́nrəlij ×2, TRN_Habituation.txt and TRN_TheSelfishGene.txt) and TRN_ONE.txt regenerated. *generate* dʒɛ́nərèjt and *generation* dʒɛ̀nəréjʃən are unaffected — M-W writes their medial schwa unparenthesized."
+    "explanation": "The *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən), so §4.4 syncope would drop the syllable; the author ruled the full form 2026-09-27, the mirror of the *danger* ruling. Every other token in the family already read dʒɛ́nərəl / dʒɛ́nərəlàjzɪz / dʒɛ́nərəlàjzɪŋ / dʒɛ̀nərəlɪzéjʃən, so only *generally* was swept (dʒɛ́nrəlij ×2, TRN_Habituation.md and TRN_TheSelfishGene.md) and TRN_ONE.txt regenerated. *generate* dʒɛ́nərèjt and *generation* dʒɛ̀nəréjʃən are unaffected — M-W writes their medial schwa unparenthesized."
   },
   {
     "word": "general",
@@ -2895,19 +2895,19 @@
     "word": "generalizes",
     "wrong_transcription": "dʒɛ́nrəlàjzɪz",
     "correct_transcription": "dʒɛ́nərəlàjzɪz",
-    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. M-W's *generalize* is ˈjen-rə-ˌlīz, compressed, so the same ruling covers it. The corpus wrote dʒɛ́nərəlàjzɪz ×2 (TRN_Gaslighitng.txt, TRN_TheAlignmentProblem.txt) and dʒɛ́nərəlàjzɪŋ ×1, all correct."
+    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. M-W's *generalize* is ˈjen-rə-ˌlīz, compressed, so the same ruling covers it. The corpus wrote dʒɛ́nərəlàjzɪz ×2 (TRN_Gaslighitng.md, TRN_TheAlignmentProblem.md) and dʒɛ́nərəlàjzɪŋ ×1, all correct."
   },
   {
     "word": "generalizing",
     "wrong_transcription": "dʒɛ́nrəlàjzɪŋ",
     "correct_transcription": "dʒɛ́nərəlàjzɪŋ",
-    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. One token in the corpus (TRN_TheAlignmentProblem.txt L10), already the ruled shape."
+    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. One token in the corpus (TRN_TheAlignmentProblem.md L10), already the ruled shape."
   },
   {
     "word": "generalization",
     "wrong_transcription": "dʒɛ̀nrəlɪzéjʃən",
     "correct_transcription": "dʒɛ̀nərəlɪzéjʃən",
-    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. M-W's *generalization* is ˌjen-rə-lə-ˈzā-shən. The corpus wrote dʒɛ̀nərəlɪzéjʃən ×3 (TRN_TheAlignmentProblem.txt L9, L20, L26); the plural keeps the grave, dʒɛ̀nərəlɪzéjʃənz."
+    "explanation": "editorial ruling 2026-09-27: the whole *general* family keeps the medial schwa although M-W's first listing is compressed or bracketed, so §4.4 syncope would drop the syllable (ˈjen-rəl, Kids ˈjen-(ə-)rəl, ˈjen-rə-lē, ˈjen-rə-ˌlīz, ˌjen-rə-lə-ˈzā-shən). This entry registers the ruling so a later reader applying M-W does not “fix” it back; see the ledger's *generally* and the §13 row. M-W's *generalization* is ˌjen-rə-lə-ˈzā-shən. The corpus wrote dʒɛ̀nərəlɪzéjʃən ×3 (TRN_TheAlignmentProblem.md L9, L20, L26); the plural keeps the grave, dʒɛ̀nərəlɪzéjʃənz."
   },
   {
     "word": "direct",
@@ -2943,7 +2943,7 @@
     "word": "integration",
     "wrong_transcription": "ɪ̀ntəɡréjʃən",
     "correct_transcription": "ɪ̀ntɪɡréjʃən",
-    "explanation": "the reduced *e* of *inte-* is followed by `ɡ`, which is not in the sonorant carve-out (*r l n m ŋ t*), so it takes ɪ (§4.4 e-rule). Swept in TRN_AI-103 ×16 and TRN_TheSelfishGene.txt L16 ×1 (the examples already wrote ɪ́ntɪɡrèjt ×6). Covers integrate, integrated, integrating, integrates."
+    "explanation": "the reduced *e* of *inte-* is followed by `ɡ`, which is not in the sonorant carve-out (*r l n m ŋ t*), so it takes ɪ (§4.4 e-rule). Swept in TRN_AI-103 ×16 and TRN_TheSelfishGene.md L16 ×1 (the examples already wrote ɪ́ntɪɡrèjt ×6). Covers integrate, integrated, integrating, integrates."
   },
   {
     "word": "integrated",
@@ -3003,7 +3003,7 @@
     "word": "adaptation",
     "wrong_transcription": "æ̀dæptéjʃən",
     "correct_transcription": "æ̀dəptéjʃən",
-    "explanation": "author ruling 2026-09-28: the second syllable is reduced, ə — the same reading as *adaptive* ədǽptɪv and the corpus majority (æ̀dəptéjʃən ×10). Swept the deviating TRN_the_case_for_superintelligence.txt ×1."
+    "explanation": "author ruling 2026-09-28: the second syllable is reduced, ə — the same reading as *adaptive* ədǽptɪv and the corpus majority (æ̀dəptéjʃən ×10). Swept the deviating TRN_the_case_for_superintelligence.md ×1."
   },
   {
     "word": "accessibility",
@@ -3015,7 +3015,7 @@
     "word": "familiarity",
     "wrong_transcription": "fəmɪ̀ljǽrɪtij",
     "correct_transcription": "fəmɪ̀lijǽrɪtij",
-    "explanation": "rationale: the syllable spelled *-li-* keeps its ɪ (⟨i⟩ is spelled, §4.4), matching *familiar* fəmɪ́ljər and the corpus majority. Swept TRN_TheAlignmentProblem.txt ×1."
+    "explanation": "rationale: the syllable spelled *-li-* keeps its ɪ (⟨i⟩ is spelled, §4.4), matching *familiar* fəmɪ́ljər and the corpus majority. Swept TRN_TheAlignmentProblem.md ×1."
   },
   {
     "word": "honest",
@@ -3033,31 +3033,31 @@
     "word": "kind",
     "wrong_transcription": "kájd",
     "correct_transcription": "kájnd",
-    "explanation": "dropped `n` — the validator cannot see a missing consonant (§3). TRN_the_case_for_superintelligence.txt ×2."
+    "explanation": "dropped `n` — the validator cannot see a missing consonant (§3). TRN_the_case_for_superintelligence.md ×2."
   },
   {
     "word": "stranger",
     "wrong_transcription": "stréjnər",
     "correct_transcription": "stréjndʒər",
-    "explanation": "dropped `dʒ` (§3). TRN_TheY2KNonEvent.txt ×1."
+    "explanation": "dropped `dʒ` (§3). TRN_TheY2KNonEvent.md ×1."
   },
   {
     "word": "deliberately",
     "wrong_transcription": "dɪlɪ́brətij",
     "correct_transcription": "dɪlɪ́brətlij",
-    "explanation": "dropped `l` plus the fixed §7 *-ly* → lij; the syncope is §4.4's `ˈli-b(ə-)rət-lē`. TRN_superintelligence_risk.txt ×1."
+    "explanation": "dropped `l` plus the fixed §7 *-ly* → lij; the syncope is §4.4's `ˈli-b(ə-)rət-lē`. TRN_superintelligence_risk.md ×1."
   },
   {
     "word": "diverse",
     "wrong_transcription": "dajvɜ́rs",
     "correct_transcription": "dɪvɜ́rs",
-    "explanation": "author ruling 2026-10-01: *diverse* joins the `di-` rule, so the reduced (kit) vowel wins, not PRICE — M-W lists `dī-ˈvərs, də-ˈvərs, ˈdī-ˌvərs`, the two readings are similarly widely used, and the §4.4 spelling tie-breaker gives ɪ. The 2026-09-28 audit had corrected dɪvɜ́rs to dajvɜ́rs; that is reversed here, and this entry now stands the other way round. Swept ×2 (TRN_superintelligence_risk.txt, TRN_TheAlignmentProblem.txt); TRN_ONE.txt regenerated, byte-neutral."
+    "explanation": "author ruling 2026-10-01: *diverse* joins the `di-` rule, so the reduced (kit) vowel wins, not PRICE — M-W lists `dī-ˈvərs, də-ˈvərs, ˈdī-ˌvərs`, the two readings are similarly widely used, and the §4.4 spelling tie-breaker gives ɪ. The 2026-09-28 audit had corrected dɪvɜ́rs to dajvɜ́rs; that is reversed here, and this entry now stands the other way round. Swept ×2 (TRN_superintelligence_risk.md, TRN_TheAlignmentProblem.md); TRN_ONE.txt regenerated, byte-neutral."
   },
   {
     "word": "entire",
     "wrong_transcription": "ɛ̀ntájər",
     "correct_transcription": "ɪntájər",
-    "explanation": "the reduced *in-* is ɪ, not ɛ̀ (M-W `in-ˈtī(-ə)r`); corpus majority ɪntájər ×16. TRN_TheY2KNonEvent.txt ×1."
+    "explanation": "the reduced *in-* is ɪ, not ɛ̀ (M-W `in-ˈtī(-ə)r`); corpus majority ɪntájər ×16. TRN_TheY2KNonEvent.md ×1."
   },
   {
     "word": "environments",
@@ -3069,43 +3069,43 @@
     "word": "exemplifies",
     "wrong_transcription": "ɪɡzǽmplɪfàjz",
     "correct_transcription": "ɪɡzɛ́mplɪfàjz",
-    "explanation": "DRESS, not TRAP (M-W `ig-ˈzem-plə-ˌfī`); the other file already wrote ɪɡzɛ́mplɪfàjz. TRN_Habituation.txt ×1."
+    "explanation": "DRESS, not TRAP (M-W `ig-ˈzem-plə-ˌfī`); the other file already wrote ɪɡzɛ́mplɪfàjz. TRN_Habituation.md ×1."
   },
   {
     "word": "severe",
     "wrong_transcription": "sɪvɪ́r",
     "correct_transcription": "səvɪ́r",
-    "explanation": "reduced *sə-* (M-W `sə-ˈvir`); the corpus otherwise writes səvɪ́r. TRN_TheAlignmentProblem.txt ×1."
+    "explanation": "reduced *sə-* (M-W `sə-ˈvir`); the corpus otherwise writes səvɪ́r. TRN_TheAlignmentProblem.md ×1."
   },
   {
     "word": "surface",
     "wrong_transcription": "sɜ́rfɪs",
     "correct_transcription": "sɜ́rfəs",
-    "explanation": "the final *-ace* is reduced ə (M-W `ˈsər-fəs`), not ɪ. TRN_CognitiveLoad.txt ×1; *surfaced* sɜ́rfɪst → sɜ́rfəst ×2 (TRN_TheY2KNonEvent.txt, TRN_AI-103)."
+    "explanation": "the final *-ace* is reduced ə (M-W `ˈsər-fəs`), not ɪ. TRN_CognitiveLoad.md ×1; *surfaced* sɜ́rfɪst → sɜ́rfəst ×2 (TRN_TheY2KNonEvent.md, TRN_AI-103)."
   },
   {
     "word": "expertise",
     "wrong_transcription": "ɛ̀ksɜrtíjz",
     "correct_transcription": "ɛ̀kspərtíjz",
-    "explanation": "the medial *-ise* is reduced ər (M-W `ˌek-spər-ˈtēz`), not NURSE ɜr. TRN_Move37.txt ×2."
+    "explanation": "the medial *-ise* is reduced ər (M-W `ˌek-spər-ˈtēz`), not NURSE ɜr. TRN_Move37.md ×2."
   },
   {
     "word": "unexpected",
     "wrong_transcription": "ə̀nəkspɛ́ktɪd",
     "correct_transcription": "ə̀nɪkspɛ́ktɪd",
-    "explanation": "the *ex-* fixed prefix takes ɪ (cf. ɪkspɛ́ktɪd) — the *accept* əksɛ́pt ruling does not extend to it because the letter is *e*, not *a*. TRN_TheAlignmentProblem.txt ×1."
+    "explanation": "the *ex-* fixed prefix takes ɪ (cf. ɪkspɛ́ktɪd) — the *accept* əksɛ́pt ruling does not extend to it because the letter is *e*, not *a*. TRN_TheAlignmentProblem.md ×1."
   },
   {
     "word": "likelihood",
     "wrong_transcription": "lájklɪhʊ̀d",
     "correct_transcription": "lájklijhʊ̀d",
-    "explanation": "the fixed §7 *-ly* keeps happY ij; the corpus already writes lájklijhʊ̀d. TRN_the_case_for_superintelligence.txt ×2."
+    "explanation": "the fixed §7 *-ly* keeps happY ij; the corpus already writes lájklijhʊ̀d. TRN_the_case_for_superintelligence.md ×2."
   },
   {
     "word": "interpret",
     "wrong_transcription": "ɪntɜ́rprɪt",
     "correct_transcription": "ɪntɜ́rprət",
-    "explanation": "the reduced *e* is followed by `t`, which is in the §4.4 sonorant/t carve-out, so it keeps ə. TRN_TheY2KNonEvent.txt ×1."
+    "explanation": "the reduced *e* is followed by `t`, which is in the §4.4 sonorant/t carve-out, so it keeps ə. TRN_TheY2KNonEvent.md ×1."
   },
   {
     "word": "therefore",
@@ -3123,67 +3123,67 @@
     "word": "foundational",
     "wrong_transcription": "fàwndéjʃənəl",
     "correct_transcription": "fawndéjʃənəl",
-    "explanation": "no secondary stress (M-W `fau̇n-ˈdā-shə-nᵊl`); the corpus majority is fawndéjʃənəl. TRN_TheEscalationOfCommitment.txt ×1."
+    "explanation": "no secondary stress (M-W `fau̇n-ˈdā-shə-nᵊl`); the corpus majority is fawndéjʃənəl. TRN_TheEscalationOfCommitment.md ×1."
   },
   {
     "word": "mechanism",
     "wrong_transcription": "mɛ́kənɪzəm",
     "correct_transcription": "mɛ́kənɪ̀zəm",
-    "explanation": "the grave on *-ni-* (M-W `ˈme-kə-ˌni-zəm`) — the corpus already writes mɛ́kənɪ̀zəm ×17. TRN_the_case_for_superintelligence.txt ×1."
+    "explanation": "the grave on *-ni-* (M-W `ˈme-kə-ˌni-zəm`) — the corpus already writes mɛ́kənɪ̀zəm ×17. TRN_the_case_for_superintelligence.md ×1."
   },
   {
     "word": "onto",
     "wrong_transcription": "ɒ́ntə",
     "correct_transcription": "ɒ́ntùw",
-    "explanation": "GOOSE, not ə (M-W `ˈȯn-(ˌ)tü`); the corpus already writes ɒ́ntùw. TRN_the_case_for_superintelligence.txt ×1."
+    "explanation": "GOOSE, not ə (M-W `ˈȯn-(ˌ)tü`); the corpus already writes ɒ́ntùw. TRN_the_case_for_superintelligence.md ×1."
   },
   {
     "word": "algorithm",
     "wrong_transcription": "ǽlɡərɪðəm",
     "correct_transcription": "ǽlɡərɪ̀ðəm",
-    "explanation": "the grave on *-ri-* (M-W `ˈal-gə-ˌri-t͟həm`); TRN_AI-103 already wrote it. TRN_TheFlashCrash.txt ×1."
+    "explanation": "the grave on *-ri-* (M-W `ˈal-gə-ˌri-t͟həm`); TRN_AI-103 already wrote it. TRN_TheFlashCrash.md ×1."
   },
   {
     "word": "access",
     "wrong_transcription": "ǽksɛs",
     "correct_transcription": "ǽksɛ̀s",
-    "explanation": "the grave on *-cess* (M-W `ˈak-ˌses`); the corpus already writes ǽksɛ̀s ×25. TRN_CognitiveLoad.txt ×1."
+    "explanation": "the grave on *-cess* (M-W `ˈak-ˌses`); the corpus already writes ǽksɛ̀s ×25. TRN_CognitiveLoad.md ×1."
   },
   {
     "word": "finite",
     "wrong_transcription": "fájnajt",
     "correct_transcription": "fájnàjt",
-    "explanation": "the grave on *-nite* (M-W `ˈfī-ˌnīt`). TRN_CognitiveLoad.txt ×2."
+    "explanation": "the grave on *-nite* (M-W `ˈfī-ˌnīt`). TRN_CognitiveLoad.md ×2."
   },
   {
     "word": "handful",
     "wrong_transcription": "hǽndfəl",
     "correct_transcription": "hǽndfʊ̀l",
-    "explanation": "solid compound with a grave on the second element (M-W `ˈhand-ˌfu̇l`); the other file already wrote hǽndfʊ̀l. TRN_TheMorrisWorm.txt, TRN_TheTherac25RadiationAccidents.txt ×1 each."
+    "explanation": "solid compound with a grave on the second element (M-W `ˈhand-ˌfu̇l`); the other file already wrote hǽndfʊ̀l. TRN_TheMorrisWorm.md, TRN_TheTherac25RadiationAccidents.md ×1 each."
   },
   {
     "word": "situation",
     "wrong_transcription": "sɪtʃuwéjʃən",
     "correct_transcription": "sɪ̀tʃuwéjʃən",
-    "explanation": "the grave on *si-* (M-W `ˌsi-chə-ˈwā-shən`). TRN_TheEscalationOfCommitment.txt ×2."
+    "explanation": "the grave on *si-* (M-W `ˌsi-chə-ˈwā-shən`). TRN_TheEscalationOfCommitment.md ×2."
   },
   {
     "word": "relationship",
     "wrong_transcription": "rɪléjʃənʃɪp",
     "correct_transcription": "rɪléjʃənʃɪ̀p",
-    "explanation": "the grave on *-ship* (M-W `ri-ˈlā-shən-ˌship`) — the ledger's *relationships* entry requires it. Swept the examples ×4 (TRN_Gaslighitng.txt); the plural rɪléjʃənʃɪps ×2 → rɪléjʃənʃɪ̀ps (TRN_TheEscalationOfCommitment.txt)."
+    "explanation": "the grave on *-ship* (M-W `ri-ˈlā-shən-ˌship`) — the ledger's *relationships* entry requires it. Swept the examples ×4 (TRN_Gaslighitng.md); the plural rɪléjʃənʃɪps ×2 → rɪléjʃənʃɪ̀ps (TRN_TheEscalationOfCommitment.md)."
   },
   {
     "word": "conversely",
     "wrong_transcription": "kɒ́nvɜ̀rslij",
     "correct_transcription": "kənvɜ́rslij",
-    "explanation": "stress on *-vers-* (M-W `kən-ˈvərs-lē`), not on the first syllable. TRN_TheAlignmentProblem.txt ×1."
+    "explanation": "stress on *-vers-* (M-W `kən-ˈvərs-lē`), not on the first syllable. TRN_TheAlignmentProblem.md ×1."
   },
   {
     "word": "inside",
     "wrong_transcription": "ɪ́nsàjd",
     "correct_transcription": "ɪ̀nsájd",
-    "explanation": "author ruling 2026-09-28: unify on ɪ̀nsájd, the form the corpus already used in TRN_the_case_for_superintelligence.txt and TRN_AI-103 ×4 (M-W `(ˌ)in-ˈsīd` licenses the grave). The 8 examples tokens that read ɪnsájd were swept; ɪ́nsàjd was wrong in any case because the acute belongs on *-side*."
+    "explanation": "author ruling 2026-09-28: unify on ɪ̀nsájd, the form the corpus already used in TRN_the_case_for_superintelligence.md and TRN_AI-103 ×4 (M-W `(ˌ)in-ˈsīd` licenses the grave). The 8 examples tokens that read ɪnsájd were swept; ɪ́nsàjd was wrong in any case because the acute belongs on *-side*."
   },
   {
     "word": "metadata",
@@ -3195,43 +3195,43 @@
     "word": "inconsequential",
     "wrong_transcription": "ɪ̀nkɒ̀nsəkwɛ́nʃəl",
     "correct_transcription": "ɪ̀nkɒ̀nsɪkwɛ́nʃəl",
-    "explanation": "completed 2026-09-28 with the other e-case rulings: the reduced *e* of *-se-* precedes `q`, which is not in the `r l n m ŋ t` carve-out, so it takes ɪ (M-W `-sə-`). TRN_Habituation.txt ×1."
+    "explanation": "completed 2026-09-28 with the other e-case rulings: the reduced *e* of *-se-* precedes `q`, which is not in the `r l n m ŋ t` carve-out, so it takes ɪ (M-W `-sə-`). TRN_Habituation.md ×1."
   },
   {
     "word": "modestly",
     "wrong_transcription": "mɒ́dəstlij",
     "correct_transcription": "mɒ́dɪstlij",
-    "explanation": "ruled consistent across the corpus 2026-09-28: the reduced *e* before `s` takes ɪ, so the family reads mɒ́dɪst (modest) and mɒ́dɪstlij (modestly). M-W writes `ˈmä-dəst-lē`, but the e-rule default outranks it here. Swept mɒ́dəst ×1 (TRN_TheDiscoveryOfChess.txt) and mɒ́dəstlij ×1 (TRN_AI-103)."
+    "explanation": "ruled consistent across the corpus 2026-09-28: the reduced *e* before `s` takes ɪ, so the family reads mɒ́dɪst (modest) and mɒ́dɪstlij (modestly). M-W writes `ˈmä-dəst-lē`, but the e-rule default outranks it here. Swept mɒ́dəst ×1 (TRN_TheDiscoveryOfChess.md) and mɒ́dəstlij ×1 (TRN_AI-103)."
   },
   {
     "word": "specifically",
     "wrong_transcription": "spəsɪ́fɪklij",
     "correct_transcription": "spɪsɪ́fɪklij",
-    "explanation": "completed 2026-09-28: the initial reduced *e* before `c` takes ɪ, which is what the corpus already wrote for *specific* spɪsɪ́fɪk ×14. Swept spəsɪ́fɪklij ×2 (TRN_TheMorrisWorm.txt, TRN_AI-103)."
+    "explanation": "completed 2026-09-28: the initial reduced *e* before `c` takes ɪ, which is what the corpus already wrote for *specific* spɪsɪ́fɪk ×14. Swept spəsɪ́fɪklij ×2 (TRN_TheMorrisWorm.md, TRN_AI-103)."
   },
   {
     "word": "comfortably",
     "wrong_transcription": "kə́mfərtəblij",
     "correct_transcription": "kə́mftərblij",
-    "explanation": "author ruling 2026-09-28: the adverb takes the compressed shape, matching the *comfortable* entry. M-W agrees - its own first listing for the adverb is `ˈkəm(p)(f)-tər-blē`, with the -tə- and -fər- shapes listed only as variants after it. Swept ×1 (TRN_CognitiveLoad.txt)."
+    "explanation": "author ruling 2026-09-28: the adverb takes the compressed shape, matching the *comfortable* entry. M-W agrees - its own first listing for the adverb is `ˈkəm(p)(f)-tər-blē`, with the -tə- and -fər- shapes listed only as variants after it. Swept ×1 (TRN_CognitiveLoad.md)."
   },
   {
     "word": "brilliant",
     "wrong_transcription": "brɪ́lijənt",
     "correct_transcription": "brɪ́ljənt",
-    "explanation": "Reversed by the author on 2026-10-04, and the reversal carries the rule the author stated the same day: an unstressed `ijə` is written `jə` — brɪ́l + j + ənt, matching M-W’s single listing `ˈbril-yənt` — so the 2026-09-28 correction that inserted the medial i is withdrawn and the earlier brɪ́ljənt is restored. Swept 1 token: TRN_the_case_for_superintelligence.txt L5. The same glide shape is what the corpus already writes in *million* mɪ́ljən, *billions* bɪ́ljənz, *trillion* trɪ́ljən, *opinion* əpɪ́njən, *companion* kəmpǽnjən, *familiar* fəmɪ́ljər and *resilience* rɪzɪ́ljəns, so those tokens stay unchanged; registered here so a later reader applying §4.5’s ij-link does not put the medial i back. TRN_ONE.txt was left alone (author, 2026-10-04). The rule covers the glide case only (author, 2026-10-04): where the listing gives the medial vowel its own syllable (*area* ɛ́rijə, *material* mətɪ́rijəl, *experience* ɪkspɪ́rijəns) the §4.5 ij link stands, so those 343 tokens across the two corpora are untouched."
+    "explanation": "Reversed by the author on 2026-10-04, and the reversal carries the rule the author stated the same day: an unstressed `ijə` is written `jə` — brɪ́l + j + ənt, matching M-W’s single listing `ˈbril-yənt` — so the 2026-09-28 correction that inserted the medial i is withdrawn and the earlier brɪ́ljənt is restored. Swept 1 token: TRN_the_case_for_superintelligence.md L5. The same glide shape is what the corpus already writes in *million* mɪ́ljən, *billions* bɪ́ljənz, *trillion* trɪ́ljən, *opinion* əpɪ́njən, *companion* kəmpǽnjən, *familiar* fəmɪ́ljər and *resilience* rɪzɪ́ljəns, so those tokens stay unchanged; registered here so a later reader applying §4.5’s ij-link does not put the medial i back. TRN_ONE.txt was left alone (author, 2026-10-04). The rule covers the glide case only (author, 2026-10-04): where the listing gives the medial vowel its own syllable (*area* ɛ́rijə, *material* mətɪ́rijəl, *experience* ɪkspɪ́rijəns) the §4.5 ij link stands, so those 343 tokens across the two corpora are untouched."
   },
   {
     "word": "diversity",
     "wrong_transcription": "dajvɜ́rsɪtij",
     "correct_transcription": "dɪvɜ́rsɪtij",
-    "explanation": "author ruling 2026-10-01: where M-W lists both readings for the first syllable of a `di-` word, the kit vowel is preferred. M-W `də-ˈvər-sə-tē, dī-` lists the reduced reading first and the §4.4 spelling tie-breaker turns it into ɪ. Swept ×2 (TRN_TheSelfishGene.txt L2, L12); TRN_ONE.txt regenerated, byte-neutral."
+    "explanation": "author ruling 2026-10-01: where M-W lists both readings for the first syllable of a `di-` word, the kit vowel is preferred. M-W `də-ˈvər-sə-tē, dī-` lists the reduced reading first and the §4.4 spelling tie-breaker turns it into ɪ. Swept ×2 (TRN_TheSelfishGene.md L2, L12); TRN_ONE.txt regenerated, byte-neutral."
   },
   {
     "word": "biodiversity",
     "wrong_transcription": "bàjowdajvɜ́rsɪtij",
     "correct_transcription": "bàjowdɪvɜ́rsɪtij",
-    "explanation": "same 2026-10-01 ruling: M-W `ˌbī-(ˌ)ō-də-ˈvər-sə-tē also -dī-` lists the reduced reading first. Swept ×1 (TRN_TheSelfishGene.txt L12), so *biodiversity* matches *diversity*."
+    "explanation": "same 2026-10-01 ruling: M-W `ˌbī-(ˌ)ō-də-ˈvər-sə-tē also -dī-` lists the reduced reading first. Swept ×1 (TRN_TheSelfishGene.md L12), so *biodiversity* matches *diversity*."
   },
   {
     "word": "dimension",
@@ -3243,13 +3243,13 @@
     "word": "dimensions",
     "wrong_transcription": "dajmɛ́nʃənz",
     "correct_transcription": "dɪmɛ́nʃənz",
-    "explanation": "same 2026-10-01 ruling; swept ×1 (TRN_Move37.txt L9) so the plural matches the singular dɪmɛ́nʃən."
+    "explanation": "same 2026-10-01 ruling; swept ×1 (TRN_Move37.md L9) so the plural matches the singular dɪmɛ́nʃən."
   },
   {
     "word": "digestible",
     "wrong_transcription": "dajdʒɛ́stɪbəl",
     "correct_transcription": "dɪdʒɛ́stɪbəl",
-    "explanation": "same 2026-10-01 ruling: M-W `dī-ˈje-stə-bəl, də-` also lists the reduced reading, and the author's tie-break prefers the kit vowel where both are in use. Swept ×1 (TRN_CognitiveLoad.txt L4)."
+    "explanation": "same 2026-10-01 ruling: M-W `dī-ˈje-stə-bəl, də-` also lists the reduced reading, and the author's tie-break prefers the kit vowel where both are in use. Swept ×1 (TRN_CognitiveLoad.md L4)."
   },
   {
     "word": "digression",
@@ -3261,103 +3261,103 @@
     "word": "digressions",
     "wrong_transcription": "dajɡrɛ́ʃənz",
     "correct_transcription": "dɪɡrɛ́ʃənz",
-    "explanation": "same 2026-10-01 ruling; swept ×1 (TRN_CognitiveLoad.txt L15)."
+    "explanation": "same 2026-10-01 ruling; swept ×1 (TRN_CognitiveLoad.md L15)."
   },
   {
     "word": "reproduction",
     "wrong_transcription": "rɛ̀prədə́kʃən",
     "correct_transcription": "rìjprədə́kʃən",
-    "explanation": "The first syllable is FLEECE ij, not DRESS ɛ: reproduction carries the productive re- of reproduce, and M-W's first listing is ˌrē-prə-ˈdək-shən (Wiktionary GenAm /ˌɹi.pɹəˈdʌkʃən/), so §1's first-listing rule gives rìj with the grave of the secondary stress. The medial reduced vowel was already right: -pro- is spelled o, so §4.4's spelling step gives ə — it is not one of the fixed reduced prefixes, so no ɪ-vs-ə ruling applies here. The corpus wrote the same stem this way everywhere else (rìjprədúws reproduce, rìjprədúwst reproduced, rìjprədúwsɪbəl, rìjprədùwsɪbɪ́lɪtij), so these were the only deviating family members. Swept 3 tokens (examples 3, AI-103 0) on 2026-10-02: TRN_TheSelfishGene.txt L4 ×2, L6 ×1; TRN_ONE.txt regenerated (225436 → 225430 bytes). See the reproductive entry."
+    "explanation": "The first syllable is FLEECE ij, not DRESS ɛ: reproduction carries the productive re- of reproduce, and M-W's first listing is ˌrē-prə-ˈdək-shən (Wiktionary GenAm /ˌɹi.pɹəˈdʌkʃən/), so §1's first-listing rule gives rìj with the grave of the secondary stress. The medial reduced vowel was already right: -pro- is spelled o, so §4.4's spelling step gives ə — it is not one of the fixed reduced prefixes, so no ɪ-vs-ə ruling applies here. The corpus wrote the same stem this way everywhere else (rìjprədúws reproduce, rìjprədúwst reproduced, rìjprədúwsɪbəl, rìjprədùwsɪbɪ́lɪtij), so these were the only deviating family members. Swept 3 tokens (examples 3, AI-103 0) on 2026-10-02: TRN_TheSelfishGene.md L4 ×2, L6 ×1; TRN_ONE.txt regenerated (225436 → 225430 bytes). See the reproductive entry."
   },
   {
     "word": "reproductive",
     "wrong_transcription": "rɛ̀prədə́ktɪv",
     "correct_transcription": "rìjprədə́ktɪv",
-    "explanation": "Same first syllable as reproduction — M-W ˌrē-prə-ˈdək-tiv, Wiktionary GenAm /ˌɹi.pɹəˈdʌktɪv/ — so it takes rìj with the grave of the secondary stress, never rɛ̀; no dictionary lists a DRESS reading of this word. Registered separately so a token-level audit sees the pair. Swept 3 tokens (examples 3, AI-103 0) on 2026-10-02: TRN_TheSelfishGene.txt L4 ×2, L11 ×1; TRN_ONE.txt regenerated. See the reproduction entry."
+    "explanation": "Same first syllable as reproduction — M-W ˌrē-prə-ˈdək-tiv, Wiktionary GenAm /ˌɹi.pɹəˈdʌktɪv/ — so it takes rìj with the grave of the secondary stress, never rɛ̀; no dictionary lists a DRESS reading of this word. Registered separately so a token-level audit sees the pair. Swept 3 tokens (examples 3, AI-103 0) on 2026-10-02: TRN_TheSelfishGene.md L4 ×2, L11 ×1; TRN_ONE.txt regenerated. See the reproduction entry."
   },
   {
     "word": "renters",
     "wrong_transcription": "rɛ́nərz",
     "correct_transcription": "rɛ́ntərz",
-    "explanation": "The t of rent is pronounced and must be written: renter is M-W ˈren-tər, so the plural is rɛ́ntərz, never rɛ́nərz. No rule licenses dropping a consonant, and the validator tests form rather than completeness — a missing t passes every mechanical check — so this entry exists for token-level audits. Swept 3 tokens on 2026-10-02 (examples 3, AI-103 0): TRN_SpainHousingCrisis.txt L7 ×1, L9 ×1, L11 ×1."
+    "explanation": "The t of rent is pronounced and must be written: renter is M-W ˈren-tər, so the plural is rɛ́ntərz, never rɛ́nərz. No rule licenses dropping a consonant, and the validator tests form rather than completeness — a missing t passes every mechanical check — so this entry exists for token-level audits. Swept 3 tokens on 2026-10-02 (examples 3, AI-103 0): TRN_SpainHousingCrisis.md L7 ×1, L9 ×1, L11 ×1."
   },
   {
     "word": "euros",
     "wrong_transcription": "júwrowz",
     "correct_transcription": "jʊ́rowz",
-    "explanation": "Euro is a FOOT word: M-W's first listing is ˈyu̇r-(ˌ)ō, and yu̇ is ʊ, so §1's first-listing rule gives jʊ́r-, never GOOSE júw-. The final unstressed syllable is the §4.4 ow of ǽrowz and fɒ́low, and the parenthesized (ˌ) marks an optional secondary stress that is not written as a grave. The same paragraph's jʊ̀rəpíjən European already used ʊ, so the two were inconsistent. Swept 3 tokens on 2026-10-02: TRN_SpainHousingCrisis.txt L5 ×3."
+    "explanation": "Euro is a FOOT word: M-W's first listing is ˈyu̇r-(ˌ)ō, and yu̇ is ʊ, so §1's first-listing rule gives jʊ́r-, never GOOSE júw-. The final unstressed syllable is the §4.4 ow of ǽrowz and fɒ́low, and the parenthesized (ˌ) marks an optional secondary stress that is not written as a grave. The same paragraph's jʊ̀rəpíjən European already used ʊ, so the two were inconsistent. Swept 3 tokens on 2026-10-02: TRN_SpainHousingCrisis.md L5 ×3."
   },
   {
     "word": "painfully",
     "wrong_transcription": "péjnfəlij",
     "correct_transcription": "péjnflij",
-    "explanation": "M-W's first listing is ˈpān-f(ə-)lē — the same parenthesized medial schwa as carefully (ker-f(ə-)lē) — so §4.4 syncope drops the syllable and the -ly ending takes its fixed lij. Only the fixed -ally əlij ending is exempt. Swept 1 token on 2026-10-02: TRN_SpainHousingCrisis.txt L5 ×1."
+    "explanation": "M-W's first listing is ˈpān-f(ə-)lē — the same parenthesized medial schwa as carefully (ker-f(ə-)lē) — so §4.4 syncope drops the syllable and the -ly ending takes its fixed lij. Only the fixed -ally əlij ending is exempt. Swept 1 token on 2026-10-02: TRN_SpainHousingCrisis.md L5 ×1."
   },
   {
     "word": "provisional",
     "wrong_transcription": "prəvɪ́ʒənəl",
     "correct_transcription": "prəvɪ́ʒnəl",
-    "explanation": "M-W's first listing is prə-ˈvizh-nəl: already compressed, with no bracketed schwa, so §4.4's 'no schwa at all' case keeps the compressed form, as with modeling mɒ́dlɪŋ. The longer prə-ˈvi-zhə-nəl is only the second listing, and a second listing does not decide. Swept 2 tokens on 2026-10-02 (examples 1, AI-103 1): TRN_SpainHousingCrisis.txt L5 ×1; AI-103-questions.json L5680 ×1."
+    "explanation": "M-W's first listing is prə-ˈvizh-nəl: already compressed, with no bracketed schwa, so §4.4's 'no schwa at all' case keeps the compressed form, as with modeling mɒ́dlɪŋ. The longer prə-ˈvi-zhə-nəl is only the second listing, and a second listing does not decide. Swept 2 tokens on 2026-10-02 (examples 1, AI-103 1): TRN_SpainHousingCrisis.md L5 ×1; AI-103-questions.json L5680 ×1."
   },
   {
     "word": "several",
     "wrong_transcription": "sɛ́vərəl",
     "correct_transcription": "sɛ́vrəl",
-    "explanation": "M-W's first listing is ˈsev-rəl, already compressed, so §4.4 keeps the compressed form. The corpus already wrote it that way (sɛ́vrəl kíj prɒ́pərtijz, TRN_Habituation L5; sɛ́vrəl fǽktərz, TRN_CognitiveLoad L62). Swept 1 token on 2026-10-02: TRN_SpainHousingCrisis.txt L9 ×1."
+    "explanation": "M-W's first listing is ˈsev-rəl, already compressed, so §4.4 keeps the compressed form. The corpus already wrote it that way (sɛ́vrəl kíj prɒ́pərtijz, TRN_Habituation L5; sɛ́vrəl fǽktərz, TRN_CognitiveLoad L62). Swept 1 token on 2026-10-02: TRN_SpainHousingCrisis.md L9 ×1."
   },
   {
     "word": "families",
     "wrong_transcription": "fǽməlijz",
     "correct_transcription": "fǽmlijz",
-    "explanation": "Same compressed stem as family — M-W ˈfam-lēz, first listing already compressed — so §4.4 syncope applies, per the family ruling of 2026-09-27 (no separate entry: fǽməlij was swept then and TRN_SpainHousingCrisis.txt reintroduced it, so that ruling still governs). Registered separately from its singular so a token-level audit sees the pair. Swept 3 tokens on 2026-10-02: TRN_SpainHousingCrisis.txt L5 ×1, L7 ×1, L11 ×1."
+    "explanation": "Same compressed stem as family — M-W ˈfam-lēz, first listing already compressed — so §4.4 syncope applies, per the family ruling of 2026-09-27 (no separate entry: fǽməlij was swept then and TRN_SpainHousingCrisis.md reintroduced it, so that ruling still governs). Registered separately from its singular so a token-level audit sees the pair. Swept 3 tokens on 2026-10-02: TRN_SpainHousingCrisis.md L5 ×1, L7 ×1, L11 ×1."
   },
   {
     "word": "Morris",
     "wrong_transcription": "mɔ́rəs",
     "correct_transcription": "mɔ́rɪs",
-    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than ə — the same class swept on 2026-09-27, and the tie-breaker outranks dictionary notation (§4.4), so no lookup can decide against it. Ruled 2026-10-03 from the check-word-transcription audit: swept 4 tokens — TRN_TheMorrisWorm.txt L2 and L6 (Robert Morris / Morris himself), plus the same two lines in the generated TRN_ONE.txt. TRN_ONE.txt updated to match."
+    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than ə — the same class swept on 2026-09-27, and the tie-breaker outranks dictionary notation (§4.4), so no lookup can decide against it. Ruled 2026-10-03 from the check-word-transcription audit: swept 4 tokens — TRN_TheMorrisWorm.md L2 and L6 (Robert Morris / Morris himself), plus the same two lines in the generated TRN_ONE.txt. TRN_ONE.txt updated to match."
   },
   {
     "word": "advertising",
     "wrong_transcription": "ǽdvəràjzɪŋ",
     "correct_transcription": "ǽdvərtàjzɪŋ",
-    "explanation": "The stem-final t of advertise is pronounced and stays in the -ing form — General American /ˈædvɚˌtaɪzɪŋ/ — so the rule in §3 that bans written deletion applies, exactly as the ledger entries for writing (rájɪŋ → rájtɪŋ) and exciting (ɪksájɪŋ → ɪksájtɪŋ) record. The stress shape was already correct and was left alone: acute on the first syllable and grave on the -ize suffix (§5.3), matching the sibling advertised ǽdvərtàjzd in TRN_TheSlideRule_long.txt. The validator reports 0 violations for the broken form too, so this is one of the dropped-consonant tokens only the §11 self-check can catch. Found by the check-word-transcription audit of 2026-10-04: 1 token, TRN_LossAversion.txt L5; that file predates the current TRN_ONE.txt and is not part of it, so nothing needed updating there."
+    "explanation": "The stem-final t of advertise is pronounced and stays in the -ing form — General American /ˈædvɚˌtaɪzɪŋ/ — so the rule in §3 that bans written deletion applies, exactly as the ledger entries for writing (rájɪŋ → rájtɪŋ) and exciting (ɪksájɪŋ → ɪksájtɪŋ) record. The stress shape was already correct and was left alone: acute on the first syllable and grave on the -ize suffix (§5.3), matching the sibling advertised ǽdvərtàjzd in TRN_TheSlideRule_long.md. The validator reports 0 violations for the broken form too, so this is one of the dropped-consonant tokens only the §11 self-check can catch. Found by the check-word-transcription audit of 2026-10-04: 1 token, TRN_LossAversion.md L5; that file predates the current TRN_ONE.txt and is not part of it, so nothing needed updating there."
   },
   {
     "word": "advertisers",
     "wrong_transcription": "æ̀dvərtájzərz",
     "correct_transcription": "ǽdvərtàjzərz",
-    "explanation": "General American /ˈædvɚˌtaɪzɚ/ puts the primary stress on the first syllable, so the acute belongs there and the -ize suffix takes the grave (§5, §5.3) — the shape the corpus already writes in advertised ǽdvərtàjzd and in the corrected advertising ǽdvərtàjzɪŋ. This is not the advertisement case: M-W lists advertisement ˌad-vər-ˈtīz-mənt with the stress on the suffix, which is why the guide deliberately keeps æ̀dvərtájzmənt, so that analogy does not license the reversed form here. Found by the check-word-transcription audit of 2026-10-04: swept 2 tokens — TRN_CognitiveLoad.txt L73 and the same line in the generated TRN_ONE.txt. TRN_ONE.txt updated to match."
+    "explanation": "General American /ˈædvɚˌtaɪzɚ/ puts the primary stress on the first syllable, so the acute belongs there and the -ize suffix takes the grave (§5, §5.3) — the shape the corpus already writes in advertised ǽdvərtàjzd and in the corrected advertising ǽdvərtàjzɪŋ. This is not the advertisement case: M-W lists advertisement ˌad-vər-ˈtīz-mənt with the stress on the suffix, which is why the guide deliberately keeps æ̀dvərtájzmənt, so that analogy does not license the reversed form here. Found by the check-word-transcription audit of 2026-10-04: swept 2 tokens — TRN_CognitiveLoad.md L73 and the same line in the generated TRN_ONE.txt. TRN_ONE.txt updated to match."
   },
   {
     "word": "represent",
     "wrong_transcription": "rɛ̀prəzɛ́nt",
     "correct_transcription": "rɛ̀prɪzɛ́nt",
-    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). M-W's first listing is ˌre-pri-ˈzent, and the corpus already wrote the ɪ form in AI-103, so no dictionary or corpus reading supports the schwa. Swept 2 tokens (examples 2, AI-103 0): TRN_Move37.txt L2 ×1 and TRN_TheAlignmentProblem.txt L10 ×1; TRN_ONE.txt was left alone (author, 2026-10-04): it is the notebook's generated artifact and is currently stale against examples/ — 9 newer example files are not part of it — so a hand edit there is not wanted, and its copies of those lines still read `rɛ̀prə…` in it until the next consolidation. AI-103 already wrote rɛ̀prɪzɛ́nt at items #4.trans_Explanation, #141.trans_Question and #224.trans_Explanation. See the represents, represented, representing, representation and representative entries."
+    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). M-W's first listing is ˌre-pri-ˈzent, and the corpus already wrote the ɪ form in AI-103, so no dictionary or corpus reading supports the schwa. Swept 2 tokens (examples 2, AI-103 0): TRN_Move37.md L2 ×1 and TRN_TheAlignmentProblem.md L10 ×1; TRN_ONE.txt was left alone (author, 2026-10-04): it is the notebook's generated artifact and is currently stale against examples/ — 9 newer example files are not part of it — so a hand edit there is not wanted, and its copies of those lines still read `rɛ̀prə…` in it until the next consolidation. AI-103 already wrote rɛ̀prɪzɛ́nt at items #4.trans_Explanation, #141.trans_Question and #224.trans_Explanation. See the represents, represented, representing, representation and representative entries."
   },
   {
     "word": "represents",
     "wrong_transcription": "rɛ̀prəzɛ́nts",
     "correct_transcription": "rɛ̀prɪzɛ́nts",
-    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). The corpus split on this word alone: examples/ wrote rɛ̀prɪzɛ́nts in TRN_ProspectTheory_long.txt L11, TRN_SlideRule.txt L3 and TRN_TheSlideRule_long.txt L10 (none of those three files is part of the current TRN_ONE.txt) and AI-103 at #124.trans_Explanation and #196.trans_Question, against 9 schwa tokens. Swept 9 tokens (examples 9, AI-103 0): TRN_CognitiveLoad.txt L24, L49, L57; TRN_Gaslighitng.txt L8; TRN_Habituation.txt L2, L4; TRN_Move37.txt L7, L13; TRN_superintelligence_risk.txt L8; TRN_ONE.txt was left alone (author, 2026-10-04), so its nine copies still read `rɛ̀prə…` until the next consolidation. The word is now uniform across both corpora."
+    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). The corpus split on this word alone: examples/ wrote rɛ̀prɪzɛ́nts in TRN_ProspectTheory_long.md L11, TRN_SlideRule.md L3 and TRN_TheSlideRule_long.md L10 (none of those three files is part of the current TRN_ONE.txt) and AI-103 at #124.trans_Explanation and #196.trans_Question, against 9 schwa tokens. Swept 9 tokens (examples 9, AI-103 0): TRN_CognitiveLoad.md L24, L49, L57; TRN_Gaslighitng.md L8; TRN_Habituation.md L2, L4; TRN_Move37.md L7, L13; TRN_superintelligence_risk.md L8; TRN_ONE.txt was left alone (author, 2026-10-04), so its nine copies still read `rɛ̀prə…` until the next consolidation. The word is now uniform across both corpora."
   },
   {
     "word": "represented",
     "wrong_transcription": "rɛ̀prəzɛ́ntɪd",
     "correct_transcription": "rɛ̀prɪzɛ́ntɪd",
-    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). M-W lists ˌre-pri-ˈzen-təd, and the corpus already wrote the ɪ form twice in TRN_ProspectTheory_long.txt L17. Swept 1 token (examples 1, AI-103 0): TRN_Move37.txt L5 ×1; TRN_ONE.txt was left alone (author, 2026-10-04). Registered separately from represent so a token-level audit sees the pair."
+    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). M-W lists ˌre-pri-ˈzen-təd, and the corpus already wrote the ɪ form twice in TRN_ProspectTheory_long.md L17. Swept 1 token (examples 1, AI-103 0): TRN_Move37.md L5 ×1; TRN_ONE.txt was left alone (author, 2026-10-04). Registered separately from represent so a token-level audit sees the pair."
   },
   {
     "word": "representing",
     "wrong_transcription": "rɛ̀prəzɛ́ntɪŋ",
     "correct_transcription": "rɛ̀prɪzɛ́ntɪŋ",
-    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). Only token in the corpus: TRN_TheFlashCrash.txt L3; TRN_ONE.txt was left alone (author, 2026-10-04). Swept 1 token (examples 1, AI-103 0)."
+    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). Only token in the corpus: TRN_TheFlashCrash.md L3; TRN_ONE.txt was left alone (author, 2026-10-04). Swept 1 token (examples 1, AI-103 0)."
   },
   {
     "word": "representation",
     "wrong_transcription": "rɛ̀prəzɛntéjʃən",
     "correct_transcription": "rɛ̀prɪzəntéjʃən",
-    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). M-W's first listing keeps the DRESS ˌzen of the root *present* (compare its ˌprē-ˌzen-ˈtā-shən for *presentation*). Swept 9 tokens (examples 5, AI-103 4). Singular → rɛ̀prɪzɛntéjʃən: TRN_TheAlignmentProblem.txt L4 and L7, plus AI-103 #297.trans_Question and #298.trans_Question. Plural → rɛ̀prɪzɛntéjʃənz: TRN_TheAlignmentProblem.txt L19 ×2 and TRN_the_case_for_superintelligence.txt L5. TRN_ONE.txt was left alone (author, 2026-10-04), so its five copies still read `rɛ̀prə…` until the next consolidation. The medial vowel was ruled the same day (2026-10-04): the author keeps the zə of AI-103's #4.trans_Question and #298.trans_Explanation, which is what §4.4's spelling step gives a reduced `e` before `n`, so the five `examples/` tokens and the two AI-103 singulars that wrote zɛ were swept to zə — 7 tokens, making the family uniform on rɛ̀prɪzəntéjʃən(z). TRN_ONE.txt was left alone, so it keeps the zɛ forms until the next consolidation."
+    "explanation": "§4.4's fixed reduced prefixes be-, de-, re-, pre-, se-, e-/ex- take ɪ wherever they sit, word-initial or not (author, 2026-09-27); M-W agrees for this family (2026-10-04 ruling). M-W's first listing keeps the DRESS ˌzen of the root *present* (compare its ˌprē-ˌzen-ˈtā-shən for *presentation*). Swept 9 tokens (examples 5, AI-103 4). Singular → rɛ̀prɪzɛntéjʃən: TRN_TheAlignmentProblem.md L4 and L7, plus AI-103 #297.trans_Question and #298.trans_Question. Plural → rɛ̀prɪzɛntéjʃənz: TRN_TheAlignmentProblem.md L19 ×2 and TRN_the_case_for_superintelligence.md L5. TRN_ONE.txt was left alone (author, 2026-10-04), so its five copies still read `rɛ̀prə…` until the next consolidation. The medial vowel was ruled the same day (2026-10-04): the author keeps the zə of AI-103's #4.trans_Question and #298.trans_Explanation, which is what §4.4's spelling step gives a reduced `e` before `n`, so the five `examples/` tokens and the two AI-103 singulars that wrote zɛ were swept to zə — 7 tokens, making the family uniform on rɛ̀prɪzəntéjʃən(z). TRN_ONE.txt was left alone, so it keeps the zɛ forms until the next consolidation."
   },
   {
     "word": "representative",
@@ -3369,235 +3369,235 @@
     "word": "undesirable",
     "wrong_transcription": "ə̀ndəzájərəbəl",
     "correct_transcription": "ə̀ndɪzájərəbəl",
-    "explanation": "§4.4's tie-breaker resolves this twice over. The reduced prefix de- takes ɪ wherever it sits, word-initial or not (author, 2026-09-27); and the spelling step alone reaches the same answer, because a reduced e takes ə only before r, l, n, m, ŋ or t and this syllable is followed by z — unlike *subject*, where the spelling and the dictionary pull apart. M-W's ˌən-di-ˈzī-rə-bəl writes the same ɪ, so no reading of the rule supports the schwa. Ruled by the author on 2026-10-04, closing the second of the two rows the prefix ruling left open in pending-decisions.md §1. Swept 1 token (examples 1, AI-103 0): TRN_TheAlignmentProblem.txt L10 (“in an undesirable direction”), the only corpus occurrence. TRN_ONE.txt was left alone (author, 2026-10-04), so its copy still reads ə̀ndəzájərəbəl until the next consolidation."
+    "explanation": "§4.4's tie-breaker resolves this twice over. The reduced prefix de- takes ɪ wherever it sits, word-initial or not (author, 2026-09-27); and the spelling step alone reaches the same answer, because a reduced e takes ə only before r, l, n, m, ŋ or t and this syllable is followed by z — unlike *subject*, where the spelling and the dictionary pull apart. M-W's ˌən-di-ˈzī-rə-bəl writes the same ɪ, so no reading of the rule supports the schwa. Ruled by the author on 2026-10-04, closing the second of the two rows the prefix ruling left open in pending-decisions.md §1. Swept 1 token (examples 1, AI-103 0): TRN_TheAlignmentProblem.md L10 (“in an undesirable direction”), the only corpus occurrence. TRN_ONE.txt was left alone (author, 2026-10-04), so its copy still reads ə̀ndəzájərəbəl until the next consolidation."
   },
   {
     "word": "Nuda",
     "wrong_transcription": "núwdə",
     "correct_transcription": "núda",
-    "explanation": "Nuda is part of the film title and the legal term *nuda propiedad*: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L1, L2, L11 (×3). Spanish ˈnuda — núda, never the anglicized núwdə. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Nuda is part of the film title and the legal term *nuda propiedad*: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L1, L2, L11 (×3). Spanish ˈnuda — núda, never the anglicized núwdə. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Propiedad",
     "wrong_transcription": "prɒ́pərtij",
     "correct_transcription": "propjedád",
-    "explanation": "Propiedad is part of the film title and the legal term *nuda propiedad*: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L1, L2, L11 (×3); the English noun *property* on L4 keeps prɒ́pərtij. Spanish pɾopjeˈdad — propjedád, never the anglicized prɒ́pərtij. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Propiedad is part of the film title and the legal term *nuda propiedad*: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L1, L2, L11 (×3); the English noun *property* on L4 keeps prɒ́pərtij. Spanish pɾopjeˈdad — propjedád, never the anglicized prɒ́pərtij. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Alberto",
     "wrong_transcription": "ælbɛ́rtow",
     "correct_transcription": "albérto",
-    "explanation": "Alberto is part of the director's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1). Spanish alˈbeɾto — albérto, never the anglicized ælbɛ́rtow. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Alberto is part of the director's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1). Spanish alˈbeɾto — albérto, never the anglicized ælbɛ́rtow. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Utrera",
     "wrong_transcription": "uwtrɛ́rə",
     "correct_transcription": "utréra",
-    "explanation": "Utrera is part of the director's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1), L7 (×2). Spanish uˈtɾeɾa — utréra, never the anglicized uwtrɛ́rə. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Utrera is part of the director's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1), L7 (×2). Spanish uˈtɾeɾa — utréra, never the anglicized uwtrɛ́rə. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Carlos",
     "wrong_transcription": "kɑ́rlows",
     "correct_transcription": "kárlos",
-    "explanation": "Carlos is part of the co-writer's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1). Spanish ˈkaɾlos — kárlos, never the anglicized kɑ́rlows. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Carlos is part of the co-writer's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1). Spanish ˈkaɾlos — kárlos, never the anglicized kɑ́rlows. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Soria",
     "wrong_transcription": "sɔ́rijə",
     "correct_transcription": "sórja",
-    "explanation": "Soria is part of the co-writer's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1). Spanish ˈsoɾja — sórja, never the anglicized sɔ́rijə. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Soria is part of the co-writer's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1). Spanish ˈsoɾja — sórja, never the anglicized sɔ́rijə. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Susana",
     "wrong_transcription": "suwzǽnə",
     "correct_transcription": "susána",
-    "explanation": "Susana is part of the lead actress's given name (seseo): Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1). Spanish suˈsana — susána, never the anglicized suwzǽnə. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Susana is part of the lead actress's given name (seseo): Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1). Spanish suˈsana — susána, never the anglicized suwzǽnə. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Abaitua",
     "wrong_transcription": "æbajtúwə",
     "correct_transcription": "abajtúa",
-    "explanation": "Abaitua is part of the lead actress's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1), L7 (×1). Spanish abajˈtua — abajtúa, never the anglicized æbajtúwə. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Abaitua is part of the lead actress's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1), L7 (×1). Spanish abajˈtua — abajtúa, never the anglicized æbajtúwə. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Maxi",
     "wrong_transcription": "mǽksij",
     "correct_transcription": "máksi",
-    "explanation": "Maxi is part of the lead actor's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1). Spanish ˈmaksi — máksi, never the anglicized mǽksij. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Maxi is part of the lead actor's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1). Spanish ˈmaksi — máksi, never the anglicized mǽksij. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Iglesias",
     "wrong_transcription": "ɪɡléjsijəs",
     "correct_transcription": "iɡlésjas",
-    "explanation": "Iglesias is part of the lead actor's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1), L7 (×1). Spanish iˈɡlesjas — iɡlésjas, never the anglicized ɪɡléjsijəs. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Iglesias is part of the lead actor's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1), L7 (×1). Spanish iˈɡlesjas — iɡlésjas, never the anglicized ɪɡléjsijəs. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "David",
     "wrong_transcription": "déjvɪd",
     "correct_transcription": "dabíd",
-    "explanation": "David is part of the supporting actor's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1). Spanish daˈbið — dabíd, never the anglicized déjvɪd. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "David is part of the supporting actor's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1). Spanish daˈbið — dabíd, never the anglicized déjvɪd. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Lorente",
     "wrong_transcription": "lɔrɛ́ntej",
     "correct_transcription": "lorénte",
-    "explanation": "Lorente is part of the supporting actor's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1). Spanish loˈɾente — lorénte, never the anglicized lɔrɛ́ntej. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Lorente is part of the supporting actor's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1). Spanish loˈɾente — lorénte, never the anglicized lɔrɛ́ntej. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Pepe",
     "wrong_transcription": "pɛ́pej",
     "correct_transcription": "pépe",
-    "explanation": "Pepe is part of the supporting actor's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1). Spanish ˈpepe — pépe, never the anglicized pɛ́pej. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Pepe is part of the supporting actor's given name: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1). Spanish ˈpepe — pépe, never the anglicized pɛ́pej. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Viyuela",
     "wrong_transcription": "vijuwɛ́lə",
     "correct_transcription": "bijwéla",
-    "explanation": "Viyuela is part of the supporting actor's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L2 (×1). Spanish biˈʝwela — bijwéla, never the anglicized vijuwɛ́lə. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Viyuela is part of the supporting actor's surname: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L2 (×1). Spanish biˈʝwela — bijwéla, never the anglicized vijuwɛ́lə. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "Azcona",
     "wrong_transcription": "æskównə",
     "correct_transcription": "azkóna",
-    "explanation": "Azcona is part of the screenwriter's surname, read with seseo (a Spain reading would be aθkóna): Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L6 (×1). Spanish asˈkona — azkóna, never the anglicized æskównə. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "Azcona is part of the screenwriter's surname, read with seseo (a Spain reading would be aθkóna): Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L6 (×1). Spanish asˈkona — azkóna, never the anglicized æskównə. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "pisito",
     "wrong_transcription": "pɪsíjtow",
     "correct_transcription": "pisíto",
-    "explanation": "pisito is part of the 1959 comedy *El pisito*, whose article reads `el`: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.txt L6 (×1). Spanish piˈsito — pisíto, never the anglicized pɪsíjtow. TRN_ONE.txt was left alone (author, 2026-10-04)."
+    "explanation": "pisito is part of the 1959 comedy *El pisito*, whose article reads `el`: Spanish (and Spanish-derived) names follow their Spanish reading rather than the English letter values (author, 2026-10-04; guide §14), so the anglicized form is replaced token for token. Swept in examples/TRN_NudaPropiedad.md L6 (×1). Spanish piˈsito — pisíto, never the anglicized pɪsíjtow. TRN_ONE.txt was left alone (author, 2026-10-04)."
   },
   {
     "word": "aspiration",
     "wrong_transcription": "æ̀spəréjʃən",
     "correct_transcription": "æ̀spɪréjʃən",
-    "explanation": "The reduced medial vowel is spelled i (as-pi-ra-tion), so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa, exactly as application æ̀plɪkéjʃən. Before: æ̀spəréjʃən ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.txt. The file is not part of TRN_ONE.txt."
+    "explanation": "The reduced medial vowel is spelled i (as-pi-ra-tion), so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa, exactly as application æ̀plɪkéjʃən. Before: æ̀spəréjʃən ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.md. The file is not part of TRN_ONE.txt."
   },
   {
     "word": "environment",
     "wrong_transcription": "ɪnvájrənmənt",
     "correct_transcription": "ɪnvájərənmənt",
-    "explanation": "The schwa after `r` stays. M-W's first listing `in-ˈvī-rən-mənt` writes it plainly, and the parenthesis in its plural (`-ˈvī-rə(n)-mənts`) brackets the consonant `n`, not the vowel — a bracketed consonant is not a bracketed schwa and does not license dropping the syllable (author, 2026-10-04; guide §4.4). The corpus wrote it both ways, so the family was unified on the full form the same day: 29 tokens swept from `ɪnvájrənmənt` (and its plural) to `ɪnvájərənmənt` — 12 in `examples/` (TRN_AgentHackingHuggingFace.txt, TRN_Habituation.txt, TRN_TheAlignmentProblem.txt, TRN_TheEscalationOfCommitment.txt, TRN_TheSelfishGene.txt) and 17 in AI-103. TRN_ONE.txt was left alone (author, 2026-10-04). See the environments entry."
+    "explanation": "The schwa after `r` stays. M-W's first listing `in-ˈvī-rən-mənt` writes it plainly, and the parenthesis in its plural (`-ˈvī-rə(n)-mənts`) brackets the consonant `n`, not the vowel — a bracketed consonant is not a bracketed schwa and does not license dropping the syllable (author, 2026-10-04; guide §4.4). The corpus wrote it both ways, so the family was unified on the full form the same day: 29 tokens swept from `ɪnvájrənmənt` (and its plural) to `ɪnvájərənmənt` — 12 in `examples/` (TRN_AgentHackingHuggingFace.md, TRN_Habituation.md, TRN_TheAlignmentProblem.md, TRN_TheEscalationOfCommitment.md, TRN_TheSelfishGene.md) and 17 in AI-103. TRN_ONE.txt was left alone (author, 2026-10-04). See the environments entry."
   },
   {
     "word": "attitude",
     "wrong_transcription": "ǽtətùwd",
     "correct_transcription": "ǽtɪtùwd",
-    "explanation": "The reduced medial vowel is spelled i (at-ti-tude), so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa, exactly as the guide's own §4.6 example ǽtɪtùwd. Before: ǽtətùwd ×1 (examples 1, AI-103 0), in examples/TRN_TheSlideRule_long.txt, which is not part of TRN_ONE.txt."
+    "explanation": "The reduced medial vowel is spelled i (at-ti-tude), so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa, exactly as the guide's own §4.6 example ǽtɪtùwd. Before: ǽtətùwd ×1 (examples 1, AI-103 0), in examples/TRN_TheSlideRule_long.md, which is not part of TRN_ONE.txt."
   },
   {
     "word": "attitudes",
     "wrong_transcription": "ǽtətùwdz",
     "correct_transcription": "ǽtɪtùwdz",
-    "explanation": "The reduced medial vowel is spelled i (at-ti-tudes), so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa, as in the singular attitude ǽtɪtùwd. Before: ǽtətùwdz ×3 (examples 3, AI-103 0), all in examples/TRN_ProspectTheory_long.txt (L16 ×2, L19 ×1), which is not part of TRN_ONE.txt."
+    "explanation": "The reduced medial vowel is spelled i (at-ti-tudes), so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa, as in the singular attitude ǽtɪtùwd. Before: ǽtətùwdz ×3 (examples 3, AI-103 0), all in examples/TRN_ProspectTheory_long.md (L16 ×2, L19 ×1), which is not part of TRN_ONE.txt."
   },
   {
     "word": "civil",
     "wrong_transcription": "sɪ́vəl",
     "correct_transcription": "sɪ́vɪl",
-    "explanation": "The reduced vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; the corpus writes ɪ in the same -ile syllable (mobile mówbɪl, fragile frǽdʒɪl, hostile hɒ́stɪl, sterile stɛ́rɪl). Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: sɪ́vəl ×1 (examples 1, AI-103 0), in examples/TRN_NudaPropiedad.txt."
+    "explanation": "The reduced vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; the corpus writes ɪ in the same -ile syllable (mobile mówbɪl, fragile frǽdʒɪl, hostile hɒ́stɪl, sterile stɛ́rɪl). Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: sɪ́vəl ×1 (examples 1, AI-103 0), in examples/TRN_NudaPropiedad.md."
   },
   {
     "word": "financial",
-    "wrong_transcription": "fənǽnʃəl",
-    "correct_transcription": "fɪnǽnʃəl",
-    "explanation": "The reduced initial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa, the same kit reading the di- family takes (divide dɪvájd). Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: fənǽnʃəl ×2 (examples 2, AI-103 0), in examples/TRN_NudaPropiedad.txt and examples/TRN_ProspectTheory_long.txt."
+    "wrong_transcription": "fɪnǽnʃəl",
+    "correct_transcription": "fájnæ̀nʃəl",
+    "explanation": "Superseded by the 2026-10-11 family ruling (finance): the whole family keeps PRICE and the first-syllable acute, so the reduced reading this entry used to record is now the error. 61 tokens swept across four files — examples/TRN_AHomeOrAnAsset.md, TRN_HomeOrAsset_Long.md, TRN_NudaPropiedad.md and TRN_ProspectTheory_long.md. A later reader applying the 2026-09-27 spelling tie-breaker would put fɪnǽnʃəl back, which is why the ruling is also stated in the guide."
   },
   {
     "word": "transitive",
     "wrong_transcription": "trǽnzətɪv",
     "correct_transcription": "trǽnzɪtɪv",
-    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa, as in positive pɒ́zɪtɪv with the same -itive ending. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: trǽnzətɪv ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.txt."
+    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa, as in positive pɒ́zɪtɪv with the same -itive ending. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: trǽnzətɪv ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.md."
   },
   {
     "word": "institution",
     "wrong_transcription": "ɪ̀nstətúwʃən",
     "correct_transcription": "ɪ̀nstɪtúwʃən",
-    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; the plural was already ruled ɪ̀nstətúwʃənz → ɪ̀nstɪtúwʃənz. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: ɪ̀nstətúwʃən ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.txt."
+    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; the plural was already ruled ɪ̀nstətúwʃənz → ɪ̀nstɪtúwʃənz. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: ɪ̀nstətúwʃən ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.md."
   },
   {
     "word": "holidays",
     "wrong_transcription": "hɒ́lədèjz",
     "correct_transcription": "hɒ́lɪdèjz",
-    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: hɒ́lədèjz ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.txt."
+    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: hɒ́lədèjz ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.md."
   },
   {
     "word": "fertile",
     "wrong_transcription": "fɜ́rtəl",
     "correct_transcription": "fɜ́rtɪl",
-    "explanation": "The reduced vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; the corpus writes ɪ in the same -ile syllable (mobile, fragile, hostile, sterile). Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: fɜ́rtəl ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.txt."
+    "explanation": "The reduced vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; the corpus writes ɪ in the same -ile syllable (mobile, fragile, hostile, sterile). Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: fɜ́rtəl ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.md."
   },
   {
     "word": "policies",
     "wrong_transcription": "pɒ́ləsijz",
     "correct_transcription": "pɒ́lɪsijz",
-    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; the singular was already ruled pɒ́ləsij → pɒ́lɪsij and the corpus writes it 18 times. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: pɒ́ləsijz ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.txt."
+    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; the singular was already ruled pɒ́ləsij → pɒ́lɪsij and the corpus writes it 18 times. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: pɒ́ləsijz ×1 (examples 1, AI-103 0), in examples/TRN_ProspectTheory_long.md."
   },
   {
     "word": "navigator",
     "wrong_transcription": "nǽvəɡèjtər",
     "correct_transcription": "nǽvɪɡèjtər",
-    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: nǽvəɡèjtər ×1 (examples 1, AI-103 0), in examples/TRN_TheSlideRule_long.txt."
+    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: nǽvəɡèjtər ×1 (examples 1, AI-103 0), in examples/TRN_TheSlideRule_long.md."
   },
   {
     "word": "centimetres",
     "wrong_transcription": "sɛ́ntəmìjtərz",
     "correct_transcription": "sɛ́ntɪmìjtərz",
-    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: sɛ́ntəmìjtərz ×1 (examples 1, AI-103 0), in examples/TRN_TheSlideRule_long.txt."
+    "explanation": "The reduced medial vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa. Found in the audit of the newly added corpus files, which the 2026-09-27 sweeps never covered. Before: sɛ́ntəmìjtərz ×1 (examples 1, AI-103 0), in examples/TRN_TheSlideRule_long.md."
   },
   {
     "word": "Marilyn",
     "wrong_transcription": "mɛ́rəlɪn",
     "correct_transcription": "mǽrɪlɪn",
-    "explanation": "TRAP is ǽ (guide §4.1), not the dictionary's e, and the reduced medial i takes ɪ by guide §4.4's spelling tie-breaker (author, 2026-10-04); the name is not M-W's ˈmer-ə-lən. Swept in examples/TRN_GoodhartsLaw.txt L3 (×1)."
+    "explanation": "TRAP is ǽ (guide §4.1), not the dictionary's e, and the reduced medial i takes ɪ by guide §4.4's spelling tie-breaker (author, 2026-10-04); the name is not M-W's ˈmer-ə-lən. Swept in examples/TRN_GoodhartsLaw.md L3 (×1)."
   },
   {
     "word": "recognize",
     "wrong_transcription": "rɛ́kɪɡnàjz",
     "correct_transcription": "rɛ́kəɡnàjz",
-    "explanation": "The reduced medial vowel is spelled o (rec-og-nize), so it is ə, not ɪ; the 2026-09-27 medial-i sweep over-applied to this token (author, 2026-10-04). The corpus writes rɛ́kəɡnàjz elsewhere. Swept in examples/TRN_the_case_for_superintelligence.txt L9 (×1)."
+    "explanation": "The reduced medial vowel is spelled o (rec-og-nize), so it is ə, not ɪ; the 2026-09-27 medial-i sweep over-applied to this token (author, 2026-10-04). The corpus writes rɛ́kəɡnàjz elsewhere. Swept in examples/TRN_the_case_for_superintelligence.md L9 (×1)."
   },
   {
     "word": "appetite",
     "wrong_transcription": "ǽpətàjt",
     "correct_transcription": "ǽpɪtàjt",
-    "explanation": "The e case is decided word by word (guide §4.4); the author ruled 2026-10-04 that the medial vowel is ɪ, so appetite is ǽpɪtàjt rather than the dictionary's ˈa-pə-ˌtīt. Swept in examples/TRN_ProspectTheory_long.txt L8 and L25 (×2)."
+    "explanation": "The e case is decided word by word (guide §4.4); the author ruled 2026-10-04 that the medial vowel is ɪ, so appetite is ǽpɪtàjt rather than the dictionary's ˈa-pə-ˌtīt. Swept in examples/TRN_ProspectTheory_long.md L8 and L25 (×2)."
   },
   {
     "word": "middlemen",
     "wrong_transcription": "mɪ́dəlmèjn",
     "correct_transcription": "mɪ́dəlmɛ̀n",
-    "explanation": "DRESS is ɛ, never the FACE glide ej: the second element of this solid compound is men (M-W ˈmi-dᵊ-ˌmen), so middlemen is mɪ́dəlmɛ̀n, exactly as mɛ̀n itself. The wrong form wrote èj, the vowel of they, and it passed the validator because ej is a legal glide shape. Swept in examples/TRN_HomeOrAsset_Long.txt L10."
+    "explanation": "DRESS is ɛ, never the FACE glide ej: the second element of this solid compound is men (M-W ˈmi-dᵊ-ˌmen), so middlemen is mɪ́dəlmɛ̀n, exactly as mɛ̀n itself. The wrong form wrote èj, the vowel of they, and it passed the validator because ej is a legal glide shape. Swept in examples/TRN_HomeOrAsset_Long.md L10."
   },
   {
     "word": "outlets",
     "wrong_transcription": "áwtlèjts",
     "correct_transcription": "áwtlɛ̀ts",
-    "explanation": "Same class as middlemen: outlet has DRESS in its second syllable (M-W ˈau̇t-ˌlet), so the plural is áwtlɛ̀ts — èj would write FACE for DRESS. Swept in examples/TRN_HomeOrAsset_Long.txt L41."
+    "explanation": "Same class as middlemen: outlet has DRESS in its second syllable (M-W ˈau̇t-ˌlet), so the plural is áwtlɛ̀ts — èj would write FACE for DRESS. Swept in examples/TRN_HomeOrAsset_Long.md L41."
   },
   {
     "word": "homestead",
     "wrong_transcription": "hówmstèjd",
     "correct_transcription": "hówmstɛ̀d",
-    "explanation": "Same class as middlemen: homestead has DRESS in its second element (M-W ˈhō-ˌsted), so it is hówmstɛ̀d — èj would write FACE for DRESS. Swept in examples/TRN_HomeOrAsset_Long.txt L47."
+    "explanation": "Same class as middlemen: homestead has DRESS in its second element (M-W ˈhō-ˌsted), so it is hówmstɛ̀d — èj would write FACE for DRESS. Swept in examples/TRN_HomeOrAsset_Long.md L47."
   },
   {
     "word": "continent",
     "wrong_transcription": "kɒ́ntənənt",
     "correct_transcription": "kɒ́ntɪnənt",
-    "explanation": "The reduced vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa (M-W ˈkän-tə-nənt), exactly as the sibling *continents* entry from the 2026-09-27 full-class pass — that pass swept the plural in AI-103 only (examples 0), so this example token was missed. Found 2026-10-06. Swept in examples/TRN_HomeOrAsset_Long.txt L18."
+    "explanation": "The reduced vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa (M-W ˈkän-tə-nənt), exactly as the sibling *continents* entry from the 2026-09-27 full-class pass — that pass swept the plural in AI-103 only (examples 0), so this example token was missed. Found 2026-10-06. Swept in examples/TRN_HomeOrAsset_Long.md L18."
   },
   {
     "word": "continental",
     "wrong_transcription": "kɒ̀ntənɛ́ntəl",
     "correct_transcription": "kɒ̀ntɪnɛ́ntəl",
-    "explanation": "Same class as *continent*: the medial reduced vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa (M-W ˌkän-tə-ˈnen-tᵊl), and the secondary stress on the first syllable stays as the grave. Found 2026-10-06. Swept in examples/TRN_HomeOrAsset_Long.txt L49."
+    "explanation": "Same class as *continent*: the medial reduced vowel is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa (M-W ˌkän-tə-ˈnen-tᵊl), and the secondary stress on the first syllable stays as the grave. Found 2026-10-06. Swept in examples/TRN_HomeOrAsset_Long.md L49."
   },
   {
     "word": "philanthropy",
     "wrong_transcription": "fəlǽnθrəpij",
     "correct_transcription": "fɪlǽnθrəpij",
-    "explanation": "Same ruling as *philosophy* and *philosopher*: the reduced vowel of the first syllable is spelled i, so §4.4's tie-breaker (step 3) gives ɪ and outranks the dictionary notation (§1, §4.4) — M-W writes fə-ˈlan(t)-thrə-pē, the same fə- that those two entries reject, and this was the family's last fə- token. The other syllables were already right and are unchanged: -lan- is TRAP ǽ with the single acute on the stressed syllable (M-W marks no secondary stress, so no grave), -thro- is a reduced vowel spelled o (θrə), the final -y is happY ij, and M-W's optional (t) is not written, as with *often* ɔ́fən. Swept in examples/TRN_HomeOrAsset_Long.txt L22 (×2), 2026-10-06. The validator is blind to this class — check_string returns 0 for fəlǽnθrəpij and fɪlǽnθrəpij alike."
+    "explanation": "Same ruling as *philosophy* and *philosopher*: the reduced vowel of the first syllable is spelled i, so §4.4's tie-breaker (step 3) gives ɪ and outranks the dictionary notation (§1, §4.4) — M-W writes fə-ˈlan(t)-thrə-pē, the same fə- that those two entries reject, and this was the family's last fə- token. The other syllables were already right and are unchanged: -lan- is TRAP ǽ with the single acute on the stressed syllable (M-W marks no secondary stress, so no grave), -thro- is a reduced vowel spelled o (θrə), the final -y is happY ij, and M-W's optional (t) is not written, as with *often* ɔ́fən. Swept in examples/TRN_HomeOrAsset_Long.md L22 (×2), 2026-10-06. The validator is blind to this class — check_string returns 0 for fəlǽnθrəpij and fɪlǽnθrəpij alike."
   },
   {
     "word": "property",
@@ -3667,9 +3667,9 @@
   },
   {
     "word": "colleagues",
-    "wrong_transcription": "kɒ́lijɡz",
-    "correct_transcription": "kɒ́lijdz",
-    "explanation": "No /ɡ/ is pronounced (M-W ˈkä-lēgz): kɒ́lijdz. The validator can see a missing consonant but not an inserted one, so §11 step 6's consonant audit is the only check that catches this."
+    "wrong_transcription": "kɒ́lijdz",
+    "correct_transcription": "kɒ́lijɡz",
+    "explanation": "M-W ˈkä-lēgz includes a pronounced /ɡ/ before the plural /z/, so the transcription is kɒ́lijɡz."
   },
   {
     "word": "comparable",
@@ -3721,9 +3721,9 @@
   },
   {
     "word": "suggest",
-    "wrong_transcription": "sədʒɛ́st",
-    "correct_transcription": "səɡdʒɛ́st",
-    "explanation": "The ɡ of sug- is pronounced (M-W səg-ˈjest); sədʒɛ́st drops a segment (§3). The corpus has səɡdʒɛ́st ×5."
+    "wrong_transcription": "səɡdʒɛ́st",
+    "correct_transcription": "sədʒɛ́st",
+    "explanation": "Author ruling 2026-10-11, reversing this entry's original direction: the *suggest* family does not write its `ɡ`. M-W's first listing has it (səg-ˈjest), which is why the corpus wrote it in all 50 tokens of examples/ — but the ɡ-less reading (sə-ˈjest, the standard British pronunciation) is the one this notation keeps, so §3's consonant-preservation rule carries this family as its single exception. It covers the whole family — suggests sədʒɛ́sts, suggested sədʒɛ́stɪd, suggesting sədʒɛ́stɪŋ, suggestion sə̀dʒɛ́stʃən, suggester(s) sədʒɛ́stər(z) — and licenses no omission in any other word."
   },
   {
     "word": "united",
@@ -3799,27 +3799,27 @@
   },
   {
     "word": "financed",
-    "wrong_transcription": "fájnæ̀nst",
-    "correct_transcription": "fɪnǽnst",
-    "explanation": "The verb finance stresses the final syllable, so its first syllable is reduced, and a reduced vowel spelled i takes ɪ (§4.4). Only the noun keeps the ledger's fájnæ̀ns."
+    "wrong_transcription": "fɪnǽnst",
+    "correct_transcription": "fájnæ̀nst",
+    "explanation": "Inverted by the 2026-10-11 family ruling (finance): the verb is not treated differently from the noun, so fájnæ̀nst is correct and the fɪnǽnst this entry used to record as correct is now the error. 50 tokens swept, among them the five pre-sweep schwa shapes fənǽnst in examples/TRN_HomeOrAsset_Long.md."
   },
   {
     "word": "financing",
-    "wrong_transcription": "fənǽnsɪŋ",
-    "correct_transcription": "fɪnǽnsɪŋ",
-    "explanation": "Same family ruling as financial fɪnǽnʃəl: the reduced first vowel is spelled i, so §4.4's tie-breaker gives ɪ rather than M-W's schwa."
+    "wrong_transcription": "fɪnǽnsɪŋ",
+    "correct_transcription": "fájnæ̀nsɪŋ",
+    "explanation": "Same 2026-10-11 family ruling as finance: PRICE with the acute on the first syllable, never the reduced reading. 7 tokens swept, one of them the pre-sweep schwa shape fənǽnsɪŋ."
   },
   {
     "word": "financialisation",
-    "wrong_transcription": "fənæ̀nʃəlɪzéjʃən",
-    "correct_transcription": "fɪnæ̀nʃəlɪzéjʃən",
-    "explanation": "Same family ruling as financial: the reduced vowel is spelled i and takes ɪ (§4.4), with M-W's secondary on -nà- written as a grave."
+    "wrong_transcription": "fɪnæ̀nʃəlɪzéjʃən",
+    "correct_transcription": "fájnæ̀nʃəlɪzèjʃən",
+    "explanation": "Same 2026-10-11 family ruling as finance. The first syllable takes the acute, so the -isation syllable can no longer keep one (§5.2) and is demoted to a grave: fájnæ̀nʃəlɪzèjʃən. 6 tokens swept, one of them the pre-sweep schwa shape fənæ̀nʃəlɪzéjʃən."
   },
   {
     "word": "refinance",
-    "wrong_transcription": "rìjfənǽns",
-    "correct_transcription": "rìjfɪnǽns",
-    "explanation": "re- + finance: the reduced second syllable is spelled i and takes ɪ, as in financed, financing and financial (§4.4)."
+    "wrong_transcription": "rìjfɪnǽns",
+    "correct_transcription": "rìjfájnæ̀ns",
+    "explanation": "re- + finance under the 2026-10-11 family ruling: the grave on re- stays and the base keeps PRICE with the first-syllable acute. 5 tokens swept; refinanced (3) and refinancing (1) were swept with it."
   },
   {
     "word": "funeral",
@@ -4029,78 +4029,174 @@
     "word": "latin",
     "wrong_transcription": "lǽtən",
     "correct_transcription": "lǽtɪn",
-    "explanation": "The reduced second syllable is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the schwa M-W writes (ˈla-tᵊn) — the same decision the 2026-09-27 sweep made for medicine, vehicle and service. The corpus had drifted into both shapes, lǽtən ×23 against lǽtɪn ×2 (TRN_AHomeOrAnAsset.txt lines 393 and 2027), so one word was written two ways. Swept 2026-10-10: 21 tokens in TRN_AHomeOrAnAsset.txt and 3 in TRN_HomeOrAsset_Long.txt."
+    "explanation": "The reduced second syllable is spelled i, so §4.4's spelling tie-breaker gives ɪ rather than the schwa M-W writes (ˈla-tᵊn) — the same decision the 2026-09-27 sweep made for medicine, vehicle and service. The corpus had drifted into both shapes, lǽtən ×23 against lǽtɪn ×2 (TRN_AHomeOrAnAsset.md lines 393 and 2027), so one word was written two ways. Swept 2026-10-10: 21 tokens in TRN_AHomeOrAnAsset.md and 3 in TRN_HomeOrAsset_Long.md."
   },
   {
     "word": "servitude",
     "wrong_transcription": "sɜ́rvətùwd",
     "correct_transcription": "sɜ́rvɪtùwd",
-    "explanation": "The reduced medial vowel is spelled i, so §4.4's tie-breaker gives ɪ — the same rv- environment the service ruling settled (sɜ́rvəs → sɜ́rvɪs, 2026-09-27). M-W's ˈsər-və-ˌtüd schwa is the notation §4.4 outranks. The corpus wrote sɜ́rvətùwd once (TRN_AHomeOrAnAsset.txt line 93) against sɜ́rvɪtùwd ×2; swept 2026-10-10."
+    "explanation": "The reduced medial vowel is spelled i, so §4.4's tie-breaker gives ɪ — the same rv- environment the service ruling settled (sɜ́rvəs → sɜ́rvɪs, 2026-09-27). M-W's ˈsər-və-ˌtüd schwa is the notation §4.4 outranks. The corpus wrote sɜ́rvətùwd once (TRN_AHomeOrAnAsset.md line 93) against sɜ́rvɪtùwd ×2; swept 2026-10-10."
   },
   {
     "word": "festivals",
     "wrong_transcription": "fɛ́stəvəlz",
     "correct_transcription": "fɛ́stɪvəlz",
-    "explanation": "The medial reduced vowel is spelled i, so §4.4's tie-breaker gives ɪ, as in profit prɒ́fɪt and medicine mɛ́dɪsɪn; the §4.4 -al row fixes only the final syllable, which is already əl, and M-W's ˈfe-stə-vəl does not decide here. One corpus token (TRN_AHomeOrAnAsset.txt line 151), swept 2026-10-10 with the singular."
+    "explanation": "The medial reduced vowel is spelled i, so §4.4's tie-breaker gives ɪ, as in profit prɒ́fɪt and medicine mɛ́dɪsɪn; the §4.4 -al row fixes only the final syllable, which is already əl, and M-W's ˈfe-stə-vəl does not decide here. One corpus token (TRN_AHomeOrAnAsset.md line 151), swept 2026-10-10 with the singular."
   },
   {
     "word": "festival",
     "wrong_transcription": "fɛ́stəvəl",
     "correct_transcription": "fɛ́stɪvəl",
-    "explanation": "Singular of the festivals ruling: a reduced vowel spelled i takes ɪ under §4.4. One corpus token (TRN_AHomeOrAnAsset.txt line 2071, \"an international festival of the arts\"), swept 2026-10-10."
+    "explanation": "Singular of the festivals ruling: a reduced vowel spelled i takes ɪ under §4.4. One corpus token (TRN_AHomeOrAnAsset.md line 2071, \"an international festival of the arts\"), swept 2026-10-10."
   },
   {
     "word": "generations",
     "wrong_transcription": "dʒənəréjʃənz",
     "correct_transcription": "dʒɛ̀nəréjʃənz",
-    "explanation": "M-W's ˌje-nə-ˈrā-shənz puts secondary stress on the first syllable, so the plural is dʒɛ̀nəréjʃənz — the shape the singular already used everywhere (the general entry notes generation dʒɛ̀nəréjʃən is unaffected because M-W writes its medial schwa unparenthesized). The corpus wrote the reduced dʒənəréjʃənz ×15 against dʒɛ̀nəréjʃənz ×11, one word in two shapes. Swept 2026-10-10: 13 tokens in TRN_AHomeOrAnAsset.txt and 1 each in TRN_TheSelfishGene.txt and TRN_TheSlideRule_long.txt."
+    "explanation": "M-W's ˌje-nə-ˈrā-shənz puts secondary stress on the first syllable, so the plural is dʒɛ̀nəréjʃənz — the shape the singular already used everywhere (the general entry notes generation dʒɛ̀nəréjʃən is unaffected because M-W writes its medial schwa unparenthesized). The corpus wrote the reduced dʒənəréjʃənz ×15 against dʒɛ̀nəréjʃənz ×11, one word in two shapes. Swept 2026-10-10: 13 tokens in TRN_AHomeOrAnAsset.md and 1 each in TRN_TheSelfishGene.md and TRN_TheSlideRule_long.md."
   },
   {
     "word": "thorough",
     "wrong_transcription": "θə́row",
     "correct_transcription": "θɜ́rə",
-    "explanation": "Two points, both settled with the thoroughly entry. The first syllable is stressed and STRUT + r merges into NURSE, so it is θɜ́r, never θə́r (§4.3's \"no ə́r here\"). The -ough- element is ə, not M-W's ō, under the author's 2026-10-10 ruling for the whole family (thorough θɜ́rə, thoroughness θɜ́rənəs, thoroughfare θɜ́rəfɛ̀r, thoroughly θɜ́rəlij). The corpus wrote θə́row ×2 (TRN_AHomeOrAnAsset.txt lines 345 and 631) against the correct θɜ́rə ×1 (line 1965); the two were swept."
+    "explanation": "Two points, both settled with the thoroughly entry. The first syllable is stressed and STRUT + r merges into NURSE, so it is θɜ́r, never θə́r (§4.3's \"no ə́r here\"). The -ough- element is ə, not M-W's ō, under the author's 2026-10-10 ruling for the whole family (thorough θɜ́rə, thoroughness θɜ́rənəs, thoroughfare θɜ́rəfɛ̀r, thoroughly θɜ́rəlij). The corpus wrote θə́row ×2 (TRN_AHomeOrAnAsset.md lines 345 and 631) against the correct θɜ́rə ×1 (line 1965); the two were swept."
   },
   {
     "word": "thoroughness",
     "wrong_transcription": "θə́rənəs",
     "correct_transcription": "θɜ́rənəs",
-    "explanation": "Same two points as thoroughly θɜ́rəlij and thorough θɜ́rə: the stressed first syllable is NURSE θɜ́r, and the -ough- element is ə rather than M-W's ˈthər-ō-nəs. Both corpus tokens carried the first-vowel error, one in each medial shape — θə́rənəs (TRN_AHomeOrAnAsset.txt line 111) and θə́rownəs (line 641) — and both were swept to θɜ́rənəs on 2026-10-10."
+    "explanation": "Same two points as thoroughly θɜ́rəlij and thorough θɜ́rə: the stressed first syllable is NURSE θɜ́r, and the -ough- element is ə rather than M-W's ˈthər-ō-nəs. Both corpus tokens carried the first-vowel error, one in each medial shape — θə́rənəs (TRN_AHomeOrAnAsset.md line 111) and θə́rownəs (line 641) — and both were swept to θɜ́rənəs on 2026-10-10."
   },
   {
     "word": "thoroughfare",
     "wrong_transcription": "θɜ́rowfɛ̀r",
     "correct_transcription": "θɜ́rəfɛ̀r",
-    "explanation": "The first element follows the family ruling of 2026-10-10: θɜ́rə, with the same ə for -ough- as thoroughly θɜ́rəlij and thorough θɜ́rə, rather than M-W's ˈthər-ō-ˌfer. One corpus token (TRN_AHomeOrAnAsset.txt line 413)."
+    "explanation": "The first element follows the family ruling of 2026-10-10: θɜ́rə, with the same ə for -ough- as thoroughly θɜ́rəlij and thorough θɜ́rə, rather than M-W's ˈthər-ō-ˌfer. One corpus token (TRN_AHomeOrAnAsset.md line 413)."
   },
   {
     "word": "prophet",
     "wrong_transcription": "prɒ́fɪt",
     "correct_transcription": "prɒ́fət",
-    "explanation": "Recorded so the spelling rule is not applied back by analogy with profit. Prophet's reduced vowel is spelled e with t as the next symbol, which is §4.4's ə carve-out (like market mɑ́rkət and ticket tɪ́kət), while profit's is spelled i and takes ɪ. The corpus's 3 tokens (TRN_AHomeOrAnAsset.txt lines 51, 127, 129) were already correct and needed no sweep; the entry was written during the 2026-10-10 audit, when prɒ́fət had been reported as a profit error."
+    "explanation": "Recorded so the spelling rule is not applied back by analogy with profit. Prophet's reduced vowel is spelled e with t as the next symbol, which is §4.4's ə carve-out (like market mɑ́rkət and ticket tɪ́kət), while profit's is spelled i and takes ɪ. The corpus's 3 tokens (TRN_AHomeOrAnAsset.md lines 51, 127, 129) were already correct and needed no sweep; the entry was written during the 2026-10-10 audit, when prɒ́fət had been reported as a profit error."
   },
   {
     "word": "do (pro-verb)",
     "wrong_transcription": "də",
     "correct_transcription": "dúw",
-    "explanation": "A substitute (pro-verb) do is the lexical main verb of its own clause, so it is accented like any other verb: də stays where do-support puts it — before not, or question-initial without contrast (the audit test in the do (auxiliary) entry) — while explicit contrast, affirmative emphasis, clause-final ellipsis and every substitute use take dúw. The corpus already wrote the substitute use as dúw 28 times (as they do in most of life, as Vienna and Munich do by attaching obligations, something people do, what people do for themselves) and the rest of the paradigm agreed (substitute did they did so, so did the policy; substitute does it does so by the mechanism). Exactly one token disagreed — as they do in every generation, TRN_AHomeOrAnAsset.txt line 19 — and the author ruled it on 2026-10-10; it was swept. Never sweep by string: dúw also spells due to (dúw tə) and doing (dúwɪŋ)."
+    "explanation": "A substitute (pro-verb) do is the lexical main verb of its own clause, so it is accented like any other verb: də stays where do-support puts it — before not, or question-initial without contrast (the audit test in the do (auxiliary) entry) — while explicit contrast, affirmative emphasis, clause-final ellipsis and every substitute use take dúw. The corpus already wrote the substitute use as dúw 28 times (as they do in most of life, as Vienna and Munich do by attaching obligations, something people do, what people do for themselves) and the rest of the paradigm agreed (substitute did they did so, so did the policy; substitute does it does so by the mechanism). Exactly one token disagreed — as they do in every generation, TRN_AHomeOrAnAsset.md line 19 — and the author ruled it on 2026-10-10; it was swept. Never sweep by string: dúw also spells due to (dúw tə) and doing (dúwɪŋ)."
   },
   {
     "word": "do not",
     "wrong_transcription": "dúw nɒ́t",
     "correct_transcription": "də nɒ́t",
-    "explanation": "Auxiliary do is weak in negation without exception. The author ruled on 2026-10-10 that §6's explicit-contrast and clause-final-ellipsis triggers do not reach a negated auxiliary: nɒ́t already carries the acute (see §13), so a second one on dúw double-marks the same unit, and both triggers are for the affirmative case (yes, they do) where the auxiliary is the only carrier left. Six tokens read dúw nɒ́t — and those who do not. (TRN_AHomeOrAnAsset.txt line 937), those who own and those who do not (lines 2385 and TRN_HomeOrAsset_Long.txt line 116), buyers who do not intend to live in them (line 891) and and do not forbid it to (line 2383) — against the four negative ellipses the corpus already wrote weak (lines 635, 1529, 2247 and TRN_HomeOrAsset_Long.txt line 33), and AI-103-questions.json writes də nɒ́t in all five of its tokens against zero strong ones. All six were swept. §13's flat row dúw nɒ́t → də nɒ́t now stands unqualified once more, and an audit must still read the sentence: dúw and dɪ́d are correct wherever they are not negative support."
+    "explanation": "Auxiliary do is weak in negation without exception. The author ruled on 2026-10-10 that §6's explicit-contrast and clause-final-ellipsis triggers do not reach a negated auxiliary: nɒ́t already carries the acute (see §13), so a second one on dúw double-marks the same unit, and both triggers are for the affirmative case (yes, they do) where the auxiliary is the only carrier left. Six tokens read dúw nɒ́t — and those who do not. (TRN_AHomeOrAnAsset.md line 937), those who own and those who do not (lines 2385 and TRN_HomeOrAsset_Long.md line 116), buyers who do not intend to live in them (line 891) and and do not forbid it to (line 2383) — against the four negative ellipses the corpus already wrote weak (lines 635, 1529, 2247 and TRN_HomeOrAsset_Long.md line 33), and AI-103-questions.json writes də nɒ́t in all five of its tokens against zero strong ones. All six were swept. §13's flat row dúw nɒ́t → də nɒ́t now stands unqualified once more, and an audit must still read the sentence: dúw and dɪ́d are correct wherever they are not negative support."
   },
   {
     "word": "does not",
     "wrong_transcription": "də nɒ́t",
     "correct_transcription": "dəz nɒ́t",
-    "explanation": "A dropped segment, not a weak-form choice: §6 gives auxiliary does as dəz and the z is pronounced (M-W dəz-), so də loses a consonant — the §3 class the validator cannot see, which is why §11 step 6's consonant audit exists. One token, found during the 2026-10-10 do-paradigm audit at TRN_ThePhysicsOfMusic.txt line 7 (but it does not explain why music moves us), and swept."
+    "explanation": "A dropped segment, not a weak-form choice: §6 gives auxiliary does as dəz and the z is pronounced (M-W dəz-), so də loses a consonant — the §3 class the validator cannot see, which is why §11 step 6's consonant audit exists. One token, found during the 2026-10-10 do-paradigm audit at TRN_ThePhysicsOfMusic.md line 7 (but it does not explain why music moves us), and swept."
   },
   {
     "word": "did not",
     "wrong_transcription": "dɪ́d nɒ́t",
     "correct_transcription": "dɪd nɒ́t",
-    "explanation": "Same ruling as do not: auxiliary did is weak in negation, and the acute sits on nɒ́t. The corpus had written the weak dɪd in 221 of its 222 do/does/did + not tokens, and the single strong one — what they did not do (TRN_AHomeOrAnAsset.txt line 405) — was swept on 2026-10-10. Lexical and substitute did stay accented (they did so, hardly any did.), so the audit test is the following not."
+    "explanation": "Same ruling as do not: auxiliary did is weak in negation, and the acute sits on nɒ́t. The corpus had written the weak dɪd in 221 of its 222 do/does/did + not tokens, and the single strong one — what they did not do (TRN_AHomeOrAnAsset.md line 405) — was swept on 2026-10-10. Lexical and substitute did stay accented (they did so, hardly any did.), so the audit test is the following not."
+  },
+  {
+    "word": "ultimate",
+    "wrong_transcription": "ə́ltəmət",
+    "correct_transcription": "ə́ltɪmət",
+    "explanation": "The reduced medial vowel is spelled i, so the §4.4 spelling tie-breaker gives ɪ rather than M-W's schwa (M-W ˈəl-tə-mət), the stressed STRUT of the first syllable staying ə́l (§4.1) and the -ate adjective ending staying ət (§7) — the same shape the ledger already ruled for legitimate (lɪdʒɪ́tɪmət) and the corpus writes for approximate (əprɒ́ksɪmət). Found 2026-10-10 during a check of the word: unlike the 2026-09-27 class sweep, which recorded every word it touched, ultimate had no ledger entry, and the corpus had already written ɪ in all 7 tokens of the same stem in ultimately (ə́ltɪmətlij). Both tokens were the adjective in TRN_AHomeOrAnAsset.md (lines 129 and 217, the ultimate title … had vested ultimate title); swept 2 tokens, no TRN_ONE.txt regeneration needed because the file does not contain those sentences. The validator is blind to this class, so the ledger carries the rule."
+  },
+  {
+    "word": "finances",
+    "wrong_transcription": "fɪnǽnsɪz",
+    "correct_transcription": "fájnæ̀nsɪz",
+    "explanation": "Family ruling 2026-10-11 (finance): PRICE with the acute on the first syllable. The two verb tokens were fɪnǽnsɪz and the noun plural was already fájnæ̀nsɪz, so the family now reads one shape throughout."
+  },
+  {
+    "word": "financially",
+    "wrong_transcription": "fɪnǽnʃəlij",
+    "correct_transcription": "fájnæ̀nʃəlij",
+    "explanation": "Family ruling 2026-10-11 (finance): the adverb follows financial, so the first syllable takes the acute and -næ̀n- the grave. 1 token swept."
+  },
+  {
+    "word": "refinanced",
+    "wrong_transcription": "rìjfɪnǽnst",
+    "correct_transcription": "rìjfájnæ̀nst",
+    "explanation": "Same 2026-10-11 family ruling as refinance: the grave on re- stays and the base takes PRICE with the first-syllable acute. 3 tokens swept."
+  },
+  {
+    "word": "refinancing",
+    "wrong_transcription": "rìjfɪnǽnsɪŋ",
+    "correct_transcription": "rìjfájnæ̀nsɪŋ",
+    "explanation": "Same 2026-10-11 family ruling as refinance. 1 token swept."
+  },
+  {
+    "word": "toward",
+    "wrong_transcription": "tɔ́rd",
+    "correct_transcription": "təwɔ́rd",
+    "explanation": "Author preference 2026-10-25, clarified to the two-syllable form: toward and towards retain the initial schwa and w, təwɔ́rd / təwɔ́rdz (guide §1.1). The acute on ɔ remains in prepositional uses under §6's polysyllabic-function-word rule. This lexical override takes precedence over the dictionary default and affects only this word family."
+  },
+  {
+    "word": "toward",
+    "wrong_transcription": "twɔ́rd",
+    "correct_transcription": "təwɔ́rd",
+    "explanation": "Same clarified 2026-10-25 toward/towards family ruling (§1.1): retain the initial schwa as well as w; the selected form is two syllables, not monosyllabic."
+  },
+  {
+    "word": "towards",
+    "wrong_transcription": "tɔ́rdz",
+    "correct_transcription": "təwɔ́rdz",
+    "explanation": "Same clarified 2026-10-25 toward/towards family ruling (§1.1): retain the initial schwa and w, with final z in towards. The acute on ɔ also applies in prepositional uses because the selected form is polysyllabic."
+  },
+  {
+    "word": "towards",
+    "wrong_transcription": "twɔ́rdz",
+    "correct_transcription": "təwɔ́rdz",
+    "explanation": "Same clarified 2026-10-25 toward/towards family ruling (§1.1): retain the initial schwa, w, the acute on ɔ, and final z."
+  },
+  {
+    "word": "poor",
+    "wrong_transcription": "pʊ́r",
+    "correct_transcription": "pɔ́r",
+    "explanation": "Author preference 2026-10-25, guide §1.1: poor uses NORTH/FORCE ɔr, not CURE ʊr. Retain the pɔr stem throughout poor's derivatives and compounds, preserving applicable suffix and stress rules. This affects only the poor family: sure, pure, during, security, and other unrelated CURE words are unchanged."
+  },
+  {
+    "word": "poor",
+    "wrong_transcription": "púwr",
+    "correct_transcription": "pɔ́r",
+    "explanation": "Same 2026-10-25 poor-family ruling (§1.1). The JSON corpus also used a GOOSE uw spelling; replace it with the selected ɔr pronunciation, preserving the acute."
+  },
+  {
+    "word": "poorer",
+    "wrong_transcription": "pʊ́rər",
+    "correct_transcription": "pɔ́rər",
+    "explanation": "Same 2026-10-25 poor-family ruling (§1.1): change only the stem vowel to ɔ, retaining the comparative suffix ər and the existing acute."
+  },
+  {
+    "word": "poorest",
+    "wrong_transcription": "pʊ́rəst",
+    "correct_transcription": "pɔ́rəst",
+    "explanation": "Same 2026-10-25 poor-family ruling (§1.1): change only the stem vowel to ɔ, retaining the superlative suffix əst and the existing acute."
+  },
+  {
+    "word": "poorly",
+    "wrong_transcription": "pʊ́rlij",
+    "correct_transcription": "pɔ́rlij",
+    "explanation": "Same 2026-10-25 poor-family ruling (§1.1): retain the preferred pɔr stem and the adverbial suffix lij, with the acute on the stem vowel."
+  },
+  {
+    "word": "poorly",
+    "wrong_transcription": "púwrlij",
+    "correct_transcription": "pɔ́rlij",
+    "explanation": "Same 2026-10-25 poor-family ruling (§1.1): replace the JSON corpus's GOOSE uw stem with ɔr, retaining the acute and suffix lij."
+  },
+  {
+    "word": "subtly",
+    "wrong_transcription": "sə́təlij",
+    "correct_transcription": "sə́tlij",
+    "explanation": "Merriam-Webster's first listing for the adverb subtly is ˈsət-lē, already compressed; the fuller ˈsə-tᵊl-(l)ē is a later variant (https://www.merriam-webster.com/dictionary/subtle, verified 2026-10-25). Under §4.4, use the derived word's own first listing, not the base subtle's syllabic-l form, and preserve the compressed shape. Corrected 1 token in examples/TRN_TheMereExposureEffect.md, line 15; all 5 occurrences in examples/TRN_BodyLanguage.md already used sə́tlij."
   }
 ]

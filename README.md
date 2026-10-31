@@ -40,7 +40,7 @@ The repository includes the `write-and-transcribe-essay` agent skill in
 [.github/skills/write-and-transcribe-essay/SKILL.md](.github/skills/write-and-transcribe-essay/SKILL.md).
 Open this repository as your workspace, start a Copilot chat session, and invoke
 `/write-and-transcribe-essay` with an essay topic. The skill writes matching
-`examples/TXT_<TopicName>.txt` and `examples/TRN_<TopicName>.txt` files and validates
+`examples/TXT_<TopicName>.md` and `examples/TRN_<TopicName>.md` files and validates
 the transcription against this repository's guide and correction ledger.
 Both files begin with a short title (transcribed in the TRN file), followed by
 one paragraph per line with no blank lines.
