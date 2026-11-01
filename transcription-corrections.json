@@ -1,5 +1,149 @@
 [
   {
+    "word": "that",
+    "wrong_transcription": "ðæt",
+    "correct_transcription": "ðət",
+    "explanation": "Relative and conjunction that use weak ðət; a neutral demonstrative determiner such as that version remains ðæt (§6)."
+  },
+  {
+    "word": "that",
+    "wrong_transcription": "ðǽt",
+    "correct_transcription": "ðət",
+    "explanation": "Relative and conjunction that use weak ðət; independent and explicitly contrastive demonstratives retain ðǽt (§6)."
+  },
+  {
+    "word": "have",
+    "wrong_transcription": "həv",
+    "correct_transcription": "hǽv",
+    "explanation": "Lexical have, including possession and causation, is accented; auxiliary have before a past participle stays weak həv (§6)."
+  },
+  {
+    "word": "has",
+    "wrong_transcription": "həz",
+    "correct_transcription": "hǽz",
+    "explanation": "Lexical has is accented; auxiliary has before a past participle stays weak həz (§6)."
+  },
+  {
+    "word": "does",
+    "wrong_transcription": "dəz",
+    "correct_transcription": "də́z",
+    "explanation": "Lexical does, as in does this or what a function does, is accented; auxiliary does in questions remains dəz (§6)."
+  },
+  {
+    "word": "use",
+    "wrong_transcription": "júws",
+    "correct_transcription": "júwz",
+    "explanation": "Only the verb takes z; the noun and attributive noun, as in use case, keep júws (§8)."
+  },
+  {
+    "word": "live",
+    "wrong_transcription": "lɪ́v",
+    "correct_transcription": "lájv",
+    "explanation": "The adjective or adverb meaning happening in real time is lájv; the verb meaning reside remains lɪ́v (§8)."
+  },
+  {
+    "word": "per",
+    "wrong_transcription": "pə́r",
+    "correct_transcription": "pər",
+    "explanation": "Neutral prepositional per is a weak monosyllabic function word, including in pay-per-use (§5.2, §6)."
+  },
+  {
+    "word": "per",
+    "wrong_transcription": "pɜ́r",
+    "correct_transcription": "pər",
+    "explanation": "Neutral prepositional per takes weak pər, without an acute (§5.2, §6)."
+  },
+  {
+    "word": "query",
+    "wrong_transcription": "kwíjrij",
+    "correct_transcription": "kwɪ́rij",
+    "explanation": "The General American stressed vowel is NEAR ɪr, not FLEECE ij before r (§4.3)."
+  },
+  {
+    "word": "endpoint",
+    "wrong_transcription": "ɪ́ndpɔ̀jnt",
+    "correct_transcription": "ɛ́ndpɔ̀jnt",
+    "explanation": "The first element is end with DRESS ɛ, and the solid compound retains secondary stress on point (§4.1, §5.3)."
+  },
+  {
+    "word": "instructions",
+    "wrong_transcription": "ɪ̀nstrə́kʃənz",
+    "correct_transcription": "ɪnstrə́kʃənz",
+    "explanation": "The initial reduced syllable is unstressed; the primary stress is on strə́k (§5.2)."
+  },
+  {
+    "word": "resource",
+    "wrong_transcription": "rɪ́sɔrs",
+    "correct_transcription": "ríjsɔrs",
+    "explanation": "The first syllable has FLEECE ij, not KIT ɪ; the final secondary stress of this disyllable is not written (§5.2)."
+  },
+  {
+    "word": "resources",
+    "wrong_transcription": "rɪ́sɔrsɪz",
+    "correct_transcription": "ríjsɔ̀rsɪz",
+    "explanation": "The first syllable has FLEECE ij, and the three-syllable plural retains the secondary stress on source (§5.2)."
+  },
+  {
+    "word": "Microsoft",
+    "wrong_transcription": "májkrəsɔft",
+    "correct_transcription": "májkrəsɔ̀ft",
+    "explanation": "The solid compound keeps secondary stress on its second element (§5.3)."
+  },
+  {
+    "word": "Microsoft's",
+    "wrong_transcription": "májkrəsɔ̀ftz",
+    "correct_transcription": "májkrəsɔ̀fts",
+    "explanation": "Possessive -s is voiceless after the final t; retain the compound's secondary stress (§5.3, §5.4)."
+  },
+  {
+    "word": "Microsoft's",
+    "wrong_transcription": "májkrəsɔfts",
+    "correct_transcription": "májkrəsɔ̀fts",
+    "explanation": "The possessive retains the secondary stress of the solid compound (§5.3, §5.4)."
+  },
+  {
+    "word": "based",
+    "wrong_transcription": "béjsd",
+    "correct_transcription": "béjst",
+    "explanation": "The -ed ending is t after the voiceless s in base (§7)."
+  },
+  {
+    "word": "extracts",
+    "wrong_transcription": "ɪ́kstræ̀kts",
+    "correct_transcription": "ɪkstrǽkts",
+    "explanation": "For the verb extracts, primary stress falls on the second syllable (§8); do not apply this verb reading to noun uses."
+  },
+  {
+    "word": "interpreter",
+    "wrong_transcription": "ɪ̀ntɜ́rprətər",
+    "correct_transcription": "ɪntɜ́rprətər",
+    "explanation": "The first syllable is unstressed; the primary stress falls on tɜ́r (§5.2)."
+  },
+  {
+    "word": "increase",
+    "wrong_transcription": "ɪ́nkrìjs",
+    "correct_transcription": "ɪnkríjs",
+    "explanation": "The verb increase stresses the second syllable; the noun has first-syllable stress (§8)."
+  },
+  {
+    "word": "record",
+    "wrong_transcription": "rɛ́kərd",
+    "correct_transcription": "rɪkɔ́rd",
+    "explanation": "Only the verb has final stress and THOUGHT ɔr; the noun remains rɛ́kərd (§8)."
+  },
+  {
+    "word": "records",
+    "wrong_transcription": "rɛ́kərdz",
+    "correct_transcription": "rɪkɔ́rdz",
+    "explanation": "Use rɪkɔ́rdz for the verb records; the plural noun remains rɛ́kərdz (§8)."
+  },
+  {
+    "word": "invalid",
+    "wrong_transcription": "ɪ́nvəlɪd",
+    "correct_transcription": "ɪnvǽlɪd",
+    "explanation": "The adjective meaning not valid is stressed on vǽl; ɪ́nvəlɪd is the distinct noun meaning a person who is ill (§8)."
+  },
+  {
     "word": "subject",
     "wrong_transcription": "sə́bdʒɛkt",
     "correct_transcription": "sə́bdʒɪkt",
@@ -1995,7 +2139,7 @@
     "word": "invalid",
     "wrong_transcription": "ɪ́nvələd",
     "correct_transcription": "ɪ́nvəlɪd",
-    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɪ́nvələd ×5 (examples 0, AI-103 5). Swept 5 token(s) (examples 0, AI-103 5); TRN_ONE.txt regenerated."
+    "explanation": "For the noun meaning a person who is ill, the reduced vowel is spelled i, so §4.4 gives ɪ rather than schwa. The adjective meaning not valid is instead ɪnvǽlɪd. The 2026-09-27 full-class pass changed ɪ́nvələd ×5 to ɪ́nvəlɪd (examples 0, AI-103 5); TRN_ONE.txt regenerated."
   },
   {
     "word": "continuity",
@@ -2018,8 +2162,8 @@
   {
     "word": "auditors",
     "wrong_transcription": "ɒ́dətərz",
-    "correct_transcription": "ɒ́dɪtərz",
-    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ́dətərz ×4 (examples 0, AI-103 4). Swept 4 token(s) (examples 0, AI-103 4); TRN_ONE.txt regenerated."
+    "correct_transcription": "ɔ́dɪtərz",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ́dətərz ×4 (examples 0, AI-103 4). Swept 4 token(s) (examples 0, AI-103 4); TRN_ONE.txt regenerated. The later reviewed audit-family choice uses ɔ instead of ɒ while retaining the reduced ɪ."
   },
   {
     "word": "fragile",
@@ -2066,8 +2210,8 @@
   {
     "word": "auditing",
     "wrong_transcription": "ɒ́dətɪŋ",
-    "correct_transcription": "ɒ́dɪtɪŋ",
-    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ́dətɪŋ ×3 (examples 0, AI-103 3). Swept 3 token(s) (examples 0, AI-103 3); TRN_ONE.txt regenerated."
+    "correct_transcription": "ɔ́dɪtɪŋ",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ́dətɪŋ ×3 (examples 0, AI-103 3). Swept 3 token(s) (examples 0, AI-103 3); TRN_ONE.txt regenerated. The later reviewed audit-family choice uses ɔ instead of ɒ while retaining the reduced ɪ."
   },
   {
     "word": "temporarily",
@@ -2108,8 +2252,8 @@
   {
     "word": "audits",
     "wrong_transcription": "ɒ́dəts",
-    "correct_transcription": "ɒ́dɪts",
-    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ́dəts ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated."
+    "correct_transcription": "ɔ́dɪts",
+    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: ɒ́dəts ×2 (examples 0, AI-103 2). Swept 2 token(s) (examples 0, AI-103 2); TRN_ONE.txt regenerated. The later reviewed audit-family choice uses ɔ instead of ɒ while retaining the reduced ɪ."
   },
   {
     "word": "accidentally",
@@ -4810,5 +4954,731 @@
     "wrong_transcription": "júwst",
     "correct_transcription": "júwzd",
     "explanation": "When used means employed, as in an evidence base used to argue, the lexical verb has voiced z and past-tense d. Habitual or adjectival used to is a different construction and is not changed by this entry."
+  },
+  {
+    "word": "agent2agent",
+    "wrong_transcription": "Agent2Agent",
+    "correct_transcription": "éjdʒənt2èjdʒənt",
+    "explanation": "The reviewed spoken Agent2Agent name is éjdʒənt2èjdʒənt, retaining the source digit. Preserve the literal identifier when required."
+  },
+  {
+    "word": "agentic",
+    "wrong_transcription": "ə̀dʒɛ́ntɪk",
+    "correct_transcription": "ədʒɛ́ntɪk",
+    "explanation": "The author-selected technical adjective is ədʒɛ́ntɪk, without secondary stress on its initial reduced syllable."
+  },
+  {
+    "word": "alt",
+    "wrong_transcription": "ɒ́lt",
+    "correct_transcription": "ɔ́lt",
+    "explanation": "Spoken alt uses ɔ́lt; retain the exact alt attribute name when it is a literal identifier."
+  },
+  {
+    "word": "apac",
+    "wrong_transcription": "éjpæk",
+    "correct_transcription": "APAC",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "async",
+    "wrong_transcription": "ǽsjnk",
+    "correct_transcription": "éjsɪŋk",
+    "explanation": "The selected spoken async adjective is éjsɪŋk; retain async verbatim when it is a code keyword."
+  },
+  {
+    "word": "audit",
+    "wrong_transcription": "ɒ́dɪt",
+    "correct_transcription": "ɔ́dɪt",
+    "explanation": "The selected audit family uses ɔ in its first syllable. Retain the reduced i-spelled ɪ in its derivatives (§4.4)."
+  },
+  {
+    "word": "audits",
+    "wrong_transcription": "ɒ́dɪts",
+    "correct_transcription": "ɔ́dɪts",
+    "explanation": "The selected audit family uses ɔ in its first syllable. Retain the reduced i-spelled ɪ in its derivatives (§4.4)."
+  },
+  {
+    "word": "auditing",
+    "wrong_transcription": "ɒ́dɪtɪŋ",
+    "correct_transcription": "ɔ́dɪtɪŋ",
+    "explanation": "The selected audit family uses ɔ in its first syllable. Retain the reduced i-spelled ɪ in its derivatives (§4.4)."
+  },
+  {
+    "word": "auditors",
+    "wrong_transcription": "ɒ́dɪtərz",
+    "correct_transcription": "ɔ́dɪtərz",
+    "explanation": "The selected audit family uses ɔ in its first syllable. Retain the reduced i-spelled ɪ in its derivatives (§4.4)."
+  },
+  {
+    "word": "citation",
+    "wrong_transcription": "sàjtéjʃən",
+    "correct_transcription": "sajtéjʃən",
+    "explanation": "The selected citation family has no secondary accent on its first syllable: sajtéjʃən, sajtéjʃənz."
+  },
+  {
+    "word": "citations",
+    "wrong_transcription": "sàjtéjʃənz",
+    "correct_transcription": "sajtéjʃənz",
+    "explanation": "The selected citation family has no secondary accent on its first syllable: sajtéjʃən, sajtéjʃənz."
+  },
+  {
+    "word": "clu",
+    "wrong_transcription": "klúw",
+    "correct_transcription": "CLU",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "cner",
+    "wrong_transcription": "Cnɜ́r",
+    "correct_transcription": "CNER",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "collaborative",
+    "wrong_transcription": "kəlǽbərèjtɪv",
+    "correct_transcription": "kəlǽbrətɪv",
+    "explanation": "The selected collaborative form is syncopated kəlǽbrətɪv."
+  },
+  {
+    "word": "cosmos",
+    "wrong_transcription": "kɒ́zmows",
+    "correct_transcription": "kɒ́zməs",
+    "explanation": "The spoken Azure Cosmos name uses kɒ́zməs with a reduced final syllable; preserve exact identifiers when required."
+  },
+  {
+    "word": "cosmos",
+    "wrong_transcription": "kɒ́zmɒs",
+    "correct_transcription": "kɒ́zməs",
+    "explanation": "The spoken Azure Cosmos name uses kɒ́zməs with a reduced final syllable; preserve exact identifiers when required."
+  },
+  {
+    "word": "curated",
+    "wrong_transcription": "kjʊ́rèjtɪd",
+    "correct_transcription": "kjʊréjtɪd",
+    "explanation": "The selected curate-family verb stresses the final stem syllable, as in kjʊréjtɪŋ and the inflected kjʊréjtɪd."
+  },
+  {
+    "word": "detail",
+    "wrong_transcription": "díjtèjl",
+    "correct_transcription": "díjtejl",
+    "explanation": "The selected spoken noun has initial stress: díjtejl, díjtejlz. Preserve literal detail parameters and treat other grammatical forms separately."
+  },
+  {
+    "word": "details",
+    "wrong_transcription": "dɪtéjlz",
+    "correct_transcription": "díjtejlz",
+    "explanation": "The selected spoken noun has initial stress: díjtejl, díjtejlz. Preserve literal detail parameters and treat other grammatical forms separately."
+  },
+  {
+    "word": "download",
+    "wrong_transcription": "dàwnlówd",
+    "correct_transcription": "dáwnlòwd",
+    "explanation": "The selected spoken download family has initial primary and final secondary stress: dáwnlòwd, dáwnlòwdz. Preserve literal identifiers."
+  },
+  {
+    "word": "download",
+    "wrong_transcription": "dáwnlowd",
+    "correct_transcription": "dáwnlòwd",
+    "explanation": "The selected spoken download family has initial primary and final secondary stress: dáwnlòwd, dáwnlòwdz. Preserve literal identifiers."
+  },
+  {
+    "word": "downloads",
+    "wrong_transcription": "dáwnlowds",
+    "correct_transcription": "dáwnlòwdz",
+    "explanation": "The selected spoken download family has initial primary and final secondary stress: dáwnlòwd, dáwnlòwdz. Preserve literal identifiers."
+  },
+  {
+    "word": "downloads",
+    "wrong_transcription": "dáwnlowdz",
+    "correct_transcription": "dáwnlòwdz",
+    "explanation": "The selected spoken download family has initial primary and final secondary stress: dáwnlòwd, dáwnlòwdz. Preserve literal identifiers."
+  },
+  {
+    "word": "elicitation",
+    "wrong_transcription": "ɪ̀lɪsɪtéjʃən",
+    "correct_transcription": "ɪlɪ̀sɪtéjʃən",
+    "explanation": "The selected elicitation form is ɪlɪ̀sɪtéjʃən, with secondary stress on the elicited stem."
+  },
+  {
+    "word": "employees",
+    "wrong_transcription": "ɪmplɔ́jijz",
+    "correct_transcription": "ɪmplɔ́jìjz",
+    "explanation": "The selected employees form is ɪmplɔ́jìjz, retaining secondary stress on the final vowel."
+  },
+  {
+    "word": "encryption",
+    "wrong_transcription": "ɛ̀nkrɪ́pʃən",
+    "correct_transcription": "ɪnkrɪ́pʃən",
+    "explanation": "The author selected ɪnkrɪ́pʃən for encryption, with an unstressed initial KIT vowel."
+  },
+  {
+    "word": "enqueued",
+    "wrong_transcription": "ɛ̀nkjúwd",
+    "correct_transcription": "ənkjúwd",
+    "explanation": "The reviewed enqueued form is ənkjúwd, with an unstressed initial schwa."
+  },
+  {
+    "word": "ensemble",
+    "wrong_transcription": "ɑ̀nsɑ́mbəl",
+    "correct_transcription": "ɒ̀nsɒ́mbəl",
+    "explanation": "The selected ensemble form is ɒ̀nsɒ́mbəl, using LOT symbols for the two full vowels."
+  },
+  {
+    "word": "evals",
+    "wrong_transcription": "ɪvǽlz",
+    "correct_transcription": "EVALS",
+    "explanation": "For the reviewed spoken abbreviation, read EVALS as letter names; retain lowercase evals when it is an exact identifier."
+  },
+  {
+    "word": "faqs",
+    "wrong_transcription": "fǽks",
+    "correct_transcription": "FAQz",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "fx",
+    "wrong_transcription": "fɛ́ks",
+    "correct_transcription": "FX",
+    "explanation": "For the reviewed Power Fx name, read FX as letter names; preserve exact identifiers when required."
+  },
+  {
+    "word": "genaiops",
+    "wrong_transcription": "dʒɛ̀nejájɒ̀ps",
+    "correct_transcription": "dʒɛ́n_AI_ɒ̀ps",
+    "explanation": "When spoken, the selected GenAIOps form is dʒɛ́n_AI_ɒ̀ps, with approved underscores around the AI letter names. Preserve a literal identifier verbatim."
+  },
+  {
+    "word": "implement",
+    "wrong_transcription": "ɪ́mpləmɛ̀nt",
+    "correct_transcription": "ɪ́mpləmənt",
+    "explanation": "The selected spoken verb implement uses a reduced -mənt syllable; retain that vowel in its inflected form."
+  },
+  {
+    "word": "implemented",
+    "wrong_transcription": "ɪ́mpləmɛ̀ntɪd",
+    "correct_transcription": "ɪ́mpləməntɪd",
+    "explanation": "The selected spoken verb implement uses a reduced -mənt syllable; retain that vowel in its inflected form."
+  },
+  {
+    "word": "instrument",
+    "wrong_transcription": "ɪ́nstrəmənt",
+    "correct_transcription": "ɪ́nstrəmɛ̀nt",
+    "explanation": "The selected instrument verb retains the full secondarily stressed -mɛ̀nt element, including in instrumenting; distinguish other grammatical roles."
+  },
+  {
+    "word": "instrumenting",
+    "wrong_transcription": "ɪ́nstrəmɛntɪŋ",
+    "correct_transcription": "ɪ́nstrəmɛ̀ntɪŋ",
+    "explanation": "The selected instrument verb retains the full secondarily stressed -mɛ̀nt element, including in instrumenting; distinguish other grammatical roles."
+  },
+  {
+    "word": "iterative",
+    "wrong_transcription": "ɪ́tərèjtɪv",
+    "correct_transcription": "ɪ́tərətɪv",
+    "explanation": "The selected adjective iterative has a reduced final element: ɪ́tərətɪv. The verb iterate is a separate form."
+  },
+  {
+    "word": "json",
+    "wrong_transcription": "dʒéjsən",
+    "correct_transcription": "JSON",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "kusto",
+    "wrong_transcription": "kə́stɒ",
+    "correct_transcription": "kúwstow",
+    "explanation": "The selected spoken Kusto name is kúwstow; preserve the exact token when it is an identifier."
+  },
+  {
+    "word": "lakehouses",
+    "wrong_transcription": "léjkhàwsɪz",
+    "correct_transcription": "léjkhàwzɪz",
+    "explanation": "The selected plural lakehouses uses the voiced house element: léjkhàwzɪz, matching wɛ́rhàwzɪz for warehouses."
+  },
+  {
+    "word": "langgraph",
+    "wrong_transcription": "LangGraph",
+    "correct_transcription": "lǽŋɡræ̀f",
+    "explanation": "When spoken, the selected LangGraph name is lǽŋɡræ̀f, with secondary stress on graph. Preserve the exact token when it is an identifier."
+  },
+  {
+    "word": "langgraph",
+    "wrong_transcription": "lǽŋɡræf",
+    "correct_transcription": "lǽŋɡræ̀f",
+    "explanation": "When spoken, the selected LangGraph name is lǽŋɡræ̀f, with secondary stress on graph. Preserve the exact token when it is an identifier."
+  },
+  {
+    "word": "lid",
+    "wrong_transcription": "lɪ́d",
+    "correct_transcription": "LID",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "locate",
+    "wrong_transcription": "lówkejt",
+    "correct_transcription": "lowkéjt",
+    "explanation": "The selected two-syllable verb locate has final primary stress: lowkéjt (§7)."
+  },
+  {
+    "word": "lora",
+    "wrong_transcription": "lówrə",
+    "correct_transcription": "lɔ́rə",
+    "explanation": "The selected spoken LoRA name is lɔ́rə. Preserve surrounding and exact model identifiers when required."
+  },
+  {
+    "word": "lucene",
+    "wrong_transcription": "lúwsìjn",
+    "correct_transcription": "luwsíjn",
+    "explanation": "The selected spoken Lucene name is luwsíjn; preserve the name verbatim when it is an exact identifier."
+  },
+  {
+    "word": "mos",
+    "wrong_transcription": "mɔ́s",
+    "correct_transcription": "MOS",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "ner",
+    "wrong_transcription": "nɜ́r",
+    "correct_transcription": "NER",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "oauth",
+    "wrong_transcription": "ówɔ̀θ",
+    "correct_transcription": "O_ɔ́θ",
+    "explanation": "When spoken, the selected OAuth form is O_ɔ́θ: O is a letter name, auth is phonetic, and the underscore is an approved boundary. Preserve literal identifiers."
+  },
+  {
+    "word": "odata",
+    "wrong_transcription": "òwdéjtə",
+    "correct_transcription": "Odéjtə",
+    "explanation": "The selected spoken OData form is Odéjtə: O is a letter name followed directly by phonetic data, without an underscore. Preserve literal identifiers."
+  },
+  {
+    "word": "on-behalf-of",
+    "wrong_transcription": "On-Behalf-Of",
+    "correct_transcription": "ɒn-bɪhǽf-əv",
+    "explanation": "The reviewed spoken flow name is ɒn-bɪhǽf-əv; retain On-Behalf-Of when it is an exact identifier."
+  },
+  {
+    "word": "opentelemetry",
+    "wrong_transcription": "ówpəntɛ̀ləmətrij",
+    "correct_transcription": "ówpəntəlɛ̀mətrij",
+    "explanation": "The selected spoken OpenTelemetry name is ówpəntəlɛ̀mətrij. Preserve the exact opentelemetry identifier when it is code."
+  },
+  {
+    "word": "opentelemetry",
+    "wrong_transcription": "ówpəntɛ̀ləmɛtrij",
+    "correct_transcription": "ówpəntəlɛ̀mətrij",
+    "explanation": "The selected spoken OpenTelemetry name is ówpəntəlɛ̀mətrij. Preserve the exact opentelemetry identifier when it is code."
+  },
+  {
+    "word": "parallelization",
+    "wrong_transcription": "pæ̀rəlɛlɪzéjʃən",
+    "correct_transcription": "pæ̀rəlɛ̀lɪzéjʃən",
+    "explanation": "The selected parallelization retains both secondary stresses: pæ̀rəlɛ̀lɪzéjʃən."
+  },
+  {
+    "word": "photorealistic",
+    "wrong_transcription": "fòwtòwrìjəlɪ́stɪk",
+    "correct_transcription": "fòwtowrìjəlɪ́stɪk",
+    "explanation": "The selected photorealistic form is fòwtowrìjəlɪ́stɪk, without a second grave on the photo element."
+  },
+  {
+    "word": "polygon",
+    "wrong_transcription": "pɒ́lɪɡɒn",
+    "correct_transcription": "pɒ́lɪɡɒ̀n",
+    "explanation": "The selected polygon family retains secondary stress on the final LOT vowel: pɒ́lɪɡɒ̀n, pɒ́lɪɡɒ̀nz."
+  },
+  {
+    "word": "polygons",
+    "wrong_transcription": "pɒ́lɪɡɒnz",
+    "correct_transcription": "pɒ́lɪɡɒ̀nz",
+    "explanation": "The selected polygon family retains secondary stress on the final LOT vowel: pɒ́lɪɡɒ̀n, pɒ́lɪɡɒ̀nz."
+  },
+  {
+    "word": "premature",
+    "wrong_transcription": "prìjmətʊ́r",
+    "correct_transcription": "prìjmətʃʊ́r",
+    "explanation": "The selected premature form is prìjmətʃʊ́r, with the tʃ consonant."
+  },
+  {
+    "word": "preview",
+    "wrong_transcription": "príjvjùw",
+    "correct_transcription": "príjvjuw",
+    "explanation": "The selected preview form is príjvjuw; its two-syllable plural is príjvjuwz, without a final grave."
+  },
+  {
+    "word": "previews",
+    "wrong_transcription": "príjvjùwz",
+    "correct_transcription": "príjvjuwz",
+    "explanation": "The selected preview form is príjvjuw; its two-syllable plural is príjvjuwz, without a final grave."
+  },
+  {
+    "word": "protocol",
+    "wrong_transcription": "prówtəkòwl",
+    "correct_transcription": "prówtəkɔ̀l",
+    "explanation": "The selected spoken protocol family uses ɔ in the final syllable: prówtəkɔ̀l, prówtəkɔ̀lz."
+  },
+  {
+    "word": "protocol",
+    "wrong_transcription": "prówtəkɒ̀l",
+    "correct_transcription": "prówtəkɔ̀l",
+    "explanation": "The selected spoken protocol family uses ɔ in the final syllable: prówtəkɔ̀l, prówtəkɔ̀lz."
+  },
+  {
+    "word": "protocols",
+    "wrong_transcription": "prówtəkòwlz",
+    "correct_transcription": "prówtəkɔ̀lz",
+    "explanation": "The selected spoken protocol family uses ɔ in the final syllable: prówtəkɔ̀l, prówtəkɔ̀lz."
+  },
+  {
+    "word": "protocols",
+    "wrong_transcription": "prówtəkɒ̀lz",
+    "correct_transcription": "prówtəkɔ̀lz",
+    "explanation": "The selected spoken protocol family uses ɔ in the final syllable: prówtəkɔ̀l, prówtəkɔ̀lz."
+  },
+  {
+    "word": "qrels",
+    "wrong_transcription": "qrels",
+    "correct_transcription": "Q_rɛ́lz",
+    "explanation": "When read aloud in the reviewed context, qrels is Q_rɛ́lz, with Q read by name and an approved underscore before rels. Preserve literal format names when appropriate."
+  },
+  {
+    "word": "rag",
+    "wrong_transcription": "rǽɡ",
+    "correct_transcription": "RAG",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "react",
+    "wrong_transcription": "rìjǽkt",
+    "correct_transcription": "rijǽkt",
+    "explanation": "For the reviewed ReAct technical name, use rijǽkt without a secondary accent on the prefix."
+  },
+  {
+    "word": "rerank",
+    "wrong_transcription": "rijrǽŋk",
+    "correct_transcription": "rìjrǽŋk",
+    "explanation": "The selected rerank family has secondary stress on the full rìj- prefix and primary stress on the rank stem."
+  },
+  {
+    "word": "rerank",
+    "wrong_transcription": "rɪrǽŋk",
+    "correct_transcription": "rìjrǽŋk",
+    "explanation": "The selected rerank family has secondary stress on the full rìj- prefix and primary stress on the rank stem."
+  },
+  {
+    "word": "reranking",
+    "wrong_transcription": "rijrǽŋkɪŋ",
+    "correct_transcription": "rìjrǽŋkɪŋ",
+    "explanation": "The selected rerank family has secondary stress on the full rìj- prefix and primary stress on the rank stem."
+  },
+  {
+    "word": "reranking",
+    "wrong_transcription": "rɪrǽŋkɪŋ",
+    "correct_transcription": "rìjrǽŋkɪŋ",
+    "explanation": "The selected rerank family has secondary stress on the full rìj- prefix and primary stress on the rank stem."
+  },
+  {
+    "word": "reranks",
+    "wrong_transcription": "rijrǽŋks",
+    "correct_transcription": "rìjrǽŋks",
+    "explanation": "The selected rerank family has secondary stress on the full rìj- prefix and primary stress on the rank stem."
+  },
+  {
+    "word": "reranks",
+    "wrong_transcription": "rɪrǽŋks",
+    "correct_transcription": "rìjrǽŋks",
+    "explanation": "The selected rerank family has secondary stress on the full rìj- prefix and primary stress on the rank stem."
+  },
+  {
+    "word": "rescoring",
+    "wrong_transcription": "rɪskɔ́rɪŋ",
+    "correct_transcription": "rìjskɔ́rɪŋ",
+    "explanation": "The selected rescoring uses a full secondarily stressed rìj- prefix: rìjskɔ́rɪŋ."
+  },
+  {
+    "word": "reset",
+    "wrong_transcription": "rɪsɛ́t",
+    "correct_transcription": "ríjsɛt",
+    "explanation": "The selected noun reset is ríjsɛt; the verb reset is rìjsɛ́t. Determine the role from context."
+  },
+  {
+    "word": "retried",
+    "wrong_transcription": "rijtrájd",
+    "correct_transcription": "rìjtrájd",
+    "explanation": "The selected retry noun is ríjtraj, plural ríjtrajz; the verb is rìjtráj, with inflections such as rìjtrájd. Determine the role from context and preserve literal retry parameters."
+  },
+  {
+    "word": "retries",
+    "wrong_transcription": "rijtrájz",
+    "correct_transcription": "ríjtrajz",
+    "explanation": "The selected retry noun is ríjtraj, plural ríjtrajz; the verb is rìjtráj, with inflections such as rìjtrájd. Determine the role from context and preserve literal retry parameters."
+  },
+  {
+    "word": "retry",
+    "wrong_transcription": "rijtráj",
+    "correct_transcription": "ríjtraj",
+    "explanation": "The selected retry noun is ríjtraj, plural ríjtrajz; the verb is rìjtráj, with inflections such as rìjtrájd. Determine the role from context and preserve literal retry parameters."
+  },
+  {
+    "word": "reusable",
+    "wrong_transcription": "rijúwzəbəl",
+    "correct_transcription": "rìjúwzəbəl",
+    "explanation": "Use the author's single-j forms: noun ríjuws, verb rìjúwz, adjective rìjúwzəbəl, and the corresponding verb inflections. Determine the role from context."
+  },
+  {
+    "word": "reusable",
+    "wrong_transcription": "rìjjúwzəbəl",
+    "correct_transcription": "rìjúwzəbəl",
+    "explanation": "Use the author's single-j forms: noun ríjuws, verb rìjúwz, adjective rìjúwzəbəl, and the corresponding verb inflections. Determine the role from context."
+  },
+  {
+    "word": "reusable",
+    "wrong_transcription": "rɪjúwzəbəl",
+    "correct_transcription": "rìjúwzəbəl",
+    "explanation": "Use the author's single-j forms: noun ríjuws, verb rìjúwz, adjective rìjúwzəbəl, and the corresponding verb inflections. Determine the role from context."
+  },
+  {
+    "word": "reuse",
+    "wrong_transcription": "rìjjúws",
+    "correct_transcription": "ríjuws",
+    "explanation": "Use the author's single-j forms: noun ríjuws, verb rìjúwz, adjective rìjúwzəbəl, and the corresponding verb inflections. Determine the role from context."
+  },
+  {
+    "word": "reuse",
+    "wrong_transcription": "rìjjúwz",
+    "correct_transcription": "rìjúwz",
+    "explanation": "Use the author's single-j forms: noun ríjuws, verb rìjúwz, adjective rìjúwzəbəl, and the corresponding verb inflections. Determine the role from context."
+  },
+  {
+    "word": "reuse",
+    "wrong_transcription": "ríjjuws",
+    "correct_transcription": "ríjuws",
+    "explanation": "Use the author's single-j forms: noun ríjuws, verb rìjúwz, adjective rìjúwzəbəl, and the corresponding verb inflections. Determine the role from context."
+  },
+  {
+    "word": "reuse",
+    "wrong_transcription": "ríjjùws",
+    "correct_transcription": "ríjuws",
+    "explanation": "Use the author's single-j forms: noun ríjuws, verb rìjúwz, adjective rìjúwzəbəl, and the corresponding verb inflections. Determine the role from context."
+  },
+  {
+    "word": "reused",
+    "wrong_transcription": "rɪjúwzd",
+    "correct_transcription": "rìjúwzd",
+    "explanation": "Use the author's single-j forms: noun ríjuws, verb rìjúwz, adjective rìjúwzəbəl, and the corresponding verb inflections. Determine the role from context."
+  },
+  {
+    "word": "reuses",
+    "wrong_transcription": "rɪjúwzɪz",
+    "correct_transcription": "rìjúwzɪz",
+    "explanation": "Use the author's single-j forms: noun ríjuws, verb rìjúwz, adjective rìjúwzəbəl, and the corresponding verb inflections. Determine the role from context."
+  },
+  {
+    "word": "route",
+    "wrong_transcription": "rúwt",
+    "correct_transcription": "ráwt",
+    "explanation": "The selected route family uses the MOUTH vowel, as in ráwt, ráwts, ráwtɪd, and ráwtɪŋ."
+  },
+  {
+    "word": "routed",
+    "wrong_transcription": "rúwtɪd",
+    "correct_transcription": "ráwtɪd",
+    "explanation": "The selected route family uses the MOUTH vowel, as in ráwt, ráwts, ráwtɪd, and ráwtɪŋ."
+  },
+  {
+    "word": "routes",
+    "wrong_transcription": "rúwts",
+    "correct_transcription": "ráwts",
+    "explanation": "The selected route family uses the MOUTH vowel, as in ráwt, ráwts, ráwtɪd, and ráwtɪŋ."
+  },
+  {
+    "word": "routing",
+    "wrong_transcription": "rúwtɪŋ",
+    "correct_transcription": "ráwtɪŋ",
+    "explanation": "The selected route family uses the MOUTH vowel, as in ráwt, ráwts, ráwtɪd, and ráwtɪŋ."
+  },
+  {
+    "word": "sas",
+    "wrong_transcription": "sǽs",
+    "correct_transcription": "SAS",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "semantic",
+    "wrong_transcription": "səmǽntɪk",
+    "correct_transcription": "sɪmǽntɪk",
+    "explanation": "The selected semantic family begins sɪ-, as in sɪmǽntɪk and sɪmǽntɪkəlij. Preserve exact semantic enum values or identifiers."
+  },
+  {
+    "word": "semantically",
+    "wrong_transcription": "səmǽntɪkəlij",
+    "correct_transcription": "sɪmǽntɪkəlij",
+    "explanation": "The selected semantic family begins sɪ-, as in sɪmǽntɪk and sɪmǽntɪkəlij. Preserve exact semantic enum values or identifiers."
+  },
+  {
+    "word": "sql",
+    "wrong_transcription": "síjkwəl",
+    "correct_transcription": "SQL",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "threshold",
+    "wrong_transcription": "θrɛ́ʃòwld",
+    "correct_transcription": "θrɛ́ʃhòwld",
+    "explanation": "The selected threshold family includes the medial h: θrɛ́ʃhòwld, θrɛ́ʃhòwldz."
+  },
+  {
+    "word": "thresholds",
+    "wrong_transcription": "θrɛ́ʃòwldz",
+    "correct_transcription": "θrɛ́ʃhòwldz",
+    "explanation": "The selected threshold family includes the medial h: θrɛ́ʃhòwld, θrɛ́ʃhòwldz."
+  },
+  {
+    "word": "translate",
+    "wrong_transcription": "trænzléjt",
+    "correct_transcription": "trænsléjt",
+    "explanation": "The selected translate family uses s, not z, in the first consonant cluster. Preserve literal translate task or parameter identifiers."
+  },
+  {
+    "word": "translated",
+    "wrong_transcription": "trænzléjtɪd",
+    "correct_transcription": "trænsléjtɪd",
+    "explanation": "The selected translate family uses s, not z, in the first consonant cluster. Preserve literal translate task or parameter identifiers."
+  },
+  {
+    "word": "translates",
+    "wrong_transcription": "trænzléjts",
+    "correct_transcription": "trænsléjts",
+    "explanation": "The selected translate family uses s, not z, in the first consonant cluster. Preserve literal translate task or parameter identifiers."
+  },
+  {
+    "word": "translating",
+    "wrong_transcription": "træ̀nzléjtɪŋ",
+    "correct_transcription": "trænsléjtɪŋ",
+    "explanation": "The selected translate family uses s, not z, in the first consonant cluster. Preserve literal translate task or parameter identifiers."
+  },
+  {
+    "word": "translation",
+    "wrong_transcription": "trænzléjʃən",
+    "correct_transcription": "trænsléjʃən",
+    "explanation": "The selected translate family uses s, not z, in the first consonant cluster. Preserve literal translate task or parameter identifiers."
+  },
+  {
+    "word": "translations",
+    "wrong_transcription": "trænzléjʃənz",
+    "correct_transcription": "trænsléjʃənz",
+    "explanation": "The selected translate family uses s, not z, in the first consonant cluster. Preserve literal translate task or parameter identifiers."
+  },
+  {
+    "word": "translator",
+    "wrong_transcription": "trænzléjtər",
+    "correct_transcription": "trænsléjtər",
+    "explanation": "The selected translate family uses s, not z, in the first consonant cluster. Preserve literal translate task or parameter identifiers."
+  },
+  {
+    "word": "upgrades",
+    "wrong_transcription": "əpɡréjdz",
+    "correct_transcription": "ə̀pɡréjdz",
+    "explanation": "The selected upgrades verb retains secondary stress on its prefix: ə̀pɡréjdz."
+  },
+  {
+    "word": "upload",
+    "wrong_transcription": "əplówd",
+    "correct_transcription": "ə́plòwd",
+    "explanation": "The selected spoken upload family has initial primary and final secondary stress: ə́plòwd and its regular inflections. Preserve literal identifiers."
+  },
+  {
+    "word": "upload",
+    "wrong_transcription": "ə̀plówd",
+    "correct_transcription": "ə́plòwd",
+    "explanation": "The selected spoken upload family has initial primary and final secondary stress: ə́plòwd and its regular inflections. Preserve literal identifiers."
+  },
+  {
+    "word": "upload",
+    "wrong_transcription": "ə́plowd",
+    "correct_transcription": "ə́plòwd",
+    "explanation": "The selected spoken upload family has initial primary and final secondary stress: ə́plòwd and its regular inflections. Preserve literal identifiers."
+  },
+  {
+    "word": "uploaded",
+    "wrong_transcription": "əplówdɪd",
+    "correct_transcription": "ə́plòwdɪd",
+    "explanation": "The selected spoken upload family has initial primary and final secondary stress: ə́plòwd and its regular inflections. Preserve literal identifiers."
+  },
+  {
+    "word": "uploaded",
+    "wrong_transcription": "ə́plowdɪd",
+    "correct_transcription": "ə́plòwdɪd",
+    "explanation": "The selected spoken upload family has initial primary and final secondary stress: ə́plòwd and its regular inflections. Preserve literal identifiers."
+  },
+  {
+    "word": "uploading",
+    "wrong_transcription": "əplówdɪŋ",
+    "correct_transcription": "ə́plòwdɪŋ",
+    "explanation": "The selected spoken upload family has initial primary and final secondary stress: ə́plòwd and its regular inflections. Preserve literal identifiers."
+  },
+  {
+    "word": "uploading",
+    "wrong_transcription": "ə́plowdɪŋ",
+    "correct_transcription": "ə́plòwdɪŋ",
+    "explanation": "The selected spoken upload family has initial primary and final secondary stress: ə́plòwd and its regular inflections. Preserve literal identifiers."
+  },
+  {
+    "word": "uploads",
+    "wrong_transcription": "ə́plowds",
+    "correct_transcription": "ə́plòwdz",
+    "explanation": "The selected spoken upload family has initial primary and final secondary stress: ə́plòwd and its regular inflections. Preserve literal identifiers."
+  },
+  {
+    "word": "uploads",
+    "wrong_transcription": "ə́plowdz",
+    "correct_transcription": "ə́plòwdz",
+    "explanation": "The selected spoken upload family has initial primary and final secondary stress: ə́plòwd and its regular inflections. Preserve literal identifiers."
+  },
+  {
+    "word": "vad",
+    "wrong_transcription": "vǽd",
+    "correct_transcription": "VAD",
+    "explanation": "For the reviewed technical acronym, use the selected letter-name form. Preserve literal identifiers and retain ordinary word pronunciations in unrelated contexts."
+  },
+  {
+    "word": "video",
+    "wrong_transcription": "vɪ́dijow",
+    "correct_transcription": "vɪ́dijòw",
+    "explanation": "The selected spoken video family retains secondary stress on its final GOAT vowel: vɪ́dijòw, vɪ́dijòwz. Preserve literal identifiers."
+  },
+  {
+    "word": "videos",
+    "wrong_transcription": "vɪ́dijowz",
+    "correct_transcription": "vɪ́dijòwz",
+    "explanation": "The selected spoken video family retains secondary stress on its final GOAT vowel: vɪ́dijòw, vɪ́dijòwz. Preserve literal identifiers."
+  },
+  {
+    "word": "viseme",
+    "wrong_transcription": "vɪ́sɛm",
+    "correct_transcription": "vɪ́zijm",
+    "explanation": "The author selected vɪ́zijm for the spoken technical term viseme."
+  },
+  {
+    "word": "vnet",
+    "wrong_transcription": "VNet",
+    "correct_transcription": "V_nɛ́t",
+    "explanation": "When spoken as the reviewed virtual-network name, VNet is V_nɛ́t, with V read by name and an approved underscore before net. Preserve literal identifiers."
+  },
+  {
+    "word": "vnet",
+    "wrong_transcription": "víjnɛt",
+    "correct_transcription": "V_nɛ́t",
+    "explanation": "When spoken as the reviewed virtual-network name, VNet is V_nɛ́t, with V read by name and an approved underscore before net. Preserve literal identifiers."
+  },
+  {
+    "word": "volume",
+    "wrong_transcription": "vɒ́ljəm",
+    "correct_transcription": "vɒ́ljuwm",
+    "explanation": "The selected spoken volume uses the full final vowel: vɒ́ljuwm."
   }
 ]

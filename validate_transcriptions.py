@@ -3,12 +3,13 @@
 
 Implements the "Machine-checkable constraints" of §11:
   - banned symbols and sequences (regex checks)
-    - capitals only in letter-name tokens, optionally followed by phonetic s/z/ɪz
+  - capitals only in letter-name tokens and approved mixed forms
   - accent marks only on vowel symbols, with the expected encoding
-    - Latin vowel bases use the required j/w glide notation
+  - Latin vowel bases use the required j/w glide notation
   - unaccented tokens must be known weak forms (strict mode)
-    - ruled weak-vowel spellings, where the §4.4 tie-breaker settled the word
-    - complete source/transcription pairs and layout parity (JSON mode)
+  - ruled weak-vowel spellings, where the §4.4 tie-breaker settled the word
+  - complete source/transcription pairs and layout parity, allowing only the
+    four approved inserted-underscore pairs (JSON mode)
 
 Usage:
   python validate_transcriptions.py --self-test
@@ -58,7 +59,7 @@ SEQUENCE_RULES = [
 LEGACY_SKIP = {"banned-vowels", "centering-schwa"}
 
 WEAK_FORMS = set("""
-ə ən ðə ðij ənd ɔr bət ɪf æz ðən ðət əv tə ɪn ɒn ət baj fɔr frəm wɪð
+ə ən ðə ðij ənd ɔr bət ɪf æz ðən ðət əv tə ɪn ɒn ət baj fɔr pər frəm wɪð
 əp dawn awt aj juw hij ʃij ɪt wij ðej mij hɪm hər əs ðɛm
 maj jɔr hɪz ɪts ðɛr
 ðɪs ðæt ðijz ðowz
@@ -79,6 +80,31 @@ LETTER_NAME_SUFFIX = re.compile(r"^([A-Z]+)(ɪz|[sz])$")
 DOTTED_LETTER_NAMES = re.compile(r"(?:[A-Z]\.)+[A-Z]")
 PHONETIC_WITH_LETTER_NAMES = re.compile(r"([^A-Z]+)([A-Z]+(?:ɪz|[sz])?)")
 LETTER_NAME_IZ_FINALS = set("HSX")
+
+APPROVED_SEPARATED_WORDS = {
+    "OAuth": "O_ɔ́θ",
+    "GenAIOps": "dʒɛ́n_AI_ɒ̀ps",
+    "VNet": "V_nɛ́t",
+    "qrels": "Q_rɛ́lz",
+}
+APPROVED_JOINED_WORDS = {"Odéjtə": ("déjtə",)}
+APPROVED_SEPARATED_TRANSCRIPTIONS = frozenset(APPROVED_SEPARATED_WORDS.values())
+APPROVED_SOURCE_BY_TRANSCRIPTION = {
+    **{trans: source for source, trans in APPROVED_SEPARATED_WORDS.items()},
+    "Odéjtə": "OData",
+}
+SPECIAL_WORD_RX = re.compile("|".join(
+    re.escape(word) for word in sorted(
+        APPROVED_SEPARATED_TRANSCRIPTIONS | APPROVED_JOINED_WORDS.keys(),
+        key=len, reverse=True)))
+WORD_PART = r"(?:[^\W_]|[\u0300-\u036f])+"
+SEPARATED_WORD_SHAPE = re.compile(
+    rf"(?:{WORD_PART}_[A-Z]+_{WORD_PART}|[A-Z]+_{WORD_PART}|{WORD_PART}_[A-Z]+)")
+APPROVED_LOOKALIKE_SHAPE = re.compile(
+    rf"(?:{WORD_PART}_+AI_+{WORD_PART}|[OVQ]_+{WORD_PART})")
+SPECIAL_REMAINDER_SPLIT = re.compile(
+    "[" + re.escape("".join(PUNCT - {" ", "'", "’"})) + "]+")
+APPROVED_TOKEN_WRAPPERS = set(".,;:!?()[]{}'\"‘’“”«»…–—")
 
 # §4.4 spelling tie-breaker: a reduced vowel spelled i/y is ɪ, never ə, and the
 # rule outranks M-W's schwa (guide §4.4; design_choices "ɪ or ə by morpheme,
@@ -156,6 +182,139 @@ def stressless(text):
                    if ch not in {ACUTE, GRAVE})
 
 
+def check_word_stress(display, phonetic, legacy, allow_weak=True):
+    acutes = unicodedata.normalize("NFD", phonetic).count(ACUTE)
+    if acutes > 1:
+        return [("multiple-acutes", f"'{display}' — one primary stress per word")]
+    if acutes == 0 and not legacy and (not allow_weak or phonetic not in WEAK_FORMS):
+        return [("unaccented-token",
+                 f"'{display}' — not a §6 weak form, so it needs an acute")]
+    return []
+
+
+def check_phonetic_component(seg, legacy, check_stress=True):
+    """Check a phonetic component, optionally deferring stress to the whole word."""
+    out = []
+    phonetic_seg = seg.replace("'", "").replace("’", "")
+    if phonetic_seg != seg:
+        out.append(("word-apostrophe",
+                    f"'{seg}' — omit apostrophes inside phonetic words"))
+    if any(c in CAPS for c in seg):
+        out.append(("mixed-capitals",
+                    f"'{seg}' — phonetic components must be lowercase"))
+    if "g" in seg:
+        out.append(("ascii-g", f"'{seg}' — must be IPA ɡ (U+0261)"))
+    allowed = ALLOWED | ({"ʌ", "ᵻ"} if legacy else set())
+    for ch in seg:
+        if ch not in allowed and ch not in RULE_COVERED:
+            out.append(("illegal-char", f"'{ch}' (U+{ord(ch):04X}) in '{seg}'"))
+    for wrong, right in REDUCED_I_RULINGS:
+        if wrong in phonetic_seg:
+            out.append(("reduced-i-spelling",
+                        f"'{seg}' — the reduced i takes ɪ, write "
+                        f"{phonetic_seg.replace(wrong, right)} (§4.4)"))
+    for wrong, right in IBLE_RULINGS:
+        if wrong in phonetic_seg:
+            out.append(("ible-reduced-vowel",
+                        f"'{seg}' — -ible is fixed as ɪbəl, write "
+                        f"{phonetic_seg.replace(wrong, right)} (§7)"))
+    if phonetic_seg in PUPIL_RULINGS:
+        out.append(("pupil-vowel",
+                    f"'{seg}' — pupil takes ə, write "
+                    f"{PUPIL_RULINGS[phonetic_seg]} (§1.1)"))
+    vowel_shape = stressless(phonetic_seg)
+    traditional_matches = list(TRADITIONAL_DIPHTHONG.finditer(vowel_shape))
+    if traditional_matches:
+        out.append(("traditional-diphthong",
+                    f"'{seg}' — write ij uw ej ow aj aw ɔj"))
+    traditional_starts = {match.start() for match in traditional_matches}
+    for index, ch in enumerate(vowel_shape):
+        required = REQUIRED_GLIDES.get(ch)
+        if required is None or index in traditional_starts:
+            continue
+        following = vowel_shape[index + 1] if index + 1 < len(vowel_shape) else ""
+        if not following or following not in required:
+            forms = " / ".join(ch + glide for glide in required)
+            out.append(("invalid-glide-vowel",
+                        f"'{seg}' — {ch} must occur as {forms}"))
+    if check_stress:
+        out.extend(check_word_stress(seg, phonetic_seg, legacy))
+    return out
+
+
+def word_boundaries(text, start, end):
+    """Underscores and punctuation delimit words; letters, marks and digits do not."""
+    return ((start == 0 or unicodedata.category(text[start - 1])[0] not in "LMN")
+            and (end == len(text) or unicodedata.category(text[end])[0] not in "LMN"))
+
+
+def resembles_approved_separated(word):
+    parts = word.split("_")
+    for approved in APPROVED_SEPARATED_TRANSCRIPTIONS:
+        expected = approved.split("_")
+        if len(parts) != len(expected):
+            continue
+        if (all(part == ref for part, ref in zip(parts, expected)
+                if all(c in CAPS for c in ref))
+                and any(stressless(part) == stressless(ref)
+                        for part, ref in zip(parts, expected)
+                        if not all(c in CAPS for c in ref))):
+            return True
+    return False
+
+
+def check_special_segment(seg, legacy):
+    """Validate approved mixed words and diagnose similar malformed shapes."""
+    if "_" not in seg and "Odéjtə" not in seg:
+        return None
+    matches = [(m.start(), m.end(), m.group()) for m in SPECIAL_WORD_RX.finditer(seg)
+               if word_boundaries(seg, m.start(), m.end())]
+    for m in SEPARATED_WORD_SHAPE.finditer(seg):
+        if (not m.group().isascii()
+                and (not is_notation(seg) or resembles_approved_separated(m.group()))
+                and word_boundaries(seg, m.start(), m.end())
+                and not any(m.start() < end and start < m.end()
+                            for start, end, _ in matches)):
+            matches.append((m.start(), m.end(), m.group()))
+    if not matches:
+        return None
+    matches.sort()
+
+    out = []
+    remaining = []
+    masked = []
+    previous = 0
+    for start, end, word in matches:
+        remaining.append(seg[previous:start])
+        masked.extend((seg[previous:start], "X"))
+        previous = end
+        if word in APPROVED_JOINED_WORDS:
+            components = APPROVED_JOINED_WORDS[word]
+        else:
+            components = tuple(part for part in word.split("_")
+                               if not all(c in CAPS for c in part))
+            if word not in APPROVED_SEPARATED_TRANSCRIPTIONS:
+                out.append(("unapproved-separated-word",
+                            f"'{word}' — inserted underscores are limited to the approved forms (§9)"))
+        for component in components:
+            out.extend(check_phonetic_component(component, legacy, check_stress=False))
+        out.extend(check_word_stress(word, "".join(components), legacy, allow_weak=False))
+    remaining.append(seg[previous:])
+    masked.append(seg[previous:])
+
+    # Keep surrounding ASCII code/identifier material as notation, while
+    # checking any remaining phonetic material in the same punctuation token.
+    if not is_notation("".join(masked)):
+        global_rules = {rule for rule, _, _ in SEQUENCE_RULES} | {
+            "accent-misplaced", "encoding-decomposed"}
+        for fragment in remaining:
+            for component in SPECIAL_REMAINDER_SPLIT.split(fragment):
+                if component:
+                    out.extend(issue for issue in check_string(component, legacy=legacy)
+                               if issue[0] not in global_rules)
+    return out
+
+
 def check_string(text, legacy=False):
     """Return mechanical violations; weak-form membership permits a spelling,
     not its use in every context. Grammatical roles require source review.
@@ -167,8 +326,6 @@ def check_string(text, legacy=False):
             continue
         for m in rx.finditer(text):
             out.append((rule, f"'{snippet(text, m.start())}' — {msg}"))
-
-    allowed = ALLOWED | ({"ʌ", "ᵻ"} if legacy else set())
 
     # accent placement / encoding (skip inside all-caps letter-name segments,
     # which never carry accents anyway)
@@ -206,13 +363,16 @@ def check_string(text, legacy=False):
             seg = seg.strip("".join(PUNCT - {" "}))
             if not seg:
                 continue
+            special = check_special_segment(seg, legacy)
+            if special is not None:
+                out.extend(special)
+                continue
             if is_notation(seg):
                 continue                      # formulas, units, variables (§9)
-            phonetic_seg = seg.replace("'", "").replace("’", "")
-            if phonetic_seg != seg:
-                out.append(("word-apostrophe",
-                            f"'{seg}' — omit apostrophes inside phonetic words"))
             if any(c in CAPS for c in seg):
+                if "'" in seg or "’" in seg:
+                    out.append(("word-apostrophe",
+                                f"'{seg}' — omit apostrophes inside phonetic words"))
                 mixed_match = PHONETIC_WITH_LETTER_NAMES.fullmatch(seg)
                 if mixed_match:
                     prefix, letter_names = mixed_match.groups()
@@ -231,48 +391,7 @@ def check_string(text, legacy=False):
                     out.append(("mixed-capitals",
                                 f"'{seg}' — capitals only in letter-name tokens and their s / z / ɪz suffixes"))
                 continue                      # USB, USBz, PDFs — letter-name segment
-            if "g" in seg:
-                out.append(("ascii-g", f"'{seg}' — must be IPA ɡ (U+0261)"))
-            for ch in seg:
-                if ch not in allowed and ch not in RULE_COVERED:
-                    out.append(("illegal-char", f"'{ch}' (U+{ord(ch):04X}) in '{seg}'"))
-            for wrong, right in REDUCED_I_RULINGS:
-                if wrong in phonetic_seg:
-                    out.append(("reduced-i-spelling",
-                                f"'{seg}' — the reduced i takes ɪ, write "
-                                f"{phonetic_seg.replace(wrong, right)} (§4.4)"))
-            for wrong, right in IBLE_RULINGS:
-                if wrong in phonetic_seg:
-                    out.append(("ible-reduced-vowel",
-                                f"'{seg}' — -ible is fixed as ɪbəl, write "
-                                f"{phonetic_seg.replace(wrong, right)} (§7)"))
-            if phonetic_seg in PUPIL_RULINGS:
-                out.append(("pupil-vowel",
-                            f"'{seg}' — pupil takes ə, write "
-                            f"{PUPIL_RULINGS[phonetic_seg]} (§1.1)"))
-            vowel_shape = stressless(phonetic_seg)
-            traditional_matches = list(TRADITIONAL_DIPHTHONG.finditer(vowel_shape))
-            if traditional_matches:
-                out.append(("traditional-diphthong",
-                            f"'{seg}' — write ij uw ej ow aj aw ɔj"))
-            traditional_starts = {match.start() for match in traditional_matches}
-            for index, ch in enumerate(vowel_shape):
-                required = REQUIRED_GLIDES.get(ch)
-                if required is None or index in traditional_starts:
-                    continue
-                following = vowel_shape[index + 1] if index + 1 < len(vowel_shape) else ""
-                if not following or following not in required:
-                    forms = " / ".join(ch + glide for glide in required)
-                    out.append(("invalid-glide-vowel",
-                                f"'{seg}' — {ch} must occur as {forms}"))
-            nfd = unicodedata.normalize("NFD", phonetic_seg)
-            acutes = nfd.count(ACUTE)
-            if acutes > 1:
-                out.append(("multiple-acutes", f"'{seg}' — one primary stress per word"))
-            elif acutes == 0 and not legacy:
-                if phonetic_seg not in WEAK_FORMS:
-                    out.append(("unaccented-token",
-                                f"'{seg}' — not a §6 weak form, so it needs an acute"))
+            out.extend(check_phonetic_component(seg, legacy))
     return out
 
 
@@ -446,6 +565,104 @@ def layout_skeleton(token):
                    if ch not in "'’" and unicodedata.category(ch)[0] in "PS")
 
 
+def layout_atoms(token, forms):
+    """Keep punctuation, content, and recognized words in order."""
+    atoms = []
+    index = 0
+    while index < len(token):
+        for spelling, atom in forms:
+            end = index + len(spelling)
+            if token.startswith(spelling, index) and word_boundaries(token, index, end):
+                atoms.append(atom)
+                index = end
+                break
+        else:
+            ch = token[index]
+            if ch not in "'’" and unicodedata.category(ch)[0] in "PS":
+                atoms.append(("punctuation", ch))
+            elif ch not in "'’" and (not atoms or atoms[-1][0] != "content"):
+                atoms.append(("content", ""))
+            index += 1
+    return atoms
+
+
+def underscore_edges(atoms):
+    """Record whether each preserved underscore has content on either side."""
+    remaining = sum(kind != "punctuation" for kind, _ in atoms)
+    seen = False
+    edges = []
+    for kind, value in atoms:
+        if kind != "punctuation":
+            seen = True
+            remaining -= 1
+        elif value == "_":
+            edges.append((seen, remaining > 0))
+    return edges
+
+
+def split_approved_token(token):
+    """Split ordinary surrounding punctuation from a complete token core."""
+    start = 0
+    end = len(token)
+    while start < end and token[start] in APPROVED_TOKEN_WRAPPERS:
+        start += 1
+    while end > start and token[end - 1] in APPROVED_TOKEN_WRAPPERS:
+        end -= 1
+    return token[:start], token[start:end], token[end:]
+
+
+def punctuation_layout_matches(source_token, trans_token):
+    """Match punctuation, hiding only exact approved pairs or unchanged literals."""
+    if source_token == trans_token:
+        return True
+    if "_" not in source_token and "_" not in trans_token:
+        return layout_skeleton(source_token) == layout_skeleton(trans_token)
+
+    source_prefix, source_core, source_suffix = split_approved_token(source_token)
+    trans_prefix, trans_core, trans_suffix = split_approved_token(trans_token)
+    if ("_" not in source_token
+            and APPROVED_SEPARATED_WORDS.get(source_core) == trans_core
+            and source_prefix == trans_prefix and source_suffix == trans_suffix):
+        return True
+
+    # When literal identifier text otherwise matches, underscores must stay
+    # at their original offsets after restoring the approved word spellings.
+    normalized = SPECIAL_WORD_RX.sub(
+        lambda m: (APPROVED_SOURCE_BY_TRANSCRIPTION[m.group()]
+                   if word_boundaries(trans_token, m.start(), m.end()) else m.group()),
+        trans_token)
+    if (source_token.replace("_", "") == normalized.replace("_", "")
+            and source_token != normalized):
+        return False
+
+    trans_forms = [(word, ("word", word)) for word in APPROVED_SEPARATED_TRANSCRIPTIONS]
+    approved_spans = [(m.start(), m.end()) for m in SPECIAL_WORD_RX.finditer(trans_token)
+                      if (m.group() in APPROVED_SEPARATED_TRANSCRIPTIONS
+                          and word_boundaries(trans_token, m.start(), m.end()))]
+    literal_forms = []
+    for m in APPROVED_LOOKALIKE_SHAPE.finditer(trans_token):
+        if (word_boundaries(trans_token, m.start(), m.end())
+                and not any(m.start() < end and start < m.end()
+                            for start, end in approved_spans)):
+            literal_forms.append((m.group(), ("literal", m.group())))
+    trans_forms += literal_forms
+    trans_forms.sort(key=lambda pair: len(pair[0]), reverse=True)
+    trans_atoms = layout_atoms(trans_token, trans_forms)
+    trans_markers = {atom for atom in trans_atoms if atom[0] in {"word", "literal"}}
+    # A transcription-shaped source may itself be a verbatim identifier.
+    source_forms = [form for form in trans_forms if form[1] in trans_markers]
+    source_forms.sort(key=lambda pair: len(pair[0]), reverse=True)
+    source_atoms = layout_atoms(source_token, source_forms)
+    if underscore_edges(source_atoms) != underscore_edges(trans_atoms):
+        return False
+    if not trans_markers:
+        return layout_skeleton(source_token) == layout_skeleton(trans_token)
+
+    source_atoms = [atom for atom in source_atoms if atom[0] != "content"]
+    trans_atoms = [atom for atom in trans_atoms if atom[0] != "content"]
+    return source_atoms == trans_atoms
+
+
 def check_source_layout(source, transcription):
     """Check mechanically preservable layout between one source/transcription pair."""
     out = []
@@ -471,9 +688,11 @@ def check_source_layout(source, transcription):
 
         source_layout = layout_skeleton(source_token)
         trans_layout = layout_skeleton(trans_token)
-        if source_layout != trans_layout:
+        if not punctuation_layout_matches(source_token, trans_token):
             out.append(("punctuation-layout",
-                        f"token {index}: source {source_layout!r}, transcription {trans_layout!r}"))
+                        f"token {index}: source {source_layout!r}, transcription {trans_layout!r}"
+                        + (" (underscore is not at an approved boundary)"
+                           if source_layout == trans_layout else "")))
 
         ible_issue = check_ible_vowel(source_token, trans_token)
         if ible_issue:
@@ -563,6 +782,7 @@ VALID_SAMPLES = [D(s) for s in [
     "ɔ́l əv ðɛm ət ɔ́l",
     "pʊ́t ɒ́n ə wɒ́tʃ",
     "aj lájnd ðɛm ə́p ɒn ðə bɔ́rd.",
+    "tówkənz pər mɪ́nət ənd péj-pər-júws",
     "rɪláj ɒn ðɛm ənd pʊ́t ə́p wɪð ɪt.",
     "səm píjsɪz wər tʃɪ́pt. sə́m wər tʃɪ́pt.",
     "wɒ́t ɪz ðɪ́s? wɒ́t ə déj!",
@@ -593,6 +813,19 @@ VALID_SAMPLES = [D(s) for s in [
     "ðərz ə bʊ́k ðəts ówpən. ðǽts ɪt.",
     "ðə U.S. ənd ðə U.K.",
     "ówpənAI ówpənAIz ðij ówpənAI tɛ́st",
+    "O_ɔ́θ",
+    "dʒɛ́n_AI_ɒ̀ps",
+    "V_nɛ́t",
+    "Q_rɛ́lz",
+    "Odéjtə",
+    "(O_ɔ́θ), dʒɛ́n_AI_ɒ̀ps; V_nɛ́t Q_rɛ́lz Odéjtə",
+    "O_ɔ́θ, V_nɛ́t",
+    "O_ɔ́θ dʒɛ́n_AI_ɒ̀ps",
+    "O_ɔ́θ source_identifier",
+    "dʒɛ́n_AI_ɒ̀ps 2",
+    "π_AI_ω_2",
+    "sɪmǽntɪk sɪmǽntɪkəlij",
+    "mɑ̀trijɒ́ʃkə ǽlɡərɪ̀ðəm",
     "ə prówɡræ̀m kɔ́ld fingerd",
     "béjsɪs dɪbéjt rɪléjʃənʃɪ̀p ɪ̀nəvéjʃənz",
     "ɪɡzǽmpəl rìjɪvæ̀ljuwéjʃən lájklijhʊ̀d sə́tʃ æz nów",
@@ -611,6 +844,31 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("U..S.", "mixed-capitals"),
     ("U.s.", "mixed-capitals"),
     ("OpenAI", "mixed-capitals"),
+    ("Oméjd", "mixed-capitals"),
+    ("Odéjtəz", "mixed-capitals"),
+    ("O__ɔ́θ", "mixed-capitals"),
+    ("O_déjtə", "unapproved-separated-word"),
+    ("O_ɔθ", "unaccented-token"),
+    ("V_nɛt", "unaccented-token"),
+    ("Q_rɛlz", "unaccented-token"),
+    ("dʒɛn_AI_ɒ̀ps", "unaccented-token"),
+    ("dʒɛ́n_AI_ɒ́ps", "multiple-acutes"),
+    ("dʒɛ́n_AI_ɒps", "unapproved-separated-word"),
+    ("O_ɒ́θ", "unapproved-separated-word"),
+    ("Z_nɛ́t", "unapproved-separated-word"),
+    ("dʒɛ́n_XY_ɒ̀ps", "unapproved-separated-word"),
+    ("gɛ́n_AI_ɒ̀ps", "ascii-g"),
+    ("dʒɛ́n_AI_gɒ̀ps", "ascii-g"),
+    ("dʒɛ́n_AI_gɒ̀ps_2", "ascii-g"),
+    ("dʒɛn_AI_ɒ̀ps_2", "unaccented-token"),
+    ("V_nɛt_2", "unaccented-token"),
+    ("dʒɛ́n_AI_ɒ̀px", "illegal-char"),
+    ("dʒɛ́n_AI_ɒ̀po", "invalid-glide-vowel"),
+    ("O_ɛ́j", "epsilon-glide"),
+    ("O_e\u0301j", "encoding-decomposed"),
+    ("O_ɔ́ɹ", "banned-allophones"),
+    ("O_ɔ́θ_V_nɛt", "unaccented-token"),
+    ("dʒɛ́n_AI_ɒ̀ps_pjúwpɪl", "pupil-vowel"),
     ("owpənAI", "unaccented-token"),
     ("ópənAI", "invalid-glide-vowel"),
     ("gówAI", "ascii-g"),
@@ -650,6 +908,26 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
 ]]
 
 VALID_LAYOUT_SAMPLES = [
+    ("OAuth", "O_ɔ́θ"),
+    ("GenAIOps", "dʒɛ́n_AI_ɒ̀ps"),
+    ("VNet", "V_nɛ́t"),
+    ("qrels", "Q_rɛ́lz"),
+    ("OData", "Odéjtə"),
+    ("(OAuth), (qrels)", "(O_ɔ́θ), (Q_rɛ́lz)"),
+    ("'OAuth', \"VNet.\"", "'O_ɔ́θ', \"V_nɛ́t.\""),
+    ("[GenAIOps]", "[dʒɛ́n_AI_ɒ̀ps]"),
+    ("VNet_name", "VNet_name"),
+    ("OAuth_key", "OAuth_key"),
+    ("GenAIOps_mode", "GenAIOps_mode"),
+    ("my_VNet", "my_VNet"),
+    ("qrels_format", "qrels_format"),
+    ("OData_foo_bar", "OData_foo_bar"),
+    ("source_identifier", "source_identifier"),
+    ("O_other", "O_other"),
+    ("O_ɔ́θ", "O_ɔ́θ"),
+    ("semantic", "sɪmǽntɪk"),
+    ("semantically", "sɪmǽntɪkəlij"),
+    ("Matryoshka algorithm", "mɑ̀trijɒ́ʃkə ǽlɡərɪ̀ðəm"),
     ("OpenAI's fingerd test", "ówpənAIz fingerd tɛ́st"),
     ("U.S. (e.g., Mrs. Feldman)", "U.S. (E.G., mɪ́sɪz. fɛ́ldmən)"),
     ("re-establish high-stakes", "ríj-ɪstǽblɪʃ háj-stéjks"),
@@ -684,6 +962,55 @@ VALID_LAYOUT_SAMPLES = [
 ]
 
 INVALID_LAYOUT_SAMPLES = [
+    ("Other", "O_ɔ́θ", {"punctuation-layout"}),
+    ("Oauth", "O_ɔ́θ", {"punctuation-layout"}),
+    ("OAuth", "O_ɒ́θ", {"punctuation-layout"}),
+    ("OAuth", "O__ɔ́θ", {"punctuation-layout"}),
+    ("OData", "O_déjtə", {"punctuation-layout"}),
+    ("GenAIOps", "dʒɛ́n_AI_ɒps", {"punctuation-layout"}),
+    ("qrels", "Q__rɛ́lz", {"punctuation-layout"}),
+    ("VNet_name", "V_nɛ́t_name", {"punctuation-layout"}),
+    ("OAuth_key", "O_ɔ́θ_key", {"punctuation-layout"}),
+    ("GenAIOps_mode", "dʒɛ́n_AI_ɒ̀ps_mode", {"punctuation-layout"}),
+    ("my_VNet", "my_V_nɛ́t", {"punctuation-layout"}),
+    ("qrels_format", "Q_rɛ́lz_format", {"punctuation-layout"}),
+    ("prefix/OAuth", "prefix/O_ɔ́θ", {"punctuation-layout"}),
+    ("OAuth/key", "O_ɔ́θ/key", {"punctuation-layout"}),
+    ("VNet.name", "V_nɛ́t.name", {"punctuation-layout"}),
+    ("my-VNet", "my-V_nɛ́t", {"punctuation-layout"}),
+    ("qrels-format", "Q_rɛ́lz-format", {"punctuation-layout"}),
+    ("GenAIOps:mode", "dʒɛ́n_AI_ɒ̀ps:mode", {"punctuation-layout"}),
+    ("_OAuth", "_O_ɔ́θ", {"punctuation-layout"}),
+    ("OAuth_", "O_ɔ́θ_", {"punctuation-layout"}),
+    ("_VNet_", "_V_nɛ́t_", {"punctuation-layout"}),
+    ("_qrels", "_Q_rɛ́lz", {"punctuation-layout"}),
+    ("(GenAIOps_)", "(dʒɛ́n_AI_ɒ̀ps_)", {"punctuation-layout"}),
+    ("/OAuth", "/O_ɔ́θ", {"punctuation-layout"}),
+    (r"\\VNet", r"\\V_nɛ́t", {"punctuation-layout"}),
+    ("OAuth/VNet", "O_ɔ́θ/V_nɛ́t", {"punctuation-layout"}),
+    ("OAuth-VNet", "O_ɔ́θ-V_nɛ́t", {"punctuation-layout"}),
+    ("OAuth_VNet", "O_ɔ́θ_V_nɛ́t", {"punctuation-layout"}),
+    ("OAuth_foo", "O_ɔ́θ_fúw", {"punctuation-layout"}),
+    ("OAuth_O_id", "O_ɔ́θ_O_id", {"punctuation-layout"}),
+    ("OAuth_foo_bar", "O_ɔ́θ_foo_bar", {"punctuation-layout"}),
+    ("foo_OAuth_", "foo_O_ɔ́θ_", {"punctuation-layout"}),
+    ("OAuth_OAuth", "OAuth_O_ɔ́θ", {"punctuation-layout"}),
+    ("OAuth", "O_ɔ́θ_", {"punctuation-layout"}),
+    ("OAuth_", "O_ɔ́θ", {"punctuation-layout"}),
+    ("OAuth_foo", "O_ɔ́θfoo", {"punctuation-layout"}),
+    ("OAuth_foo_bar", "O_ɔ́θ_fo_obar", {"punctuation-layout"}),
+    ("OData_foo_bar", "Odéjtə_fo_obar", {"punctuation-layout"}),
+    ("Other_", "O_ɔθ", {"punctuation-layout"}),
+    ("source_identifier", "sourceidentifier", {"punctuation-layout"}),
+    ("source_identifier", "source__identifier", {"punctuation-layout"}),
+    ("source_identifier", "sourceidentifier_", {"punctuation-layout"}),
+    ("foo_bar_baz", "foo_ba_rbaz", {"punctuation-layout"}),
+    ("OAuth_VNet", "V_nɛ́t_O_ɔ́θ", {"punctuation-layout"}),
+    ("OAuth-VNet", "O_ɔ́θ/V_nɛ́t", {"punctuation-layout"}),
+    ("OAuth,", "O_ɔ́θ;", {"punctuation-layout"}),
+    ("OAuth2", "O_ɔ́θ2", {"punctuation-layout"}),
+    ("OAuth2", "O_ɔ́θ3", {"digits-changed", "punctuation-layout"}),
+    ("OAuth", "O_ɔ́θ ", {"whitespace-layout"}),
     ("re-establish", "rìjɪstǽblɪʃ", {"punctuation-layout"}),
     ("Mrs. Feldman", "mɪ́sɪz fɛ́ldmən", {"punctuation-layout"}),
     ("Hello,  world!", "həlów wɜ́rld.", {"whitespace-layout", "punctuation-layout"}),
@@ -700,9 +1027,18 @@ INVALID_LAYOUT_SAMPLES = [
 ]
 
 VALID_JSON_SAMPLES = [
+    [{"Question": "OAuth, GenAIOps, VNet, qrels, OData.",
+      "trans_Question": "O_ɔ́θ, dʒɛ́n_AI_ɒ̀ps, V_nɛ́t, Q_rɛ́lz, Odéjtə."}],
+    [{"Question": "OAuth and source_identifier",
+      "trans_Question": "O_ɔ́θ ənd source_identifier"}],
+    [{"Question": "VNet_name", "trans_Question": "VNet_name"}],
+    [{"Question": "semantic and semantically",
+      "trans_Question": "sɪmǽntɪk ənd sɪmǽntɪkəlij"}],
     [{"Question": "What's wrong?", "trans_Question": "wɒ́ts rɔ́ŋ?",
       "WrongAnswers": ["O'Connor left."], "trans_WrongAnswers": ["owkɒ́nər lɛ́ft."]}],
     [{"Question": "A pupil's pupils.", "trans_Question": "ə pjúwpəlz pjúwpəlz."}],
+    [{"Question": "Tokens per minute and pay-per-use.",
+      "trans_Question": "tówkənz pər mɪ́nət ənd péj-pər-júws."}],
         [{"Question": "This book. That book. These books. Those books.",
             "trans_Question": "ðɪs bʊ́k. ðæt bʊ́k. ðijz bʊ́ks. ðowz bʊ́ks."}],
         [{"Question": "That is a book. I know that that works. That's it.",
@@ -710,6 +1046,19 @@ VALID_JSON_SAMPLES = [
 ]
 
 INVALID_JSON_SAMPLES = [
+    ([{"Question": "VNet_name", "trans_Question": "V_nɛ́t_name"}],
+     {"punctuation-layout"}),
+    ([{"Question": "OAuth/key", "trans_Question": "O_ɔ́θ/key"}],
+     {"punctuation-layout"}),
+    ([{"Question": "OAuth", "trans_Question": "O_ɔθ"}],
+     {"unaccented-token", "punctuation-layout"}),
+    ([{"Question": "GenAIOps", "trans_Question": "dʒɛ́n_AI_gɒ̀ps"}],
+     {"ascii-g", "punctuation-layout"}),
+    ([{"Question": "Other", "trans_Question": "O_ɔ́θ"}], {"punctuation-layout"}),
+    ([{"Question": "OAuth_foo", "trans_Question": "O_ɔ́θfoo"}],
+     {"unapproved-separated-word", "punctuation-layout"}),
+    ([{"Question": "OData", "trans_Question": "Oméjd"}], {"mixed-capitals"}),
+    ([{"Question": "market", "trans_Question": "mɑ́rkɪt"}], {"e-reduction"}),
     ([{"Question": "All of them.", "trans_Question": "ɔl əv ðɛm."}], {"unaccented-token"}),
     ([{"Question": "Pupil.", "trans_Question": "pjúwpɪl."}], {"pupil-vowel"}),
     ([{"Question": "Hi"}], {"missing-transcription"}),
