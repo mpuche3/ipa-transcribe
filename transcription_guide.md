@@ -27,16 +27,17 @@ Three deliberate departures from pure GA remain: the `ɒ`/`ɑ` distinction is ke
 
 ### 1.1 Word-family pronunciation preferences
 
-These are author-selected lexical overrides (2026-10-25), not general sound-change rules. Apply them before the dictionary default and consult `transcription-corrections.json` for concrete replacements.
+These are author-selected lexical overrides (2026-10-25 and 2026-11-01), not general sound-change rules. Apply them before the dictionary default and consult `transcription-corrections.json` for concrete replacements.
 
 | Family | Write | Do not use for this family |
 |---|---|---|
 | *toward / towards* | `təwɔ́rd` / `təwɔ́rdz` — two syllables, retaining the initial schwa and `w` | `tɔ́rd` / `tɔ́rdz`, `twɔ́rd` / `twɔ́rdz` |
 | *poor* and its derivatives | *poor* `pɔ́r`, *poorer* `pɔ́rər`, *poorest* `pɔ́rəst`, *poorly* `pɔ́rlij`; retain the `pɔr` stem in other derivatives and compounds | the corresponding `pʊr` or `puwr` stem |
+| *pupil* and its regular plural/possessive forms | *pupil* `pjúwpəl`; *pupils*, *pupil's*, *pupils'* `pjúwpəlz` | the corresponding `pjúwpɪl` stem |
 
 The spellings *toward / towards* retain their word-internal acute in running text, including prepositional uses, as polysyllabic function words (§6). In other derivatives and compounds, change only the relevant stem sounds; retain the applicable suffix, stress, and layout rules.
 
-**Scope is lexical, not a substring match.** These preferences affect only these two word families. They do not merge CURE into NORTH/FORCE generally: *sure* `ʃʊ́r`, *pure* `pjʊ́r`, *during* `dʊ́rɪŋ`, and *security* `sɪkjʊ́rɪtij` remain unchanged. Do not infer changes to unrelated `t` or `w` sequences.
+**Scope is lexical, not a substring match.** These preferences affect only the listed words and forms. They do not merge CURE into NORTH/FORCE generally: *sure* `ʃʊ́r`, *pure* `pjʊ́r`, *during* `dʊ́rɪŋ`, and *security* `sɪkjʊ́rɪtij` remain unchanged. Do not infer changes to unrelated `t` or `w` sequences or to other words with a reduced vowel spelled `i`.
 
 ## 2. The system at a glance
 
@@ -60,7 +61,7 @@ One-glance symbol chart (details in §3–§5):
 7. Content words always carry an accent — even monosyllables (`méjd`, `fíjl`). Treat *all* (`ɔ́l`), *not* (`nɒ́t`), independent demonstratives (`ðɪ́s`, `ðǽt`, `ðíjz`, `ðówz`), and verbal particles (`ə́p`, `dáwn`, `áwt`, `ɒ́n`) as content-like. Neutral demonstrative determiners are bare (`ðɪs`, `ðæt`, `ðijz`, `ðowz`); explicit contrast takes the accented forms. Choose function-word forms by grammatical role (§6): weak monosyllables have **no accent** (`əv`, `ənd`, `tə`, `ðə` / `ðij`, `kən`, `fɔr`); polysyllables keep their internal stress. Interrogative/exclamative *what* is `wɒ́t`; fused-relative *what* is bare `wɒt`. Conjunction/relative *that* remains `ðət`.
 8. Digits and years stay in written form (`2`, `1970s`, `'70s`); letters read by name stay as **capital** letters: `T-ʃɜ́rt`, `USB`. A pronounced plural or possessive suffix is lowercase and phonetic: `USBz`, `PDFs`, `Xɪz`. Equations, formulas, and units pass through verbatim: `e = mc^2`, `sin(x)`, `km/h` (§9).
 9. Use IPA letterforms: `ɡ` (U+0261) not `g`, `j` for the *y* sound, `r` not `ɹ`.
-10. When varieties of English disagree, General American wins unless an explicit lexical override applies: `íjðər`, `skɛ́dʒuwl`, `ɜ́rb`; *towards* `təwɔ́rdz`, *poor* `pɔ́r` (§1).
+10. When varieties of English disagree, General American wins unless an explicit lexical override applies: `íjðər`, `skɛ́dʒuwl`, `ɜ́rb`; *towards* `təwɔ́rdz`, *poor* `pɔ́r`, *pupil* `pjúwpəl` (§1).
 
 ## 3. Consonants
 
@@ -177,7 +178,9 @@ Rules:
 3. Otherwise follow the **spelling** of the reduced vowel: **i, y or e → `ɪ`** (`prɒ́fɪt`, `mɛ́dɪsɪn`, `ǽnəlɪst`, `nɒ́lɪdʒ`); **any other letter → `ə`** (`mɪ́nət`, `kɒ́tən`, `prɒ́bləm`). A reduced **`e` keeps `ə`** when the next symbol is *r, l, n, m, ŋ* or *t* — read from the transcription, since syllable boundaries are not written: `ə́ðər`, `téjbəl`, `dɪ́frənt`, `fɪ́tnəs`, `dʒɛ́nərɪk`, `mɑ́rkət`, `tɑ́rɡət`, `tɪ́kət`. Otherwise it takes `ɪ` (`nɒ́lɪdʒ`, `spɪsɪ́fɪk`, `ɔ̀rkɪstréjʃən`), and the fixed §7 endings still win (`hájəst`, `tájmləs`, `kɪ́ndnəs`). **The `e` case is a per-word register, not a rule** (author, 2026-10-04): a reduced `e` can reduce to either `ɪ` or `ə`, and which one a given word takes depends on the word — no rule can be stated from this corpus. The default above (spelled `e` → `ɪ`) is the starting point and what the swept corpus follows, but the dictionaries disagree with it in both directions (`sɪ́nθɪsɪs` against M-W `ˈsin(t)-thə-səs`, `dɛ́fɪnɪt` against M-W `ˈde-fə-nət`), so any word may settle on either vowel, recorded in the ledger rather than derived here — and the ledger is where such a word is looked up, not this paragraph. **Only the schwa half is checked mechanically** — a reduced `e` before *r, l, n, m, ŋ, t* must be `ə`; the `ɪ` half is practice, so `spəsɪ́fɪk` and `spɪsɪ́fɪk` both pass the validator and the ledger records which one the corpus uses.
 4. Vowel digraphs default to `ə`: *mountain* `máwntən`, *captain* `kǽptən`, *foreign* `fɔ́rən`. When one letter of the digraph is silent, the sounded letter decides: *biscuit* `bɪ́skɪt`, *circuit* `sɜ́rkɪt` (the u is silent, as in *build*).
 
-The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and stressed vowels are unaffected. Within this zone the tie-breaker outranks dictionary notation (§1).
+The rule touches only genuinely reduced vowels — happY `ij` (`bɒ́dij`) and stressed vowels are unaffected. Within this zone the tie-breaker outranks dictionary notation, subject to explicit lexical overrides (§1).
+
+**The *pupil* exception (author, 2026-11-01).** Write *pupil* `pjúwpəl` and its regular plural and possessive forms `pjúwpəlz`, not `pjúwpɪl(z)`. This author-selected pronunciation overrides the spelled-`i` tie-breaker for these forms only (§1.1); it does not change the treatment of other reduced `i` vowels.
 
 **The `di-` first syllable: PRICE `aj` or reduced `ɪ`.** A few `di-` words have two readings in the dictionaries — a PRICE first syllable (`dī-`) and a reduced one (`də-`): *diversity* (`də-ˈvər-sə-tē, dī-`), *dimension* (`də-ˈmen(t)-shən also dī-`), *diverge* (`də-ˈvərj, dī-`), *digestible* (`dī-ˈje-stə-bəl, də-`) and *digression* (`dī-ˈgre-shən, də-`) and *diverse* (`dī-ˈvərs, də-ˈvərs, ˈdī-ˌvərs`). **Write the reduced one, `dɪ`** — the spelling tie-breaker sends a reduced syllable spelled `i` to `ɪ`, giving `dɪvɜ́rsɪtij`, `bàjowdɪvɜ́rsɪtij`, `dɪmɛ́nʃən`, `dɪvɜ́rdʒ`, `dɪdʒɛ́stɪbəl`, `dɪɡrɛ́ʃən`, `dɪvɜ́rs`. The author's rule (2026-10-01) is to prefer the kit vowel whenever the two readings are similarly widely used, which is what the corpus already did for the rest of the family (*divide* `dɪvájd`, *diminish* `dɪmɪ́nɪʃ`, *diverge* `dɪvɜ́rdʒ`). Which reading the dictionary lists first does not decide — it is the reduced one for *diversity* and *dimension* and the PRICE one for *diverse*, *digestible* and *digression*. Words with a single reading are untouched — *dynamic* `dajnǽmɪk`, *diagram* `dájəɡræ̀m`, *dialogue* `dájəlɔ̀ɡ`, *diagnosis* `dàjəɡnówsɪs` and *die / dies / died* `dáj / dájz / dájd` are all PRICE only.
 
@@ -426,6 +429,7 @@ Most of the guide's bans are regex-checkable. Phonetic material must have **zero
 | `[iuɜɑɔɒɛ]ː` | length-marked vowels |
 | `j[úù]wnə` | a reduced `i` written `ə` — `-uni-` (`júwnɪts`, `jùwnɪvɜ́rsɪtij`), `communi-` (`kəmjúwnɪkèjt`) and *punitive* `pjúwnɪtɪv` take `ɪ`; the tie-breaker outranks M-W's schwa (§4.4) |
 | `flɛ́ksə` `vɪ́zə` `spɒ́nsə` `sɛ̀ptəbɪ́` `krɛ̀dəbɪ́` `dùwsəbɪ́` `sɛsəbɪ́` | a reduced `i` before the `b` of the fixed `-ible` ending written `ə` — `flɛ́ksɪbəl`, `rɪspɒ́nsɪbəl`, `vɪ́zɪbəl`, `səsɛ̀ptɪbɪ́lɪtij`, `krɛ̀dɪbɪ́lɪtij`, `rìjprədùwsɪbɪ́lɪtij`, `æ̀ksɛsɪbɪ́lɪtij` take `ɪ` (§7) |
+| `pjúwpɪl`, `pjúwpɪlz` as whole phonetic words or hyphenated segments | *pupil* and its regular plural/possessive forms use `pjúwpəl` / `pjúwpəlz`, an explicit exception to the spelled-`i` tie-breaker (§1.1) |
 | `ǽ` (U+01FD, precomposed) | NFC artifact — write `æ` + combining acute (U+0301) instead |
 | `ɛ́j`, `ɛ̀j` (ɛ + accent + j) | FACE is `ej` — write `éj` / `èj` (`béjsɪs`, `dɪbéjt`, `ɪ̀nəvéjʃənz`); `ɛ` is DRESS, and no word writes DRESS + glide (§4.2) |
 
@@ -579,6 +583,7 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 | `wɪ́ðɪn`, `ɪ́nsajts`, `pɜ́rsənəlajzd` | `wɪðɪ́n`, `ɪ́nsàjts`, `pɜ́rsənəlàjzd` | a word's primary stress takes the acute wherever it falls, and every other stressed syllable takes the grave — M-W's `wi-ˈthin`, `ˈin-ˌsīt`, `ˈpər-sə-nə-ˌlīzd` (§5) |
 | `kɑ́nsɛpt`, `kowɑ̀pərèjʃən` | `kɒ́nsɛpt`, `kowɒ̀pəréjʃən` | LOT is `ɒ` (*concept*, *cooperation*, *competition*, *population*); `ɑ` is PALM (*father*, *heart*, *argue*) — M-W writes `ä` for both, so the word's class decides, not the dictionary glyph (§4.1) |
 | `mɑ́rkɪtɪŋ`, `íjzəlij` | `mɑ́rkətɪŋ`, `íjzɪlij` | outside the fixed morphemes, weak `ɪ`~`ə` follows the spelling tie-breaker (§4.4) |
+| `pjúwpɪl`, `pjúwpɪlz` | `pjúwpəl`, `pjúwpəlz` | *pupil* and its regular plural/possessive forms use `ə` by author-selected lexical exception, despite the spelled `i` (§1.1, §4.4) |
 | `kɒ́nsɛ̀pt` | `kɒ́nsɛpt` | a two-syllable word does not write a grave on its final syllable — M-W's secondary stress on the last syllable of a disyllable is left unwritten (`prɒ́sɛs`, `prówɡræm`, `prɒ́dəkt`, `kɒ́ntɛkst`); longer words keep their graves (`mæ̀θəmǽtɪkəl`, `ɪ̀ndɪvɪ́dʒuwəl`) |
 | `nɒ́lədʒ`, `spəsɪ́fɪk`, `ɔ̀rkəstréjʃən`, `kǽtəɡɔ̀rij`, `strǽtədʒij` | `nɒ́lɪdʒ`, `spɪsɪ́fɪk`, `ɔ̀rkɪstréjʃən`, `kǽtɪɡɔ̀rij`, `strǽtɪdʒij` | a reduced `e` takes `ɪ` like a spelled `i` or `y`; it keeps `ə` when the next symbol is `r`, `l`, `n`, `m`, `ŋ` or `t` (`ə́ðər`, `téjbəl`, `dɪ́frənt`, `prɒ́bləm`, `fɪ́tnəs`, `mɑ́rkət`, `tɑ́rɡət`); fixed §7 endings win (`hájəst`, `tájmləs`); the `e` case is decided word by word for now, with the ledger as the register (§4.4) |
 | `júwnəts`, `jùwnəvɜ́rsətij`, `pjúwnətɪv` | `júwnɪts`, `jùwnɪvɜ́rsɪtij`, `pjúwnɪtɪv` | a reduced `i` takes `ɪ`, not M-W's schwa, in the `-uni-` and `communi-` families and in *punitive*; the corpus was split, and the guide's own §6 example has been corrected (§4.4) |

@@ -151,15 +151,15 @@
   },
   {
     "word": "pupil",
-    "wrong_transcription": "pjúwpəl",
-    "correct_transcription": "pjúwpɪl",
-    "explanation": "The reduced vowel is spelled i, so the weak-vowel tie-breaker gives ɪ."
+    "wrong_transcription": "pjúwpɪl",
+    "correct_transcription": "pjúwpəl",
+    "explanation": "Author ruling 2026-11-01: pupil keeps the reduced schwa despite the spelled i. This lexical exception overrides the §4.4 spelling tie-breaker for pupil and its regular plural and possessive forms only."
   },
   {
     "word": "pupils",
-    "wrong_transcription": "pjúwpəlz",
-    "correct_transcription": "pjúwpɪlz",
-    "explanation": "The reduced vowel is spelled i, so the weak-vowel tie-breaker gives ɪ."
+    "wrong_transcription": "pjúwpɪlz",
+    "correct_transcription": "pjúwpəlz",
+    "explanation": "Author ruling 2026-11-01: retain the pupil stem's reduced schwa before the plural z; pupil's and pupils' use the same stem and suffix. The exception does not generalize to unrelated spelled-i words."
   },
   {
     "word": "utilized",
@@ -300,7 +300,7 @@
     "explanation": "The reduced middle vowel is spelled i, so it must be ɪ rather than ə."
   },
   {
-    "word": "uses",
+    "word": "uses (verb)",
     "wrong_transcription": "júwsɪz",
     "correct_transcription": "júwzɪz",
     "explanation": "This is the verb use, whose guide form is júwz; júws is the noun."
@@ -2348,14 +2348,14 @@
   {
     "word": "minimizes",
     "wrong_transcription": "mɪ́nəmàjzəz",
-    "correct_transcription": "mɪ́nɪmàjzəz",
-    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: mɪ́nəmàjzəz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+    "correct_transcription": "mɪ́nɪmàjzɪz",
+    "explanation": "The reduced medial vowel is spelled i, and the sibilant -es ending is fixed as ɪz (§4.4, §7). The 2026-09-27 medial-vowel sweep changed mɪ́nəmàjzəz to mɪ́nɪmàjzəz in one AI-103 token and regenerated TRN_ONE.txt, but initially retained the incorrect əz ending; both vowels must be corrected."
   },
   {
     "word": "stabilizes",
     "wrong_transcription": "stéjbəlàjzəz",
-    "correct_transcription": "stéjbɪlàjzəz",
-    "explanation": "The reduced vowel is spelled i/y, so §4.4's spelling tie-breaker gives ɪ rather than the dictionary's schwa; this word was written one way only, and the 2026-09-27 full-class pass brought it into line with the rule. Before: stéjbəlàjzəz ×1 (examples 0, AI-103 1). Swept 1 token(s) (examples 0, AI-103 1); TRN_ONE.txt regenerated."
+    "correct_transcription": "stéjbɪlàjzɪz",
+    "explanation": "The reduced medial vowel is spelled i, and the sibilant -es ending is fixed as ɪz (§4.4, §7). The 2026-09-27 medial-vowel sweep changed stéjbəlàjzəz to stéjbɪlàjzəz in one AI-103 token and regenerated TRN_ONE.txt, but initially retained the incorrect əz ending; both vowels must be corrected."
   },
   {
     "word": "monitored",
@@ -4450,5 +4450,365 @@
     "wrong_transcription": "sə́təlij",
     "correct_transcription": "sə́tlij",
     "explanation": "Merriam-Webster's first listing for the adverb subtly is ˈsət-lē, already compressed; the fuller ˈsə-tᵊl-(l)ē is a later variant (https://www.merriam-webster.com/dictionary/subtle, verified 2026-10-25). Under §4.4, use the derived word's own first listing, not the base subtle's syllabic-l form, and preserve the compressed shape. Corrected 1 token in examples/TRN_TheMereExposureEffect.md, line 15; all 5 occurrences in examples/TRN_BodyLanguage.md already used sə́tlij."
+  },
+  {
+    "word": "stimuli",
+    "wrong_transcription": "stɪ́mjəlaj",
+    "correct_transcription": "stɪ́mjəlàj",
+    "explanation": "The plural has secondary stress on its final PRICE syllable (US /ˈstɪm.jəˌlaɪ/); mark it with a grave (§5). This does not change singular stimulus."
+  },
+  {
+    "word": "complexity",
+    "wrong_transcription": "kɒmplɛ́ksətij",
+    "correct_transcription": "kəmplɛ́ksɪtij",
+    "explanation": "The initial syllable is reduced, and the fixed -ity ending is ɪtij (§4.4, §7). The stressed vowel is DRESS ɛ."
+  },
+  {
+    "word": "qualities",
+    "wrong_transcription": "kwɒ́lətijz",
+    "correct_transcription": "kwɑ́lɪtijz",
+    "explanation": "The quality family uses the qua- PALM vowel ɑ, and -ities is fixed as ɪtijz (§4.1, §7)."
+  },
+  {
+    "word": "reminds",
+    "wrong_transcription": "rɪmájnz",
+    "correct_transcription": "rɪmájndz",
+    "explanation": "Retain the pronounced d of remind before the third-person z; broad transcription does not delete it (§3)."
+  },
+  {
+    "word": "phenotypes",
+    "wrong_transcription": "fíjnətajps",
+    "correct_transcription": "fíjnətàjps",
+    "explanation": "The compound phenotype has primary stress on the first element and secondary stress on type; the plural keeps those stresses (§5.3)."
+  },
+  {
+    "word": "nuanced",
+    "wrong_transcription": "núwɑ̀nst",
+    "correct_transcription": "núwɑnst",
+    "explanation": "Omit the final secondary stress in this two-syllable word (§13); the first syllable keeps its primary stress."
+  },
+  {
+    "word": "discount (noun)",
+    "wrong_transcription": "dɪ́skàwnt",
+    "correct_transcription": "dɪ́skawnt",
+    "explanation": "The noun has initial stress; omit the final secondary stress in a two-syllable word (§8, §13). The verb has a different stress pattern."
+  },
+  {
+    "word": "discounts (noun plural)",
+    "wrong_transcription": "dɪ́skàwnts",
+    "correct_transcription": "dɪ́skawnts",
+    "explanation": "The plural of the noun discount keeps initial stress and omits the final secondary stress of this disyllable (§8, §13)."
+  },
+  {
+    "word": "format (noun)",
+    "wrong_transcription": "fɔ́rmæ̀t",
+    "correct_transcription": "fɔ́rmæt",
+    "explanation": "The noun has initial stress; omit the final secondary stress in a two-syllable word (§13)."
+  },
+  {
+    "word": "detail (noun)",
+    "wrong_transcription": "díjtèjl",
+    "correct_transcription": "díjtejl",
+    "explanation": "The noun has initial stress; omit the final secondary stress in a two-syllable word (§13). Check the role before applying a noun form."
+  },
+  {
+    "word": "retail (noun or modifier)",
+    "wrong_transcription": "ríjtèjl",
+    "correct_transcription": "ríjtejl",
+    "explanation": "The noun has initial stress; omit the final secondary stress in a two-syllable word (§13)."
+  },
+  {
+    "word": "transport (noun)",
+    "wrong_transcription": "trǽnspɔ̀rt",
+    "correct_transcription": "trǽnspɔrt",
+    "explanation": "The noun has initial stress; omit the final secondary stress in a two-syllable word (§8, §13). Do not apply the noun stress to the verb."
+  },
+  {
+    "word": "survey (noun)",
+    "wrong_transcription": "sɜ́rvèj",
+    "correct_transcription": "sɜ́rvej",
+    "explanation": "The noun has initial stress; omit the final secondary stress in a two-syllable word (§8, §13)."
+  },
+  {
+    "word": "surveys (noun plural)",
+    "wrong_transcription": "sərvéjz",
+    "correct_transcription": "sɜ́rvejz",
+    "explanation": "The plural noun has initial NURSE stress, unlike the final-stressed verb; it does not mark a final secondary stress in a disyllable (§8, §13)."
+  },
+  {
+    "word": "essay (noun)",
+    "wrong_transcription": "ɛ́sèj",
+    "correct_transcription": "ɛ́sej",
+    "explanation": "The noun has initial stress; omit the final secondary stress in a two-syllable word (§13)."
+  },
+  {
+    "word": "robot",
+    "wrong_transcription": "rówbɒ̀t",
+    "correct_transcription": "rówbɒt",
+    "explanation": "Omit the final secondary stress in this two-syllable word (§13)."
+  },
+  {
+    "word": "robots",
+    "wrong_transcription": "rówbɒ̀ts",
+    "correct_transcription": "rówbɒts",
+    "explanation": "The plural keeps the disyllabic robot stem without a final secondary stress (§13), followed by voiceless s."
+  },
+  {
+    "word": "asset",
+    "wrong_transcription": "ǽsɛ̀t",
+    "correct_transcription": "ǽsɛt",
+    "explanation": "Omit the final secondary stress in this two-syllable noun (§13)."
+  },
+  {
+    "word": "analyses (noun plural)",
+    "wrong_transcription": "ənǽləsijz",
+    "correct_transcription": "ənǽlɪsìjz",
+    "explanation": "The reduced medial y takes ɪ as in analysis; the plural noun's final FLEECE syllable carries secondary stress (§4.4, §5; https://www.dictionary.com/browse/analyses). The verb analyses has a different pronunciation."
+  },
+  {
+    "word": "expectation",
+    "wrong_transcription": "ɪ̀kspɛktéjʃən",
+    "correct_transcription": "ɛ̀kspɛktéjʃən",
+    "explanation": "The secondary-stressed first syllable has DRESS ɛ rather than reduced KIT ɪ; the primary stress remains on -tation (§5)."
+  },
+  {
+    "word": "expectations",
+    "wrong_transcription": "ɪ̀kspɛktéjʃənz",
+    "correct_transcription": "ɛ̀kspɛktéjʃənz",
+    "explanation": "The plural retains the secondary-stressed DRESS vowel of expectation and adds z (§5)."
+  },
+  {
+    "word": "mutual",
+    "wrong_transcription": "mjúwtʃəwəl",
+    "correct_transcription": "mjúwtʃuwəl",
+    "explanation": "The unstressed GOOSE vowel in the second syllable is uw, not əw (§4.2, §4.5), as in actual."
+  },
+  {
+    "word": "minority",
+    "wrong_transcription": "mənɔ́rətij",
+    "correct_transcription": "mɪnɔ́rɪtij",
+    "explanation": "The reduced initial i takes ɪ, and -ity is fixed as ɪtij (§4.4, §7)."
+  },
+  {
+    "word": "indirect",
+    "wrong_transcription": "ɪ̀ndərɛ́kt",
+    "correct_transcription": "ɪ̀ndɪrɛ́kt",
+    "explanation": "Retain the reduced dɪ- of the ruled direct family after in- (§4.4); this does not change the initial secondary stress."
+  },
+  {
+    "word": "redirect",
+    "wrong_transcription": "rìjdərɛ́kt",
+    "correct_transcription": "rìjdɪrɛ́kt",
+    "explanation": "Retain the reduced dɪ- of the ruled direct family after stressed re- (§4.4)."
+  },
+  {
+    "word": "overriding",
+    "wrong_transcription": "òwvərájdɪŋ",
+    "correct_transcription": "òwvərrájdɪŋ",
+    "explanation": "Keep the rhotic r of over and the initial r of ride in the broad compound transcription, as in the recorded overridden form (§3)."
+  },
+  {
+    "word": "upcoming",
+    "wrong_transcription": "əpkə́mɪŋ",
+    "correct_transcription": "ə́pkə̀mɪŋ",
+    "explanation": "This solid compound takes primary stress on up and secondary stress on coming (§5.3)."
+  },
+  {
+    "word": "uplift (verb)",
+    "wrong_transcription": "ə́plɪ̀ft",
+    "correct_transcription": "əplɪ́ft",
+    "explanation": "The verb uplift has final stress; distinguish it from the initially stressed noun (§8)."
+  },
+  {
+    "word": "imprint (noun)",
+    "wrong_transcription": "ɪ̀mprɪ́nt",
+    "correct_transcription": "ɪ́mprɪnt",
+    "explanation": "The noun has initial stress, unlike the final-stressed verb; the final secondary stress is omitted in a disyllable (§8, §13)."
+  },
+  {
+    "word": "increases (noun plural)",
+    "wrong_transcription": "ɪnkríjsɪz",
+    "correct_transcription": "ɪ́nkrìjsɪz",
+    "explanation": "The plural noun keeps the noun's initial primary stress and secondary stress on -crease; the verb increases is final-stressed (§5, §8)."
+  },
+  {
+    "word": "fragment (noun)",
+    "wrong_transcription": "fræɡmɛ́nt",
+    "correct_transcription": "frǽɡmənt",
+    "explanation": "The noun fragment has initial stress and a reduced final syllable; the verb uses the final-stressed form (§8)."
+  },
+  {
+    "word": "engineered",
+    "wrong_transcription": "ɛ̀ndʒəníjrd",
+    "correct_transcription": "ɛ̀ndʒɪnɪ́rd",
+    "explanation": "Retain the recorded engineer stem's reduced i and NEAR ɪr vowel before the past-tense d (§4.3, §4.4)."
+  },
+  {
+    "word": "electronics",
+    "wrong_transcription": "ɪ̀lɛ̀ktrɒ́nɪks",
+    "correct_transcription": "ɪlɛ̀ktrɒ́nɪks",
+    "explanation": "The initial syllable is unstressed; secondary stress is on lec and primary stress on tron (§5)."
+  },
+  {
+    "word": "excellence",
+    "wrong_transcription": "ɛ́ksɪləns",
+    "correct_transcription": "ɛ́ksələns",
+    "explanation": "The reduced e before l takes ə under the §4.4 spelling tie-breaker."
+  },
+  {
+    "word": "invent",
+    "wrong_transcription": "ɪ̀nvɛ́nt",
+    "correct_transcription": "ɪnvɛ́nt",
+    "explanation": "The initial syllable is unstressed; primary stress is on -vent (§5)."
+  },
+  {
+    "word": "imitate",
+    "wrong_transcription": "ɪ́mətèjt",
+    "correct_transcription": "ɪ́mɪtèjt",
+    "explanation": "The reduced medial vowel is spelled i and takes ɪ (§4.4); the verb's -ate suffix retains secondary stress (§7)."
+  },
+  {
+    "word": "steadily",
+    "wrong_transcription": "stɛ́dəlij",
+    "correct_transcription": "stɛ́dɪlij",
+    "explanation": "The fixed -ily ending is ɪlij (§7)."
+  },
+  {
+    "word": "diluted",
+    "wrong_transcription": "dàjlúwtɪd",
+    "correct_transcription": "dɪlúwtɪd",
+    "explanation": "Prefer the reduced dɪ- reading for this di- word when reduced and PRICE pronunciations are both used (§4.4)."
+  },
+  {
+    "word": "radically",
+    "wrong_transcription": "rǽdɪklij",
+    "correct_transcription": "rǽdɪkəlij",
+    "explanation": "The fixed -ally ending is əlij, even where a dictionary offers a compressed pronunciation (§4.4, §7)."
+  },
+  {
+    "word": "overstates",
+    "wrong_transcription": "ówvərstèjts",
+    "correct_transcription": "òwvərstéjts",
+    "explanation": "The verb overstate has secondary stress on over- and primary stress on -state (§5)."
+  },
+  {
+    "word": "challenged",
+    "wrong_transcription": "tʃǽlɪndʒd",
+    "correct_transcription": "tʃǽləndʒd",
+    "explanation": "Keep the recorded challenge stem's reduced e as ə before n and add the voiced past-tense d (§4.4, §7)."
+  },
+  {
+    "word": "minimizes (ending only)",
+    "wrong_transcription": "mɪ́nɪmàjzəz",
+    "correct_transcription": "mɪ́nɪmàjzɪz",
+    "explanation": "The medial vowel was already corrected, but the sibilant -es ending must also be ɪz (§4.4, §7)."
+  },
+  {
+    "word": "stabilizes (ending only)",
+    "wrong_transcription": "stéjbɪlàjzəz",
+    "correct_transcription": "stéjbɪlàjzɪz",
+    "explanation": "The medial vowel was already corrected, but the sibilant -es ending must also be ɪz (§4.4, §7)."
+  },
+  {
+    "word": "this (independent demonstrative)",
+    "wrong_transcription": "ðɪs",
+    "correct_transcription": "ðɪ́s",
+    "explanation": "Independent this is accented; a neutral determiner before a noun remains bare (§6)."
+  },
+  {
+    "word": "this (neutral determiner)",
+    "wrong_transcription": "ðɪ́s",
+    "correct_transcription": "ðɪs",
+    "explanation": "Neutral determiner this is bare; independent or explicitly contrastive this remains accented (§6)."
+  },
+  {
+    "word": "these (independent demonstrative)",
+    "wrong_transcription": "ðijz",
+    "correct_transcription": "ðíjz",
+    "explanation": "Independent these is accented; a neutral determiner before a noun remains bare (§6)."
+  },
+  {
+    "word": "these (neutral determiner)",
+    "wrong_transcription": "ðíjz",
+    "correct_transcription": "ðijz",
+    "explanation": "Neutral determiner these is bare; independent or explicitly contrastive these remains accented (§6)."
+  },
+  {
+    "word": "have (auxiliary)",
+    "wrong_transcription": "hǽv",
+    "correct_transcription": "həv",
+    "explanation": "Have introducing a past participle is weak by default; lexical, contrastive and applicable clause-final uses can be accented (§6)."
+  },
+  {
+    "word": "have (lexical verb)",
+    "wrong_transcription": "həv",
+    "correct_transcription": "hǽv",
+    "explanation": "Lexical have expressing possession or another main-verb meaning is accented; auxiliary have remains weak by default (§6)."
+  },
+  {
+    "word": "have (obligation)",
+    "wrong_transcription": "həv",
+    "correct_transcription": "hǽf",
+    "explanation": "In obligation have to, have is accented and devoiced to hǽf; this does not change auxiliary have before a past participle (§6)."
+  },
+  {
+    "word": "had (auxiliary)",
+    "wrong_transcription": "hǽd",
+    "correct_transcription": "həd",
+    "explanation": "Had introducing a past participle is weak by default; lexical or contrastive had can be accented (§6)."
+  },
+  {
+    "word": "what (interrogative)",
+    "wrong_transcription": "wɒt",
+    "correct_transcription": "wɒ́t",
+    "explanation": "Interrogative what, including an established embedded question, is accented; fused-relative what remains bare (§6)."
+  },
+  {
+    "word": "on (verbal particle)",
+    "wrong_transcription": "ɒn",
+    "correct_transcription": "ɒ́n",
+    "explanation": "The particle on in constructions such as pass the work on or take on a task is accented; neutral prepositional on stays bare (§6)."
+  },
+  {
+    "word": "for (stranded preposition)",
+    "wrong_transcription": "fɔr",
+    "correct_transcription": "fɔ́r",
+    "explanation": "A stranded preposition with no following complement takes its strong accented form; ordinary prepositional for remains weak (§6)."
+  },
+  {
+    "word": "from (stranded preposition)",
+    "wrong_transcription": "frəm",
+    "correct_transcription": "frɒ́m",
+    "explanation": "Stranded from takes its strong accented form; ordinary prepositional from remains frəm (§6)."
+  },
+  {
+    "word": "with (stranded preposition)",
+    "wrong_transcription": "wɪð",
+    "correct_transcription": "wɪ́ð",
+    "explanation": "Stranded with takes its strong accented form; ordinary prepositional with remains bare (§6)."
+  },
+  {
+    "word": "is (elliptical)",
+    "wrong_transcription": "ɪz",
+    "correct_transcription": "ɪ́z",
+    "explanation": "A clause-final is whose complement is elided takes the strong accented form; ordinary copular and auxiliary is remains weak (§6)."
+  },
+  {
+    "word": "can (noun)",
+    "wrong_transcription": "kən",
+    "correct_transcription": "kǽn",
+    "explanation": "The noun can is a content word with the full accented vowel; modal can remains weak by default (§6)."
+  },
+  {
+    "word": "uses (noun plural)",
+    "wrong_transcription": "júwzɪz",
+    "correct_transcription": "júwsɪz",
+    "explanation": "The plural noun uses retains the voiceless s of noun use; the verb uses has voiced z and is júwzɪz (§8)."
+  },
+  {
+    "word": "used (lexical verb)",
+    "wrong_transcription": "júwst",
+    "correct_transcription": "júwzd",
+    "explanation": "When used means employed, as in an evidence base used to argue, the lexical verb has voiced z and past-tense d. Habitual or adjectival used to is a different construction and is not changed by this entry."
   }
 ]

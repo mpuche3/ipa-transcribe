@@ -109,6 +109,11 @@ IBLE_RULINGS = [
     ("sɛsəbɪ́", "sɛsɪbɪ́"),
 ]
 
+PUPIL_RULINGS = {
+    "pjúwpɪl": "pjúwpəl",
+    "pjúwpɪlz": "pjúwpəlz",
+}
+
 
 def is_notation(seg):
     """Formula/unit/variable tokens pass through verbatim (guide §9)."""
@@ -241,6 +246,10 @@ def check_string(text, legacy=False):
                     out.append(("ible-reduced-vowel",
                                 f"'{seg}' — -ible is fixed as ɪbəl, write "
                                 f"{phonetic_seg.replace(wrong, right)} (§7)"))
+            if phonetic_seg in PUPIL_RULINGS:
+                out.append(("pupil-vowel",
+                            f"'{seg}' — pupil takes ə, write "
+                            f"{PUPIL_RULINGS[phonetic_seg]} (§1.1)"))
             vowel_shape = stressless(phonetic_seg)
             traditional_matches = list(TRADITIONAL_DIPHTHONG.finditer(vowel_shape))
             if traditional_matches:
@@ -544,6 +553,7 @@ VALID_SAMPLES = [D(s) for s in [
     "mæ̀θəmǽtɪkəl əsówsijèjtɪd wɔ́l-tə-wɔ́l",
     "ðə júwnɪts, ə júwnɪfɔ̀rm tríjtmənt, ənd ə júwnɪfàjd prɒ́sɛs",
     "ðə jùwnɪvɜ́rsɪtij, jùwnɪvɜ́rsəl kəmjùwnɪkéjʃən, pjúwnɪtɪv mɛ́ʒərz",
+    "pjúwpəl pjúwpəlz pjúwpɪlədʒ",
     "ájnstàjnz ɪkwéjʒən e = mc^2 rɪléjts ɛ́nərdʒij ənd mǽs.",
     "ðə fə́ŋkʃən sin(x) ɪz pɪ̀rijɒ́dɪk, ə̀nlájk log(x).",
     "ðij ǽpəl ənd ðə júwnɪt",
@@ -626,6 +636,9 @@ INVALID_SAMPLES = [(D(s), r) for s, r in [
     ("pjúwnətɪv", "reduced-i-spelling"),
     ("kəmjúwnəkèjt", "reduced-i-spelling"),
     ("jùwnəvɜ́rsətij", "reduced-i-spelling"),
+    ("pjúwpɪl", "pupil-vowel"),
+    ("(pjúwpɪlz,)", "pupil-vowel"),
+    ("pówst-pjúwpɪl", "pupil-vowel"),
     ("ɪt's", "word-apostrophe"),
     ("wɛ́rər’z", "word-apostrophe"),
     ("mí dú mé", "invalid-glide-vowel"),
@@ -644,6 +657,7 @@ VALID_LAYOUT_SAMPLES = [
     ("O'Connor left.", "owkɒ́nər lɛ́ft."),
     ("T-shirt '70s", "T-ʃɜ́rt '70s"),
     ("USB's", "USBz"),
+    ("pupil's pupils", "pjúwpəlz pjúwpəlz"),
     ("flexible", "flɛ́ksɪbəl"),
     ("visible and responsible", "vɪ́zɪbəl ənd rɪspɒ́nsɪbəl"),
     ("possibility", "pɒ̀sɪbɪ́lɪtij"),
@@ -688,6 +702,7 @@ INVALID_LAYOUT_SAMPLES = [
 VALID_JSON_SAMPLES = [
     [{"Question": "What's wrong?", "trans_Question": "wɒ́ts rɔ́ŋ?",
       "WrongAnswers": ["O'Connor left."], "trans_WrongAnswers": ["owkɒ́nər lɛ́ft."]}],
+    [{"Question": "A pupil's pupils.", "trans_Question": "ə pjúwpəlz pjúwpəlz."}],
         [{"Question": "This book. That book. These books. Those books.",
             "trans_Question": "ðɪs bʊ́k. ðæt bʊ́k. ðijz bʊ́ks. ðowz bʊ́ks."}],
         [{"Question": "That is a book. I know that that works. That's it.",
@@ -696,6 +711,7 @@ VALID_JSON_SAMPLES = [
 
 INVALID_JSON_SAMPLES = [
     ([{"Question": "All of them.", "trans_Question": "ɔl əv ðɛm."}], {"unaccented-token"}),
+    ([{"Question": "Pupil.", "trans_Question": "pjúwpɪl."}], {"pupil-vowel"}),
     ([{"Question": "Hi"}], {"missing-transcription"}),
     ([{"WrongAnswers": ["a", "b"], "trans_WrongAnswers": ["ə"]}], {"answer-count"}),
     ([{"WrongAnswers": [], "trans_WrongAnswers": ["ə"]}], {"answer-count"}),
