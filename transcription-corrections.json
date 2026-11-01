@@ -5680,5 +5680,401 @@
     "wrong_transcription": "vɒ́ljəm",
     "correct_transcription": "vɒ́ljuwm",
     "explanation": "The selected spoken volume uses the full final vowel: vɒ́ljuwm."
+  },
+  {
+    "word": "this",
+    "wrong_transcription": "ðɪs",
+    "correct_transcription": "ðɪ́s",
+    "explanation": "An independent demonstrative is accented; a neutral determiner such as this book remains ðɪs (§6)."
+  },
+  {
+    "word": "some",
+    "wrong_transcription": "sə́m",
+    "correct_transcription": "səm",
+    "explanation": "A neutral indefinite determiner, as in some aspects, is weak; independent or explicitly contrastive some remains sə́m (§6)."
+  },
+  {
+    "word": "country's",
+    "wrong_transcription": "kə́ntrij",
+    "correct_transcription": "kə́ntrijz",
+    "explanation": "The possessive retains the pronounced z suffix (§5.4)."
+  },
+  {
+    "word": "yet",
+    "wrong_transcription": "bət",
+    "correct_transcription": "jɛ́t",
+    "explanation": "Transcribe the actual source word yet, not the synonym but (§9)."
+  },
+  {
+    "word": "due to",
+    "wrong_transcription": "bɪkɒ́z əv",
+    "correct_transcription": "dúw tə",
+    "explanation": "Transcribe the actual two source words, not the synonymous phrase because of (§9)."
+  },
+  {
+    "word": "vocabulary",
+    "wrong_transcription": "vəkǽbjəlɛ̀rij",
+    "correct_transcription": "vowkǽbjəlɛ̀rij",
+    "explanation": "The first syllable has the full GOAT vowel in the selected General American form (§4.2)."
+  },
+  {
+    "word": "critiques",
+    "wrong_transcription": "krɪ́tɪks",
+    "correct_transcription": "krɪtíjks",
+    "explanation": "The plural of critique retains final stress and FLEECE, unlike critics; the initial reduced i takes ɪ (§4.4)."
+  },
+  {
+    "word": "inspire",
+    "wrong_transcription": "ɪ́nspajər",
+    "correct_transcription": "ɪnspájər",
+    "explanation": "The primary stress falls on the second syllable, and the fire-type vowel retains ər (§4.3, §5.2)."
+  },
+  {
+    "word": "intent",
+    "wrong_transcription": "ɪ́ntɛnt",
+    "correct_transcription": "ɪntɛ́nt",
+    "explanation": "The noun intent carries primary stress on its second syllable (§5.2)."
+  },
+  {
+    "word": "interdisciplinary",
+    "wrong_transcription": "ɪ̀ntərdɪ́səplɪnɛ̀rij",
+    "correct_transcription": "ɪ̀ntərdɪ́sɪplɪnɛ̀rij",
+    "explanation": "The reduced vowel in discipline is spelled i and takes ɪ (§4.4)."
+  },
+  {
+    "word": "reinforce",
+    "wrong_transcription": "rijɪnfɔ́rs",
+    "correct_transcription": "rìjɪnfɔ́rs",
+    "explanation": "The full re- syllable retains its secondary stress (§5.2)."
+  },
+  {
+    "word": "reinforced",
+    "wrong_transcription": "rijɪnfɔ́rst",
+    "correct_transcription": "rìjɪnfɔ́rst",
+    "explanation": "The inflected verb retains the secondary stress of reinforce (§5.2)."
+  },
+  {
+    "word": "reactions",
+    "wrong_transcription": "rɪǽkʃənz",
+    "correct_transcription": "rijǽkʃənz",
+    "explanation": "Reaction retains the full FLEECE vowel of re- before the following vowel (§4.5)."
+  },
+  {
+    "word": "explanation",
+    "wrong_transcription": "ɪksplənéjʃən",
+    "correct_transcription": "ɛ̀ksplənéjʃən",
+    "explanation": "The initial syllable has secondary-stressed DRESS, not reduced ɪ (§4.4)."
+  },
+  {
+    "word": "psychological",
+    "wrong_transcription": "sajkəlɒ́dʒɪkəl",
+    "correct_transcription": "sàjkəlɒ́dʒɪkəl",
+    "explanation": "The initial PRICE syllable carries secondary stress (§5.2)."
+  },
+  {
+    "word": "sometimes",
+    "wrong_transcription": "sə́mtajmz",
+    "correct_transcription": "sə́mtàjmz",
+    "explanation": "The solid compound keeps secondary stress on its second element (§5.3)."
+  },
+  {
+    "word": "environmental",
+    "wrong_transcription": "ɪnvàjrənmɛ́ntəl",
+    "correct_transcription": "ɪnvàjərənmɛ́ntəl",
+    "explanation": "The environment stem retains the fire-type ər vowel before the following syllable (§4.4)."
+  },
+  {
+    "word": "interpretation",
+    "wrong_transcription": "ɪ̀ntərprətéjʃən",
+    "correct_transcription": "ɪntɜ̀rprətéjʃən",
+    "explanation": "Secondary stress falls on the NURSE vowel of the second syllable (§4.3, §5.2)."
+  },
+  {
+    "word": "evolutionary",
+    "wrong_transcription": "ìjvəlúwʃənɛ̀rij",
+    "correct_transcription": "ɛ̀vəlúwʃənɛ̀rij",
+    "explanation": "The first syllable uses secondary-stressed DRESS in the selected General American form (§5.2)."
+  },
+  {
+    "word": "uncertainty",
+    "wrong_transcription": "ənsɜ́rtəntij",
+    "correct_transcription": "ə̀nsɜ́rtəntij",
+    "explanation": "The un- prefix has secondary stress, as specified for uncertainty (§13)."
+  },
+  {
+    "word": "electronic",
+    "wrong_transcription": "ɪlɛktrɒ́nɪk",
+    "correct_transcription": "ɪlɛ̀ktrɒ́nɪk",
+    "explanation": "The lek syllable carries secondary stress before primary-stressed tron (§5.2)."
+  },
+  {
+    "word": "leadership",
+    "wrong_transcription": "líjdərʃɪp",
+    "correct_transcription": "líjdərʃɪ̀p",
+    "explanation": "The final ship syllable carries secondary stress (§5.2)."
+  },
+  {
+    "word": "transparent",
+    "wrong_transcription": "trænsprɛ́rənt",
+    "correct_transcription": "trænspǽrənt",
+    "explanation": "Retain the vowel between p and r; the lexical TRAP vowel before intervocalic r is æ (§4.3)."
+  },
+  {
+    "word": "believable",
+    "wrong_transcription": "bəlíjvəbəl",
+    "correct_transcription": "bɪlíjvəbəl",
+    "explanation": "The reduced be- prefix takes ɪ (§4.4)."
+  },
+  {
+    "word": "resource",
+    "wrong_transcription": "ríjsɔ̀rs",
+    "correct_transcription": "ríjsɔrs",
+    "explanation": "The selected disyllabic singular resource omits final secondary stress; the plural is separately recorded as ríjsɔ̀rsɪz."
+  },
+  {
+    "word": "uncomfortable",
+    "wrong_transcription": "ə̀nkə́mfərtəbəl",
+    "correct_transcription": "ə̀nkə́mftərbəl",
+    "explanation": "The comfortable family's author-selected compressed form is retained after un- (§4.4)."
+  },
+  {
+    "word": "orientation",
+    "wrong_transcription": "ɔ̀rijɛntéjʃən",
+    "correct_transcription": "ɔ̀rijəntéjʃən",
+    "explanation": "The reduced e before n takes ə in the selected form (§4.4)."
+  },
+  {
+    "word": "radio",
+    "wrong_transcription": "réjdijow",
+    "correct_transcription": "réjdijòw",
+    "explanation": "The final GOAT syllable carries secondary stress (§5.2)."
+  },
+  {
+    "word": "paradigm",
+    "wrong_transcription": "pǽrədajm",
+    "correct_transcription": "pǽrədàjm",
+    "explanation": "The final PRICE syllable carries secondary stress (§5.2)."
+  },
+  {
+    "word": "dynamic",
+    "wrong_transcription": "dàjnǽmɪk",
+    "correct_transcription": "dajnǽmɪk",
+    "explanation": "The first PRICE syllable has no secondary stress; the acute remains on nam (§4.4)."
+  },
+  {
+    "word": "blog",
+    "wrong_transcription": "blɒ́ɡ",
+    "correct_transcription": "blɔ́ɡ",
+    "explanation": "Both LOT and CLOTH pronunciations are attested, so the guide prefers CLOTH ɔ (§4.1)."
+  },
+  {
+    "word": "song",
+    "wrong_transcription": "sɒ́ŋ",
+    "correct_transcription": "sɔ́ŋ",
+    "explanation": "Both LOT and CLOTH pronunciations are attested, so the guide prefers CLOTH ɔ (§4.1)."
+  },
+  {
+    "word": "catalogue",
+    "wrong_transcription": "kǽtəlɒ̀ɡ",
+    "correct_transcription": "kǽtəlɔ̀ɡ",
+    "explanation": "The catalog family uses the selected CLOTH vowel with secondary stress (§4.1, §5.2)."
+  },
+  {
+    "word": "drawing",
+    "wrong_transcription": "drɔ́jŋ",
+    "correct_transcription": "drɔ́ɪŋ",
+    "explanation": "The -ing suffix retains its ɪ; ɔ and ɪ belong to separate syllables, not a traditional diphthong (§7)."
+  },
+  {
+    "word": "escapes",
+    "wrong_transcription": "əskéjpz",
+    "correct_transcription": "ɪskéjps",
+    "explanation": "The reduced e- takes ɪ and the plural takes s after voiceless p (§4.4, §7)."
+  },
+  {
+    "word": "income",
+    "wrong_transcription": "ɪ́ŋkəm",
+    "correct_transcription": "ɪ́nkə̀m",
+    "explanation": "Preserve n without allophonic assimilation and the solid compound's secondary stress on come (§3, §5.3)."
+  },
+  {
+    "word": "negotiated",
+    "wrong_transcription": "nɪɡówsijèjtɪd",
+    "correct_transcription": "nɪɡówʃijèjtɪd",
+    "explanation": "The consonant after the GOAT vowel is ʃ, not s."
+  },
+  {
+    "word": "off",
+    "wrong_transcription": "ɒ́f",
+    "correct_transcription": "ɔ́f",
+    "explanation": "Off uses the CLOTH vowel ɔ, including in hyphenated compounds (§4.1)."
+  },
+  {
+    "word": "regained",
+    "wrong_transcription": "rɪɡéjnɪd",
+    "correct_transcription": "rɪɡéjnd",
+    "explanation": "After n the past-tense suffix is d, not a separate ɪd syllable (§7)."
+  },
+  {
+    "word": "retained",
+    "wrong_transcription": "rɪtéjnɪd",
+    "correct_transcription": "rɪtéjnd",
+    "explanation": "After n the past-tense suffix is d, not a separate ɪd syllable (§7)."
+  },
+  {
+    "word": "lives",
+    "wrong_transcription": "lɪ́vz",
+    "correct_transcription": "lájvz",
+    "explanation": "The plural noun lives has PRICE; the verb lives retains KIT (§8)."
+  },
+  {
+    "word": "experts",
+    "wrong_transcription": "ɛ́kspɜrts",
+    "correct_transcription": "ɛ́kspɜ̀rts",
+    "explanation": "The expert ruling specifies secondary stress for the plural form."
+  },
+  {
+    "word": "Medellín",
+    "wrong_transcription": "mɛ̀dəjíjn",
+    "correct_transcription": "medejín",
+    "explanation": "This Colombian place name retains its Spanish vowels, consonants and single stress, not English vowel spellings (§14)."
+  },
+  {
+    "word": "phenomenon",
+    "wrong_transcription": "fənɒ́mənən",
+    "correct_transcription": "fənɒ́mənɒ̀n",
+    "explanation": "The author selected the full final vowel with secondary stress for the singular; the plural phenomena is a separate form (§1.1)."
+  },
+  {
+    "word": "valuable",
+    "wrong_transcription": "vǽljəbəl",
+    "correct_transcription": "vǽljuwəbəl",
+    "explanation": "The author selected the full vowel of value before -able (§1.1)."
+  },
+  {
+    "word": "strength",
+    "wrong_transcription": "strɛ́ŋkθ",
+    "correct_transcription": "strɛ́ŋθ",
+    "explanation": "The author selected the variant without k; the plural is strɛ́ŋθs (§1.1)."
+  },
+  {
+    "word": "concrete (adjective)",
+    "wrong_transcription": "kɒ̀nkríjt",
+    "correct_transcription": "kɒ́nkrijt",
+    "explanation": "The author selected first-syllable stress and n for the adjective; the noun and verb are not decided by this entry (§1.1)."
+  },
+  {
+    "word": "concrete (adjective)",
+    "wrong_transcription": "kɒ́ŋkrijt",
+    "correct_transcription": "kɒ́nkrijt",
+    "explanation": "The selected adjective uses n rather than the assimilated nasal; this entry does not rule on the noun (§1.1)."
+  },
+  {
+    "word": "difficulty",
+    "wrong_transcription": "dɪ́fɪkəltij",
+    "correct_transcription": "dɪ́fɪkə̀ltij",
+    "explanation": "The author selected secondary stress on the third syllable (§1.1)."
+  },
+  {
+    "word": "difficulties",
+    "wrong_transcription": "dɪ́fɪkəltijz",
+    "correct_transcription": "dɪ́fɪkə̀ltijz",
+    "explanation": "The plural retains the selected secondary stress of difficulty (§1.1)."
+  },
+  {
+    "word": "whatever",
+    "wrong_transcription": "wɒtɛ́vər",
+    "correct_transcription": "wətɛ́vər",
+    "explanation": "The author selected ə without secondary stress in the first syllable (§1.1)."
+  },
+  {
+    "word": "whatever",
+    "wrong_transcription": "wə̀tɛ́vər",
+    "correct_transcription": "wətɛ́vər",
+    "explanation": "The author selected an unmarked first syllable for whatever (§1.1)."
+  },
+  {
+    "word": "research",
+    "wrong_transcription": "ríjsɜrtʃ",
+    "correct_transcription": "rɪsɜ́rtʃ",
+    "explanation": "The author selected the reduced first vowel and final primary stress for research, whether noun or verb (§1.1)."
+  },
+  {
+    "word": "research",
+    "wrong_transcription": "ríjsɜ̀rtʃ",
+    "correct_transcription": "rɪsɜ́rtʃ",
+    "explanation": "The author selected the reduced first vowel and final primary stress for research, whether noun or verb (§1.1)."
+  },
+  {
+    "word": "researchers",
+    "wrong_transcription": "ríjsɜ̀rtʃərz",
+    "correct_transcription": "rɪsɜ́rtʃərz",
+    "explanation": "The selected research family uses rɪsɜ́rtʃ, including in researchers (§1.1)."
+  },
+  {
+    "word": "Australia",
+    "wrong_transcription": "ɔstréjlijə",
+    "correct_transcription": "ɔstréjljə",
+    "explanation": "The author selected the glide before the final schwa, without an extra vowel (§1.1)."
+  },
+  {
+    "word": "beneficiary",
+    "wrong_transcription": "bɛnɪfɪ́ʃijɛ̀rij",
+    "correct_transcription": "bɛ̀nɪfɪ́ʃijɛ̀rij",
+    "explanation": "The singular retains the secondary stresses of the author's selected expanded form (§1.1)."
+  },
+  {
+    "word": "beneficiaries",
+    "wrong_transcription": "bɛ̀nɪfɪ́ʃɛ̀rijz",
+    "correct_transcription": "bɛ̀nɪfɪ́ʃijɛ̀rijz",
+    "explanation": "The author selected the expanded ending with ij before ɛr (§1.1)."
+  },
+  {
+    "word": "beneficiaries",
+    "wrong_transcription": "bɛ̀nəfɪ́ʃijɛ̀rijz",
+    "correct_transcription": "bɛ̀nɪfɪ́ʃijɛ̀rijz",
+    "explanation": "The selected form keeps ɪ in the benefit family and the expanded ending (§1.1, §4.4)."
+  },
+  {
+    "word": "beneficiaries",
+    "wrong_transcription": "bɛ̀nɪfɪ́ʃərijz",
+    "correct_transcription": "bɛ̀nɪfɪ́ʃijɛ̀rijz",
+    "explanation": "The author selected the expanded ending with ij and a secondary-stressed ɛr (§1.1)."
+  },
+  {
+    "word": "outside (adverb or preposition)",
+    "wrong_transcription": "awtsájd",
+    "correct_transcription": "àwtsájd",
+    "explanation": "The selected adverb and preposition retain secondary stress on the first syllable; the adjective is áwtsàjd (§1.1)."
+  },
+  {
+    "word": "outside (adverb or preposition)",
+    "wrong_transcription": "áwtsàjd",
+    "correct_transcription": "àwtsájd",
+    "explanation": "The author selected final primary stress for the adverb and preposition, not the adjective's stress pattern (§1.1)."
+  },
+  {
+    "word": "themselves (emphatic)",
+    "wrong_transcription": "ðəmsɛ́lvz",
+    "correct_transcription": "ðɛmsɛ́lvz",
+    "explanation": "The author selected the full but unaccented first vowel in emphatic/intensifier uses; neutral reflexives retain ðəmsɛ́lvz (§1.1)."
+  },
+  {
+    "word": "themselves (neutral reflexive)",
+    "wrong_transcription": "ðɛmsɛ́lvz",
+    "correct_transcription": "ðəmsɛ́lvz",
+    "explanation": "A neutral reflexive such as called themselves uses the reduced first vowel; an emphatic/intensifier use takes ðɛmsɛ́lvz (§1.1)."
+  },
+  {
+    "word": "some (approximate adverb)",
+    "wrong_transcription": "səm",
+    "correct_transcription": "sə́m",
+    "explanation": "Some meaning approximately is an accented adverb; the neutral indefinite determiner remains bare (§6)."
+  },
+  {
+    "word": "Song (Chinese dynasty)",
+    "wrong_transcription": "sʊ̂ŋ",
+    "correct_transcription": "sɒ́ŋ",
+    "explanation": "The author selected an English-style exception for the Chinese dynasty name only; the ordinary English noun song is sɔ́ŋ (§14)."
   }
 ]

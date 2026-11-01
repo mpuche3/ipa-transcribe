@@ -34,6 +34,17 @@ These are author-selected lexical overrides (2026-10-25 and 2026-11-01), not gen
 | *toward / towards* | `təwɔ́rd` / `təwɔ́rdz` — two syllables, retaining the initial schwa and `w` | `tɔ́rd` / `tɔ́rdz`, `twɔ́rd` / `twɔ́rdz` |
 | *poor* and its derivatives | *poor* `pɔ́r`, *poorer* `pɔ́rər`, *poorest* `pɔ́rəst`, *poorly* `pɔ́rlij`; retain the `pɔr` stem in other derivatives and compounds | the corresponding `pʊr` or `puwr` stem |
 | *pupil* and its regular plural/possessive forms | *pupil* `pjúwpəl`; *pupils*, *pupil's*, *pupils'* `pjúwpəlz` | the corresponding `pjúwpɪl` stem |
+| *phenomenon* | singular `fənɒ́mənɒ̀n` | singular `fənɒ́mənən`; this does not change plural *phenomena* |
+| *valuable* | `vǽljuwəbəl` | `vǽljəbəl` |
+| *strength* | `strɛ́ŋθ`; plural `strɛ́ŋθs` | `strɛ́ŋkθ` |
+| *concrete* (adjective) | `kɒ́nkrijt` | `kɒ̀nkríjt`, `kɒ́ŋkrijt`; the noun and verb are not decided by this row |
+| *difficulty* | `dɪ́fɪkə̀ltij`; plural `dɪ́fɪkə̀ltijz` | forms without the secondary stress on `ə` |
+| *whatever* | `wətɛ́vər` | `wɒtɛ́vər`, `wə̀tɛ́vər` |
+| *research* and *researcher* | `rɪsɜ́rtʃ`, `rɪsɜ́rtʃər`, `rɪsɜ́rtʃərz` | first-syllable-stressed forms such as `ríjsɜ̀rtʃ` and `ríjsɜ̀rtʃərz` |
+| *Australia* | `ɔstréjljə` | `ɔstréjlijə` |
+| *beneficiary* | `bɛ̀nɪfɪ́ʃijɛ̀rij`; plural `bɛ̀nɪfɪ́ʃijɛ̀rijz` | reduced or shortened variants such as `bɛ̀nəfɪ́ʃijɛ̀rijz` and `bɛ̀nɪfɪ́ʃərijz` |
+| *outside* | adjective `áwtsàjd`; adverb and preposition `àwtsájd` | the other roles' forms in these contexts; the noun is not decided by this row |
+| *themselves* | emphatic/intensifier `ðɛmsɛ́lvz`; neutral reflexive `ðəmsɛ́lvz` | adding a grave to the first vowel merely because it is full |
 
 The spellings *toward / towards* retain their word-internal acute in running text, including prepositional uses, as polysyllabic function words (§6). In other derivatives and compounds, change only the relevant stem sounds; retain the applicable suffix, stress, and layout rules.
 
@@ -250,7 +261,7 @@ The acute marks conventional word stress in this system, **not necessarily the m
 
 ### 5.3 Compounds
 
-- **Solid compounds** (one written word): acute on the first element, grave on the second: `fʊ́twɛ̀r`, `bʊ́kʃɛ̀lf`, `nájtstæ̀nd`, `mówtərsàjkəl`, `sə́bkə̀ltʃər`, `wɜ́rldwàjd`.
+- **Solid compounds** (one written word): acute on the first element, grave on the second: `fʊ́twɛ̀r`, `bʊ́kʃɛ̀lf`, `nájtstæ̀nd`, `mówtərsàjkəl`, `sə́bkə̀ltʃər`, `wɜ́rldwàjd`. The author-selected adverb and preposition *outside* are `àwtsájd`, an exception to this stress pattern (§1.1).
 - **Hyphenated compounds:** each element is transcribed and accented on its own, hyphen kept: `fríj-stǽndɪŋ`, `blúw-tɪ́ntɪd`, `wɔ́l-tə-wɔ́l`, `lɔ́ŋ-lǽstɪŋ`.
 - Suffix-driven secondary stress: *-ate* verbs and *-ize* verbs take a grave on the suffix: `rɛ́ɡjəlèjt`, `vɪ́ʒwəlàjz`.
 
@@ -280,7 +291,7 @@ Classify the word's **grammatical role before choosing its form**. Use the weak 
 | *have* | *have* `həv` · *has* `həz` · *had* `həd` — as auxiliaries (followed by a past participle). Main-verb *have / has / had* — possession, experience, consumption, any lexical meaning — are content words: *I have a car* → `aj hǽv ə kɑ́r`; *she has had breakfast* → `ʃij həz hǽd brɛ́kfəst`; *we had a great time* → `wij hǽd ə ɡréjt tájm`. Obligation *have to / has to* devoice: `hǽf tə`, `hǽs tə`. (See Example 4.) |
 | *do* | Auxiliary *do* `də` — weak by default in statements, negatives, and questions: *I do not want to proceed* `aj də nɒ́t wɒ́nt tə prəsíjd`. Lexical *do* (main verb) is `dúw`: *what to do* `wɒ́t tə dúw`, *do the work* `dúw ðə wɜ́rk`. Auxiliaries take `dúw` under explicit contrast, affirmative emphatic do-support (*I do want to proceed* `aj dúw wɒ́nt tə prəsíjd`), or clause-final ellipsis (*yes, they do* `jɛ́s, ðej dúw`). Auxiliary *does* `dəz` · *did* `dɪd`; lexical *does* `də́z` · *did* `dɪ́d`: *she does the work*, *she did the work*, *it does so*. |
 | Modals | *can* `kən` · *could* `kʊd` · *will* `wɪl` · *would* `wʊd` · *shall* `ʃəl` · *should* `ʃʊd` · *may* `mej` · *might* `majt` · *must* `məst` — only in modal uses; lexical homonyms are content words (see below). |
-| Other | *not* `nɒ́t` (always accented) · *some* `səm` as an indefinite determiner; independent or explicitly contrastive *some* `sə́m` · *all* `ɔ́l` (always accented) · *there* (existential) `ðər`; locative *there* is content: `ðɛ́r` · interrogative/exclamative *what* `wɒ́t`; fused-relative *what* `wɒt` |
+| Other | *not* `nɒ́t` (always accented) · *some* `səm` as an indefinite determiner; independent, explicitly contrastive, or approximate-adverb *some* `sə́m` · *all* `ɔ́l` (always accented) · *there* (existential) `ðər`; locative *there* is content: `ðɛ́r` · interrogative/exclamative *what* `wɒ́t`; fused-relative *what* `wɒt` |
 
 **Why *be* differs from *have*.** Copular *be* links the subject to a description or identity and is normally unstressed in neutral speech; being the main verb does not by itself require an acute. Lexical *have* expresses possession, experience, or another lexical meaning and follows the content-word convention. Keep this deliberate distinction rather than applying the lexical/auxiliary split of *have* to *be*. Written accents remain notation conventions, not instructions to emphasize every accented word (§5.2).
 
@@ -311,7 +322,7 @@ Quantifiers/adverbs like *all* `ɔ́l`, *any* `ɛ́nij`, *every* `ɛ́vrij`, *bo
 
 Object movement (*turn on the light* → *turn the light on*) is useful evidence for a particle, not a universal test. Intransitive particles need no object (*give up*), and idiomatic meaning alone does not make a preposition a particle (*rely on*). Use the construction's meaning and grammar; if the text permits multiple readings, use the ordinary literal prepositional reading unless context establishes a particle construction. Standalone directional or temporal adverbs also take an acute: *look up*, *come in*, *go out*, *from now on* (`frəm náw ɒ́n`). In hyphenated derivatives, the particle element keeps its acute: *follow-up* `fɒ́low-ə́p`, *built-in* `bɪ́lt-ɪ́n`; actual prepositions in compounds remain weak (*step-by-step* `stɛ́p-baj-stɛ́p`, §5.3).
 
-**Some.** Use bare `səm` before a noun in an indefinite, noncontrastive noun phrase (*some pieces*, *some old pieces*). Use `sə́m` when it stands independently (*some were chipped*, *take some*, *some of them*) or is explicitly contrastive (*some pieces, not all*). Do not infer contrast merely because other possibilities exist.
+**Some.** Use bare `səm` before a noun in an indefinite, noncontrastive noun phrase (*some pieces*, *some old pieces*). Use `sə́m` when it stands independently (*some were chipped*, *take some*, *some of them*), is explicitly contrastive (*some pieces, not all*), or is an adverb meaning approximately (*some two hundred thousand*). Do not infer contrast merely because other possibilities exist.
 
 **What.** Direct and embedded interrogatives take `wɒ́t`: *what do you need?*, *I wonder what you need*. Exclamatives also take `wɒ́t`: *what a day!* A fused relative denotes a thing rather than asks a question and takes `wɒt`: *take what you need* (= *the things that you need*). Where an embedded construction genuinely permits both readings, use the fused-relative form unless the context establishes a question. Apply the same distinction to contractions: *what's wrong?* `wɒ́ts rɔ́ŋ?`, *take what's left* `téjk wɒts lɛ́ft`. Do not change words containing *what*, such as *whatever*, by substring replacement.
 
@@ -542,6 +553,8 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 |---|---|---|
 | `tɔ́rd(z)`, `twɔ́rd(z)` | `təwɔ́rd` / `təwɔ́rdz` | author preference for *toward / towards* only: retain the initial schwa and `w`, with the acute on `ɔ` (§1.1) |
 | `pʊ́r`, `púwr`, `pʊ́rlij`, `púwrlij` | `pɔ́r`, `pɔ́rlij` | *poor* and its derivatives use `ɔr`; unrelated CURE words are unchanged (§1.1) |
+| `fənɒ́mənən`, `vǽljəbəl`, `strɛ́ŋkθ`, `dɪ́fɪkəltij`, `wɒtɛ́vər`, `ríjsɜ̀rtʃ`, `ɔstréjlijə` | `fənɒ́mənɒ̀n`, `vǽljuwəbəl`, `strɛ́ŋθ`, `dɪ́fɪkə̀ltij`, `wətɛ́vər`, `rɪsɜ́rtʃ`, `ɔstréjljə` | author-selected lexical forms, not general vowel or stress changes (§1.1) |
+| `awtsájd` for adverb/preposition *outside*, `səm` for approximate *some* | `àwtsájd`, `sə́m` | role-specific rulings: the adjective *outside* is `áwtsàjd` and the neutral indefinite determiner *some* is `səm` (§1.1, §6) |
 | `ˈleðər`, `ˌʌnˈlaɪk` | `lɛ́ðər`, `ə̀nlájk` | no ˈ ˌ marks; use acute/grave on the vowel |
 | `meɪd`, `oʊnli`, `iːkwəl` | `méjd`, `ównlij`, `íjkwəl` | no length marks or traditional diphthongs |
 | `ɪ́nflwjəns`, `ɪ́nflwjənst` | `ɪ́nfluwəns`, `ɪ́nfluwənst` | GOOSE is `uw` and stays `uw` before a vowel (§4.2.2, §4.5) — never write `wj`, which drops the `u` nucleus and invents a yod the word does not have |
@@ -632,7 +645,7 @@ The first *can* is a weak modal; the second is an accented noun with its full vo
 A name or term that is not English is transcribed **as it is pronounced in its own language**, in that language's own IPA; the
 English rules of this guide do not apply to it (author, 2026-10-04).
 
-The reviewed algorithm name *Matryoshka* is one explicit exception: use the selected English-style `mɑ̀trijɒ́ʃkə` for that algorithm name only. This does not change the treatment of other foreign-language names or uses of the word.
+Two explicit exceptions use selected English-style forms: the algorithm name *Matryoshka* is `mɑ̀trijɒ́ʃkə`, and *Song* naming the Chinese dynasty is `sɒ́ŋ`. These rulings do not change other foreign-language names or other uses of either word; the ordinary English noun *song* remains `sɔ́ŋ`.
 
 A Spanish name keeps its Spanish vowels, stress and consonants:
 

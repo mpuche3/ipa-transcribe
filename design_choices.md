@@ -10,6 +10,32 @@ Three goals drove every choice, in priority order:
 
 When goals conflicted, the earlier one won.
 
+## Example review decisions (2026-11-01)
+
+The author selected the marked options in [review.md](review.md). These are
+editorial choices, not claims about which pronunciation Merriam-Webster lists
+first; that source could not be checked during the review.
+
+- Use `fənɒ́mənɒ̀n` for singular *phenomenon*, `vǽljuwəbəl` for
+  *valuable*, `strɛ́ŋθ` for *strength*, and `kɒ́nkrijt` for the
+  adjective *concrete*. The *concrete* noun and verb were not decided.
+- Use `dɪ́fɪkə̀ltij`, `wətɛ́vər`, `rɪsɜ́rtʃ` / `rɪsɜ́rtʃərz`,
+  `ɔstréjljə`, and `bɛ̀nɪfɪ́ʃijɛ̀rijz` for *difficulty*, *whatever*,
+  *research* / *researchers*, *Australia*, and *beneficiaries*. Regular
+  singular and plural forms retain the corresponding selected stems and stress.
+- Distinguish adjective *outside* `áwtsàjd` from adverb/preposition
+  `àwtsájd`; emphatic *themselves* `ðɛmsɛ́lvz` from neutral reflexive
+  `ðəmsɛ́lvz`; and approximate adverb *some* `sə́m` from neutral
+  indefinite determiner `səm`. The cited ambiguous *what* clauses keep
+  fused-relative `wɒt`, following the existing default.
+- For the Chinese dynasty name *Song*, keep `sɒ́ŋ` as an explicit exception
+  to the original-language rule. This does not alter ordinary English *song*
+  `sɔ́ŋ`.
+
+The selected forms are specified in §1.1, §6 and §14 of the guide, with
+word- and role-specific replacements in the correction ledger. The review
+file preserves the choices and alternatives.
+
 ## The overarching stance: broad, not narrow
 
 **Chosen:** phonemic (broad) transcription — one symbol per distinctive sound.
